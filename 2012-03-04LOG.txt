@@ -1,0 +1,608 @@
+[12:03] <@meskarune> Ok, so official start of the meeting
+[12:03] <@meskarune> :)
+[12:03] * code_astronomer licks his fingers after taking a handful of Icedman's popcorn, and then digs back in, thus spreading germs
+[12:03] <@meskarune> heh
+[12:03] <code_astronomer> sorry
+[12:03] <ldvx> I think there should be a link or an explanation on ways to contribute, be it commits, improving the archwiki, making packages, bug reports, etc
+[12:03] <vodik> should be easy, its already on the wiki
+[12:03] <@meskarune> good idea
+[12:04] <vodik> !wiki contributing
+[12:04] <phrik> vodik: https://wiki.archlinux.org/
+[12:04] <fsckd> lol
+[12:04] <Icedman> code_astronomer, go wash your hands :P
+[12:04] <vodik> well not what i expected
+[12:04] <Icedman> oh prhik is here too
+[12:04] <Icedman> lol
+[12:04] <@meskarune> Yeah, we have been meeting to put somes information on the website on how to contribute, and maybe who to contact if people want to learn to manage packages or develope
+[12:04] <@meskarune> s/meeting/meaning
+[12:04] <@meskarune> so that can be done :)
+[12:05] <+tigrmesh> pierres talked about it too
+[12:05] <@meskarune> I would also like to maybe have a list of people that women can contact with questions
+[12:06] <fsckd> regarding?
+[12:06] <code_astronomer> anyone with voice in here would be a good start?
+[12:06] <@meskarune> how to contribute to arch
+[12:06] <@meskarune> yeah
+[12:07] <qubodup_badnet> meskarune: have you had the chance to talk to former female-name arch contributors?
+[12:07] <ioni> meskarune, you can add me as contact
+[12:07] <@meskarune> for new users it can be hard to figure out who is knowledgable and not trolling you :P
+[12:07] <+tigrmesh> good point
+[12:07] <@meskarune> ok awesome ioni
+[12:07] <code_astronomer> make a note in topic and anyone with voice (+) is a good source
+[12:08] <@meskarune> ok
+[12:08] <Bluewind> devs/tus should not be trolling you (unless you ask stupid questions and ignore responses)
+[12:08] <ioni> meskarune, but imo it would be better to have a female as contact
+[12:08] <@meskarune> I'll be a contact too
+[12:08] <@meskarune> maybe kichawa...?
+[12:08] <ioni> meskarune, you or tigrmesh and redirect emails to me if you cannot handle it
+[12:08] <+tigrmesh> i'm definitely a contact
+[12:08] <+tigrmesh> ok
+[12:09] <@meskarune> oki
+[12:09] <@meskarune> fsckd: can I list you too? also as a forum contact?
+[12:09] <fsckd> sure :)
+[12:10] <fsckd> the other mods are more than willing to help regarding forum issues :)
+[12:10] <@meskarune> ok great
+[12:10] <fsckd> (and other stuff but I can't really speak for them)
+[12:11] <@meskarune> and we will definitelly get a post up on the site about who to contact and what to do in case of harrassment or other issues
+[12:11] <+tigrmesh> yes
+[12:11] == Xyrfo [~elias@a91-156-79-226.elisa-laajakaista.fi] has joined #archlinux-women
+[12:11] <pierres> afaik there is a generic email address for the forum mods.
+[12:12] <@meskarune> Arch Linux does not have the major problems that other distrobutions have reguarding women, but its better to be on the safe side I think
+[12:12] <+tigrmesh> oh?
+[12:12] <fsckd> eh, i thought that went to admins only?
+[12:12] == tuxampol [~tuxampol@ppp-188-174-118-164.dynamic.mnet-online.de] has joined #archlinux-women
+[12:13] <Icedman> is it really that bad at other distros?
+[12:13] <Icedman> ._.
+[12:13] <@meskarune> yeah, it can be
+[12:13] <Icedman> oh
+[12:13] <@meskarune> I've run into a lot of issues
+[12:13] <Icedman> D=
+[12:13] <Icedman> like?
+[12:13] <@meskarune> but not so much in arch linux
+[12:13] <code_astronomer> issues as in?
+[12:13] <qubodup_badnet> meskarune: this 'people you can contact' whill be written in a new post which we will then either link to from the 'about' and perhaps the 'contact' pages or copy-paste parts directly into them?
+[12:13] <@meskarune> messages asking me to send nude photos, or like 50 pm's a day asking what I look like and what I'm wearing, etc
+[12:14] <code_astronomer> meskarune: seriously??
+[12:14] <@meskarune> yeah, but not in arch linux community
+[12:14] <Icedman> WHAT
+[12:14] <@meskarune> other linux and programing places
+[12:14] <Icedman> O_O;
+[12:14] <code_astronomer> wow
+[12:14] <Icedman> thats fucked up
+[12:14] <@meskarune> I love arch honestly
+[12:14] <@meskarune> :P
+[12:14] <@meskarune> qubodup_badnet: yeah, good idea
+[12:14] <code_astronomer> I think we get a better crowd in arch#
+[12:15] <@meskarune> qubodup_badnet: I think we could link it in the sidebar with the other links, and maybe at the top of the page too
+[12:15] <ioni> fsckd, forum: aaron,allan,inxsible@gmail.com
+[12:17] <fsckd> also forum@archlinux.org
+[12:17] <pierres> meskarune: maybe you could just set up a single address where women could contact you and you just redirect to others if needed.
+[12:17] <@meskarune> good idea
+[12:17] <fsckd> which goes to admins if i understand correctly
+[12:17] <qubodup_badnet> meskarune: are you writing this down for a article draft?
+[12:17] <@meskarune> maybe admin@archwomen.org....?
+[12:17] <@meskarune> and I'll just give the main site users the login?
+[12:18] <fsckd> how about help@archwomen.org ?
+[12:18] <@meskarune> yep qubodup_badnet :) writing stuff now
+[12:18] <code_astronomer> contact@  because admin@ sounds like a single entitiy
+[12:18] <code_astronomer> ~entity
+[12:18] <pierres> fsckd: it doesn't go to me; but I am more the technical admin
+[12:18] <fsckd> i see
+[12:18] <fsckd> i know inxsible and aaron see it
+[12:18] <pierres> well Aaron ist not really active
+[12:18] <@meskarune> ok, so help or contact@archwomen.org
+[12:18] <qubodup_badnet> my guess is forum@archlinux.org will only reach admins
+[12:19] <@meskarune> I see
+[12:19] <fsckd> Aaron did respond once
+[12:19] <fsckd> *once*
+[12:19] <fsckd> XD
+[12:19] <+tigrmesh> meskarune: i like either help or contact
+[12:19] <qubodup_badnet> i wrote an email to ask whether it does (who knows  whether anybodywill read it :) )
+[12:20] <@meskarune> thanks qubodup_badnet
+[12:21] <@meskarune> so we will list some contacts on the site as well as how to contact mods in case of problems, and set up an email for people to use as well
+[12:22] <+tigrmesh> good
+[12:22] <@meskarune> honestly I think just having that will really help. women like to know there are people who are looking out for them in a community :)
+[12:22] <@meskarune> so if there is a problem it can get fixed
+[12:22] <@meskarune> but that is true for guys too I'm sure
+[12:23] <code_astronomer> tis what we are here for
+[12:23] <fsckd> meskarune: yup :)
+[12:23] <ioni> is somebody documenting what we have to do after this meeting is done?
+[12:23] <@meskarune> ok, so contacts, email help, and a page on what to do in case of harrassment
+[12:24] <@meskarune> I am ioni :)
+[12:24] <ioni> k
+[12:24] <@meskarune> I'll post it on the site after along with a meeting log
+[12:24] <@meskarune> so qubodup_badnet I have only heard from one woman who used to use arch linux
+[12:24] <@meskarune> no one else has gotten back to me after I emailed them
+[12:25] <fsckd> :(
+[12:25] <qubodup_badnet> ioni: setting up piratepad:http://piratepad.net/ttfw3LcVQK
+[12:25] <phrik> Title: PiratePad: ttfw3LcVQK (at piratepad.net)
+[12:25] <@meskarune> she told me she went to another distrobution
+[12:25] <Bluewind> did she tell you why?
+[12:26] <@meskarune> not really, but she is from brazil, and didn't seem to have goo english skills
+[12:26] <Bluewind> I mean why she stopped using arch
+[12:26] <@meskarune> she did not say
+[12:26] <+tigrmesh> i think i remember her TU application
+[12:27] <Bluewind> would have helped :(
+[12:27] <@meskarune> she was a TU for 2 years I think
+[12:27] <@meskarune> yeah, its been hard trying to contact people bluewind
+[12:27] <code_astronomer> what's a TU?
+[12:27] <@meskarune> trusted user
+[12:27] <code_astronomer> oh
+[12:28] <+tigrmesh> !tu
+[12:28] <phrik> Arch Linux Trusted Users -http://wiki.archlinux.org/index.php/Trusted_Users
+[12:29] <pierres> alsohttp://www.reddit.com/r/archlinux/comments/q64vz/arch_has_gained_so_many_users_but_only_few_new/
+[12:30] <+tigrmesh> great
+[12:30] <qubodup_badnet> perhaps she went to a distro that had a mainly pt-language userbase (assuming she's better at speaking portuguese)
+[12:30] <vodik> lol "Be a part of the future of Linux, join Fedora!"
+[12:30] <code_astronomer> urgh
+[12:30] <code_astronomer> I left fedora years ago
+[12:30] <code_astronomer> at v6
+[12:30] <vodik> buried at the bottom
+[12:30] <vodik> but offtopic
+[12:30] <fsckd> i posted this the other dayhttp://www.mylinuxrig.com/post/17820200505/the-linux-setup-amelia-andersdotter-eu-parliament
+[12:31] <phrik> Title: The Linux Setup - Amelia Andersdotter, EU Parliament - My Linux Rig (at www.mylinuxrig.com)
+[12:32] <@meskarune> I should link that on the site :)
+[12:32] <qubodup_badnet> regarding http://piratepad.net/ttfw3LcVQK- feel free to just jam in your content and what you think should be put on the website from what we discuss here. but I'll try to save all new content for archwomen.org we draft in here.
+[12:32] <pierres> anyway, it seems to be a generic problem that people don't apply as a TU because they think they might not be qualified.
+[12:32] <phrik> Title: PiratePad: ttfw3LcVQK (at piratepad.net)
+[12:32] <@meskarune> so increasing package maintainers
+[12:32] <@meskarune> 1. we coudl do a mentorship program thing
+[12:32] <code_astronomer> exiled to fluxbox -.-
+[12:32] <@meskarune> 2. we could find some way to show extra appreciation for contriburtions
+[12:32] <code_astronomer> I use fluxbox
+[12:33] <fsckd> code_astronomer: you have my pity :P
+[12:33] <code_astronomer> fsckd: I've used it for years... I did use dwm and wrote my own tiling wm, but went back to fluxbox
+[12:33] <+tigrmesh> interesting.   a generic problem   pierres - did svenstaro's post help increase TU interest at all?
+[12:34] <Bluewind> yeah we have 2 running applications
+[12:34] <pierres> no idea, but we got two new applications since then
+[12:34] <+tigrmesh> good
+[12:34] <fsckd> code_astronomer: i'm joking around but i'm impressed you wrote your own tiler, did you share it with the community?
+[12:35] <Bluewind> and I think ~5 people asked someone what they need to do to become a TU
+[12:35] <code_astronomer> fsckd: it was a weekend challenge back when i was using gentoo... I never shared it unfortunately.
+[12:35] <fsckd> sounds cool
+[12:35] <code_astronomer> fsckd: I've been looking for the source.. when I find it, I'll release it
+[12:35] <fsckd> :)
+[12:35] <qubodup_badnet> 19:27 < ioni> fsckd, forum: aaron,allan,inxsible@gmail.com
+[12:35] <@meskarune> once my life gets a bit more settled I'll try and help out with packages
+[12:35] <code_astronomer> fsckd: I've got a few people interested in it
+[12:35] <ioni> qubodup_badnet, what about it?
+[12:36] <fsckd> code_astronomer: count me as one :)
+[12:36] <code_astronomer> fsckd: will do :)
+[12:36] <@meskarune> is there a list of orphaned packages people can go through?
+[12:36] <qubodup_badnet> ioni: are these 3 female users? should we have their contact info on our page directly?
+[12:36] <ioni> qubodup_badnet, no
+[12:36] <Bluewind> meskarune: aaron might be a safe contact, but he hardly responds and is generally quite hard to reach
+[12:36] <fsckd> meskarune: aurphan
+[12:37] <pierres> meskarune: don't ask; there are like 800
+[12:37] <ioni> qubodup_badnet, this is the alias for forum@archlinux.org
+[12:37] <qubodup_badnet> ioni: aah, thanks
+[12:37] <sqweek> i'm always happy to share knowledge in a mentor-like context
+[12:37] <+tigrmesh> meskarune: i know it's very easy to find them on AUR
+[12:37] <pierres> https://www.archlinux.org/packages/?sort=&arch=any&arch=x86_64&repo=Core&repo=Extra&q=&maintainer=orphan&last_update=&flagged=&limit=50
+[12:37] <phrik> Title: Arch Linux - Package Database (atwww.archlinux.org)
+[12:37] <@meskarune> awesome sqweek :)
+[12:37] <pierres>https://www.archlinux.org/devel/reports/unneeded-orphans/
+[12:38] <phrik> Title: Arch Linux - Developer Login (atwww.archlinux.org)
+[12:38] <fsckd> ioni: onme address with the commas or three addresses?
+[12:38] <fsckd> one*
+[12:38] <ioni> one address redirected to 3 emails
+[12:38] <Bluewind> meskarune: aurphan -p will give you a list of orphan packages you have installed
+[12:38] <sqweek> i'm not really intimate with the ins and outs of arch but i know my way around linux/sh/C
+[12:38] <@meskarune> maybe I can have a registration on the site or something...? or have people email in if they want to help mentor ?
+[12:39] <pierres> I'd recommend a dev or tu for mentoring about packaging
+[12:39] <@meskarune> ok
+[12:39] <qubodup_badnet> meskarune: is there a mentorship like what you have in mind going on in another distro's community?
+[12:39] <@meskarune> allen said he would :D
+[12:40] <@meskarune> I don't know if arch linux has an official and ongoing mentorship program
+[12:40] <@meskarune> maybe we can work with the devs to set one up?
+[12:40] <Bluewind> no we don't
+[12:40] <+tigrmesh> meskarune: if you go tohttps://www.archlinux.org/packages/ and select Orphan as maintainer, you'll see them
+[12:40] <ioni> we had junior
+[12:40] <phrik> Title: Arch Linux - Package Database (atwww.archlinux.org)
+[12:40] <+tigrmesh> how did that work, ioni?
+[12:40] <ioni> pretty good
+[12:40] <pierres> yep
+[12:41] <+tigrmesh> \o/
+[12:41] <@meskarune> thanks
+[12:41] <ioni> all were promoted as full devs
+[12:41] <+tigrmesh> np
+[12:41] <vodik> pierres: so how could one help with abandonned community packages?
+[12:41] <ioni> and they are active
+[12:41] <+tigrmesh> yay
+[12:41] <@meskarune> so maybe we can revive something similar to that ioni?
+[12:41] <pierres> vodik: become a TU
+[12:41] == Silvah [~Silvah@unaffiliated/silvah] has quit [Quit: brb]
+[12:41] <ioni> meskarune, only for females or for everyone ?
+[12:41] <@meskarune> for everyone :P
+[12:42] <@meskarune> but of course arch women would focus on recruiting women
+[12:42] <@meskarune> but like, might as well try to help out arch as a whole
+[12:42] <pierres> that's the point, isn't it?
+[12:42] <@meskarune> having a mentorship program would help increase women contributors AND male ones
+[12:42] <Bluewind> we should never exclude either gender imho
+[12:42] <ioni> i guess we can
+[12:43] <ioni> since we have a lot of orphans
+[12:43] <@meskarune> yeah
+[12:43] == Silvah [~Silvah@unaffiliated/silvah] has joined#archlinux-women
+[12:43] <ioni> but i don't promise anything, we have to discuss it
+[12:43] <@meskarune> I mean, I'd like to talk with the devs about that though
+[12:43] <+tigrmesh> can't make decisions for them  :)
+[12:43] <pierres> there are at leat three devs here
+[12:43] <+tigrmesh> !when
+[12:43] <phrik> When it's ready.
+[12:43] <@meskarune> and then arch women itself can focus on recruiting and mentoring women, but like, we need the infrastruture first
+[12:44] <+tigrmesh> there are?
+[12:44] <ioni> pierres, i guess we can do another junior dev
+[12:44] <pierres> what kind of infrastructure?
+[12:44] <ioni> pierres, maybe correlated to 10 years anniversary
+[12:44] <@meskarune> like an official site or section on teh forums?
+[12:44] <@meskarune> I would totally contribute to that
+[12:44] <+tigrmesh> wait wait
+[12:44] <@meskarune> like, an arch dev training ground with tutorials or tests, etc
+[12:45] <+tigrmesh> infrastructure for what?
+[12:45] <pierres> we announce, applicants email us. Easy as that
+[12:45] <Bluewind> use the wiki for that
+[12:45] <@meskarune> arch linux dev and package maintaining
+[12:45] <+tigrmesh> wiki sounds good
+[12:45] <Bluewind> we have quite some info on how to do packaging there already
+[12:45] <@meskarune> ^^^
+[12:45] <+tigrmesh> but doesn't it exist already?
+[12:45] <@meskarune> a mentorship program?
+[12:46] <@meskarune> arch doesn't have an official one
+[12:46] <@meskarune> they do have junior dev program I guess
+[12:46] <pierres> yes, and for every other questions the mentors can be asked
+[12:46] <@meskarune> I don't know much about the junior program, but I'd like to learn more
+[12:46] <Bluewind> we had junior devs who built packages and had to ask a dev to pushed them to the repos
+[12:46] <pierres> packaging is not rockest sience. You don't even need to know anythign about programming.
+[12:47] <fsckd> meskarune: 13:44:25 <ioni> pierres, i guess we can do another junior dev
+[12:47] <@meskarune> I know, I've made packages
+[12:47] <Bluewind> I think jakob didn't even build packages but only take care of mirrors
+[12:47] <@meskarune> but that is a great way for newish users to contribute
+[12:47] <@meskarune> I think maybe we need to get the word out about the need for those types of contributions too
+[12:48] <fsckd> this talk makes me want to apply :P
+[12:48] <@meskarune> hehe
+[12:48] <@meskarune> me too, but I just don't have the time to dedicate to it right now
+[12:48] <@meskarune> maybe in a few months
+[12:48] <@meskarune> that reminds me
+[12:48] <fsckd> ditto XD
+[12:49] <@meskarune> would it be possible to make items in arch easier to fix in short periods of time?
+[12:49] <pierres> lame excuse :-P
+[12:49] <Bluewind> you don't need that much time. 1h per day should suffice
+[12:49] <@meskarune> maybe just have an orphan package of the day or something?
+[12:49] <Bluewind> (including reading mailing lists)
+[12:49] <@meskarune> and whoever fixes it gets a mention and internet cookie
+[12:50] <pierres> that's more time organizing than just fixing it yourself
+[12:50] <+tigrmesh> as opposed to the current system of people maintaining particular packages?
+[12:51] <@meskarune> if we have so many orphan packages, maybe its time to change things a little bit...?
+[12:51] <qubodup_badnet> 'things'?
+[12:52] <pierres> well, I am going to remvoe a lot of them :-)
+[12:52] <@meskarune> I think having only one person maintain a package gives a lot of room for failure to keep it updated
+[12:52] <qubodup_badnet> agreed
+[12:52] <pierres> packages can be maintaned by multiple people
+[12:52] <@meskarune> I also think it makes people feel obligated to keep maintaining
+[12:52] <@meskarune> and maybe someone would have teh time to update a package once
+[12:53] <@meskarune> so having a package of the day might be useful or not. I'm just throwing ideas up
+[12:53] <qubodup_badnet> yes, sometimes people do in the comments of a package
+[12:53] <pierres> but atm it's the other way round:https://www.archlinux.de/?page=Packagers;orderby=packages;sort=1
+[12:53] <phrik> Title: archlinux.de - Packer (at www.archlinux.de)
+[12:53] <qubodup_badnet> that's a very nice thing to happen
+[12:53] <qubodup_badnet> throwing up = good
+[12:53] <@meskarune> hehe
+[12:54] <qubodup_badnet> what do you mean by mentorship program?
+[12:54] <qubodup_badnet> 1 to 1 email support?
+[12:54] <pierres> yes, junior devs have a single person to talk to
+[12:55] <@meskarune> OMG one person is doing 1700 packages?!?
+[12:55] <@meskarune> they REALLY need help
+[12:55] <danners> maybe arch could to something like ubuntu developer week. i think that would get some people interested in working on arch.
+[12:55] <qubodup_badnet> meskarune: might be an administrative account?
+[12:56] <@meskarune> says allen does 500 packages
+[12:56] <@meskarune> those are all devs
+[12:56] <qubodup_badnet> ouchie
+[12:56] <@meskarune> good idea danners
+[12:56] <pierres> meskarune: this is not exactly maintainership. It jsut shows the amount of packages in the repo packaged by someone.
+[12:56] <+tigrmesh> jelle is a TU
+[12:56] <+tigrmesh> so is xyne
+[12:57] <qubodup_badnet> will anybody do more research regarding former female arch linux contributors?
+[12:57] <pierres> but it show which devs/tus are actually active
+[12:58] <@meskarune> I think it would be useful to try and get a list of women users, how long they were active, and when they left
+[12:58] <qubodup_badnet> pierres: does 'junior dev' mean 'person interested in maintaining arch packages'?
+[12:58] <@meskarune> really the forums is the only place with that information
+[12:58] <qubodup_badnet> pierres: or just 'beginner level arch user'?
+[12:58] <pierres> qubodup_badnet: it means arch dev candidate and still learning
+[12:59] <@meskarune> Ok, so Arch Women will work with the arch devs on a junoir dev program, and also post up information on contributing, and help to encourage women to contribute
+[12:59] <@meskarune> (trying to sum up)
+[12:59] <@meskarune> And then also list some mentors who can work with women on doing those sorts of things
+[13:00] <qubodup_badnet> pierres: sorry for asking again but I'm not sure what 'dev' means in operating system. how can an 'arch dev candidate' be identified by others or themselves?
+[13:00] <@meskarune> Do we even have a list of people to contact if a person wants to develope...?
+[13:00] <pierres> qubodup_badnet: so no, not beginner level arch user at all. You need to be an experienced arch user to become a junior dev.
+[13:00] <qubodup_badnet> pierres: ah, there is an official title called 'junior dev' in arch?
+[13:00] <@meskarune> qubodup_badnet: we should have a way of identifying devs and giving them recogition
+[13:01] <pierres> qubodup_badnet: kind of yes
+[13:01] <@meskarune> it would be fun to send out real cookies to all the devs in the mail for march 10th
+[13:01] <+tigrmesh> hehe
+[13:01] <qubodup_badnet> meskarune: the only way to find female ex archers I could think of is asking in the other DISTRONAME-women communities and hoping for ex-archers to raise hands
+[13:01] <fsckd> +1 to cookie XD
+[13:01] <@meskarune> :3
+[13:02] <@meskarune> qubodup_badnet: good idea. I'll post that up as an option for contacting ex-women arch users
+[13:02] <pierres> meskarune: what do you mean by "identifing devs"? It's not that hard to do.
+[13:02] <@meskarune> I mean giving them more recognition for what they do
+[13:03] <@meskarune> the more people are thanked and encouraged, the more arch will get contributions
+[13:03] <@meskarune> from people in general
+[13:04] <fsckd> we should build a large golden statue of each dev
+[13:04] <@meskarune> So if a person just wants to do a single pachage update, is putting that  in teh comments an official thing?
+[13:04] <@meskarune> I think having and posting rankings for contributions would be good
+[13:05] <@meskarune> like that link on archlinux.de
+[13:05] <pierres> I don't think so
+[13:05] <@meskarune> people are competitive :D
+[13:05] * qubodup_badnet checks archlinux.de
+[13:05] <@meskarune> or we should just make it a rule that every arch user maintain one package :P
+[13:05] <fsckd> that's a knife that cuts in many ways ;P
+[13:05] <pierres> Actually I don't want anyone to package thousands of packages; quality lacks a lot
+[13:06] <@meskarune> yeah I know
+[13:06] <+tigrmesh> i disagree about each user maintaining a package
+[13:06] <+tigrmesh> debian is (or was) like that
+[13:06] <@meskarune> it was just a joke :P
+[13:06] <+tigrmesh> ah
+[13:06] <@meskarune> :)
+[13:06] <qubodup_badnet> meskarune: can't see what you mean on archlinux.de
+[13:06] <@meskarune> I really didn't know we had such a lack of packagers though
+[13:07] <pierres> there are two different approaches here: #1 We need more actual packagers (devs and tus) but #2 we also need more users helping us.
+[13:07] <@meskarune> qubodup_badnet: https://www.archlinux.de/?page=Packagers;orderby=packages;sort=1
+[13:07] <phrik> Title: archlinux.de - Packer (at www.archlinux.de)
+[13:07] <fsckd> pierres: how do you needed users helping?
+[13:07] <pierres> e.g. aurphan is a great tool for users to find out where they could help
+[13:07] <vodik> speaking of helping, whats the proper route for submitting patches? https://gist.github.com/1974383
+[13:07] <phrik> Title: gist: 1974383 Gist (at gist.github.com)
+[13:08] <@meskarune> pierres: I'll make a post on that on teh site maybe?
+[13:08] <+tigrmesh> vodik: i would post that to the pacman mailing list
+[13:09] <vodik> kk
+[13:09] <pierres> vodik: depends on the project. There are several mailing lists. pacman has pacman-dev, others have arch-projects etc.
+[13:09] <@meskarune> ok, so package maintaining, a way for people to submit quick package edits perhaps (through comments or email or whatever) patches, etc
+[13:09] <vodik> its libalpm
+[13:09] <vodik> so i get should be obvious
+[13:09] <vodik> *guess it
+[13:09] <qubodup_badnet> to have lists of women who do arch package work, they need to agree to have their username posted, this means that we need women arch users wo want to be open about their gender
+[13:09] <@meskarune> could we get a list of all the relevant resources? like mailing lists, and contacts, etc?
+[13:09] <+tigrmesh> so maybe a list of the place to submit patches
+[13:10] <@meskarune> so I can post them and let interested people know?
+[13:10] <qubodup_badnet> downside: having a list of women arch users might increase harassment
+[13:10] <@meskarune> yeah, and for women to be open about their gender, we need to make sure they feel safe doing so in arch
+[13:11] <qubodup_badnet> upside: having a list of women arch users might attract more women
+[13:11] <vodik> just ban gender
+[13:11] <vodik> problem solved
+[13:11] <@meskarune> maybe we could have an anonymous email list....?
+[13:11] <vodik> jk
+[13:11] <@meskarune> :P
+[13:11] <vodik> futurama reference
+[13:11] <pierres> here is a list of nearly all mailing lists:https://mailman.archlinux.org/mailman/listinfo/
+[13:11] <phrik> Title: mailman.archlinux.org Mailing Lists (at mailman.archlinux.org)
+[13:12] <pierres> peopel interested in packageing have to subscribe to arch-dev-public at least.
+[13:12] <vodik> arch-haskell exists, but iirc part of the haskell mailing lists
+[13:12] <vodik> fwiw
+[13:12] <qubodup_badnet> pierres: is there a aurhphan output online somewhere that is constantly updated?
+[13:13] <pierres> no
+[13:13] <@meskarune> it would be a good idea to have that qubodup_badnet
+[13:13] <pierres> well, you kind of get that on the website
+[13:13] <@meskarune> then I could have an rss feed of the packages on the main website maybe?
+[13:13] <qubodup_badnet> meskarune: main archwomen or main archlinux?
+[13:13] <@meskarune> so people could like, subscribe to the orphan package list
+[13:13] <@meskarune> it would be awesome to have that on both
+[13:14] <@meskarune> but I don't know who to even contact about such a thing
+[13:14] <qubodup_badnet> meskarune: a feed of .. latest orphaned packages?
+[13:14] <fsckd> qubodup_badnet:http://www.archlinux.org/packages/?sort=&q=&maintainer=orphan&last_update=&flagged=&limit=50
+[13:14] <phrik> Title: Arch Linux - Package Database (atwww.archlinux.org)
+[13:14] <pierres> open a feature request about that and prefix it with {archweb}. Dan will be happy.
+[13:14] <+tigrmesh> :)
+[13:15] <Bluewind> qubodup_badnet: aurphan checks what packages you have installed to reduce the size of the list
+[13:15] <pierres> Some day I should join that with the package usage list so we see which packages are orpaned but used by a lot of people
+[13:15] <@meskarune> Ok, so we need to make a page on the site called "how to contribute" and link to resources like the mailing lists, people to contact, how to find orphaned packages, etc
+[13:15] <fsckd> pierres: grand idea :)
+[13:16] <qubodup_badnet> pierres: yeah.
+[13:16] <+tigrmesh> meskarune: yes
+[13:16] <qubodup_badnet> precious statistics...
+[13:16] <Bluewind> how will people get their changes to orphan packages into the repos if they aren't devs/tus?
+[13:17] <@meskarune> and someone can open a feature request for an orphan package list that is ranked by user installs?
+[13:17] <pierres> they cant
+[13:17] <pierres> meskarune: that is not as easy. The stats are gathered differently here: https://www.archlinux.de/?page=Statistics
+[13:17] <@meskarune> can some way be made to make it easier for people to help with packages?
+[13:17] <phrik> Title: archlinux.de - Statistics (atwww.archlinux.de)
+[13:18] <pierres> One idea I had was some kind of "orphan package team" whi will care of packages that don't have a specific maintainer.
+[13:18] <+tigrmesh> sounds great
+[13:18] <Bluewind> meskarune: judging from the reports on the bug tracker quite a large amount of requests are just wrong and not well researched, resulting in lots of work for whoever wants to merge the change into the repo
+[13:18] <pierres> ^^ +2
+[13:19] <fsckd> Bluewind: i've heard someone else complain of that
+[13:19] <pierres> we don't get a lot of help from users on the bug tracker
+[13:19] <Bluewind> like someone reporting that wine is broken and totally ignoring the fact that he built it himself using a git clone
+[13:19] <@meskarune> So bug tracker is another place we can encourage people to help out on?
+[13:19] <pierres> yes
+[13:19] <Bluewind> I think we wasted ~5h until he told us
+[13:19] <fsckd> yikes!
+[13:19] <pierres> and the good thing is they don't need special permissions to help a lot there.
+[13:20] <+tigrmesh> oh no
+[13:20] <pierres> and I am not talking about "tjhat's broke here too" posts but more about "here is a patch".
+[13:21] * fsckd keeps dustbinning "when will php 5.4 be released?" threads
+[13:21] <pierres> Or even ask the original report to submit mroe specific details
+[13:21] <pierres> fsckd: oh dear, yes I need to write a post about that.
+[13:21] <+tigrmesh> f: ehe
+[13:21] <+tigrmesh> hehe*
+[13:21] <qubodup_badnet> we should consider doing the 'how to contribute' page on archlinux.org wiki only
+[13:22] <fsckd> pierres: good luck :)
+[13:22] <+tigrmesh> it's probably on the wiki already.  the problem is that it's hard to find, qubodup_badnet
+[13:22] <qubodup_badnet> we should prominently link to it of course.
+[13:23] <+tigrmesh> maybe on arch women, with a link that says "newer information on the arch wiki at http...."
+[13:23] <@meskarune> qubodup_badnet: yeah, I was thinking we could maybe add in more information on the wiki, and just link lots of wiki pages from teh main site
+[13:23] <@meskarune> I mean main arch women site
+[13:23] <+tigrmesh> ok
+[13:23] <@meskarune> I don't want to use the site as a wiki :P
+[13:24] <@meskarune> and its stupid to have redundant information
+[13:24] <@meskarune> :)
+[13:24] == Icedman [~Ice@unaffiliated/icedman] has quit [Quit: I'm quitting. You have just wasted 5 seconds of your life reading this.]
+[13:24] <+tigrmesh> true
+[13:24] <Bluewind> if it's hard to find please also improve that on the main wiki
+[13:24] <pierres> Maybe we should also mention that people who don't like writing/reading english that much could help in the local communities.
+[13:24] <@meskarune> yeah, good idea
+[13:24] <+tigrmesh> good point
+[13:25] <@meskarune> I think a lot of the information on the wiki isn't access because people don't know where to look
+[13:25] <+tigrmesh> yes
+[13:25] <@meskarune> so having links and places to go and people to contact all spelled out on the site woudl be good
+[13:25] <Bluewind> local communities split information even more and the worst part is that lots of people can't even read it then
+[13:26] == sqweek[7c94de48@gateway/web/freenode/ip.124.148.222.72] has quit [Quit: Page closed]
+[13:26] <@meskarune> maybe there some sort of english translation that could be useful
+[13:26] <+tigrmesh> what do you mean, Bluewind?
+[13:26] <pierres> Bluewind: you are simply wrong
+[13:27] <Bluewind> tigrmesh: you google for an error message and all you can find is written in languages you don't understand. happened to me at least twice
+[13:27] <+tigrmesh> ah
+[13:27] <@meskarune> I do taht, but then jsut translate the website using google
+[13:27] <@meskarune> :P
+[13:27] <@meskarune> a lot of french and german contributions to arch
+[13:27] <+tigrmesh> does that work with technical stuff?
+[13:27] <Bluewind> pierres: care to explain why?
+[13:28] == yoyo [~yoyo@mir31-1-212-194-73-61.dsl.sta.abo.bbox.fr] has joined #archlinux-women
+[13:28] <pierres> so you want forbid people to speak their native language just because you don't know how to use google?
+[13:28] <qubodup_badnet> off-topic
+[13:28] <@meskarune> translating with google works pretty well with technical stuff
+[13:29] <Bluewind> no but we should make sure people don't just fix the docs in their language wiki, but also in the english one
+[13:29] <qubodup_badnet> http://piratepad.net/ttfw3LcVQK - looks pretty good to me
+[13:29] <phrik> Title: PiratePad: ttfw3LcVQK (at piratepad.net)
+[13:29] <@meskarune> like, you do have to do a bit of interpreting, but command lines are the same for everyone
+[13:29] <fsckd> i went to the main page of the wiki and there's a link called "Getting Involved", may be flesh that out a bit or something?
+[13:29] <Bluewind> having to look in lots of places is bad
+[13:29] <pierres> Bluewind: of course and I encourage that. Communities should work together
+[13:29] <qubodup_badnet> fsckd: i'll check that out
+[13:30] <qubodup_badnet> hahaha #1: donate
+[13:30] <fsckd> XD
+[13:30] <@meskarune> I need to buy more arch stickers
+[13:30] <@meskarune> and maybe a bag :D
+[13:30] <@meskarune> I'm a sucker for bags
+[13:30] <fsckd> lol XD
+[13:31] <@meskarune> they should have an arch linux purse!
+[13:31] <Bluewind> tell dusty
+[13:31] == derhil [~derhil@unaffiliated/derhil] has left#archlinux-women ["PONG :asimov.freenode.net"]
+[13:31] <@meskarune> hehe
+[13:31] <fsckd> need some arch shoes
+[13:31] <@meskarune> the heel could be the arch logo :P
+[13:31] <qubodup_badnet> hm... how would an arch hat look like..
+[13:31] <qubodup_badnet> pretty silly I bet
+[13:32] <@meskarune> it would look like an india jones hat
+[13:32] <@meskarune> with a arch logo on it
+[13:32] <fsckd> or a pirate hat shaped as the logo
+[13:32] <@meskarune> LOL
+[13:32] <qubodup_badnet> I need somebody to flesh outhttp://piratepad.net/ttfw3LcVQK regarding mentorship, unless meskarune knows more
+[13:32] <phrik> Title: PiratePad: ttfw3LcVQK (at piratepad.net)
+[13:32] <@meskarune> I don't know alot about how mentorship works in arch linux
+[13:32] <@meskarune> but I would love to have that information
+[13:33] <@meskarune> and maybe a wiki page on it even
+[13:33] <@meskarune> idk if one exists or not
+[13:33] <qubodup_badnet> meskarune: also, not sure what you wanted to discuss regarding last point on meeting agenda: IRC tutorial events: Arch Install parties, How to make Arch Linux Packages, etc
+[13:33] <Bluewind> how to make packages is already covered in the wiki
+[13:33] <fsckd>https://wiki.archlinux.org/index.php/Google_Summer_of_Code
+[13:33] <phrik> Title: Google Summer of Code - ArchWiki (at wiki.archlinux.org)
+[13:33] <fsckd> XD
+[13:34] <fsckd> (what a pretty skin for a hobbit to wear)
+[13:34] <@meskarune> I think it would be cool to have an "invite your female friends to try arch" week where other women can chat and learn about arch linux
+[13:34] <pierres> reminds me to really talk to they guys who set up the arch linux user group
+[13:34] <Bluewind> ideally you can do that all the time
+[13:34] <@meskarune> yeah, I mean, that is partly the function of this channel
+[13:35] <@meskarune> but if we have an official time/place women can plan ahead for it
+[13:35] <Bluewind> too many people in one channel all asking questions makes it harder to get answeres
+[13:35] <fsckd> a course?
+[13:36] <fsckd> like classes
+[13:36] <@meskarune> yeah :)
+[13:36] <@meskarune> we could just have the women's join in thing, and then break them up into groups with one mentor each or something....?
+[13:37] <pierres> That's works perfectly in real life; but no idea how it should in irc
+[13:37] <qubodup_badnet> pierres: so you said 'making patches' would be helpful - is there any other way (that does not require programming) to help on the bugtracker?
+[13:37] <fsckd> google meetup :P
+[13:38] <pierres> qubodup_badnet: yes sure-
+[13:38] <qubodup_badnet> pierres: is there perhaps a category of bugs that indicates that 'this does not work here either, here are my specs' messages would actually be useful?
+[13:38] <@meskarune> I can't stay connected to pirate pad my internet is too bad I think
+[13:38] <qubodup_badnet> meskarune: I think it's them
+[13:38] <@meskarune> oh ok
+[13:38] <qubodup_badnet> let me switch to another site
+[13:39] <+tigrmesh> i love the colors for the different things
+[13:39] <Bluewind> titanpad worked quite well for me
+[13:39] <@meskarune> yeah
+[13:39] <fsckd> titanpad looks nice
+[13:41] <Bluewind> qubodup_badnet: "doesn't work for me" message aren't useful nor helpful in nearly all cases. if they are needed, someone will probably ask for them
+[13:42] == Supergirl [~archsg@unaffiliated/supergirl] has joined#archlinux-women
+[13:42] == tuxampol [~tuxampol@ppp-188-174-118-164.dynamic.mnet-online.de] has quit [Quit: Verlassend]
+[13:42] <pierres> yes, these kind of questions cant be answered in a generic way; depends on the bug report.
+[13:42] == vodik [~vodik@24-212-140-151.cable.teksavvy.com] has quit [Quit: WeeChat 0.3.7]
+[13:42] == vodik [~vodik@24-212-140-151.cable.teksavvy.com] has joined #archlinux-women
+[13:42] <qubodup_badnet> Bluewind: well is there a bug category that indicates "I needsomebody to test this"?
+[13:43] <@meskarune> Ok, do you guys think it would be useful to have a list of users willing to help? Then like, list their skills? Like this person knows perl and java, this person is good at packaging?
+[13:43] <pierres> no; and if their were we wouldn't really need help there.
+[13:44] <@meskarune> maybe just have that on the user info on teh arch wiki....?
+[13:44] <Bluewind> qubodup_badnet: no
+[13:44] <qubodup_badnet> meskarune: I think such lists are ineffective regarding use-effort
+[13:44] <@meskarune> I see
+[13:44] <fsckd> i think for tus you need to show your skills by maintaining aur packages
+[13:44] <@meskarune> so like, no one woudl contact a rube programer to help with a ruby bug or package?
+[13:45] <qubodup_badnet> http://awlogs.titanpad.com/1 can everybody edit this?
+[13:45] <fsckd> also, upstream people sometimes appear on the forums :)
+[13:45] <Bluewind> fsckd: or by maintaining software and pushing patches upstream
+
+[13:45] <+tigrmesh> it's getting close to 20:00 in eastern europe.  i think we should stop soon.  we can talk more next month  :)
+[13:46] <Silvah> It's 21:45 in Eastern Europe.
+[13:46] <ioni> yes
+[13:46] <fsckd> i thought you guys never sleep :P
+[13:46] <Silvah> That's not close to 20:00.
+[13:46] <@meskarune> omg, its been 2 hours! LOL
+[13:46] <qubodup_badnet> it's 20:48 in germany
+[13:47] == crlnchr [~crlnchr@host188-209.bornet.net] has quit [Quit: Lost terminal]
+[13:47] <fsckd> meskarune: yeah :D
+[13:47] <+tigrmesh> Silvah: you're right.  the meeting started at 20;00
+[13:47] <Bluewind> qubodup_badnet: sounds like your clock is off by 2 mins
+[13:47] <qubodup_badnet> meskarune: so what about IRC tutorial events: Arch Install parties, How to make Arch Linux Packages, etc
+[13:47] <@meskarune> Ok, so the main things we will do right now: add links and information to the site adn arch wiki
+[13:47] <qubodup_badnet> Bluewind: whoops, actually it is off by 12 minutes and I always think "ah, it's 10 minutes off"
+[13:47] <@meskarune> make a request for list of orphan packages
+[13:47] <@meskarune> list contacts
+[13:48] <fsckd> meskarune: what do you? we already have so many ways to list orphaned packages
+[13:48] <+tigrmesh> qubodup_badnet: that may need to wait until next month
+[13:48] <@meskarune> fscdk: I mean have them listed on the front page as an rss feed
+[13:48] <@meskarune> on the main site so its super easy for people to notice them
+[13:49] <fsckd> oh, ok
+[13:49] <pierres> meskarune: problem is you cannot really put 800 entries into a rss.
+[13:49] <@meskarune> qubodup_badnet: yeah, I think once we get some of the information up and get more contacts and mentors set up, we can plan out online or offline events
+[13:49] <Bluewind> problem is you can't remove entries from a feed
+[13:49] <+tigrmesh> darn
+[13:50] <@meskarune> pierres: they could just show the latest 10 or so with a link to the others
+[13:50] <qubodup_badnet> meskarune: k
+[13:50] <pierres> meskarune: the latest will stay there then; because they are orphaned they wont update ;-)
+[13:50] <pierres> so that list is pretty static
+[13:50] <@meskarune> ok
+[13:50] <fsckd> i once subscribed to an rss feed with over 400 entries, it ruined my feed reader XD
+[13:50] <@meskarune> heh
+[13:51] <Bluewind> also having an orphan list won't help anyone because nobody's gonna care about the patches
+[13:51] <pierres> I'd like to have maintaienr info in json format though.
+[13:51] <@meskarune> well, for now lets post a link on the website to the list of orphaned packages
+[13:51] <+tigrmesh> sounds good
+[13:51] <@meskarune> new users probably won't know how to look for them
+[13:51] <+tigrmesh> or how to find out what's orphaned
+[13:51] <@meskarune> yeah :)
+[13:52] <pierres> I guess a good entry point for potentila junior devs would be: take care of orphans and help with rebuilds.
+[13:53] <@meskarune> yeah
+[13:53] <fsckd> there are packages i use in community and extra which are orphaned :/
+[13:54] <@meskarune> aw
+[13:55] <fsckd> midori is an orphan ;)
+[13:55] <qubodup_badnet> is the meeting over?
+[13:55] <@meskarune> oh noes
+[13:55] <@meskarune> ok should I officially close the meeting?
+[13:55] <+tigrmesh> yes
+[13:55] <@meskarune> qubodup_badnet: you want to post up minutes on the site?
+[13:55] <fsckd> if you think so
+[13:55] <qubodup_badnet> minutes?
+[13:55] <fsckd> log of meeting
+[13:56] <@meskarune> and fsckd maybe you can get a list of forum contacts to list...?
+[13:56] <fsckd> or summary
+[13:56] <Bluewind> better summarize, the log would be quite long
+[13:56] <@meskarune> and I"ll try and see about getting information on the site and wiki
+[13:56] <qubodup_badnet> meskarune: mhh OK
+[13:56] <@meskarune> I could just have the log in a text file and link the file
+[13:56] <qubodup_badnet> meskarune: I assigned some of the tasks to myself
+[13:57] <@meskarune> qubodup_badnet: are you on remember the milk...?
+[13:57] <@meskarune> I think having an online todo list that everyone can use would be helpful
+[13:57] <@meskarune> but anyways, MEETING OFFICIALLY OVER
+[13:57] <@meskarune> yay
+[13:58] <qubodup_badnet> yay
+[13:58] <+tigrmesh> yay
+[13:58] <@meskarune> thanks for coming and contributing everyone
+[13:58] <@meskarune> I really appreciate it

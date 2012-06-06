@@ -1,0 +1,683 @@
+Jun 03 12:09:24 <+meskarune>	Ok, I guess the Meeting will offically start NOW
+Jun 03 12:09:28 <Anon7>	I'm on my phone so I might get dc'd
+Jun 03 12:09:36 <+meskarune>	ok
+Jun 03 12:09:37 <Anon7>	Hey meskarune
+Jun 03 12:09:45 --->	pink_anarchist (~pink@dslb-088-073-037-011.pools.arcor-ip.net) has Joined #archlinux-women
+Jun 03 12:09:48 <+meskarune>	So we have lots of new stuff for the site 
+Jun 03 12:10:10 <+meskarune>	a shared news feed and calendar, they just need to be integrated into the main website :D
+Jun 03 12:10:17 <+meskarune>	Thanks for everyone's help!
+Jun 03 12:10:18 --->	mystiiq (~user@18.30.190.90.dyn.estpak.ee) has Joined #archlinux-women
+Jun 03 12:10:18 <Anon7>	:D
+Jun 03 12:10:19 <+meskarune>	<3
+Jun 03 12:10:40 <+meskarune>	First thing on the agenda is assigning offical roles for members
+Jun 03 12:10:47 <+meskarune>	We really need to get more organized
+Jun 03 12:10:48 <Anon7>	I can do a fb page if y'all want
+Jun 03 12:10:58 <+meskarune>	since we have a lot going on
+Jun 03 12:11:13 <+meskarune>	Anon7: if you want to be in charge of our social media presence I can put you down for that :D
+Jun 03 12:11:14 <Anon7>	Yeah
+Jun 03 12:11:25 <+meskarune>	I need to get you access to the email account too
+Jun 03 12:11:26 <+meskarune>	:)
+Jun 03 12:11:36 <Anon7>	Yeah that's fine
+Jun 03 12:11:55 <Anon7>	:)
+Jun 03 12:12:45 <+meskarune>	http://titanpad.com/a6KwiQXuRf
+Jun 03 12:12:46 <phrik>	Title: TitanPad: a6KwiQXuRf (at titanpad.com)
+Jun 03 12:12:53 <+meskarune>	Here is the titanpad for meeting notes
+Jun 03 12:13:19 <Anon7>	My internet isn't so great
+Jun 03 12:13:23 <Anon7>	Brb
+Jun 03 12:14:46 <+meskarune>	So I'm not sure what the best way to organize is, but I"m thinking maybe teams? Like IRC, Main Site, Social Media, Calendar and News ?
+Jun 03 12:15:15 <+meskarune>	And we can put people into those and give them the relevant access
+Jun 03 12:15:46 <+meskarune>	How do you all feel about Getting a members section up on the About page?
+Jun 03 12:16:01 <+tigrmesh>	what would be the alternative?
+Jun 03 12:16:11 <+meskarune>	I'm open to ideas :)
+Jun 03 12:16:18 <+meskarune>	I have never done this sort of thing before :P
+Jun 03 12:16:58 <+meskarune>	I think it might be useful to have some publicly known contact persons
+Jun 03 12:17:14 <+tigrmesh>	i was asking about the teams
+Jun 03 12:17:18 <+meskarune>	oooh
+Jun 03 12:17:21 <+meskarune>	:P
+Jun 03 12:17:23 <+tigrmesh>	the members idea sounds fine
+Jun 03 12:18:09 **	Tom^ raises his hand
+Jun 03 12:18:14 <+tigrmesh>	as long as we have a criteria for keeping it active.  like activity within the last X days/weeks
+Jun 03 12:18:27 <Tom^>	what are you aiming todo with this project, just curious and havent really digged through the homepage yet :p
+Jun 03 12:18:42 <Anon7>	I'd be interested in being on the IRC team as well.
+Jun 03 12:19:17 <+tigrmesh>	me too
+Jun 03 12:19:52 <Nahlidge>	I'd be interested in being the sick guy who hits on all genders who join the channel and site. ;)
+Jun 03 12:19:54 <Anon7>	I have extensive IRC experience
+Jun 03 12:19:58 <+meskarune>	tigrmesh: well, other than teams, we could have a flat heirachy with everyone involved having the same access, or have like, membership levels I guess
+Jun 03 12:20:24 <+meskarune>	oh tigrmesh http://titanpad.com/a6KwiQXuRf
+Jun 03 12:20:26 <phrik>	Title: TitanPad: a6KwiQXuRf (at titanpad.com)
+Jun 03 12:20:34 <+meskarune>	I had you on the IRC team thing already :P
+Jun 03 12:20:54 <+meskarune>	is Ioni here?
+Jun 03 12:21:08 <+meskarune>	tigrmesh: do you need help OP'ing the channel...?
+Jun 03 12:21:13 <ioni>	meskarune, maybe
+Jun 03 12:21:18 <+meskarune>	lol
+Jun 03 12:21:39 <+meskarune>	Tom^: our main goal is to increase women's contribution to Arch Linux and Increase their contribution to FOSS in general
+Jun 03 12:21:58 <+tigrmesh>	meskarune: i think i'm ok
+Jun 03 12:21:59 <Tom^>	oh oki
+Jun 03 12:22:01 <+meskarune>	whether its documentation, or helping other users or bug reports, etc
+Jun 03 12:22:06 <---	tuxampol (~tuxampol@ppp-188-174-49-84.dynamic.mnet-online.de) has Quit (Quit: Verlassend)
+Jun 03 12:22:45 <+meskarune>	ok tigrmesh 
+Jun 03 12:22:55 <Anon7>	This channel is pretty good and usually doesn't need too much opping although sometimes dome troll w little too hard.
+Jun 03 12:23:11 <Anon7>	Some* not dome
+Jun 03 12:23:24 <+tigrmesh>	yeah
+Jun 03 12:23:26 <+meskarune>	Anon7: we already have 4 Ops, and they also OP in the other arch channels
+Jun 03 12:23:27 <+meskarune>	:)
+Jun 03 12:23:43 <Tom^>	you should probably look at perhaps getting your own phrik , with a bit less sexist !commands :P
+Jun 03 12:23:47 <Anon7>	Yeah it runs pretty smoothly.
+Jun 03 12:24:14 <ioni>	meskarune, whats up?
+Jun 03 12:24:14 <+meskarune>	BUT you can help out in IRC anyways, with new users and reporting stuff :P
+Jun 03 12:24:18 <+tigrmesh>	Tom^: haha.  we should discuss that
+Jun 03 12:24:23 <+meskarune>	ioni: we are having a meeting now :P
+Jun 03 12:24:26 <Anon7>	:P
+Jun 03 12:24:30 <+meskarune>	ioni: I talked about you :P
+Jun 03 12:24:31 <Anon7>	Ok
+Jun 03 12:24:39 <ioni>	do i have to do something?
+Jun 03 12:24:40 <+meskarune>	Anon7: also I could give you voice too
+Jun 03 12:24:46 <Nahlidge>	ioni: fetch me food
+Jun 03 12:24:56 **	ChanServ gives channel operator status to ioni
+Jun 03 12:25:04 **	ioni has kicked Nahlidge from #archlinux-women (fetch it yourself)
+Jun 03 12:25:05 --->	Nahlidge (~Nahlidge@unaffiliated/nahlidge) has Joined #archlinux-women
+Jun 03 12:25:07 <Anon7>	Okay that would be good or even hop in case others aren't here.
+Jun 03 12:25:08 <Nahlidge>	not nice
+Jun 03 12:25:08 **	ioni removes channel operator status from ioni
+Jun 03 12:25:35 **	Anon7 passes out sandwiches to everyone
+Jun 03 12:25:38 <Nahlidge>	back to work
+Jun 03 12:25:42 <ioni>	meskarune, i don't follow irc as much as before
+Jun 03 12:25:47 <+meskarune>	So we also have/need site posters and editors
+Jun 03 12:25:55 <ioni>	only when I'm highlighted
+Jun 03 12:26:06 <+meskarune>	ioni: there is a titanpad up here: http://titanpad.com/a6KwiQXuRf
+Jun 03 12:26:08 <+meskarune>	:)
+Jun 03 12:26:08 <phrik>	Title: TitanPad: a6KwiQXuRf (at titanpad.com)
+Jun 03 12:26:36 <+meskarune>	anyways, i gave you a job :P
+Jun 03 12:27:10 <ioni>	point number 2?
+Jun 03 12:27:18 --->	akk (~akkana@adsl-69-105-235-1.dsl.pltn13.pacbell.net) has Joined #archlinux-women
+Jun 03 12:27:29 <+meskarune>	right now we have quobup, carharttjimmy, fsckd, tigrmesh, and me on the site
+Jun 03 12:27:38 <+meskarune>	and anyone else can submit posts
+Jun 03 12:28:02 <+meskarune>	but if more people would like to make blog posts, add news items or links, etc let me know, we can use the help 
+Jun 03 12:28:03 <+meskarune>	:)
+Jun 03 12:28:20 <Anon7>	You gave me an account too
+Jun 03 12:28:22 <+meskarune>	quodup does a lot of the site editing
+Jun 03 12:28:24 <+meskarune>	oh right
+Jun 03 12:28:24 <+meskarune>	:P
+Jun 03 12:28:39 <Anon7>	I haven't done anything except look around
+Jun 03 12:29:19 <Anon7>	I've been doing the twitter mostly ioni and I'll be setting up a Facebook later.
+Jun 03 12:29:29 <+meskarune>	yeah, I need to tell you how to use it
+Jun 03 12:29:30 <+meskarune>	:P
+Jun 03 12:29:47 <+meskarune>	But anyone else can submit posts via the contact form or email 
+Jun 03 12:29:53 <ioni>	i don't do facebook
+Jun 03 12:30:03 <+meskarune>	and I"ve been trying to link other groups events
+Jun 03 12:30:04 <ioni>	i'm here to do nothing :D
+Jun 03 12:30:09 <+meskarune>	lol
+Jun 03 12:30:52 <ioni>	i'm doing the packaging stuff and that's it
+Jun 03 12:30:56 <+meskarune>	tigrmesh: you think teams with known access is a good way to organize? with maybe 3 officers/admins who have access to everything?
+Jun 03 12:30:58 <ioni>	but not like a class
+Jun 03 12:31:14 <ioni>	if anyone has questions and ask me to look at their builds, fine
+Jun 03 12:31:21 <+meskarune>	well, when it gets organized I"ll let you know :P
+Jun 03 12:31:22 <---	camilasan (~camilasan@91-65-245-206-dynip.superkabel.de) has Quit (Ping timeout: 244 seconds)
+Jun 03 12:31:28 <+tigrmesh>	i like that not everyone has access to everything
+Jun 03 12:31:40 <+tigrmesh>	but that some people do
+Jun 03 12:31:53 <+meskarune>	well, I'm gonna make you an officer :P
+Jun 03 12:32:01 <+tigrmesh>	ok
+Jun 03 12:32:39 <+meskarune>	just in case I get sick or something too
+Jun 03 12:32:43 <+meskarune>	its good to have backups
+Jun 03 12:32:53 <+tigrmesh>	yes
+Jun 03 12:32:55 <+meskarune>	tigrmesh: and one more person...?
+Jun 03 12:33:30 <+meskarune>	kichawa maybe...? who else has been with arch a while?
+Jun 03 12:33:40 <Tom^>	tigrmesh your such a dictator
+Jun 03 12:33:46 <+meskarune>	hehe
+Jun 03 12:33:50 <Anon7>	Lol
+Jun 03 12:33:51 <+tigrmesh>	if ioni doesn't want to do it, what about fsckd?
+Jun 03 12:33:54 <+tigrmesh>	Tom^: lol
+Jun 03 12:33:57 <+meskarune>	oh good idea
+Jun 03 12:34:02 <+meskarune>	he already mods the forums
+Jun 03 12:34:05 <ioni>	tigrmesh, do what?
+Jun 03 12:34:06 <+meskarune>	and has contact with them
+Jun 03 12:34:13 <+meskarune>	ioni: have the keys to the city
+Jun 03 12:34:48 <+meskarune>	ioni: be an officer with full access to all the sites and services
+Jun 03 12:35:12 <+meskarune>	I have admin accounts, but I don't use them a ton, and mostly use my user account meskarune
+Jun 03 12:35:40 <+meskarune>	so its not a ton of work, its just in case something is messed up or needs fixing, etc
+Jun 03 12:37:39 <+meskarune>	am I disconnect?
+Jun 03 12:37:42 <ioni>	PASS
+Jun 03 12:37:45 <+meskarune>	LOL
+Jun 03 12:37:52 <+meskarune>	ok, I'll ask fsckd
+Jun 03 12:37:55 <+meskarune>	:P
+Jun 03 12:40:03 <+meskarune>	Ok, do we need any other organization stuff?
+Jun 03 12:40:15 <+meskarune>	Any other ideas or suggestiosn?
+Jun 03 12:40:44 <+meskarune>	Oh before I forget, we need some people to mod the mailing list too
+Jun 03 12:41:08 <+meskarune>	http://archwomen.org/mailman/listinfo/members_archwomen.org
+Jun 03 12:41:10 <phrik>	Title: Members Info Page (at archwomen.org)
+Jun 03 12:41:14 <Anon7>	H'm
+Jun 03 12:41:15 <Anon7>	I can't think of anything
+Jun 03 12:41:32 <+meskarune>	maybe I"ll post the meeting minutes to the mailing list as well for comments and further discussion
+Jun 03 12:42:15 <+meskarune>	we've got 7 people on there so far
+Jun 03 12:42:33 <+meskarune>	lol everyone is so quiet today
+Jun 03 12:43:08 <Nahlidge>	half-ass working =x
+Jun 03 12:43:14 <+meskarune>	Ok, so second item on the Agenda
+Jun 03 12:43:29 <+meskarune>	Getting PKGBULID class/bootcamp up and going
+Jun 03 12:43:40 <+meskarune>	I think we need to get a timeline together and a plan
+Jun 03 12:43:46 <+tigrmesh>	agreed
+Jun 03 12:43:50 <+meskarune>	I really like the ubuntu classroom site
+Jun 03 12:43:57 <+meskarune>	!g ubuntu classroom
+Jun 03 12:43:59 <phrik>	meskarune: Classroom - Ubuntu Wiki: <https://wiki.ubuntu.com/Classroom>
+Jun 03 12:44:00 <+meskarune>	such a cool idea
+Jun 03 12:44:16 <Anon7>	I'm in the car
+Jun 03 12:44:37 <+meskarune>	oh ok
+Jun 03 12:44:42 <Anon7>	So I can't do anythi.g now
+Jun 03 12:44:59 <+meskarune>	So maybe we can list the ubuntu classroom classes in the calendar?
+Jun 03 12:45:08 <+meskarune>	and have those posted on the site in case people are interested
+Jun 03 12:45:19 <+meskarune>	and come up with a way to have our own schedule
+Jun 03 12:45:24 --->	Anon7-2521 (~bin_bash@unaffiliated/anon7-2521) has Joined #archlinux-women
+Jun 03 12:45:43 <+meskarune>	Is it better to have an open class or registration?
+Jun 03 12:45:50 <+meskarune>	or maybe just rsvp?
+Jun 03 12:46:07 <Anon7-2521>	Class for what
+Jun 03 12:46:08 <+meskarune>	Anyone have some ideas or suggestions on how we can organize this and get the ball rolling?
+Jun 03 12:46:24 <+meskarune>	Anon7-2521: right now we are working on an Arch Linux PKGBUILD class/bootcamp type thing
+Jun 03 12:46:32 <+meskarune>	so people can learn to be package maintainers
+Jun 03 12:46:45 <+meskarune>	Arch REALLY needs those
+Jun 03 12:47:00 <+meskarune>	there are 3 people maintaining like 1000 packages EACH
+Jun 03 12:47:07 <+meskarune>	so they really need some help
+Jun 03 12:47:09 <Anon7-2521>	Oh nice
+Jun 03 12:47:15 <Anon7-2521>	Yeah
+Jun 03 12:47:20 <+meskarune>	and even people who maintain 2 -3 packages will be a big help
+Jun 03 12:47:52 <+meskarune>	The other thing is that you can adopt a package, update it, and then orphan it again
+Jun 03 12:47:59 <+meskarune>	so there's no pressure :P
+Jun 03 12:48:44 <XReaper>	Mmm
+Jun 03 12:48:47 <+meskarune>	So for a class we need: tutorials, PKGBUILD examples, Teachers, students
+Jun 03 12:48:49 <---	Anon7 (~bin_bash@unaffiliated/anon7-2521) has Quit (Ping timeout: 244 seconds)
+Jun 03 12:49:50 <XReaper>	Hello
+Jun 03 12:50:01 <+meskarune>	hey XReaper
+Jun 03 12:50:12 <XReaper>	More things to do after uni exams :D
+Jun 03 12:50:16 <+meskarune>	Does anyone here happen to be a teacher in rl?
+Jun 03 12:50:29 <+meskarune>	XReaper: we are having a meeting :P
+Jun 03 12:50:59 <XReaper>	:D
+Jun 03 12:51:11 <+meskarune>	Would having a Discussion board be better for a class? or IRC?
+Jun 03 12:51:27 <+meskarune>	I'm leaning toward IRC since its real time
+Jun 03 12:51:44 <+tigrmesh>	discussion  board?  like the titan pad?
+Jun 03 12:51:44 <+meskarune>	but I guess a wiki or board could have code examples and explainations
+Jun 03 12:51:58 <+tigrmesh>	i like the real time idea
+Jun 03 12:52:02 <Tom^>	but forums saves those classes for the future :<
+Jun 03 12:52:04 <+meskarune>	yeah, me too
+Jun 03 12:52:20 <+tigrmesh>	otherwise, you might as well read the wiki
+Jun 03 12:52:59 <+meskarune>	Tom^: yeah, I do want a way to save class material for other people to use, and I think maybe the arch wiki could maybe be used for that? Like Arch Classroom or Arch Walkthrough ?
+Jun 03 12:53:17 <+meskarune>	This could be a greater expansion to the beginner guide
+Jun 03 12:53:22 <Tom^>	cant you just organize a irc real time help for those classes like you do with these meetings but keep them on forums so its stored for future young padawans
+Jun 03 12:53:40 <+meskarune>	Well that is another idea we could use
+Jun 03 12:53:58 <+meskarune>	I want to have class material available so anyone could do a class either online or in real life
+Jun 03 12:54:21 <+meskarune>	Arch Women is just organizing this and going to have classes here, but getting the rest of arch involved would be great
+Jun 03 12:54:29 <+meskarune>	Are any of the Devs here right now?
+Jun 03 12:56:51 <+meskarune>	Well, the Wiki has a talk page, but no way to submit package builds
+Jun 03 12:56:57 <+meskarune>	do we need that functionality?
+Jun 03 12:56:57 --->	MarkDude (~MT@pdpc/supporter/student/markdude) has Joined #archlinux-women
+Jun 03 12:57:38 <+meskarune>	So wiki or bbs  + IRC ?
+Jun 03 12:59:16 <+meskarune>	It looks like ubuntu classroom has a mailing list for the organizers to discuss, and a wiki for class material and an IRC channel
+Jun 03 12:59:29 <+meskarune>	I am leaning toward following their example since it seems to be working ;)
+Jun 03 13:00:05 <---	vodik (~simongmzl@archlinux/op/vodik) has Quit (Quit: WeeChat 0.3.7)
+Jun 03 13:00:19 --->	vodik (~simongmzl@archlinux/op/vodik) has Joined #archlinux-women
+Jun 03 13:00:22 <+meskarune>	for now classroom stuff can go on the arch linux wiki, and we can have a page like, Arch PKGBUILD Class 2012 for a specific class's activities
+Jun 03 13:00:23 <Tom^>	what i thought on was this, have theese weekly/monthly/daily or what you see fit excercises http://www.gamedev.net/forum/139-lessons/ just like that and keep some guidelines and guides on wiki and then setup some irc real time help and appointed times
+Jun 03 13:00:26 <phrik>	Title: Lessons - GameDev.net (at www.gamedev.net)
+Jun 03 13:00:44 <Tom^>	*at appo..
+Jun 03 13:00:46 <+meskarune>	Tom^: oh good link
+Jun 03 13:01:05 <+meskarune>	Yeah, I think having a Lesson Plan that is progressive and posted online is a great idea
+Jun 03 13:01:10 --->	code_astronomer (~code_astr@unaffiliated/codeastronomer/x-000001) has Joined #archlinux-women
+Jun 03 13:01:18 <+meskarune>	hey code_astronomer we are having a meeting :P
+Jun 03 13:03:18 <code_astronomer>	hi meskarune
+Jun 03 13:05:19 <+meskarune>	Ok, so I was told we could make a section in the arch wiki for classroom stuff
+Jun 03 13:05:42 <+meskarune>	and maybe I'll see if we can get an offical mailing list on Arch Classes
+Jun 03 13:05:45 <vodik>	code_astronomer: new neil younge cd
+Jun 03 13:06:14 <+tigrmesh>	would this be a second mailing list, meskarune?
+Jun 03 13:06:35 <+meskarune>	yes, but only for classroom organizing
+Jun 03 13:06:51 <vodik>	meskarune: need any help just ask
+Jun 03 13:06:54 <+meskarune>	and I'd like to see it be with the offical arch mailing list instead of ours since its for the whole community
+Jun 03 13:06:58 <+meskarune>	ok thanks vodik :)
+Jun 03 13:07:11 <+meskarune>	vodik: that reminds me: http://titanpad.com/a6KwiQXuRf
+Jun 03 13:07:13 <phrik>	Title: TitanPad: a6KwiQXuRf (at titanpad.com)
+Jun 03 13:07:22 <+meskarune>	put yourself on there :P
+Jun 03 13:07:49 <+meskarune>	Ok, so for planning the classes we can use the arch forums and a mailing list, and put all material on the arch wiki
+Jun 03 13:07:53 <vodik>	i'll just copy ioni's line
+Jun 03 13:08:03 <+meskarune>	and We will have a schedule make and posted on the site I guess
+Jun 03 13:08:05 <gtmanfred>	I wanna help, what can I do?
+Jun 03 13:08:20 <+meskarune>	do you want to help with arch linux classes?
+Jun 03 13:08:21 <vodik>	time to hop in the shower
+Jun 03 13:08:34 <gtmanfred>	yes
+Jun 03 13:08:34 <+meskarune>	we need a TON of help organizing and setting that up 
+Jun 03 13:08:37 <+meskarune>	awesome
+Jun 03 13:09:09 <+meskarune>	gtmanfred: I want to get an official mailing list for arch class organization
+Jun 03 13:09:19 <+meskarune>	and we need to get some material written up on the wiki
+Jun 03 13:09:22 <+meskarune>	and we need teachers
+Jun 03 13:09:37 <vodik>	i have lots of free time this term, why not
+Jun 03 13:09:42 <+meskarune>	it would be awesome if we could even get an offical site page
+Jun 03 13:09:45 <vodik>	but i can't stick around now if your doing plan now
+Jun 03 13:09:49 <vodik>	*planning
+Jun 03 13:09:54 <vodik>	im so behind in my classes :(
+Jun 03 13:09:59 <+meskarune>	gtmanfred: but the plan is to have the material available for anyone to use to make a class
+Jun 03 13:10:07 <Tom^>	pfft vodik get a job small son
+Jun 03 13:10:17 <+meskarune>	its ok vodik I"ll post the minutes and you can add in comments later on the site or mailing list
+Jun 03 13:10:20 <gtmanfred>	yeah I have been kinda reading along a bit
+Jun 03 13:10:43 <+meskarune>	It seems like a lot of the new people want to have a class
+Jun 03 13:10:51 <+meskarune>	and I think it would really increase contributions
+Jun 03 13:10:58 <+meskarune>	and also make sure people are doing things correctly
+Jun 03 13:11:04 <gtmanfred>	I am not so much wanting to have a class, but I am willing to help wherever it is needed
+Jun 03 13:11:09 <---	pink_anarchist (~pink@dslb-088-073-037-011.pools.arcor-ip.net) has Quit (Quit: WeeChat 0.3.7)
+Jun 03 13:11:22 <vodik>	teaching is a good way of learning too. it really forces you to get things down
+Jun 03 13:12:00 <+meskarune>	gtmanfred: maybe you can help with creating tutorials and stuff on the wiki? I would like to see lessons on making PKGBUILDS for cvs, git, ruby, python programs, etc and also how to add patches and stuff
+Jun 03 13:12:16 <+meskarune>	gtmanfred: I"m sure you know more about package maintaining than I do :P
+Jun 03 13:12:30 <gtmanfred>	yeah, vcs looks like is about to change a who lot too
+Jun 03 13:12:41 <vodik>	yeah, massive patches posted on the mailing list
+Jun 03 13:12:58 <vodik>	that said, we do have /usr/share/pacman/PKGBUILD-*.proto already
+Jun 03 13:12:59 <+meskarune>	But the lessons can also serve as like, best practices when making those packages
+Jun 03 13:13:04 <vodik>	so we're half there
+Jun 03 13:13:09 <gtmanfred>	http://mailman.archlinux.org/pipermail/pacman-dev/2012-June/015561.html
+Jun 03 13:13:10 <phrik>	Title: [pacman-dev] [RFC] [PATCH 0/4] makepkg: VCS package overhaul (at mailman.archlinux.org)
+Jun 03 13:13:17 <+meskarune>	oh wow
+Jun 03 13:13:32 <vodik>	gtmanfred: btw do you use mutt?
+Jun 03 13:13:38 <+meskarune>	gtmanfred: I don't know how to make a section on the wiki for class stuff though, so maybe that is a good place to start
+Jun 03 13:13:40 <gtmanfred>	basically make it so we don't have to have the git stuff
+Jun 03 13:13:47 <gtmanfred>	meskarune: sounds good
+Jun 03 13:13:50 <gtmanfred>	vodik: ofcourse
+Jun 03 13:14:08 <vodik>	gtmanfred: i've been hacking on this for some time: https://github.com/vodik/dotfiles/blob/master/mutt/colours#L47
+Jun 03 13:14:09 <phrik>	Title: dotfiles/mutt/colours at master Â· vodik/dotfiles Â· GitHub (at github.com)
+Jun 03 13:14:18 <vodik>	gtmanfred: colorize diffs in mutt :)
+Jun 03 13:14:25 <gtmanfred>	vodik: nice
+Jun 03 13:14:27 <+meskarune>	Ok, so I think we are sorta organized now: #1 get a wiki section made, #2 get a mailing list for planning, #3 recruit people to help out
+Jun 03 13:14:36 <+meskarune>	And then go from there?
+Jun 03 13:14:49 <+meskarune>	The planning stuff can go into the talk pages on the wiki too
+Jun 03 13:15:05 <vodik>	kk
+Jun 03 13:15:11 <vodik>	sounds like a plan
+Jun 03 13:15:15 <vodik>	im off
+Jun 03 13:15:18 <vodik>	:)
+Jun 03 13:16:29 <+meskarune>	OK, now lets talk about cross project involvement
+Jun 03 13:16:29 <+meskarune>	:D
+Jun 03 13:16:45 <+meskarune>	We have lots of people here from #ubuntu-women
+Jun 03 13:16:50 <+meskarune>	so I wanna say thanks for coming 
+Jun 03 13:16:51 <+meskarune>	:)
+Jun 03 13:17:07 <+meskarune>	I would love to pool our resources together 
+Jun 03 13:17:20 <gtmanfred>	vodik: where does that colours file go?
+Jun 03 13:18:01 <+meskarune>	pleia2: are there any projects you think would be good for us to work on with you?
+Jun 03 13:18:13 <+tigrmesh>	welcome Cheri703, pleia2, MarkDude
+Jun 03 13:18:32 <+meskarune>	I really want to add in some links to our site for ubuntu classroom since there seems to be some great stuff on there
+Jun 03 13:18:35 --->	TechDesk (~Troll@37.55.15.109.rev.sfr.net) has Joined #archlinux-women
+Jun 03 13:18:38 <pleia2>	thanks for the invite :)
+Jun 03 13:18:40 <+meskarune>	maybe we can share mentors?
+Jun 03 13:18:42 <+meskarune>	:)
+Jun 03 13:18:44 <+tigrmesh>	and any other #ubuntu-women i left out  :)
+Jun 03 13:18:48 <Cheri703>	o/ sorry, was distracted :) and thanks!
+Jun 03 13:19:13 <pleia2>	our mentoring program is quite informal, we all work to answer questions and point folks in the right direction
+Jun 03 13:19:19 <MarkDude>	ty tigrmesh
+Jun 03 13:19:46 **	MarkDude loves the annouce for this channel BTW. Impunity = AWESOME :)
+Jun 03 13:20:02 <+tigrmesh>	:)
+Jun 03 13:20:08 <pleia2>	that said, anyone is always welcome to join our channel to ask for direction on anything that has arch/ubuntu overlap
+Jun 03 13:20:19 <+meskarune>	awesome :)
+Jun 03 13:20:57 --->	fogobogo (~fogobogo@unaffiliated/fogobogo) has Joined #archlinux-women
+Jun 03 13:20:57 <---	Anon7-2521 (~bin_bash@unaffiliated/anon7-2521) has Quit (Read error: Connection reset by peer)
+Jun 03 13:21:16 --->	Anon7 (~bin_bash@unaffiliated/anon7-2521) has Joined #archlinux-women
+Jun 03 13:21:16 <+meskarune>	I was going to maybe make a mentor list with like, skills that people are willing to share
+Jun 03 13:21:30 <+meskarune>	so it would be awesome if I could list a few ubuntu-women members as well
+Jun 03 13:21:31 <+meskarune>	:)
+Jun 03 13:21:32 <MarkDude>	For the record, Im sorta an outlier with Ubuntu Women. Its my FOSS group I love the most. Yet keep a distance so my sometimes silly words dont somehow get them in trouble.
+Jun 03 13:21:38 <Anon7>	That's a good idea.
+Jun 03 13:22:13 <+meskarune>	so like, if someone is good with python or good with creating gtk themes, etc
+Jun 03 13:22:34 <XReaper>	<3 gentoo
+Jun 03 13:22:42 <gtmanfred>	<3 XReaper
+Jun 03 13:22:43 **	MarkDude is part of a group in Fedora at this pojnt called *Play well with others* - it has similar goals. And to sorta just create an environment where people are peers
+Jun 03 13:22:52 <+meskarune>	I'm trying to contact other groups like debian women and fedora's women too
+Jun 03 13:22:52 <code_astronomer>	lol gentoo
+Jun 03 13:23:02 <+meskarune>	sounds cool MarkDude 
+Jun 03 13:23:08 <XReaper>	I <3 waiting an hour for updates to complete
+Jun 03 13:23:13 <MarkDude>	Fedora women has 6 memebrs last time I checked
+Jun 03 13:23:32 <+meskarune>	but I think mentoring is a good place we can share since sometimes it can be hard to find enough people with diverse skills for that :)
+Jun 03 13:23:38 <MarkDude>	As a man, I cant join. So I have no opinions on it. I encourage it tho :)
+Jun 03 13:23:54 <akk>	I sorta wish we could have one big mentor list for all the projects, so we didn't have to keep being listed on ubuntu-women, debian-women, linuxchix, arch-women etc.
+Jun 03 13:24:03 <+meskarune>	and linuxchix too has lots of resources
+Jun 03 13:24:03 <MarkDude>	akk +1
+Jun 03 13:24:16 <akk>	It's so fragmented that potential mentees never actually find anyone.
+Jun 03 13:24:21 <+meskarune>	akk: yeah, that would be great
+Jun 03 13:24:45 <+meskarune>	akk: maybe using linux chix as the main place to list everyone would be good? since they are distro agnostic 
+Jun 03 13:24:47 <akk>	(that said, you're welcome to list me on any arch mentor list for programming stuff)
+Jun 03 13:24:53 <pleia2>	meskarune: +1
+Jun 03 13:24:56 <+meskarune>	:D
+Jun 03 13:25:05 <+meskarune>	ok I'll talk with them about that :)
+Jun 03 13:25:16 <akk>	Linuxchix would certainly be happy to host a listing like that. We don't have a formal mentor listing now.
+Jun 03 13:25:17 <+meskarune>	then we can all just link to that list or have the same list on our sites
+Jun 03 13:25:43 --->	kyla (~quassel@cpe-67-249-199-108.twcny.res.rr.com) has Joined #archlinux-women
+Jun 03 13:25:50 <akk>	And if it's somewhere else, we're happy to link to it and help promote it.
+Jun 03 13:26:20 <akk>	(We probably should have a page listing mentor programs for women in linux anyway)
+Jun 03 13:26:36 <+meskarune>	ok sounds awesome
+Jun 03 13:26:43 <+meskarune>	who do I talk to about that?
+Jun 03 13:26:48 <akk>	me :)
+Jun 03 13:26:51 <+meskarune>	oh, hehe
+Jun 03 13:27:03 <---	kyla (~quassel@cpe-67-249-199-108.twcny.res.rr.com) has Quit (Client Quit)
+Jun 03 13:27:19 <akk>	Actually it should be posted on the volunteers@linuxchix.org list, but I can do that, or I can make a page on the website if we know what to put there.
+Jun 03 13:27:24 --->	mintydragon (~quassel@cpe-67-249-199-108.twcny.res.rr.com) has Joined #archlinux-women
+Jun 03 13:27:33 <akk>	And I can approve volunteers who want to add to the page.
+Jun 03 13:27:39 <+meskarune>	ok awesome
+Jun 03 13:28:04 <+meskarune>	and I"ll send out information to the other groups like OWOOT, and Fedora, devchix, etc
+Jun 03 13:28:21 <+meskarune>	so they know we are trying to have a universal list
+Jun 03 13:28:52 <+meskarune>	Maybe each volunteer can have some skills they want to share, what OS's they use/are familiar with, and what projects they are involved in?
+Jun 03 13:28:58 **	MarkDude can be the contact point for Fedora- 
+Jun 03 13:29:03 <+meskarune>	oh and contact info of course
+Jun 03 13:29:07 <+meskarune>	awesome MarkDude :)
+Jun 03 13:29:22 <MarkDude>	Currently asking a few women in Fedora if they are willing to take lead here
+Jun 03 13:29:37 **	MarkDude can be a peer here.
+Jun 03 13:29:44 <+meskarune>	I know they have a woman project leader there :D
+Jun 03 13:29:50 <+meskarune>	which is pretty inspiring 
+Jun 03 13:30:11 <+meskarune>	oh that would be great MarkDude
+Jun 03 13:30:29 <+meskarune>	I'm on the dev chicks list so I can post there
+Jun 03 13:30:42 <---	mintydragon (~quassel@cpe-67-249-199-108.twcny.res.rr.com) has Quit (Client Quit)
+Jun 03 13:31:01 <+meskarune>	akk: so would it be easier/better for you to have a page on mentors and mentor programs? 
+Jun 03 13:31:07 <+meskarune>	or to have it on volunteers
+Jun 03 13:31:32 --->	mintydragon (~quassel@cpe-67-249-199-108.twcny.res.rr.com) has Joined #archlinux-women
+Jun 03 13:32:19 <+meskarune>	well, I"m exicted about having a real mentor list together :)
+Jun 03 13:32:21 <MarkDude>	If you had a listing for my category, semi-enlightened caveman, feminist hulk wanna be, dude aware of what privilege means etc... put me there :)
+Jun 03 13:32:32 <akk>	meskarune: I think it's really a question of who maintains it ... should it be a wiki and everybody just adds themselves, or should a few people maintain it?
+Jun 03 13:32:57 <akk>	linuxchix.org isn't a wiki, though anyone can sign up for a drupal account and be approved to edit pages.
+Jun 03 13:33:02 <---	Tom^ (~onoeits@unaffiliated/tom/x-6084202) has Quit (Quit: FBI is raiding the house bye)
+Jun 03 13:33:13 <+meskarune>	oh, I see akk :)
+Jun 03 13:33:24 <+meskarune>	maybe project leaders can sign up and add to the list?
+Jun 03 13:33:29 <+meskarune>	and other people can email in ?
+Jun 03 13:33:31 <MarkDude>	MarkDude@fedoraproject.org   let me know how I can help. There are many in leadership (as well as general membership)  that want to help
+Jun 03 13:33:44 <+meskarune>	great! :D
+Jun 03 13:34:42 <+meskarune>	akk: would it be useful to have some sort of sign up? like google forms or something? so people put in their own information? 
+Jun 03 13:35:11 <---	mintydragon (~quassel@cpe-67-249-199-108.twcny.res.rr.com) has Quit (Remote host closed the connection)
+Jun 03 13:35:19 <akk>	Actually, it might even make sense to use a google doc as the main list. devchix has done that for a few things, I think.
+Jun 03 13:35:20 --->	mintydragon (~quassel@cpe-67-249-199-108.twcny.res.rr.com) has Joined #archlinux-women
+Jun 03 13:35:37 <akk>	It seems to work fairly well.
+Jun 03 13:35:45 <akk>	So yeah, maybe we should do it that way.
+Jun 03 13:35:47 <+meskarune>	Oh ok
+Jun 03 13:36:02 <+meskarune>	and then anyone who wants to can put the list on their site
+Jun 03 13:36:17 <+meskarune>	so we have a shared mentor list
+Jun 03 13:36:45 <+meskarune>	is linux chix the best way to organize this? do you have a mailing list?
+Jun 03 13:36:54 <akk>	Can we embed a google doc like that on other pages? That would be awesome, if we could all embed the same list.
+Jun 03 13:37:24 <+meskarune>	yeah
+Jun 03 13:37:31 --->	Tom^ (~onoeits@unaffiliated/tom/x-6084202) has Joined #archlinux-women
+Jun 03 13:37:32 <akk>	We do have mailing lists -- volunteers@linuxchix.org is the best place to organize, newchix@ and techtalk@ would be good for recruiting mentees and mentors.
+Jun 03 13:37:52 <akk>	http://www.linuxchix.org/linuxchix-email-lists.html
+Jun 03 13:37:56 <phrik>	Title: LinuxChix email lists | LinuxChix (at www.linuxchix.org)
+Jun 03 13:38:09 <+meskarune>	I guess you can publish a google document as a webpage and embed it into sites
+Jun 03 13:38:27 <akk>	Nice!
+Jun 03 13:38:45 <akk>	(not that I know how to do that in drupal ... would be so easy if we just had plain html :/ )
+Jun 03 13:39:25 <MarkDude>	FPL is an awesome person.Her attitude is that a woman in charge should not have been in  the headline. Just the article. She wants that sorta thing to be so common place its not news :)
+Jun 03 13:40:22 <+meskarune>	akk: yeah, I am a fan of plain html also :P
+Jun 03 13:40:58 <+meskarune>	Oh I guess linuxchix has some classes also :D
+Jun 03 13:41:03 <+meskarune>	there is a whole mailing list for that
+Jun 03 13:41:05 <Tom^>	MarkDude thing is they alredy are
+Jun 03 13:41:17 <akk>	yes, we have online classes periodically
+Jun 03 13:41:21 <+meskarune>	I need to make a resources page with links to other groups and their IRC channels and mailing lists
+Jun 03 13:41:42 <+tigrmesh>	yes
+Jun 03 13:42:08 <MarkDude>	Tom^, thats sorta her take
+Jun 03 13:42:24 **	MarkDude just talked to tatica, she is willing to mentor
+Jun 03 13:42:32 <+meskarune>	awesome :D
+Jun 03 13:42:46 <---	mintydragon (~quassel@cpe-67-249-199-108.twcny.res.rr.com) has Quit (Remote host closed the connection)
+Jun 03 13:43:12 <MarkDude>	Maria Leandro http://tatica.org/
+Jun 03 13:43:14 <phrik>	Title: tatica.org - ps ax | grep tuxilandia (at tatica.org)
+Jun 03 13:43:32 <MarkDude>	She is fluent in Spanish and English, so that skill is great
+Jun 03 13:43:42 <+meskarune>	oh that is awesome
+Jun 03 13:43:50 <vodik>	gtmanfred: muttrc
+Jun 03 13:43:52 <+meskarune>	yeah, and listing spoken languages would also be useful
+Jun 03 13:44:02 <gtmanfred>	vodik: hm, ok
+Jun 03 13:44:11 <+meskarune>	so skills, langauges, contact information, OS's, and project affilitation
+Jun 03 13:45:29 <+meskarune>	would a wiki be better?
+Jun 03 13:45:40 <+meskarune>	then along with a list, each person could have their own user page
+Jun 03 13:46:29 <+tigrmesh>	no
+Jun 03 13:46:34 <+tigrmesh>	keep it simple
+Jun 03 13:46:39 <+meskarune>	yeah :)
+Jun 03 13:46:39 <akk>	Implementation detail that may or may not matter: I know on drupal it's fairly challenging to get nice looking tables, like on Chix Who Speak
+Jun 03 13:46:40 <+tigrmesh>	short and simple
+Jun 03 13:46:45 <akk>	which might also be true on wikis
+Jun 03 13:46:58 <+meskarune>	oh good point too
+Jun 03 13:47:14 <akk>	so a google doc might be easier in that sense if everyone's adding their own entries (so they don't mess up the table accidentally)
+Jun 03 13:50:04 <+meskarune>	http://wiggio.com/
+Jun 03 13:50:06 <phrik>	Title: Wiggio - Makes it easy to work in groups. (at wiggio.com)
+Jun 03 13:50:12 <+meskarune>	yeah
+Jun 03 13:50:29 <+meskarune>	akk: can linux chix host the google doc?
+Jun 03 13:50:33 <akk>	wiggio should learn about <noscript> tags
+Jun 03 13:50:35 <+meskarune>	or we could
+Jun 03 13:50:40 --->	fogobogoo (~fogobogo@unaffiliated/fogobogo) has Joined #archlinux-women
+Jun 03 13:50:41 <+meskarune>	heh, yeah
+Jun 03 13:50:42 <+meskarune>	:P
+Jun 03 13:50:47 <akk>	If it's a google doc wouldn't google be hosting it?
+Jun 03 13:52:12 <akk>	Or is it a question of what google account? Can organizations get a google account these days?
+Jun 03 13:52:44 <akk>	(I'm actually not that up on google's various services -- pleia2 might know more)
+Jun 03 13:52:54 <+meskarune>	oh I see
+Jun 03 13:53:07 <+meskarune>	yeah, like who's google account, etc
+Jun 03 13:53:20 <+meskarune>	I'm using self hosted email at the moment
+Jun 03 13:53:22 <+tigrmesh>	we talked earlier about publishing the doc as a web page and embeding it into a site
+Jun 03 13:53:35 <+meskarune>	yeah, we could also use google groups
+Jun 03 13:53:40 <---	fogobogo (~fogobogo@unaffiliated/fogobogo) has Quit (Ping timeout: 260 seconds)
+Jun 03 13:53:43 <+meskarune>	but then people would have to have a google account
+Jun 03 13:53:51 <+meskarune>	vs. forms which anyone can use if they have the link
+Jun 03 13:54:08 <akk>	Right, forms (is that the same as docs?) would be better.
+Jun 03 13:54:34 <+meskarune>	with form you have a page where people put information into it, and then that information is saved in an excel type thing
+Jun 03 13:54:48 <akk>	Sounds perfect.
+Jun 03 13:54:52 <+tigrmesh>	wait, wait?  that's a lot
+Jun 03 13:55:15 <+tigrmesh>	forms.  sorry.  read the wrong lines
+Jun 03 13:55:19 <akk>	At least if we can set up an account for linuxchix or some other org ... someone's personal account might be less perfect.
+Jun 03 13:55:20 <+tigrmesh>	forms sound good
+Jun 03 13:55:29 <+meskarune>	yeah
+Jun 03 13:55:42 <+meskarune>	I could actually switch archwomen to google apps
+Jun 03 13:55:50 <+meskarune>	since our host supports that
+Jun 03 13:55:56 <+meskarune>	there is google apps for your domain ,etc
+Jun 03 13:56:06 <+meskarune>	so its all under your own domain name
+Jun 03 13:56:43 <+meskarune>	but then of course you are giving your data to google :P
+Jun 03 13:56:51 <+tigrmesh>	true
+Jun 03 13:57:13 <+meskarune>	it depends on people's politics I guess
+Jun 03 13:57:48 <+tigrmesh>	what do you mean by switch?
+Jun 03 13:58:00 <+tigrmesh>	what would get switched?
+Jun 03 13:58:25 **	MarkDude steers clear of this. 
+Jun 03 13:59:00 <MarkDude>	For the record, my views are my own, and do not represnt that of any projects I am part of.
+Jun 03 13:59:08 <+meskarune>	:)
+Jun 03 13:59:40 <+meskarune>	tigrmesh: I could switch the email account to google apps for your domain, and we'd have the gmail interface, along with docs, calendar, etc
+Jun 03 14:00:06 <+meskarune>	right now everything is hosted on the server
+Jun 03 14:00:25 <+meskarune>	so I can make backups of folders and mysql database
+Jun 03 14:00:43 <+tigrmesh>	that's the plus to having it on the server?
+Jun 03 14:00:56 <+meskarune>	it seems like a point of contention 
+Jun 03 14:01:05 <+meskarune>	using google, vs self hosted
+Jun 03 14:01:32 <---	Anon7 (~bin_bash@unaffiliated/anon7-2521) has Quit (Quit: Bye)
+Jun 03 14:01:52 <+tigrmesh>	do we have email on the site now?
+Jun 03 14:02:14 <+meskarune>	well, the other issue is that if google cancels a service, you are SOL
+Jun 03 14:02:21 <+tigrmesh>	right
+Jun 03 14:02:46 <+tigrmesh>	i mean, if we don't have email, then what does it matter?
+Jun 03 14:02:52 <+meskarune>	our email is admin@archwomen.org
+Jun 03 14:03:04 <+meskarune>	its using sendmail and roudcube, etc
+Jun 03 14:03:13 <+tigrmesh>	ah.  we do have email
+Jun 03 14:03:23 <+meskarune>	http://archwomen.org:2095
+Jun 03 14:03:33 <+meskarune>	then you put the user and pass in there
+Jun 03 14:04:05 <+tigrmesh>	i see
+Jun 03 14:05:05 <+meskarune>	there is also survey monkey, but I'm not super familiar with that
+Jun 03 14:05:30 <+meskarune>	and we'd still need a group or person to admin the list :)
+Jun 03 14:05:50 <+tigrmesh>	for mentors to put out their availability?
+Jun 03 14:06:00 <+meskarune>	yeah
+Jun 03 14:06:27 <+meskarune>	like, name, contact information, skills they want to share, times they are available, project affilitations, etc
+Jun 03 14:06:42 <+tigrmesh>	this is in addition to google forms on linuxchix?
+Jun 03 14:06:50 <+tigrmesh>	that akk was talking about?
+Jun 03 14:06:56 <+meskarune>	that is what would be on the mentor list
+Jun 03 14:07:13 <+meskarune>	we just need to figure out what the best way of creating a mentor list is
+Jun 03 14:07:25 <+meskarune>	and who is going to host it and admin it
+Jun 03 14:07:58 <+meskarune>	I'm willing to help out with list maintanance
+Jun 03 14:08:11 <+tigrmesh>	ok.  it's after 3.  we've been meeting for 2 hours
+Jun 03 14:08:44 <+tigrmesh>	i suggest we wrap this up
+Jun 03 14:08:53 <+meskarune>	OH
+Jun 03 14:08:56 <+meskarune>	http://drupal.org/project/webform
+Jun 03 14:08:58 <phrik>	Title: Webform | drupal.org (at drupal.org)
+Jun 03 14:08:59 <+tigrmesh>	would you or someone be willing to do more research on the technical details?
+Jun 03 14:09:00 <+meskarune>	would that work?
+Jun 03 14:09:30 <+meskarune>	linux chix uses drupal ?
+Jun 03 14:09:51 <+meskarune>	webforms lets people put information into a form that can be exported to a spreadsheet
+Jun 03 14:10:33 <+tigrmesh>	looks great to me
+Jun 03 14:10:39 <+tigrmesh>	akk: ?
+Jun 03 14:11:24 <akk>	tigrmesh: Yes, drupal
+Jun 03 14:12:41 <akk>	I can ask and see if any of our drupal administrators knows about the webform module, and whether there would be any problem installing it.
+Jun 03 14:13:19 <akk>	(We're a bit short on drupal administrators, unfortunately ... the people who were all gung-ho about using it disappeared shortly after the site was migrated.)
+Jun 03 14:13:42 <+tigrmesh>	darn
+Jun 03 14:13:53 <+tigrmesh>	meskarune: what do you think?
+Jun 03 14:14:24 <+meskarune>	akk: can I sign up for your site? :D
+Jun 03 14:14:47 **	MarkDude hopes this does not mean he will have to learn some new skillz XD
+Jun 03 14:15:05 <+meskarune>	I have a bit of drupal experiance, and maybe I can give a kick in the pants to some of the linux using gals in #drupalchix 
+Jun 03 14:15:26 <akk>	meskarune: Sure, and if you let me know your account name I can give you write access.
+Jun 03 14:15:53 <+meskarune>	meskarune (rl name is Dolores) and email is admin@doloresportalatin.info
+Jun 03 14:16:18 <akk>	meskarune: If you don't mind, can you subscribe to volunteers@linuxchix too?
+Jun 03 14:16:23 <+meskarune>	sure :)
+Jun 03 14:17:34 <akk>	Hmm, actually it's not very clear on the site how to sign up for a drupal account -- did you find it?
+Jun 03 14:19:47 <+meskarune>	maybe I should make an archwomen user...?
+Jun 03 14:19:52 <akk>	or maybe I should just add you, that might be easier than finding the sign-up link :)
+Jun 03 14:19:55 <+meskarune>	or should I just sign up as myself
+Jun 03 14:20:58 <akk>	I made an account for you.
+Jun 03 14:21:11 <+meskarune>	ok, thanks :)
+Jun 03 14:21:40 <+meskarune>	Ok, so we have a plan for the mentor list then? :)
+Jun 03 14:22:44 **	MarkDude leans in to learn of his *todo list * :)
+Jun 03 14:24:37 --->	arbn (~arbn@pool-108-39-146-112.pitbpa.fios.verizon.net) has Joined #archlinux-women
+Jun 03 14:25:48 <+meskarune>	MarkDude: we are working on a mentorlist for starters, so once that is up, I'll send you an email and you can recruit fedora gals :D
+Jun 03 14:26:09 <+meskarune>	Once we get a list together, it will be easier to organize inter-group stuff also
+Jun 03 14:26:16 <MarkDude>	Perfect meskarune
+Jun 03 14:26:45 <+meskarune>	ok awesome
+Jun 03 14:26:59 <+meskarune>	And I'll make a post to the linux chix mailing list about that?
+Jun 03 14:27:04 <+meskarune>	and get the ball rolling :D
+Jun 03 14:28:26 <akk>	Great!
+Jun 03 14:28:39 <---	mystiiq (~user@18.30.190.90.dyn.estpak.ee) has Quit (Quit: leaving)
+Jun 03 14:28:53 <MarkDude>	What is this titled?
+Jun 03 14:29:25 **	MarkDude will have to do some sorta informal report on this. 
+Jun 03 14:29:30 --->	vodik_ (~simongmzl@archlinux/op/vodik) has Joined #archlinux-women
+Jun 03 14:29:32 <+meskarune>	hehe
+Jun 03 14:29:42 <vodik_>	woah, the new weechat version is neat
+Jun 03 14:29:46 <vodik_>	lot more colourful
+Jun 03 14:29:49 <+meskarune>	Maybe Mentor List?
+Jun 03 14:29:52 <vodik_>	in a good way
+Jun 03 14:30:08 <akk>	Oh nooo! And I finally thought I mostly got my weechat colors so I could actually read the status bar.
+Jun 03 14:30:13 <+meskarune>	hehe
+Jun 03 14:30:17 <+meskarune>	I need to update LOl
+Jun 03 14:30:19 <akk>	Mentor List sounds good.
+Jun 03 14:30:27 <vodik_>	akk: didn't change that, a few more things got coloured
+Jun 03 14:30:36 <akk>	or something more specific like Mentors for Women in Linux?
+Jun 03 14:30:43 <+meskarune>	OOOH yeah, good idea
+Jun 03 14:30:47 <akk>	vodik_: I hope there's some documentation for colors now. :)
+Jun 03 14:30:47 **	MarkDude expects Karsten Wade will encourage this also. We were talking a while ago of the limitations of being *2 white dudes* trying to help. There are limitation on some areas we could mentor in ;)
+Jun 03 14:31:04 <vodik_>	akk: iset is a wonderful tool if you haven't installed that
+Jun 03 14:31:08 <vodik_>	akk: iset and weeget
+Jun 03 14:31:21 <MarkDude>	akk,  that would be MWL
+Jun 03 14:31:24 <akk>	vodik_: I haven't, so I'll try them, thanks.
+Jun 03 14:31:33 <MarkDude>	lets google to make sure thats good results
+Jun 03 14:31:44 <vodik_>	akk: interactive weechat settings editor. it exposes a lot of internal documentation
+Jun 03 14:31:55 <+meskarune>	!g Mentors for Women in Linux
+Jun 03 14:31:57 <phrik>	meskarune: HOWTO Encourage Women in Linux: <http://tldp.org/HOWTO/Encourage-Women-Linux-HOWTO/>
+Jun 03 14:32:08 <+meskarune>	so I guess that is the first search result
+Jun 03 14:32:18 <akk>	Hey, that's not mentors ... we need to beat that! :)
+Jun 03 14:32:25 <+meskarune>	hehe, yeah! :D
+Jun 03 14:32:40 <+meskarune>	I think the arch women site is finally first when searching arch women
+Jun 03 14:32:55 <+meskarune>	it used to link to a forum post about arch wallpapers with women in them
+Jun 03 14:32:58 <akk>	yep, it's first here
+Jun 03 14:33:10 <akk>	Ouch! I'm glad you beat that one down.
+Jun 03 14:33:13 <---	hyperreal (~jas@c-76-29-50-166.hsd1.il.comcast.net) has Quit (Quit: leaving)
+Jun 03 14:33:14 <+meskarune>	heh yeah
+Jun 03 14:33:42 <akk>	I also get the Australian Research Centre for Health of Women and Babies (3rd, first two are really related to arch-women)
+Jun 03 14:33:46 <+meskarune>	so I'll make a post to our mailing list, and to linux chix
+Jun 03 14:34:10 <+meskarune>	about the mentor list
+Jun 03 14:34:21 <+meskarune>	we can do some planning :)
+Jun 03 14:34:46 <+meskarune>	Anyone else have some input before I move on the last agenda items? :)
+Jun 03 14:35:04 <vodik_>	can i get a link again?
+Jun 03 14:35:13 <vodik_>	i've moved across space and time to a different machine :(
+Jun 03 14:35:16 <+meskarune>	oh actually maybe arch women should get some reps to interact to other groups
+Jun 03 14:35:16 <+meskarune>	:P
+Jun 03 14:35:28 <+meskarune>	http://titanpad.com/a6KwiQXuRf
+Jun 03 14:35:30 <phrik>	Title: TitanPad: a6KwiQXuRf (at titanpad.com)
+Jun 03 14:37:22 <vodik_>	+1 for markdown
+Jun 03 14:37:27 <+meskarune>	Ok, next agenda item, site features and updates, etc
+Jun 03 14:37:32 <vodik_>	you could then just make a public github repo of all posts
+Jun 03 14:37:33 <+meskarune>	markdown was suggested
+Jun 03 14:37:41 <vodik_>	publishing could be a matter of a pull request
+Jun 03 14:37:54 <+meskarune>	oh, good idea
+Jun 03 14:38:18 <+meskarune>	I was going to try and maybe get a sql file of the posts only and stick them on the git
+Jun 03 14:38:25 <vodik_>	there are a few examples, using static site generators, of how to run a blog or site with the files hosted on github like this
+Jun 03 14:38:41 <+meskarune>	the current site is b2evolution
+Jun 03 14:38:41 <vodik_>	give me a sec, i'll post an example
+Jun 03 14:38:56 <+meskarune>	its a php based blog CMS thing
+Jun 03 14:39:10 <+tigrmesh>	you don't like b2evolution?
+Jun 03 14:39:12 <+meskarune>	So markdown is sorta like how a wiki is edited
+Jun 03 14:39:16 <vodik_>	https://github.com/jaspervdj/jaspervdj/tree/master/posts
+Jun 03 14:39:19 <phrik>	Title: jaspervdj/posts at master Â· jaspervdj/jaspervdj Â· GitHub (at github.com)
+Jun 03 14:39:31 <+meskarune>	tigrmesh: right now posts are html, but there is a plugin for b2evolution for markdown instead. 
+Jun 03 14:39:58 <+tigrmesh>	so this would mean still using b2evolution, just a bit differently?
+Jun 03 14:40:00 <+meskarune>	vodik_: we also have an rss feed for posts, so maybe I could export that and stick it on github
+Jun 03 14:40:19 <+meskarune>	tigrmesh: yeah, it was suggested to me that formating posts would be way simpler with markdown
+Jun 03 14:40:29 <+meskarune>	sinces it is like a wiki
+Jun 03 14:40:30 <vodik_>	maybe, idk enough to comment about that
+Jun 03 14:40:44 <vodik_>	but if you do move to markdown, this might make for a good workflow
+Jun 03 14:40:46 --->	joyfulgirl (~joyfulgir@unaffiliated/joyfulgirl) has Joined #archlinux-women
+Jun 03 14:40:50 <+meskarune>	and the post code would be cleaner
+Jun 03 14:41:01 **	vodik_ drops 2c|
+Jun 03 14:41:04 <vodik_>	*Â¢
+Jun 03 14:41:37 <joyfulgirl>	Well, cents you asked so nicely...
+Jun 03 14:41:52 <+meskarune>	haha
+Jun 03 14:41:55 <vodik_>	lol
+Jun 03 14:42:04 <+meskarune>	tigrmesh: I guess this woudl be an example: https://github.com/jaspervdj/jaspervdj/blob/master/posts/2010-01-04-maybe-null-boilerplate.markdown
+Jun 03 14:42:06 <phrik>	Title: jaspervdj/posts/2010-01-04-maybe-null-boilerplate.markdown at master Â· jaspervdj/jaspervdj Â· GitHub (at github.com)
+Jun 03 14:42:17 <+meskarune>	right now I think the html editing is a bit kludgy
+Jun 03 14:43:10 --->	philipballew (~philipbal@ubuntu/member/philipballew) has Joined #archlinux-women
+Jun 03 14:43:19 <vodik_>	i do my school notes in markdown, its wonderful
+Jun 03 14:43:32 <joyfulgirl>	That file is html, not markdown. How odd.
+Jun 03 14:44:09 <vodik_>	joyfulgirl: click the raw button
+Jun 03 14:44:16 <vodik_>	example: http://sprunge.us/OKYN
+Jun 03 14:44:34 <+meskarune>	vodik_: you should sign up for a site account :P
+Jun 03 14:44:44 <+meskarune>	you too joyfulgirl  :D
+Jun 03 14:44:57 <vodik_>	i should
+Jun 03 14:45:45 <+meskarune>	email admin@archwomen with a username and email address :P
+Jun 03 14:45:59 <joyfulgirl>	vodik_: I've got it in a browser, now; I was just surprised after `curl ... | less' returned that
+Jun 03 14:46:07 <joyfulgirl>	meskarune: cool
+Jun 03 14:46:27 <+meskarune>	Ok, so anyone against markdown?
+Jun 03 14:46:31 <vodik_>	joyfulgirl: yeah, its because github "understand" markdown and converts it to html automatically
+Jun 03 14:46:38 <vodik_>	*understands
+Jun 03 14:46:57 <+meskarune>	Oh also that reminds me, we need more people on the arch women git hub
+Jun 03 14:47:15 <+meskarune>	there is an arch women group/account on github :P
+Jun 03 14:47:21 <vodik_>	link?
+Jun 03 14:47:40 <+meskarune>	!g github archwomen
+Jun 03 14:47:42 <phrik>	meskarune: archwomen (Arch Linux Women Project) Â· GitHub: <https://github.com/archwomen>
+Jun 03 14:47:48 <+meskarune>	^_^
+Jun 03 14:48:33 <+tigrmesh>	:) Location
+Jun 03 14:48:35 <+tigrmesh>	    the internet
+Jun 03 14:48:59 <vodik_>	meskarune: are you/were you considering jekyll?
+Jun 03 14:49:40 <+meskarune>	well, I"m just learning that for my personal site now :P
+Jun 03 14:49:54 <+meskarune>	since wordpress loads slowly and I hate php :P
+Jun 03 14:50:19 <vodik_>	heh
+Jun 03 14:50:25 **	+meskarune is a tech hipster
+Jun 03 14:50:28 <+meskarune>	:P
+Jun 03 14:50:45 <vodik_>	i like hakyll better, but its haskell instead of python so the learning curve may be a little higher
+Jun 03 14:50:45 <+meskarune>	tigrmesh: how do you feel about switching to markdown?
+Jun 03 14:50:57 <+tigrmesh>	no opinion
+Jun 03 14:51:03 <+meskarune>	oh ok :)
+Jun 03 14:51:06 <+tigrmesh>	which means "fine with me"
+Jun 03 14:51:20 <+meskarune>	I'll post a message on the site backend too
+Jun 03 14:51:31 <+meskarune>	and if it doesn't work out, I can always disable the markdown plugin
+Jun 03 14:51:44 <+meskarune>	so no harm in trying I guess
+Jun 03 14:51:45 <+tigrmesh>	i'll ask you later how that changes posting
+Jun 03 14:51:49 <+meskarune>	ok
+Jun 03 14:51:49 <joyfulgirl>	vodik_: Does it use pandoc's markdown extensions?
+Jun 03 14:51:55 <vodik_>	joyfulgirl: yes
+Jun 03 14:51:58 <joyfulgirl>	nice
+Jun 03 14:52:00 <joyfulgirl>	Pandoc rocks
+Jun 03 14:52:06 <vodik_>	yes it does :)
+Jun 03 14:52:16 <vodik_>	i use hakyll + pandoc to manage my class notes
+Jun 03 14:52:25 <joyfulgirl>	Cool
+Jun 03 14:52:44 <joyfulgirl>	I always used org, + LaTeX fragments when there was math
+Jun 03 14:53:15 <vodik_>	yeah im really glad pandoc supports math
+Jun 03 14:53:17 <vodik_>	mathjax rocks
+Jun 03 14:53:26 <joyfulgirl>	Cool
+Jun 03 14:53:41 <vodik_>	(for html rendering)
+Jun 03 14:54:17 <+meskarune>	hehe
+Jun 03 14:54:30 <+meskarune>	ok, other site features that we need: rss feed integration
+Jun 03 14:54:41 <+meskarune>	and some CSS made for the news feed and calendar
+Jun 03 14:54:45 --->	Solvialle (~Solvialle@unaffiliated/silvah) has Joined #archlinux-women
+Jun 03 14:54:55 <+tigrmesh>	ok.  we've been doing this for nearly 3 hours.  i once again suggest we wrap this up
+Jun 03 14:55:03 <+meskarune>	Yeah. :)
+Jun 03 14:55:04 <joyfulgirl>	Ohh, this was a meeting
+Jun 03 14:55:09 <+meskarune>	I need to get ready for work tomorrow
+Jun 03 14:55:11 <+tigrmesh>	yes
+Jun 03 14:55:13 <joyfulgirl>	Ah
+Jun 03 14:55:20 <+meskarune>	lol yes joyfulgirl, and you unknowingly contributed :P
+Jun 03 14:55:26 <joyfulgirl>	hehe
+Jun 03 14:55:44 <vodik_>	the best kind of contributing
+Jun 03 14:56:01 <Solvialle>	The meeting is over?
+Jun 03 14:56:05 <+meskarune>	so if anyone wants to help out with some site stuff, I won't say no
+Jun 03 14:56:06 <+meskarune>	:P
+Jun 03 14:56:26 <+meskarune>	Anyone else have comments or suggestions before the meeting is closed?
+Jun 03 14:56:35 <+meskarune>	nearly over Solvialle :)
+Jun 03 14:56:38 <+tigrmesh>	thank you meskarune
+Jun 03 14:56:46 <+meskarune>	yep
+Jun 03 14:57:06 <+meskarune>	Ok meeting is offically over. Thanks so much for everyone showing up and adding in their input and support
