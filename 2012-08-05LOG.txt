@@ -1,0 +1,176 @@
+2012-08-05 13:05:07   +tigrmesh   =========================== the meeting is officially started ===================
+2012-08-05 13:05:17   fsckd       haha XD
+2012-08-05 13:05:19   gtmanfred   nou
+2012-08-05 13:05:26   fsckd       does anyone want to summarize what's happened for the past month?
+2012-08-05 13:06:13   +tigrmesh   during the month?  or at the last meeting?
+2012-08-05 13:06:27   fsckd       since the last meeting
+2012-08-05 13:07:24   qubodup     I only know what happened on the blog.
+2012-08-05 13:07:41   fsckd       sure, anything interesting?
+2012-08-05 13:08:07   gtmanfred   there is a blog \o/
+2012-08-05 13:08:50   fsckd       \o/
+2012-08-05 13:09:03   qubodup     3 posts: meskarune posted ArchPony, I posted about a game programming course by a woman using an open source engine and about girl geek meetup in berlin (both only mildly related to archwomen) http://archwomen.org/index.php
+2012-08-05 13:09:05   phrik       Title: Arch Linux Women (at archwomen.org)
+2012-08-05 13:10:34   fsckd       is the meetup also shown on archwomen calendar?
+2012-08-05 13:11:25   +tigrmesh   and bin_bash got everything with the facebook and twitter working 100%
+2012-08-05 13:11:50    *   qubodup wasn't aware of the calendar
+2012-08-05 13:12:02   qubodup     do you mean http://archwomen.org/index.php/2012/events ?
+2012-08-05 13:12:04   phrik       Title: Events (at archwomen.org)
+2012-08-05 13:12:30   fsckd       yup
+2012-08-05 13:12:45   fsckd       for some reason the calendar part isn't opening for me ><
+2012-08-05 13:13:02   fsckd       nvm, now it is
+2012-08-05 13:14:13   fsckd       bug day on the 21st
+2012-08-05 13:14:23   +tigrmesh   cool
+2012-08-05 13:14:48   qubodup     fsckd: is there more to see than http://i.imgur.com/3W51g.png ?
+2012-08-05 13:15:06   fsckd       yes
+2012-08-05 13:15:18   qubodup     :(
+2012-08-05 13:15:21   fsckd       http://phpicalendar.archwomen.org//month.php?cal=Ada+Initiative,Archlinux,archwomen,DFWlinuxchix,OWOOT,Rails+Girls,ubuntu+women&getdate=20120821
+2012-08-05 13:15:24   phrik       Title: Ada Initiative, Archlinux, dfw.linuxchix, Oceania Women of Open Tech (OWOOT) | May 14 2012- August 12 2012, Rails Girls, archwomen, Ubuntu Women - August 2012 (at phpicalendar.archwomen.org)
+2012-08-05 13:15:36   fsckd       click on the links in the events page
+2012-08-05 13:15:53   fsckd       and should open to the calendar
+2012-08-05 13:16:44   fsckd       may be we can add geek girl meetups to the calendar but that might be too much stuff
+2012-08-05 13:19:18   fsckd       we're done talking about the calendar and blog?
+2012-08-05 13:19:51   +tigrmesh   seems like it
+2012-08-05 13:20:02   fsckd       alright
+2012-08-05 13:20:09   +tigrmesh   and bin_bash got everything with the facebook and twitter working 100%
+2012-08-05 13:20:20   +tigrmesh   oops.  said that already
+2012-08-05 13:20:24   fsckd       heh
+2012-08-05 13:20:50   fsckd       it has to be mentioned at least twice :P
+2012-08-05 13:20:52   qubodup     didn't know about https://www.facebook.com/ArchWomen
+2012-08-05 13:20:54   phrik       Title: Arch Linux Women | Facebook (at www.facebook.com)
+2012-08-05 13:21:22   fsckd       now you do, please like it
+2012-08-05 13:21:31   qubodup     you're too late
+2012-08-05 13:21:43   fsckd       XD
+2012-08-05 13:21:43   qubodup     like GMT+20 too late
+2012-08-05 13:21:48   fsckd       lol
+2012-08-05 13:22:25   qubodup     I guess we *are* done with website talk then
+2012-08-05 13:22:34   qubodup     If anything else happened, I wouldn't know of it.
+2012-08-05 13:23:21   fsckd       since no one else is saying anything, we'll have to assume nothing much happened
+2012-08-05 13:23:43   yardenac    i only joined irc halfway through but that is my impression :)
+2012-08-05 13:24:41   fsckd       ok, onto our ongoing project, arch classrooms
+2012-08-05 13:24:54   fsckd       meskarune made some wiki pages
+2012-08-05 13:25:41   fsckd       https://wiki.archlinux.org/index.php/PKGBUILD_Templates
+2012-08-05 13:25:43   phrik       Title: PKGBUILD Templates - ArchWiki (at wiki.archlinux.org)
+2012-08-05 13:26:21   gtmanfred   i am making one to add for when vcs stuff gets added in pacman 4.1
+2012-08-05 13:26:44   fsckd       https://wiki.archlinux.org/index.php/Classroom
+2012-08-05 13:26:46   phrik       Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2012-08-05 13:26:56   fsckd       gtmanfred: what vcs stuff?
+2012-08-05 13:27:06   gtmanfred   git and svn and hg support
+2012-08-05 13:27:11   gtmanfred   builtin to makepkg
+2012-08-05 13:27:18   gtmanfred   darcs and cvs and um..
+2012-08-05 13:27:24   gtmanfred   i think there is one more is in the works too
+2012-08-05 13:27:48   qubodup     there seem to be all kinds of templates in /usr/share/pacman
+2012-08-05 13:27:56   gtmanfred   so you won't need the hack that check for -build directory, and either clones or pulls
+2012-08-05 13:28:06   gtmanfred   right but I am making one to add to the templates page
+2012-08-05 13:28:17   fsckd       oh cool, that sounds useful
+2012-08-05 13:28:46   qubodup     the purpose of having the templates in the wiki is to serve people who prefer to use the web browser for research/learning/reading?
+2012-08-05 13:29:47   gtmanfred   and to provide actual commented ones instead of just a blank template
+2012-08-05 13:31:08   fsckd       yup
+2012-08-05 13:31:15   qubodup     ah, I see
+2012-08-05 13:31:52   gtmanfred   you would be surprised how many bad ones are in the aur
+2012-08-05 13:32:00   gtmanfred   for people that don't know to split build and package
+2012-08-05 13:32:06   gtmanfred   so you can do makepkg -R
+2012-08-05 13:32:18    *   fsckd was guilty of that
+2012-08-05 13:32:49   gtmanfred   there are several out there that have install=('something.install')
+2012-08-05 13:32:58   gtmanfred   not knowing it isn't an array :-P
+2012-08-05 13:35:35   fsckd       there are a lot of people who are confused about PKGBUILDs and how to make them
+2012-08-05 13:36:55   fsckd       before i forget, Grinch made a logo https://bbs.archlinux.org/viewtopic.php?pid=1127416#p1127416
+2012-08-05 13:36:57   phrik       Title: Arch Classroom (Page 2) / Arch Discussion / Arch Linux Forums (at bbs.archlinux.org)
+2012-08-05 13:37:05   qubodup     pretty
+2012-08-05 13:39:02   fsckd       where did this come from? "How to Pity the Fool: A Mr. T philosophy course"
+2012-08-05 13:39:16   fsckd       lmao, i wonder what that's supposed to be
+2012-08-05 13:40:25   fsckd       meskarune add that :)
+2012-08-05 13:40:30   fsckd       added*
+2012-08-05 13:40:47   gtmanfred   i think meskarune added it
+2012-08-05 13:40:48   gtmanfred   yeah
+2012-08-05 13:40:56   qubodup     wat where?
+2012-08-05 13:41:10   fsckd       in classroom wiki page
+2012-08-05 13:41:19   fsckd       under list of classes
+2012-08-05 13:41:29   +tigrmesh   that's great!
+2012-08-05 13:41:33   gtmanfred   she wanted to make example links there iirc
+2012-08-05 13:42:07   fsckd       i want to take that class XD
+2012-08-05 13:43:08   fsckd       anything more about arch classrooms? any ideas?
+2012-08-05 13:44:02   fsckd       the PKGBUILD course is the main focus now, after that we'll likely work on bash scripting 101 and troubleshooting 101
+2012-08-05 13:44:23   gtmanfred   oh oh i can do zsh :-P since it is the default on the iso now
+2012-08-05 13:45:32   fsckd       awesome XD
+2012-08-05 13:46:49   +tigrmesh   \o/ i caught up!  this note taking stuff is hard
+2012-08-05 13:47:12   fsckd       haha, sorry for putting that work on you
+2012-08-05 13:48:41   +tigrmesh   no problem.  just don't expect them to be perfect....
+2012-08-05 13:49:03   fsckd       no worries, we can edit them before posting
+2012-08-05 13:50:05   fsckd       i guess that's the main part of the meeting
+2012-08-05 13:50:28   gtmanfred   \o/
+2012-08-05 13:50:33   fsckd       does anyone have any comments, concerns, or ideas?
+2012-08-05 13:51:01   fsckd       i don't think meskarune finished the ssl thing for the site ><
+2012-08-05 13:51:05   qubodup     I'm glad there was no lengthy infrastructure discussion? :)
+2012-08-05 13:51:13   +tigrmesh   just checking whether these things happened
+2012-08-05 13:51:28   fsckd       lol, if you'd like one qubodup :P
+2012-08-05 13:51:30   +tigrmesh   did we already ask wiki admins details about setting up Arch Classroom in the wiki
+2012-08-05 13:51:37   qubodup     fsckd: wah!
+2012-08-05 13:51:40   +tigrmesh   or is that irrelevant now?
+2012-08-05 13:52:08   fsckd       there are two articles in the wiki already
+2012-08-05 13:52:19   qubodup     https://wiki.archlinux.org/index.php/Category:Classroom
+2012-08-05 13:52:21   phrik       Title: Category:Classroom - ArchWiki (at wiki.archlinux.org)
+2012-08-05 13:52:40   +tigrmesh   that's why i thought it might be irrelevant
+2012-08-05 13:52:41   fsckd       thanks qubodup :)
+2012-08-05 13:52:58   fsckd       you're right, it might be irrelevant at this point
+2012-08-05 13:53:17   +tigrmesh   thanks qubodup:)
+2012-08-05 13:54:05   fsckd       if you think we should ask i can email one of them today or tomorrow
+2012-08-05 13:54:12   +tigrmesh   it looks like we have part of a draft lesson plan
+2012-08-05 13:54:38   +tigrmesh   just finally looked at last month's minutes  :p
+2012-08-05 13:54:44   fsckd       heh
+2012-08-05 13:54:46   +tigrmesh   so i'm just checking stuff
+2012-08-05 13:55:17   fsckd       yup there's a draft lesson plan, i completely forgot about that
+2012-08-05 13:56:42   fsckd       anything else for the meeting?
+2012-08-05 13:56:49   +tigrmesh   couple things
+2012-08-05 13:56:52   fsckd       sure
+2012-08-05 13:57:29   +tigrmesh   does anyone here do web stuff?  maybe since meskarune is busy, she'd give someone temporary access so s/he could restructure the sidebar
+2012-08-05 13:58:09   +tigrmesh   the site uses b2evolution, which probably uses php
+2012-08-05 13:58:17   qubodup     I don't know what you mean by draft lesson plan but it makes a good abbreviation (DLP)
+2012-08-05 13:58:21   +tigrmesh   anyone here willing and available?
+2012-08-05 13:58:26   +tigrmesh   haha
+2012-08-05 13:58:30   qubodup     I have only blog post rights I think
+2012-08-05 13:58:56   +tigrmesh   could you do it if you did have rights, qubodup?
+2012-08-05 13:59:07   qubodup     tigrmesh: do you have a suggestion on how to do it?
+2012-08-05 13:59:21   qubodup     (what to change)
+2012-08-05 13:59:30    *   qubodup checks if he has rights
+2012-08-05 13:59:50   fsckd       qubodup: i guess the question is, if you knew what to change and had the access, could you change it?
+2012-08-05 14:00:42   qubodup     looks like I can
+2012-08-05 14:00:53   fsckd       great :)
+2012-08-05 14:01:15   +tigrmesh   the three items are on http://archwomen.org/index.php/2012/july-1st-irc-meeting-minutes
+2012-08-05 14:01:18   phrik       Title: July 1st IRC Meeting Minutes (at archwomen.org)
+2012-08-05 14:01:28   qubodup     ah
+2012-08-05 14:01:46   fsckd       under "Restructure the side-bar?"
+2012-08-05 14:01:47   +tigrmesh   the section Site Improvement > restructure the sidebar?
+2012-08-05 14:01:53   +tigrmesh   haha
+2012-08-05 14:02:00   fsckd       XD
+2012-08-05 14:02:24   +tigrmesh   thank you qubodup  :)
+2012-08-05 14:02:59   +tigrmesh   i think that's it for what i had been thinking about
+2012-08-05 14:03:19   fsckd       ok, thanks to both of you
+2012-08-05 14:03:34   fsckd       anyone else have anything to add to the meeting?
+2012-08-05 14:03:49   +tigrmesh   tacos!
+2012-08-05 14:03:56   fsckd       poutine!
+2012-08-05 14:04:27    *   qubodup is done.
+2012-08-05 14:04:40   qubodup     who can post an irc log?
+2012-08-05 14:04:44   fsckd       i have one last thing
+2012-08-05 14:05:21   fsckd       yesterday MrElendig proposed the times for the meeting should be in UTC instead of UTC offsets (US Central and Eastern EU)
+2012-08-05 14:05:35   qubodup     yes please
+2012-08-05 14:05:55   fsckd       and I agree with him since it's easier to determine the current time in UTC than the current time in another locality
+2012-08-05 14:05:57   qubodup     smaller /topic and less update-requirements (as EST moves for example)
+2012-08-05 14:06:29   +tigrmesh   that's fine with me
+2012-08-05 14:06:36   fsckd       excellent
+2012-08-05 14:06:52   fsckd       we may still have to move the times with daylight saving
+2012-08-05 14:07:11   fsckd       otherwise eastern eu will be at 9 when the metting starts
+2012-08-05 14:07:23   +tigrmesh   that's not good
+2012-08-05 14:07:37   fsckd       that's only twice a year anyways
+2012-08-05 14:08:14   fsckd       is that it? anything more?
+2012-08-05 14:08:28   +tigrmesh   not from me
+2012-08-05 14:08:46   qubodup     nope. only need somebody to upload the irc meetup log
+2012-08-05 14:09:01   fsckd       i'll do that
+2012-08-05 14:09:07   qubodup     did anybody write down minutes? I only have http://pastie.org/4395512
+2012-08-05 14:09:09   phrik       Title: #4395512 - Pastie (at pastie.org)
+2012-08-05 14:09:23   fsckd       tigrmesh is keeping notes
+2012-08-05 14:09:30   qubodup     great
+2012-08-05 14:09:36   +tigrmesh   qubodup: let's talk   http://titanpad.com/M2HMr8bwJ6
+2012-08-05 14:09:38   phrik       Title: TitanPad: M2HMr8bwJ6 (at titanpad.com)
+2012-08-05 14:09:56   fsckd       ok then, tigrmesh, you have the honors to close the meeting :)
+2012-08-05 14:10:02   +tigrmesh   \o/
+2012-08-05 14:10:18   +tigrmesh   =========================== the meeting is officially ended ===================

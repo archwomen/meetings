@@ -1,0 +1,107 @@
+****************************************************************************************
+[16:22:24] <tigrmesh> the meeting is starting
+[16:23:15] <tigrmesh> the agenda is on the site
+[16:23:40] <tigrmesh> is anyone willing to take notes of the meeting?
+[16:23:52] <fsckd> http://archwomen.org/index.php/2012/october-7th-irc-meeting-agenda
+[16:23:53] <phrik> Title: October 7th IRC Meeting Agenda (at archwomen.org)
+[16:24:03] <tigrmesh> what do we usually use?  fsckd, do you remember?
+[16:24:10] <fsckd> let me check
+[16:24:34] <fsckd> titanpad.com
+[16:25:23] <tigrmesh> anyone willing to take notes of the meeting?  using titanpad?
+[16:25:39] <fsckd> i've created one http://titanpad.com/v2LP7PlLxI
+[16:25:40] <phrik> Title: TitanPad: v2LP7PlLxI (at titanpad.com)
+[16:26:42] <tigrmesh> thanks
+[16:26:52] <fsckd> :)
+[16:27:04] <tigrmesh> :)
+[16:27:08] <tigrmesh> anyone willing to take notes so we can put them on the site?
+[16:27:53] <fsckd> i'll do it for now
+[16:28:01] <tigrmesh> thanks
+[16:28:07] <fsckd> np :)
+[16:28:21] <tigrmesh> so.  we'll continue the discussion of our two main projects
+[16:29:04] <tigrmesh> how is this project coming:  Arch Linux Classrooms - we hope to have a PKGBUILD class in November
+[16:29:37] <tigrmesh> derfman: can you give us an update?
+[16:30:19] <tigrmesh> hmm.  ok
+[16:31:03] <fsckd> i guess he's busy derfing :P
+[16:31:08] <tigrmesh> lol
+[16:31:28] <tigrmesh> what about Arch Linux Install Day.  has anyone done anything about that?
+[16:32:46] <fsckd> meskarune said she wanted to make Virtual Box images for that, qubodup left a comment on the blog with this link http://virtualboxes.org/images/archlinux/
+[16:32:48] <phrik> Title: Archlinux ऎ VirtualBoxes Free VirtualBoxतऍ Images (at virtualboxes.org)
+[16:34:01] <tigrmesh> wow.  that's cool.  thanks
+[16:34:34] <tigrmesh> is that for install day, or for classroom
+[16:34:36] <tigrmesh> ?
+[16:34:55] <fsckd> install day, classrooms is about PKGBUILDs
+[16:35:27] <tigrmesh> so some progress has been made.  cool
+[16:35:38] <fsckd> now, that i look at them, they are kind of old, over a year old
+[16:35:57] <tigrmesh> so this would be a good time to pick a date, but i don't feel comfortable doing that without meskarune
+[16:36:04] <fsckd> yeah
+[16:36:29] <tigrmesh> unless there's someone who wants to spearhead the install day project?
+[16:36:36] *** derfman is now known as gtmanfred
+[16:36:41] <gtmanfred> sorry was etting lunch
+[16:36:45] <tigrmesh> ah
+[16:37:02] <fsckd> welcome back derfman^W gtmanfred :D
+[16:37:19] <tigrmesh> gtmanfred:  before you talk, is there any other info on install day?
+[16:38:34] <fsckd> we hsould decide on a general time of when in the month we could have install day
+[16:39:03] <fsckd> and then pick a specific day with meskarune
+[16:39:13] <tigrmesh> at this point, i think late in the month.  how about the last week?
+[16:39:27] <tigrmesh> no
+[16:39:28] <fsckd> we need time to get th eword out
+[16:39:44] <tigrmesh> so not october?
+[16:40:21] <fsckd> end of october is halloween in the U.S., people might be distracted by that
+[16:40:51] <tigrmesh> oh.  good point
+[16:41:04] <tigrmesh> what about the weekend of the 20th and 21st?
+[16:41:45] <tigrmesh> that doesn't give much time.  although maybe a post on the forums and a post on the site will be enough notice
+[16:42:39] <fsckd> how about nov. 10
+[16:43:54] <tigrmesh> 11th is veterans day.  but i'm not sure how many archers celebrate veterans day
+[16:44:03] <fsckd> hmm
+[16:44:04] <tigrmesh> so nov 10 or 11?
+[16:45:25] <fsckd> let's shift the install day to nov. we still need to discuss with meskarune, prepare and get the word out
+[16:45:53] <tigrmesh> ok
+[16:46:04] <fsckd> we can settle on an exact date at the next meeting
+[16:46:17] <fsckd> that will give us the month to prepare
+[16:46:18] <tigrmesh> k
+[16:51:20] <tigrmesh> after a short break
+[16:51:34] <tigrmesh> gtmanfred: you here?
+[16:51:41] <gtmanfred> yes
+[16:53:02] <tigrmesh> how is this coming?  Arch Linux Classrooms - we hope to have a PKGBUILD class in November
+[16:53:07] <gtmanfred> yes
+[16:53:31] <gtmanfred> umm, 
+[16:53:38] <CalimeroTeknik> say, do you know anything called "aple" ?
+[16:53:41] <gtmanfred> i am also hoping to have a lot of time this month to work on it
+[16:54:44] <tigrmesh> great
+[16:55:24] <gtmanfred> and maybe pacman will have a release soon 
+[16:55:35] <gtmanfred> but yeah it is comming along
+[16:55:48] <tigrmesh> can you give a brief, one sentence ... thing so people have an idea
+[16:56:09] <tigrmesh> would the pacman release affect PKGBUILDs?
+[16:56:19] <gtmanfred> vcs pkgbuilds it would, very much affect
+[16:57:07] <gtmanfred> there are a lot of changes mostly about version control in the next pacman release, but i am actually working on writing up a guide for using newpkg to create shell pkgbuilds
+[16:57:18] <tigrmesh> cool
+[16:58:18] <gtmanfred> that good enough?
+[16:58:29] <tigrmesh> beautiful
+[16:58:34] <gtmanfred> awesome
+[17:00:13] <tigrmesh> CalimeroTeknik: ?
+[17:02:21] <tigrmesh> gtmanfred: one more thing.  do you think we'll still be able to have the class in november?
+[17:02:35] <gtmanfred> yes
+[17:02:36] <CalimeroTeknik> sorry I interrupted, I realized the meeting was on. don't mind me
+[17:02:45] <tigrmesh> k  :)
+[17:03:07] <tigrmesh> as far as i can tell, the meeting is almost over
+[17:03:23] <tigrmesh> does anyone have anything they want to add?
+[17:03:54] <gtmanfred> if anyone wants to talk about the archlinux-classroom stuff... there is #archlinux-classroom
+[17:04:23] <gtmanfred> otherwise i am good :)
+[17:05:29] <tigrmesh> i think there's something else if i can find it
+[17:05:42] *** Joins: camilasan (~camilasan@91-64-80-97-dynip.superkabel.de)
+[17:07:31] <tigrmesh> found it.  moment
+[17:09:00] <tigrmesh> someone mentioned something that i've noticed too
+[17:10:02] <tigrmesh> this channel came out of arch offtopic, and sometimes it feels like it's an arch-ot overflow
+[17:10:44] <tigrmesh> i realize it's a quiet channel, and i don't mean it should be like a tomb
+[17:12:14] <tigrmesh> sometimes it becomes just dudes bantering with each other
+[17:13:45] <tigrmesh> so we may say stuff like "take it to -ot"  not because we hate you, but because we want to focus on this project
+[17:13:55] <tigrmesh> rant over
+[17:14:04] <tigrmesh> anything else before we close?
+[17:17:57] <tigrmesh> k
+[17:18:02] <tigrmesh> meeting closed
+[17:18:07] <tigrmesh> **************************************************************************
+[17:19:48] <tigrmesh>  
+[17:19:54] <tigrmesh> wait!  one more thing
+[17:20:14] <tigrmesh> does anyone have a log of this meeting so we can put it on the site?
+[17:21:41] <gtmanfred> http://code.gtmanfred.com/~znc
+[17:21:44] <phrik> Title: Index of /~znc/ (at code.gtmanfred.com)

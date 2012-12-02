@@ -1,0 +1,921 @@
+2012-11-04 11:07:33   fsckd          >>>>>>>>>>> meeting begins <<<<<<<<<<<
+2012-11-04 11:08:00   fsckd          two ongoing projects, Arch Classrooms and Arch Install Day
+2012-11-04 11:08:30   fsckd          we've seen a lot of interest for classrooms
+2012-11-04 11:08:52   fsckd          people have volunteered to instruct
+2012-11-04 11:09:28   +meskarune     Yeah, we just need more help with the wiki page
+2012-11-04 11:09:31   +meskarune     on Package building
+2012-11-04 11:09:37   +meskarune     I don't know enough to write all of it
+2012-11-04 11:09:53   fsckd          gtmanfred said he'll add to it
+2012-11-04 11:10:08   +meskarune     https://wiki.archlinux.org/index.php/Beginners_Guide_to_Package_Maintaining
+2012-11-04 11:10:09   phrik          Title: Beginners Guide to Package Maintaining - ArchWiki (at wiki.archlinux.org)
+2012-11-04 11:10:25   +meskarune     I'll try and add as much as I can, but def need help
+2012-11-04 11:10:27   +meskarune     :)
+2012-11-04 11:10:34   +meskarune     maybe i"ll spam #archlinux for more help too
+2012-11-04 11:10:40   fsckd          hehe
+2012-11-04 11:11:03    *   fsckd still thinks we should get abveritas on board if we can
+2012-11-04 11:11:09   +meskarune     yeah :D
+2012-11-04 11:11:20   +meskarune     is abveritas online now?
+2012-11-04 11:12:01   fsckd          idk, try pinging her :)
+2012-11-04 11:14:26   fsckd          anyone else want to add anything?
+2012-11-04 11:14:29   +tigrmesh      also, because i'm not in X, i can't do the minutes the way we have been
+2012-11-04 11:14:37   fsckd          ahh...
+2012-11-04 11:14:41   +tigrmesh      is anyone willing to do the minutes?
+2012-11-04 11:14:51   +tigrmesh      hi abveritas, Swashy_
+2012-11-04 11:15:08   +meskarune     hello!
+2012-11-04 11:15:08   abveritas      hell all
+2012-11-04 11:15:13   abveritas      *hello
+2012-11-04 11:15:15   abveritas      oops
+2012-11-04 11:15:15   +meskarune     hehe
+2012-11-04 11:15:17   fsckd          hello :)
+2012-11-04 11:15:24   fsckd          glad you could join us :)
+2012-11-04 11:15:58   fsckd          one, sec, i'll do the minutes too, setting them up
+2012-11-04 11:16:05   +meskarune     I'll help out :D
+2012-11-04 11:16:24   +meskarune     abveritas: we are talking about an arch packaging class and arch install day
+2012-11-04 11:16:26   +tigrmesh      thanks you 2
+2012-11-04 11:16:26   +meskarune     :)
+2012-11-04 11:16:42   abveritas      meskarune: ok
+2012-11-04 11:17:00   +meskarune     https://wiki.archlinux.org/index.php/Beginners_Guide_to_Package_Maintaining
+2012-11-04 11:17:01   phrik          Title: Beginners Guide to Package Maintaining - ArchWiki (at wiki.archlinux.org)
+2012-11-04 11:17:47   fsckd          minutes here: http://titanpad.com/Nhc5oRQDsW
+2012-11-04 11:17:48   phrik          Title: TitanPad: Nhc5oRQDsW (at titanpad.com)
+2012-11-04 11:20:07   +meskarune     so the arch packaging class, we need help with writing the class outline and linking to resources
+2012-11-04 11:20:18   +meskarune     we will use #archlinux-classroom for the classes online
+2012-11-04 11:21:01   +meskarune     we also need to figure out if it is going to be open enrollment, or if we will have people sign up
+2012-11-04 11:21:13   abveritas      anyone here looked a bit what we have set up in our (Chakra wiki) for new packagers?
+2012-11-04 11:21:17   +meskarune     I think it might be more effective if we have small classes instead of a huge number of people
+2012-11-04 11:21:32   +meskarune     abveritas: I haven't seen it
+2012-11-04 11:22:01   +meskarune     http://www.chakra-linux.org/wiki/index.php/How_to_become_a_packager
+2012-11-04 11:22:03   phrik          Title: How to become a packager - The Chakra Project (at www.chakra-linux.org)
+2012-11-04 11:22:03   +meskarune     ?
+2012-11-04 11:22:09   abveritas      anyone interested in becoming a packagers, we have them set up the chakra buildsystem first
+2012-11-04 11:22:39   abveritas      http://www.chakra-linux.org/wiki/index.php/Chakra_Buildsystem
+2012-11-04 11:22:40   phrik          Title: Chakra Buildsystem - The Chakra Project (at www.chakra-linux.org)
+2012-11-04 11:23:27   abveritas      it seems to get many started quite well, then we help out in IRC for further questions
+2012-11-04 11:24:04   +meskarune     oh cool
+2012-11-04 11:24:07   +meskarune     that looks awesome
+2012-11-04 11:24:29   abveritas      big advantage ofc, no interaction with the system
+2012-11-04 11:24:38   +meskarune     yeah
+2012-11-04 11:25:09   abveritas      but ofc, nothing is perfect, and removing the chroots can cause issues
+2012-11-04 11:25:24   +meskarune     I've used chroot's before, I think its a great idea for packaging
+2012-11-04 11:25:46   +meskarune     previously when I tested a pkgbuild I used a virtual box image
+2012-11-04 11:26:33   +meskarune     thanks abveritas
+2012-11-04 11:27:12   abveritas      only warning needed for these chroots, reboot before removing
+2012-11-04 11:27:33   +meskarune     right now arch linux really needs package maintainers
+2012-11-04 11:27:43   abveritas      same as in Chakra.....
+2012-11-04 11:28:04   +meskarune     yeah, and I think having a class to outline the process would help people to feel more comfortable contributing
+2012-11-04 11:28:07   abveritas      one of the reasons why we dropped i686
+2012-11-04 11:28:12   fsckd          https://wiki.archlinux.org/index.php/DeveloperWiki:Building_in_a_Clean_Chroot  this is related
+2012-11-04 11:28:13   +meskarune     and allow them to meet others
+2012-11-04 11:28:14   phrik          Title: DeveloperWiki:Building in a Clean Chroot - ArchWiki (at wiki.archlinux.org)
+2012-11-04 11:28:53   abveritas      would be nice to make this a joint effort, classroom for more distro's, combine wiki efforts
+2012-11-04 11:29:47   +meskarune     right now I know that ubuntu has a classroom
+2012-11-04 11:29:52   +meskarune     and we just started one
+2012-11-04 11:30:10   +meskarune     but those are the only class type things I know of for linux
+2012-11-04 11:30:31   fsckd          we can do joint with chakra as they use PKGBUILDs
+2012-11-04 11:30:55   +meskarune     yeah, the packaging for both should be pretty similar
+2012-11-04 11:31:01   abveritas      we dicussed classroom, but so far it seems to get the most result by helping one on one in IRC
+2012-11-04 11:31:49   abveritas      yes, joint classroom can only be for distro's using PKGBUILD/makepkg
+2012-11-04 11:31:50   +meskarune     I'm hoping the class will be like 15 - 20 people at most per class, so they can get more attention. then the class can adopt some orphan packages and create them as a learning excersize
+2012-11-04 11:32:12   +meskarune     and then the irc channel is open for people to drop in with questions
+2012-11-04 11:33:14   +meskarune     abveritas: the other idea, is that once the class materials are made, people can use them to teach their own class in real life or online
+2012-11-04 11:33:44   +tigrmesh      it will be interesting to see how many people we actually get
+2012-11-04 11:33:45   +meskarune     so once there is the outline and materials ready, anyone who is knowledgable could have a class
+2012-11-04 11:33:56   +meskarune     I would like to learn how to make packages
+2012-11-04 11:34:13   +meskarune     I can do basic ones,
+2012-11-04 11:34:37   +meskarune     but don't know alot about making patches or creating like, a python package or cvs package build
+2012-11-04 11:34:41   +meskarune     etc
+2012-11-04 11:34:49   abveritas      just my opinion, but I'm afraid a classroom will not be the way to get people started, a very clear wiki is the way to me
+2012-11-04 11:35:31   abveritas      when the instruction is up, then have a regular QA session on IRC
+2012-11-04 11:35:41   +meskarune     previously there was something called junior dev, which was a dev trainign program, and I was told it was very effective in increasing arch developers
+2012-11-04 11:36:02   +meskarune     the first class is going to be an experiment
+2012-11-04 11:36:15   +meskarune     if it doesn't work out, we can move our efforts to other things :)
+2012-11-04 11:36:30   fsckd          there's a forum group call junior dev with just one guy in it
+2012-11-04 11:36:42   fsckd          at the very least, instructors = mentors :)
+2012-11-04 11:36:48   +meskarune     they only did hte program once, a longish time ago
+2012-11-04 11:36:56   +tigrmesh      yeah
+2012-11-04 11:37:05   +meskarune     so it wasn't kept up
+2012-11-04 11:37:09   +tigrmesh      i'm not sure why that stopped
+2012-11-04 11:37:26   +meskarune     could be time constraints, but I'm also not sure
+2012-11-04 11:37:26   +tigrmesh      maybe the person who made it happen needed to do other things
+2012-11-04 11:38:16   +meskarune     abveritas: I def agree that having good wiki documentation is important
+2012-11-04 11:38:21   +meskarune     and a big step
+2012-11-04 11:38:33   +meskarune     the arch wiki is pretty out of date now that everything is systemd
+2012-11-04 11:38:57   +tigrmesh      yeah
+2012-11-04 11:39:26   fsckd          you'll need to login to see this, https://bbs.archlinux.org/userlist.php?show_group=12
+2012-11-04 11:43:07   fsckd          :)
+2012-11-04 11:43:08   +meskarune     oh I se
+2012-11-04 11:43:11   +meskarune     see
+2012-11-04 11:44:21   +meskarune     does arch have a dev channel on irc?
+2012-11-04 11:44:28   +meskarune     or TU channel?
+2012-11-04 11:44:34   +meskarune     anything related to packaging ?
+2012-11-04 11:44:42   +meskarune     how do packagers organize?
+2012-11-04 11:45:23   +meskarune     abveritas: does chakra just let users do their own thing with packaging or do you guys have meetings/lists, etc?
+2012-11-04 11:46:04   abveritas      meskarune: for apps and games, packagers are free to update
+2012-11-04 11:46:36   abveritas      but there is a packagers-ml for that too, very active with user interaction
+2012-11-04 11:46:41   +tigrmesh      meskarune: there are channels for devs and TUs, but i think they're invite only
+2012-11-04 11:46:46   +meskarune     there is a package building section on the arch forums: https://bbs.archlinux.org/viewforum.php?id=4
+2012-11-04 11:46:47   phrik          Title: Creating & Modifying Packages (Page 1) / Arch Linux Forums (at bbs.archlinux.org)
+2012-11-04 11:47:05   arbn           #archlinux-dev is a private channel, yeah.
+2012-11-04 11:48:21   +meskarune     ok, good to know
+2012-11-04 11:50:44   +meskarune     I'm running into some lag
+2012-11-04 11:50:51   fsckd          eep
+2012-11-04 11:51:13   +meskarune     ok so summing up: arch classroom
+2012-11-04 11:51:18   +meskarune     make sure the wiki is updated
+2012-11-04 11:51:27   +meskarune     with good packaging information
+2012-11-04 11:51:56   +meskarune     and then pimp out the infrastructure that exists already, like the arch forums package building section
+2012-11-04 11:52:22   +meskarune     work with chakra project
+2012-11-04 11:53:24   abveritas      meskarune: is this the channel you use for classroom/QA?
+2012-11-04 11:53:41   +meskarune     #archlinux-classroom
+2012-11-04 11:53:45   +meskarune     is the main project classroom
+2012-11-04 11:53:53   abveritas      ok
+2012-11-04 11:54:01   +meskarune     arch linux women is sponsoring a package building class
+2012-11-04 11:54:32   +meskarune     there aren't any women packagers that I know of, and people here were interested in learning
+2012-11-04 11:54:50   +meskarune     so it helps increase women's contributions, and helps out the community at large
+2012-11-04 11:55:37   abveritas      any new person interested in packaging for Chakra, maybe direct the classrom channel?  maybe if there is activity there, more will just lurk?
+2012-11-04 11:56:20   +meskarune     yeah, most of the planning and teaching for classroom will be in that channel :)
+2012-11-04 11:56:34   +meskarune     and also on the wiki talk pages and there is a forum thread
+2012-11-04 11:56:37   fsckd          does chakra have a classroom channel?
+2012-11-04 11:56:59   fsckd          abveritas: ^
+2012-11-04 11:57:02   abveritas      fsckd: no, mostly is in #chakra-dev or PM
+2012-11-04 11:57:09   fsckd          ok
+2012-11-04 11:58:52   +meskarune     it might be cool if we could have a git repo that people could git clone to get a build enviroment
+2012-11-04 11:59:00   +meskarune     that is probably a dev thing though :)
+2012-11-04 11:59:37   fsckd          https://www.archlinux.org/packages/extra/any/devtools/
+2012-11-04 11:59:39   phrik          Title: Arch Linux - devtools 20121027-1 (any) (at www.archlinux.org)
+2012-11-04 11:59:53   fsckd          mentioned in clean chroot wiki article
+2012-11-04 12:00:01   MrElendig      pacman -Syu base-devel devtools
+2012-11-04 12:00:31   abveritas      meskarune: not sure how hard it is to adjust a-setup.sh for Arch, should not take much
+2012-11-04 12:00:46   abveritas      as long as there is a git repo to point too
+2012-11-04 12:00:54   +meskarune     cool
+2012-11-04 12:00:56   +meskarune     :D
+2012-11-04 12:01:12   vodik          i haven't been around for ages
+2012-11-04 12:01:22   vodik          i think this'll be the first meeting i properly attend
+2012-11-04 12:01:24   vodik          o/
+2012-11-04 12:01:35   fsckd          \o
+2012-11-04 12:02:33   fsckd          vodik: meeting started an hour ago :P
+2012-11-04 12:02:52   vodik          well fuck
+2012-11-04 12:02:55   +meskarune     hehe hi vodik :)
+2012-11-04 12:02:57   +meskarune     <3
+2012-11-04 12:02:58   vodik          but DST!
+2012-11-04 12:03:03   +meskarune     lol
+2012-11-04 12:03:04   vodik          i did kinda just wake up
+2012-11-04 12:03:10   vodik          meskarune: hi
+2012-11-04 12:03:43   +meskarune     http://titanpad.com/Nhc5oRQDsW
+2012-11-04 12:03:44   phrik          Title: TitanPad: Nhc5oRQDsW (at titanpad.com)
+2012-11-04 12:03:48   +meskarune     notes :)
+2012-11-04 12:04:01   fsckd          vodik: we're still on classrooms :)
+2012-11-04 12:04:12   vodik          im still in detention :(
+2012-11-04 12:04:16   XReaper        :p
+2012-11-04 12:04:26   XReaper        :O
+2012-11-04 12:04:29   +meskarune     I was wondering if devs would be interested in having a streamlined way to make packages
+2012-11-04 12:04:42   +meskarune     like chakra uses a chroot and install script
+2012-11-04 12:04:48   falconindy     we already have such a thing
+2012-11-04 12:04:49   MrElendig      meskarune: devtools does that already
+2012-11-04 12:04:50   +meskarune     so everyone starts with and uses the same things
+2012-11-04 12:04:52   vodik          what do you mean?
+2012-11-04 12:04:56   vodik          devtools?
+2012-11-04 12:05:02   thestinger     meskarune: devtools makes a chroot and builds in it for you
+2012-11-04 12:05:02   +meskarune     MrElendig: oh cool, I didn't know that existed.
+2012-11-04 12:05:08   +meskarune     thanks
+2012-11-04 12:05:12   XReaper        :)
+2012-11-04 12:05:14   fsckd          meskarune: i mentioned half an hour ago ><
+2012-11-04 12:05:20   XReaper        ^
+2012-11-04 12:05:25   +meskarune     lol
+2012-11-04 12:05:37   fsckd          i even added it to the notes :P
+2012-11-04 12:06:21   +meskarune     so awesome
+2012-11-04 12:06:41   vodik          heh
+2012-11-04 12:06:44   vodik          meskarune: WAKE UP
+2012-11-04 12:06:53   +meskarune     thestinger, MrElendig we are trying to get the package building class off the ground, and increasing the number of people who package stuff
+2012-11-04 12:06:56   vodik          its only noon
+2012-11-04 12:06:59   +meskarune     lol vodik I need moar coffee
+2012-11-04 12:07:04   +meskarune     good thing I'm in a coffee shop
+2012-11-04 12:07:05   vodik          !moar coffee
+2012-11-04 12:07:06   phrik          MOAARRR COFFEE!!! MMMOOOOOAAAAAARRRRRRR!!!<3<3<3
+2012-11-04 12:07:09   thestinger     meskarune: make falconindy teach them bash
+2012-11-04 12:07:13   +meskarune     lol
+2012-11-04 12:07:17   thestinger     he's free all month
+2012-11-04 12:07:21   +meskarune     orly
+2012-11-04 12:07:23   vodik          something tells me it be terrible
+2012-11-04 12:07:23   +meskarune     ;D
+2012-11-04 12:07:24   thestinger     he is now
+2012-11-04 12:07:25   vodik          :P
+2012-11-04 12:07:26   falconindy     nothing to do since the hurricane took my house.
+2012-11-04 12:07:30   +meskarune     :(
+2012-11-04 12:07:34   XReaper        :(
+2012-11-04 12:07:36   vodik          falconindy: really?
+2012-11-04 12:07:36   +meskarune     falconindy: you can stay with me, I'm in nj
+2012-11-04 12:07:37   falconindy     just kidding
+2012-11-04 12:07:41   vodik          falconindy: and your job?
+2012-11-04 12:07:42   falconindy     that was bad.
+2012-11-04 12:07:51   XReaper        falconindy: quite
+2012-11-04 12:08:02   XReaper        falconindy: and your family?
+2012-11-04 12:08:11   falconindy     they're fine
+2012-11-04 12:08:12   vodik          and your dog?
+2012-11-04 12:08:15   falconindy     never had one.
+2012-11-04 12:08:16   vodik          and your soul?
+2012-11-04 12:08:17   falconindy     can we move on?
+2012-11-04 12:08:21   fsckd          lol
+2012-11-04 12:08:21   vodik          no
+2012-11-04 12:08:25   XReaper        :P
+2012-11-04 12:08:25   fsckd          yes please
+2012-11-04 12:08:31   fsckd          this is being logged ;)
+2012-11-04 12:08:37   arbn           Isn't shell scripting pre-req knowledge for packaging?
+2012-11-04 12:08:39   XReaper        ! falconindy
+2012-11-04 12:08:40   phrik          #1, i hate you. #2, if you think i'm being nice, refer to #1
+2012-11-04 12:08:43   fsckd          and will be posted to the site
+2012-11-04 12:08:48   vodik          arbn: yes
+2012-11-04 12:08:51   XReaper        Oh, ok :)
+2012-11-04 12:09:05   vodik          onwards!
+2012-11-04 12:09:14   +meskarune     arbn: yeah, but its fairly basic people won't need to know complicated stuff
+2012-11-04 12:09:17   XReaper        arbn: it's pretty easy once you get the hang of it
+2012-11-04 12:09:40   thestinger     arbn: but people are already doing basic shell scripting just by using an interactive shell
+2012-11-04 12:09:47   thestinger     they know more than they think they do.
+2012-11-04 12:10:04   vodik          basically this ^
+2012-11-04 12:10:13   vodik          a makepkg is really nothing fancier then a list of commands
+2012-11-04 12:10:13   XReaper        shell is a requirement of installing arch :)
+2012-11-04 12:10:18   vodik          no fancy shell mangic
+2012-11-04 12:10:20   thestinger     PKGBUILDs are mostly boilerplate, and then you throw what you would type in a shell by hand into build() and package()
+2012-11-04 12:10:21   vodik          typically
+2012-11-04 12:10:32   XReaper        thestinger: exactly :)
+2012-11-04 12:10:40   arbn           Ah. OK.
+2012-11-04 12:11:15   +meskarune     that would be a great way to teach people in a class :P
+2012-11-04 12:11:24   XReaper        I do like the 'grab source from upstream' nature of arch :)
+2012-11-04 12:11:56   +meskarune     thestinger, vodik, MrElendig, falconindy : #archlinux-classroom
+2012-11-04 12:11:59   +meskarune     exists :P
+2012-11-04 12:12:07   vodik          right
+2012-11-04 12:12:19   vodik          meskarune: i'll start idling in there when i get znc working again
+2012-11-04 12:12:25   XReaper        :)
+2012-11-04 12:12:25   +meskarune     hehe
+2012-11-04 12:12:33   XReaper        Did sandy take your znc?
+2012-11-04 12:12:36   vodik          im having problems with certificates and have up
+2012-11-04 12:12:45   vodik          XReaper: no, a reformat did
+2012-11-04 12:12:52   XReaper        Oh, damn
+2012-11-04 12:12:53   vodik          i forgot to back it up
+2012-11-04 12:12:59   vodik          but now im doing it with certs
+2012-11-04 12:13:04   vodik          and failing :P
+2012-11-04 12:13:04   XReaper        :)
+2012-11-04 12:13:11   fsckd          ok, anything more on classrooms?
+2012-11-04 12:13:41   +meskarune     everyone: add one thing here: https://wiki.archlinux.org/index.php/Beginners_Guide_to_Package_Maintaining
+2012-11-04 12:13:42   phrik          Title: Beginners Guide to Package Maintaining - ArchWiki (at wiki.archlinux.org)
+2012-11-04 12:13:44   +meskarune     links or info
+2012-11-04 12:13:47   +meskarune     I'll edit it up
+2012-11-04 12:14:06   fsckd          :)
+2012-11-04 12:14:30   vodik          meskarune: is this the first or are there other lesson wiki pages?
+2012-11-04 12:14:45   fsckd          vodik: see category classrooms
+2012-11-04 12:14:52   vodik          right, i just noticed that
+2012-11-04 12:15:04   vodik          i wonder if it should be more explictly linked together
+2012-11-04 12:15:09   +meskarune     vodik: yep
+2012-11-04 12:15:15   vodik          like you often see in these kinds of things on a wiki
+2012-11-04 12:15:28   +meskarune     it needs help, and editing :)
+2012-11-04 12:15:36   +meskarune     I got a start and some people edited a bit
+2012-11-04 12:15:37   fsckd          there's the main classroom page https://wiki.archlinux.org/index.php/Classroom
+2012-11-04 12:15:39   phrik          Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2012-11-04 12:15:44   fsckd          with a list of proposed classes
+2012-11-04 12:15:49   vodik          like the wikibook templates
+2012-11-04 12:15:56   vodik          this is what i mean
+2012-11-04 12:15:58   vodik          just a sec
+2012-11-04 12:16:08   +meskarune     vodik: template would be amazing
+2012-11-04 12:16:11   +meskarune     and helpful
+2012-11-04 12:16:17   fsckd          a good idea
+2012-11-04 12:16:22   vodik          https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6
+2012-11-04 12:16:23   phrik          Title: Non-Programmer's Tutorial for Python 2.6 - Wikibooks, open books for an open world (at en.wikibooks.org)
+2012-11-04 12:16:32   vodik          just first example i could find
+2012-11-04 12:16:37   thestinger     meskarune: how about a wiki editing classroom? :)
+2012-11-04 12:16:54   +meskarune     thestinger: haha
+2012-11-04 12:16:55   +meskarune     :D
+2012-11-04 12:16:55   vodik          heh
+2012-11-04 12:17:09   thestinger     there are thousands of changes that need to be done, and there's a maintainer status for people who contribute to the meta-editing stuff
+2012-11-04 12:17:11   XReaper        classroom editing wiki?
+2012-11-04 12:17:22   XReaper        :)
+2012-11-04 12:17:40   XReaper        like -this is deprecated, do not use- of consolekit
+2012-11-04 12:17:54   +meskarune     thestinger: I've been trying to update info that is rc.conf instead of systemd specific, but it would be awesone if there was a list
+2012-11-04 12:18:07   thestinger     meskarune: https://wiki.archlinux.org/index.php/ArchWiki:Requests there's that
+2012-11-04 12:18:08   phrik          Title: ArchWiki:Requests - ArchWiki (at wiki.archlinux.org)
+2012-11-04 12:18:14   thestinger     various ways people can contribute
+2012-11-04 12:18:37   vodik          Create a dedicate page for system upgrade
+2012-11-04 12:18:38   +meskarune     but right now we really need to get the class stuff for package building made, so we can have a class
+2012-11-04 12:18:43   vodik          hmm, that might not be a bad idea
+2012-11-04 12:19:27   +meskarune     vodik: I started this page up: https://wiki.archlinux.org/index.php/Init_Rosetta
+2012-11-04 12:19:29   phrik          Title: Init Rosetta - ArchWiki (at wiki.archlinux.org)
+2012-11-04 12:19:53   fsckd          we should split the list in the Classrooms page into three, proposed, under work (being developed) and ready
+2012-11-04 12:20:06   +meskarune     yeah, good idea
+2012-11-04 12:20:22   fsckd          meskarune: that was you? not bad XD
+2012-11-04 12:20:45   vodik          meskarune: nice
+2012-11-04 12:21:17   +tigrmesh      thestinger: i love the idea of wiki-editing day.  although that's not what you said...
+2012-11-04 12:21:37   thestinger     tigrmesh: well I'd like to teach people how they can contribute to it
+2012-11-04 12:21:48   thestinger     I think a lot of people would like to help with docs but don't know where to start
+2012-11-04 12:22:07   +tigrmesh      great idea.  i struggle and fiddle with the little bits i do contribute
+2012-11-04 12:22:55   +meskarune     yeah, I think so also
+2012-11-04 12:23:06   +meskarune     more wiki contributers and more packagers
+2012-11-04 12:23:32   +meskarune     arch has grown a ton, with lots of new users, but not alot of people contributing
+2012-11-04 12:23:42   +meskarune     comparitively
+2012-11-04 12:24:03   +meskarune     and documentation is pretty important
+2012-11-04 12:24:50   thestinger     we have a real shortage of people who do the meta-editing stuff
+2012-11-04 12:25:09   +meskarune     yeah, and that is what helps you to find information
+2012-11-04 12:25:14   fsckd          what do you mean by meta-editing?
+2012-11-04 12:25:17   arbn           thestinger: meta-editing?
+2012-11-04 12:25:17   +tigrmesh      what's meta-editing?
+2012-11-04 12:25:23   +tigrmesh      lol
+2012-11-04 12:25:29   thestinger     well for example, most people contribute new pages or edit a few of the software they use
+2012-11-04 12:25:34    *   tigrmesh high-fives arbn
+2012-11-04 12:25:36    *   fsckd is the fastest :P
+2012-11-04 12:25:50   thestinger     and there's a small group of people that go around and update articles, move to new templates, improve them to follow the style guidelines
+2012-11-04 12:25:51   +tigrmesh      by 2 seconds!
+2012-11-04 12:26:05   fsckd          a long on quantum scale :P
+2012-11-04 12:26:10   fsckd          long time*
+2012-11-04 12:26:18   vodik          a very very long time
+2012-11-04 12:26:39   fsckd          thestinger: oh ok
+2012-11-04 12:27:14   +tigrmesh      oh.  so it doesn't mean mass changes like "installer 7.1" becomes "installer-2012-11-04"   ** yes, they're both wrong  ***
+2012-11-04 12:27:22   +tigrmesh      thestinger: ^^
+2012-11-04 12:27:31   thestinger     tigrmesh: well stuff like that too
+2012-11-04 12:27:35   gtmanfred      ahh sorry, was out to lunch
+2012-11-04 12:27:36   +tigrmesh      ok
+2012-11-04 12:27:53   +meskarune     hehe gtmanfred <3
+2012-11-04 12:27:57   +tigrmesh      gtmanfred: how dare you eat at a time like this!    ;)
+2012-11-04 12:27:59   thestinger     like atm, there are a few thousand pages (really) that need to be updated for systemd
+2012-11-04 12:28:07   +meskarune     thestinger: yesssss
+2012-11-04 12:28:20   +tigrmesh      i've found 3 just in the last few hours
+2012-11-04 12:28:29   fsckd          aye, that be the truth of it
+2012-11-04 12:28:33   +meskarune     thestinger: is there a current program in place for arch to recruit contributers?
+2012-11-04 12:28:34   gtmanfred      well my parents woke me upand said they were going to lunch, and i went, because FREELUNCH!
+2012-11-04 12:28:41   +meskarune     lol gtmanfred
+2012-11-04 12:28:57   thestinger     meskarune: well we have https://wiki.archlinux.org/index.php/ArchWiki:Maintenance_Team for people who we trust to make good decisions, and who contribute a lot
+2012-11-04 12:28:58   phrik          Title: ArchWiki:Maintenance Team - ArchWiki (at wiki.archlinux.org)
+2012-11-04 12:28:59   +meskarune     thestinger: probably beyond the scope of arch women, but I might be interested in having that be a thing
+2012-11-04 12:29:13   thestinger     we don't really recruit anywhere though
+2012-11-04 12:29:33   +meskarune     thestinger: but there is no active recruitment program? to increase contributers?
+2012-11-04 12:29:39   thestinger     meskarune: no :(
+2012-11-04 12:29:50   arbn           I remember, at certain points in time, requests being sent out for new dev applications.
+2012-11-04 12:30:11   +meskarune     I know there is a how to contribute page on the wiki, but maybe that info should be linked on the arch main page?
+2012-11-04 12:30:45   +tigrmesh      arbn:  true.  but thestinger is talking about wiki contributions
+2012-11-04 12:30:54   arbn           Oh. OK.
+2012-11-04 12:31:41   falconindy     the whole point is that the wiki is community maintained. the devs themselves are a miniscule fraction of the contributions
+2012-11-04 12:31:49   vodik          thestinger: maybe its time to create #archlinux-wiki and resurect the old archlinux bug days but focused on the wiki instead
+2012-11-04 12:32:04   falconindy     there's a bug day on 11/17
+2012-11-04 12:32:05   thestinger     falconindy: but 99% of changes are the same ~8 people :P
+2012-11-04 12:32:09   MrElendig      we should kill the whole wiki and start from scratch, and make it all rst
+2012-11-04 12:32:12   MrElendig      ^_^
+2012-11-04 12:32:17   +tigrmesh      lol
+2012-11-04 12:32:20   MrElendig      so much outdated crap on the wiki
+2012-11-04 12:32:22   thestinger     MrElendig: I started on that
+2012-11-04 12:32:55   +meskarune     so maybe we can link the list of stuff that needs to be updated on the arch women site, and have an article about basic wiki editing?
+2012-11-04 12:33:05   +meskarune     just as an intro
+2012-11-04 12:33:17   +meskarune     its something anyone with any knowlegdge level can do
+2012-11-04 12:33:29   +meskarune     if they can translate, or edit, or write a few  things
+2012-11-04 12:33:32   XReaper        MrElendig: oh, the systemd page?
+2012-11-04 12:33:40   XReaper        soo outdated
+2012-11-04 12:33:43   XReaper        ;)
+2012-11-04 12:33:48   +tigrmesh      meskarune: i think that's a great idea
+2012-11-04 12:33:51   +meskarune     pretty much all the page on all the daemons that can be run on arch
+2012-11-04 12:33:54   +meskarune     is out dated
+2012-11-04 12:33:58   +meskarune     tigrmesh: :D
+2012-11-04 12:34:36   +tigrmesh      XReaper: yes, but there are lots of pages that talk about installing and booting aren't up to date.  like the pages for specific models of laptops
+2012-11-04 12:34:57   gtmanfred      how many pages are there about eeepcs?
+2012-11-04 12:34:59   thestinger     tigrmesh: some days I go and fix 50 of them but it's endless :P
+2012-11-04 12:35:02   +meskarune     they need to be marked out of date or removed even
+2012-11-04 12:35:11   +tigrmesh      thestinger: i'm sure
+2012-11-04 12:35:12   thestinger     I'd be happy if I had people to mentor :P
+2012-11-04 12:35:20   XReaper        you know, one day systemd will be dead
+2012-11-04 12:35:33   thestinger     XReaper: well the idea is that articles should duplicate that stuff anyway
+2012-11-04 12:35:42   +meskarune     https://wiki.archlinux.org/index.php/LAMP
+2012-11-04 12:35:44   phrik          Title: LAMP - ArchWiki (at wiki.archlinux.org)
+2012-11-04 12:35:49   +meskarune     rc.d start httpd
+2012-11-04 12:35:51   XReaper        thestinger: :)
+2012-11-04 12:35:51   +meskarune     lol
+2012-11-04 12:35:51   thestinger     they should just say {{pkg|foo}} provides a {{foo.service}} unit, see [[systemd]] for more details
+2012-11-04 12:35:59   +tigrmesh      and then archers will have to do it all again
+2012-11-04 12:36:03   +tigrmesh      XReaper: ^^
+2012-11-04 12:36:11   XReaper        Yup
+2012-11-04 12:36:19   thestinger     {{ic|foo.service}} * :P
+2012-11-04 12:36:22   vodik          falconindy: wait, bug days are back? :o
+2012-11-04 12:36:23   thestinger     ice cream
+2012-11-04 12:36:25   XReaper        systemd is a goot thing(tm)
+2012-11-04 12:36:28   gtmanfred      vodik: read the news
+2012-11-04 12:36:29   XReaper        :o
+2012-11-04 12:36:34   +meskarune     LMAO
+2012-11-04 12:36:37   vodik          gtmanfred: but im lazy
+2012-11-04 12:36:38   falconindy     vodik: https://www.archlinux.org/news/bug-squashing-day-saturday-17th-november/
+2012-11-04 12:36:39   phrik          Title: Arch Linux - News: Bug Squashing Day: Saturday 17th November (at www.archlinux.org)
+2012-11-04 12:36:41   XReaper        vodik: you're a little out of sync
+2012-11-04 12:36:44   vodik          i am
+2012-11-04 12:36:55   vodik          because i've essentially been afk for 2 weeks
+2012-11-04 12:36:57   +meskarune     pacman -Syu vodik
+2012-11-04 12:36:58   XReaper        :)
+2012-11-04 12:37:12   XReaper        Unresolved dependencies (brain)
+2012-11-04 12:37:18   vodik          falconindy: i'll bring my troll A game
+2012-11-04 12:37:23   +meskarune     hehe
+2012-11-04 12:37:26   thestinger     vodik also lives out in the woods
+2012-11-04 12:37:38   vodik          under a log
+2012-11-04 12:37:46   thestinger     it's like a 1.5 hour drive from civilization
+2012-11-04 12:38:00   XReaper        logs have internet!?
+2012-11-04 12:38:03   vodik          heh, im only like an hour away from you, thestinger
+2012-11-04 12:38:10   thestinger     vodik: exactly
+2012-11-04 12:38:13   vodik          so does that mean you don't live with civilization?
+2012-11-04 12:38:15   vodik          :o
+2012-11-04 12:38:34   vodik          then again, it is toronto
+2012-11-04 12:38:38   XReaper        quit talking, start driving
+2012-11-04 12:38:51   XReaper        :)
+2012-11-04 12:39:04   fsckd          ok... moving on?
+2012-11-04 12:39:11   XReaper        Yup
+2012-11-04 12:39:12   vodik          whats next?
+2012-11-04 12:39:14   fsckd          long meeting is long
+2012-11-04 12:39:21   XReaper        twss
+2012-11-04 12:39:22   fsckd          next up, Install Day
+2012-11-04 12:39:43   fsckd          last time we decided
+2012-11-04 12:39:50   XReaper        Sounds good, how're you planning on doing it?
+2012-11-04 12:39:55   fsckd          to tentatively have install day on the 10th
+2012-11-04 12:40:14   fsckd          we have some notes
+2012-11-04 12:40:29   fsckd          http://titanpad.com/BtYZUdyasd
+2012-11-04 12:40:31   phrik          Title: TitanPad: BtYZUdyasd (at titanpad.com)
+2012-11-04 12:41:23   thestinger     fsckd: the installers will actually use systemd now since it's in base
+2012-11-04 12:41:28   fsckd          yup
+2012-11-04 12:41:51   +tigrmesh      one more thing
+2012-11-04 12:42:10   +tigrmesh      is there a date for the PKGBUILD class yet?
+2012-11-04 12:42:43   MrElendig      vodik: first have a nap
+2012-11-04 12:42:44   +tigrmesh      thestinger: damn, i hope so.  i'm reinstalling today or so, and i'd hate to do this twice
+2012-11-04 12:42:55   vodik          MrElendig: okay
+2012-11-04 12:42:56   MrElendig      vodik: THEN FIRE ZEEE..  er... SQUASH THE BUGS!
+2012-11-04 12:43:02   vodik          heh
+2012-11-04 12:43:11   vodik          ze bugs
+2012-11-04 12:43:30   +tigrmesh      so no date on the PKGBUILD class, fsckd and meskarune?
+2012-11-04 12:43:40   +meskarune     tigrmesh: there isn't a date set, it needs to be when the person teaching it has time
+2012-11-04 12:43:46   +tigrmesh      ok
+2012-11-04 12:44:00   +tigrmesh      sorry, fsckd.  install day
+2012-11-04 12:44:05   fsckd          for Install Day, is the 10th still feasible?
+2012-11-04 12:44:16   +meskarune     fsckd: for the install day, I was wondering how to distribute virtual box images?
+2012-11-04 12:44:32   fsckd          meskarune: torrent?
+2012-11-04 12:44:54   fsckd          how big are the images?
+2012-11-04 12:45:18   fsckd          i installed to vbox last week and it took up ~ 1 GiB
+2012-11-04 12:45:21   +meskarune     not too big
+2012-11-04 12:45:24   +meskarune     http://virtualboxes.org/images/archlinux/
+2012-11-04 12:45:26   phrik          Title: Archlinux « VirtualBoxes Free VirtualBoxÂ® Images (at virtualboxes.org)
+2012-11-04 12:45:36   +meskarune     they could be distributed with source forge or git repo
+2012-11-04 12:45:51   +meskarune     I would host them on my server, but I don't know if I have the bandwidth
+2012-11-04 12:45:52   vodik          base install should be tiny, even if we give it a large disk
+2012-11-04 12:45:59   fsckd          meskarune: those are old images, we can't use them :(
+2012-11-04 12:46:04   fsckd          sorry :(
+2012-11-04 12:46:05   +meskarune     yeah, I know
+2012-11-04 12:46:05   vodik          assuming we don't staticly allocate the disk
+2012-11-04 12:46:07   +meskarune     it was just an example
+2012-11-04 12:46:16   fsckd          ok
+2012-11-04 12:47:12   +meskarune     so maybe I should just stick one on git?
+2012-11-04 12:47:12   fsckd          also, how will we use the images?
+2012-11-04 12:47:21   +meskarune     people can use them to test out arch
+2012-11-04 12:47:25   fsckd          ok
+2012-11-04 12:47:31   +meskarune     and see if they want to install or just run as vbox
+2012-11-04 12:47:34   fsckd          put it on github you mean?
+2012-11-04 12:47:38   +meskarune     yeah
+2012-11-04 12:47:51   carharttjimmy  git and images dont work well do they?
+2012-11-04 12:47:57   carharttjimmy  or is that git and binary?
+2012-11-04 12:48:03   +meskarune     heh, not sure
+2012-11-04 12:48:12   +meskarune     I've never done it, but sourceforge uses git
+2012-11-04 12:48:13   fsckd          git and large files, though i don't remember how large
+2012-11-04 12:48:17   pierres        why not use our install images; what exactly do you need?
+2012-11-04 12:48:21   XReaper        heh
+2012-11-04 12:48:27   carharttjimmy  sourceforge also uses SVN and mercurial
+2012-11-04 12:48:31   carharttjimmy  :P
+2012-11-04 12:48:33   gtmanfred      carharttjimmy: and git
+2012-11-04 12:48:38   fsckd          pierres has a good point
+2012-11-04 12:48:45   carharttjimmy  We already went over that gtmanfred :P
+2012-11-04 12:48:45   +meskarune     pierres: its goign to be an already setup arch, that people can boot, run pacman --inti key and have everything running
+2012-11-04 12:48:48   XReaper        carharttjimmy: that was mentioned :)
+2012-11-04 12:48:55   fsckd          meskarune: the install images are fully functional
+2012-11-04 12:49:00   pierres        indeed
+2012-11-04 12:49:04   gtmanfred      carharttjimmy: ahh, read only, not also
+2012-11-04 12:49:10   carharttjimmy  ahh
+2012-11-04 12:49:14   pierres        the install image even has the key set up
+2012-11-04 12:49:14   XReaper        meskarune: you can even pacman -S on the install image
+2012-11-04 12:49:17   carharttjimmy  how did GTech do?
+2012-11-04 12:49:32   pierres        it also supports persitant storage
+2012-11-04 12:49:36   gtmanfred      carharttjimmy: ot
+2012-11-04 12:49:38   +meskarune     I know, but some people will want to have arch in virtual box, and then their regular desktop with a browser
+2012-11-04 12:49:40   +meskarune     :P
+2012-11-04 12:49:51   carharttjimmy  The only problem with putting install images on git is that it will overburden github's servers as you push it
+2012-11-04 12:49:52   XReaper        persistent storage? I haven't looked that far into it :p
+2012-11-04 12:49:54   +meskarune     instead of rebooting
+2012-11-04 12:50:00   carharttjimmy  it takes forever
+2012-11-04 12:50:03   +meskarune     yeah
+2012-11-04 12:50:05   carharttjimmy  I tried once.
+2012-11-04 12:50:10   fsckd          meskarune: that'll be too large for github
+2012-11-04 12:50:13   +meskarune     I can torrent it
+2012-11-04 12:50:15   carharttjimmy  sourceforge emailed me and told me too lay off
+2012-11-04 12:50:20   carharttjimmy  :P
+2012-11-04 12:50:21   +meskarune     oh dang
+2012-11-04 12:50:26   carharttjimmy  so I wouldnt recommend it
+2012-11-04 12:50:30   +meskarune     heh
+2012-11-04 12:50:36   XReaper        meskarune: yeah, torrents
+2012-11-04 12:50:37   +meskarune     bit torrent
+2012-11-04 12:50:41   carharttjimmy  sourceforge uses another service for binaries and ISO's
+2012-11-04 12:50:54   carharttjimmy  you use git to keep track of revisions in source code
+2012-11-04 12:50:57   +meskarune     and what torrent tracker to use?
+2012-11-04 12:51:07   XReaper        hmm
+2012-11-04 12:51:11   carharttjimmy  it was never intended for binaries
+2012-11-04 12:51:11   fsckd          demonoid! oh wait :P
+2012-11-04 12:51:14   +meskarune     ps hai pierres
+2012-11-04 12:51:15   XReaper        run your own
+2012-11-04 12:51:26   +meskarune     yeah, thats not a bad idea
+2012-11-04 12:51:27   XReaper        arch has their own tracker
+2012-11-04 12:51:34   +meskarune     depends on how quick I can get it going
+2012-11-04 12:51:43   pierres        we just switched to hefur; it's in the repo
+2012-11-04 12:51:48   carharttjimmy  Arch uses Subversion
+2012-11-04 12:51:48   XReaper        most projects run their own (and get indexed on other sites)
+2012-11-04 12:52:15   carharttjimmy  Git is far better than SVN btw
+2012-11-04 12:52:29   XReaper        git-svn
+2012-11-04 12:52:34   carharttjimmy  but SVN keeps it all centralized
+2012-11-04 12:52:38   vodik          svn-git :o
+2012-11-04 12:52:39   carharttjimmy  so meh
+2012-11-04 12:52:49   pierres        So you want a live image with X and everything?
+2012-11-04 12:52:55   vodik          but either case, using svn or git for binary images isn't ideal
+2012-11-04 12:53:07   carharttjimmy  you need to use another service for that
+2012-11-04 12:53:18   carharttjimmy  thats how sourceforge does it.
+2012-11-04 12:53:20   +meskarune     pierres: that is what I"m thinking. so people who are super new can test it out and see what its like to have an arch linux desktop
+2012-11-04 12:53:32   falconindy     that concept doesn't exist
+2012-11-04 12:53:43   +meskarune     and then when they want to install they can install for reals and set up arch
+2012-11-04 12:53:49   carharttjimmy  I can also now send mail from my UNCC email through my gmail.
+2012-11-04 12:53:52   gtmanfred      meskarune: i don't like that
+2012-11-04 12:53:54   pierres        meskarune: then they should isntall their own in virtualbox; that's a key part of arch.
+2012-11-04 12:54:04   +meskarune     yeah
+2012-11-04 12:54:04   gtmanfred      if you are trying it out, you shouldn't start with x
+2012-11-04 12:54:09   carharttjimmy  no thats not the arch way to have a live image to do this and that.
+2012-11-04 12:54:19   carharttjimmy  it should be minimal, you do the rest
+2012-11-04 12:54:34   carharttjimmy  mainly because falconindy is lazy :P
+2012-11-04 12:54:36   XReaper        Starting with X cuts out all the important stages of installation, configuration etc
+2012-11-04 12:54:38   +meskarune     sorta like the Linode arch images?
+2012-11-04 12:54:45   falconindy     no, mainly because arch is what _you_ make of it.
+2012-11-04 12:54:48   XReaper        meskarune: essentially
+2012-11-04 12:54:50   fsckd          +1
+2012-11-04 12:54:51   falconindy     not what some liveCD presents to you.
+2012-11-04 12:54:54   XReaper        just the core
+2012-11-04 12:55:04   falconindy     here's a blank slate. have fun. <-- that's arhc
+2012-11-04 12:55:10   XReaper        :)
+2012-11-04 12:55:11   gtmanfred      also arch*
+2012-11-04 12:55:13   fsckd          installation to vbox is very easy
+2012-11-04 12:55:14   carharttjimmy  Almost a blank slate
+2012-11-04 12:55:24   carharttjimmy  you still have core repos :P
+2012-11-04 12:55:28   XReaper        don't like pacman? then ... .. .. remove it :p
+2012-11-04 12:55:35   carharttjimmy  and you need certain stuff to run other stuff.
+2012-11-04 12:55:36   fsckd          the instructions can be slimmed to one page
+2012-11-04 12:55:40   +meskarune     but the linode images skip a lot of the setup, you just boot, do a few config things, and you are up and running
+2012-11-04 12:55:47   +meskarune     vs. a desktop install
+2012-11-04 12:55:50   carharttjimmy  But mainly a blank slate, its now like compile it yourself you jerk.
+2012-11-04 12:55:58   +meskarune     but it would get people who just want to test it out a head start
+2012-11-04 12:56:04   +tigrmesh      so the actual partitioning won't happen?
+2012-11-04 12:56:08   fsckd          meskarune: one thing, we don't want help vampires
+2012-11-04 12:56:09   gtmanfred      meskarune: but that is linode, they also were using their own modules iirc
+2012-11-04 12:56:22   XReaper        gtmanfred: monolithic kernel
+2012-11-04 12:56:23   +tigrmesh      andselecting packages?
+2012-11-04 12:56:29   +meskarune     Linode uses all standard stuff gtmanfred
+2012-11-04 12:56:30   XReaper        that exists on the host machine :)
+2012-11-04 12:56:31   carharttjimmy  linode also charges people to use thier services, meskarune
+2012-11-04 12:56:39   carharttjimmy  there is a difference
+2012-11-04 12:56:41   gtmanfred      meskarune: it does now
+2012-11-04 12:56:51   carharttjimmy  Hey, we are paying $$$ to buy this service, make it work for us.
+2012-11-04 12:56:53   carharttjimmy  Done.
+2012-11-04 12:56:55   +meskarune     gtmanfred: I helped with the new arch image :D
+2012-11-04 12:56:59   gtmanfred      meskarune: they used to come pre installed with a -linode kernel
+2012-11-04 12:57:00   XReaper        :)
+2012-11-04 12:57:01   +meskarune     for Linode
+2012-11-04 12:57:03   gtmanfred      :)
+2012-11-04 12:57:20   +meskarune     gtmanfred: the "linode" kernel is just hte kernel.org kernel :P
+2012-11-04 12:57:28   +meskarune     with a new name
+2012-11-04 12:57:35   carharttjimmy  we all need new names
+2012-11-04 12:57:42   +meskarune     anyways, virtual box snaptop that people can use? yes/no?
+2012-11-04 12:57:54   gtmanfred      meskarune: but those also have to come somewhat configured so that sshd can be setup
+2012-11-04 12:57:56   +meskarune     or just walk people through an install on their actual computers
+2012-11-04 12:58:04   carharttjimmy  we can do both
+2012-11-04 12:58:08   +meskarune     kk
+2012-11-04 12:58:10   carharttjimmy  install varies slightly
+2012-11-04 12:58:25   gtmanfred      meskarune: i like walking through an actual install, we can do vbox but... i don'tlike the idea of a configured snapshot
+2012-11-04 12:58:26   carharttjimmy  once you get past partition on your own computer, everything else is the same
+2012-11-04 12:58:31   arbn           meskarune: We can walk people through installation on VBox, but there should be no ready-made Arch VBox image.
+2012-11-04 12:58:39   pierres        people lean a lot of things during install they need to know for later use
+2012-11-04 12:58:42   carharttjimmy  agreed with arbn
+2012-11-04 12:58:49   +meskarune     ok
+2012-11-04 12:58:57   +tigrmesh      pierres: lol.  very true
+2012-11-04 12:59:11   +meskarune     is there anything special with installing on virtual box vs. regular system
+2012-11-04 12:59:16   carharttjimmy  Yes
+2012-11-04 12:59:27   pierres        not much
+2012-11-04 12:59:29   gtmanfred      meskarune: not much different,
+2012-11-04 12:59:29   +meskarune     ok, and is the arch wiki on that updated for systemd?
+2012-11-04 12:59:32   carharttjimmy  well, kinda, partitioning is a bit different
+2012-11-04 12:59:36   gtmanfred      meskarune: should be
+2012-11-04 12:59:41   carharttjimmy  but its usually the same
+2012-11-04 12:59:49   fsckd          meskarune: there's one extra package for guest
+2012-11-04 12:59:55   fsckd          s
+2012-11-04 12:59:56   pierres        carharttjimmy: nope, it's the same
+2012-11-04 13:00:41   carharttjimmy  heh, yeah. except vbox doesnt have UEFI!
+2012-11-04 13:00:46   pierres        it has
+2012-11-04 13:00:52   carharttjimmy  really?
+2012-11-04 13:00:55   carharttjimmy  huh
+2012-11-04 13:01:05   carharttjimmy  well butter me up and call me a ham
+2012-11-04 13:01:23   pierres        but most people should use bios mode anyway; even on real hardware
+2012-11-04 13:01:26   vodik          and don't you have to, ideally, but those extra vbox modules in the initcpio image?
+2012-11-04 13:01:37   pierres        no
+2012-11-04 13:01:40   fsckd          one sec, a quick vote, yes for ready made vbox image, no for none
+2012-11-04 13:01:44   vodik          kk
+2012-11-04 13:01:50   carharttjimmy  no
+2012-11-04 13:01:54   pierres        those extra modules are only for X and to mount shared folders
+2012-11-04 13:02:16   vodik          pierres: i thought vbox video driver provided kms
+2012-11-04 13:02:19    *   vodik shrugs
+2012-11-04 13:02:21   pierres        fsckd: there are no votes in arch ;-)
+2012-11-04 13:02:21   gtmanfred      no
+2012-11-04 13:02:22   vodik          no
+2012-11-04 13:02:24   arbn           no
+2012-11-04 13:02:29   thestinger     vodik: no vmware's does
+2012-11-04 13:02:30   fsckd          pierres: lol
+2012-11-04 13:02:46   vodik          thestinger: kk
+2012-11-04 13:02:48   fsckd          i need to know what people in this meeting think :)
+2012-11-04 13:02:55   thestinger     vodik: vmware are the ones who develop gallium
+2012-11-04 13:03:05   vodik          oh
+2012-11-04 13:03:06   thestinger     sad that vmware itself is closed even though the drivers are free
+2012-11-04 13:03:35   arbn           Anyway, we're straying a bit far from the topic at hand, I think. Talking people through installation on VBox seems easy enough.
+2012-11-04 13:03:49   falconindy     thestinger: there's always the cirrus video driver for KVM that supports KMS
+2012-11-04 13:04:05   thestinger     falconindy: yeah but that's a joke :P
+2012-11-04 13:04:14   falconindy     so what =P
+2012-11-04 13:04:15   thestinger     the vmwgfx one does 3d accel
+2012-11-04 13:04:28   fsckd          arbn: i agree, it's a very simple process
+2012-11-04 13:04:46   gtmanfred      anyway, what were we talking about?
+2012-11-04 13:04:55   fsckd          if someone can't go through it, managing an arch install will be a nightmare for them
+2012-11-04 13:05:05   fsckd          gtmanfred: we're still in the meeting
+2012-11-04 13:05:05   gtmanfred      right
+2012-11-04 13:05:11   gtmanfred      i know that :)
+2012-11-04 13:05:20   fsckd          gtmanfred: right now, arch linux install day :)
+2012-11-04 13:05:24   thestinger     falconindy: tf2 runs at max settings in vmware :P
+2012-11-04 13:05:36   falconindy     and soon it won't even need vmware!
+2012-11-04 13:05:46   thestinger     soon.
+2012-11-04 13:05:57   falconindy     http://cdn.memegenerator.net/instances/400x/23140071.jpg
+2012-11-04 13:06:18   gtmanfred      !soon
+2012-11-04 13:06:19   phrik          http://ompldr.org/vZnJuNg
+2012-11-04 13:06:27   fsckd          lmao
+2012-11-04 13:07:05   +meskarune     ++ arbn
+2012-11-04 13:07:49   +meskarune     ok, so install day will have vbox and desktop install, and we can use social media to advertise
+2012-11-04 13:07:54   +meskarune     as well as irc
+2012-11-04 13:08:02   +tigrmesh      i'm for an image
+2012-11-04 13:08:11   +tigrmesh      yay
+2012-11-04 13:08:28   +tigrmesh      note to self: read *up*
+2012-11-04 13:08:39   +meskarune     most of the people i know who switched to arch started with virtual box first
+2012-11-04 13:08:46   +meskarune     hehe tigrmesh ;d
+2012-11-04 13:08:52   +tigrmesh      :)
+2012-11-04 13:09:03   vodik          i just dived in :o
+2012-11-04 13:09:05   vodik          it was fun
+2012-11-04 13:09:13   +tigrmesh      me too.  in a parking lot
+2012-11-04 13:09:29   +tigrmesh      happened much faster than i expected, too
+2012-11-04 13:09:33   fsckd          i couldn't get vbox wokring right in the previous distro i used ><
+2012-11-04 13:09:48   vodik          but i started in an era before virtualization extensions where common place
+2012-11-04 13:09:51   arbn           Having led an Arch install-fest, I definitely found that a *lot* of people only wanted to install on VBox.
+2012-11-04 13:09:53   gtmanfred      tigrmesh: wat?
+2012-11-04 13:10:03   MrElendig      installing in vbox tends to be more troublesome than installing on real hardware in my experience
+2012-11-04 13:10:09   +tigrmesh      arbn: that is such a surprise
+2012-11-04 13:10:11   MrElendig      specially if the host have a outdated vbox version
+2012-11-04 13:10:38   fsckd          gtmanfred: i think she got arch from some shady dealer in the parking lot behind walmart
+2012-11-04 13:10:44   MrElendig      (due to glibc/kernel/xorg versions etc in arch being actually up to date)
+2012-11-04 13:10:51   vodik          !grab fsckd
+2012-11-04 13:10:52   phrik          vodik: Tada!
+2012-11-04 13:11:00   MrElendig      fsckd: s/shady/the trolly woman/
+2012-11-04 13:11:04   +tigrmesh      gtmanfred: i had my laptop, the install guide, the arch cd, and was waiting for my friend to come out of her work.
+2012-11-04 13:11:16   gtmanfred      ahh ok that makes much more sense
+2012-11-04 13:11:23   fsckd          hehe XD
+2012-11-04 13:11:23   +tigrmesh      so.  should we select a smaller group to set up what goes in the boxes?
+2012-11-04 13:11:27   gtmanfred      tigrmesh: i thought you were making a joke about what vodik said...
+2012-11-04 13:11:29   MrElendig      fsckd: just because she can predict the future and has a dead cat on hear head doesn't mean she is shady!
+2012-11-04 13:11:37   +tigrmesh      lol
+2012-11-04 13:11:42   fsckd          lirl
+2012-11-04 13:11:43   +tigrmesh      do we have a time for this yet?
+2012-11-04 13:11:49   +meskarune     yeah, I just installed arch on my computer as well, but I'd been a long time linux user by then
+2012-11-04 13:12:12   fsckd          !grab MrElendig
+2012-11-04 13:12:13   phrik          fsckd: Tada!
+2012-11-04 13:13:06   arbn           I've never installed in VBox before, but at the install-fest, we didn't have to give special instructions to VBox installers. So, it's not really a separate process.
+2012-11-04 13:13:17   +tigrmesh      k
+2012-11-04 13:13:25   +meskarune     but most people install stuff in vbox before their main system, or run linux in vbox for like, ssh and other tools
+2012-11-04 13:13:48   +meskarune     awesome arbn
+2012-11-04 13:13:50   +meskarune     thanks
+2012-11-04 13:13:52   +meskarune     :D
+2012-11-04 13:13:56   +meskarune     I just want to be prepared
+2012-11-04 13:13:58   +meskarune     :D
+2012-11-04 13:14:13   +meskarune     might be fun to have a google hangout too
+2012-11-04 13:14:16   +meskarune     or something similar
+2012-11-04 13:14:19   XReaper        :)
+2012-11-04 13:14:21   +meskarune     for people who are installing
+2012-11-04 13:14:26   fsckd          not a bad idea
+2012-11-04 13:14:45   arbn           So we can see their looks of shock and despair. :P
+2012-11-04 13:14:46   +meskarune     it can be faster to explain things when talking
+2012-11-04 13:14:50   +meskarune     lol arbn
+2012-11-04 13:15:08   vodik          isn't there a size limit to google hangout though?
+2012-11-04 13:15:11   fsckd          also can show them your screen
+2012-11-04 13:15:15   +tigrmesh      wait, wait
+2012-11-04 13:15:22   +tigrmesh      why not use irc?
+2012-11-04 13:15:31   +meskarune     we would
+2012-11-04 13:15:38   +meskarune     both
+2012-11-04 13:15:44   +tigrmesh      so what's google hangout for?
+2012-11-04 13:16:02   vodik          checking out the ladies :o
+2012-11-04 13:16:05    *   vodik hides
+2012-11-04 13:16:14   fsckd          GET HIM!
+2012-11-04 13:16:21   vodik          tigrmesh: aparently you can screencast
+2012-11-04 13:16:27   +tigrmesh      ah
+2012-11-04 13:16:31   +tigrmesh      thanks
+2012-11-04 13:16:40   +tigrmesh      i coulda used that yesterday!
+2012-11-04 13:16:52   fsckd          :)
+2012-11-04 13:17:16   arbn           As long as it isn't too difficult for someone to be hanging out on Google and using IRC. Or different people, maybe?
+2012-11-04 13:17:25   +meskarune     I could multitask
+2012-11-04 13:17:30   arbn           OK.
+2012-11-04 13:17:35   vodik          in theory
+2012-11-04 13:17:39   +meskarune     lol
+2012-11-04 13:17:54   fsckd          are we still good for the 10th or should another day be chosen?
+2012-11-04 13:18:01   vodik          you never know, sometimes people are demanding
+2012-11-04 13:18:13   vodik          its not always easy to watch multiple channels here
+2012-11-04 13:18:23   +meskarune     so what day is the 10th?
+2012-11-04 13:18:28   +meskarune     also is this going to be 24 hour?
+2012-11-04 13:18:30   +meskarune     :D
+2012-11-04 13:18:37   fsckd          good question
+2012-11-04 13:18:39   +meskarune     I'll be up from 3am to like 6pm
+2012-11-04 13:18:44   vodik          saturday
+2012-11-04 13:18:48   fsckd          10th is next saturday
+2012-11-04 13:18:54   +meskarune     ok
+2012-11-04 13:19:03   arbn           This Saturday, yeah.
+2012-11-04 13:19:04   +meskarune     I work on saturdays, but I think I can swing it
+2012-11-04 13:19:10   fsckd          do we have enough time to get the word out?
+2012-11-04 13:19:25   vodik          i can start shouting really loudly
+2012-11-04 13:19:28   arbn           That seems a bit too short a time to advertise.
+2012-11-04 13:19:42   arbn           "Hey, can you do an install-fest in 3 days?"
+2012-11-04 13:19:51   vodik          6, but yeah
+2012-11-04 13:19:54   fsckd          would 24th or 25th be better?
+2012-11-04 13:20:09   +meskarune     from the 22 - 25 I'll be in New York City
+2012-11-04 13:20:27   +meskarune     so there is a possibility that I could hang out in a coffee shop, and mabye people meet up in rl as well
+2012-11-04 13:20:27   vodik          we can always have multiple events
+2012-11-04 13:20:41   vodik          you could always just do the 10th, expect a small turn out
+2012-11-04 13:20:49   vodik          and gauge that for a larger group
+2012-11-04 13:20:49   +meskarune     I'm sure there are a ton of women linux/computer users in NYC
+2012-11-04 13:21:00   fsckd          there are
+2012-11-04 13:21:05   arbn           meskarune: Yes, there seem to be.
+2012-11-04 13:21:06   vodik          consider it a practice run
+2012-11-04 13:21:14   +meskarune     yeah
+2012-11-04 13:21:23   fsckd          could we advert to hacker school?
+2012-11-04 13:21:27   gtmanfred      !both
+2012-11-04 13:21:28   phrik          http://ompldr.org/vZmFlYQ
+2012-11-04 13:21:30   fsckd          they are in nyc
+2012-11-04 13:21:34   +meskarune     oh cool
+2012-11-04 13:21:36   +meskarune     yeah for sure
+2012-11-04 13:22:45   fsckd          they are pro-women as well
+2012-11-04 13:23:02   arbn           fsckd: Interesting idea, yeah. Etsy seems to be a force for women in computing, around here.
+2012-11-04 13:23:24   +tigrmesh      i've seen that, too
+2012-11-04 13:24:11   +tigrmesh      ok.  now we're nearing 2.5 hours.  lets wrap this up
+2012-11-04 13:24:20   fsckd          yeah
+2012-11-04 13:24:27   fsckd          what isthe plan?
+2012-11-04 13:24:30   +tigrmesh      10th:  yes or no?
+2012-11-04 13:24:45   +tigrmesh      seems to be where we are
+2012-11-04 13:24:59   +tigrmesh      let me rephrase that
+2012-11-04 13:25:13   arbn           I think the 10th is too soon to start getting the word out.
+2012-11-04 13:25:22   +tigrmesh      practice run?
+2012-11-04 13:25:22   gtmanfred      i say yes, if it goes well or not we can always have another one on a time frame based on what we think we can do
+2012-11-04 13:25:28   vodik          im more likely to be free on the 10th, i see it as a practice run if we get a small turn out, which isn't bad
+2012-11-04 13:25:28   gtmanfred      tigrmesh: +1
+2012-11-04 13:25:47   arbn           Ah. That's a good point.
+2012-11-04 13:25:50   vodik          it might suck to get a big group and turn out to be poorly prepared
+2012-11-04 13:25:56   fsckd          true
+2012-11-04 13:26:00   +tigrmesh      including us
+2012-11-04 13:26:04   gtmanfred      just because we have one on the 10th doesn't mean we can't have another on the 24th?
+2012-11-04 13:26:15   +tigrmesh      omg!  :p
+2012-11-04 13:26:17   +tigrmesh      yes
+2012-11-04 13:26:31   vodik          basically
+2012-11-04 13:26:33   fsckd          we always planned to have more
+2012-11-04 13:26:39   +tigrmesh      so we have 2, maybe 3 yeses for the 10th
+2012-11-04 13:26:42   vodik          so i vote for 10th
+2012-11-04 13:26:48   +tigrmesh      ok
+2012-11-04 13:27:02   +tigrmesh      meskarune, fsckd, arbn?
+2012-11-04 13:27:32   fsckd          i abstain
+2012-11-04 13:27:51   +tigrmesh      aha!  new blood
+2012-11-04 13:28:10   fsckd          escondida: o/
+2012-11-04 13:28:34   +meskarune     haha yeah
+2012-11-04 13:28:36   arbn           I say yes for 10th, if everyone is up for the possibility of a second one so soon.
+2012-11-04 13:28:36   +meskarune     sounds good
+2012-11-04 13:28:43   +tigrmesh      escondida: we've been discussing having a practice run install fest on the 10th.  what do you think?
+2012-11-04 13:28:50   +tigrmesh      ok
+2012-11-04 13:29:05   +tigrmesh      so we have 5 yeses
+2012-11-04 13:29:21   fsckd          where and when do we promote install day?
+2012-11-04 13:29:26   +tigrmesh      abveritas, bin_bash, yardena, if you're here - practice run install fest on the 10th?
+2012-11-04 13:29:38   +tigrmesh      on the site
+2012-11-04 13:29:40   fsckd          we'll just make a post on the ml, archwomen blog and arch forum?
+2012-11-04 13:29:53   +tigrmesh      and #archlinux
+2012-11-04 13:30:02   fsckd          right... those people
+2012-11-04 13:30:04   fsckd          :P
+2012-11-04 13:30:12   +tigrmesh      #archlinux-pl, too.  they've been great
+2012-11-04 13:30:19   fsckd          ahh, good idea
+2012-11-04 13:30:32   +tigrmesh      except for the guy who's banned.  but that's why he's banned
+2012-11-04 13:30:45   gtmanfred      what is -pl?
+2012-11-04 13:30:51   +tigrmesh      poland
+2012-11-04 13:30:53   gtmanfred      ahh
+2012-11-04 13:30:57   +tigrmesh      or polish
+2012-11-04 13:31:01   XReaper        :)
+2012-11-04 13:31:09   +meskarune     gtmanfred: there are a ton of linux using chicks in eastern europe
+2012-11-04 13:31:13   +tigrmesh      ok
+2012-11-04 13:31:13   abveritas      tigrmesh: you don't need me for an Arch install fest :)
+2012-11-04 13:31:26   XReaper        pacman -Syu abveritas
+2012-11-04 13:31:32   +tigrmesh      true.  we still like you, though  :)
+2012-11-04 13:31:33   gtmanfred      meskarune: cool
+2012-11-04 13:31:43   escondida      tigrmesh: A practice install?
+2012-11-04 13:31:58   +tigrmesh      practice install *fest*
+2012-11-04 13:32:02   arbn           tigrmesh: A practice running the event.
+2012-11-04 13:32:07   escondida      Ohh, I see
+2012-11-04 13:32:07   fsckd          escondida: parcatise install day
+2012-11-04 13:32:13   +tigrmesh      yes
+2012-11-04 13:32:20   escondida      Sounds cool
+2012-11-04 13:32:25   abveritas      tigrmesh: though I must say, new install scripts are great
+2012-11-04 13:32:37   +tigrmesh      nice to hear
+2012-11-04 13:32:46   +tigrmesh      since i'll be using one later
+2012-11-04 13:32:56   fsckd          tigrmesh: i installed to vbox last week, very easy
+2012-11-04 13:33:03   +tigrmesh      great
+2012-11-04 13:33:12   +tigrmesh      ok
+2012-11-04 13:33:18   +tigrmesh      so yes on the fest
+2012-11-04 13:33:25   +tigrmesh      where and what time?
+2012-11-04 13:33:31   escondida      Alas, I shall be working that day, so I won't be able to help 'til after 5 pm GMT -6:00
+2012-11-04 13:33:51   +tigrmesh      too bad
+2012-11-04 13:34:04   escondida      (Assuming, of course, that I am no longer sick by then and able to return to work, where I *should* be today. Grumble grumble grumble)
+2012-11-04 13:34:07   +meskarune     I work on the 10th, but from 3am - 1pm
+2012-11-04 13:34:15   +meskarune     and could try to hangout a bit during work
+2012-11-04 13:34:26   fsckd          should we shift to 11th?
+2012-11-04 13:34:29   escondida      Hey, meskarune. How's it going?
+2012-11-04 13:34:30   +meskarune     escondida: yeah, I hate being sick :(
+2012-11-04 13:34:43   +meskarune     I'm ok with saturday
+2012-11-04 13:34:45   +tigrmesh      fsckd: that's fine with me
+2012-11-04 13:34:51   +meskarune     we just have ot make sure we have coverage
+2012-11-04 13:35:01   +meskarune     and people can use #archlinux as well as our channel
+2012-11-04 13:35:21   +tigrmesh      meskarune: do you work both saturday and sunday?
+2012-11-04 13:35:23   escondida      meskarune: Well, in this case it's not as bad as it could be; basically just a fever + assorted fun side effects. But I don't want to get anyone *else* sick
+2012-11-04 13:35:37   +meskarune     tigrmesh: I work tues - sat. and have sunday and monday off
+2012-11-04 13:35:43   fsckd          oh no, is it transmissible over irc?
+2012-11-04 13:35:57   escondida      Probably, but only if you open the scroll.
+2012-11-04 13:36:14   fsckd          ok, we can post a warning in the channel
+2012-11-04 13:36:17   +tigrmesh      eww.  and she voted for the same thing i did.  eww
+2012-11-04 13:36:27   escondida      ?
+2012-11-04 13:36:39   fsckd          :P
+2012-11-04 13:36:48   +tigrmesh      install practice on the 10th
+2012-11-04 13:36:59   escondida      Ah
+2012-11-04 13:37:07   +tigrmesh      meskarune: how long does it take you to get home?
+2012-11-04 13:37:10   +tigrmesh      from work?
+2012-11-04 13:37:31   fsckd          i guess we're all set, Nov. 10th, all day?
+2012-11-04 13:37:58   gtmanfred      sure :)
+2012-11-04 13:38:01   +tigrmesh      starting what time?
+2012-11-04 13:38:12   gtmanfred      00:00
+2012-11-04 13:38:22   +tigrmesh      like, what time do we need to be available?
+2012-11-04 13:38:33   fsckd          UTC
+2012-11-04 13:38:40   +tigrmesh      from 00:00 to 23:59?
+2012-11-04 13:39:09   +tigrmesh      right.  utc, which is ... i dunno what time here
+2012-11-04 13:39:30   fsckd          it's 18:40 now
+2012-11-04 13:39:46   fsckd          we're -5
+2012-11-04 13:39:55   MrElendig      Stupiday Nov  4 19:39:52 CET 2012
+2012-11-04 13:40:28    *   MrElendig have not jumped on the bunday bandwagon
+2012-11-04 13:40:42   XReaper        :)
+2012-11-04 13:40:49   fsckd          heh
+2012-11-04 13:41:08   escondida      bunday bandwagon?
+2012-11-04 13:41:14   +tigrmesh      now i'm really confused.  time -u gives me 118:41 utc
+2012-11-04 13:41:24   +tigrmesh      no it doesn't
+2012-11-04 13:41:27   XReaper        Mon Nov  5 05:41:15 :o
+2012-11-04 13:41:32   +tigrmesh      it's 18:41 utc
+2012-11-04 13:41:51   +tigrmesh      yeah, well, you're special, XReaper
+2012-11-04 13:41:51   XReaper        Australian Eastern Daylight Time FTW
+2012-11-04 13:41:54   XReaper        :)
+2012-11-04 13:42:02   +tigrmesh      ok.  so
+2012-11-04 13:42:09   +tigrmesh      what time?
+2012-11-04 13:42:38   fsckd          so 00:00 is 7 pm fri for us
+2012-11-04 13:43:02   +meskarune     I'll be asleep then, but I'm sure other people will be around :D
+2012-11-04 13:43:09   +meskarune     and I'll be up at 3am, online at 4am
+2012-11-04 13:43:14   +meskarune     awake a few hour later ;P
+2012-11-04 13:43:44   fsckd          we should have end later than 24 hours
+2012-11-04 13:44:07   fsckd          or just say saturday for all time zones
+2012-11-04 13:44:14   fsckd          and go from fri - sun
+2012-11-04 13:45:51   arbn           Just to be clear, it isn't advised that anyone stay glued to their computers for that entire timeframe. Eating and sleeping are important.
+2012-11-04 13:46:16   +meskarune     haha ++
+2012-11-04 13:46:24   fsckd          good advice XD
+2012-11-04 13:46:28   +meskarune     I'll be online for good chunks of the time
+2012-11-04 13:46:34   +meskarune     ok anything else?
+2012-11-04 13:46:39   XReaper        :)
+2012-11-04 13:46:41   +meskarune     I need to go eat lunch actually
+2012-11-04 13:46:46   +meskarune     lol arbn <3
+2012-11-04 13:46:53   XReaper        :)
+2012-11-04 13:46:54   fsckd          so do i
+2012-11-04 13:46:55   XReaper        wait
+2012-11-04 13:47:01   XReaper        didn't you just eat
+2012-11-04 13:47:02   XReaper        ;p
+2012-11-04 13:47:13   XReaper        (how long was that meeting)
+2012-11-04 13:47:19   vod1k          oops
+2012-11-04 13:47:21   fsckd          lastly, is the current meeting time 16:00 ok?
+2012-11-04 13:47:25   XReaper        vod1k: lol
+2012-11-04 13:47:32   fsckd          XReaper: not over yet :P
+2012-11-04 13:47:40   arbn           That works for me. This all sounds good.
+2012-11-04 13:47:40   XReaper        meskarune: reboot your linode into 3.6.5
+2012-11-04 13:47:48   XReaper        (you have to manually select it)
+2012-11-04 13:47:54   XReaper        :p
+2012-11-04 13:47:57   XReaper        who needs uptime
+2012-11-04 13:48:03   +tigrmesh      fsckd: good for me
+2012-11-04 13:48:04   vod1k          !uptime
+2012-11-04 13:48:06   phrik          vod1k: I have been running for 2 days, 5 hours, 29 minutes, and 50 seconds.
+2012-11-04 13:48:12   XReaper        indeed
+2012-11-04 13:48:29   fsckd          ok, cause everyone needs to go and i hate sitting for long periods of time like this
+2012-11-04 13:48:31   +tigrmesh      anyone not like the time?
+2012-11-04 13:48:50   fsckd          tigrmesh: dst ended
+2012-11-04 13:49:01   +tigrmesh      shall we kill it?
+2012-11-04 13:49:03   fsckd          just want to be sure no one is inconvenienced
+2012-11-04 13:49:15   +tigrmesh      nice
+2012-11-04 13:49:18   XReaper        :)
+2012-11-04 13:49:20   fsckd          ok then
+2012-11-04 13:49:27   fsckd          >>>>>>>>>>> meeting ends <<<<<<<<<<<

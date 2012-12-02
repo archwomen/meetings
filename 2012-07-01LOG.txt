@@ -1,0 +1,259 @@
+2012-07-01 13:06:58     +tigrmesh      hi
+2012-07-01 13:07:02     fsckd          hello
+2012-07-01 13:07:06     +tigrmesh      we're going to start the meeting now
+2012-07-01 13:07:57     +tigrmesh      did much happen with arch classroom?
+2012-07-01 13:08:01     +tigrmesh      this month?
+2012-07-01 13:08:15     fsckd          meskarune posted a thread on the forums
+2012-07-01 13:08:29     fsckd          a bunch of good ideas were made
+2012-07-01 13:08:36     fsckd          ideas for classes*
+2012-07-01 13:09:03     fsckd          like a class for debugging and troubleshooting
+2012-07-01 13:09:20     +tigrmesh      that's a great idea
+2012-07-01 13:09:23     fsckd          here's a link https://bbs.archlinux.org/viewtopic.php?id=143671
+2012-07-01 13:09:26     phrik          Title: Arch Classroom (Page 1) / Arch Discussion / Arch Linux Forums (at bbs.archlinux.org)
+2012-07-01 13:09:47     fsckd          some people volunteered as instructors and more offered to be students
+2012-07-01 13:10:18     +tigrmesh      How to Pity the Fool: A Mr. T philosophy course?
+2012-07-01 13:10:30     fsckd          lol
+2012-07-01 13:11:24     fsckd          i think we should start making framework for the whole thing and plan how it should be set up
+2012-07-01 13:11:53     +tigrmesh      what do you mean by framework?
+2012-07-01 13:12:20     fsckd          documentation and guides for making classes
+2012-07-01 13:12:44     +tigrmesh      does anyone have ideas for doing that?
+2012-07-01 13:12:44     fsckd          from that thread it's clear we're not going to have one or two classes but lots
+2012-07-01 13:12:59     +tigrmesh      right
+2012-07-01 13:14:06     fsckd          meskarune wrote "If we have good Lesson plans with "homework" and step by step beginner information that are easy to use and follow, I'm hoping anyone can use them to teach their own class.  The teachers of course could edit the class to their students."
+2012-07-01 13:14:29     +tigrmesh      yes.
+2012-07-01 13:14:51     +tigrmesh      we've already done this item from last month's meeting:  Create a namespace on the Arch Wiki for class information and lesson plans. Talk pages can be used for planning/discussion
+2012-07-01 13:15:42     fsckd          i believe so: https://wiki.archlinux.org/index.php/Classroom
+2012-07-01 13:15:44     phrik          Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2012-07-01 13:16:10     +tigrmesh      last month's meeting minutes are here:  http://archwomen.org/index.php/2012/june
+2012-07-01 13:16:12     phrik          Title: June 3rd IRC Meeting Minutes (at archwomen.org)
+2012-07-01 13:16:42     fsckd          we should have included wiki admins in this meeting ><
+2012-07-01 13:17:25     +tigrmesh      oh.  good point
+2012-07-01 13:18:01     fsckd          we can talk to them later and clarify everything
+2012-07-01 13:18:24     fsckd          i'll start making a todo list :)
+2012-07-01 13:18:31     +tigrmesh      :)
+2012-07-01 13:20:48     +tigrmesh      i know that meskarune was working on a calendar - at least, she was looking at software for it.  but i don't see one on the site
+2012-07-01 13:21:51     fsckd          i think it's up
+2012-07-01 13:22:01     +tigrmesh      which is the second item on the classes list:  Create offical mailing list
+2012-07-01 13:22:32     fsckd          http://titanpad.com/qqM5H98TfJ <- todo list
+2012-07-01 13:22:35     phrik          Title: TitanPad: qqM5H98TfJ (at titanpad.com)
+2012-07-01 13:23:16     fsckd          s,todo list,notes,
+2012-07-01 13:24:16     +tigrmesh      lol.  it is so weird to watch the text in my browser move around of its own accord
+2012-07-01 13:24:30     fsckd          heh XD
+2012-07-01 13:26:00     +tigrmesh      so we still need 3 and 4
+2012-07-01 13:26:20     fsckd          which is 3 and 4?
+2012-07-01 13:26:34     +tigrmesh      3.  recruit people to help with documentation.  4.  Find someone to teach a PKGBUILD class
+2012-07-01 13:27:27     +tigrmesh      documentation sounded clear until now.  any recollection of what she meant by that?
+2012-07-01 13:27:51     fsckd          i was not here for the June meeting :(
+2012-07-01 13:28:15     +tigrmesh      if it's class materials, wouldn't the teacher need to be part of putting that together?
+2012-07-01 13:28:41     fsckd          yes
+2012-07-01 13:28:59     +tigrmesh      does anyone who was here for the june meeting remember if what was meant by that?
+2012-07-01 13:30:57     fsckd          i hope it's not just the three of us here ><
+2012-07-01 13:32:34     fsckd          hola carharttjimmy just in time for the meeting :)
+2012-07-01 13:32:42     carharttjimmy  fsckd: hey
+2012-07-01 13:32:48     *     carharttjimmy hugs fsckd 
+2012-07-01 13:32:56     carharttjimmy  Where have you been amigo?
+2012-07-01 13:33:00	bin_bash	I'm here too
+2012-07-01 13:33:03	bin_bash	I'm just lurking
+2012-07-01 13:33:12     *     carharttjimmy hugs bin_bash 
+2012-07-01 13:33:24     *     bin_bash hugs carharttjimmy 
+2012-07-01 13:35:05     +tigrmesh      i'm going to briefly interrupt the classroom discussion to officially thank bin_bash for making the arch women facebook page
+2012-07-01 13:35:10     +tigrmesh      thanks bin_bash!
+2012-07-01 13:35:14	bin_bash	no problem!
+2012-07-01 13:35:41     *     carharttjimmy hugs tigrmesh 
+2012-07-01 13:35:42	bin_bash	It's been linked to the twitter page successfully, so anytime something is posted on twitter, meeting notes, retweets, whatever I decide to tweet, it's also on the facebook page.
+2012-07-01 13:35:52     carharttjimmy  nice bin_bash
+2012-07-01 13:35:56     carharttjimmy  way to go
+2012-07-01 13:35:59     +tigrmesh      yay
+2012-07-01 13:36:02     +tigrmesh      thanks carharttjimmy
+2012-07-01 13:36:06     carharttjimmy  I like reading the facebook
+2012-07-01 13:36:07	bin_bash	I wrote a blurb about it on the blog
+2012-07-01 13:36:16     carharttjimmy  twitter can be overwhelming
+2012-07-01 13:36:45     +tigrmesh      so we don't know what was meant by documentation
+2012-07-01 13:37:17     carharttjimmy  documentation is like readmes and stuff
+2012-07-01 13:37:26     carharttjimmy  you know its a man page
+2012-07-01 13:37:39     +tigrmesh      for the class/classroom
+2012-07-01 13:37:57     carharttjimmy  well documentation for a class is textbooks right?
+2012-07-01 13:38:55     +tigrmesh      i think the teacher would want to be involved in the prep of those wouldn't s/he?
+2012-07-01 13:39:11     carharttjimmy  wel if its ioni then yes
+2012-07-01 13:39:15     carharttjimmy  he should write them all
+2012-07-01 13:39:17     carharttjimmy  by hand
+2012-07-01 13:39:18     +tigrmesh      haha
+2012-07-01 13:39:22     carharttjimmy  and work long hours
+2012-07-01 13:39:33     carharttjimmy  but if its not ioni then no. we can buy those
+2012-07-01 13:39:55     carharttjimmy  The real question we have to ask is how do we make the lazy ioni work?
+2012-07-01 13:39:56     +tigrmesh      for a PKGBUILD class?
+2012-07-01 13:40:05     fsckd          ioni is going to be mad we keep highlighting him
+2012-07-01 13:40:15	bin_bash	MAYBE IF HE WASN'T SO DAMN LAZY
+2012-07-01 13:40:18     carharttjimmy  ioni will get over it
+2012-07-01 13:40:21	bin_bash	lolol
+2012-07-01 13:40:24     fsckd          we should stop highlighting ioni
+2012-07-01 13:40:29     carharttjimmy  He expects this from me
+2012-07-01 13:40:34     fsckd          XD
+2012-07-01 13:40:41     carharttjimmy  Idk fsckd its hard to stop highlighting ioni
+2012-07-01 13:40:42	bin_bash	We really should. ioni is going to get up and be like "What the actual fuck."
+2012-07-01 13:41:06     carharttjimmy  if he can get his hands from out of the cheetos bag bin_bash \
+2012-07-01 13:41:10     fsckd          i kind of feel for ioni, you know
+2012-07-01 13:41:11	bin_bash	LOL
+2012-07-01 13:41:30     carharttjimmy  I do too, I wish I could be lazy like ioni and get away with it
+2012-07-01 13:42:10     fsckd          ahem, anyways, notes/todo -> http://titanpad.com/qqM5H98TfJ
+2012-07-01 13:42:12     phrik          Title: TitanPad: qqM5H98TfJ (at titanpad.com)
+2012-07-01 13:42:23     +tigrmesh      let's /u1
+2012-07-01 13:43:10     +tigrmesh      about how long should this class be?
+2012-07-01 13:43:26     carharttjimmy  1 hour
+2012-07-01 13:43:33     carharttjimmy  but if ioni is teaching it, 5 hours
+2012-07-01 13:43:41     fsckd          heh
+2012-07-01 13:44:01	bin_bash	Only 5 hours because ioni would be too lazy to do anything
+2012-07-01 13:44:02     +tigrmesh      ok.  fun as it is, enough ioni bashing
+2012-07-01 13:44:10     carharttjimmy  alright alright
+2012-07-01 13:44:12	bin_bash	okay sorry
+2012-07-01 13:44:17	bin_bash	ilu ioni <3
+2012-07-01 13:44:19     +tigrmesh      people need to go to bed stuff
+2012-07-01 13:44:29	bin_bash	there. now he'll see that and feel loved
+2012-07-01 13:44:31     +tigrmesh      *and
+2012-07-01 13:44:31     carharttjimmy  he's always in bed but nvm
+2012-07-01 13:44:43     carharttjimmy  enough is enough
+2012-07-01 13:44:55     +tigrmesh      1 hour is enough?
+2012-07-01 13:44:57     carharttjimmy  lets say since its pkgbuild 30 mins to 1 hour ?
+2012-07-01 13:45:27     +tigrmesh      1 hour sounds better
+2012-07-01 13:45:35     carharttjimmy  we could do 2 hours
+2012-07-01 13:45:41     +tigrmesh      1/2 hour in addition for advanced stuff
+2012-07-01 13:45:43     carharttjimmy  or 1 hr and 3o mins
+2012-07-01 13:45:51     carharttjimmy  alright 1 hr and 30 mins
+2012-07-01 13:45:57     fsckd          1- 1.5 hrs
+2012-07-01 13:46:08     carharttjimmy  hmm indeed
+2012-07-01 13:46:13	bin_bash	INDEED
+2012-07-01 13:46:55     +tigrmesh      so.  anyone willing to come up with a list of what we want to make sure are covered?
+2012-07-01 13:47:28     carharttjimmy  the different utilities for pkbuild?
+2012-07-01 13:47:36     carharttjimmy  I forget what they are called
+2012-07-01 13:47:53     fsckd          makepkg? base-devel?
+2012-07-01 13:48:08     carharttjimmy  yeah
+2012-07-01 13:48:16     carharttjimmy  and ABS?
+2012-07-01 13:48:53     +tigrmesh      -git, -cvs
+2012-07-01 13:49:04     +tigrmesh      split packages
+2012-07-01 13:49:11     carharttjimmy  mercurial
+2012-07-01 13:49:17     +tigrmesh      that, too
+2012-07-01 13:51:41     +tigrmesh      ok
+2012-07-01 13:52:24     +tigrmesh      so we need someone who's willing to put a list together and bring it to our next meeting or put it on the wiki
+2012-07-01 13:53:22     fsckd          basically outline a lesson plan, right?
+2012-07-01 13:53:29     +tigrmesh      so we start looking for a teacher and the teacher will know what we've thought about covering
+2012-07-01 13:53:39     fsckd          for the next meeting i hope we can have a draft
+2012-07-01 13:53:53     +tigrmesh      who's willing to do that?
+2012-07-01 13:55:47     carharttjimmy  hmm
+2012-07-01 13:55:53     carharttjimmy  well if someone will give me a list
+2012-07-01 13:55:58     carharttjimmy  I can do the wiki
+2012-07-01 13:56:22     +tigrmesh      that's great  :)
+2012-07-01 13:57:21     +tigrmesh      anyone willing to make a list of "killer PKGBUILD thinks you all need to know"?
+2012-07-01 13:57:36     carharttjimmy  things sounds better than thinks
+2012-07-01 13:57:36     +tigrmesh      things*
+2012-07-01 13:57:41     carharttjimmy  ahh good you caught it
+2012-07-01 13:58:40     +tigrmesh      i can do it, but i'm not that experienced with them
+2012-07-01 13:59:00     carharttjimmy  fsckd you seem experiences
+2012-07-01 13:59:05     carharttjimmy  could you do it?
+2012-07-01 13:59:18     +tigrmesh      he's afk
+2012-07-01 13:59:21     carharttjimmy  ahh
+2012-07-01 13:59:50     +tigrmesh      plus i think he's doing the meeting minutes.  that's a pretty big task of its own
+2012-07-01 13:59:56     carharttjimmy  yeah
+2012-07-01 14:00:00     carharttjimmy  Hmm
+2012-07-01 14:01:17     +tigrmesh      i know some TUs.  i'll ask around to see what they think would be important to cover
+2012-07-01 14:01:32     carharttjimmy  k
+2012-07-01 14:01:51     +tigrmesh      and i bet MrElendig would have ideas, since he sees what problems people have
+2012-07-01 14:02:24     carharttjimmy  we should bribe him with lolpics
+2012-07-01 14:02:29     +tigrmesh      lol
+2012-07-01 14:03:17     carharttjimmy  we can ask the I-man too tigrmesh
+2012-07-01 14:03:31     +tigrmesh      go for it
+2012-07-01 14:03:45     *     carharttjimmy resists the urge to make a joke
+2012-07-01 14:03:48     +tigrmesh      the next thing that was mentioned as an agenda item was cross project involvement.  i'm not sure if anything happened with that, so we're going to table that for now
+2012-07-01 14:03:58     carharttjimmy  I wonder if falconindy would help?
+2012-07-01 14:04:27     +tigrmesh      i was thinking keenerd, actually
+2012-07-01 14:04:37     carharttjimmy  yeah
+2012-07-01 14:04:43     +tigrmesh      this is a beginner class
+2012-07-01 14:04:46     carharttjimmy  true
+2012-07-01 14:05:21     +tigrmesh      the next thing that was mentioned was site improvement
+2012-07-01 14:05:38     carharttjimmy  alright such as?
+2012-07-01 14:05:42     +tigrmesh      anyone see any problems with the site?
+2012-07-01 14:07:15     fsckd          we have an events feed http://archwomen.org/index.php/2012/events
+2012-07-01 14:07:16     phrik          Title: Events (at archwomen.org)
+2012-07-01 14:07:19     +tigrmesh      i have a couple.  if there's a calendar, it needs to go high up on the right sidebar
+2012-07-01 14:07:27     fsckd          i know meskarune was testing calender stuff
+2012-07-01 14:07:44     fsckd          calendar* (i can't remember which is which)
+2012-07-01 14:07:53     +tigrmesh      the mailing list needs to be higher up, too
+2012-07-01 14:07:55     +tigrmesh      imo
+2012-07-01 14:08:15     +tigrmesh      same with the link blog
+2012-07-01 14:08:42     +tigrmesh      anyone visiting would know there would be archives.  i think those can move down
+2012-07-01 14:09:16     +tigrmesh      anyone else have any suggestions?
+2012-07-01 14:10:15     +tigrmesh      bin_bash?  fogobogoo?  kichawa?  LadyAurora?  tlamer?
+2012-07-01 14:10:32     +tigrmesh      any suggestions / ideas / problems with the site?
+2012-07-01 14:10:52     fsckd          yeah, the sidebar could be improved a little, make it cleaner where one section ends and another begins
+2012-07-01 14:11:24     +tigrmesh      i just pulled random names.  do not be offended if i highlghted (or didn't highlight) you
+2012-07-01 14:12:12     +tigrmesh      so we're all happy with the site?
+2012-07-01 14:12:53     +tigrmesh      i'm not trying to nag.  although it seems like it
+2012-07-01 14:13:00     carharttjimmy  hmm I like it
+2012-07-01 14:13:09     fsckd          lol, not nagging
+2012-07-01 14:13:19     +tigrmesh      i just want to encourage anyone who wants to let us know
+2012-07-01 14:13:36     +tigrmesh      oh
+2012-07-01 14:13:38     +tigrmesh      my
+2012-07-01 14:13:40     +tigrmesh      god
+2012-07-01 14:13:48     carharttjimmy  where?
+2012-07-01 14:13:53     +tigrmesh      this is the worst, most difficult item ever:
+2012-07-01 14:13:55     +tigrmesh      anything else you want to bring up
+2012-07-01 14:14:03     fsckd          lol sorry ><
+2012-07-01 14:14:08     carharttjimmy  haha fsckd
+2012-07-01 14:14:09     +tigrmesh      lol
+2012-07-01 14:14:27     +tigrmesh      fsckd: sorry.  should have had a wink in ther
+2012-07-01 14:14:29     +tigrmesh      e
+2012-07-01 14:14:34     fsckd          XD
+2012-07-01 14:14:59     +tigrmesh      the floor is open
+2012-07-01 14:15:13     carharttjimmy  Hmm, capslock fridays anyone?
+2012-07-01 14:15:19     +tigrmesh      haha
+2012-07-01 14:15:51     carharttjimmy  worth a shot
+2012-07-01 14:15:56     carharttjimmy  I am serious too
+2012-07-01 14:15:57     +tigrmesh      anyone have any suggestions / praise / disgruntlement about the site, the organization or the channel?
+2012-07-01 14:16:01     carharttjimmy  we need a capslock friday
+2012-07-01 14:16:11     fsckd          we already have Canada day
+2012-07-01 14:16:16     +tigrmesh      we had a capslock day this week
+2012-07-01 14:16:22     carharttjimmy  what?
+2012-07-01 14:16:25     carharttjimmy  And I didnt know?
+2012-07-01 14:16:26     +tigrmesh      it's wouldn't be special if we did it every week
+2012-07-01 14:16:36     +tigrmesh      you must have missed it
+2012-07-01 14:16:39     carharttjimmy  true...but it would be fun
+2012-07-01 14:18:01     +tigrmesh      just so you know, if you do have suggestions / praise / disgruntlement about the site, the organization or the channel, you are free to PM meskarune, or me at any time
+2012-07-01 14:18:31     +tigrmesh      i'm sure that you can contact other people involved, too.  but i can't speak for them
+2012-07-01 14:20:16     fsckd          last time organizational hierarchy was set up
+2012-07-01 14:20:51     carharttjimmy  yeah
+2012-07-01 14:21:01     fsckd          tigrmesh already mentioned bin_bash is social media manager
+2012-07-01 14:21:14     carharttjimmy  fsckd is the whipping boy
+2012-07-01 14:21:18     fsckd          tigrmesh and vodik are backup admins
+2012-07-01 14:21:47     +tigrmesh      just to be clear, the other people involved are  bin_bash, ioni, quodup, carharttjimmy, fsckd and Lady Aurora
+2012-07-01 14:22:43     +tigrmesh      they're also listed here:  http://archwomen.org/index.php/2012/june
+2012-07-01 14:22:44     phrik          Title: June 3rd IRC Meeting Minutes (at archwomen.org)
+2012-07-01 14:22:51     fsckd          qubodup, lol i remember how to spell it now :D
+2012-07-01 14:23:06     +tigrmesh      it's a hard one
+2012-07-01 14:23:13     fsckd          yes it is
+2012-07-01 14:23:39     carharttjimmy  thats why they invented tab complete in irc
+2012-07-01 14:23:45     carharttjimmy  well your client
+2012-07-01 14:23:53     carharttjimmy  dont argue schemantics with me
+2012-07-01 14:23:53     fsckd          but he's not here
+2012-07-01 14:23:56     carharttjimmy  yeah
+2012-07-01 14:24:11     fsckd          so that's it?
+2012-07-01 14:24:32     +tigrmesh      yes
+2012-07-01 14:24:39     +tigrmesh      any last words, fsckd?
+2012-07-01 14:24:50     *     carharttjimmy raises the harpoon gun 
+2012-07-01 14:26:11     fsckd          none :)
+2012-07-01 14:26:12     carharttjimmy  its 103 today
+2012-07-01 14:26:16     *     carharttjimmy fires 
+2012-07-01 14:26:21     *     fsckd ducks
+2012-07-01 14:26:24     carharttjimmy  I loved fsckd, he was a good man
+2012-07-01 14:26:26     carharttjimmy  damn it
+2012-07-01 14:26:28     carharttjimmy  I missed
+2012-07-01 14:26:33	kichawa	tigrmesh: ?
+2012-07-01 14:26:37	kichawa	pong
+2012-07-01 14:26:42     fsckd          hi kichawa :)
+2012-07-01 14:26:42     carharttjimmy  ping
+2012-07-01 14:26:50	kichawa	hello :)
+2012-07-01 14:27:27     +tigrmesh      kichawa: i was just listing the people involved in arch women in case someone didn't feel comfortable approaching me or meskarune
+2012-07-01 14:27:39     +tigrmesh      and hi kichawa  :)
+2012-07-01 14:28:01     carharttjimmy  All complaints should be directed towards fsckd
+2012-07-01 14:28:04     carharttjimmy  ...
+2012-07-01 14:28:05     *     carharttjimmy runs
+2012-07-01 14:28:16     +tigrmesh      ok
+2012-07-01 14:28:28     +tigrmesh      MEETING IS OVER!!!   YAY!!!
