@@ -1,0 +1,702 @@
+2012-12-02 12:01:33   +tigrmesh   **************************  meeting starting now  ***********************
+2012-12-02 12:03:17   fsckd       http://titanpad.com/alxHmVxsPd
+2012-12-02 12:03:19   phrik       Title: TitanPad: alxHmVxsPd (at titanpad.com)
+2012-12-02 12:04:09   fsckd       notes will be at that link ^
+2012-12-02 12:05:38   +tigrmesh   the proposed agenda was posted earlier, and no one objected.  so unless someone objects now, the agenda is:  (1) install day (2) site hacked (3) migration to new server (4) draft channel rules (5) classroom
+2012-12-02 12:06:45   fsckd       last month we ran Arch Linux Install Day
+2012-12-02 12:06:50   +meskarune  hi
+2012-12-02 12:06:58   fsckd       meskarune: ALIVE
+2012-12-02 12:07:02   +meskarune  sorta :P
+2012-12-02 12:07:02   +tigrmesh   hi meskarune!
+2012-12-02 12:07:16   +meskarune  am I late?
+2012-12-02 12:07:16   fsckd       meskarune: just in time, we're starting the meeting an hour late
+2012-12-02 12:07:27   +meskarune  oh, I need to change my calendar ><
+2012-12-02 12:07:33   +tigrmesh   me too
+2012-12-02 12:07:34   +meskarune  my phone has an alarm for meetings
+2012-12-02 12:08:04   fsckd       poor hh4a kept asking if the meeting started :P
+2012-12-02 12:08:18   +meskarune  hehe
+2012-12-02 12:08:24   +tigrmesh   oh that's why
+2012-12-02 12:08:26   fsckd       meskarune: did you see the agenda?
+2012-12-02 12:08:40   +meskarune  I've been sleeping for the last 2 days ><
+2012-12-02 12:08:50   +meskarune  got an awesome infection
+2012-12-02 12:09:00   fsckd       ouch
+2012-12-02 12:09:00   +tigrmesh   oh no
+2012-12-02 12:09:21   fsckd       meskarune: how are you feeling now?
+2012-12-02 12:09:22   +meskarune  strep that turned into meningitus, but antibiotics are helping a ton
+2012-12-02 12:09:29   hh4a        fsckd: yeah iam poor guy
+2012-12-02 12:09:50   fsckd       meskarune: that's no good
+2012-12-02 12:10:02   fsckd       agenda: (1) install day (2) site hacked (3) migration to new server (4) draft channel rules (5) classroom
+2012-12-02 12:10:33   +tigrmesh   meskarune: are you up for leading the meeting?
+2012-12-02 12:10:48   +meskarune  maybe not today ><
+2012-12-02 12:10:51   +meskarune  sorry
+2012-12-02 12:10:58   fsckd       ok, i'll lead it
+2012-12-02 12:11:08   +meskarune  thanks
+2012-12-02 12:11:13   fsckd       np :)
+2012-12-02 12:11:31   fsckd       so I was saaying, we held an Arch Linux Install Day
+2012-12-02 12:11:34   +tigrmesh   meskarune: i'm glad you're here  :)
+2012-12-02 12:11:39   +meskarune  I need to put the database file on the new server, and the site theme is on github
+2012-12-02 12:11:40   fsckd       ditto XD
+2012-12-02 12:11:42   +meskarune  tigrmesh: :D thanks
+2012-12-02 12:12:20   fsckd       so I was saaying, we held an Arch Linux Install Day
+2012-12-02 12:12:26   hh4a        yeah and thou the installs were not numerous, it was a great event
+2012-12-02 12:12:28   fsckd       it was succesful
+2012-12-02 12:12:30   +meskarune  it was fun
+2012-12-02 12:12:35   +meskarune  and we met more people
+2012-12-02 12:12:51   +meskarune  I would like to do an arch social meetup thing in NYC or philly maybe :)
+2012-12-02 12:12:56   +meskarune  when I"m not half dead lol
+2012-12-02 12:13:03   hh4a        yeah
+2012-12-02 12:13:11   fsckd       heh
+2012-12-02 12:13:40   fsckd       we can have another install day in Feb or March and advertise it more
+2012-12-02 12:14:03   fsckd       may be even have a brief "class" at specific times during the day
+2012-12-02 12:14:20   hh4a        that would work, i give a voice for march
+2012-12-02 12:15:05   +tigrmesh   class in what?
+2012-12-02 12:15:08   fsckd       as we get the infrastructure and materials up, we can have them more frequently
+2012-12-02 12:15:17   fsckd       tigrmesh: installing arch
+2012-12-02 12:15:37   fsckd       basically an overview of the process and a q&a session
+2012-12-02 12:15:40   +meskarune  intro to arch linux, meeting other people, etc
+2012-12-02 12:15:50   fsckd       yeah that ^
+2012-12-02 12:16:12   +meskarune  I have a sorta random thing that came up when I was in NYC. apparently my college needs comp-sci internships and projects for their winter term
+2012-12-02 12:16:29   +meskarune  so I was thinking we could nab people to work on arch stuff
+2012-12-02 12:16:40   +meskarune  a lot of schools require unpaid internships to graduate
+2012-12-02 12:17:00   fsckd       through -women or archlinux proper?
+2012-12-02 12:17:04   +meskarune  sorry I"m going out of order lol
+2012-12-02 12:17:10   fsckd       heh
+2012-12-02 12:17:12   +meskarune  I wanted to say it before I forget
+2012-12-02 12:17:15   fsckd       sure
+2012-12-02 12:17:39   fsckd       meskarune: http://titanpad.com/alxHmVxsPd
+2012-12-02 12:17:41   fsckd       :P
+2012-12-02 12:17:41   phrik       Title: TitanPad: alxHmVxsPd (at titanpad.com)
+2012-12-02 12:17:58   +meskarune  I need to get more infos, but my friend's bf's sister is a comp-sci major and wants an internship and she was super excited about arch women
+2012-12-02 12:18:10   fsckd       cool
+2012-12-02 12:18:44   +meskarune  so if we could either get our own interns or get some for #archlinux we can recruit and help out college students
+2012-12-02 12:18:57   fsckd       yeah i think it's a good idea
+2012-12-02 12:19:14   +meskarune  I know the gnome project has interns
+2012-12-02 12:19:26   fsckd       everyone has interns
+2012-12-02 12:19:30   +meskarune  hehe yeah
+2012-12-02 12:19:31   fsckd       don't forget SoC
+2012-12-02 12:19:51   hh4a        system on chip?
+2012-12-02 12:19:55   fsckd       lol
+2012-12-02 12:19:59   fsckd       summer of code
+2012-12-02 12:20:03   +tigrmesh   google
+2012-12-02 12:20:09   fsckd       yup
+2012-12-02 12:21:16   fsckd       now, i suppose everyone is aware, the site was defaced
+2012-12-02 12:21:47   hh4a        what a shame
+2012-12-02 12:22:03   fsckd       err, sorry, should have asked if anyone had more to say about Install Day or Internship?
+2012-12-02 12:22:28   +meskarune  lets keep it up, and get some more advertising
+2012-12-02 12:23:03   fsckd       you heard the girl XD
+2012-12-02 12:23:06   +meskarune  lol
+2012-12-02 12:23:29   fsckd       alright, on to the next topic
+2012-12-02 12:23:34   fsckd       the site was hacked
+2012-12-02 12:23:47   +meskarune  yeah, it appears to be a php security hole
+2012-12-02 12:23:58   fsckd       in b2evolution?
+2012-12-02 12:24:03   +meskarune  I haven't found exactly what, but we are moving to a vps
+2012-12-02 12:24:12   +meskarune  so we can all have more control over the server
+2012-12-02 12:24:38   +meskarune  yes, in b2evolutoin, or a plugin, but we aren't really using 3rd party plugins
+2012-12-02 12:24:53   +meskarune  just markdown plugin and twitter posting plugin
+2012-12-02 12:25:00   fsckd       hmm
+2012-12-02 12:25:16   +meskarune  so the person uploaded an index.html file and 2 folders
+2012-12-02 12:25:27   fsckd       what folders?
+2012-12-02 12:25:33   +meskarune  which super seeded the index.php file
+2012-12-02 12:25:44   fsckd       super seeded?
+2012-12-02 12:25:48   +meskarune  one folder was called /h and one /c or whatever
+2012-12-02 12:25:54   +meskarune  they have text files and images
+2012-12-02 12:26:07   hh4a        interesting
+2012-12-02 12:26:14   fsckd       what do you mean by super seeded?
+2012-12-02 12:26:18   +meskarune  yeah, but they only added static stuff, no scripts
+2012-12-02 12:26:20   halosghost  superceded
+2012-12-02 12:26:24   fsckd       oh heh
+2012-12-02 12:26:30   +meskarune  fsckd: the index.html is served before index.php
+2012-12-02 12:26:44   +meskarune  all the site stuff is still there, and then just added additional files
+2012-12-02 12:27:08   +meskarune  they only got access to the main site directory, and not any of the subdomains
+2012-12-02 12:27:16   +meskarune  lol halosghost
+2012-12-02 12:27:22   fsckd       ok
+2012-12-02 12:27:46   fsckd       they're still doing post-mortem analysis?
+2012-12-02 12:29:20   fsckd       meskarune: there's a pull request for meeting logs git repo from yardena on github
+2012-12-02 12:29:59   yardena     also my github name is yardenac if you'd like to give me commit/pull privileges
+2012-12-02 12:30:20   halosghost  I don't want to write a paper...
+2012-12-02 12:30:23   halosghost  much less two
+2012-12-02 12:30:42   fsckd       halosghost: we're in a meeting, it's being logged :P
+2012-12-02 12:31:06   halosghost  fsckd: my apologies for the OT
+2012-12-02 12:31:13   halosghost  statement was still true though
+2012-12-02 12:31:17   fsckd       heh
+2012-12-02 12:31:17   halosghost  :P
+2012-12-02 12:31:24   sudokode    hello world
+2012-12-02 12:31:27   +tigrmesh   it should be over in an hour or two
+2012-12-02 12:31:35   sudokode    save my words for posterity's sake
+2012-12-02 12:31:45   fsckd       lol
+2012-12-02 12:31:50   fsckd       !grab sudokode
+2012-12-02 12:31:52   phrik       fsckd: Tada!
+2012-12-02 12:32:28   +meskarune  sure thats no problem yardena
+2012-12-02 12:33:57   fsckd       also, we have a placeholder page, http://198.74.62.52/
+2012-12-02 12:33:58   ioni        meskarune, hi
+2012-12-02 12:33:59   phrik       Title: Arch Women will be back soon! (at 198.74.62.52)
+2012-12-02 12:34:16   yardena     meskarune: https://github.com/organizations/archwomen/settings/members :)
+2012-12-02 12:34:17   phrik       Title: Sign in · GitHub (at github.com)
+2012-12-02 12:37:22   fsckd       hehe, i think we should make a todo list for meskarune; she can do the tasks as time and health permits :)
+2012-12-02 12:39:04   fsckd       for migration, we need to configure lighttpd to handle the subsites
+2012-12-02 12:39:06   fsckd       we
+2012-12-02 12:39:15   fsckd       'll need to set up the email stuff too
+2012-12-02 12:39:19   yardena     well the more of us have admin privs in these things the less meskarune has to do
+2012-12-02 12:39:26   fsckd       yes
+2012-12-02 12:39:28   +meskarune  hi ioni
+2012-12-02 12:39:30   +meskarune  :)
+2012-12-02 12:39:53   +meskarune  yardena: you should be added now, and I added your logs :)
+2012-12-02 12:40:12   fsckd       great :)
+2012-12-02 12:40:29   ioni        meskarune, i've sent you a message on private
+2012-12-02 12:40:34   +meskarune  I'm also switching to night shift, so I'll probably have a bit more free time to do server stuff while I"m at work
+2012-12-02 12:40:40   +meskarune  9pm - 8am
+2012-12-02 12:41:00   fsckd       yay, now you'll be awake when the rest of us are :)
+2012-12-02 12:41:16   +meskarune  so we need to configure lighttpd to work with php and python maybe?
+2012-12-02 12:41:33   +meskarune  then I can move all the files to the server, and then point the domain to the server
+2012-12-02 12:41:41   fsckd       how many sites are there?
+2012-12-02 12:41:46   +meskarune  and then we'll have to config lighttpd for the subdomains
+2012-12-02 12:41:58   fsckd       there's the main one, the calendar, and what else?
+2012-12-02 12:42:03   +meskarune  news.archwomen.org phpicalendar.archwomen.org
+2012-12-02 12:42:07   +meskarune  the news list
+2012-12-02 12:42:10   fsckd       ok
+2012-12-02 12:42:11   +meskarune  er mailing list
+2012-12-02 12:42:42   ioni        is there a meeting now?:)
+2012-12-02 12:42:48   +tigrmesh   yes
+2012-12-02 12:42:49   +meskarune  the current vps is 512 mb ram and 4 cpu cores
+2012-12-02 12:42:52   ioni        OK
+2012-12-02 12:42:56   +meskarune  lol ioni <3
+2012-12-02 12:43:07   ioni        meskarune, we can talk later
+2012-12-02 12:43:13   +meskarune  hehe ok
+2012-12-02 12:44:06   maxine      oi
+2012-12-02 12:44:16   +tigrmesh   what will the site be using instead of b2evolution?
+2012-12-02 12:44:42   +tigrmesh   hi maxine
+2012-12-02 12:44:46   hh4a        joomla could work, but iam just kidding.
+2012-12-02 12:45:09   +meskarune  hi maxine
+2012-12-02 12:45:20   +meskarune  tigrmesh: haven't figured that out
+2012-12-02 12:45:20   +tigrmesh   maxine: we're having out meeting now.  here are the minutes so far  :)  http://titanpad.com/alxHmVxsPd
+2012-12-02 12:45:22   phrik       Title: TitanPad: alxHmVxsPd (at titanpad.com)
+2012-12-02 12:45:25   +tigrmesh   k
+2012-12-02 12:45:33   +meskarune  we need something easy to use and secure
+2012-12-02 12:45:40   hh4a        what are the requiements for the site anyway?
+2012-12-02 12:45:42   maxine      tigrmesh: oh haven't been here before
+2012-12-02 12:45:43   +meskarune  that doesn't use a ton of system resources
+2012-12-02 12:45:58   +meskarune  we could go static, but that has other issues of its own
+2012-12-02 12:46:49   fsckd       hi maxine, welcome :)
+2012-12-02 12:47:00   hh4a        ought to be php meskarune ?
+2012-12-02 12:47:12   +meskarune  good things about b2evoultion: built in caching, user manager and internal communication, support for multiple blogs, comment system, etc
+2012-12-02 12:47:32   fsckd       bad things: php, possible security holes
+2012-12-02 12:47:32   +meskarune  but someone was able to use a bot and upload files
+2012-12-02 12:47:36   hh4a        all around cms then
+2012-12-02 12:47:43   +meskarune  also the backend is kludgy
+2012-12-02 12:47:57   +meskarune  from a design standpoint lol
+2012-12-02 12:48:02   fsckd       heh
+2012-12-02 12:48:20   yardena     most php apps are
+2012-12-02 12:48:21   hh4a        no recommendations on my behalf
+2012-12-02 12:48:24   +meskarune  wordpress has more security hole in it than a sponge, and is super resource intensive
+2012-12-02 12:48:30   +meskarune  yardena: yeah :(
+2012-12-02 12:49:00   +meskarune  I'm not a fan of php simply because I hate to code it, but its old, well supported and has lots of documentation adn plugins
+2012-12-02 12:49:24   +meskarune  but its also old and easier to hack by that virtue I think
+2012-12-02 12:49:36   fsckd       consider python
+2012-12-02 12:49:53   hh4a        python should work
+2012-12-02 12:50:20   maxine      (and don't use arch :p)
+2012-12-02 12:50:25   +meskarune  does anyone know of a good python based cms?
+2012-12-02 12:50:40   fsckd       maxine: lol, we're using arch :P
+2012-12-02 12:50:56   +meskarune  it would be silly to host archwomen.org on debian
+2012-12-02 12:50:57   maxine      yeah I gathered :P
+2012-12-02 12:50:59    *   yardena is also very in favor of using arch
+2012-12-02 12:51:10   yardena     arch is not a security hole
+2012-12-02 12:51:13   +meskarune  need to keep up with updates
+2012-12-02 12:51:27   +meskarune  I think there was a kernal update recently...
+2012-12-02 12:51:35   yardena     give more mods root access
+2012-12-02 12:51:38   maxine      yesterday's wget? pfffffft
+2012-12-02 12:52:15   fsckd       i think i'll have more time for the next few days
+2012-12-02 12:52:29   fsckd       so i can do stuff
+2012-12-02 12:52:31   yardena     stop trolling maxine
+2012-12-02 12:52:33   +meskarune  yardena: do you have a user account yet?
+2012-12-02 12:52:36   maxine      yardena dropped the name of this place in another channel, and other -women channels im in are pretty pathetic, so
+2012-12-02 12:52:37   hh4a        not much mature python cms
+2012-12-02 12:52:45   yardena     meskarune: nobody's given me anything
+2012-12-02 12:53:30   +meskarune  ok
+2012-12-02 12:53:32   +meskarune  we'll do that today
+2012-12-02 12:53:48   +meskarune  so we are in favor of cms over static site?
+2012-12-02 12:54:00   fsckd       how would we do static site?
+2012-12-02 12:54:04   yardena     yes, cms
+2012-12-02 12:54:12   fsckd       twitter integration was convenient
+2012-12-02 12:54:16   yardena     i vote for something based on django
+2012-12-02 12:54:39   +tigrmesh   i am completely unqualified to give an opinion
+2012-12-02 12:54:52   +meskarune  fsckd: static site generator, you run a script and it creates all the html, then git push to server. but it can create problems. harder to backup a ton of text files, harder for people to post and admin, etc
+2012-12-02 12:55:12   fsckd       if it's all in git it's easier to backup
+2012-12-02 12:55:24   hh4a        django could work
+2012-12-02 12:55:29   +meskarune  unless you run out of inodes or it takes forever to backup, etc
+2012-12-02 12:55:31   yardena     none of the django blog platforms are particularly mature, but django is. and it's hard to screw up from the app layer.
+2012-12-02 12:55:41   +meskarune  plus you have to re-generate the WHOLE site each time you have a new post
+2012-12-02 12:55:46   fsckd       meskarune: lol, tar like a sailor
+2012-12-02 12:55:58   fsckd       not necessarily
+2012-12-02 12:55:58   +meskarune  yardena: I haven't used django, but I do know a bit of python
+2012-12-02 12:56:19   yardena     i can set it up
+2012-12-02 12:56:36   fsckd       yardena will need to teach us django :)
+2012-12-02 12:57:01   yardena     i have only done wsgi + apache, personally
+2012-12-02 12:57:08   yardena     will have to teach myself wsgi + lighttpd
+2012-12-02 12:57:51   +meskarune  the #lighttpd channel is really helpful
+2012-12-02 12:58:01   +meskarune  and they have ok documentation lol
+2012-12-02 12:58:04   yardena     i imagine it's well documented enough i won't need to bother them
+2012-12-02 12:58:16   +meskarune  their documenation could be better
+2012-12-02 12:58:18   fsckd       i think we should consider django or similar for now, if we go with static we'll have to build much of the tools ourselves
+2012-12-02 12:58:21   +meskarune  might have to look at configs other people post
+2012-12-02 12:58:26   fsckd       and we want to be back in business asap
+2012-12-02 12:58:30   +meskarune  yeah
+2012-12-02 12:58:41   +meskarune  and the css / site design isn't complex
+2012-12-02 12:58:52   +meskarune  header, blog posts, sidebar
+2012-12-02 12:59:41   fsckd       also want a comment section with spam control etc.
+2012-12-02 12:59:56   fsckd       but that is optional
+2012-12-02 13:00:04    *   fsckd loves twitter integration
+2012-12-02 13:00:06   +meskarune  the only python cms's I know about are plone and mezznine
+2012-12-02 13:00:11   arbn        A static site generator like Jekyll, or similar, would be way quicker than Django, for something like this.
+2012-12-02 13:00:31   +meskarune  I've played around with octopress
+2012-12-02 13:00:46   +meskarune  but I sorta hate dealing with so many ruby gems LOL
+2012-12-02 13:01:37   fsckd       python is the modern basic, lots of people know it and those who don't can learn it quickly
+2012-12-02 13:01:43   +meskarune  mezzanine.jupo.org
+2012-12-02 13:01:51   +meskarune  http://mezzanine.jupo.org
+2012-12-02 13:01:53   yardena     i was just gonna say mezzanine
+2012-12-02 13:01:53   phrik       Title: Mezzanine - The Best Django CMS (at mezzanine.jupo.org)
+2012-12-02 13:02:33   +tigrmesh   arbn: so would jekyll make backing up the site and posting to it easier?
+2012-12-02 13:02:35   yardena     and i can't say this enough, EVERYTHING must be in a git repo
+2012-12-02 13:02:45   fsckd       +1 ^
+2012-12-02 13:02:49   yardena     and using django south
+2012-12-02 13:03:02   +meskarune  yardena: ++
+2012-12-02 13:03:05   yardena     and that i am happy to implement any of my own recommendations :)
+2012-12-02 13:03:11   fsckd       git does wonders to a backup strategy
+2012-12-02 13:03:11   +tigrmesh   hehe
+2012-12-02 13:03:24   arbn        tigrmesh: Meskarune is the one to ask, if she's used Octopress much. I'm less experienced with static site generators, but I know how annoying using Django from scratch can be for something simple.
+2012-12-02 13:03:34   +tigrmesh   ok
+2012-12-02 13:03:48   arbn        tigrmesh: If you pick a good Django-based CMS, and just tweak it, that's fine, though.
+2012-12-02 13:03:49   +meskarune  I'm actually working on a static site generator in bash
+2012-12-02 13:03:51   +meskarune  LOL
+2012-12-02 13:03:56   fsckd       heh
+2012-12-02 13:04:00   +meskarune  but just for fun and haven't had time to really do much with it yet
+2012-12-02 13:04:33   yardena     all in favor of mezzanine, say aye
+2012-12-02 13:05:08   +meskarune  I'd be willing to use it. it doesn't seem too difficult to make, but we need to test it out and make sure everyone can use it
+2012-12-02 13:05:38   fsckd       one thing, be sure we can migrate away from it in case we decide something else is better, later on
+2012-12-02 13:05:39   yardena     those who can't, should learn
+2012-12-02 13:05:41   +meskarune  there is a live demo on the site
+2012-12-02 13:05:43   yardena     manage.py is the future
+2012-12-02 13:06:08   yardena     we can pretty much migrate away from anything as we are not data-intensive
+2012-12-02 13:06:39   maxine      yardena: it sounded that way? :<
+2012-12-02 13:06:53   yardena     we're under the threshold where learning a fancy import/export scheme would be more efficient than ctrl-c ctrl-v
+2012-12-02 13:06:59   +meskarune  yardena: yeah, and we have most of the posts in markdown in a git repo as backup
+2012-12-02 13:07:34   +meskarune  so actually I guess static site would be fairly easy to migrate to since they use markdown text files
+2012-12-02 13:08:00   +meskarune  but it is more difficult for new people to update and there is no user controls or built in site analytics, etc
+2012-12-02 13:08:24   arbn        How does mezzanine store posts internally?
+2012-12-02 13:08:51   yardena     it can use any of the django database backends
+2012-12-02 13:08:54   +meskarune  I'm logged into the demo page now
+2012-12-02 13:09:04   +meskarune  mezzanine.jupo.org/admin
+2012-12-02 13:09:06   arbn        yardena: Right, but what sort of text?
+2012-12-02 13:09:08   +meskarune  user and pass is demo
+2012-12-02 13:09:26   +meskarune  looks like html
+2012-12-02 13:09:54   +meskarune  you can log in, add html to pages or posts then click on submit looks like
+2012-12-02 13:10:10   fsckd       we should stick to markdown, it's easier to read
+2012-12-02 13:10:55   arbn        fsckd: You can use Pandoc to go between HTML and Markdown, I think, so that's not a big deal.
+2012-12-02 13:11:21   yardena     it's a django app so it's trivial to add custom filters like that
+2012-12-02 13:11:53   +meskarune  yeah, looks like you just change RICHTEXT_WIDGET_CLASS to markdown instead of tinymcewidget
+2012-12-02 13:11:59   +meskarune  they have it in the docs lol
+2012-12-02 13:12:04   fsckd       nice
+2012-12-02 13:12:05   arbn        Ah. Cool.
+2012-12-02 13:12:14   +meskarune  python way easier to understand than php
+2012-12-02 13:12:19   yardena     you could post things in rot13 if you wanted. anything you can code in python
+2012-12-02 13:12:26   +meskarune  even if you don't know code, it is fairly semantic
+2012-12-02 13:12:27   +tigrmesh   haha
+2012-12-02 13:12:40    *   arbn mutters something uncharitable about PHP.
+2012-12-02 13:12:47   yardena     another nice thing about putting everything in a git repo
+2012-12-02 13:13:01   yardena     is new ppl can see exactly how and why things were installed and where text came from
+2012-12-02 13:13:06   fsckd       so it's settled, our next blog engine is mezzanine?
+2012-12-02 13:13:09   yardena     if the commits are well documented
+2012-12-02 13:13:36   arbn        Sounds good to me.
+2012-12-02 13:13:43    *   yardena votes aye
+2012-12-02 13:13:58   +tigrmesh   that's 2 yeses
+2012-12-02 13:14:09   +tigrmesh   i'm neutral
+2012-12-02 13:14:24   +tigrmesh   anyone else voting?  meskarune?
+2012-12-02 13:14:26   +meskarune  I like that it has web admin, so people can log in, make posts, etc
+2012-12-02 13:14:27   +tigrmesh   fsckd: ?
+2012-12-02 13:14:54   +meskarune  yardena: its probably easier to add in stuff like calendars or news feeds to a python app also?
+2012-12-02 13:14:55   fsckd       no one ever votes no in any of our polls :P
+2012-12-02 13:14:58   +meskarune  lol
+2012-12-02 13:15:29   yardena     meskarune: wouldn't they just be iframes or something inside a post? seems equally irrelevant what language is used to generate content
+2012-12-02 13:15:32   +tigrmesh   i just like to see participate
+2012-12-02 13:15:40   +tigrmesh   participation*
+2012-12-02 13:15:43    *   halosghost wonders if he can vote
+2012-12-02 13:15:50   +meskarune  everyone can vote :P
+2012-12-02 13:15:59    *   halosghost votes "yes"
+2012-12-02 13:16:08   fsckd       hehe
+2012-12-02 13:16:14   +meskarune  looks like it has twitter integration, and media manager
+2012-12-02 13:16:20   yardena     suffrage for men is later on the agenda
+2012-12-02 13:16:28   +meskarune  hehe
+2012-12-02 13:16:35   fsckd       !grab yardena
+2012-12-02 13:16:37   phrik       fsckd: Tada!
+2012-12-02 13:17:37   fsckd       !q yardena
+2012-12-02 13:17:39   phrik       fsckd: <yardena> suffrage for men is later on the agenda
+2012-12-02 13:17:45   +meskarune  does anyone know about mezzanine's security?
+2012-12-02 13:18:07   arbn        meskarune: Django sanitizes database inputs in its ORM.
+2012-12-02 13:18:28   +meskarune  oh nice
+2012-12-02 13:18:30   +meskarune  :D
+2012-12-02 13:19:33   fsckd       so 3 yes, i neutral
+2012-12-02 13:19:44   fsckd       1*
+2012-12-02 13:19:48   +meskarune  I'm for it
+2012-12-02 13:19:52   fsckd       4 yes
+2012-12-02 13:20:05   +meskarune  the interface seems easy enough to use and understand
+2012-12-02 13:20:08   arbn        I'm willing to help with any tweaks, if that proves necessary. I've used Django for 2-3 clients, before.
+2012-12-02 13:20:26   +meskarune  you can login from the site, and add posts with a text field like any other blog engine
+2012-12-02 13:20:28   fsckd       5 yes
+2012-12-02 13:20:40   +meskarune  arbn: oh awesome
+2012-12-02 13:20:46   +meskarune  I guess I'm going to get a crash course
+2012-12-02 13:20:56   fsckd       so mezzanine it is
+2012-12-02 13:21:27   fsckd       what is the migration plan? need to move the calendar site, the main blog, the mailing list and the email thingy
+2012-12-02 13:21:58   +meskarune  yeah, we do need a plan
+2012-12-02 13:22:04   fsckd       we could point dns now and have mx still point to the old server
+2012-12-02 13:22:04   +meskarune  right now email and everything is working
+2012-12-02 13:22:09   fsckd       and slowly migrate the site
+2012-12-02 13:22:11   +meskarune  we need to make sure the server can handle all that
+2012-12-02 13:22:17   +meskarune  idk what the load will be like
+2012-12-02 13:22:37   +meskarune  might have to get another vps for email (probably more secure to have them sepperate, but it costs $20 a month)
+2012-12-02 13:23:03   fsckd       donations page :/
+2012-12-02 13:23:08   +meskarune  hehe
+2012-12-02 13:23:12   yardena     what MTA is the old archwomen using
+2012-12-02 13:23:16   yardena     or does it even matter
+2012-12-02 13:23:22   yardena     i can set up postfix too :P
+2012-12-02 13:23:44   fsckd       lol, give yardena an account today and have everything done by tomorrow :P
+2012-12-02 13:23:44   +meskarune  I think its postfix and dovecot with roundcube, but its shared hosting with dreamlinux and I don't have access to the internals
+2012-12-02 13:23:49   yardena     although dealing with spam both as sender and receiver are a pain
+2012-12-02 13:23:57   +meskarune  ^ yeah
+2012-12-02 13:24:14   +meskarune  right now we are self hosting mail, but we could alternatively use gmail
+2012-12-02 13:24:23   yardena     mail is the kind of thing that is worth delegating to ppl who do it in volume
+2012-12-02 13:24:23   +meskarune  but google is sorta evil :P
+2012-12-02 13:24:38   fsckd       hehe true dat
+2012-12-02 13:24:40   halosghost  really?
+2012-12-02 13:24:40   +meskarune  yeah, I have to say admin a mail server is a pain in the but
+2012-12-02 13:24:43   halosghost  I don't find them too bad
+2012-12-02 13:24:53   +meskarune  right now all of our stuff is 100% open source
+2012-12-02 13:24:58   +meskarune  and self hosted
+2012-12-02 13:25:03   yardena     there's other options besides google
+2012-12-02 13:25:18   +meskarune  I kinda like roundcube
+2012-12-02 13:25:30   +meskarune  and we don't get a TON of mail
+2012-12-02 13:25:37   +meskarune  but I am still worried about server load
+2012-12-02 13:25:41   maxine      meskarune: I did for a while and eventually gave up, tired of GOOG though as well
+2012-12-02 13:25:53   fsckd       we need to give multiple people access to a single mailbox, i do not like sharing a password
+2012-12-02 13:26:02   +meskarune  yeah
+2012-12-02 13:26:17   +meskarune  if its on the same server, people could have mail in /home/user/mail
+2012-12-02 13:27:23   fsckd       want people wo be able to send as that one address
+2012-12-02 13:28:01   yardena     that could be done with forwarding + hacking the client headers
+2012-12-02 13:28:22   yardena     but a centralized mailbox also lets you see what things other people have sent, and is cleaner and simpler to thread
+2012-12-02 13:28:26   maxine      options of roundcube or upload a pubkey to check it with mutt :p
+2012-12-02 13:28:57   arbn        I think the usual argument for outsourcing mail is that uptime is more important for e-mail messages.
+2012-12-02 13:29:09   maxine      arbn: yes
+2012-12-02 13:29:21   yardena     in general running a mail server is a full time commitment
+2012-12-02 13:29:47   yardena     it's less set-and-go than other kinds of daemons
+2012-12-02 13:29:47   maxine      it's a pita to fix your own mailserver while being aware that you're currently losing mail
+2012-12-02 13:29:55   yardena     the docs for most MTAs will say so explicitly
+2012-12-02 13:30:02   halosghost  roundcube looks pretty cool
+2012-12-02 13:30:03   yardena     "EXPECT THIS TO BE CONSTANT WORK"
+2012-12-02 13:30:08   +meskarune  I wish there was such a thing as decentralized mail
+2012-12-02 13:30:12   +meskarune  p2p LOL
+2012-12-02 13:30:13   hh4a        mail is overhead
+2012-12-02 13:30:28   yardena     roundcube is not an MTA, it's just a frontend to /var/spool :P
+2012-12-02 13:30:34   +meskarune  yardena: we are doing that now, roundcube and mailman
+2012-12-02 13:30:47   +meskarune  yeah postfix, dovecot and roundcube
+2012-12-02 13:30:50   fsckd       meskarune: mail was p2p until spam started
+2012-12-02 13:30:59   +meskarune  we don't get a ton of mail though
+2012-12-02 13:31:05   +meskarune  fsckd: oh I see :(
+2012-12-02 13:31:10   maxine      and on the other hand there's reputation/security issues with going with a less known mail provider
+2012-12-02 13:31:39   yardena     it still is p2p but spam greatly increased amount of work needed to do it reliably
+2012-12-02 13:31:55   +tigrmesh   there was spam mail?  was it coming from arch women?
+2012-12-02 13:32:43   yardena     tigrmesh: the thing is most servers are assumed spammers unless proven otherwise
+2012-12-02 13:32:53   maxine      ^
+2012-12-02 13:32:54   +tigrmesh   ah
+2012-12-02 13:32:55   yardena     so getting your mail received by various recipient hosts is the uphill battle
+2012-12-02 13:33:05   maxine      DKIM is a pita as well
+2012-12-02 13:33:15   yardena     that is the reason email is less p2p in practice than it used to be
+2012-12-02 13:34:34   +meskarune  msn, google and aol have block lists that you can get on
+2012-12-02 13:34:43   +meskarune  but ussually only if you send a high volume of mail
+2012-12-02 13:34:44   maxine      incoming from google from a domain with google's dkim, no server thinks twice about it, incoming from your server with no dkim (or even with dkim sometimes), you raise a few spamassassin flags
+2012-12-02 13:35:56   +meskarune  I mean, we can add dkim to the DNS
+2012-12-02 13:36:00   +meskarune  DNS manager
+2012-12-02 13:36:31   yardena     i will add that, as we ARE in the aftermath of having our own site hacked
+2012-12-02 13:36:46   maxine      even my domain through google apps gave me a decent X-redhat-spam-score on the receiving address
+2012-12-02 13:36:47   yardena     associating obscurity with the likelihood of the host sending spam
+2012-12-02 13:36:51   yardena     is not that far off
+2012-12-02 13:37:05   yardena     if this server is hacked, it easily COULD send spam
+2012-12-02 13:37:10   +meskarune  ^
+2012-12-02 13:37:12   yardena     and the paranoid hosts would be proven right
+2012-12-02 13:37:16   fsckd       and once you get on a blacklist, good luck getting off, i hear it's very difficult and for some black lists nigh impossible
+2012-12-02 13:37:27   +meskarune  yeah, I really think having a sepperate email server is more secure
+2012-12-02 13:37:32   +meskarune  than having everyone on one server
+2012-12-02 13:37:35   yardena     fsckd: it's linode so we could change our IP address :P
+2012-12-02 13:37:37   +meskarune  but its also more expensive
+2012-12-02 13:38:15   fsckd       my suggestion, we can keep email on the old server (for now)
+2012-12-02 13:38:21   fsckd       using the MX records
+2012-12-02 13:38:30   +meskarune  ok
+2012-12-02 13:38:31   yardena     the one nobody's willing to even log into
+2012-12-02 13:38:38   fsckd       lol
+2012-12-02 13:38:45   yardena     because of providing unhashed passwords to the attacker
+2012-12-02 13:39:18   +meskarune  I don't think they got any passwords, but I've had breakin attempts on almost all my online accounts
+2012-12-02 13:39:20   maxine      yeah you store the mail on something not facing the interwebs
+2012-12-02 13:39:22   yardena     but we can kick the can down the road for another meeting
+2012-12-02 13:39:22   +meskarune  gmail, twitter, etc
+2012-12-02 13:39:29   yardena     i'm ok with that
+2012-12-02 13:39:29   fsckd       if the attack was through b2evolution then we are a little safe
+2012-12-02 13:39:45   +meskarune  I believe they did attack through b2evolution somewho
+2012-12-02 13:39:48   +meskarune  somehow
+2012-12-02 13:39:57   +meskarune  since they only got access to one directory
+2012-12-02 13:39:58   yardena     all in favor of kicking the email can down the road for a few weeks
+2012-12-02 13:40:00   yardena     <-- aye
+2012-12-02 13:40:01   +meskarune  and only uploaded static files
+2012-12-02 13:40:04   hh4a        aye
+2012-12-02 13:40:08   fsckd       aye
+2012-12-02 13:40:10   arbn        aye
+2012-12-02 13:40:13   +meskarune  eye
+2012-12-02 13:40:15   +meskarune  hehe
+2012-12-02 13:40:17   fsckd       lol
+2012-12-02 13:40:35   fsckd       4 ayes and one eye
+2012-12-02 13:40:55   +tigrmesh   fine with me
+2012-12-02 13:41:03   fsckd       5 ayes and 1 eye
+2012-12-02 13:41:37   fsckd       ok so that means, keep email on the old server for now?
+2012-12-02 13:41:43   yardena     yep
+2012-12-02 13:41:48   fsckd       alright
+2012-12-02 13:42:51   fsckd       ok, anything more about migration?
+2012-12-02 13:43:19   fsckd       long meeting is long, we still have two more items on the agenda
+2012-12-02 13:43:44   bin_bash    mornin
+2012-12-02 13:43:47   +tigrmesh   hi
+2012-12-02 13:43:53   fsckd       hello bin_bash
+2012-12-02 13:44:01   yardena     i think we have enough to work on, provided meskarune follows through with adding user accounts with sudo
+2012-12-02 13:44:02   bin_bash    oh shit, i'm awake for part of a meeting
+2012-12-02 13:44:04   bin_bash    it's a miracle.
+2012-12-02 13:44:06   fsckd       haha
+2012-12-02 13:44:34   fsckd       yardena: i can add accounts later if it's decided to make them
+2012-12-02 13:44:40   fsckd       or tigrmesh too
+2012-12-02 13:44:43   bin_bash    I was highlighted at some point
+2012-12-02 13:44:54   +tigrmesh   k
+2012-12-02 13:44:58   fsckd       bin_bash: not during the meeting
+2012-12-02 13:45:03   fsckd       other than now
+2012-12-02 13:45:03   bin_bash    ah okay
+2012-12-02 13:45:08   bin_bash    lol
+2012-12-02 13:45:12   yardena     that was gtmanfred playing around
+2012-12-02 13:45:39   fsckd       so the next agenda item, channel rules
+2012-12-02 13:45:54   fsckd       there has been some confusion for some people
+2012-12-02 13:46:49   bin_bash    oh i'm just in time.
+2012-12-02 13:46:56   fsckd       it would be good to have it all down in a clear and unambiguous way
+2012-12-02 13:47:22   fsckd       bin_bash: heh
+2012-12-02 13:48:17   +meskarune  yeah, I agree having a clear ruleset for the channel is important since it is an on-topic channel
+2012-12-02 13:48:30   +meskarune  so there would be extra rules on top of the arch and freenode ones
+2012-12-02 13:49:16   halosghost  Sounds good to me
+2012-12-02 13:49:19   yardena     firstly there are some open questions about the purpose and goals of the channel
+2012-12-02 13:49:40   fsckd       who benefits from the project, etc.
+2012-12-02 13:50:09   yardena     how about everybody say one line about what they feel is the purpose or goal or what they want from the arch women project?
+2012-12-02 13:50:25   yardena     for starters
+2012-12-02 13:53:23   halosghost  I'd like for ArchWomen to be a feminist take and space surrounding the goals of the more general ArchLinux community
+2012-12-02 13:54:02   bin_bash    o/ vodik
+2012-12-02 13:55:03   maxine      new here but i'll mention the intersectional variety pls
+2012-12-02 13:55:19   bin_bash    intersectional variety?
+2012-12-02 13:55:19   bin_bash    what
+2012-12-02 13:55:31   yardena     my priorities are getting more underrepresented ppl involved and represented in the arch community. that includes women and also people of color and queer and trans people, etc.
+2012-12-02 13:55:41   maxine      intersectional feminism
+2012-12-02 13:55:50   bin_bash    what the hell is interesectional feminism
+2012-12-02 13:55:56   bin_bash    why is everyone so obsessed with feminism
+2012-12-02 13:56:08   yardena     let's all please make an effort to lower the tempurature in this conversation
+2012-12-02 13:56:12   maxine      just the most elegant theory that sociology has come up with
+2012-12-02 13:56:20   fsckd       bin_bash: you have the wrong definition of feminism
+2012-12-02 13:56:40   maxine      bin_bash: http://en.wikipedia.org/wiki/Intersectionality
+2012-12-02 13:56:42   phrik       Title: Intersectionality - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+2012-12-02 13:56:44   bin_bash    maxine, that's not only unhelpful, but also an opionion
+2012-12-02 13:56:45   yardena     that usually includes minimal cursing and ad hominem straw arguments like calling ppl "obsessed"
+2012-12-02 13:57:08   bin_bash    fsckd, I don't think I have the wrong definition.
+2012-12-02 13:57:09   maxine      it was, hope the wiki link explains better
+2012-12-02 13:57:31   fsckd       bin_bash: i think you do
+2012-12-02 13:57:37   bin_bash    fsckd, extrapolate.
+2012-12-02 13:57:46   maxine      also, http://plato.stanford.edu/entries/discrimination/#Int
+2012-12-02 13:57:48   phrik       Title: Discrimination (Stanford Encyclopedia of Philosophy) (at plato.stanford.edu)
+2012-12-02 13:58:00   bin_bash    I know what the definition of discrimination is.
+2012-12-02 13:58:09   halosghost  folks, perhaps we should try and stay on-topic?
+2012-12-02 13:58:10   maxine      ...
+2012-12-02 13:58:35   yardena     I feel bin_bash is derailing this conversation, personally
+2012-12-02 13:58:49   halosghost  bin_bash: would you like to give a short synopsis of what you'd like to be ArchWomen's goals/purpose?
+2012-12-02 13:59:01   yardena     ^
+2012-12-02 14:00:26   bin_bash    halosghost, sure. I think that the purpose of archwomen should be a group where people can enjoy the use of archlinux and discuss the ideas behind KISS and other arch or linux principles, without being accused of GOTIS.
+2012-12-02 14:01:10   halosghost  bin_bash: fair enough.
+2012-12-02 14:01:17   yardena     what is GOTIS
+2012-12-02 14:01:20   fsckd       that's viable and does not contradict other ideas so far
+2012-12-02 14:01:20   bin_bash    Maybe help other linux users understand why Arch is the best distro, and try and get them to switch
+2012-12-02 14:01:30   halosghost  "Girl on the Internet Syndrome" fwiw
+2012-12-02 14:01:37   yardena     oh
+2012-12-02 14:01:54   bin_bash    but I do not agree with the idea of getting non-linux users to start using Arch right away, because I believe that that is detrimental to th Arch community
+2012-12-02 14:02:07   halosghost  fsckd: meskarune tigrmesh, thoughts?
+2012-12-02 14:02:13   hh4a        my line: the goal is to enforce the supremacy of arch to every spouse... Sadly iam struggling to see difference with prime site.
+2012-12-02 14:02:23   bin_bash    I also this the goal should be freedom of speech and expression, and then people shouldn't be silenced or called a troll just because their opinion differs from the majority.
+2012-12-02 14:02:25   halosghost  hh4a: nice
+2012-12-02 14:02:30   maxine      recognizing and helping people in gender minorities, underrepresented races, mental illness, so on and so forth can be amazing at helping with that.
+2012-12-02 14:02:35   +tigrmesh   moment, halosghost
+2012-12-02 14:02:42   bin_bash    s/this/think/
+2012-12-02 14:02:47   bin_bash    dat fast typing
+2012-12-02 14:02:57   bin_bash    s/then/that/
+2012-12-02 14:03:01   halosghost  tigrmesh: haha, no rush
+2012-12-02 14:03:04   bin_bash    we should hve a typobot here
+2012-12-02 14:03:31   yardena     does anybody else want to say what their overall ideas for arch women are?
+2012-12-02 14:03:42   fsckd       right, don't post "back to the kitchen" or "gays should all die", unfortunately freedom of speech cannot be guaranteed here
+2012-12-02 14:03:45   hh4a        general and specialized help, conscripting, advertising.
+2012-12-02 14:03:52   +tigrmesh   sorry.  briefly away.  reading up, halosghost
+2012-12-02 14:04:06   yardena     or "white trash scum give their children drugs"
+2012-12-02 14:04:08   bin_bash    fsckd, I don't think I ever said "gays should all die" in this channel.
+2012-12-02 14:04:10   yardena     or "let's nuke the middle east"
+2012-12-02 14:04:34   maxine      free speech paradox: hate speech falling under it makes many intimidated or coerced into not speaking
+2012-12-02 14:04:39   yardena     or white ppl saying "i'm asian. i eat dogs."
+2012-12-02 14:04:57   +meskarune  sorry I had to lay down for a sec. feeling dizzy ><
+2012-12-02 14:04:59   hh4a        thoughtful freedom of speech as in embrace others as you wish to be embraced yourself.
+2012-12-02 14:05:10   bin_bash    meskarune, you okay?
+2012-12-02 14:05:10   +meskarune  I pointed archwomen.org to the server ip address
+2012-12-02 14:05:15   yardena     or "why shouldn't i post this, yardena? did your daddy rape you?"
+2012-12-02 14:05:23   +meskarune  bin_bash: I have a bad infection
+2012-12-02 14:05:27   bin_bash    oh no...
+2012-12-02 14:05:33   bin_bash    I hope you feel better. <3
+2012-12-02 14:05:34   +meskarune  anyways back to meeting
+2012-12-02 14:05:34   fsckd       meskarune: MX records?
+2012-12-02 14:05:42   hh4a        any thoughts for i18n?
+2012-12-02 14:05:44   +meskarune  fsckd: if mail goes down, I did it wrong
+2012-12-02 14:05:49   fsckd       lol, ok
+2012-12-02 14:06:11   bin_bash    shit i haven't checked the mail in a while. I bet there's a fucktonne of spam for me to deal with
+2012-12-02 14:06:15   yardena     (all of the above things are things bin_bash has said here)
+2012-12-02 14:06:16   hh4a        or plans, sure beeing english primary is fine with me as it enforce others to learn the language
+2012-12-02 14:06:32   bin_bash    hh4a, what is il8n?
+2012-12-02 14:06:41   halosghost  "internationalization" fwiw
+2012-12-02 14:06:52   halosghost  l10n == localization (related term)
+2012-12-02 14:07:03   fsckd       bin_bash: my earlier comment was in general, example of trolling which can not be here, i wasn't speaking of anyone in particular
+2012-12-02 14:07:09   hh4a        bin_bash: internationalizaton, yeah, halosghost knows his stuff
+2012-12-02 14:07:25   bin_bash    fsckd, oh okay.
+2012-12-02 14:07:32   bin_bash    hh4a, I think this needs to stay an English channel.
+2012-12-02 14:07:52   halosghost  hh4a: I try
+2012-12-02 14:07:57   yardena     bin_bash: let's make that an agenda item for the rules
+2012-12-02 14:08:05   yardena     we are still waiting for everyone to catch up, i think
+2012-12-02 14:08:23   fsckd       eh... it's nice ot be english only but like half the people frequenting here know japanese
+2012-12-02 14:08:32    *   meskarune knows japanese
+2012-12-02 14:08:37    *   halosghost knows french
+2012-12-02 14:08:46    *   fsckd knows gibberish
+2012-12-02 14:08:54   +meskarune  parle vou francais?
+2012-12-02 14:09:00   +meskarune  I know its spelled wrong
+2012-12-02 14:09:00    *   bin_bash knows Enligsh
+2012-12-02 14:09:23   maxine      french also, if you're of parisian dialect we probably don't understand each other anyway haha
+2012-12-02 14:09:25   +meskarune  so we were talking about making rules for the channel since it is an on topic channel, and offtopic stuff goes to #archlinux-offtopic
+2012-12-02 14:09:28   fsckd       meskarune: non mademoiselle
+2012-12-02 14:09:50   bin_bash    meskarune, we can't talk about random shit here?
+2012-12-02 14:09:53   +meskarune  and we need someone to make a draft, maybe taking some of the rules from linux chix and ubuntu women
+2012-12-02 14:09:56   bin_bash    since when?
+2012-12-02 14:10:10   bin_bash    meskarune, taking rules from ubuntu women is literally the worst idea possible
+2012-12-02 14:10:20   bin_bash    taking any idea form any ubuntu channel is a terrible idea
+2012-12-02 14:10:26   yardena     since months worth of groups of men bantering with each other became the dominant noise here
+2012-12-02 14:10:44   halosghost  I think English remaining the primary language is a legitimate proposal, but not for any value reason; solely for practicality's sake
+2012-12-02 14:10:45   yardena     and since you personally trolled us with constant attempts to be provocative
+2012-12-02 14:10:58   halosghost  what yardena said
+2012-12-02 14:11:05   fsckd       let's not point fingers right now
+2012-12-02 14:11:13   fsckd       especially as this is being logged
+2012-12-02 14:11:21   halosghost  meaning the first comment about "men bantering"
+2012-12-02 14:11:22   bin_bash    I still have yardena on ignore for the sake of my sanity.
+2012-12-02 14:11:35   bin_bash    fsckd, everything is logged every day
+2012-12-02 14:11:36   +tigrmesh   HEY HEY
+2012-12-02 14:11:36   +meskarune  lets be productive, so we need to make some basic channel rules
+2012-12-02 14:11:38   halosghost  which, has partly been my fault, so my apologies for that
+2012-12-02 14:11:44   +tigrmesh   kill it you two
+2012-12-02 14:11:48   +meskarune  and as long as people are within the rules, they can talk about whatever
+2012-12-02 14:11:51   yardena     which two
+2012-12-02 14:11:52   hh4a        halosghost: i concur, we do not want a fallout
+2012-12-02 14:11:53   maxine      i don't for the sake of my knowledge
+2012-12-02 14:11:57   fsckd       bin_bash: these logs will be posted to our site and github, what i mean
+2012-12-02 14:12:02   +meskarune  so I guess me and tigrmesh can work on the channel rules?
+2012-12-02 14:12:07   +tigrmesh   sure
+2012-12-02 14:12:08   bin_bash    fsckd, ah yeah. also twitter and facebook
+2012-12-02 14:12:12   --   Mode #archlinux-women [+o meskarune] by ChanServ
+2012-12-02 14:12:35   yardena     meskarune: i would like to also work on channel rules
+2012-12-02 14:12:44   halosghost  meskarune: I'd be happy to help as well
+2012-12-02 14:12:52   @meskarune  anyone can contribute ideas and stuff for the rules
+2012-12-02 14:12:54   @meskarune  :)
+2012-12-02 14:13:19   @meskarune  they need to be sane and promote cooperation and respect
+2012-12-02 14:13:42   hh4a        but not too lawfull
+2012-12-02 14:14:39   hh4a        so what is next on the menu fsckd?
+2012-12-02 14:14:50   fsckd       filet mignon
+2012-12-02 14:15:03   fsckd       the next item is classrooms
+2012-12-02 14:15:10   fsckd       our ongoing project :)
+2012-12-02 14:15:22   fsckd       gtmanfred had a message
+2012-12-02 14:15:25   fsckd       one moment
+2012-12-02 14:15:35   yardena     have we actually decided to shelve the rules item?
+2012-12-02 14:15:52   halosghost  meskarune: so wait, are we doing the rules now, or tabling them?
+2012-12-02 14:16:50   fsckd       ....
+2012-12-02 14:16:51   hh4a        doing on rules now would be a mess, why dont the commanded collaborators do it elsewhere?
+2012-12-02 14:16:56   fsckd       yes
+2012-12-02 14:17:01   fsckd       also long meeting is long
+2012-12-02 14:17:19   fsckd       have your own private meeting afterwards :P
+2012-12-02 14:17:23   yardena     amazing the powers of a single troll to derail things ad infinitum
+2012-12-02 14:17:30   @meskarune  yardena: its not being shelved. the rules are going to be written
+2012-12-02 14:17:32   @meskarune  and then posted
+2012-12-02 14:17:49   fsckd       yardena: that and long meeting is long
+2012-12-02 14:17:51   @meskarune  we have a plan and people to implement it, so further discussion is outside the meeting
+2012-12-02 14:17:53   halosghost  meskarune: written in here, or PM?
+2012-12-02 14:18:03    *   fsckd pines for the days when meetings were just one hour
+2012-12-02 14:18:08   @meskarune  written in a text file and posted to the site and github, etc
+2012-12-02 14:18:10   bin_bash    ^
+2012-12-02 14:18:16   bin_bash    the ^ was to fsckd
+2012-12-02 14:18:29   fsckd       so, back to classrooms
+2012-12-02 14:18:32   halosghost  meskarune: so we can contribute through forks and pull requests?
+2012-12-02 14:18:38   +tigrmesh   halosghost: we'll probably create a temporary channel for it
+2012-12-02 14:18:44   halosghost  tigrmesh: okay, sounds good
+2012-12-02 14:18:52   halosghost  sorry to hold up the agenda
+2012-12-02 14:18:52   fsckd       gtmanfred had this message for us, "everything is quieting down this week I will be able to do questiony things starting soon i was thinking around december 15th"
+2012-12-02 14:19:24   +tigrmesh   halosghost: np
+2012-12-02 14:19:57   fsckd       and by "questiony things" he meant, "oh i meant ready to teach the class and answer questions"
+2012-12-02 14:20:22   @meskarune  fsckd: http://archwomen.org
+2012-12-02 14:20:24   phrik       Title: Arch Women will be back soon! (at archwomen.org)
+2012-12-02 14:20:24   @meskarune  :)
+2012-12-02 14:20:29   @meskarune  I think my dns changes are working
+2012-12-02 14:20:32   fsckd       yay! :)
+2012-12-02 14:21:15   hh4a        so where will classroom be implemented? As in real life or irc or specialized software?
+2012-12-02 14:21:15   bin_bash    yay dns
+2012-12-02 14:21:33   fsckd       hh4a: there is a dedicated channel, #archlinux-classroom
+2012-12-02 14:21:40   @meskarune  also arch wiki
+2012-12-02 14:21:53   XReaper     bam!
+2012-12-02 14:21:56   fsckd       https://wiki.archlinux.org/index.php/Classroom
+2012-12-02 14:21:58   phrik       Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2012-12-02 14:23:13   hh4a        oh i was not aware of that.
+2012-12-02 14:23:25   fsckd       there's also a forum thread :)
+2012-12-02 14:23:29   @meskarune  I need to lay down brb
+2012-12-02 14:23:34   fsckd       meskarune: k
+2012-12-02 14:23:54   fsckd       anyone have anything to add about classrooms?
+2012-12-02 14:24:01   XReaper     nope
+2012-12-02 14:24:05   bin_bash    damn, I hope meskarune feels better
+2012-12-02 14:24:16   fsckd       yeah :(
+2012-12-02 14:24:35   bin_bash    I hope she doesn't have any problems leaking spinal fluid like I did.
+2012-12-02 14:24:52   fsckd       O_O
+2012-12-02 14:25:05   fsckd       that sounds scary
+2012-12-02 14:25:13   +tigrmesh   yeah
+2012-12-02 14:25:30   fsckd       so nothing more about classrooms?
+2012-12-02 14:25:38   bin_bash    oh sorry.
+2012-12-02 14:25:44   hh4a        how bout no?
+2012-12-02 14:25:46   bin_bash    fsckd, what are the classroom topics?
+2012-12-02 14:26:13   fsckd       bin_bash: the wiki page has a list
+2012-12-02 14:26:28   bin_bash    port 80 is being uncooperative right now.
+2012-12-02 14:26:33   fsckd       ahh
+2012-12-02 14:27:01   fsckd       bin_bash: you remind me that i said in the last meeting to add some stuff to the wiki page
+2012-12-02 14:27:04   bin_bash    there it goes
+2012-12-02 14:27:13   fsckd       i'll do it later today
+2012-12-02 14:27:17   XReaper     lol
+2012-12-02 14:27:18   bin_bash    >how to pity the fool
+2012-12-02 14:27:21   bin_bash    oh god lol
+2012-12-02 14:27:31   XReaper     ssl wiki FTFW
+2012-12-02 14:27:57   fsckd       ok... that's it?
+2012-12-02 14:28:11   bin_bash    fsckd, yeah , i reckon.
+2012-12-02 14:28:25   fsckd       anyone want to say anything in general about Arch Women? a proposal a comment?
+2012-12-02 14:28:30   fsckd       no flaming please :P
+2012-12-02 14:28:39   fsckd       (can't believe i have to add that)
+2012-12-02 14:28:59   maxine      a -women channel that's more than me, someone else and chanserv
+2012-12-02 14:29:18   fsckd       heh
+2012-12-02 14:29:23   XReaper     :P
+2012-12-02 14:29:26    *   halosghost flames
+2012-12-02 14:29:33   halosghost  :P
+2012-12-02 14:29:34   fsckd       ok...
+2012-12-02 14:29:38   bin_bash    I propose that everyone calm the hell down. Seriously. I don't know why tempers have been flaring lately, but I propose that if you don't like someone, you put them on ignore
+2012-12-02 14:29:42   bin_bash    and let that be the end of it.
+2012-12-02 14:29:47    *   XReaper gets out the blowtorch and hands it to fsckd 
+2012-12-02 14:29:55   fsckd       !fire
+2012-12-02 14:29:57   phrik       Give a man a fire and you keep him warm for a night. Set a man on fire and you keep him warm for the rest of his life.
+2012-12-02 14:29:59   bin_bash    XReaper, there's a picture of me firing a flamerthrower
+2012-12-02 14:30:18   fsckd       i guess that's it, tigrmesh would you like the honors?
+2012-12-02 14:30:19   yardena     "I propose that everyone calm the hell down. Seriously." <-- disingenuous as an art form
+2012-12-02 14:30:24   halosghost  Could there be a policy (not a rule, I don't think) recommended and preferring the use of measured speech in general?
+2012-12-02 14:30:38   +tigrmesh   ***********************  MEETING IS OVER  *****************************
