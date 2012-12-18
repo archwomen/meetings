@@ -1,0 +1,34 @@
+Arch Linux Women - Dec. 2, 2012 IRC Meeting
+
+1)  Arch Linux Install Day
+    Though the installs were not numerous, it was a great event
+    Proposed having another install day in march
+        Advertise it more
+        Maybe have a class during the day that would basically be an overview of the install process and a q&a session and an intro to arch linux, meeting other people, etc
+
+2) Site hacked 
+    appears to be a PHP security hole in b2evolution
+    meskarune has not found exactly where, we're only using 2 plugins
+    person uploaded and index.html file and 2 folders, which superceded the index.php file.  the folders just have text files and images
+    index.html is served before index.php.  all the site stuff is still there, they just added additional files.  they only got access to the main site directory, and not any of the subdomains
+
+3) Migration to new server 
+    The arch women site is moving to a VPS so  we can all have more control over the server.
+    There's a placeholder page at http://198.74.62.52/
+    Replacement for b2evolution needed to decided
+    Pluses and minuses of static sites, b2evolution, wordpress, python and django were discussed
+    It was decided that the site will use mezzanine for content management
+    Email will stay on the old server for now; decision on what to use to handle it was postponed.
+
+4) Draft channel rules 
+    After much discussion, the drafting of the channel rules will be worked on outside of the meeting.
+
+5) Arch Classroom
+    gtmanfred has been working on it and said that everything is quieting for him this week, and he will be able to do teach the class and answer questions starting soon.  He was thinking around December 15th
+    There is a dedicated channel, #archlinux-classroom
+
+6) Other stuff
+    Recruit some interns to help Arch Women?  
+    A lot of schools require unpaid internships to graduate, maybe we could recruit studenst looking for internships to work on Arch stuff or Arch women stuff
+
+    This would help out college students and Arch
