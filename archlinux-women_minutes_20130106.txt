@@ -1,0 +1,35 @@
+Arch Linux Women - Jan. 6, 2013 IRC Meeting
+
+Server
+ * Old site ran b2evolution on shared hosting and was hacked using means currently unknown; new server is on VPS
+ * new site will use Django and mezzanine
+ * http://redmine.archwomen.org/ - redmine for coordinating Arch Women projects
+ * GitHub
+   * fsckd is waiting for meskarune to give access to GitHub
+   * publicly accessible git repos containing artwork, css, config, project code (Django), etc.
+   * Question asked: So what's the point of putting a lighttpd config and some CSS on github, as well as Django source? Especially if it's not going to be a library or something reusable by others??
+   * The idea is anyone can help the project without needing to give everyone access to the server. Effort can be decentralized and reduce the burden on any single person to do everything.
+
+Internship
+ * create a new internship program?
+ * https://live.gnome.org/OutreachProgramForWomen - investigate to see if Arch Linux can be a part of this (money and resources needed, obligations)
+
+Classrooms
+ * gtmanfred likes handegg
+ * KaiSforza volunteers to help with PKGBUILD class
+
+Channel Rules - postponed for now
+
+New meeting format proposal
+ * The problems, monthly meeting is too long and everyone turns to meskarune to coordinate everything
+ * Proposed solution,
+   * Each project by Arch Women has its own meeting to discuss stuff in detail.
+   * Main meeting reserved for discussing Arch Women in general and it's primary goal (furthering involvement of women and other minority groups in Arch Linux) as well as proposing new projects, etc.
+   * Each project have a designated coordinator who is identified as such on the project's redmine page. People can go to the coordinator for anything concerning the project.
+
+Meeting ended at 18:36 UTC
+
+Meeting reopened at 18:42 UTC to vote on the new meeting format proposal.  The motion passed.
+
+Reopened meeting ended at 18:46 UTC
+
