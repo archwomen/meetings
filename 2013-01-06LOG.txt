@@ -1,0 +1,264 @@
+2013-01-06 11:34:18    +tigrmesh    ************************   ok.  the meeting is starting now   **********************
+2013-01-06 11:34:28    +tigrmesh    first item:  we need a note taker
+2013-01-06 11:34:39    +tigrmesh    for the meeting
+2013-01-06 11:35:51    alexf        Won't your IRC logs serve as notes?
+2013-01-06 11:36:33    +tigrmesh    not a "perfect" note taker, just enough so that people who aren't here will know what we talked about.  also, anything we decided on (if we decided anything)
+2013-01-06 11:37:08    +tigrmesh    for me, yeah.  for someone looking through the site who is unfamiliar with irc, no
+2013-01-06 11:37:14    fsckd        alexf    : notes summarize so people can quickly see what happened without having to read an hours worth of logs
+2013-01-06 11:37:31    fsckd        usually we have them in an outline format
+2013-01-06 11:38:09    hawkgirl     like this https://github.com/archwomen/meeting-notes/blob/master/archlinux-women_minutes_20121202.txt
+2013-01-06 11:38:11    alexf        Well I realize that I'm not a member, but I move to rename meeting notes to TLDR's
+2013-01-06 11:38:11    phrik        Title: meeting-notes/archlinux-women_minutes_20121202.txt at master · archwomen/meeting-notes · GitHub (at github.com)
+2013-01-06 11:40:38    fsckd        in the past when there was a working blog, in the post announcing a meeting's results, the notes were the body and there was a link to the log for people who wanted more details
+2013-01-06 11:42:03    alexf        Well I would suggest to you guys, in the interest of moving your meeting along, to appoint a note taker afterwards since they can do so from the logs
+2013-01-06 11:42:48    +tigrmesh    when there's less enthusiasm?
+2013-01-06 11:43:21    alexf        Just a suggestion :)
+2013-01-06 11:44:20     *    fsckd     appoints alexf :P
+2013-01-06 11:44:36    +tigrmesh    me too
+2013-01-06 11:44:48    Asteria      :D
+2013-01-06 11:44:48    +tigrmesh    will you accept, alexf?
+2013-01-06 11:46:07    +tigrmesh    it doesn't have to be a "member of the project".  it's just a communication to future people interested. 
+2013-01-06 11:48:40    alexf        Sorry I'm on shift right now, i can't commit to pay that much attention
+2013-01-06 11:49:09    +tigrmesh    ok
+2013-01-06 11:49:42    +tigrmesh    alexf    : it's ok  :)
+2013-01-06 11:50:51    +tigrmesh    but this is really disturbing.  out of all the people here, no one is willing to step up for an hour or two of their time?
+2013-01-06 11:51:54    Asteria      Why not fsckd? :p
+2013-01-06 11:52:15    +tigrmesh    he's still taking flu medicine that makes him drowsy
+2013-01-06 11:52:28    Asteria      Oh.
+2013-01-06 11:52:28    Asteria      :C
+2013-01-06 11:55:38    +tigrmesh    we have no spent 20 minutes waiting for someone to volunteer
+2013-01-06 11:56:51    +tigrmesh    now*
+2013-01-06 12:02:09    fsckd        lol, ok, i'll do it, let's move on
+2013-01-06 12:02:41    +tigrmesh    thank you fsckd
+2013-01-06 12:03:08    fsckd        :)
+2013-01-06 12:03:50    +tigrmesh    :)
+2013-01-06 12:03:55    +tigrmesh    ok.  the agenda was not posted ahead of time due to fsckd and meskarune being sick, but these are the items on it:
+2013-01-06 12:04:01    +tigrmesh    (1) server work (2) internship (3) classroom (4) new meeting format? (5) anything else people want to talk about
+2013-01-06 12:04:42    +tigrmesh    server work: meskarune and fsckd have been working hard on the server and the new site
+2013-01-06 12:05:11    +tigrmesh    the old site was shared hosting using b2evolution
+2013-01-06 12:06:02    +tigrmesh    we're not sure what the exact vulnerability was, but the site got hacked.  so it's been moved to a vps
+2013-01-06 12:06:31    +tigrmesh    fsckd    : what is the new site going to use?
+2013-01-06 12:07:04    Asteria      Django!
+2013-01-06 12:08:16    fsckd        yup, Django
+2013-01-06 12:08:26    fsckd        and mezzanine
+2013-01-06 12:08:47    fsckd        also need to mention, we have redmine working
+2013-01-06 12:09:06    +tigrmesh    yeah   http://redmine.archwomen.org/
+2013-01-06 12:09:07    phrik        Title: Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-01-06 12:09:07    fsckd        and will use that to coordinate the various projects Arch Women takes
+2013-01-06 12:09:11    Asteria      I won't be *very* active. I'm talking to my boss about a few things, hopefully, I'll be done in a while.
+2013-01-06 12:09:22    fsckd        Asteria  : k
+2013-01-06 12:13:11    +tigrmesh    what's the thing about github?  will all the content go there?  will there be a git repo on the server?
+2013-01-06 12:13:20    fsckd        i am waiting for meskarune to give me access to archwomen github
+2013-01-06 12:13:38    +tigrmesh    k
+2013-01-06 12:13:41    fsckd        we'll use github to coordinate public repositories
+2013-01-06 12:14:10    fsckd        and push to the server to deploy changes
+2013-01-06 12:15:53    +tigrmesh    what will be in the public repositories?
+2013-01-06 12:16:53    fsckd        like the website files
+2013-01-06 12:17:37    +tigrmesh    the artwork, css, blog posts, stuff like that?
+2013-01-06 12:17:49    fsckd        yeah as well as the code
+2013-01-06 12:17:56    fsckd        and config files
+2013-01-06 12:18:11    +tigrmesh    k
+2013-01-06 12:18:14    fsckd        lighttpd config is on github already
+2013-01-06 12:19:13    +tigrmesh    are there more big things to do before the content can go in the site?
+2013-01-06 12:20:12    fsckd        which content?
+2013-01-06 12:21:12    +tigrmesh    sorry.  all the blog posts / articles and replies
+2013-01-06 12:22:15    fsckd        yeah... tbh i don't know if the old posts will be ported to mezzanine or not
+2013-01-06 12:22:43    Asteria      Sorry to question the idea, but what's the point of putting a lighttpd config and some CSS on github, as well as Django source? Especially if it's not going to be a library or something reusable by others??
+2013-01-06 12:22:44    +tigrmesh    ok
+2013-01-06 12:22:46    fsckd        i think yardena or meskarune are more aware of the possibilities
+2013-01-06 12:22:53    +tigrmesh    k
+2013-01-06 12:23:15    fsckd        Asteria  : you can help by submitting changes :)
+2013-01-06 12:23:25    Asteria      uhhuh
+2013-01-06 12:23:31    fsckd        Asteria  : it's a good question to ask
+2013-01-06 12:24:07    fsckd        the idea is anyone can help the project without needing to give everyone access to the server
+2013-01-06 12:24:20    Asteria      I see.
+2013-01-06 12:25:22    fsckd        archwomen like archlinux is community driven
+2013-01-06 12:25:39    fsckd        if nobody contributes anything, the project is dead
+2013-01-06 12:26:55    fsckd        and by putting the files on github, the project is less centralized, it should become easy to recreate the site elsewhere if there is a need to
+2013-01-06 12:27:54    Asteria      mmhm
+2013-01-06 12:30:51    fsckd        won't put Django's source in github obviously, it'll be the code in our Django project
+2013-01-06 12:30:55    alexf        I concur that your guys' structure should be more decentralized. meskarune is killing herself trying to keep too many balls in the air
+2013-01-06 12:31:10    fsckd        alexf    : precisely
+2013-01-06 12:31:34    fsckd        can't emphasize that enough
+2013-01-06 12:31:36    alexf        if other people could take over arch-women responsibilities for her when she is sick etc, blah blah obvious
+2013-01-06 12:31:49    Asteria      fsckd    , obviously, that's what i meant.
+2013-01-06 12:32:35    fsckd        the old site had the problem that meskarune was needed everytime something went wrong
+2013-01-06 12:33:20    fsckd        right now the server has four other people with access
+2013-01-06 12:33:59    +tigrmesh    2 of whom have been sick, one is out of town, and one is not strong with server stuff
+2013-01-06 12:34:05    fsckd        lol
+2013-01-06 12:34:34    fsckd        don't forget vodik, who is perpetually away :P
+2013-01-06 12:37:11    +tigrmesh    so that makes 5
+2013-01-06 12:37:25    fsckd        four besides meskarune :)
+2013-01-06 12:37:30    +tigrmesh    hehe
+2013-01-06 12:38:19    +tigrmesh    any other questions or comments about site stuff?
+2013-01-06 12:39:26    +tigrmesh    moving on
+2013-01-06 12:39:37    +tigrmesh    internship
+2013-01-06 12:42:07    fsckd        meskarune said that people are interested in an arch linux or arch women internship
+2013-01-06 12:43:00    fsckd        there are two ideas floating about, one sec
+2013-01-06 12:43:44    fsckd        it was brought up in the last meeting
+2013-01-06 12:44:44    fsckd        from the notes of the Dec. meeting, "A lot of schools require unpaid internships to graduate, maybe we could recruit studenst looking for internships to work on Arch stuff or Arch women stuff"
+2013-01-06 12:45:36    fsckd        i think then it was proposed we create a new internship program from scratch
+2013-01-06 12:45:50    fsckd        and alternative was suggested a week or two later
+2013-01-06 12:45:54    fsckd        an*
+2013-01-06 12:46:18    +tigrmesh    ok
+2013-01-06 12:46:48    +tigrmesh    any ideas about that?
+2013-01-06 12:47:53    fsckd        sorry, i was looking for a link
+2013-01-06 12:48:18    fsckd        the suggestion was we try to get Arch Linux to join this, https://live.gnome.org/OutreachProgramForWomen
+2013-01-06 12:48:21    phrik        Title: OutreachProgramForWomen - GNOME Live! (at live.gnome.org)
+2013-01-06 12:48:23    +tigrmesh    i was actually asking the channel as a whole
+2013-01-06 12:48:33    fsckd        ahh ok, heh, sorry (again)
+2013-01-06 12:48:45    +tigrmesh    no prob.  this is great  :)
+2013-01-06 12:49:11    +tigrmesh    it's too late for this year  :(
+2013-01-06 12:49:12    Asteria      brb
+2013-01-06 12:49:16    +tigrmesh    k
+2013-01-06 12:49:36    fsckd        yeah , should try to get archlinux in for next year :)
+2013-01-06 12:50:10    fsckd        need to determine how funding is done, what would archlinux's repsonsibilities be, what resources would need to be allocated
+2013-01-06 12:50:25    fsckd        need to build a case to present to the devs
+2013-01-06 12:51:23    fsckd        and need to be sure *before* we make a case that it would fit with arch linux
+2013-01-06 12:52:21    +tigrmesh    looks like they do it twice a year.  december to march (january to march this year), and may to august
+2013-01-06 12:53:33    Sornaensis   hm
+2013-01-06 12:54:09    +tigrmesh    Please let Karen Sandler and Marina Zhurakhinskaya know by the end of February if you are interested in joining the program for the next round or providing sponsorship for it.
+2013-01-06 12:54:42    +tigrmesh     Application period for the next round will open in early March and the internships will take place from June to August.
+2013-01-06 12:55:10    +tigrmesh    looks like this year it's june to august
+2013-01-06 12:55:32    fsckd        one month less
+2013-01-06 12:56:09     *    Asteria   is bach
+2013-01-06 12:56:15    +tigrmesh    maybe one week
+2013-01-06 12:56:31    +tigrmesh    wb
+2013-01-06 12:56:41    Asteria      http://www.youtube.com/watch?v=Fo0K_n3VLG4
+2013-01-06 12:56:42    phrik        Title: Bach - Double Violin Concerto in D minor 2nd movement, Largo - YouTube (at www.youtube.com)
+2013-01-06 12:56:45    Sornaensis   wilkem bach
+2013-01-06 12:56:52    +tigrmesh    hehe
+2013-01-06 12:56:58    Asteria      Sornaensis, I think you mean Wilhelm Bach.
+2013-01-06 12:57:10    Sornaensis   Same thang mang
+2013-01-06 12:58:07    +tigrmesh    ok
+2013-01-06 12:59:19    +tigrmesh    does anyone want to get involved in the internship process?  
+2013-01-06 12:59:40    +tigrmesh    it's a great idea
+2013-01-06 13:00:54    Asteria      Ugh. Brb again.
+2013-01-06 13:01:38    +tigrmesh    ok.  we're now going on 2 hours
+2013-01-06 13:01:47    +tigrmesh    just putting it out there
+2013-01-06 13:02:08    +tigrmesh    any last comments about the internship program?
+2013-01-06 13:03:15    +tigrmesh    archlinux-classroom
+2013-01-06 13:03:30    +tigrmesh    gtmanfred: you around to talk about #archlinux-classroom?
+2013-01-06 13:03:47    +tigrmesh    or anyone involved at all in setting up the PKGBUILD class?
+2013-01-06 13:03:57    +tigrmesh    or want to be?
+2013-01-06 13:06:28    +tigrmesh    i guess gtmanfred is watching the football game
+2013-01-06 13:06:31    +tigrmesh    k
+2013-01-06 13:07:51    +tigrmesh    as far as the channel rules discussion goes, we postponed that discussion until the site is back up
+2013-01-06 13:08:22    +tigrmesh    we might have to revisit that and have the discussion before the site is back up
+2013-01-06 13:10:34    +tigrmesh    iirc, Nahlidge, yardena, meskarune, halosghost and i volunteered.  but i haven't checked my logs, so i could be wrong.  please let me know if i'm wrong and/or if you want to participate
+2013-01-06 13:11:17    +tigrmesh    ok
+2013-01-06 13:11:19    +tigrmesh    last item is new meeting format
+2013-01-06 13:13:29    KaiSforza    wow, meeting is still on? i thought i'd slept through it...
+2013-01-06 13:13:42    +tigrmesh    nope
+2013-01-06 13:13:51    +tigrmesh    too late  ;)
+2013-01-06 13:13:55    KaiSforza    :<
+2013-01-06 13:14:23    fsckd        right, the problem is meetings are too long
+2013-01-06 13:14:25    KaiSforza    oh, and speaking of the pkgbuild class, i'd be willing to help with that.
+2013-01-06 13:14:31    +tigrmesh    yay
+2013-01-06 13:14:47    KaiSforza    i like my pkbuilds to be well written...
+2013-01-06 13:14:50    +tigrmesh    gtmanfred: KaiSforza's willing to help with the PKGBUILD class
+2013-01-06 13:15:01    KaiSforza    gtmanfred: get your booty in here
+2013-01-06 13:15:03    KaiSforza    .
+2013-01-06 13:15:18    +tigrmesh    he's watching a game.  better be good
+2013-01-06 13:15:19    Asteria      Unrelated, but what happens when you have more than 26(?) hard disks? Since each disk is labled sd<letter>..?
+2013-01-06 13:15:23    KaiSforza    (even though he was probably up all night watching the handegg playoffs.)
+2013-01-06 13:15:41    +tigrmesh    good question
+2013-01-06 13:15:54    KaiSforza    Asteria  : i think it goes into a second letter.
+2013-01-06 13:15:58    Asteria      Oh.
+2013-01-06 13:16:10    KaiSforza    Asteria  : since the blocks are numbers, so it could have more letters, i would think.
+2013-01-06 13:16:10    Asteria      Windows can't mount more than 35 partitions. :D
+2013-01-06 13:16:17    KaiSforza    well fuck windows.
+2013-01-06 13:16:22    Asteria      :p
+2013-01-06 13:16:26    KaiSforza    :D
+2013-01-06 13:17:14     *    KaiSforza has been getting annoyed by the lack of package() functions lately though. :<
+2013-01-06 13:17:39    Asteria      I think Archwomen should have some development projects as well. It could be helpful for getting the name out there and it would <insert good reason here, I'm tired. :U>.
+2013-01-06 13:18:03    Asteria      ( I had a reason yesterday, though, if that helps. :D )
+2013-01-06 13:18:23    KaiSforza    Asteria  : imho, they should just help out with the current arch projects...there are a whole bunch of them.
+2013-01-06 13:18:42    +tigrmesh    i think we're spread pretty thin as it is
+2013-01-06 13:19:19    fsckd        new meeting format proposal covers that too
+2013-01-06 13:20:00    +tigrmesh    we want to do another install day, a PKGBUILD class, internship thing, site content; that's a lot
+2013-01-06 13:20:15    fsckd        yes it is
+2013-01-06 13:20:52    +tigrmesh    ok
+2013-01-06 13:20:56    +tigrmesh    new meeting format
+2013-01-06 13:21:17    +tigrmesh    fsckd    : the floor is yours
+2013-01-06 13:21:22    +tigrmesh    so to speak
+2013-01-06 13:21:26    fsckd        thank you :)
+2013-01-06 13:21:32    fsckd        the proposal is simple
+2013-01-06 13:21:39    hawkgirl     asteria: modern windows can mount partitions in directories too, not just letters/numbers
+2013-01-06 13:21:40    fsckd        each project has its own meeting
+2013-01-06 13:21:49    Asteria      hawkgirl , modern Windows being Windows 7?
+2013-01-06 13:22:03    hawkgirl     windows xp, iirc
+2013-01-06 13:22:06    Asteria      wat
+2013-01-06 13:22:11    Asteria      I'll look into that, thanks.
+2013-01-06 13:22:16    fsckd        schedule at a different time, preferably a different day, from the main meeting
+2013-01-06 13:22:42    hawkgirl     maybe 2k even, you have to do it via disk management though
+2013-01-06 13:22:49    fsckd        the main meeting would be used for the overall progress of archwomen and the main goals
+2013-01-06 13:23:15    fsckd        may be five minute summary of each project's progress if needed
+2013-01-06 13:23:25    fsckd        to keep the meeting down to one hour
+2013-01-06 13:23:29    fsckd        or less
+2013-01-06 13:23:48    fsckd        and detailed discussions of projects can happen during those meetings
+2013-01-06 13:24:04    fsckd        second part of the proposal
+2013-01-06 13:24:13    fsckd        is each project have a coordinator
+2013-01-06 13:24:16    hawkgirl     Asteria  : "assign drive letter or path" would be the keywords you want
+2013-01-06 13:24:25    Asteria      hawkgirl , uhhuh
+2013-01-06 13:24:38    hawkgirl     that phrase specifically
+2013-01-06 13:24:47    fsckd        as alexf mentioned, too many people go to meskarune to coordinate everything
+2013-01-06 13:24:55    +tigrmesh    hawkgirl , Asteria - please take this to PM.  we're still meeting.  thanks
+2013-01-06 13:26:08    fsckd        having designated project coordinators, their names listed on redmine under the specific project they coordinate, people would know who to contact
+2013-01-06 13:26:21    fsckd        for whatever regarding a project
+2013-01-06 13:26:36    alexf        fsckd    : Just to clarify, I didn't say that 'too many people go to her' I don't know much/anything about how you guys coordinate. All I know is what I see working/talking with her, which is that she's responsible for too many things for her own good
+2013-01-06 13:26:55    KaiSforza    I volunteer gtmanfred for the classroom coordinator. 
+2013-01-06 13:27:04    fsckd        hehe, sorry, i'm mixing what you said with what i am thinking
+2013-01-06 13:27:06     *    KaiSforza runs
+2013-01-06 13:28:26    fsckd        i mean that, as alexf said, she can't coordinate everything
+2013-01-06 13:29:04    fsckd        so have other people as designated coordinators people can go to
+2013-01-06 13:30:01     *    fsckd     returns the floor to tigrmesh
+2013-01-06 13:30:13    +tigrmesh    oh
+2013-01-06 13:30:35    alexf        I just wanna make sure that nothing is put in my mouth other then what I meant, that's all :)
+2013-01-06 13:30:37     *    Asteria   hands tigrmesh a ceramic floor tile
+2013-01-06 13:30:42    +tigrmesh    lol
+2013-01-06 13:30:57    +tigrmesh    i'm not sure how to proceed.  should we give people time to think about this, or just vote now?
+2013-01-06 13:31:13    fsckd        alexf    : haha, i'm sorry, i don't mean to put anything in your mouth
+2013-01-06 13:31:28    alexf        I know you didn't, I just strive for clarity
+2013-01-06 13:31:34    fsckd        :)
+2013-01-06 13:32:38    KaiSforza    if one of the voting options is poptarts, it has my vote.
+2013-01-06 13:32:48    fsckd        tigrmesh: umm...
+2013-01-06 13:33:37    fsckd        depends, do you want meskarune and yardena's input?
+2013-01-06 13:33:42    +tigrmesh    poptart committee?  hehe
+2013-01-06 13:33:52    Asteria      <KaiSforza> I volunteer gtmanfred for the classroom coordinator. 
+2013-01-06 13:33:58    Asteria      <gtmanfred> heh
+2013-01-06 13:34:03    Asteria      ftfy
+2013-01-06 13:34:36    fsckd        lol
+2013-01-06 13:35:01    +tigrmesh    you know what?  i don't think it's that important.  what will be important is the subgroups and who coordinates those
+2013-01-06 13:35:08    +tigrmesh    fsckd    : ^^
+2013-01-06 13:35:23    +tigrmesh    but i think it's time to wrap this up
+2013-01-06 13:35:31    fsckd        ok
+2013-01-06 13:36:52    +tigrmesh    anyone else have anything they need to say?  any suggestions or thoughts on future activities?
+2013-01-06 13:37:05    KaiSforza    more poptarts.
+2013-01-06 13:37:21    KaiSforza    i should just go get some food...
+2013-01-06 13:37:31    +tigrmesh    at the moment, just arch women related
+2013-01-06 13:38:15    +tigrmesh    okay
+2013-01-06 13:38:32    +tigrmesh    ******************  meeting is over  ************************
+[snip comments between sessions]
+2013-01-06 13:44:58    +tigrmesh    ***************  meeting reopen  ****************
+2013-01-06 13:45:01    KaiSforza    s/y'all/ladies and gentlemen/
+2013-01-06 13:45:02    fsckd        gtmanfred: at the end of http://titanpad.com/38axS42Wrm
+2013-01-06 13:45:03    phrik        Title: TitanPad: 38axS42Wrm (at titanpad.com)
+2013-01-06 13:45:34    +tigrmesh    ok so the proposal is that we change the meeting format to be what's on http://titanpad.com/38axS42Wrm
+2013-01-06 13:45:35    phrik        Title: TitanPad: 38axS42Wrm (at titanpad.com)
+2013-01-06 13:45:41    +tigrmesh    any objections
+2013-01-06 13:45:50    +tigrmesh    or discussion
+2013-01-06 13:46:11    +tigrmesh        Each project by Arch Women has its own meeting to discuss stuff in detail.
+2013-01-06 13:46:13    +tigrmesh        Main meeting reserved for discussing Arch Women in general and it's primary goal (furthering involvement of women and other minority groups in Arch Linux) as well as proposing new projects, etc.
+2013-01-06 13:46:15    +tigrmesh        Each project have a designated coordinator who is identified as such on the project's redmine page. People can go to the coordinator for anything concerning the project.
+2013-01-06 13:46:31    +tigrmesh     
+2013-01-06 13:46:33    +tigrmesh     
+2013-01-06 13:46:35    +tigrmesh     
+2013-01-06 13:46:37    +tigrmesh     
+2013-01-06 13:46:42    +tigrmesh    any opposed?
+2013-01-06 13:47:06    +tigrmesh    i'm not going to do an "any in favor" if no one opposes
+2013-01-06 13:47:16    +tigrmesh    o k
+2013-01-06 13:47:21    +tigrmesh    passes
+2013-01-06 13:47:23    +tigrmesh    thank you
+2013-01-06 13:47:49    +tigrmesh    any last comments?
+2013-01-06 13:48:18    +tigrmesh    ***************  reopened meeting closes  ****************
