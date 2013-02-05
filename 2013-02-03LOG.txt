@@ -1,0 +1,324 @@
+2013-02-03 11:14:11    +tigrmesh   *****************  archlinux women meeting is starting   **************
+2013-02-03 11:14:23        fsckd   notes/minutes: http://titanpad.com/QCjfMjRuoP
+2013-02-03 11:14:25        phrik   Title: TitanPad: QCjfMjRuoP (at titanpad.com)
+2013-02-03 11:14:41   +meskarune   \o/
+2013-02-03 11:14:56        fsckd   xrchz: the floor is yours, start again :)
+2013-02-03 11:15:10        xrchz   1st item is a review of what has happened
+2013-02-03 11:15:34   +meskarune   so tons of optimization so we get the most bang for our buck
+2013-02-03 11:15:49        xrchz   this is for the archwomen.org website?
+2013-02-03 11:15:50   +meskarune   the server is still under constant hack attempts though
+2013-02-03 11:16:01   +meskarune   so we have to continue to increase security
+2013-02-03 11:16:04        fsckd   xrchz: yes
+2013-02-03 11:16:08         hh4a   thats lame, someone has a secret agenda against us
+2013-02-03 11:16:23   +meskarune   hh4a: last time it was the syrian electronic army 
+2013-02-03 11:16:27         hh4a   We need to deploy T800s
+2013-02-03 11:16:27   +meskarune   its probably still them
+2013-02-03 11:16:31   +meskarune   haha
+2013-02-03 11:16:32        xrchz   yes that is strange - can we get any clues from logs as to who?
+2013-02-03 11:17:14        xrchz   presumably we run arch linux though so maintaining high security is not as painful as it could be
+2013-02-03 11:17:23   +meskarune   they have been making hits on random urls like /join.php /wp-login.php and /admin.php (right now we just have static files for hte most part)
+2013-02-03 11:17:29   +meskarune   xrchz: YES ++
+2013-02-03 11:17:30        fsckd   the attacks are automated and may be through a botnet
+2013-02-03 11:18:08        fsckd   there are also the usual attempts on ssh
+2013-02-03 11:18:09        xrchz   is there a way to coordinate security tasks in redmine or something?
+2013-02-03 11:18:27        fsckd   meskarune: i reiterate the proposal for using an alt port
+2013-02-03 11:18:29   +meskarune   thats a good idea
+2013-02-03 11:18:41        xrchz   do we have dedicated web people or is it just anyone who volunteers? (could be both...)
+2013-02-03 11:19:01        xrchz   for ssh, public-key only should be enough
+2013-02-03 11:19:03   +meskarune   site is a vps atm
+2013-02-03 11:19:17        xrchz   for http(s) i guess it depends a bit on the server - what is our server..
+2013-02-03 11:19:26   +meskarune   xrchz: its public key only, and allowedusers = server staff
+2013-02-03 11:19:29        fsckd   xrchz: i don't like seeing them in the log >< but yeah, public keys should be enough
+2013-02-03 11:19:31   +meskarune   also logins are limited
+2013-02-03 11:19:44   +meskarune   logs can be useful if we have to firewall people :)
+2013-02-03 11:19:56   +meskarune   but if journald starts using too much ram, we can 
+2013-02-03 11:20:32        xrchz   the main hole is going to be the web server though, right? nothing else..?
+2013-02-03 11:20:40   +meskarune   xrchz: yeah, I believe so
+2013-02-03 11:20:56   +meskarune   we have mail hosted with zoho, which also have a text editer, calendar, groups, etc
+2013-02-03 11:20:57        xrchz   are we using a particularly vulnerable one?
+2013-02-03 11:21:05   +meskarune   we want to get more people on there as well
+2013-02-03 11:21:25   +meskarune   xrchz: right now its all static files, except redmine, which needs to be updated asap
+2013-02-03 11:21:30   +meskarune   there was a ruby on rails security issue
+2013-02-03 11:21:59   +meskarune   xrchz: we are going to configure a python based blog for the new site
+2013-02-03 11:22:12   +meskarune   python and java are more secure than php apps
+2013-02-03 11:22:19   +meskarune   as crazy as that sounds
+2013-02-03 11:22:46         hh4a   its not crazy
+2013-02-03 11:23:15        xrchz   so is it feasible to use redmine to list the stuff we want to do with the server and assign it to people etc.?
+2013-02-03 11:23:22   +meskarune   yep :)
+2013-02-03 11:23:23        xrchz   and who can take the first step with that?
+2013-02-03 11:23:31        xrchz   e.g. create a task on redmine for something
+2013-02-03 11:23:36   +meskarune   I think anyone can make projecst and tasks
+2013-02-03 11:23:46        xrchz   let me put it tihs way: who is going to ? :P
+2013-02-03 11:23:47   +meskarune   also bugs/feature requests/etc
+2013-02-03 11:23:57   +meskarune   as many people as we can recruit :)
+2013-02-03 11:24:04        fsckd   sign up for redmine please :)
+2013-02-03 11:24:06   +meskarune   we need to audit the skills we have available here
+2013-02-03 11:24:15         hh4a   iam just an ant, a conscript, a shuffelier
+2013-02-03 11:24:23   +meskarune   like who knows web stuff, who knows dev, coding, admin, etc
+2013-02-03 11:24:26    *   Sarah pulls out the magnifying glass
+2013-02-03 11:24:28        xrchz   right
+2013-02-03 11:24:28   +meskarune   haha hh4a 
+2013-02-03 11:24:34    *   fsckd gives hh4a a hat and a rifle
+2013-02-03 11:24:40   +meskarune   and who is good at writing
+2013-02-03 11:24:45   +meskarune   ^ important skill
+2013-02-03 11:25:03        xrchz   that might come into agenda item (2)
+2013-02-03 11:25:09        fsckd   yeah
+2013-02-03 11:25:10         hh4a   There should be some pool bout that
+2013-02-03 11:25:27        xrchz   for (1) should we just say we're going to start coordinating better, and move all the ideas that came up into tasks?
+2013-02-03 11:25:39        xrchz   I've been trying to get them down on the titanpad
+2013-02-03 11:27:16   +meskarune   <3
+2013-02-03 11:27:33        xrchz   If so, then let's move on to (2)
+2013-02-03 11:27:52   +meskarune   basically we've made it nearly a year, and grown, so time to -Syu
+2013-02-03 11:27:55        xrchz   setting up groups, spreading tasks. probably should start with the skills audit and also a list of what tasks need doing.
+2013-02-03 11:28:26        fsckd   last meeting we decided to use groups and let each project have their own meetings
+2013-02-03 11:28:27   +meskarune   I want people to add tasks as they think of them :)
+2013-02-03 11:28:37   +meskarune   anyone and everyone
+2013-02-03 11:28:48        fsckd   that ^
+2013-02-03 11:29:13        xrchz   so we add them on redmine, presumably? need an account?
+2013-02-03 11:29:25        fsckd   yup
+2013-02-03 11:29:38        xrchz   everyone here should probably get one if they don't have one then :)
+2013-02-03 11:30:03   +meskarune   http://redmine.archwomen.org
+2013-02-03 11:30:05        phrik   Title: Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-02-03 11:30:21        xrchz   sigh why is this also not https :(
+2013-02-03 11:30:39   +meskarune   I know :(
+2013-02-03 11:30:43   +meskarune   I'm working on the ssl cert
+2013-02-03 11:30:48        fsckd   that's also on todo
+2013-02-03 11:31:00   +meskarune   I signed up to startssl
+2013-02-03 11:31:27        xrchz   meskarune: awesome
+2013-02-03 11:32:23   +meskarune   namecheap has ssl certs for $7.95 a year
+2013-02-03 11:32:40        xrchz   the free startssl one should be fine - we don't have subdomains
+2013-02-03 11:32:41        Sarah   Registered.
+2013-02-03 11:32:50        fsckd   xrchz: we do
+2013-02-03 11:32:51        xrchz   yet...
+2013-02-03 11:32:54        xrchz   hmm
+2013-02-03 11:32:59        fsckd   redmine.archwomen.org
+2013-02-03 11:33:02        xrchz   right
+2013-02-03 11:33:06        fsckd   and archwomen.org
+2013-02-03 11:33:09        xrchz   how much is the cheapest startcom one?
+2013-02-03 11:34:00   +meskarune   its free, but I keep running into issues with it
+2013-02-03 11:34:02   +meskarune   :/
+2013-02-03 11:34:09        xrchz   no, the cheapest one that allows subdomains
+2013-02-03 11:34:15   +meskarune   oooh
+2013-02-03 11:34:27        xrchz   since it may be better to switch to another provider 
+2013-02-03 11:34:34        xrchz   since we're going to have to pay anyway
+2013-02-03 11:34:40   +meskarune   wildcard ssl are expensive
+2013-02-03 11:34:45        fsckd   who will pay?
+2013-02-03 11:34:56        xrchz   does this project have a budget?
+2013-02-03 11:35:05        xrchz   does it take donations?
+2013-02-03 11:35:13   +meskarune   we do!
+2013-02-03 11:35:27   +meskarune   right now we don't have a budget
+2013-02-03 11:35:27        xrchz   to the latter, I suppose
+2013-02-03 11:35:35   +meskarune   we need to make one
+2013-02-03 11:35:35        xrchz   right. probably need a budget and a treasurer :P
+2013-02-03 11:35:45   +meskarune   and fund raise for stuff
+2013-02-03 11:35:52     Nahlidge   I'll add twelve frost bluberry poptarts to the budget.
+2013-02-03 11:35:58   +meskarune   like if we wanted to send a woman speaker to an event
+2013-02-03 11:36:04   +meskarune   hehe Nahlidge 
+2013-02-03 11:36:10   +meskarune   domain name is $10 a year
+2013-02-03 11:36:19   +meskarune   hosting is free atm
+2013-02-03 11:36:28        fsckd   should archwomen be registered as a non-profit? that can help with donations
+2013-02-03 11:36:39         hh4a   i can share some wood
+2013-02-03 11:36:40   +meskarune   it couldn
+2013-02-03 11:36:47   +meskarune   it coudln't hurt
+2013-02-03 11:36:59   +meskarune   and it can help with discounts on things
+2013-02-03 11:37:03        xrchz   indeed.
+2013-02-03 11:37:10        xrchz   getting back to skills audit and task lists...
+2013-02-03 11:37:12   +meskarune   but applying for non-profit status is a little complicated
+2013-02-03 11:37:16   +meskarune   you have to have a board
+2013-02-03 11:37:22   +meskarune   and get grants, etc
+2013-02-03 11:37:22        xrchz   I think the task list stuff is sorted out by just using redimne (i signed up...)
+2013-02-03 11:37:29        xrchz   what about skills audit?
+2013-02-03 11:38:40         ioni   meskarune, wilcard from starssl is quite cheap. 60$/2years
+2013-02-03 11:39:18        Sarah   Or you can go with CACert or something.
+2013-02-03 11:39:32         ioni   cacert is not accepted by most of the browsers
+2013-02-03 11:39:35     sudokode   ioni: screw it, just do grouping
+2013-02-03 11:39:43     sudokode   you can at least get it to firefox users
+2013-02-03 11:40:08     fogobogo   "redmine.archwomen.org - your monthly occupation"
+2013-02-03 11:40:16     sudokode   (www|foo|bar|baz).domain.com
+2013-02-03 11:40:16        fsckd   i thought mozilla rejected cacert?
+2013-02-03 11:40:28   +meskarune   ioni: oh wow, yeah that is
+2013-02-03 11:40:39   +meskarune   most of them are like $100+ per year
+2013-02-03 11:40:48         ioni   sudokode, is not accepted even by mozilla
+2013-02-03 11:40:52        xrchz   Figuring out the best option for SSL can be done outside meeting, no?
+2013-02-03 11:40:55     sudokode   used to be
+2013-02-03 11:40:55         ioni   we used to include it because we patched nss
+2013-02-03 11:41:05     sudokode   haha
+2013-02-03 11:41:15         ioni   xrchz, sorry about that
+2013-02-03 11:41:17         ioni   carry on
+2013-02-03 11:41:20     sudokode   that was a great exploit
+2013-02-03 11:41:23   +meskarune   thats interesting though :)
+2013-02-03 11:41:29        xrchz   next thing is skills audit - do we want one, and how can we do one?
+2013-02-03 11:41:38        xrchz   because it could help assigning people to tasks
+2013-02-03 11:41:41        fsckd   wait wait
+2013-02-03 11:41:43   +meskarune   we can have people list their skills on their profile
+2013-02-03 11:41:44        xrchz   but... maybe it's better to just get volunteering?
+2013-02-03 11:41:55        xrchz   there are profiles? i need to look at this redmine thing hey...
+2013-02-03 11:42:07        fsckd   nvm i got confused, carry on... as you are doing
+2013-02-03 11:42:33   +meskarune   well, we can make a users group, and update the wiki
+2013-02-03 11:42:52        xrchz   good idea
+2013-02-03 11:43:00   +meskarune   but yeah, I think people can assign them selves things aslo
+2013-02-03 11:43:03   +meskarune   also
+2013-02-03 11:43:07   +meskarune   we just have to have a list of things to do
+2013-02-03 11:43:17        xrchz   so profiles on wiki?
+2013-02-03 11:43:55     sudokode   what do you want me to do
+2013-02-03 11:44:00        xrchz   I think we're about done with item (2). Fix http://titanpad.com/QCjfMjRuoP as necessary. Let's move on to (3).
+2013-02-03 11:44:01        phrik   Title: TitanPad: QCjfMjRuoP (at titanpad.com)
+2013-02-03 11:44:10        xrchz   sudokode: we'll coordinate all tasks through redmine.archwomen.org
+2013-02-03 11:44:25        xrchz   (3) is Channel Rules
+2013-02-03 11:44:27     sudokode   coordination.. booooring
+2013-02-03 11:44:35        fsckd   wait wait, not done with groups
+2013-02-03 11:44:55        xrchz   fsckd: sorry - go ahead..
+2013-02-03 11:44:56        fsckd   we need to address the propasal accepted at the last meeting
+2013-02-03 11:45:10     sudokode   oh is this one of them fancy meetings. sorry, I'll be quiet now
+2013-02-03 11:45:21        fsckd   but first, everyone who just signed up on redmine, your accounts are accepted
+2013-02-03 11:45:27        xrchz   excellent
+2013-02-03 11:45:34         hh4a   sudokode: dont be quiet, elaborate!
+2013-02-03 11:45:49     sudokode   hh4a: my ideas generally involve ponies and ice cream
+2013-02-03 11:45:54        fsckd   also, you don't need to enter your real names. you can remove them if you want
+2013-02-03 11:46:10        fsckd   one todo item is to get redmine to stop asking for them
+2013-02-03 11:46:35        fsckd   ok
+2013-02-03 11:46:51        xrchz   I'll add that
+2013-02-03 11:46:56        fsckd   last time we said we'd have each project as its own group
+2013-02-03 11:47:03        fsckd   with their own meetings
+2013-02-03 11:47:32        fsckd   we need to designate project coordinators
+2013-02-03 11:47:48        fsckd   who will serve as the go to people for their respective projects
+2013-02-03 11:48:02        fsckd   (in irc, no idea what to do with them on redmine)
+2013-02-03 11:48:12        fsckd   (ideas are welcome though)
+2013-02-03 11:48:43        xrchz   can that go on the wiki profiles?
+2013-02-03 11:49:24        fsckd   yeah
+2013-02-03 11:49:43         Mion   http://arch.har-ikkje.net/gfx/IMG_2649.JPG
+2013-02-03 11:49:46         Mion   http://arch.har-ikkje.net/gfx/IMG_2650.JPG
+2013-02-03 11:50:03        fsckd   the projects we have currently are classrooms, internship and install day
+2013-02-03 11:50:56        xrchz   I also see  mailing list, marketing, website, and server admin
+2013-02-03 11:51:36        xrchz   where is the wiki?
+2013-02-03 11:51:39        fsckd   for now i think meskarune and tigrmesh head server admin and website?
+2013-02-03 11:51:49        fsckd   xrchz: each project has its own wiki
+2013-02-03 11:52:07        fsckd   there should be a wiki tab if you click on a project
+2013-02-03 11:52:18        xrchz   meskarune: tigrmesh: want to list yourselves as project coordinators for those then, in the respective wikis?
+2013-02-03 11:53:24        xrchz   volunteers for the other projects go ahead and do the same
+2013-02-03 11:54:15        xrchz   we might need a project that can deal with things like making us a non-profit and handling the finances
+2013-02-03 11:54:50        fsckd   good idea
+2013-02-03 11:55:21        fsckd   tigrmesh propsed an archwomen project area in redmine for archwomen stuff
+2013-02-03 11:55:33        xrchz   right
+2013-02-03 11:55:50        xrchz   fsckd: can you make that project? (I don't see how to make new ones)
+2013-02-03 11:56:02        fsckd   really? you should have the ability
+2013-02-03 11:56:49        fsckd   on the projects page at the top is something like "New project | View all issues | Overall spent time | Overall activity"
+2013-02-03 11:56:58        fsckd   do you see that ^ ?
+2013-02-03 11:57:47        xrchz   I see all but the first item
+2013-02-03 11:58:09        fsckd   dang... that needs to be fixed, thnaks for pointing it out
+2013-02-03 11:58:59        fsckd   i don't know how permissions work (i'm not the main admin, tigrmesh is), so this'll be fixed a little later
+2013-02-03 11:59:03        xrchz   sure
+2013-02-03 11:59:10        xrchz   in the meantime can you creat the archwomen project?
+2013-02-03 11:59:25        fsckd   sure
+2013-02-03 11:59:43   +meskarune   I need to read up on redmine permissions as well :)
+2013-02-03 11:59:54        xrchz   and, are we done with the groups item now? we basically just need people to volunteer to coordinate the individual projects ,and advertise themselves as such on the project wikis (and here).
+2013-02-03 11:59:59   +meskarune   I bet we could steal the redmine docs and stick them on our stuff
+2013-02-03 12:00:10   +meskarune   xrchz: yes :D
+2013-02-03 12:00:50        xrchz   next up is Channel Rules.
+2013-02-03 12:00:56        xrchz   I notice we don't have an IRC project either...
+2013-02-03 12:00:59    gtmanfred   KaiSforza: wat?
+2013-02-03 12:01:07        xrchz   but maybe we don't need an entire project just to write down the rules
+2013-02-03 12:01:22        xrchz   have they been written already?
+2013-02-03 12:01:45        xrchz   currently we link to freenode/archlinux-offtopic policies
+2013-02-03 12:02:24   +meskarune   xrchz: oh we should def have irc on there :)
+2013-02-03 12:02:30    KaiSforza   gtmanfred: how did you know i was back on?
+2013-02-03 12:02:31   +meskarune   you're on a roll
+2013-02-03 12:03:08    gtmanfred   wait, has the meeting started
+2013-02-03 12:03:10    gtmanfred   ?
+2013-02-03 12:03:14        fsckd   an hour ago
+2013-02-03 12:03:24        xrchz   meskarune: in that case, someone with the permissions should set up an irc project or subproject on redmine
+2013-02-03 12:03:32    KaiSforza   gtmanfred: no, they're just talking about meeting stuff.
+2013-02-03 12:03:53        xrchz   and make a task to write the channel rules, or publish them,  - or just do it 
+2013-02-03 12:03:55        fsckd   http://redmine.archwomen.org/projects/archwomen
+2013-02-03 12:03:57        phrik   Title: Overview - Arch Linux Women - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-02-03 12:04:01        xrchz   fsckd: thanks!
+2013-02-03 12:04:04        fsckd   np :)
+2013-02-03 12:05:15   +meskarune   http://redmine.archwomen.org/projects/irc
+2013-02-03 12:05:16        phrik   Title: Overview - IRC - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-02-03 12:05:59        xrchz   anyone have anything to contribute re channel rules?
+2013-02-03 12:06:16   +meskarune   can of worms. have people add stuff in redmine :)
+2013-02-03 12:06:21   +meskarune   or we'll here all day lol
+2013-02-03 12:06:25        fsckd   haha
+2013-02-03 12:07:02   +meskarune   all suggestions welcome, just create feature requests, add to wiki, etc
+2013-02-03 12:07:03      qubodup   sorry for being late, as expected
+2013-02-03 12:07:08   +meskarune   <3
+2013-02-03 12:07:09        xrchz   ok.
+2013-02-03 12:07:16        xrchz   will need that irc project/subprojcet then.
+2013-02-03 12:07:31        xrchz   let's move on to (4)
+2013-02-03 12:08:09        xrchz   4 is Men of ArchLinux Calendar
+2013-02-03 12:08:29   +meskarune   qubodup: you're just in time ;D
+2013-02-03 12:08:30    *   fsckd snickers
+2013-02-03 12:08:36        fsckd   hi qubodup :)
+2013-02-03 12:09:22      qubodup   I see
+2013-02-03 12:09:28   +meskarune   haha
+2013-02-03 12:09:42        xrchz   notes are here http://titanpad.com/QCjfMjRuoP for what you missed
+2013-02-03 12:09:43        phrik   Title: TitanPad: QCjfMjRuoP (at titanpad.com)
+2013-02-03 12:09:45      qubodup   allright, let me get the camera...
+2013-02-03 12:09:49      qubodup   xrchz: thx
+2013-02-03 12:09:56        xrchz   also it seems like the main theme of the meeting is: get everyone using redmine and doing tasks on it
+2013-02-03 12:10:04        xrchz   someone put that in the channel topic and on the website front page
+2013-02-03 12:10:18        fsckd   very astute, good idea
+2013-02-03 12:10:20   +meskarune   yep, lets get lots of data, we need wiki updates, procject ideas, feature requests, etc
+2013-02-03 12:10:22   +meskarune   and volunteers
+2013-02-03 12:10:30        fsckd   and a twitter post
+2013-02-03 12:10:55    *   qubodup whispers "and as little infrastructure as possible."
+2013-02-03 12:10:58   +meskarune   with the new mail system, we can organize email and associated accounts better
+2013-02-03 12:11:23        xrchz   I have no idea what agenda item 4 is about. Anyone who wants to raise something on it, go ahead.
+2013-02-03 12:11:24   +meskarune   qubodup: heh, yes. constant server attacks means we can't have weak spots or lots of overhead :)
+2013-02-03 12:11:46      qubodup   so "1 Members moderator request(s) waiting" is resolved?
+2013-02-03 12:12:14        fsckd   xrchz: it's a joke. inserted into the proposed agenda this morning and somehow it stayed :P
+2013-02-03 12:12:29        xrchz   let's move on to (5) then :)
+2013-02-03 12:12:35        xrchz   which is Any Other Business
+2013-02-03 12:12:38   +meskarune   we need to find a new platform for mailing list
+2013-02-03 12:12:53   +meskarune   would be amazing if we could use the arch mailman :)
+2013-02-03 12:12:53        xrchz   I suggest everyone look at http://titanpad.com/QCjfMjRuoP and pick an Action point to do.
+2013-02-03 12:12:55        phrik   Title: TitanPad: QCjfMjRuoP (at titanpad.com)
+2013-02-03 12:12:58        xrchz   some of them are done already - I will strikethrough..
+2013-02-03 12:13:47   +meskarune   #1, we need someone to make the notes and add them to github meeting-notes.git
+2013-02-03 12:14:02   +meskarune   we can then git pull on the server and they will be hosted online for *
+2013-02-03 12:14:45   +meskarune   http://archwomen.org/media/meeting-notes
+2013-02-03 12:15:07        phrik   Title: Index of /media/meeting-notes/ (at archwomen.org)
+2013-02-03 12:15:21   +meskarune   all logs notes, etc are in /media as text files
+2013-02-03 12:15:21     Nahlidge   I volunteer to write the notes on sticky-notes and take a very poorly lighted photo of them, and upload 'em to the server.
+2013-02-03 12:15:39   +meskarune   Nahlidge: use instagram :)
+2013-02-03 12:15:41      qubodup   I feel discomfort with "we have been hacked" being our motto.
+2013-02-03 12:16:15   +meskarune   we can update that page
+2013-02-03 12:16:26   +meskarune   hopefully the new blog will be up soon
+2013-02-03 12:16:27      qubodup   on irc, website that seems to be the introduction
+2013-02-03 12:16:33     Nahlidge   meskarune: just for you!
+2013-02-03 12:17:06   +meskarune   we can change it to placeholder site or something 
+2013-02-03 12:17:06        fsckd   we've been making a lot of progress with the server. slow but steady progress
+2013-02-03 12:17:39   +meskarune   qubodup: people have been trying to get access to files on the webserver and constant ssh brute force attempts
+2013-02-03 12:18:02        xrchz   right, but we don't have to keep saying it
+2013-02-03 12:18:08   +meskarune   yeah
+2013-02-03 12:18:09      qubodup   Is this an uncommon situation?
+2013-02-03 12:18:31        xrchz   my server gets ssh brute force all the time as well - i think it's pretty common
+2013-02-03 12:18:48   +meskarune   ssh brute force is common
+2013-02-03 12:19:03   +meskarune   targeted hack attempts on webserver not so much
+2013-02-03 12:19:10        xrchz   Nahlidge: so you're going to turn the titanpad notes into the meeting notes?
+2013-02-03 12:19:12   +meskarune   I'm waiting for a DoS next
+2013-02-03 12:19:20        fsckd   scary ><
+2013-02-03 12:19:30     Nahlidge   xrchz: I was being funny, I'm just watching.
+2013-02-03 12:19:33   +meskarune   we might have to look into DoS mitigation
+2013-02-03 12:19:36        xrchz   Nahlidge: go ahead it's easy
+2013-02-03 12:19:56     Nahlidge   xrchz: Sunday is my lazy-day.
+2013-02-03 12:20:08      qubodup   so what about us getting this email daily "1 Members moderator request(s) waiting" ?
+2013-02-03 12:20:16      qubodup   It links to http://archwomen.org/mailman/admindb/members_archwomen.org
+2013-02-03 12:20:23   +meskarune   I need to cancel all the arvixe hosting stuff
+2013-02-03 12:20:28        fsckd   asap
+2013-02-03 12:20:38        fsckd   ಠ_ಠ
+2013-02-03 12:20:52        fsckd   :P
+2013-02-03 12:20:53   +meskarune   I have the mail archive I need to upload, and I need to download the mailing list archive
+2013-02-03 12:21:00        fsckd   ok
+2013-02-03 12:21:02      qubodup   is anybody taking care of 'rescuing' lost data (blog posts, images)?
+2013-02-03 12:21:13   +meskarune   and cancel. they don't give refunds, but their hosting isn't secure at all
+2013-02-03 12:21:18        xrchz   I'm afraid I have somewhere else to be now, so I need to hand over (or close the meeting)
+2013-02-03 12:21:28   +meskarune   qubodup: the database is on the server, and in /media the images are there
+2013-02-03 12:21:36        fsckd   xrchz: sure
+2013-02-03 12:21:48   +meskarune   xrchz: we could probably end :)
+2013-02-03 12:22:09   +meskarune   been an hour and a half
+2013-02-03 12:22:15        xrchz   all right cool - thanks. remember the main message of getting people to use redmine between meetings :)
+2013-02-03 12:22:21   +meskarune   :D
+2013-02-03 12:22:22   +meskarune   yes
+2013-02-03 12:22:28   +meskarune   so meeting ends NOW
+2013-02-03 12:22:34        fsckd   *****************  archlinux women meeting is ended  **************
