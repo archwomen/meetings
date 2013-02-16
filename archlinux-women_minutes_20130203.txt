@@ -1,0 +1,29 @@
+Arch Linux Women - 3rd Feb. 2013 IRC Meeting
+
+Review of what has happened to archwomen.org
+ * optimisations have been happening (primarily reducing RAM usage)
+ * server still under constant attack - HIGH PRIORITY need to work on security, mainly web server
+   * Action: coordinate security tasks on redmine
+ * mail, calendar, groups, text editor on zoho - want more people on there
+ * Action: upgrade redmine due to security hole [task created on redmine]
+ * plan for python-based blog
+ * Action: get SSL certificate - have signed up with startssl already, but need non-free because of subdomains. need to sort out budgeting.
+ * make secure backups
+
+Set up groups / spread tasks
+ * need to do a skills audit of members - people can just list skills on their profile?
+ * roadmap/list of tasks that need doing? - on redmine
+ * Action: get redmine account if necessary
+ * Action: anyone and everyone should add tasks as they think of them, and work on them
+ * Action: make users group and update the wikis (profiles on wiki), with project coordinators
+ * need ability for everyone to add new projects on redmine
+
+Channel Rules
+ * Action: create IRC project on Redmine, coordinate writing rules there.
+
+Comments/questions/other business
+ * need treasurer/budget to handle donations and allocate funds
+ * need a bit of a fundraising push [task created on redmine]
+ * register as non-profit? - good for donations, discounts, etc. hassle to set up.
+   * have to register per state and federally, will require a lawyer, and forms sent to the irs [task created on redmine]
+
