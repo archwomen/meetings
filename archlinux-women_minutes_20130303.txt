@@ -1,0 +1,51 @@
+Arch Linux Women - 3rd Mar. 2013 IRC Meeting
+
+Server 
+======
+
+ * Blog - likely still Mezzanine - numeral and meskarune are working on that
+ * Security / resource monitoring - unclear on some things, meskarune can discuss at next meeting. on agenda for next meeting
+ * Status on other stuff:
+   * redmine upgraded (now more secure)
+   * everything on archwomen site now managed by git
+     * anyone can make pull requests
+     * only server admins can push to make changes to site
+     * github teams possibly so people who want to do specific parts can, too
+   * placeholder site on github as well
+     * task assigned: Sarah - website work (Django)
+   * news are up on http://news.archwomen.org/
+   * calendar is yet to be done - would like to integrate with redmine, if possible
+
+Projects
+========
+
+Classroom
+ * meeting at 1800 UTC same day as meeting
+ * PKGBUILD class being SET UP march  5 2015 UTC (not a class)
+
+Internship
+ * proposal: paid internship w/ Arch Linux for women interested in FOSS (http://redmine.archwomen.org/projects/internship )
+ * ideas on how it can be done, from previous meeting:
+   * make one from scratch OR
+   * AL can join Gnome internship program (preferred option)
+     * Who funds it? Need to do research on this and other questions that may pop up
+     * https://live.gnome.org/OutreachProgramForWomen
+ * GSoC possible? (Included in research as well)
+   * Paid, $5000 for 3 months (http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2013/help_page#1._How_do_payments_work ) and additional $500 to AL
+   * https://developers.google.com/open-source/soc/
+ * Researcher: tigrmesh 
+ * Things AL internship would involve - to be discussed at next meeting
+
+Channel rules
+ * Meeting: Sunday March 10 16:00 UTC
+
+Other Comments
+==============
+
+Feedback on meeting
+ * Meeting page on redmine should include who is discussing what at the meeting.
+   * Add starting with next meeting's (April) agenda.
+ * Move next meeting to separate meeting chan, or notify people who join #a-w that we are in a meeting.
+   * From next meeting, topic will be changed to have the following information: meeting is progress, link to agenda, link to titanpad, and that the channel is being logged.
+
+Something we've forgotten, and should do next time, is about setting up teams to do/break down specific projects.
