@@ -1,0 +1,743 @@
+2013-04-07 12:04:03	+tigrmesh	==============================  meeting is starting  =================================
+2013-04-07 12:04:15	 *	MarkDude wanted to point out how awesome Arch docs are at times
+2013-04-07 12:04:22	MarkDude	eof
+2013-04-07 12:04:25	+tigrmesh	hehe
+2013-04-07 12:04:27	+meskarune	they are :D
+2013-04-07 12:05:12	+meskarune	So the agenda is here: http://redmine.archwomen.org/projects/archwomen/wiki/Meeting_Apr_2013
+2013-04-07 12:05:15	phrik	Title: Meeting Apr 2013 - Arch Linux Women - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-04-07 12:06:12	+meskarune	We need some note takers: https://pad.riseup.net/p/14tharchwomenmeeting
+2013-04-07 12:06:13	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-04-07 12:06:23	+meskarune	if anyone would like to help, please feel free, even if you are new :D
+2013-04-07 12:06:28	--	ChanServ has changed topic for #archlinux-women from "Arch Linux Chix FTW: Join us on http://redmine.archwomen.org/ !  Project site is http://archwomen.org . IRC Rules: http://bit.ly/13rVGg5 <|||> Fourteenth IRC Meeting: Sunday April 7th at 16:00 UTC. See you there!  Agenda: http://bit.ly/YIGZ0B <|||> If you're having a problem with someone, !awops <|||> The first PKGBUILD class is postponed." to "Arch Linux Chix FTW: Join us on http://redmine.archwomen.org/ !  Project site is http://archwomen.org . IRC Rules: http://bit.ly/13rVGg5 <|||> If you're having a problem with someone, !awops <|||> Fourteenth IRC Meeting is in progress. The channel is being logged."
+2013-04-07 12:06:42	<--	Traumness (~Arch@unaffiliated/traumness) has quit (Quit: Konversation terminated!)
+2013-04-07 12:08:44	+meskarune	Ok I added the agenda to the note taker
+2013-04-07 12:08:46	+meskarune	:)
+2013-04-07 12:09:00	+meskarune	first thing on the agenda: server security
+2013-04-07 12:09:47	+meskarune	the server has been under constant attack since it went live
+2013-04-07 12:09:55	+tigrmesh	still?
+2013-04-07 12:10:04	+meskarune	people scanning web directories, trying to push scripts, trying to brute force, etc
+2013-04-07 12:10:11	+meskarune	so far, we haven't had any breakins
+2013-04-07 12:10:35	+meskarune	tigrmesh: yeah, we are unfortunetally a target
+2013-04-07 12:10:51	+tigrmesh	is it a lot of linode, or just us?
+2013-04-07 12:11:21	+meskarune	its specifically targeted at us
+2013-04-07 12:11:37	+meskarune	people don't normally use bots to scan through web dirs and try to upload files
+2013-04-07 12:12:04	+meskarune	right now we have awstats to analyse the access logs
+2013-04-07 12:12:12	+meskarune	and munin for system monitoring
+2013-04-07 12:12:16	+tigrmesh	i wonder if all women's tech groups have this problem
+2013-04-07 12:12:24	+meskarune	I want to add in a log watch and file system change monitor
+2013-04-07 12:12:30	+meskarune	tigrmesh: I'm sure they do 
+2013-04-07 12:13:09	+meskarune	right now the site is going to be static
+2013-04-07 12:13:26	+meskarune	which means people won't be able to inject things into executable code
+2013-04-07 12:13:27	 *	MarkDude is sure most do, trolls being what the are, sadly :(
+2013-04-07 12:13:33	+meskarune	meaning its more secure
+2013-04-07 12:13:42	+meskarune	our blog system will be similar to pyladies
+2013-04-07 12:14:54	+meskarune	so we want to implement intrustion detection, meaning unknown users logged in, file changes to important files like /etc/passwd and web dirs, etc
+2013-04-07 12:15:06	+meskarune	so if there is an issue, we know right away
+2013-04-07 12:15:34	+meskarune	our server monitor can also indicate isssues, if there is a spike in traffic or IO
+2013-04-07 12:15:43	+meskarune	it needs to be investigated
+2013-04-07 12:16:22	+meskarune	if anyone has further suggestions for server security it will be appreciated
+2013-04-07 12:17:09	+meskarune	right now I'm looking at logwatch, tripwire, and aide 
+2013-04-07 12:17:24	+meskarune	but I sorta want to also make a python app with py-inotify
+2013-04-07 12:18:29	+meskarune	the other security measure we have in place: redundancy :)
+2013-04-07 12:18:41	+meskarune	data redundancy means no data loss 
+2013-04-07 12:19:02	+tigrmesh	what about apache geoip?
+2013-04-07 12:19:06	+meskarune	if the server is compromised, we can be back up again in minutes
+2013-04-07 12:19:18	+tigrmesh	and CSF?
+2013-04-07 12:19:27	+meskarune	tigrmesh: I added a geoip to awstats :)
+2013-04-07 12:19:32	+tigrmesh	cool
+2013-04-07 12:19:34	+meskarune	you have to download the maxmind data
+2013-04-07 12:19:47	+meskarune	I got the free version, but there is also a paid version
+2013-04-07 12:20:45	+meskarune	http://stats.archwomen.org/cgi-bin/awstats.pl?config=archwomen.org
+2013-04-07 12:20:47	phrik	Title: Statistics for archwomen.org (2013-04) - main (at stats.archwomen.org)
+2013-04-07 12:23:03	+meskarune	so we will keep working on server security
+2013-04-07 12:23:07	+meskarune	and intrusion detection
+2013-04-07 12:30:20	+meskarune	next up
+2013-04-07 12:30:22	+meskarune	the blgo
+2013-04-07 12:30:23	+meskarune	blog
+2013-04-07 12:30:28	+meskarune	\o/
+2013-04-07 12:30:43	+meskarune	so Arch Women is creating a fork of the letterpress static site generator
+2013-04-07 12:30:54	+meskarune	and calling it Garlicpress
+2013-04-07 12:31:13	+meskarune	it runs as a service, watches for file changes, and automagically updates the blog when file updates are made
+2013-04-07 12:31:30	+meskarune	so people can make a post in markdown, git push, and bam, blog is updated 
+2013-04-07 12:32:16	+meskarune	the generator is a single python program with 2 dependancies
+2013-04-07 12:32:30	+meskarune	so we need people to help out
+2013-04-07 12:32:35	kaictl	wouldn't it be easier just to put a git hook in?
+2013-04-07 12:32:39	+meskarune	the code has to be cleaned up and commented 
+2013-04-07 12:32:46	+meskarune	kaictl: yeah, thats the idea :)
+2013-04-07 12:32:55	+meskarune	it will push to the posts dir and github
+2013-04-07 12:33:05	kaictl	ah.
+2013-04-07 12:33:18	+meskarune	but we won't have to manually run the python program to generate the site
+2013-04-07 12:33:26	+meskarune	it just detects changes to files and does it 
+2013-04-07 12:33:39	+meskarune	right now its partly up here; http://blog.archwomen.org
+2013-04-07 12:33:50	+meskarune	we have most of the blog posts in markdown already
+2013-04-07 12:33:50	 *	fsckd whispers "systemd" to kaictl
+2013-04-07 12:33:56	phrik	Title: I'm Wang Ling. I'm wangling you. (at blog.archwomen.org)
+2013-04-07 12:34:12	kaictl	loooooo.
+2013-04-07 12:34:14	kaictl	sorry...
+2013-04-07 12:34:16	fsckd	lirl
+2013-04-07 12:34:34	kaictl	lual
+2013-04-07 12:34:39	MarkDude	:D
+2013-04-07 12:34:44	fsckd	as you can see, the template needs to be changes
+2013-04-07 12:34:52	+meskarune	lol
+2013-04-07 12:34:59	+meskarune	also the code. I like clean and well commented code
+2013-04-07 12:34:59	kaictl	but really, wouldn't it make sense just to have a git hook that pushes the changes? is there a need for garlicpress?
+2013-04-07 12:35:23	+meskarune	the posts are in markdown and have to be turned into html 
+2013-04-07 12:35:32	+meskarune	plus an rss feed has to be made
+2013-04-07 12:35:39	kaictl	yes
+2013-04-07 12:35:46	kaictl	you can do that with a git hook. I used to do that.
+2013-04-07 12:36:04	kaictl	(had to use some git cat-file magic since it was a bare repo, but it worked)
+2013-04-07 12:36:09	+meskarune	having a running service is simpler 
+2013-04-07 12:36:10	kaictl	(then i moved to sphinx which is just AWESOME)
+2013-04-07 12:36:40	kaictl	but there's no reason to be checking for file updates when the only way to update a file is via git
+2013-04-07 12:36:40	+meskarune	you can make a change with git, or in the dir or add an image or whatever and it just works
+2013-04-07 12:36:49	kaictl	hmm.
+2013-04-07 12:36:55	+meskarune	kaictl: that won't be the only way to update stuff
+2013-04-07 12:37:06	+meskarune	i want to make a web submission form for posts
+2013-04-07 12:37:18	kaictl	so run that through a git
+2013-04-07 12:37:34	kaictl	s/ a//
+2013-04-07 12:37:41	halosghost	haha
+2013-04-07 12:38:01	jy2wong	meskarune: git hook seems less complicated IMO.
+2013-04-07 12:38:26	 *	MarkDude offers opinion randomly- in general RTF is good idea to save upstream/downstream administravia . Are the reasons people or code?
+2013-04-07 12:38:44	kaictl	say a user logs in and wants to submit a post. Have a separate git repository, 'user-comments' that just holds those, and when someone submits something, it can be tracked and monitored much more easily.
+2013-04-07 12:39:19	MarkDude	In relation to letterpress/Garlicpress? Awesome name btw :D
+2013-04-07 12:39:51	+meskarune	I need to explain more i think. there is a drafts folder, posts folder, and template (templates are html) and the garlicpress service that runs
+2013-04-07 12:39:59	fsckd	MarkDude: ikr thank yardena :D
+2013-04-07 12:40:19	kaictl	meskarune: so have a drafts branch, posts branch, and template dir.
+2013-04-07 12:40:25	kaictl	saves space, too.
+2013-04-07 12:40:27	+meskarune	you add a post to posts, site generates, you change the css or html templates, site updates automatically, etc realtime
+2013-04-07 12:40:50	<--	pierreghz (~krux@nl4.freedom-ip.com) has quit (Ping timeout: 248 seconds)
+2013-04-07 12:40:54	jy2wong	meskarune: is that after or before a git push?
+2013-04-07 12:41:25	kaictl	but do you want to have these changes not tracked by git? this way, whoever has a clone of it, even if for some reason the backups fail, can just push and you're back in business.
+2013-04-07 12:41:43	+meskarune	everything has a git repo
+2013-04-07 12:41:45	jy2wong	meskarune: if before, what if somebody wants to save their work but doesn't actually want to change the website?
+2013-04-07 12:41:47	kaictl	http://docs.getpelican.com/en/3.1.1/
+2013-04-07 12:41:49	phrik	Title: Pelican Pelican 3 documentation (at docs.getpelican.com)
+2013-04-07 12:41:50	kaictl	(also...)
+2013-04-07 12:41:55	+meskarune	but garlicpress.py posts and template are in different repos
+2013-04-07 12:42:35	+meskarune	and if someone wants to make their own site, they can grab the .py and template and then go from there
+2013-04-07 12:42:44	-->	pierreghz (~krux@nl4.freedom-ip.com) has joined #archlinux-women
+2013-04-07 12:42:52	fsckd	here's what i think
+2013-04-07 12:43:06	fsckd	we can incrementally change garlicpress
+2013-04-07 12:43:19	fsckd	so that in the future it can be simplified to work from git hooks
+2013-04-07 12:43:39	fsckd	right now it can be a service
+2013-04-07 12:43:49	fsckd	let's get the blog set up first
+2013-04-07 12:43:52	+meskarune	so with a git hook, does the hook run the py to generate the site?
+2013-04-07 12:43:56	fsckd	and then talk about optimizing
+2013-04-07 12:44:04	fsckd	meskarune: yes
+2013-04-07 12:44:31	+meskarune	and if someone wants to use svn or mercurial they could?
+2013-04-07 12:44:35	kaictl	meskarune: the hook just runs anything at a certain time in the git push/pull/commit cycle.
+2013-04-07 12:44:36	+meskarune	or just update manually 
+2013-04-07 12:44:48	kaictl	psh. who /wants/ to use those?
+2013-04-07 12:45:04	fsckd	it'll be in post_receive i think
+2013-04-07 12:45:10	fsckd	after checkout
+2013-04-07 12:45:28	fsckd	something like this
+2013-04-07 12:45:37	fsckd	checkout to somewhere in /var/git
+2013-04-07 12:45:51	fsckd	then call garlicpress to use those
+2013-04-07 12:46:22	fsckd	imo this can be done later, it's more important to get the blog up
+2013-04-07 12:46:43	fsckd	garlicpress is already a fully functional battlestation
+2013-04-07 12:46:48	+tigrmesh	:)
+2013-04-07 12:47:02	fsckd	why wait to crush the rebel fleet after an overhaul when we can do it now?
+2013-04-07 12:47:04	kaictl	yeah...i'm just arguing the reason to make a fork of something that isn't neded.
+2013-04-07 12:47:15	kaictl	or at least doesn't seem needed to me.
+2013-04-07 12:47:42	+meskarune	we needed a site generator that is simple for people to update :)
+2013-04-07 12:47:57	+meskarune	most site generators have a ton of depends and complicated code
+2013-04-07 12:47:57	 *	kaictl thinks git is simple...
+2013-04-07 12:48:18	 *	kaictl thinks git has only a few depends an...well, pretty complicated but well documented code.
+2013-04-07 12:48:23	+meskarune	most women who are newer to linux don't know how to use git
+2013-04-07 12:48:48	+meskarune	markdown is pretty easy to learn vs html though
+2013-04-07 12:48:51	kaictl	wouldn't it be a great way for them to get involved and actually show off their knowledge? 
+2013-04-07 12:48:57	kaictl	i mean
+2013-04-07 12:49:17	fsckd	accessibility is important
+2013-04-07 12:49:18	+meskarune	learning curve needs to be small, and then people can get deeper into the rabbit hole
+2013-04-07 12:49:22	kaictl	most /people/ new to linux think that git is weird and hard to use, but it's really not...
+2013-04-07 12:49:23	 *	MarkDude can appreciate it being *informal fork* at this point, and putting off a full fledged decision til later. After heavy lifting is done. (The only reason I say anything is the RTF is a precious Right on FOSS ) \o
+2013-04-07 12:49:28	halosghost	not to be "that user," but ReST > markdown
+2013-04-07 12:49:33	halosghost	much more standardized
+2013-04-07 12:49:35	kaictl	yeah...
+2013-04-07 12:49:46	kaictl	(also looks prettier in vim.)
+2013-04-07 12:50:01	halosghost	and in any editor, imho
+2013-04-07 12:50:02	jy2wong	well, I think the bikeshed should be chartreuse.
+2013-04-07 12:50:05	+meskarune	is there a ReST python thingy?
+2013-04-07 12:50:09	halosghost	yep
+2013-04-07 12:50:20	fsckd	these are good ideas btw, but can't do them immediately
+2013-04-07 12:50:35	+meskarune	site will probably be finished in ~2 days
+2013-04-07 12:50:36	fsckd	let's put them on redmine
+2013-04-07 12:50:44	+meskarune	code released, and then ya'll can hack away on it
+2013-04-07 12:50:50	fsckd	and slowly change things
+2013-04-07 12:51:03	fsckd	!toofishes
+2013-04-07 12:51:03	-->	Sarah (Sarah@212.66.82.155) has joined #archlinux-women
+2013-04-07 12:51:04	<--	Sarah (Sarah@212.66.82.155) has quit (Changing host)
+2013-04-07 12:51:04	-->	Sarah (Sarah@april-fools/ninth/aster) has joined #archlinux-women
+2013-04-07 12:51:04	phrik	patches welcome
+2013-04-07 12:51:05	fsckd	:P
+2013-04-07 12:51:18	kaictl	meskarune: i used to use markdown (it's not bad, i'll give it that) but sphinx/pelican is much more robust and standardized, as hg said.
+2013-04-07 12:51:24	+meskarune	I just want to get something up and working
+2013-04-07 12:51:40	+meskarune	that is simple to setup, simple to administer and simple for others to use
+2013-04-07 12:51:50	kaictl	jy2wong: chartreuse is a horrible color for a bike shed.
+2013-04-07 12:52:05	MarkDude	(stripes on bikesheds allow more people to help pick colors, btw)
+2013-04-07 12:52:11	kaictl	(also, sphinx at least has amazing documentation.)
+2013-04-07 12:52:18	halosghost	sphinx is what python uses for its documentation actually
+2013-04-07 12:53:00	halosghost	python-sphinx does all the heavy lifting
+2013-04-07 12:53:03	fsckd	wait wait wait, i thought we dicided on purple?
+2013-04-07 12:53:14	Sarah	fsckd, you were jealous, now I show you the setup I get on weekdays: http://i.imgur.com/VbXxWlF.jpg
+2013-04-07 12:53:22	kaictl	fsckd: no, green!
+2013-04-07 12:53:43	fsckd	Sarah: meeting in progress, we're currently debating what color the bikeshed should be :P
+2013-04-07 12:53:52	kaictl	IMPORTANT DECISIONS 
+2013-04-07 12:53:53	Sarah	Oh. Sorry. :x
+2013-04-07 12:54:11	Sarah	fsckd, can I have the meeting link to the piratepad thingy?
+2013-04-07 12:54:12	kaictl	not really. i think get it up, see how it does, then things can change.
+2013-04-07 12:54:17	halosghost	mmm, bikeshed
+2013-04-07 12:54:18	+meskarune	a few questions about pelican though, does it use latest python libraries and will is always use latest python libraries and how many depends does it have?
+2013-04-07 12:54:24	fsckd	Sarah: https://pad.riseup.net/p/14tharchwomenmeeting
+2013-04-07 12:54:27	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-04-07 12:54:34	Sarah	Thanks!
+2013-04-07 12:54:38	fsckd	np :)
+2013-04-07 12:54:47	halosghost	meskarune: I'd actually recommend you stick with sphinx at the moment
+2013-04-07 12:54:49	kaictl	meskarune: no idea about pelican. halosghost just showed it to me ~10 minutes ago.
+2013-04-07 12:54:51	kaictl	*15
+2013-04-07 12:55:10	+meskarune	I don't think it uses python 3
+2013-04-07 12:55:11	halosghost	pelican, though a very cool idea, doesn't have officiall packages for Arch, and the AUR packages are a mess
+2013-04-07 12:55:16	kaictl	meskarune: sphinx does.
+2013-04-07 12:55:16	+meskarune	we are running arch linux with latest *
+2013-04-07 12:55:33	halosghost	actually, pelican can use python3, but the AUR packages haven't been updated to reflect that
+2013-04-07 12:55:42	kaictl	meskarune: sphinx is actively updated. by actively i mean that i sent in a bug report for some little feature and it was there in a few days.
+2013-04-07 12:56:08	kaictl	meskarune: also, all of the documentation and stuff for the arch classroom uses sphinx.
+2013-04-07 12:56:16	halosghost	unless someone from this community is interested in taking over the maintenence of the AUR packages, sphinx is probably easier
+2013-04-07 12:56:31	kaictl	(which is only one project...but still!)
+2013-04-07 12:57:39	+meskarune	https://github.com/getpelican/pelican
+2013-04-07 12:57:41	phrik	Title: getpelican/pelican · GitHub (at github.com)
+2013-04-07 12:57:54	halosghost	yep, that's the upstream
+2013-04-07 12:58:02	+meskarune	pelican code seems more complicated, it uses jinja2 for templating, which means more things new people have to learn
+2013-04-07 12:58:15	+meskarune	vs. simple html
+2013-04-07 12:58:17	jy2wong	meskarune: poole could be an option. https://bitbucket.org/obensonne/poole/overview
+2013-04-07 12:58:20	phrik	Title: obensonne / poole Bitbucket (at bitbucket.org)
+2013-04-07 12:58:34	halosghost	actually, templates in pelican appear to be very simple
+2013-04-07 12:58:40	halosghost	there are quite a few pre-made ones
+2013-04-07 12:58:51	halosghost	no need for user intervention there unless you want a different one
+2013-04-07 12:58:54	+meskarune	lol, like i'd use something pre-made ;p
+2013-04-07 12:59:00	halosghost	haha
+2013-04-07 12:59:07	halosghost	but again, I'd still advocate for sphinx at the moment
+2013-04-07 12:59:08	jy2wong	meskarune: what features are you looking for in a static website generator?
+2013-04-07 12:59:09	+meskarune	I'm familiar with jinja, but I'm talking about new people who want to contribute
+2013-04-07 12:59:16	kaictl	when they start putting pre-made archwomen templates in packages...
+2013-04-07 12:59:19	kaictl	lol
+2013-04-07 12:59:27	+meskarune	jy2wong: #1 it has to be simple with few depends
+2013-04-07 12:59:37	halosghost	pelican's out
+2013-04-07 12:59:45	halosghost	"few depends"
+2013-04-07 12:59:48	kaictl	sphinx is still in.
+2013-04-07 12:59:51	+meskarune	I don't want to maintain a mess of code and have updating be a PITA
+2013-04-07 13:00:06	 *	fsckd mentions accessibility
+2013-04-07 13:00:06	halosghost	sphinx is your winner then
+2013-04-07 13:00:09	kaictl	sadly, sphinx uses hg...but meh.
+2013-04-07 13:00:24	fsckd	that clinches it, no sphinx :P
+2013-04-07 13:00:29	kaictl	lol
+2013-04-07 13:00:30	fsckd	j/k
+2013-04-07 13:00:44	kaictl	hg is the next best thing after git.
+2013-04-07 13:00:59	kaictl	git > hg >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> svn >>>>>>>>>>>> bzr
+2013-04-07 13:01:12	halosghost	mmm, tasty bikeshed :)
+2013-04-07 13:01:16	jy2wong	meskarune: what about comments and a web interface?
+2013-04-07 13:01:36	+meskarune	so my question is, do we really need blog comments?
+2013-04-07 13:01:50	-->	vodik (~root@archlinux/op/vodik) has joined #archlinux-women
+2013-04-07 13:01:52	kaictl	https://bitbucket.org/birkenfeld/sphinx
+2013-04-07 13:01:55	phrik	Title: birkenfeld / sphinx Bitbucket (at bitbucket.org)
+2013-04-07 13:02:02	kaictl	meskarune: i kept trying to argue against them, tbh.
+2013-04-07 13:02:03	+tigrmesh	what would we do if someone does want to comment?
+2013-04-07 13:02:13	+tigrmesh	it happened with the old blog
+2013-04-07 13:02:17	jy2wong	tigrmesh: curated comments could be a thing.
+2013-04-07 13:02:17	+meskarune	yes
+2013-04-07 13:02:23	+tigrmesh	at least once 
+2013-04-07 13:02:24	kaictl	especially with what you said with the site being a target.
+2013-04-07 13:02:31	+tigrmesh	jy2wong: curated comments?
+2013-04-07 13:02:46	halosghost	submitted, but not posted until moderated
+2013-04-07 13:02:59	halosghost	(that'd be my understanding)
+2013-04-07 13:03:10	jy2wong	tigrmesh: so maybe if someone wants to comment, they send an email to some address and if the comment isn't spam or 'show your tits' put it on the page?
+2013-04-07 13:03:10	+meskarune	https://github.com/phusion/juvia
+2013-04-07 13:03:12	phrik	Title: phusion/juvia · GitHub (at github.com)
+2013-04-07 13:03:28	jy2wong	but who'd have the time to moderate all of that ? :(
+2013-04-07 13:03:29	+tigrmesh	do we say at the bottom of every post "comments are closed."?
+2013-04-07 13:03:34	kaictl	someone else saying to use email!
+2013-04-07 13:03:44	+meskarune	or we have people comment iwth twitter/identica
+2013-04-07 13:03:49	kaictl	and no more ruby.
+2013-04-07 13:04:25	kaictl	...ruby and java script. dear god what did these people think they were doing...
+2013-04-07 13:04:31	+meskarune	that is the thing with comments. lots of spam. we need to moderate them, etc. good things about comments: they increase discussion 
+2013-04-07 13:04:58	+meskarune	if we do want comments, we have to have mods and spam blocking, etc
+2013-04-07 13:05:00	kaictl	why not just have a mailing list
+2013-04-07 13:05:07	+meskarune	we will have a mailing list :P
+2013-04-07 13:05:09	fsckd	kaictl: we will
+2013-04-07 13:05:15	+meskarune	I'm just asking about the blog for now
+2013-04-07 13:05:19	kaictl	but i mean, have the ML be where comments are posted.
+2013-04-07 13:05:24	+tigrmesh	but comments on a post need to be with the post
+2013-04-07 13:05:33	+meskarune	do we need to have comments, and if we do, how to implement and who will mod them
+2013-04-07 13:05:34	kaictl	then they're public, can be moderated, and could be filtered
+2013-04-07 13:05:39	carharttjimmy	^
+2013-04-07 13:05:51	+tigrmesh	i'm  not going to go look at a mailing list to see if people have anything to say
+2013-04-07 13:05:54	kaictl	yes. nose-goes on moderating
+2013-04-07 13:05:55	carharttjimmy	I have enough time to mod comments
+2013-04-07 13:05:58	 *	kaictl puts finger on nose
+2013-04-07 13:06:04	 *	carharttjimmy raises hand
+2013-04-07 13:06:25	jy2wong	what about displaying some of the mailing list on relevant pages?
+2013-04-07 13:06:25	+tigrmesh	unless there are links at the bottom of the post to every mailing list mail related to it
+2013-04-07 13:06:29	kaictl	tigrmesh: there could be a filter on the ml, with a link to the archives for each post.
+2013-04-07 13:06:34	jy2wong	you can do clever things with + in email addresses.
+2013-04-07 13:07:05	jy2wong	if you wanted to post a comment to blog entry 992, send an email to foo+post-992@bar.baz
+2013-04-07 13:07:26	kaictl	tigrmesh:  i don't mean a spam filter or something, i mean a subject filter so that people can use a certain subject and have their mail automatically seen as a comment in the blog.
+2013-04-07 13:07:53	+tigrmesh	that's only good for people "in the know"
+2013-04-07 13:07:58	kaictl	no...
+2013-04-07 13:08:05	kaictl	that's the whole point of an archive.
+2013-04-07 13:08:29	kaictl	and just have a little thing that says "Send comments to foo+post-###@bar.baz"
+2013-04-07 13:09:07	carharttjimmy	I am with tigrmesh still
+2013-04-07 13:09:16	fsckd	jy2wong: i like that idea
+2013-04-07 13:09:22	carharttjimmy	you need posts to stay with the blog for context
+2013-04-07 13:09:35	jy2wong	tigrmesh: well, we could also make some kind of script that periodically checks for new email-comments
+2013-04-07 13:09:42	jy2wong	and writes them to the bottom of the generated page
+2013-04-07 13:09:46	jy2wong	or something
+2013-04-07 13:09:49	+meskarune	honestly, we could just have a text field, the comment is written, and added to the post markdown file comments section
+2013-04-07 13:10:06	+meskarune	but we have to have some way to moderate them 
+2013-04-07 13:10:14	+meskarune	on the last site 99$ of comments were spam
+2013-04-07 13:10:22	+meskarune	s/$/$
+2013-04-07 13:10:26	+meskarune	%
+2013-04-07 13:10:27	kaictl	yeah...
+2013-04-07 13:10:50	jy2wong	meskarune: I think email would help with the 'some way to moderate them' part.
+2013-04-07 13:11:02	kaictl	you could have, like i mentioned, some kind of git repository thing going, where comments are commits to a 'draft' branch, then a moderator can merge them if they're not spam
+2013-04-07 13:11:23	fsckd	jy2wong: how so?
+2013-04-07 13:11:30	+meskarune	but again, my main question, do we need comments?
+2013-04-07 13:11:38	kaictl	then git can do all the email/user tracking, timestamping, etc.
+2013-04-07 13:11:39	+meskarune	is that something worth putting time into?
+2013-04-07 13:11:41	fsckd	kaictl: i see, that's an interesting idea, novel approach
+2013-04-07 13:11:43	kaictl	imho, no.
+2013-04-07 13:12:09	kaictl	manage ALL THE THINGS with git.
+2013-04-07 13:12:34	kaictl	seriously though, it's great for class notes.
+2013-04-07 13:13:22	jy2wong	fsckd: spam filters already exist. And don't want the comment to show up? Delete the relevant email in the right place.
+2013-04-07 13:13:36	jy2wong	but yeah, I'm not sure if comments are really worth it either
+2013-04-07 13:13:44	 *	kaictl thinks that email or git are the best ways to go. or both.
+2013-04-07 13:14:08	+meskarune	if we have comments on the site, I would want a comment text submission form
+2013-04-07 13:14:13	fsckd	EMAIL ALL THE GIT!
+2013-04-07 13:14:22	kaictl	the website has been down for how long...months. I think it needs to just go up and see how things work out.
+2013-04-07 13:14:25	kaictl	:o
+2013-04-07 13:14:25	+meskarune	I don't want to force people to use email or git just to make a comment
+2013-04-07 13:14:31	kaictl	git send-email is the submission method LOL
+2013-04-07 13:14:41	jy2wong	kaictl: rofl
+2013-04-07 13:14:45	+meskarune	:P
+2013-04-07 13:14:46	kaictl	so you have to use both!
+2013-04-07 13:14:46	fsckd	haha
+2013-04-07 13:14:49	kaictl	!both
+2013-04-07 13:14:51	phrik	http://ompldr.org/vZmFlYQ
+2013-04-07 13:15:22	+meskarune	so submit comment, it gets appended to draft post, someone mods and if approved git push
+2013-04-07 13:15:49	kaictl	essentially. 
+2013-04-07 13:15:58	+meskarune	seems the most simple way. but we would need automatic spam filtering
+2013-04-07 13:16:19	+meskarune	I want to do that with blog submissions also. blog.archwomen.org/submit
+2013-04-07 13:16:38	+meskarune	you can submit into to a text form, it gets saved to drafts directory
+2013-04-07 13:16:49	+meskarune	so people who want to write can do so very very easily
+2013-04-07 13:17:00	jy2wong	meskarune: something to figure out later, but I'm a bit concerned that there's nothing stopping me from writing some script that just submits comments to an article until the server has no more disk space at the moment.
+2013-04-07 13:17:02	kaictl	but then you're just going to help enable spam...
+2013-04-07 13:17:25	+meskarune	so we have to have an anti-bot measure
+2013-04-07 13:17:28	 *	kaictl still thinks the email way would be best.
+2013-04-07 13:17:38	kaictl	and really, not having email in this day and age...that's just...wat.
+2013-04-07 13:18:11	+meskarune	not everyone can mod email though
+2013-04-07 13:18:21	+meskarune	but people can be given access to mod drafts
+2013-04-07 13:18:29	kaictl	but there are very effective email filters already out there
+2013-04-07 13:18:37	kaictl	meskarune: wat...
+2013-04-07 13:19:09	kaictl	not everyone can read email...though if you've got an archive, then everyone can.
+2013-04-07 13:19:35	+meskarune	if we have comments, they will be on the same page as the posts
+2013-04-07 13:19:51	jy2wong	meskarune: the local computer science club exec mailing list is moderatable by anyone with the mailing list password.
+2013-04-07 13:20:00	fsckd	just a reminder, we're 4/3 of an hour into the meeting
+2013-04-07 13:20:20	jy2wong	meskarune: all you really need is a working browser.
+2013-04-07 13:20:52	+meskarune	jy2wong: you also need a mailing list, and you have to secure the mail server and mod it
+2013-04-07 13:20:57	kaictl	meskarune: you could just have a link to the comments...i've seen sites do it that way.
+2013-04-07 13:21:09	jy2wong	meskarune: fair.
+2013-04-07 13:21:15	+meskarune	I mean, it wouldn't be hard to have comments appended to posts in a comment section
+2013-04-07 13:21:26	+meskarune	but #1 how to mod and #2 how to prevent spam
+2013-04-07 13:21:49	+meskarune	right now the site will be mostly done this weekend :)
+2013-04-07 13:22:01	+meskarune	the code will be released, people can play with it and make suggestions
+2013-04-07 13:22:05	kaictl	1) use hat jy2wong said and only post ones that have been approved by a moderator (like carharttjimmy)
+2013-04-07 13:22:08	+meskarune	but it has to be kept simple and easy to maintain
+2013-04-07 13:22:22	kaictl	2) most mailing lists have very powerful spam filters. 
+2013-04-07 13:22:52	+meskarune	I would rather have blog comments on the blog, and mailing list discussions in the mailing list :P
+2013-04-07 13:23:05	kaictl	you can have more than one ml...
+2013-04-07 13:24:04	kaictl	but I am afk. I think right now it should just be a purely static site, see what kind of attacks it gets. then later comments/dynamic content can be added.
+2013-04-07 13:24:09	+meskarune	using a capcha should work to help prevent spam
+2013-04-07 13:25:03	+meskarune	I don't really want to go the block list route, because its a lot of work
+2013-04-07 13:25:23	+meskarune	and at the same time, I don't know if the cons vs. pros even out with comments
+2013-04-07 13:26:06	+meskarune	so anyways, the blog is staticly generated with a single .py that reads a single templates dir and creates the blog
+2013-04-07 13:26:25	fsckd	porposed changes should be made on redmine
+2013-04-07 13:26:26	+meskarune	if there is a simple, up-to-date alterative that is easy to implement I'd look at it
+2013-04-07 13:26:50	fsckd	there are a lot of considerations to be made including accessibility and security
+2013-04-07 13:27:26	+meskarune	I like the idea of having a single .py that generates the site. vs. a ton of different executabes
+2013-04-07 13:27:34	+meskarune	and simple html templates
+2013-04-07 13:27:45	+meskarune	and minimal depends
+2013-04-07 13:28:11	fsckd	proposed*
+2013-04-07 13:28:12	+meskarune	I think a lot of static site generators get very bloated and hard to maintain
+2013-04-07 13:28:36	+meskarune	we want features, but accessibility and simplicity
+2013-04-07 13:29:08	jy2wong	meskarune: is letterpress lacking in any of those departments?
+2013-04-07 13:29:09	fsckd	we're 3/2 of an hour into the meeting :)
+2013-04-07 13:29:36	+meskarune	jy2wong: right now letterpress is a single .py that runs and generates html pages from markdown posts
+2013-04-07 13:30:03	+meskarune	we can have it create rss feeds, and comments woudn't be hard if we have them appended to the posts. but there is spam and moderation to consider
+2013-04-07 13:30:09	+meskarune	and script blocking
+2013-04-07 13:30:20	+meskarune	so people can't stick ramdom javascript or php into them
+2013-04-07 13:30:47	+meskarune	to create a post, you can submit with git, or with a web form once it is made
+2013-04-07 13:31:10	+meskarune	web form will have some sort of access control
+2013-04-07 13:31:32	+meskarune	so people of any knowledge level can contribute
+2013-04-07 13:31:44	+meskarune	and its easy for use to maintain the code
+2013-04-07 13:33:45	+meskarune	http://redmine.archwomen.org/projects/sitegenerator
+2013-04-07 13:33:46	phrik	Title: Overview - Garlicpress - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-04-07 13:34:00	+meskarune	comments, feature requests, etc can be added there :)
+2013-04-07 13:34:10	jy2wong	yarr.
+2013-04-07 13:34:58	+meskarune	https://github.com/meskarune/Letterpress/blob/master/code/letterpress.py
+2013-04-07 13:35:00	phrik	Title: Letterpress/code/letterpress.py at master · meskarune/Letterpress · GitHub (at github.com)
+2013-04-07 13:35:04	+meskarune	python code if you want to look at it
+2013-04-07 13:35:11	+meskarune	I am going to clean it up and add comments 
+2013-04-07 13:35:18	+meskarune	but could use help with that :P
+2013-04-07 13:36:43	 *	meskarune hates messy code
+2013-04-07 13:36:52	+meskarune	so the site is under way. 
+2013-04-07 13:36:56	+meskarune	and we need help with it
+2013-04-07 13:37:20	fsckd	regarding git integration, http://redmine.archwomen.org/projects/vps/wiki/Post-receive
+2013-04-07 13:37:22	phrik	Title: Post-receive - Server Administration - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-04-07 13:39:15	<--	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has quit (Quit: The strongest of thunderstorms is no more than Nature's shower.)
+2013-04-07 13:39:28	<--	escondida (~joyfulgir@unaffiliated/joyfulgirl) has quit (Quit: WeeChat 0.4.0)
+2013-04-07 13:39:52	+meskarune	the other reason for making our own site generate is 'cus most static site generators have lots of features that we don't even need
+2013-04-07 13:40:21	+meskarune	so we have a simple base with good features like archives and tag pages. then we can add a bit to it and have it be simple 
+2013-04-07 13:40:38	+meskarune	without lots of depends or code to maintain
+2013-04-07 13:41:12	+meskarune	So next agenda item?
+2013-04-07 13:41:18	+meskarune	Status updates:
+2013-04-07 13:41:22	+meskarune	redmine was updated
+2013-04-07 13:41:28	+meskarune	by fsckd
+2013-04-07 13:41:30	+meskarune	:D
+2013-04-07 13:41:55	+meskarune	idk how many people know, but there was a serious security issue with ruby 
+2013-04-07 13:42:13	fsckd	yes
+2013-04-07 13:42:31	fsckd	upgraded to 2.2.4
+2013-04-07 13:42:46	fsckd	news item: http://redmine.archwomen.org/news/9
+2013-04-07 13:42:48	phrik	Title: Redmine upgraded - Server Administration - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-04-07 13:43:03	+meskarune	and I heard it was a PITA to update :)
+2013-04-07 13:43:10	fsckd	haha
+2013-04-07 13:43:16	+meskarune	is there a way to make redmine updates easier?
+2013-04-07 13:43:16	fsckd	i made some mistakes
+2013-04-07 13:43:24	+meskarune	hehe <3
+2013-04-07 13:43:24	fsckd	i'm working on a script
+2013-04-07 13:43:31	+meskarune	sweet
+2013-04-07 13:43:36	fsckd	it's in one of the branches of -server-tools
+2013-04-07 13:43:45	fsckd	this month plan to move to the 2.3.x branch
+2013-04-07 13:43:51	fsckd	can test teh script with that
+2013-04-07 13:43:57	+meskarune	awesome
+2013-04-07 13:44:03	+meskarune	and we have full disk image snapshots
+2013-04-07 13:44:11	+meskarune	so if the whole server is shot, not a bit deal
+2013-04-07 13:44:13	+meskarune	:P
+2013-04-07 13:44:22	fsckd	will be more of a wizard than a automated upgrade tool
+2013-04-07 13:44:32	+meskarune	sounds good
+2013-04-07 13:44:52	+meskarune	Ok status on git repos
+2013-04-07 13:45:00	fsckd	me again :D
+2013-04-07 13:45:03	+meskarune	right now we are using gitolite
+2013-04-07 13:45:07	+meskarune	which is awesome
+2013-04-07 13:45:13	fsckd	yes it is XD
+2013-04-07 13:45:30	fsckd	we have a new post_receive hook system for dpeloying stuff
+2013-04-07 13:45:52	fsckd	i linked ot the docs above, here it is again, http://redmine.archwomen.org/projects/vps/wiki/Post-receive
+2013-04-07 13:45:53	phrik	Title: Post-receive - Server Administration - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-04-07 13:46:15	fsckd	all of the git repos managed by gitolite are using that now
+2013-04-07 13:46:19	+meskarune	so git push to arch women, then it updates files on the server and pushes to github
+2013-04-07 13:46:25	fsckd	yes
+2013-04-07 13:46:31	fsckd	not all repos push to github
+2013-04-07 13:46:43	fsckd	you can set a flag for each repo
+2013-04-07 13:46:50	+meskarune	we need to add some more repos for the calendar and blog, etc
+2013-04-07 13:47:29	-->	hh4a (~hh4a@84-255-197-79.static.t-2.net) has joined #archlinux-women
+2013-04-07 13:47:31	fsckd	there are some repos on archwomen's github which are not managed by gitolite, they last got updates almost a year ago
+2013-04-07 13:47:36	+meskarune	I have a question, should be have a web interface to our git repos outside of github?
+2013-04-07 13:47:37	fsckd	i don't know what to do with them
+2013-04-07 13:47:51	fsckd	meskarune: i say not
+2013-04-07 13:47:59	+meskarune	yeah, I am thinking that as well
+2013-04-07 13:48:25	+meskarune	people can look at code on github or do info
+2013-04-07 13:48:33	fsckd	yeah
+2013-04-07 13:48:43	fsckd	and make pull requests through github
+2013-04-07 13:48:53	+meskarune	yeah
+2013-04-07 13:49:01	hh4a	github is easier, but gitolite is private
+2013-04-07 13:49:08	fsckd	my next project is to improve our documentation on the site and add people to gitolite
+2013-04-07 13:49:23	+meskarune	I'll help work on that too :D
+2013-04-07 13:49:38	+meskarune	what is gitolite, how does it work, how to use, etc
+2013-04-07 13:49:49	fsckd	(and rewrite awbot in haskell, which is in progress and goign nicely)
+2013-04-07 13:50:09	fsckd	meskarune: gitolite is a git repo management thing
+2013-04-07 13:50:24	+meskarune	I know, but other people might not :P
+2013-04-07 13:50:46	fsckd	haha
+2013-04-07 13:51:11	fsckd	in the aur it says, "A centralized git server, with very fine-grained access control and many powerful features."
+2013-04-07 13:51:26	+meskarune	yeah, and access control to data is important
+2013-04-07 13:51:36	+meskarune	and aw-bot gives updates on server changes
+2013-04-07 13:51:47	fsckd	basically it allows us to give people git access without giving them shell access
+2013-04-07 13:51:59	fsckd	yes, awbot is the announcer bot
+2013-04-07 13:52:08	+meskarune	and most of the server changes are through git anyways
+2013-04-07 13:52:12	hh4a	sounds cool to me, implement nao!
+2013-04-07 13:52:12	fsckd	activity is in #archlinux-women-dev
+2013-04-07 13:52:18	+meskarune	well, really all of them will be
+2013-04-07 13:52:39	fsckd	automation and simplicity are the goals here
+2013-04-07 13:52:42	+meskarune	so if people want to contribute to the server they can without a shell
+2013-04-07 13:52:50	fsckd	yeah
+2013-04-07 13:53:10	+meskarune	most of the time even the people with shell access won't have to actually log in
+2013-04-07 13:53:14	+meskarune	they can be on their own system
+2013-04-07 13:53:38	+meskarune	so next up: calendar
+2013-04-07 13:53:39	fsckd	indeed
+2013-04-07 13:53:48	+meskarune	http://calendar.archwomen.org
+2013-04-07 13:53:50	phrik	Title: archwomen - April 2013 (at calendar.archwomen.org)
+2013-04-07 13:54:09	+meskarune	we can have it auto update .ical files and show meeting times and events from various organizations
+2013-04-07 13:54:18	+meskarune	we will create a git repo and hooks ,etc
+2013-04-07 13:54:54	hh4a	i dont need shell, i need root
+2013-04-07 13:54:58	hh4a	oh wait... lol
+2013-04-07 13:55:23	+meskarune	haha
+2013-04-07 13:55:34	+meskarune	and it will be easy to add event info to the site
+2013-04-07 13:55:43	+meskarune	especially if we integrate rss feeds
+2013-04-07 13:57:14	+meskarune	we also have http://news.archwomen.org/
+2013-04-07 13:57:15	phrik	Title: Arch Women News (at news.archwomen.org)
+2013-04-07 13:57:22	+meskarune	which will be edited to match the site
+2013-04-07 13:57:30	+meskarune	it is like a planet planet 
+2013-04-07 13:57:33	+meskarune	for arch women
+2013-04-07 13:57:59	+meskarune	has news and blogs from various groups on the web
+2013-04-07 13:58:35	+meskarune	ok status on classroom project
+2013-04-07 13:58:44	+meskarune	we have a ton of docs, but teh class was postponed
+2013-04-07 13:59:00	KylieBrooks	Why?
+2013-04-07 13:59:40	fsckd	there was scheduling problem because of easter
+2013-04-07 14:00:02	fsckd	and then gtmanfred is going through a bad case of career advancement
+2013-04-07 14:00:23	fsckd	which may take up this month
+2013-04-07 14:00:52	fsckd	so it has been postponed but no new date is set yet
+2013-04-07 14:00:59	+meskarune	and in the meantime, we can write moar
+2013-04-07 14:01:03	+meskarune	also pacman 4.1 is out
+2013-04-07 14:01:08	+meskarune	lots of changes made
+2013-04-07 14:01:15	Sarah	Orly?
+2013-04-07 14:01:20	fsckd	yarly
+2013-04-07 14:01:23	+meskarune	yarly
+2013-04-07 14:01:24	Sarah	Colors?
+2013-04-07 14:01:26	+meskarune	haha
+2013-04-07 14:01:34	Sarah	No colors? D:
+2013-04-07 14:01:40	fsckd	there are colors
+2013-04-07 14:01:44	Sarah	:D
+2013-04-07 14:01:56	fsckd	more importantly for the class
+2013-04-07 14:02:13	fsckd	there is a new, simpler way to make PKGBUILDs for vcs
+2013-04-07 14:02:30	+meskarune	and a lot of software uses those now a days
+2013-04-07 14:02:47	fsckd	yup
+2013-04-07 14:03:17	Sarah	vcs? Visual Compiler Studio?
+2013-04-07 14:03:22	+meskarune	if people wanna contribute and work on class stuff #archlinux-classroom
+2013-04-07 14:03:29	+meskarune	version control system :)
+2013-04-07 14:03:36	Sarah	Aaah
+2013-04-07 14:03:36	+meskarune	git, svn, mercurial 
+2013-04-07 14:04:00	+meskarune	and there is stuff on the arch wiki as well
+2013-04-07 14:04:05	+meskarune	arch classroom on teh wiki
+2013-04-07 14:04:40	+meskarune	ok so next thing: do we want to keep phrik in channel or have our own bot?
+2013-04-07 14:05:04	hh4a	phrik should die?
+2013-04-07 14:05:06	phrik	Doubtful that is a smart question ...
+2013-04-07 14:05:16	hh4a	oh my bad
+2013-04-07 14:05:19	hh4a	phrik should die!
+2013-04-07 14:05:21	phrik	No this is a great thought .
+2013-04-07 14:05:26	+meskarune	lol
+2013-04-07 14:05:32	+meskarune	phrik is in the other arch chans
+2013-04-07 14:05:34	phrik	Perhaps so!
+2013-04-07 14:05:46	+meskarune	but also has lots of random quote grabs 
+2013-04-07 14:05:51	hh4a	He is quite annoying thou
+2013-04-07 14:05:56	+meskarune	and infos that are questionable 
+2013-04-07 14:06:00	+meskarune	phrik: you are annoying
+2013-04-07 14:06:02	phrik	meskarune: NO, YOU are annoying
+2013-04-07 14:06:05	+meskarune	:)
+2013-04-07 14:06:07	+meskarune	kk
+2013-04-07 14:06:16	+meskarune	so how do people feel about phrik?
+2013-04-07 14:06:51	+meskarune	keep it as part of arch? change the questionable things about phrik? remove and have our own bot?
+2013-04-07 14:06:52	 *	fsckd pokes tigrmesh
+2013-04-07 14:06:54	+meskarune	wat do
+2013-04-07 14:06:54	hh4a	Its ok, but he needs some work, some db purging for this channel rules
+2013-04-07 14:07:10	+meskarune	is db purging of stuff ok ?
+2013-04-07 14:07:17	+meskarune	phrik is in many other channels
+2013-04-07 14:07:18	phrik	Positively false!
+2013-04-07 14:07:37	KylieBrooks	i recommend hsaving our own bot 
+2013-04-07 14:07:38	+tigrmesh	he's got a lot of things in there that are not "family friendly"
+2013-04-07 14:07:40	fsckd	phrik is a dirty liar
+2013-04-07 14:07:41	phrik	Certainly so!
+2013-04-07 14:07:47	hh4a	!grab KylieBrooks 
+2013-04-07 14:07:49	phrik	hh4a: Tada!
+2013-04-07 14:07:55	+meskarune	if we have the goal of making arch linux in general more friendly, should phrik be a change?
+2013-04-07 14:08:11	+tigrmesh	shall we start with us?
+2013-04-07 14:08:16	KylieBrooks	i think !grab is a bit .. creepy 
+2013-04-07 14:08:34	+tigrmesh	that might be configurable for s supybot
+2013-04-07 14:08:35	hh4a	remove grabs, remove quotes.
+2013-04-07 14:08:52	+tigrmesh	but i don't see changing it after 7 years
+2013-04-07 14:09:02	KylieBrooks	^
+2013-04-07 14:09:16	+meskarune	also phrik is part of arch linux irc culture in offtopic
+2013-04-07 14:09:25	KylieBrooks	^^^^^^^
+2013-04-07 14:09:43	+tigrmesh	kill all the nasty words today, another will be added tonight
+2013-04-07 14:09:50	+meskarune	idk how the devs feel about remove hurtful things from the phrik db
+2013-04-07 14:09:58	+meskarune	that too
+2013-04-07 14:10:04	+meskarune	so we have our own bot?
+2013-04-07 14:10:13	KylieBrooks	meskarune: the devs may not even see these words as hurtful.[
+2013-04-07 14:10:14	hh4a	oh well, just fork phrik with a clean slate.
+2013-04-07 14:10:21	+tigrmesh	he's a supybot
+2013-04-07 14:10:51	+meskarune	so lets get a vote, kick/ban phrik from #archlinux-women ?
+2013-04-07 14:10:56	+meskarune	yah/nah
+2013-04-07 14:11:06	KylieBrooks	meskarune: did you get what i mean ?
+2013-04-07 14:11:11	Sarah	!rq meskarune 
+2013-04-07 14:11:13	phrik	<meskarune> stickyboy: makes me think of gay porn
+2013-04-07 14:11:15	+meskarune	KylieBrooks: yeah
+2013-04-07 14:11:16	hh4a	I am not at liberty to say
+2013-04-07 14:11:18	Sarah	Right..
+2013-04-07 14:11:20	 *	Sarah ducks
+2013-04-07 14:11:33	+meskarune	KylieBrooks: but at the same time, most of the arch devs are on our side. they want more arch linux contributers 
+2013-04-07 14:12:21	KylieBrooks	ill vote neutral 
+2013-04-07 14:12:26	+tigrmesh	if you'll give me the words and quotes and factoids you want removed, i can see that that happens
+2013-04-07 14:12:31	hh4a	kick+ban+whatever phrik.
+2013-04-07 14:12:39	+tigrmesh	but like i said, more can be added
+2013-04-07 14:12:43	+tigrmesh	with mixed feelings and sadness, i vote, yah
+2013-04-07 14:13:00	+meskarune	I think changing factoids and removing quotes is probably help for all the channels
+2013-04-07 14:13:07	+meskarune	changing factoids that are harmful
+2013-04-07 14:13:13	+tigrmesh	right
+2013-04-07 14:13:32	+meskarune	if phrik is indeed a problem, maybe it should be fixed for all of arch 
+2013-04-07 14:13:39	+tigrmesh	and i'm sure there are some that are upgrading to xorg .08
+2013-04-07 14:14:15	+tigrmesh	just give me the words and any specific quotes and factoids you want removed, i can see that that happens
+2013-04-07 14:14:41	+meskarune	ok
+2013-04-07 14:14:50	hh4a	phrik is really not a problem
+2013-04-07 14:14:52	phrik	Maybe so!
+2013-04-07 14:14:58	+meskarune	he disaggrees
+2013-04-07 14:15:02	+meskarune	;P
+2013-04-07 14:15:12	fsckd	it's nice having so many #archlinux ops in here :)
+2013-04-07 14:15:22	KylieBrooks	hh4a: why do you not think so?
+2013-04-07 14:15:59	+meskarune	if a gay user or person of color is in an arch channel, its possible that there are offensive factoids
+2013-04-07 14:16:09	KylieBrooks	^
+2013-04-07 14:16:13	KylieBrooks	or women
+2013-04-07 14:16:19	KylieBrooks	or disabled person
+2013-04-07 14:16:30	hh4a	its just a bot, poor bot, nobody loves it...
+2013-04-07 14:16:36	<--	vodik (~root@archlinux/op/vodik) has quit (Ping timeout: 256 seconds)
+2013-04-07 14:16:41	+meskarune	lol
+2013-04-07 14:16:48	KylieBrooks	hh4a: r u joking 
+2013-04-07 14:17:35	+meskarune	ok, we'll help clean up phrik
+2013-04-07 14:17:43	hh4a	no i am not, the only thing not right for this channel is his quotedb and grab command as you have mentioned.
+2013-04-07 14:18:05	+meskarune	most of the stuff in the db isn't a problem though
+2013-04-07 14:18:16	+meskarune	we aren't saying to remove *
+2013-04-07 14:18:36	KylieBrooks	hh4a: you categorically said "really not a problem," might  want to improve on your phrasing 
+2013-04-07 14:18:58	+meskarune	hh4a: there have been some pretty offensive factoids too :P
+2013-04-07 14:19:00	hh4a	we could just run our own bot
+2013-04-07 14:19:14	+meskarune	but they often get removed, and not just for aw's benefit 
+2013-04-07 14:20:03	+meskarune	quotes are out of context
+2013-04-07 14:20:14	+meskarune	which is part of the humor
+2013-04-07 14:20:28	+meskarune	but we don't want to scare away new people who could be contributers 
+2013-04-07 14:20:47	KylieBrooks	^
+2013-04-07 14:20:50	+meskarune	I don't know what the current policy is on phrik moderation actually
+2013-04-07 14:21:05	hh4a	Do as you seem fit.
+2013-04-07 14:21:07	+meskarune	I know stuff gets removed, and again not just for our sake
+2013-04-07 14:21:32	fsckd	i would like gtmanfred's opinion
+2013-04-07 14:21:40	+meskarune	so in general is having offensive factoids in phrik good or bad for arch linux in general
+2013-04-07 14:21:40	fsckd	he's away atm i think
+2013-04-07 14:21:42	+meskarune	yeah
+2013-04-07 14:21:46	+meskarune	well, we can discuss more
+2013-04-07 14:22:04	+meskarune	and honestly if there is something really offensive, it can be removed or changed, and this has been done in the past
+2013-04-07 14:22:12	+meskarune	so i don't think that is so radical
+2013-04-07 14:23:03	+tigrmesh	just contact me
+2013-04-07 14:23:13	+tigrmesh	and i'll see that it gets taken care of
+2013-04-07 14:23:30	+meskarune	also we can kick people who abuse phrik in channel :P
+2013-04-07 14:23:36	+tigrmesh	of course
+2013-04-07 14:23:49	+tigrmesh	there is no policy on phrik moderation that i know of
+2013-04-07 14:23:53	+meskarune	ok
+2013-04-07 14:24:07	+meskarune	I think other people have discussed that 
+2013-04-07 14:24:15	+meskarune	unofficially
+2013-04-07 14:24:15	+tigrmesh	also, if a factoid isn't locked, you can remove it yourself
+2013-04-07 14:24:24	Sarah	!lock
+2013-04-07 14:24:35	+tigrmesh	or ask an #archlinux op to remove one that's locked
+2013-04-07 14:24:41	+meskarune	!git
+2013-04-07 14:24:44	phrik	meskarune: GitHub · Build software better, together.: <https://github.com/>
+2013-04-07 14:25:05	+tigrmesh	iirc, just a !rmfact whatever will do it
+2013-04-07 14:25:08	+meskarune	I would miss having phrik print links :)
+2013-04-07 14:25:12	+tigrmesh	*unless* it'
+2013-04-07 14:25:14	+tigrmesh	s locked
+2013-04-07 14:25:26	+tigrmesh	me too
+2013-04-07 14:26:03	+meskarune	so there we go
+2013-04-07 14:26:16	+meskarune	and we can get into contact with orther OP's about phrik also
+2013-04-07 14:26:24	+meskarune	maybe we can talk in the arch linux mailing list?
+2013-04-07 14:26:30	+meskarune	unless there is something for the irc channels
+2013-04-07 14:27:36	fsckd	there are like five ops from #archlinux who frequent here, three of them are ops here too
+2013-04-07 14:27:36	+tigrmesh	talk about what?
+2013-04-07 14:28:49	+tigrmesh	you can also do  /msg chanserv access #archlinux list  to see who the ops are and PM one.  
+2013-04-07 14:29:12	+meskarune	we purposefully have OP's here who also OP other arch chans
+2013-04-07 14:29:27	+meskarune	so trolls can be banned from * and have an eye kept on them
+2013-04-07 14:29:54	+meskarune	we are part of arch linux and not a sepperate thing
+2013-04-07 14:30:04	+tigrmesh	only the #archlinux ops have access to phrik.  people who are on the arch-general mailing list don't (unless they're an #al op)
+2013-04-07 14:30:13	+meskarune	I see
+2013-04-07 14:31:02	+meskarune	ok, next topic?
+2013-04-07 14:31:17	+meskarune	community standards
+2013-04-07 14:31:22	+meskarune	we have worked on them a bit
+2013-04-07 14:31:24	+meskarune	need to add more
+2013-04-07 14:31:31	+tigrmesh	yes
+2013-04-07 14:31:36	+meskarune	IRC rules specific to this channel
+2013-04-07 14:31:46	+meskarune	and general community guidelines for interacting in arch women
+2013-04-07 14:31:52	+tigrmesh	ah
+2013-04-07 14:31:54	 *	meskarune needs to go eat soon
+2013-04-07 14:32:08	+tigrmesh	and a statement of "what is arch women"
+2013-04-07 14:32:30	+meskarune	basic guidelines: don't troll or harrass others. if someone asks you to stop, consider listening, take rants and arguements to pm
+2013-04-07 14:32:35	+meskarune	tigrmesh: yes
+2013-04-07 14:32:44	+tigrmesh	so we need to set a meeting date
+2013-04-07 14:32:51	+meskarune	Arch Women is part of the Arch Linux community
+2013-04-07 14:33:01	+meskarune	and we contribute to that community and help others to join
+2013-04-07 14:33:13	+meskarune	as well as network and chat and have fun and learn
+2013-04-07 14:33:16	fsckd	meeting or sprint?
+2013-04-07 14:33:47	+meskarune	I'd like for people to submit things they would like to see in the community guidelines
+2013-04-07 14:33:54	+meskarune	we are all in this together after all
+2013-04-07 14:34:20	+tigrmesh	true
+2013-04-07 14:34:36	+tigrmesh	does the meeting time/date need to be set right now?
+2013-04-07 14:34:39	+meskarune	I will add in some example guides from other communities 
+2013-04-07 14:34:58	+tigrmesh	*the community guidelines
+2013-04-07 14:35:05	+meskarune	Lets make a project on redmine and have people add to it
+2013-04-07 14:35:06	+tigrmesh	linuxchix, for example
+2013-04-07 14:35:15	+meskarune	yeah
+2013-04-07 14:35:32	+meskarune	and libre planet and ada initiative and most colleges have community guidelines even
+2013-04-07 14:35:56	+meskarune	they don't have to be complicated, and if they are posted people will have soemthing to consider with their behavior
+2013-04-07 14:37:17	+meskarune	and we can ask someone how is breaking them to first read through them as a warning
+2013-04-07 14:37:28	+meskarune	then kick on next offense and then ban, etc
+2013-04-07 14:37:36	+meskarune	depending on their troll level
+2013-04-07 14:38:11	fsckd	don't ban 'em until you see the whites of their eyes!
+2013-04-07 14:38:11	 *	meskarune is a level 20 trolololol
+2013-04-07 14:38:22	fsckd	haha
+2013-04-07 14:38:44	hh4a	hardly
+2013-04-07 14:39:13	+tigrmesh	hh4a: you didn't see her in her prime
+2013-04-07 14:39:15	+meskarune	;)
+2013-04-07 14:39:21	fsckd	lol
+2013-04-07 14:40:21	+meskarune	ok final comments / questions for the meeting?
+2013-04-07 14:40:27	+meskarune	its been 3 hours :P
+2013-04-07 14:40:31	fsckd	haha
+2013-04-07 14:40:36	fsckd	i have one
+2013-04-07 14:40:42	+meskarune	yah
+2013-04-07 14:40:43	+meskarune	:D
+2013-04-07 14:40:52	fsckd	i want to restructure the meeting a little
+2013-04-07 14:41:01	fsckd	at the start do announcements
+2013-04-07 14:41:21	fsckd	like spend 15 minutes on short things, no discussion
+2013-04-07 14:41:28	+meskarune	announcements, status updates, etc ?
+2013-04-07 14:41:33	fsckd	yeah
+2013-04-07 14:41:45	+meskarune	sounds good to me. so everyone is up to speed
+2013-04-07 14:41:51	fsckd	yup
+2013-04-07 14:42:09	+meskarune	then we do discussion topics?
+2013-04-07 14:42:12	fsckd	and people hwo just want an overview of things can come for just that
+2013-04-07 14:42:16	fsckd	yes
+2013-04-07 14:42:19	+meskarune	yeah
+2013-04-07 14:42:22	+meskarune	I like that idea
+2013-04-07 14:42:29	fsckd	announcement, discussion topics, comments and extras
+2013-04-07 14:42:36	fsckd	three sections
+2013-04-07 14:42:40	+meskarune	yeah
+2013-04-07 14:43:25	+tigrmesh	ok
+2013-04-07 14:43:31	fsckd	a topic can be in both announcement and discussion
+2013-04-07 14:43:39	fsckd	?
+2013-04-07 14:44:00	fsckd	e.g. announce we're going to use garlicpress
+2013-04-07 14:44:05	fsckd	and then discuss it later
+2013-04-07 14:44:07	+meskarune	sure, if that topic has updates and needs more discussion before more progress is made
+2013-04-07 14:44:27	+meskarune	kk
+2013-04-07 14:44:58	hh4a	good idea
+2013-04-07 14:45:29	+meskarune	and people can jump in for the parts relevant to them
+2013-04-07 14:45:37	hh4a	just like me
+2013-04-07 14:45:39	+meskarune	hehe
+2013-04-07 14:45:52	+meskarune	any other comments/suggestions/questions/extras?
+2013-04-07 14:46:09	+meskarune	ps: everyone go to redmine.archwomen.org to add shit to *
+2013-04-07 14:46:22	 *	meskarune spams
+2013-04-07 14:46:58	fsckd	heh
+2013-04-07 14:46:59	hh4a	meskarune: you mean i can add shit to everything?
+2013-04-07 14:47:00	+meskarune	we'll announce code releases for the site, and people can help out in archlinux-women-dev
+2013-04-07 14:47:05	+meskarune	hh4a: if you want
+2013-04-07 14:47:46	hh4a	i want
+2013-04-07 14:47:49	+meskarune	hehe
+2013-04-07 14:47:56	hh4a	err i mean i want to help out, not add shit.
+2013-04-07 14:48:00	hh4a	dammit...
+2013-04-07 14:48:35	+meskarune	signup, make feature requests, bug reports, etc
+2013-04-07 14:48:41	+meskarune	add to our docs
+2013-04-07 14:49:09	+meskarune	assign everything to fsckd ;D
+2013-04-07 14:49:27	+meskarune	and falconindy 
+2013-04-07 14:49:42	+meskarune	kk anything else?
+2013-04-07 14:49:54	+meskarune	should i end the meeting?
+2013-04-07 14:49:59	+tigrmesh	go for it
+2013-04-07 14:49:59	fsckd	what? nooooooooooo! :P
+2013-04-07 14:50:08	+meskarune	mwhahahaha
+2013-04-07 14:50:30	+meskarune	OK
+2013-04-07 14:50:39	+meskarune	============ Meeting is Ended ===============
