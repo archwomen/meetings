@@ -1,0 +1,66 @@
+Arch Linux Women - 7th April, 2013 - 14th IRC meeting
+
+Server
+ * Security - intrusion detection
+   * The server has been under constant attack since it went live
+   * Security options: tripwire, aide, logwatch
+   * Intrusion detection: we run "w" on each login
+ * Resource monitoring
+   * munin, awstats
+ * Blog - garlicpress, static site generator
+   * We created a fork of letterpress and calling it Garlicpress.
+   * It runs as a service, watches for file changes, and automagically updates the blog when file updates are made.
+   * People can make a post in markdown, git push, and bam, blog is updated.
+   * The generator is a single python program with 2 dependencies.
+   * Much discussion about possible garlicpress improvements.
+     * Proposed future (add to redmine issue tracker)
+     * Sphinx or pelican instead of markdown
+     * Use git hooks (post_receive) to update static site instead of running a server. This is simpler.
+   * Discussion of whether to allow blog comments and how to moderate them
+     * Are comments needed?
+     * How to moderate them and how to prevent spam?
+       * CAPTCHA to block spam.
+     * Proposed comment systems: email (mailing list), various git schemes.
+
+Status on other stuff
+ * Redmine upgraded
+   * Redmine updated due to security issues.
+   * Will update again to 2.3.x branch in April.
+   * fsckd is working on an update wizard.
+ * Git repositories - managed by Gitolite
+   * Most server changes are through git; people can contribute without needing shell access.
+   * Migration to new post-receive is (99%) complete.
+ * calendar.archwomen.org
+   * Created, need to make git repo and hooks, and add calendars.
+   * Do we want a caldav server? We can just use zoho + desktop clients.
+ * news.archwomen.org
+   * Installed, needs git repos.
+
+Projects
+ * Classroom
+   * PKBUILD class postponed.
+   * Depending on things...may be postponed for a while.
+   * Pacman 4.1 has been released.  We had been waiting on that as well.
+     * Lets work on docs!!!
+
+Community
+ * Channel bot
+   * Should we remove Phrik from #archlinux-women and have our own channel bot? 
+     * Phrik has a lot of cruft.
+   * Phrik can have factoids and quotes removed.
+   * If phrik is harming greater arch linux community, should be changed instead of just blocked from channel completely.
+   * Decided to talk to other arch OP's and get opinions
+ * Progress on community standards (includes channel etiquette, blog rules, etc.).
+   * There is (or will be) a redmine project.
+   * Encourage people to add to it.
+   * Get more examples, like from linuxchix, ada initiative, etc.
+   * Consequences of violating:
+   * Example progression is warning first, then kick, then ban.
+     * Quiet for flooding.
+
+Final comments, questions, etc.
+ * Change meeting format
+   * Announcements
+   * Status updates
+   * Discussion
+   * Questions/extras
