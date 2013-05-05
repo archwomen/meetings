@@ -1,0 +1,35 @@
+Arch Linux Women - 5th May, 2013 - 15th IRC meeting
+
+Announcements and status updates
+ * Redmine upgraded
+   * 2.2.4 -> 2.3.0, 2.2.x branch considered dead
+   * Working on upgrade wizard
+ * SSL encryption for site, commercial certificate purchased and uploaded to server, need to configure lighttpd
+ * Classroom - may be delayed a little longer, people are welcome to contribute docs
+   * The first class will be on IRC, but later classes might use justin.tv to stream it on something where you wouldn't have to use a browser
+
+Topics for discussion
+ * Internship program
+   * Need to create an internship sheet with resources available, what they will do and what they will learn
+   * Could work with https://live.gnome.org/OutreachProgramForWomen
+   * Ideas: outreach/marketing/meetups, developement, teaching, documentation writting
+   * Need to find mentors, do some reasearch
+   * http://careers.washington.edu/ifiles/all/files/docs/shared/Best_Practices_for_Internship_Programs_NACE.pdf
+   * The intern program could be put on TOSW - http://www.theopensourceway.org/
+ * Fundraising
+   * Approach VPS, github to see if they'd be interested/willing to sponsor Arch Women
+   * Raise maybe $500 - $1000 for server costs (ssl, domain, etc) 
+   * Possibly host meetups
+   * Outreach program to organize meetups?
+     * Recruit someone for this position?
+     * This person might be the one to coordinate creating marketing materials like flyers to give out at IRL FOSS events
+ * Blog (garlicpress)
+   * Blog is back up - just the first 4 or so posts so far
+   * Still to do: finish templates, convert old posts to markdown blog format, auto update twitter when there's a new blog post, maybe have a site so people can submit drafts to the server from a browser
+
+Final comments, questions, etc.
+ * Discussed setting up a git front end using cgit
+ * Blog post on allies and how to be an ally - maybe later a video or podcast?
+ * http://geekfeminism.wikia.com/wiki/Allies_training
+ * Need to convert server to 64bit.
+
