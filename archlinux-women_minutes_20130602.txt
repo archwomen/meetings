@@ -1,0 +1,22 @@
+Arch Linux Women - 5th May, 2013 - 15th IRC meeting
+
+Announcements and status updates
+ * Status on phrik the bot's replacement.
+   * Working on an extensible bot written in haskell. should replace phrik, the #archlinux bot
+   * Planned features: announcments, quotes, factoids
+ * The entire site is now accessible in https (SSL).
+   * Important for privacy and security.
+   * Certificate is good for 4 years.
+   * Very expensive to cover subdomains with a cert, so we changed the site structure into sub directories intead of subdomains so everything will be covered by the certificate.
+ * We need to convert the blog posts to the new format and start making new posts.
+
+Topics for discussion
+ * Take some meeting time to start the skills list.
+   * terra-and-luna, jy2wong, carharttjimmy, meskarune and tigrmesh responded
+ * {   break for aw-bot code viewing and structure discussion   }
+ * Channel rules/guidelines discussion is incomplete and needs to be finished.
+   * Agreement to have the second discussion immediately after the meeting.
+ * Google Summer of Code research update.
+
+Final comments, questions, etc.
+ * AUR Day - a day when we get together and fix AUR packages
