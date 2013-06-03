@@ -1,0 +1,425 @@
+2013-06-02 18:58:26	+tigrmesh	************ another channel rules meeting start *********
+2013-06-02 18:58:50	carharttjimmy	Alright, sweet, lets begin but let me get a cookie really quick
+2013-06-02 18:58:57	+tigrmesh	hehe
+2013-06-02 19:00:35	carharttjimmy	k
+2013-06-02 19:01:56	carharttjimmy	I personally think that men shouldn't be treated like guests but allies or something appropiate at least. If we want to make arch linux safe we need everyone to be equal and feel welcomed :)
+2013-06-02 19:03:44	yardena	I'd say my understanding of "allies" is more limited than yours is.
+2013-06-02 19:04:25	+tigrmesh	in what way?
+2013-06-02 19:05:17	gtmanfred	allies can disolve the agreement when one party breaks their side
+2013-06-02 19:05:30	carharttjimmy	thats not what I was going for
+2013-06-02 19:05:38	carharttjimmy	I was basing it off of the Geek feminism wiki
+2013-06-02 19:05:42	gtmanfred	if the agreement is that everyone is treated equally, and we keep it a friendly environment, both sides should be held to the same standard
+2013-06-02 19:06:20	carharttjimmy	hmm now I see what you are saying
+2013-06-02 19:06:28	carharttjimmy	I think thats fair to a degree 
+2013-06-02 19:06:38	carharttjimmy	http://geekfeminism.wikia.com/wiki/Allies
+2013-06-02 19:06:40	phrik	Title: Allies - Geek Feminism Wiki (at geekfeminism.wikia.com)
+2013-06-02 19:06:56	gtmanfred	if someone brings up that they are uncomfortable with what is being discussed, it should be immediately respected on both sides
+2013-06-02 19:07:14	carharttjimmy	Just because someone identifies as a man, does not mean that they are anti feminism 
+2013-06-02 19:07:41	gtmanfred	personally i think there should be more of the 5th bullet point
+2013-06-02 19:08:28	yardena	the 5th bullet point being this? "CALL OTHER MEN ON THEIR CRAP"
+2013-06-02 19:08:48	+tigrmesh	?
+2013-06-02 19:09:04	carharttjimmy	or do you mean the fourth gtmanfred ?
+2013-06-02 19:09:10	gtmanfred	no, i mean the 5th
+2013-06-02 19:09:18	carharttjimmy	go on
+2013-06-02 19:09:25	+tigrmesh	which one is that?
+2013-06-02 19:09:33	gtmanfred	the one that yardena pointed out
+2013-06-02 19:10:02	+tigrmesh	i need more words so i can search for it
+2013-06-02 19:10:10	gtmanfred	sometimes I feel i am the only one in her who tells the other guys that what is being talked about should be moved somewhere else
+2013-06-02 19:10:18	gtmanfred	tigrmesh: http://geekfeminism.wikia.com/wiki/Allies
+2013-06-02 19:10:19	phrik	Title: Allies - Geek Feminism Wiki (at geekfeminism.wikia.com)
+2013-06-02 19:10:23	gtmanfred	CALL OTHER MEN ON THEIR CRAP
+2013-06-02 19:10:26	+tigrmesh	ohhh
+2013-06-02 19:10:40	+tigrmesh	i was on the wrong wiki
+2013-06-02 19:11:27	+tigrmesh	that's happened here
+2013-06-02 19:11:37	+tigrmesh	happened with fogobogo
+2013-06-02 19:11:39	gtmanfred	in here*
+2013-06-02 19:12:11	+tigrmesh	i'm pretty sure.  lots of people were involved
+2013-06-02 19:12:22	gtmanfred	i am not talking about like that
+2013-06-02 19:12:51	+tigrmesh	please say more
+2013-06-02 19:13:53	gtmanfred	i mean when it is me carharttjimmy kaictl yardena and terra-and-luna all talking and me or carharttjimmy says something and it takes a swift turn to something that shouldn't be talked about here, i feel i am the only one that says if the discussion is moving this direction it should go somewhere else
+2013-06-02 19:14:08	+tigrmesh	ah
+2013-06-02 19:14:43	hh4a	sometimes loosely discussions are good
+2013-06-02 19:14:45	gtmanfred	and i may be completely wrong, i haven't really been here that much in the last couple weeks
+2013-06-02 19:15:32	carharttjimmy	gtmanfred: I have as well recommened to switch to another channel
+2013-06-02 19:15:34	carharttjimmy	iirc
+2013-06-02 19:16:18	carharttjimmy	either way, the issue is, should men be guests or allies?
+2013-06-02 19:16:28	gtmanfred	which men
+2013-06-02 19:16:32	yardena	i am puzzled by the distinction
+2013-06-02 19:16:53	carharttjimmy	yardena: if you were a nation would your ally be a guest?
+2013-06-02 19:16:59	gtmanfred	the men who are helping with actual projects for archlinux-women
+2013-06-02 19:17:03	kaictl	i don't feel like a blanket statement should be put down on men or women...that's just gonig to get silly.
+2013-06-02 19:17:10	gtmanfred	or the ones that just pop in and say hi/omg this is a channel/lol
+2013-06-02 19:17:22	yardena	i find the whole question "should men be guests or allies" bizarre
+2013-06-02 19:17:33	gtmanfred	me too
+2013-06-02 19:17:35	carharttjimmy	sorry if I oversimplified. :(
+2013-06-02 19:17:42	gtmanfred	i think we know who is who
+2013-06-02 19:17:47	gtmanfred	i don't feel like a guest here
+2013-06-02 19:17:50	+tigrmesh	until i see "your're a guest, act like it"
+2013-06-02 19:18:00	+tigrmesh	you're*
+2013-06-02 19:18:04	gtmanfred	i feel like a part of the group who has a common goal
+2013-06-02 19:18:36	+tigrmesh	right.  but if you read that section, it looks like you're not
+2013-06-02 19:18:49	gtmanfred	what section
+2013-06-02 19:18:54	carharttjimmy	Not #archlinux-offtopic-lite! Anyone can join, but the channel is PRIMARILY FOR women and other systemically marginalized groups. This means men in particular must be conscious of what channel they're in. You're a guest - act like it!
+2013-06-02 19:19:01	carharttjimmy	sourced: https://archwomen.org/redmine/projects/archwomen/wiki/Channel_Rules_meeting_March_10_2013
+2013-06-02 19:19:13	phrik	Title: Channel Rules meeting March 10 2013 - Arch Linux Women - Arch Linux Women: Project Manager (at archwomen.org)
+2013-06-02 19:19:21	gtmanfred	ok, yeah i don't consider that section to apply to me
+2013-06-02 19:19:28	gtmanfred	the way that the whole thing is written
+2013-06-02 19:19:39	carharttjimmy	but it does apply to you
+2013-06-02 19:19:42	gtmanfred	why
+2013-06-02 19:19:48	carharttjimmy	you're a guy
+2013-06-02 19:20:06	gtmanfred	i am male yes, but i am also a memeber of the project no? i do have a login, so i am a superset of that catagore
+2013-06-02 19:20:09	gtmanfred	gory*
+2013-06-02 19:20:40	+tigrmesh	interesting
+2013-06-02 19:20:44	yardena	I agree the section should be rewritten
+2013-06-02 19:20:51	carharttjimmy	but (pleaase correct me if I am wrong) we dont have that distinction 
+2013-06-02 19:21:05	carharttjimmy	at least in any of the pages I have looked at
+2013-06-02 19:21:14	+tigrmesh	when i read that, i think it says you're tolerated.
+2013-06-02 19:21:14	gtmanfred	read the first bullet point of the first "Rule"
+2013-06-02 19:21:16	gtmanfred	    You should be CONsCIOUSLY aware of who you are and who others are so that no one gets hurt by words or actions from you, even if you did not mean it. Some words or actions are especially hurtful and dehumanizing. It can be hard to see them as such, so when others say to stop, please do so even if you disagree.
+2013-06-02 19:21:19	yardena	Everybody's participation is conditional, and less on their sociological identity than on their alignment with the project's goals
+2013-06-02 19:21:21	gtmanfred	aware of who you are*
+2013-06-02 19:21:32	yardena	(note the word "ally" is hidden in there!)
+2013-06-02 19:21:57	carharttjimmy	yardena: nope :P
+2013-06-02 19:22:23	+tigrmesh	when i read that, i think it says men are tolerated.  not allies
+2013-06-02 19:22:43	carharttjimmy	yardena: ctrl+f says only three occurances in "especially", "systemically" and "accidentally"
+2013-06-02 19:22:44	yardena	i mean, if i am a huge asshole or behave in oppressive ways, you should kick me out regardless of my identity
+2013-06-02 19:22:51	+tigrmesh	absolutely
+2013-06-02 19:23:02	yardena	carharttjimmy: alignment
+2013-06-02 19:23:06	+tigrmesh	but we've singled out one gender to say that to
+2013-06-02 19:23:11	carharttjimmy	ohh i see
+2013-06-02 19:23:22	hh4a	what is this ally and guest crap? i don't perceive such things
+2013-06-02 19:23:40	carharttjimmy	yardena: doesnt show up I am afraid 
+2013-06-02 19:23:52	yardena	you could probably try harder to rephrase that without raising the tempurature, hh4a 
+2013-06-02 19:24:07	carharttjimmy	I am calm.
+2013-06-02 19:24:08	hh4a	understood
+2013-06-02 19:24:15	carharttjimmy	always am calm :P
+2013-06-02 19:24:26	kaictl	! carharttjimmy 
+2013-06-02 19:24:28	phrik	http://i.imgur.com/JIM6Oz6.jpg
+2013-06-02 19:25:26	+tigrmesh	"you're a guest" is maternal.  "remember, you're a guest" is what mothers say before they tell you to check if you have boogers in your nose and to keep your elbows in
+2013-06-02 19:25:37	carharttjimmy	and off the table
+2013-06-02 19:25:44	+tigrmesh	exactly
+2013-06-02 19:25:52	kaictl	it's also what people say when you're a guest...
+2013-06-02 19:26:04	+tigrmesh	non-mothers?  ;)
+2013-06-02 19:26:20	yardena	i happen to not share your stream of consciousness association there, tigrmesh :P
+2013-06-02 19:26:20	kaictl	yeah. i've said that plenty of times. mostly on irc, but still.
+2013-06-02 19:26:31	+meskarune	hehe
+2013-06-02 19:26:37	+tigrmesh	yardena: it's my age
+2013-06-02 19:26:40	+tigrmesh	haha
+2013-06-02 19:26:46	kaictl	(sometimes they literally are GuestXXXXXXX...)
+2013-06-02 19:26:52	+tigrmesh	haha
+2013-06-02 19:26:53	fsckd	lol
+2013-06-02 19:26:59	+meskarune	irc web clients lol
+2013-06-02 19:27:02	yardena	tigrmesh: i'm sure it's other things as well
+2013-06-02 19:27:12	+tigrmesh	somewhat
+2013-06-02 19:27:23	carharttjimmy	Also, while we can easily guess if a nick is whatever, we dont actually know
+2013-06-02 19:27:33	carharttjimmy	so I wonder about enforcement of said guest rule
+2013-06-02 19:28:03	+meskarune	we should just say "be respectful" ?
+2013-06-02 19:28:11	+meskarune	even though that should be obvious :P
+2013-06-02 19:28:20	+tigrmesh	that sounds maternal too
+2013-06-02 19:28:22	hh4a	cant mutter anything of use today, so good luck, adios
+2013-06-02 19:28:24	carharttjimmy	I think that would be better than assuming that based on a nick that said person is whatever 
+2013-06-02 19:28:25	<--	hh4a (~hh4a@84-255-197-79.static.t-2.net) has quit (Quit: going away and always astray)
+2013-06-02 19:28:27	+meskarune	tigrmesh: yeah, good point
+2013-06-02 19:28:44	+tigrmesh	maybe "remember where you are"
+2013-06-02 19:28:58	+tigrmesh	something that i saw gtmanfred say to someone.  worked, too
+2013-06-02 19:29:04	carharttjimmy	for all we know meskarune could be a 5 ton robot
+2013-06-02 19:29:10	+tigrmesh	haha
+2013-06-02 19:29:15	carharttjimmy	and we would never know because its irc
+2013-06-02 19:29:24	+tigrmesh	i've seen her picture!
+2013-06-02 19:29:51	carharttjimmy	tigrmesh: I have too, but you see my point I assume
+2013-06-02 19:29:56	 *	yardena is now trying hard not to sound like tigrmesh's mother
+2013-06-02 19:30:00	+tigrmesh	haha
+2013-06-02 19:30:08	gtmanfred	tigrmesh: make sure to do your home work
+2013-06-02 19:30:23	carharttjimmy	yardena could be a robot, gtmanfred could be one too and tigrmesh could really be a tiger
+2013-06-02 19:30:24	+tigrmesh	gtmanfred: tighten your tie
+2013-06-02 19:30:37	carharttjimmy	tigrmesh: make sure to wash behind your ears
+2013-06-02 19:30:43	+tigrmesh	hehe
+2013-06-02 19:30:55	+meskarune	I'm actually the daughter of wolfram alpha 
+2013-06-02 19:31:02	fsckd	i knew it!
+2013-06-02 19:31:10	carharttjimmy	and we would all believe it because its irc
+2013-06-02 19:31:15	 *	meskarune 's co-workers call me that
+2013-06-02 19:31:16	+tigrmesh	i see allies as people who are interested in a common goal and sometimes work together toward that goal
+2013-06-02 19:31:23	carharttjimmy	and fsckd is the son of Linus Torvald 
+2013-06-02 19:31:24	+tigrmesh	hehe
+2013-06-02 19:31:56	carharttjimmy	we also shouldnt associate nicknames based on gender/being a robot at all
+2013-06-02 19:32:15	carharttjimmy	or whatever 
+2013-06-02 19:32:22	yardena	so this is technically a meeting that's being logged
+2013-06-02 19:32:28	carharttjimmy	yes
+2013-06-02 19:33:23	+meskarune	robots are technically genderless
+2013-06-02 19:33:36	yardena	androids and gynoids
+2013-06-02 19:33:37	+meskarune	idk, but I had to put that out there :)
+2013-06-02 19:33:44	+meskarune	lol yardena 
+2013-06-02 19:33:48	gtmanfred	http://i.imgur.com/up4GhRx.jpg
+2013-06-02 19:33:49	carharttjimmy	meskarune: I was trying to not single out any gender
+2013-06-02 19:34:06	carharttjimmy	you know because that wouldn't be right
+2013-06-02 19:34:11	carharttjimmy	so I chose robots :P
+2013-06-02 19:34:11	+meskarune	lol
+2013-06-02 19:34:22	+meskarune	I choose pikachu
+2013-06-02 19:34:24	yardena	so far we've established that none of us are satisfied with the "Not #archlinux-offtopic-lite!" paragraph but that we have very different frames of reference for the problem, or even what the problem is.
+2013-06-02 19:35:05	carharttjimmy	sounds about right
+2013-06-02 19:35:36	+tigrmesh	including that that sentence needs to be the start of some other paragraph
+2013-06-02 19:35:46	+tigrmesh	the one about talking crap
+2013-06-02 19:36:00	+tigrmesh	*random
+2013-06-02 19:36:05	+meskarune	how about we get something written down, the things that we all agree on?
+2013-06-02 19:36:14	carharttjimmy	I am open to compromise
+2013-06-02 19:36:16	+meskarune	so we can have some progress
+2013-06-02 19:36:20	+tigrmesh	ok
+2013-06-02 19:36:23	+meskarune	:D
+2013-06-02 19:36:32	carharttjimmy	I never was against compromise
+2013-06-02 19:37:00	yardena	we've never really established a consensus model or voting process
+2013-06-02 19:37:01	+tigrmesh	part of who you are  :)
+2013-06-02 19:37:16	+meskarune	http://www.wit.edu/diversity/resources/safe-space.html
+2013-06-02 19:37:18	phrik	Title: Safe Space Wentworth Institute of Technology: Diversity (at www.wit.edu)
+2013-06-02 19:37:24	carharttjimmy	I will reiterate the fact that we dont know if a nick is male/female/transgender/etc 
+2013-06-02 19:37:32	yardena	but i think the goal of the conversation should be to at least find a respectful understanding of our positions
+2013-06-02 19:37:49	carharttjimmy	I am sure you can guess that I am male
+2013-06-02 19:37:56	yardena	carharttjimmy: transgender is not a category in opposition to either male or female. it's another axis entirely.
+2013-06-02 19:38:00	gtmanfred	!give carharttjimmy youdontsay
+2013-06-02 19:38:01	phrik	carharttjimmy: http://i.imgur.com/oZyuq.png
+2013-06-02 19:38:02	+meskarune	develope a community of women, allies, interested parties, etc
+2013-06-02 19:38:21	yardena	carharttjimmy: so basically what you just said is that trans people are neither male nor female, which isn't very cool.
+2013-06-02 19:38:27	carharttjimmy	yardena: I know but I was trying to make a point 
+2013-06-02 19:38:33	carharttjimmy	this is why I chose robot...
+2013-06-02 19:38:48	yardena	sometimes we say things that aren't cool while trying to make points.
+2013-06-02 19:38:57	carharttjimmy	okay yardena what would be the proper way to say what I was trying to say?
+2013-06-02 19:38:57	gtmanfred	http://i.imgur.com/Mv00OdH
+2013-06-02 19:38:58	phrik	Title: I asked my gf how her cousin was liking Disney. She sent back this - Imgur (at i.imgur.com)
+2013-06-02 19:39:21	carharttjimmy	tigrmesh: I know, I am always open to compromise :P
+2013-06-02 19:39:30	+meskarune	gtmanfred: i want to click, but if I get on imgur, my productivity will drop to zero
+2013-06-02 19:39:32	+meskarune	LOL
+2013-06-02 19:39:37	gtmanfred	heh
+2013-06-02 19:39:48	carharttjimmy	meskarune: productivity can be regained in xmonad
+2013-06-02 19:39:52	yardena	carharttjimmy: i shouldn't have to explain it to you, since apparently you already know why it was wrong
+2013-06-02 19:39:54	carharttjimmy	so look at imgur in xmonad and you win 
+2013-06-02 19:40:06	carharttjimmy	yardena: I understand why its wrong
+2013-06-02 19:40:15	carharttjimmy	but I dont know how to say it properly 
+2013-06-02 19:40:16	yardena	carharttjimmy: so why the "i know ... but rewrite it for me"
+2013-06-02 19:40:30	carharttjimmy	beacuse, I dont know how to say it properly 
+2013-06-02 19:40:33	carharttjimmy	:/
+2013-06-02 19:40:54	yardena	s_/transgender__
+2013-06-02 19:41:12	carharttjimmy	thank you
+2013-06-02 19:41:55	gtmanfred	LOL http://i.imgur.com/4vYVUQU.jpg
+2013-06-02 19:42:00	gtmanfred	i haven't been on reddit in a week, so i am treating myself
+2013-06-02 19:42:18	carharttjimmy	gtmanfred: can we at least try to stay on track for five seconds?
+2013-06-02 19:42:22	carharttjimmy	:P
+2013-06-02 19:43:06	yardena	gtmanfred: i hope you like all your goofy links being logged in our meeting logs...
+2013-06-02 19:43:21	gtmanfred	oh right, i forogt
+2013-06-02 19:43:24	gtmanfred	forgot*
+2013-06-02 19:43:27	gtmanfred	my bad ♥
+2013-06-02 19:43:46	carharttjimmy	least whoever reads them will have a few chuckles
+2013-06-02 19:44:43	fsckd	ok... so...
+2013-06-02 19:45:07	+tigrmesh	do we want to at least write stuff down?
+2013-06-02 19:45:21	carharttjimmy	I am game for it.
+2013-06-02 19:45:29	carharttjimmy	fsckd: you have anything to add etc?
+2013-06-02 19:45:56	fsckd	umm
+2013-06-02 19:46:06	fsckd	i might later
+2013-06-02 19:46:23	carharttjimmy	k
+2013-06-02 19:48:15	+tigrmesh	ok
+2013-06-02 19:48:28	+tigrmesh	so what did we say?
+2013-06-02 19:53:27	+tigrmesh	is the meeting over?
+2013-06-02 19:53:32	carharttjimmy	I dont think so
+2013-06-02 19:53:38	+tigrmesh	k
+2013-06-02 19:53:45	carharttjimmy	I am getting massive network spikes...
+2013-06-02 19:53:52	carharttjimmy	should be good now
+2013-06-02 19:54:08	yardena	i am distracted by a crashing machine over here
+2013-06-02 19:55:45	carharttjimmy	dont let your machines drive cars!
+2013-06-02 19:57:41	carharttjimmy	so meskarune what have we decided on?
+2013-06-02 19:58:08	yardena	we've decided that we haven't found common language to agree on yet
+2013-06-02 19:59:55	+tigrmesh	what about    meskarune | how about we get something written down, the things that we all agree on?
+2013-06-02 20:00:29	carharttjimmy	I agree with the "A SAFE SPACE!" section
+2013-06-02 20:00:47	+tigrmesh	:)
+2013-06-02 20:01:56	carharttjimmy	so I make a motion we keep that.
+2013-06-02 20:02:00	carharttjimmy	do I have a second?
+2013-06-02 20:02:05	+tigrmesh	second
+2013-06-02 20:02:38	carharttjimmy	all in favor say "aye or yes" , those oppose say "nay or no"
+2013-06-02 20:03:05	+tigrmesh	first we should have discussion  ;)
+2013-06-02 20:03:10	carharttjimmy	oh right
+2013-06-02 20:03:13	+tigrmesh	and aye
+2013-06-02 20:03:16	gtmanfred	eye
+2013-06-02 20:03:28	carharttjimmy	I keep forgetting  parlimentary rules
+2013-06-02 20:03:48	carharttjimmy	so after the second the motion goes to open discussion 
+2013-06-02 20:03:51	carharttjimmy	iirc
+2013-06-02 20:04:10	carharttjimmy	we should set a voting method too [/end sidebar]
+2013-06-02 20:05:03	<--	fogobogo (~fogobogo@unaffiliated/fogobogo) has quit (Ping timeout: 264 seconds)
+2013-06-02 20:05:03	+tigrmesh	paper ballot!   ;)
+2013-06-02 20:05:57	carharttjimmy	Idk about that
+2013-06-02 20:07:14	yardena	who gets to vote, and does everybody's vote count equally? I'm uncomfortable with "yes".
+2013-06-02 20:07:57	gtmanfred	why wouldn't everyone who has/is currently contributing get a vote?
+2013-06-02 20:09:04	yardena	that is vague and not necessarily the best expression of our values
+2013-06-02 20:09:12	yardena	(not everything needs to be a direct democracy)
+2013-06-02 20:09:20	carharttjimmy	We could determine elegibility based off of who has a redmine account
+2013-06-02 20:09:55	gtmanfred	that would be what i would consider people who had contributed
+2013-06-02 20:10:18	gtmanfred	or those people could nominate 3 representatives who have the final vote
+2013-06-02 20:10:20	carharttjimmy	we could elect trustees/directors ?
+2013-06-02 20:10:30	gtmanfred	so not everyone has to be around when the final vote happens
+2013-06-02 20:10:39	gtmanfred	but everyone could be around and take part in the discussion
+2013-06-02 20:11:24	kaictl	or, if people aren't going to be available, they can talk in their groups separately and then a representative can bring that to the rest of the group.
+2013-06-02 20:11:59	<--	AbigailBuccaneer (~jetbeard@unaffiliated/jetbeard) has quit (Read error: Connection reset by peer)
+2013-06-02 20:12:26	fsckd	what in the worlds are y'all talking about?
+2013-06-02 20:12:51	carharttjimmy	who gets to vote on issues
+2013-06-02 20:12:58	yardena	basic conflict resolution process
+2013-06-02 20:13:16	fsckd	what conflict?
+2013-06-02 20:13:34	yardena	honestly my understanding so far has been that we are a benign dictatorship under meskarune's reign, and I am ok with that
+2013-06-02 20:14:49	gtmanfred	+1 to that
+2013-06-02 20:15:19	fsckd	hmm, iirc, meskarune is admin, tigrmesh is backup admin
+2013-06-02 20:15:19	carharttjimmy	if we ever go non-profit that will have to change
+2013-06-02 20:15:44	fsckd	and vodik was backup backup admin until he retired this year
+2013-06-02 20:15:46	+tigrmesh	i'm with yardena
+2013-06-02 20:16:08	+tigrmesh	we're backup, but meskarune is the head
+2013-06-02 20:16:18	fsckd	yup
+2013-06-02 20:17:04	carharttjimmy	so its up to the admins then
+2013-06-02 20:19:16	+tigrmesh	what is?  is she supposed to decide about the common language?  yardena | we've decided that we haven't found common language to agree on yet 
+2013-06-02 20:19:34	gtmanfred	who is backup?
+2013-06-02 20:20:38	fsckd	gtmanfred: it was the top level organizational structure made sometime last year
+2013-06-02 20:20:45	gtmanfred	i know
+2013-06-02 20:20:48	gtmanfred	who are the backups
+2013-06-02 20:21:24	+tigrmesh	me and fsckd, and yardena, i think just the 3 of us
+2013-06-02 20:21:43	carharttjimmy	we're all doomed with fsckd 
+2013-06-02 20:21:45	carharttjimmy	:P
+2013-06-02 20:21:47	carharttjimmy	<3 fsckd 
+2013-06-02 20:21:59	fsckd	lol, i don't think of myself as backup admin
+2013-06-02 20:22:16	yardena	yeah i don't recall being officially appointed anything. I was given irc ops and server access.
+2013-06-02 20:23:36	yardena	are we still being logged?
+2013-06-02 20:23:41	carharttjimmy	YES
+2013-06-02 20:23:43	carharttjimmy	yes*
+2013-06-02 20:23:44	+tigrmesh	nothing has changed that
+2013-06-02 20:23:46	carharttjimmy	whoops
+2013-06-02 20:23:51	+tigrmesh	meeting is not yet over
+2013-06-02 20:24:02	fsckd	technically the backup admin was access to various stuff (by which i would say me and yardena are backup admins) but it also encompassed decision making
+2013-06-02 20:24:28	fsckd	maybe in a future meeting high level positions can be specified and filled?
+2013-06-02 20:25:00	yardena	but hopefully not just in the context of us realizing we're not all going to agree on everything
+2013-06-02 20:25:26	 *	fsckd still doesn't understand what we're not agreeing on
+2013-06-02 20:25:48	yardena	vague fundamentals of what Arch Women even means
+2013-06-02 20:25:49	carharttjimmy	we dont all have to agree
+2013-06-02 20:25:56	carharttjimmy	but we should compromise at least
+2013-06-02 20:26:17	carharttjimmy	thats why we have compromises because we realize not everyone will be happy
+2013-06-02 20:26:36	fsckd	what are the different ideas of what Arch Women means?
+2013-06-02 20:27:05	+tigrmesh	it seems to me that we've gotten lost somewhere.  this meeting was to discuss the meeting rules, specifically the section that starts with the "not offtopic-lite" sentence
+2013-06-02 20:27:34	fsckd	haha so it seems
+2013-06-02 20:27:41	+tigrmesh	the other things are important, but i'd like to get some closure on this, even if it's "we're not deciding"
+2013-06-02 20:27:44	carharttjimmy	we have channel adhd
+2013-06-02 20:27:49	+tigrmesh	haha'
+2013-06-02 20:28:03	fsckd	lol
+2013-06-02 20:28:19	carharttjimmy	so lets try to meander on back
+2013-06-02 20:28:29	carharttjimmy	we still havent decided on a common language
+2013-06-02 20:28:45	carharttjimmy	and that is okay, I wouldn't mind compromising on one
+2013-06-02 20:28:50	+meskarune	lisp?
+2013-06-02 20:29:01	fsckd	^ +1
+2013-06-02 20:29:14	yardena	<yardena> so far we've established that none of us are satisfied with the "Not #archlinux-offtopic-lite!" paragraph but that we have very different frames of reference for the problem, or even what the problem is.
+2013-06-02 20:29:20	yardena	^^ me an hour ago :P
+2013-06-02 20:29:24	fsckd	hehe
+2013-06-02 20:29:44	fsckd	i see two things addressed in that section
+2013-06-02 20:29:55	fsckd	(1) who is archwomen for
+2013-06-02 20:30:04	fsckd	(2) offtopic culture
+2013-06-02 20:30:56	fsckd	i agree with both things stated in that section. i propose splitting it for clarity
+2013-06-02 20:31:16	+tigrmesh	splitting them would be good.
+2013-06-02 20:31:32	yardena	good idea
+2013-06-02 20:31:33	+tigrmesh	dog just woke up.  time us to go out
+2013-06-02 20:31:54	yardena	IMO aw is meant to be an antidote to systemic oppression in the arch community
+2013-06-02 20:32:54	fsckd	yes, that it is
+2013-06-02 20:33:08	fsckd	this safe space was created because a need was perceived
+2013-06-02 20:33:14	carharttjimmy	^
+2013-06-02 20:33:50	fsckd	similarly for -newbie which i think overlaps some with -women in purpose
+2013-06-02 20:34:09	carharttjimmy	but newbie is not scope
+2013-06-02 20:34:14	carharttjimmy	its a seperate entity 
+2013-06-02 20:34:19	carharttjimmy	iirc
+2013-06-02 20:34:28	yardena	I think aw's purpose also explicitly includes oppressions other than sexism
+2013-06-02 20:34:29	kaictl	newbie is like classroom
+2013-06-02 20:34:50	+meskarune	yeah, its an archlinux group for new users 
+2013-06-02 20:34:50	kaictl	associated with -women, but not there for the same purpose.
+2013-06-02 20:34:57	gtmanfred	-newbie needs to be fixed, i was told there wouldn't be any tolleration of help vampires, and from what i hear _DomY-Dom had his ban removed even though he repeatedly refuesd to read the wiki and was banned from #archlinux for that as well as ban evading
+2013-06-02 20:35:13	+meskarune	AW also has the purpose of contributing to arch linux
+2013-06-02 20:35:23	carharttjimmy	gtmanfred: take it up with me in a query
+2013-06-02 20:35:27	kaictl	yeah...there has to be a line...but that's a separate discussion.
+2013-06-02 20:35:32	+meskarune	which means helping to foster projects like -newbie and -classroom which helps our agenda and arch as a whole
+2013-06-02 20:35:55	+meskarune	sponsor, whatever you want to call it :P
+2013-06-02 20:36:05	fsckd	-newbie is a safe space for newbies :P
+2013-06-02 20:36:17	carharttjimmy	and we do not tolerate help vampires
+2013-06-02 20:36:37	gtmanfred	_DomY-Dom was tolerated, and after he ban evaded repeatedly in #archlinux
+2013-06-02 20:36:58	fsckd	gtmanfred: that is really off-topic in this meeting
+2013-06-02 20:37:00	yardena	i think -newbie policy is outside the scope of this (still logged) meeting
+2013-06-02 20:37:06	carharttjimmy	yeah
+2013-06-02 20:37:15	carharttjimmy	come on channel back to the main topic
+2013-06-02 20:37:32	carharttjimmy	I swear this channel has adhd
+2013-06-02 20:37:40	gtmanfred	is it? i thought we were discussing who / what was allowed in the archlinux-women supported channels
+2013-06-02 20:37:55	carharttjimmy	newbie is its own entity with its own ops
+2013-06-02 20:37:59	fsckd	as stated, -newbie is distinct
+2013-06-02 20:38:15	gtmanfred	                              │19:37:18          fsckd » similarly for -newbie which i think overlaps some with -women in purpose
+2013-06-02 20:38:17	+meskarune	its to help new people get into arch 
+2013-06-02 20:38:28	+meskarune	since main chat is mostly more experianced persons
+2013-06-02 20:38:31	gtmanfred	how can it be distinct and overlap
+2013-06-02 20:38:46	yardena	We are meant to be talking about the "#archlinux-offtopic-lite!" clause in our rules
+2013-06-02 20:38:53	fsckd	gtmanfred: and so is dev-chix but we're not a dev-chix project
+2013-06-02 20:38:54	+meskarune	like how arch women over laps with arch linux
+2013-06-02 20:39:16	carharttjimmy	yes lets get back to the main topic
+2013-06-02 20:39:19	+meskarune	kk
+2013-06-02 20:39:21	carharttjimmy	thank you yardena :)
+2013-06-02 20:39:23	gtmanfred	is archlinux-newbie archlinux-women sponsered and do these rules apply to -newbie as well?
+2013-06-02 20:39:27	carharttjimmy	stop your channel adhd!
+2013-06-02 20:39:33	carharttjimmy	gtmanfred: no
+2013-06-02 20:39:38	gtmanfred	i want to know if the archlinux-offtopic-lite applies to archlinux-newbie
+2013-06-02 20:39:49	fsckd	i mean linuxchix sorry
+2013-06-02 20:40:02	carharttjimmy	they do not
+2013-06-02 20:40:06	yardena	this meeting was called because that clause makes tigrmesh particularly uncomfortable as-is, and she and I have a serious enough difference in perspective that we didn't want to clutter up the main meeting about it
+2013-06-02 20:40:07	gtmanfred	ok
+2013-06-02 20:40:12	yardena	that's my understanding, anyway
+2013-06-02 20:40:17	gtmanfred	that is what i wanted to know
+2013-06-02 20:40:28	yardena	everything else should have happened at the meeting this morning, honestly
+2013-06-02 20:41:09	fsckd	gtmanfred: sorry, the -newbie statement was an aside, forget it :)
+2013-06-02 20:41:24	 *	fsckd didn't mean to lead a derail
+2013-06-02 20:41:25	carharttjimmy	yardena: yes indeed
+2013-06-02 20:41:30	carharttjimmy	but somehow we all have adhd now
+2013-06-02 20:41:36	carharttjimmy	lets get back on track please
+2013-06-02 20:42:40	gtmanfred	sorry , i have been busy.  The only reasonable way i see to fix this is to just scratch the rule and start over.  say 1) Everyone should be respectful of the feelings and personalities of every other memeber of the channel at all times.
+2013-06-02 20:43:11	gtmanfred	then no one is singled out in the rule, and everyone is treated equally
+2013-06-02 20:43:12	yardena	sorry gtmanfred I don't think that addresses the problem
+2013-06-02 20:43:34	gtmanfred	was the problem not that the attitude of #archlinux-offtopic was leaking into #archlinux-women
+2013-06-02 20:43:36	yardena	"treating people equally" is not a value all of us share...
+2013-06-02 20:43:40	gtmanfred	why
+2013-06-02 20:43:46	yardena	because.
+2013-06-02 20:43:53	carharttjimmy	its a value I have
+2013-06-02 20:43:55	gtmanfred	is it not supposed to be a safe place for everyone
+2013-06-02 20:44:09	gtmanfred	a shelter from attitudes in the rest of the arch community
+2013-06-02 20:44:13	carharttjimmy	its geared mainly towards women and other smaller minorities 
+2013-06-02 20:44:22	carharttjimmy	but there is a problem of enforcement 
+2013-06-02 20:44:22	yardena	why do you need a shelter, gtmanfred?
+2013-06-02 20:44:30	yardena	what are we sheltering you from?
+2013-06-02 20:44:41	gtmanfred	just a place where i can go and hang out and not be fucking called ginger every 5 minutes
+2013-06-02 20:44:48	carharttjimmy	I dont think its enforceable at all yardena 
+2013-06-02 20:44:58	gtmanfred	that is why the username manfred is here and not in the other archlinux channels
+2013-06-02 20:48:03	fsckd	another aside, i think there's quite a bit of support for -women from al ops. five of them are in here frequently
+2013-06-02 20:48:47	carharttjimmy	fsckd: coincidentally tigrmesh and gtmanfred are ops
+2013-06-02 20:48:56	carharttjimmy	so do you mean 5 other besides them?
+2013-06-02 20:49:04	carharttjimmy	oh and ioni ofc 
+2013-06-02 20:49:13	carharttjimmy	so thats three so far :P
+2013-06-02 20:49:16	fsckd	carharttjimmy: swap gtmanfred with vodik
+2013-06-02 20:49:17	gtmanfred	vodik
+2013-06-02 20:49:28	gtmanfred	mrelendig
+2013-06-02 20:49:28	carharttjimmy	oh vodik yeah... him too
+2013-06-02 20:49:29	fsckd	and mrelendig is here often
+2013-06-02 20:49:37	carharttjimmy	yeah good point
+2013-06-02 20:49:58	fsckd	three of them are ops here, two are not be are here often
+2013-06-02 20:50:26	carharttjimmy	are not here often*
+2013-06-02 20:50:38	carharttjimmy	I think at the end?
+2013-06-02 20:50:42	fsckd	are here often*
+2013-06-02 20:50:46	fsckd	lol sorry
+2013-06-02 20:50:47	carharttjimmy	sorry, it annoyed me...
+2013-06-02 20:50:51	gtmanfred	falconindy sometimes visits
+2013-06-02 20:50:57	fsckd	yeah
+2013-06-02 20:50:59	carharttjimmy	yeah good point
+2013-06-02 20:51:53	fsckd	last year a number of devs used to visit. they stopped around the time the site got hacked :/
+2013-06-02 20:52:27	carharttjimmy	conspirarcy 
+2013-06-02 20:52:49	fsckd	lol
+2013-06-02 20:56:43	gtmanfred	did i kill the channel
+2013-06-02 20:56:59	carharttjimmy	well we do have a warrant now...
+2013-06-02 20:57:04	gtmanfred	awesome
+2013-06-02 20:57:07	<--	gtmanfred (root@archlinux/trusteduser/gtmanfred) has left #archlinux-women ("WeeChat 0.4.2-dev")
+2013-06-02 20:57:26	<--	manfred (root@archlinux/trusteduser/gtmanfred) has left #archlinux-women ("WeeChat 0.4.2-dev")
+2013-06-02 20:58:35	fsckd	...
+2013-06-02 20:58:59	<--	jrex_laptop (~jrex@pool-173-76-33-88.bstnma.fios.verizon.net) has quit (Ping timeout: 256 seconds)
+2013-06-02 20:59:28	yardena	i feel like we should officially wrap up this meeting for now
+2013-06-02 20:59:34	carharttjimmy	I agree
+2013-06-02 20:59:35	fsckd	ok
+2013-06-02 20:59:46	yardena	exit status: -1
+2013-06-02 20:59:59	carharttjimmy	break;
+2013-06-02 21:00:23	fsckd	**************** Meeting Over ***************
