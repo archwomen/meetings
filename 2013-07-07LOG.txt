@@ -1,0 +1,590 @@
+12:23:54   +meskarune   *** Meeting Started ***
+12:24:42   +meskarune   First thing on the agenda, main site, blog, etc
+12:25:53   +meskarune   so I worked on a grid template system that should allow us to create content across various sites and platforms that match
+12:26:19   +meskarune   I'm probably just anal, but it bothers me when I go to another section of a site, and the header matches but the position is a few pixels off
+12:27:02   +meskarune   we can use the same css file for redmine and any other CMS that we use
+12:27:11   +meskarune   so it will make it easy to integrate everything
+12:27:17        fsckd   awesome
+12:27:48   +meskarune   I'll make up a "toolkit" with examples so anyone can contribute easily
+12:29:06   +meskarune   the blog is up but still needs a bit of work. I don't think the archive pages are working :?
+12:29:33   +meskarune   if anyone is interested in web developement or want to learn, let me know ;)
+12:29:46   +meskarune   it will only hurt a little ;D
+12:30:19   +meskarune   there is also a simple post submission page 
+12:30:27   +meskarune   http://archwomen.org/test/submit
+12:30:59        phrik   Title: Submit Post (at archwomen.org)
+12:31:00   +meskarune   There are some features I'd like to see, like html preview, but its lowish priority
+12:31:05     MarkDude   Great idea with post page also :) +1
+12:31:25   +meskarune   the blog is static, but not everyone understands how git works
+12:31:39   +meskarune   so this way anyone can submit a markdown post, and it goes into a folder for review
+12:32:53   +meskarune   we'll need to make the drafts folder a git repository, and then have posts automatically added to the repository when they are added
+12:33:29   +meskarune   we also need to convert our posts on github into the new format, and the submission form makes that easier
+12:34:28   +meskarune   so we are making progress on the page, but need people to help write, and edit content
+12:34:34   +meskarune   (most edit my content)
+12:34:50      yardena   is the meeting at 10?
+12:35:11        fsckd   yardena: it's in progress right now :)
+12:35:14   +meskarune   12 EST :)
+12:35:21   +meskarune   but it was started a little late
+12:35:26      yardena   ooh i didn't see the line
+12:35:28   +meskarune   yardena: we are doing status updates :)
+12:35:49        fsckd   you're not too late, started about 10-15 min. ago
+12:36:03   +meskarune   yardena: check out https://archwomen.org
+12:36:05   +meskarune   new site
+12:36:14        phrik   Title: Arch Linux Women (at archwomen.org)
+12:36:16   +meskarune   but we need to make all the pages, like join, about, etc
+12:36:28      yardena   \o/
+12:36:37   +meskarune   I want to get enough up so we can start emailing organizations about sponsorship
+12:36:49   +meskarune   and get some resources to do more
+12:37:00      yardena   an all inclusize organization
+12:37:03   +meskarune   most groups want a site and flyers, etc
+12:37:26   +meskarune   yeah, I'm gonna need help with wording and editing, etc
+12:37:28   +meskarune   :)
+12:37:48   +meskarune   seriously, if anyone wants to write a little bit or edit, or you notice a spelling mistake, let us know
+12:38:09        fsckd   or make a pull request :)
+12:38:16   +meskarune   hehe ++
+12:38:49   +meskarune   yardena: also still drinking my coffee >.>
+12:38:51   +meskarune   lol
+12:39:06   +meskarune   does anyone have questions about the new site stuff?
+12:40:07           *    MarkDude assumes he falls under the Ally part :)
+12:41:01        fsckd   i think we should talk about that in today's meeting. how do allies fit in a-w
+12:41:19        fsckd   if it's ok with y'all i'll append it to the agenda
+12:44:23     MarkDude   +1
+12:44:34           *    MarkDude is reading up on redmine :)
+12:45:04        fsckd   added
+12:45:25     MarkDude   Part of being an ally means I should *listen* to how I can help ;D
+12:45:36      yardena   sadly i have to go in 5 minutes
+12:45:45        fsckd   :(
+12:46:24   +meskarune   yardena: its ok, we have notes :). is there anything you want to add?
+12:46:52      yardena   i think i'm good, thanks
+12:47:04      yardena   i'll send some pull requests later
+12:47:13   +meskarune   :)
+12:47:18      yardena   if nobody beats me to it
+12:47:21   +meskarune   haha
+12:47:37   +meskarune   so next thing on the agenda is the irc bot :)
+12:47:57        fsckd   right
+12:48:17        fsckd   the bot is actually working :)
+12:48:42        fsckd   there are going to be two stages for deploying
+12:49:00        fsckd   first stage, get it to replace the existing awbot and awbot-logr
+12:49:16        fsckd   those two do announcements and logging, respectively
+12:49:39   +meskarune   cool
+12:49:43        fsckd   the second stage will be to replace phrik
+12:50:44        fsckd   for the first stage, we need two things, a control program to manipulate the bot form the command line and persistence
+12:51:04        fsckd   i'm working on the control part. carharttjimmy is working on persistence
+12:51:32        fsckd   once those tow things are done, the bot can be rapidly developed to replace the existing awbots
+12:52:48        fsckd   from* two*
+12:53:01   +meskarune   sounds awesome
+12:53:21   +meskarune   and I'd like to learn more programming, so maybe I can practice with some plugins
+12:53:49        fsckd   sure. i'll need to make documentation for everything
+12:53:59   +meskarune   I can help with that :D
+12:54:08        fsckd   haha excellent XD
+12:54:17   +meskarune   I can mostly figure out what things do by looking at the code
+12:54:28   +meskarune   just not a very strong programmer yet
+12:55:49   +meskarune   that also sounds like a great oppertunity for an intership
+12:55:54   +meskarune   web dev and programming
+12:56:13        fsckd   hmm, may be it is
+12:56:41   +meskarune   haha ;)
+12:56:56   +meskarune   is that all of the status updates and announcements?
+12:57:02        fsckd   i think so
+12:57:12   +meskarune   so onto the agenda
+12:57:24   +meskarune   Arch Classroom
+12:58:15        fsckd   kaictl: manfred: any plans or ideas when classroom can resume?
+12:59:26      manfred   wow... perfect timing
+12:59:30      manfred   i just work up :)
+12:59:33      manfred   fsckd: we were just talking about it the other week
+12:59:39        fsckd   cool
+12:59:54   +meskarune   good morning manfred :)
+13:00:04      manfred   my brother comes in the 24th, and will be here until the next monday, so i was thinking the first weekend in august, if kaictl is good with that
+13:01:17   +meskarune   and there are no holidays then ;)
+13:01:30   +meskarune   + summer vacation
+13:02:18      manfred   right
+13:03:51   +meskarune   do you need any sort of hosting or other resources?
+13:04:44      manfred   we already have the instructions on the archwomen.org iirc
+13:05:05        fsckd   yes, you and kaictl have push access
+13:05:20      manfred   right
+13:06:24      manfred   aight, i think that covers everything you need from me?
+13:07:38        fsckd   if the first week of August, can you guys be sure by the end of this week?
+13:07:44      manfred   yes
+13:07:51        fsckd   ok great
+13:07:53      manfred   i just need to talk to him again
+13:08:08        fsckd   awesome :)
+13:08:44   +meskarune   yay
+13:09:23   +meskarune   so next up is a new issue tracker and wiki
+13:09:27   +meskarune   http://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems
+13:09:29        phrik   Title: Comparison of issue-tracking systems - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+13:09:47   +meskarune   we are using redmine right now
+13:10:13   +meskarune   redmine is nice, but it is ruby on rails based, uses lots of system resources, and its a bit of a PITA to keep updated
+13:10:33   +meskarune   and it HAS to be kept up-to-date for security
+13:11:03      manfred   i am a bit partial to RT, nice email based tracker
+13:11:12      manfred   but i need to go through the aur and fix it
+13:11:40      manfred   http://en.wikipedia.org/wiki/Request_Tracker
+13:11:41        phrik   Title: Request Tracker - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+13:13:25      manfred   i have to go get a haircut :P http://i.imgur.com/KUEHEus.jpg, bbl
+13:14:00   +meskarune   oh cool, perl based, with a web area and you can update tickets through email
+13:14:09   +meskarune   thanks for the recomendation manfred 
+13:15:56        fsckd   that looks nice
+13:16:32        fsckd   a-w has both social and software projects
+13:17:22        fsckd   some trackers are intended for software dev going as far as facilitating certain workflows which would not work for a-w
+13:19:20   +meskarune   it has an API as well
+13:19:27        fsckd   yeah
+13:19:37        fsckd   i like that it works over email
+13:19:44   +meskarune   yeah, me too
+13:19:49   +meskarune   we can do more research
+13:19:55        fsckd   yeah
+13:19:58   +meskarune   any other suggestions?
+13:20:03        fsckd   oh, it has a command line tool
+13:20:14   +meskarune   waaaaaaaaaht
+13:20:41        fsckd   wikipedia says, "A basic REST-like API and a command-line tool are also provided as another way to interact with RT."
+13:20:44   +meskarune   I also kinda like perl
+13:20:47           *    meskarune hides
+13:21:20        fsckd   lol
+13:22:07        fsckd   what i've been thinking is
+13:22:53        fsckd   if we have a separate wiki and tracker, the wiki can be in the forefront. that is, people iwll be linked to the wiki to learn baout the project
+13:23:06        fsckd   and the wiki will have a link to the tracker
+13:23:28        fsckd   for each project
+13:23:34        fsckd   that is, no link to the tracker from the front page
+13:24:01        fsckd   oh, suggestion for wiki, i was thinking something like moinmoin or gitit
+13:25:18   +meskarune   and those are both git based?
+13:25:43   +meskarune   the wiki will have information for administrators and members a like
+13:25:55   +meskarune   and its community based documentation
+13:26:04        fsckd   oh damn, i posted in the wrong channel
+13:26:07        fsckd   lol
+13:26:17   +meskarune   and we can link back to the arch wiki too
+13:26:19   +meskarune   lol fsckd 
+13:26:28        fsckd   no nevermind i posted in the right channel
+13:26:47        fsckd   nevermind me, i am a little confused at the moment
+13:27:02     MarkDude   +1 extra coffee or tea
+13:27:02        fsckd   where am i? who are you? save me!
+13:27:32           *    MarkDude wonders why Im typing on irc XD Am I in the Matrix?
+13:27:45     MarkDude   sp/in/ part of
+13:27:47   +meskarune   we are all in the matrix
+13:28:04     MarkDude   Cool, just wanted confirmation ;)
+13:29:20        fsckd   meskarune: moinmoin is not git based, gitit is
+13:29:34        fsckd   moinmoin is used by ubuntu women iirc
+13:30:45     MarkDude   Yep the main Ubuntu wiki is Moin
+13:36:09   +meskarune   cool
+13:38:02   +meskarune   moinmoin has RSS feeds and revision history, nice
+13:38:20   +meskarune   multilanguage support
+13:38:40   +meskarune   what is it based off of?
+13:39:13        fsckd   python
+13:39:16   +meskarune   nice
+13:39:38   +meskarune   so we can stick it in a virtual enviroment, then use gunicorn with lighttpd
+13:39:54   +meskarune   does anyone know about its resource usage?
+13:40:12        fsckd   i do not
+13:40:20        fsckd   i'd like to know that
+13:40:30   +meskarune   maybe I can make a test install on another server :)
+13:40:42        fsckd   sure :)
+13:41:29   +meskarune   the other option gitit is git based but also have web admin
+13:42:08   +meskarune   plugins are written in haskell
+13:42:14   +meskarune   and it also have multilanguage support
+13:43:08   +meskarune   what features do we absolutely need in a wiki?
+13:43:23   +meskarune   easy to update, secure
+13:43:32        fsckd   yes
+13:43:47        fsckd   imo the wiki is the most important are in project management
+13:43:50   +meskarune   I would like to see some way to get update notifications
+13:43:53   +meskarune   so its easy to mod
+13:44:02   +meskarune   rss is nice, so would email or even irc updates
+13:44:07        fsckd   (and todo lists which is what the tracker will be)
+13:44:14        fsckd   area*
+13:44:16   +meskarune   ++
+13:46:21   +meskarune   moinmoin supports openid
+13:46:49   +meskarune   maybe we can make a new issue called wiki and compare the features
+13:46:57        fsckd   yeah, good idea
+13:46:58   +meskarune   and figure out exactely what we need
+13:47:06   +meskarune   and what features we don't really need
+13:47:28        fsckd   i like git as part of the backup strategy
+13:47:46        fsckd   though may be it is possible with moinmoin as it uses flat files
+13:47:53   +meskarune   yeah, it makes it easy to download the backups to any computer
+13:48:39   +meskarune   with a flat file based wiki, we can stick those on github too
+13:49:05        fsckd   depends on what's in the files of course :)
+13:49:12   +meskarune   yeah :)
+13:49:20   +meskarune   and we have to be careful about it getting really huge
+13:49:28   +meskarune   lots and lots of files can use up the server inodes
+13:49:42   +meskarune   and lots of IO = slow server response time
+13:49:45        fsckd   right
+13:50:01   +meskarune   I acidentally used up all my space on another server because of munin stats
+13:50:03   +meskarune   lol
+13:50:06   +meskarune   20 GB of stats
+13:50:15        fsckd   haha
+13:50:19   +meskarune   LOL
+13:50:31   +meskarune   we'll need to keep an eye on disk space
+13:50:42   +meskarune   and hopefully get some hosting sponsors 
+13:50:44   +meskarune   :)
+13:50:48   +meskarune   so we can have moar data
+13:50:53        fsckd   heh
+13:52:43   +meskarune   there is also docuwiki
+13:54:32        fsckd   it also uses flat files
+13:55:03        fsckd   it's written in php
+13:55:35   +meskarune   yeah, idk how secure it is
+13:56:15        fsckd   moinmoin had a 0-day earlier this year
+13:57:19   +meskarune   we'll look into it, maybe do some test installs, and see what would work best :)
+13:57:29        fsckd   yeah, good idea
+13:57:31   +meskarune   any other suggestions for issue tracking or wiki ?
+13:57:35           *    MarkDude likes Media wiki ,but sees potential issues depending how editors/users are implemented. 
+13:58:11   +meskarune   some troll does s/community/dong/g ?
+13:58:17   +meskarune   :P
+13:58:29     MarkDude   Moin has some hassles I remember from my Ubuntu stuff- a long time ago, in a galaxy far away :D
+13:58:56   +meskarune   hehe
+13:59:52   +meskarune   so next thing is the intership
+14:00:48   +meskarune   google summer of code, gnome outreach program for women
+14:01:21   +meskarune   I want to have an intership for doing code, web developement, maybe writting, etc
+14:01:41   +meskarune   we need to define the program and requirements for applicants
+14:05:46        fsckd   yeah. would they be paid?
+14:06:16        fsckd   OPW pays. i don't know who funds.
+14:06:17   +meskarune   If we can get some sponsors, and maybe apply to grants, I would really like to offer that
+14:06:37   +meskarune   and we can apply to be a mentor?
+14:06:51   +meskarune   we need to list the requirements and due dates
+14:07:20        fsckd   yes
+14:13:14   +meskarune   so we'll get that information together
+14:13:32   +meskarune   and then we need to find people to help with meeting the requirements
+14:15:36      manfred   w00t my head feels so much lighter, meeting still going on?
+14:15:57        fsckd   yup
+14:16:16        fsckd   we're talking about internships
+14:18:52   +meskarune   if we find company sponsors, we could also maybe get a job referal system up
+14:19:23   +meskarune   as another resource
+14:32:36   +meskarune   so next is the mentorship program
+14:32:39   +meskarune   :D
+14:33:01   +meskarune   we can get a list of people willing to mentor, along with their skills, and match them with people who want to learn
+14:33:21   +meskarune   I don't know if there is an application available for that or not
+14:33:30   +meskarune   maybe some sort of simple social network?
+14:34:17        fsckd   like linkedin?
+14:34:35        fsckd   MarkDude: ping
+14:35:00           *    MarkDude outlined 2 types of Mentoring on pad. I think both types would work. Some mentors could do both parts. I would be able to do FOSS stuff in general part
+14:36:22     MarkDude   It would be the same "program" just with a list of what a person could help with. Mine would be a few types of wiki, being *front facing (Community, community)* and possibly other skills
+14:36:38   +meskarune   we would also need a way for people to contact each other 
+14:36:51   +meskarune   without revealing real life information, like email, etc
+14:37:09   +meskarune   and if people are interested in real life meetups, we can match by location as well
+14:37:36     MarkDude   A closed ML or sumthin' like that?
+14:38:14     MarkDude   Part of this (at least for me) depends on HOW the next item is looked at
+14:38:17   +meskarune   mailing list with a member direcotry or something?
+14:38:25     MarkDude   As far as Ally type stuff
+14:39:08     MarkDude   meskarune: that would make sense. I know in Fedora I do this via email, and a few prefer Facebook XD
+14:39:45     MarkDude   Also phone, but that is for test I do to approve new ambassadors (not too relelvant to how this will be done for AW
+14:40:51     MarkDude   Some folks will be ok with ML the group can see, and some will just want email only
+14:41:01           *    MarkDude 's guess here :)
+14:42:01     MarkDude   Key here for me, is getting folks to use some sortof compatible Linux (read in not always doing things in Ubuntu specific manner) 
+14:42:17   +meskarune   ++
+14:42:43     MarkDude   If Wayland keeps going  that is a Debian, Fedora, Arch, and others FOSS wide project
+14:43:07     MarkDude   In a way keeping up the awesome Arch has best dos theme :)
+14:43:40        fsckd   lol
+14:43:47           *    MarkDude types this when he is done rambling  eof  (Fedora APAC meeting progress)
+14:46:00     MarkDude   Oh, part of this depends on how AW describes membership ( Im assuming its just an opt-in)
+14:47:27     MarkDude   Fedora is currently re-doing the Mentoring program- I will keep an eye out for relevant parts for AW. 
+14:48:36           *    MarkDude 's thinks part of what should be done first - is define the FOSS-wide goal - similar to how BAMF has "Play well with others"
+14:49:09     MarkDude   And then define what AW wants from new contribs/users/etc
+14:51:24   +meskarune   lol sorry, had to grab some food
+14:51:56   +meskarune   yeah, I think we need some sort of organization system as well as a system for people to contact each other
+14:52:09   +meskarune   and in this situation, some people may not want themselves publicly known
+14:52:26     MarkDude   Also the elephant in the room as far as Ubuntu goes. Currently I am pointing folks to Fedora or Deb
+14:53:06     MarkDude   +1 - this could even be done on riseup pad if someone wanted - I think that would be edge case, but not too much of a hard option
+14:54:09     MarkDude   Part of this is allowing people to build a trust level. Contact via irc, then do a pad. its gonna involve typing SOMEHOW
+14:54:37   +meskarune   there is a social networking application called diaspora that is open source
+14:54:55   +meskarune   with lots of privacy controls that are easy to manage
+14:55:36     MarkDude   Email most likely. Fedora is chaging it to new person contacts Mentor- then the mentor creates a ticket (for AW this could be a diaspora account)
+14:56:32     MarkDude   The reason for the change was that some found creating a FAS ticket was a hassle. I think having it open for new person to create account, and mentor helps if need be
+14:56:45   +meskarune   yeah, that is true
+14:57:16   +meskarune   and I'm sure that there will be more people wanting to learn than to mentor, so we will need to grow the network
+14:57:21     MarkDude   Some people are brilliant, but hit roadblocks based on their own limitations (perceived or real)
+14:58:04   +meskarune   yeah, and need encouragement and resources to take advantage of
+14:58:27     MarkDude   It depends on how high the bar is to join. There has to be a bit of a hurdle to help weed out time vacuum folks that CANT google ever
+14:59:22     MarkDude   The hurdle could be create a user page - with personal description. Or maybe just a paragraph on what a person wants to learn
+15:00:27     MarkDude   Ubuntu's hurdle of LP account and using Moin to be official member is a real juxtaposition when you consider the Distro
+15:01:51     MarkDude   Having a person make a Diaspora makes sense. There is a HUGE difference on how different Mentors teach people. They are refining it a bit after learning some more
+15:02:36     MarkDude   ^^^ refer to Fedora (getting more coffee)
+15:02:42     MarkDude   eof
+15:04:50   Aster     So,oday, I explored Perl http://imgur.com/a/PAcSx
+15:04:51        phrik   Title: Programming Signs - Imgur (at imgur.com)
+15:06:01     MarkDude   XD
+15:06:09      manfred   nice
+15:06:45        fsckd   lol XD
+15:08:13   +meskarune   ok, next item, how do allies fit in with arch women?
+15:08:23   +meskarune   sorry, I'm running into some lag...
+15:09:05     MarkDude   This ally thinks I fit in where asked :) 
+15:09:46           *    MarkDude would still refer to himself as AW member even if the specific was ally
+15:09:55   +meskarune   ++
+15:10:11   +meskarune   I personally feel that it takes men and women both working together to make changes to equality
+15:10:12     MarkDude   Similar to how I USED to say I waqs a straight ally for equlaity
+15:10:53   +meskarune   the world isn't a single gender, and we all need to work together in the greater community
+15:11:03     MarkDude   now I just advocate for equality, dont need to clarify my preference in dating- and I dont care if folks were to think I was gay
+15:11:08        fsckd   the question of allies has come up every so often. particularly in every channel rules meeting :P
+15:11:37   +meskarune   yeah, if we should have specific requirements for an ally vs. women identified members
+15:11:42     MarkDude   Yep- that was my other thought. sexual identity is more than a binary thing
+15:12:06           *    MarkDude DOES think the barrier for men to Mentor- SHOULD be higher
+15:12:32     MarkDude   Its fair I have to prove I know 101 stuff, and at least part of Equality 201
+15:12:33   +meskarune   yeah, its not going to be a dating service :)
+15:12:45   +meskarune   and trolls love women's groups online
+15:12:49     MarkDude   Yep
+15:13:18        fsckd   !feminism101
+15:13:19           *    MarkDude would like if I could use the title of Feminist Hulk 
+15:13:20        phrik   http://geekfeminism.wikia.com/wiki/Feminism_101
+15:13:29   +meskarune   haha 
+15:13:31           *    MarkDude can pass the 101 test
+15:13:55        fsckd   !feminismfaq
+15:13:58        phrik   http://finallyfeminism101.wordpress.com/the-faqs/faq-roundup/
+15:14:16           *    MarkDude can do well on part of 201 that apply to me (clothing tho is not something men should maybe ever speak on)
+15:14:51     MarkDude   301 is where AW is IMHO. The idea of we are almost there, so act like it at times
+15:14:55   +meskarune   ugh, yeah. I could die happy if I never heard "what are you wearing right now?"
+15:15:24     MarkDude   Well more like when a woman was running for Vice president, and men complained about her clothes
+15:15:34   +meskarune   ><
+15:15:48   +meskarune   but dudes running for office wear the same outfit like EVERYDAY
+15:15:50           *    fsckd tries not to mention France and fails
+15:15:52           *    MarkDude was of opinion most men should shut up there - and stick to policy complaints
+15:15:54   +meskarune   haha
+15:15:58      manfred   meskarune: different ties
+15:16:07   +meskarune   lol
+15:16:10     MarkDude   Yep 3 suits- for the rest of your life men can do it
+15:16:16      manfred   MarkDude: everyone should shut up and just care about policy, not just men
+15:16:24   +meskarune   ++
+15:16:48     MarkDude   Sure- agreed, I was more just pointing out I was telling men to shut up about things they dont understand
+15:16:56   +meskarune   but the awful fashion sense and food choices are what is really important!
+15:17:29   +meskarune   yeah, one of the great things about having allies - many times guys will be more responsive to another dude saying "hey, thats no ok, and this is why"
+15:17:32      manfred   at the end of it, when hilary broke down and was crying, i just don't understand who wouldn't be have a mental breakdown at some point in a presidential race
+15:17:33     MarkDude   Of course Im not saying inverse that all women are fashion experts - clot
+15:17:35      manfred   shit is stressfull
+15:17:43   +meskarune   and they can follow the example that other guys here set
+15:18:16     MarkDude   Yep, and sometimes it takes a person with privilege to explain what that means
+15:19:25     MarkDude   Unfortunately. But having done that- I have seen that open a persons eyes
+15:19:28        fsckd   ok, i found it, the last time there was disagreement
+15:19:56        fsckd   i still don't understand what was disagreed on. i think it had something to do with allies
+15:20:36      manfred   fsckd: was this last months meeting?
+15:20:47        fsckd   yeah that day
+15:20:48      jy2wong   fsckd: something something men as explicit guests vs as equals in the channel
+15:20:56      manfred   ^^^
+15:21:07           *    MarkDude is not touching this with any pole....
+15:21:09      manfred   the day I rage quit and the channel went silent?
+15:21:15        fsckd   yes lol
+15:21:52           *    MarkDude knows he is guest here - but I think of it due to my Fedora involvement- not my binary
+15:22:44           *    MarkDude felt the need to explain a bit about Arch and AW at general Linux talk I gave to ITT tech
+15:23:18      manfred   MarkDude: the discussion was mostly if people like me were guests or allies, some people thought i should be only a guests even though me and kaictl are putting together the classroom stuff
+15:23:44     MarkDude   Split the difference- call everyone an advocate and still define mens hurdle as higher?
+15:24:05     MarkDude   In other words - you and kaictl have proved some with your actions
+15:24:15   +meskarune   I feel that primary contributers are members
+15:24:25   +meskarune   and people who jump in occasionally are guests say
+15:25:34        fsckd   one concern may be that men can dominate a space intended for women
+15:26:16     MarkDude   Makes sense. fsckd that would be a 101 thing a man would have to be able to grok
+15:27:32        fsckd   sometimes i wonder if i am dominating in any way; i like to be helpful but have i stepped too far?
+15:28:03      manfred   fsckd: if you go to far, i will knife you ♥
+15:28:19        fsckd   haha thanks XD
+15:28:44     MarkDude   lol- that and feedback loops are good to listen to 
+15:29:28           *    manfred feels a stabbing pain in his side from cold steel... maybe it is time to change the topic?
+15:29:45        fsckd   lol
+15:32:00     MarkDude   Well this issue is important to be sorted out, once the group has a consensus the other details may be easier to sort out
+15:32:15        fsckd   yeah
+15:32:32     MarkDude   UW women has a very heavy leaning to men are guests
+15:32:48     MarkDude   And should also tiptoe around, IMHO
+15:33:10      jy2wong   fsckd: IMO that's a legitimate concern, but I see no clear way of expressing or enforcing that as a channel rule.
+15:33:49   +meskarune   also I don't want to segregate people
+15:34:01     MarkDude   To the point it has hurt in PR. Well a rule about not dominating all the talk is fair- if its pointed out more to men so be it
+15:34:05   +meskarune   we are all in the arch linux community and FOSS community and should work together
+15:34:26   +meskarune   meh, we can just tell people to take off topic things to off-topic :)
+15:34:36     MarkDude   Applies to everyone. Most men can grok the idea- of letting others speak
+15:35:07   +meskarune   yeah, trying to include others in conversation instead of continuing a private conversation in channel
+15:35:16   +meskarune   I've been in other irc channels where people did that
+15:35:38   +meskarune   so when a new user comes in, we say hello, etc
+15:35:47   +meskarune   but that is probably a rule for everyone
+15:36:17     MarkDude   Looks like the idea here is: find ways to be inclusive, like asking for input of those that have not spoke... Define men as having higher hurdle to be in later to be defined Mentor program
+15:36:43   +meskarune   also trolls in general :)
+15:36:51   +meskarune   not all trolls are dudes 
+15:37:28     MarkDude   But as a general member, maybe not the split, that might work with the group. Its NOT the biblical baby - it could be split :D
+15:37:49      jy2wong   MarkDude: I don't think that's terribly helpful. If you have one group treated as second class citizens, communication suffers and you just end up inverting the asshat pyramid rather than removing it.
+15:38:04     MarkDude   Well Im suggesting just for Mentor
+15:38:36     MarkDude   Or to make it equal- ALL potential Mentors would need to pass a simple 101 test
+15:38:59     MarkDude   the fact men may know less there is on them - not AW making a split
+15:39:45     Nisstyre   meskarune: what makes someone a member vs. a guest?
+15:39:56   +meskarune   good question
+15:39:59     MarkDude   Most women know this earlier in life than most men would. I mean it makes sense for me- were I talking about Go Daddy to not judge Danica Patrick on her looks- thats 101
+15:40:34   +meskarune   guest is probably someone who jumps in to ask a question about the group, see what it is, or why it exists, but maybe isn't interested in staying or contributing
+15:40:44     MarkDude   No need to have her value based upon looks, even if you are trying to tie in with GD and their BS :D
+15:41:07     Nisstyre   What are some good games on GoG that work under WINE?
+15:41:44        fsckd   Nisstyre: see topic ;)
+15:42:04   +meskarune   haha
+15:42:13   +meskarune   Nisstyre: ps, indie humble bunder games.
+15:42:40     Nisstyre   meskarune: hmm, I have the one with psychonauts, and the first one (with Penumbra: Overture)
+15:42:51     MarkDude   If guest was not based on personal plumbing, that would help draw folks to Arch, imho. Allowing a one time contribution is helepful and deserving of guest- or FOSS helper person, or some other touchy feely name
+15:43:21     Nisstyre   oh is there a meeting going on or something?
+15:43:25   +meskarune   yeah, some people may just want to make a one time payment or jump in to check out the community for someone else
+15:43:34   +meskarune   like a wife or daughter 
+15:43:40   +meskarune   LOL Nisstyre 
+15:43:43   +meskarune   yes ;)
+15:44:00   +meskarune   <3
+15:44:11      manfred   longest meeting ever had here? was it that one week it was 6 hours?
+15:44:24   +meskarune   LOL omg 
+15:44:26   +meskarune   ><
+15:44:31   +meskarune   yeaaaah
+15:44:37        fsckd   i think it was 5 hours
+15:44:44      manfred   close enough
+15:44:47        fsckd   :P
+15:44:49     Nisstyre   I think arch-women should promote ports of games with awesome female protagonists to Linux
+15:44:51     MarkDude   If men are equals here, its due to AW treating its guests nicely, there is Women in title. And unlike Fedora Women- I can at least join here :D
+15:44:53     Nisstyre   e.g. The Longest Journey
+15:44:59     Nisstyre   doesn't play at all on WINE :(
+15:46:09       kaictl   lol i go to sleep a couple of hours before the meeting, get a nice morning/afternoon's sleep, and wake up to catch the tail end of the meeting.
+15:46:15       kaictl   haha
+15:46:38   +meskarune   LOL
+15:46:38        fsckd   lol
+15:46:46   +meskarune   kaictl: we was talking about classroom eariler :P
+15:47:00     Nisstyre   forgive my ignorance, but what's classroom?
+15:47:04       kaictl   i see. i'll have to dig out my logs later. 
+15:47:11      jy2wong   sorry, missed the classroom discussion
+15:47:15     Nisstyre   I guess I could grep through my logs
+15:47:24      jy2wong   but do y'all need any help with that?
+15:47:24   +meskarune   Nisstyre: arch linux classroom - project to teach people stuff, like package building or programming
+15:47:28     Nisstyre   not sure if I was joined actually
+15:47:36   +meskarune   this would increase the number of people contribution to arch and foss
+15:47:43     Nisstyre   meskarune: cool, are there some notes or something?
+15:47:52   +meskarune   Nisstyre: #archlinux-classroom
+15:47:57   +meskarune   there is a whole channel :D
+15:48:07   +meskarune   also arch wiki page and forum thingy
+15:48:14     Nisstyre   meskarune: is there a summary of the goals/methods somewhere?
+15:48:16     Nisstyre   oh ok
+15:48:32   +meskarune   it would be nice if classroom had a webpage maybe
+15:48:33      manfred   kaictl: first weekend of august sound good to you?
+15:48:40   +meskarune   just to show dates and general informatoin
+15:48:41       kaictl   yup
+15:48:47      manfred   meskarune: first weekend of august
+15:48:49      manfred   makr it
+15:48:51      manfred   mark*
+15:48:54   +meskarune   kk
+15:48:56   +meskarune   <3
+15:48:57       kaictl   no, makr it.
+15:48:59        fsckd   woohoo
+15:49:01        fsckd   haha
+15:49:02      manfred   marx it
+15:49:51       kaictl   m rax it.
+15:49:57     MarkDude   MarkDude it
+15:50:19      manfred   kaictl: 6rax it
+15:50:45       kaictl   manfred: nah. 1-1-1 it.
+15:50:50      manfred   heh
+15:50:55        fsckd   let me see if i can summarize
+15:51:16      manfred   1) Fish are friends, not food
+15:51:25     Nisstyre   meskarune: well if you need someone to teach functional programming via Scheme or something let me know
+15:51:32        fsckd   men and women are equal here, people are distinguished by how much the contribute?
+15:51:38     Nisstyre   that is mostly my area of expertise
+15:51:47   +meskarune   Nisstyre: if you wanna, I'll support you in that endeavor
+15:51:59     Nisstyre   meskarune: yeah, when I have free time
+15:52:06     Nisstyre   I have something I'm working on for money
+15:52:19   +meskarune   and contributing can be answering questions, welcoming others, adding to wiki, helping with meeting notes, etc
+15:52:22     Nisstyre   but I would be willing to put aside some time
+15:52:41      jy2wong   Nisstyre: I forget, did you go to waterloo or happen to be aware of the existence of waterloo?
+15:52:47     Nisstyre   jy2wong: McMaster
+15:52:51     Nisstyre   and I'm still going there
+15:52:59     Nisstyre   I live near Waterloo though
+15:53:04     Nisstyre   in the summer that is
+15:53:14   +meskarune   see if they will fund you in teaching a class :) and we can help with hosting any docs or whatever
+15:53:47   +meskarune   I'll even write you a ref if they need that for handing out funds. college is a great resource for that sort of thing
+15:54:03     Nisstyre   meskarune: there is a CS outreach program meant for teaching kids, not sure if they could get *funding*, but maybe
+15:54:53     Nisstyre   meskarune: I was thinking just write up some tutorials/docs to help people get started
+15:54:54   +meskarune   hehe
+15:55:13   +meskarune   fsckd: anyways, that sounds good to e fsckd 
+15:55:55      jy2wong   I might possibly be convinced to run a 'wtf is a kernel' 101 some time in the future
+15:55:58   +meskarune   and everyone should try to be inclusive and understanding in channel 
+15:56:26     MarkDude   +1
+15:56:34   +meskarune   if someone has a project idea they want to work on, please let the channel know
+15:56:45   +meskarune   I want to support people's endeavors :)
+15:57:12      manfred   jy2wong: do you know much about jprobes?
+15:57:37      jy2wong   manfred: never heard of a jprobe.
+15:57:43      manfred   ahh
+15:58:00      manfred   it is what replaced overwriting the syscall table in the old kernel, now that the syscall table is read only
+15:58:03      jy2wong   (qu'est-ce que c'est?)
+15:58:11      manfred   like if you wanted to hook something into the kernels fork() call
+15:58:22      manfred   i would be interested in some kernel stuff
+15:58:59      manfred   (you use it to load into modules and overload functions but still feed to teh old function at teh end of your injection)
+15:59:58      jy2wong   manfred: yar. (sounds more like 'beat linux kernel into submission 201' though.)
+16:00:13   +meskarune   ya'll should jump into #archlinux-classroom if you aren't there :)
+16:00:22      manfred   jy2wong: http://ix.io/6y3
+16:00:30      manfred   jy2wong: yeah no, i would still be interested in what you were offering
+16:00:44      manfred   i need to learn more about the kernel anyways
+16:00:46      jy2wong   manfred: on phone. will check out later
+16:00:50      manfred   ok :)
+16:01:50      manfred   meskarune: which bug tracker did we decide to use? and do i need to patch up the rt4 aur package?
+16:02:24      manfred   oh looks like someone already fixed it
+16:02:27   +meskarune   manfred: haven't decided yet, but request tracker does look nice
+16:02:29   +meskarune   :)
+16:02:31      manfred   just a few . releaces out of date
+16:02:32   +meskarune   manfred: sweet
+16:02:38      manfred   yar
+16:02:44     Nisstyre   jy2wong: how about something on "How to write a device driver for C noobs" ?
+16:03:21        fsckd   ok bug in riseup pad
+16:03:27   +meskarune   oh no
+16:03:27      jy2wong   Nisstyre: probably 'what is an device driver' should come first.
+16:03:34     Nisstyre   true
+16:07:28   +meskarune   ok, lets wrap up the meeting
+16:07:38   +meskarune   Final comments, questions, concerns?
+16:07:38        fsckd   :)
+16:07:42      manfred   elephants?
+16:07:57        fsckd   what do you mean by, "FOSS is mostly male, so it would make sense to have men involved and making change within their own circles." ?
+16:08:07      manfred   (epitaphs*)
+16:08:29   +meskarune   so like, most free open source projects have mostly male members
+16:09:10   +meskarune   if more guys get involved with increasing the involvement of women, they can affect the groups they are in
+16:10:22        fsckd   as more women get involved, they will replace the guys?
+16:10:31        fsckd   in the group
+16:10:38   +meskarune   with both genders working together, a wider range of people will be reached
+16:10:52   +meskarune   not replace
+16:11:02   +meskarune   I'd love to see 50/50 split with men and women
+16:12:02        fsckd   i estimate it's about 20-30% women in here
+16:12:19   +meskarune   in jobs and open source projects, its going to be half/half or mostly guys. so we need that support network in place, and guys are an important resource for that
+16:13:33        fsckd   ok... hmm
+16:13:34   +meskarune   yeah, I want to make some marketing material that people can download and use
+16:13:50        fsckd   cool
+16:13:51   +meskarune   so we can get the word out and recruit some more
+16:13:58   +meskarune   using scribe probably
+16:14:12        fsckd   what is scribe?
+16:14:13   +meskarune   make some flyers and pampletes, etc
+16:16:18   +meskarune   http://www.scribus.net/canvas/Scribus
+16:16:19        phrik   Title: Scribus.net (at www.scribus.net)
+16:16:22   +meskarune   sorry, scribus
+16:16:30        fsckd   oh scribus heh
+16:16:32   +meskarune   you use it to make print page layouts
+16:16:37   +meskarune   pamplets, etc
+16:16:44   +meskarune   can use inkscape also
+16:18:41        fsckd   cool
+16:19:01           *    MarkDude suggests we avoid a focus on metrics like UW. Thats a progress indicator, meaning if a man joins it ruins their goal
+16:19:40   +meskarune   yeah, I agree
+16:19:48     MarkDude   what % of AW is intersting, but UW is uses this as metric, its bad math
+16:19:50     MarkDude   IMHO
+16:20:24   +meskarune   we should be cognizant and try to recruit, but I think having guys out there and spreading the word will help us to reach more people and get more resources
+16:20:42           *    MarkDude wants people to join- if we focus on cross section of population, and do things well - women, men and everyone will join :)
+16:20:45   +meskarune   vs. only women
+16:21:04   +meskarune   and we can all work together and have a great community and do lots of good
+16:21:21           *    MarkDude feels the being selective on reaching out to men is implied and not need be codified
+16:22:20     MarkDude   Oh +1 for mktg material, I will bring AW lit to all my events - same as I do with UW (need anyone think I am disparaging them) :)
+16:22:54   +meskarune   I think there is a place for women only or women focused groups, and there are plenty out there
+16:23:09           *    MarkDude likes UW, sees them as a good learning tool, and that each project decides WHAT they want for themselves
+16:23:13   +meskarune   but for our goals, I think it would be more effective to be inclusive
+16:23:35     MarkDude   Yes- especially teaching STEM to High school girls is example
+16:24:28     MarkDude   Sometime the most effective thing is to NOT reinvent the wheel- and just point to groups that are geared towards differing goals - eof
+16:24:45   +meskarune   yeah, I'm all for networking and sharing resources
+16:25:14   +meskarune   fsckd: do you have any comments? 
+16:25:26   +meskarune   also any other comments/questions/concerns ?
+16:25:54      manfred   comments/questions/concerns/elephants
+16:27:08           *    yardena is back
+16:27:16   +meskarune   hai
+16:28:01        fsckd   i have no comments atm
+16:28:11      manfred   fsckd: any elephants?
+16:28:24        fsckd       _    _
+16:28:24        fsckd      / \__/ \_____
+16:28:24        fsckd     /  /  \  \    `\
+16:28:24        fsckd     )  \''/  (     |\
+16:28:24        fsckd     `\__)/__/'_\  / `
+16:28:24        fsckd        //_|_|~|_|_|
+16:28:24        fsckd        ^""'"' ""'"'
+16:28:37      manfred   perfect
+16:28:42   +meskarune   cute
+16:28:59   +meskarune   yardena: we were talking about the role of male allies to the group
+16:29:16   +meskarune   and how they can help get the word out, and make their own social circles more female friendly
+16:29:23     Nisstyre   meskarune: this is the program I was talking about btw https://mail.google.com/mail/u/0/?shva=1#search/outreach-mcmaster%40googlegroups.com/13f8761d4e2c06ca
+16:29:24      yardena   i have a lot of scrollback to catch up on!
+16:29:25     Nisstyre   er
+16:29:25        phrik   Title: Gmail: Email from Google (at mail.google.com)
+16:29:28     Nisstyre   http://www.thespec.com/news-story/3854468-mac-initiative-helps-demystify-the-world-of-computer-sciences/
+16:29:31   +meskarune   yardena: yeah, meeting is long lol
+16:29:32        phrik   Title: Mac initiative gets kids into the game (at www.thespec.com)
+16:29:42      yardena   are we still being logged
+16:29:50   +meskarune   yeah I think so
+16:29:51      manfred   yardena: about 4 hours
+16:29:52     Nisstyre   god I hate gmail
+16:29:54   +meskarune   should I end the meeting?
+16:30:01        fsckd   sure :)
+16:30:20      yardena   haha yes i feel like i've been to the moon and back and y'all are still meeting lol
+16:30:30   +meskarune   Nisstyre: I like zoho and nearlyfreespeach.net
+16:30:34        fsckd   haha
+16:30:37   +meskarune   OK
+16:30:45   +meskarune   *** MEETING ENDED ***
