@@ -290,7 +290,7 @@
 15:01:51     MarkDude   Having a person make a Diaspora makes sense. There is a HUGE difference on how different Mentors teach people. They are refining it a bit after learning some more
 15:02:36     MarkDude   ^^^ refer to Fedora (getting more coffee)
 15:02:42     MarkDude   eof
-15:04:50        Aster   So,oday, I explored Perl http://imgur.com/a/PAcSx
+15:04:50        Aster   So, today, I explored Perl http://imgur.com/a/PAcSx
 15:04:51        phrik   Title: Programming Signs - Imgur (at imgur.com)
 15:06:01     MarkDude   XD
 15:06:09      manfred   nice
