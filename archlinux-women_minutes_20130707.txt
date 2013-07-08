@@ -1,0 +1,35 @@
+Arch Women IRC Meeting - 7th July 2013
+
+Announcements and status updates
+ * Server (blog, front page, etc.)
+   * meskarune made a grid template system which can be used across various sections of the site (e.g. front page, Redmine).
+   * Blog is up but still needs work - help is welcome.
+     * There is a simple post submission page https://archwomen.org/test/submit/ . Post are placed into a directory for review (eventually have it managed by git). Anyone can contribute to the blog without needing to know how to use git.
+ * IRC bot
+   * Work is to progress in two stages - replace existing a-w bot and the logger, then replace phrik.
+
+Topics for discussion
+ * Discuss what needs to be done to achieve completion of the classroom.
+   * Proposed time is the first week of August.
+ * Replace redmine with a wiki and issue tracker.
+   * Question: What issue tracker and wiki?
+   * Considerations: Needs to be easy to administrate, light on resource usage, and generally secure.
+   * Suggestions: Request tracker, moinmoin, gitit, dokuwiki
+ * Internship (GSoC, OPW, what else?)
+   * For doing code, web development, maybe writing, etc.
+   * Need to define the program and requirements for applicants.
+   * Get sponsors and apply to grants for funding.
+ * Mentorship program goal and possibly details? Two main types possible
+   * Arch based aimed for the Distro.
+   * FOSS based approach. Let's get folks to use Linux and help point to Distro that suits them best. MarkDude would be able to help with this option. I (MarkDude) see the goal as getting more people involved that *play well with others* involved in FOSS.
+   * Need to have a system in place for mentors and learners to network and communicate.
+ * How do allies fit into Arch Women?
+   * Men and women are equal in A-W; people are distinguished by how much they contribute. Guests are those who do not intend to stay long or participate.
+   * Some men have a vested interest in benefiting women.
+   * FOSS is mostly male, so it would make sense to have men involved and making changes within their own circles.
+   * Everyone should try to be inclusive and understanding in channel. It is a safe place for many.
+   * Help set an example for other men.
+   * peace, love and coffee
+
+Final comments, questions, etc.
+ * Clarification of third point under "allies" above, "FOSS is mpstly male [...]."
