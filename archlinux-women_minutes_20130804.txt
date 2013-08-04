@@ -1,0 +1,50 @@
+Arch Women IRC Meeting - 4th August 2013
+
+Announcements and status updates
+	* Sponsorship from Digital Ocean
+		* Arch Women's blog post https://archwomen.org/blog/post/digitalocean-partnership.html
+		* Digital Ocean's tweet https://twitter.com/digitalocean/status/357512116082704384
+		* Arch Women's tweet https://twitter.com/digitalocean/status/357512116082704384
+	* New dokuwiki installed for documentation https://archwomen.org/wiki to replace the wiki part of redmine.
+
+Topics for discussion
+	* Classroom - will know more later after gtmanfred and kaictl consult with each other.
+	* Suggestion: have another Install Day
+		* Have some special events where people talk about how to install and set up something. Examples: webserver, systemd-user, weechat. Have the same event held multiple times in the day to accommodate timezones far apart.
+		* Buddy install events for difficult upgrade processes, e.g. /bin merge.
+		* Someone could watch arch-dev-public mailing list for possible big issues and let us know ahead of time.
+		* Have an install day about every 2 months, maybe we can have a wiki page with a list of helpful resources for people.
+		* Tentative date for the next one: Sept. 28th.
+	* Switch to PostgreSQL on dataserver - yay
+	* Issue tracker to replace the issue tracker part of redmine.
+		* Need to research and choose one.
+			* To be done on August 11th at 16:00 UTC.
+			* New suggestions:
+				* List of issue trackers at http://www.thegeekstuff.com/2010/08/bug-tracking-system/
+				* Duet - not open source or free, though http://www.duetapp.com/
+				* ProjectPier
+				* phpcollab
+				* django-helpdesk
+			* Criteria: low resource usage, easy to administrate (install, upgrade, etc.), easy to use (allow quick submission of proposals), custom statuses, list assigned issues to logged in user, support for multiple projects.
+			* kaictl will test Trac - modules and whatnot for making Trac nicer - in systemd-nspawn.
+			* meskarune, fsckd and tigrmesh will test Mantis in a systemd-nspawn instance, possibly on the Archwomen server.
+	* Discussion of migrating Redmine data to Docuwiki:
+		* Decisions made:
+			* The Redmine wiki to Dokuwiki migration will be on August 10th.
+			* Migration option 1:
+				* people could just create pages even and cp data
+			* Migration option 2:
+				* make a script to walk through each wiki page and download the text version
+				* have another script convert the markup (we can do some sed magic maybe to change the text files in Dokuwiki style)
+				* internal links may need manual work
+				* and of course putting pages into the right place
+	* Blog is almost completely back up. Anyone willing to write a post and/or have any blog post ideas?
+	* Suggestion: we need a mission statement, something that has a specific goal we can work toward and is quantifiable.
+		* Deferred to next month's meeting.
+	* Suggestion: mini class on using git so more people can add to Archwomen projects.
+		* gtmanfred and kaictl can help.
+		* Detailed discussion deferred to next month.
+	* We need to make some marketing materials, artwork is available at https://archwomen.org/media/images
+		* Deferred to next month's meeting.
+
+Final comments, questions, etc.
