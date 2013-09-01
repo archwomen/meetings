@@ -27,6 +27,6 @@ Community
   * Recurring feature for blog / site: ask community members for 1 paragraph or so to answer 
     + "What arch women means to me." or 
     + "Why I participate in arch women."
-  * Suggeston: have single sign on for sites - one user login database that all sites use for auth.
+  * Suggestion: have single sign on for sites - one user login database that all sites use for auth.
     + Could also use LDAP - works for mail and calendar as well as sites.
     + Oauth also a possibility.
