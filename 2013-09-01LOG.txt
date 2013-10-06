@@ -1,0 +1,383 @@
+2013-09-01 12:28:07	+meskarune	==== Meeting Begins ===
+2013-09-01 12:28:13	+meskarune	ok, announcements
+2013-09-01 12:28:21	+meskarune	is gtmanfred or kaictl around?
+2013-09-01 12:28:24	+meskarune	:)
+2013-09-01 12:29:02	+meskarune	The first PKGBUILD class will be on September 14th at 17:00 UTC
+2013-09-01 12:29:10	+meskarune	tell your friends, advertise, etc :)
+2013-09-01 12:29:38	+meskarune	maybe that could be added to the topic in -classroom and -women
+2013-09-01 12:29:51	+meskarune	and I'll add an event or something to the blog?
+2013-09-01 12:30:03	+tigrmesh	yes
+2013-09-01 12:30:23	+meskarune	I'm excited about it
+2013-09-01 12:31:08	+tigrmesh	and twitter.  i've never understood the appeal of a cli client for twitter.  i finally "get" it.  i need to make updating twitter much easier
+2013-09-01 12:31:12	+tigrmesh	me too
+2013-09-01 12:32:19	+meskarune	yeah, cli client means you don't have to use a browser, and you can read updates in your terminal, or even stick them on conky, etc
+2013-09-01 12:32:27	+meskarune	the twitter page can be pretty slow loading :(
+2013-09-01 12:32:49	+tigrmesh	just for tweeting would be great
+2013-09-01 12:32:57	manfred	i am at work
+2013-09-01 12:33:06	+tigrmesh	hi
+2013-09-01 12:33:17	+tigrmesh	updates on the class, manfred?
+2013-09-01 12:33:21	<--	Chris_TR (~chris@187-178-35-237.dynamic.axtel.net) has quit (Ping timeout: 256 seconds)
+2013-09-01 12:33:27	manfred	nope, just that it is still on
+2013-09-01 12:33:42	manfred	i have to go back to work
+2013-09-01 12:33:46	+tigrmesh	bai
+2013-09-01 12:35:39	+meskarune	I might work on a twitter python thingy after the meeting
+2013-09-01 12:35:46	+meskarune	and we could have other things use it as well
+2013-09-01 12:36:06	+meskarune	need to make a push to finish up the site I think
+2013-09-01 12:36:30	+meskarune	and if there are suggestions, people can email us, or post in irc or use git, etc
+2013-09-01 12:36:45	+meskarune	like resources page, I want to list debian women, ubuntu women, linux chix, etc
+2013-09-01 12:40:06	+meskarune	ok, so projects
+2013-09-01 12:40:42	+meskarune	I'd like to see a mini-class on using git. we can use the test git repo on the server to help
+2013-09-01 12:40:51	+meskarune	maybe we can set a date and then get the word out
+2013-09-01 12:41:30	+meskarune	I'm pretty much available everyday any time
+2013-09-01 12:42:03	+tigrmesh	anyone willing to head that up?  or at least work with meskarune about what it should cover?
+2013-09-01 12:45:30	+meskarune	we can use the docs on the wiki for git
+2013-09-01 12:46:04	+meskarune	adding to a repo consists of 3 commands, and there are gui clients too
+2013-09-01 12:46:19	+meskarune	that show changes and things
+2013-09-01 12:47:09	+meskarune	I think kaictl  might have been interested
+2013-09-01 12:47:15	+meskarune	I have to look at the last meeting
+2013-09-01 12:48:30	+meskarune	we can recruit a bit. the git class doesn't need to be super formal since using git isn't too complicated, though it does have a learning curve
+2013-09-01 12:48:44	+meskarune	maybe people can jump in too
+2013-09-01 12:48:57	+meskarune	my internets is laggy
+2013-09-01 12:48:59	+meskarune	:(
+2013-09-01 12:49:38	+meskarune	kk, install day?
+2013-09-01 12:49:56	+meskarune	we could have one next weekend?
+2013-09-01 12:50:01	+meskarune	idk
+2013-09-01 12:53:17	+meskarune	I'll make a blog post on what you need for install day, and when it is :)
+2013-09-01 12:57:01	+meskarune	back online
+2013-09-01 12:57:51	+meskarune	so maybe install day can be sept 7th?
+2013-09-01 12:58:04	+meskarune	and we can have another a few months after
+2013-09-01 12:58:46	+tigrmesh	is sept 7 too soon?
+2013-09-01 12:59:48	+meskarune	not sure
+2013-09-01 13:00:01	+meskarune	do we need a lot of marketing for install days?
+2013-09-01 13:00:14	+meskarune	there is the pkgbuild class the next weekend after the 7th
+2013-09-01 13:00:24	+tigrmesh	right
+2013-09-01 13:00:49	+tigrmesh	are people even available for an install day?
+2013-09-01 13:01:08	+meskarune	hard to tell, meeting is scarce today 
+2013-09-01 13:01:23	+meskarune	probably because of school starting
+2013-09-01 13:01:59	+meskarune	alot of people are still in college
+2013-09-01 13:03:02	+tigrmesh	are any of you available to do an install day next sunday (sept 7)? yar, vodik, terra-and-luna, tlamer, Sornaensis, numeral, Nisstyre, KylieBrooks, kaictl, jy2wong, hh4a, hawkgirl, carharttjimmy, CalimeroTeknik, Aster?
+2013-09-01 13:03:26	KylieBrooks	install day?
+2013-09-01 13:03:31	+tigrmesh	and anyone i missed as i did a brief scan of the nicks in this chan?
+2013-09-01 13:03:44	+meskarune	hi KylieBrooks :D
+2013-09-01 13:03:51	numeral	I will probably be here
+2013-09-01 13:03:56	numeral	although I'm also homeless...
+2013-09-01 13:03:57	+meskarune	I'll be here
+2013-09-01 13:04:00	numeral	so I can't promise I'll be here
+2013-09-01 13:04:00	+meskarune	I need to install arch too
+2013-09-01 13:04:11	+meskarune	and it would be fun to do it with other people
+2013-09-01 13:04:15	+tigrmesh	where we offer ourselves to help people install arch.  i think.  i wasn't able to be at the last one
+2013-09-01 13:04:19	Sornaensis	Install Day?
+2013-09-01 13:04:32	numeral	meskarune: wanna meet up and do it somewhere? :/
+2013-09-01 13:04:41	numeral	oh wait, you're pretty far away, you're not in north jersey
+2013-09-01 13:04:41	+meskarune	zomg sounds fun
+2013-09-01 13:04:48	+meskarune	I have friends in nyc
+2013-09-01 13:04:48	numeral	yay!
+2013-09-01 13:04:57	KylieBrooks	i'm in toronto :(
+2013-09-01 13:05:03	numeral	KylieBrooks: come to nyc!
+2013-09-01 13:05:08	KylieBrooks	LOL
+2013-09-01 13:05:14	numeral	toronto ain't that far
+2013-09-01 13:05:15	KylieBrooks	passport and money.
+2013-09-01 13:05:17	numeral	just like 16 hour drive
+2013-09-01 13:05:18	+meskarune	I need to take a trip up there and apply to jobs
+2013-09-01 13:05:23	numeral	meskarune: woo
+2013-09-01 13:05:51	 *	KylieBrooks looks up train from toronto to ny
+2013-09-01 13:06:09	+meskarune	having a meetup would be soooo fun
+2013-09-01 13:06:44	carharttjimmy	I can plan on it tigrmesh 
+2013-09-01 13:07:03	numeral	KylieBrooks: you can stay at my place... if I have a place by then
+2013-09-01 13:07:06	<--	pierreghz (~krux@45.76-247-81.adsl-dyn.isp.belgacom.be) has quit (Ping timeout: 264 seconds)
+2013-09-01 13:07:11	numeral	I just have to like buy an inflatable mattress
+2013-09-01 13:07:16	carharttjimmy	lol
+2013-09-01 13:07:24	carharttjimmy	I am going camping soon meskarune 
+2013-09-01 13:07:28	carharttjimmy	its gonna be so fun
+2013-09-01 13:07:36	KylieBrooks	I dont have $ for pssport, and i'd need an /accessible/ place
+2013-09-01 13:07:49	numeral	accessible how?
+2013-09-01 13:08:02	+meskarune	aaw
+2013-09-01 13:08:16	+meskarune	KylieBrooks: in south jersey I have an appartment on the bottom floor, no stairs ;)
+2013-09-01 13:08:23	 *	meskarune makes subtle hint
+2013-09-01 13:08:33	-->	pierreghz (~krux@125.84-136-217.adsl-dyn.isp.belgacom.be) has joined #archlinux-women
+2013-09-01 13:08:43	numeral	hrm, my place has a stair I think :/
+2013-09-01 13:08:59	numeral	there's an elevator, but the place I'm trying to get has a stair in the middle of the apartment
+2013-09-01 13:09:45	+meskarune	if we could get some donations, we'd have money to help fund a meetup :)
+2013-09-01 13:09:49	KylieBrooks	lol, $122 fare, i dont have the money for that in my budget 
+2013-09-01 13:10:04	+meskarune	its only like $35 round trip for me 
+2013-09-01 13:10:06	KylieBrooks	add to that the $160 10 year passport. no money.
+2013-09-01 13:10:07	 *	carharttjimmy magically makes all the money in the world to meskarune
+2013-09-01 13:10:15	KylieBrooks	meskarune: i'm in toronto.
+2013-09-01 13:10:20	 *	meskarune spends it all on making the world better
+2013-09-01 13:10:26	KylieBrooks	and i said i was looking up the train.
+2013-09-01 13:10:29	carharttjimmy	meskarune: ....
+2013-09-01 13:10:31	+meskarune	hehe yeah :)
+2013-09-01 13:10:52	carharttjimmy	you should have got KylieBrooks a passport and a train fare
+2013-09-01 13:10:57	carharttjimmy	but you had to do it to the world
+2013-09-01 13:11:01	KylieBrooks	who's "you" lol
+2013-09-01 13:11:02	+meskarune	lol
+2013-09-01 13:11:23	+meskarune	ok, so date for install day
+2013-09-01 13:11:29	+meskarune	is sept. 7th too soon?
+2013-09-01 13:11:37	+meskarune	I want to have install days like every few months
+2013-09-01 13:11:44	+meskarune	maybe every 3 - 4 months?
+2013-09-01 13:11:56	-->	Caleb (~ichigo@archlinux/op/caleb) has joined #archlinux-women
+2013-09-01 13:12:05	KylieBrooks	every few months is fine, i can do the next one
+2013-09-01 13:12:12	KylieBrooks	this month, nope
+2013-09-01 13:12:12	carharttjimmy	how about we all point at Caleb and have him do all our install days
+2013-09-01 13:12:23	Caleb	shush
+2013-09-01 13:12:27	+tigrmesh	lol
+2013-09-01 13:12:32	carharttjimmy	Caleb: <3
+2013-09-01 13:12:37	+meskarune	hehe
+2013-09-01 13:12:46	+tigrmesh	ok.  so sept 7 is ok with everyone?
+2013-09-01 13:12:52	KylieBrooks	the one after the next one is a bit more likely than the next one, but we'll see 
+2013-09-01 13:12:59	Caleb	im not even sure what youre doing
+2013-09-01 13:13:03	+tigrmesh	Caleb: arch linux install day
+2013-09-01 13:13:06	KylieBrooks	but yeah, i'm down for when i have enough money 
+2013-09-01 13:13:09	Caleb	fun times
+2013-09-01 13:13:12	+meskarune	we gather together and install arch
+2013-09-01 13:13:17	KylieBrooks	to get passport and fare 
+2013-09-01 13:13:20	+tigrmesh	online*
+2013-09-01 13:13:23	Sornaensis	a physical gathering?
+2013-09-01 13:13:28	Sornaensis	oh
+2013-09-01 13:13:29	+meskarune	yes
+2013-09-01 13:13:31	+meskarune	:D
+2013-09-01 13:13:33	KylieBrooks	btw, the train is only 11 hours, to thats good 
+2013-09-01 13:13:39	+meskarune	I want to have a archwomen meet someday
+2013-09-01 13:13:51	+tigrmesh	i'll be here, and i'm only going from the couch to the desk
+2013-09-01 13:15:26	KylieBrooks	I need to travel anyway 
+2013-09-01 13:15:39	+meskarune	couch surfing ftw
+2013-09-01 13:15:56	Caleb	indeed
+2013-09-01 13:16:14	+meskarune	so 7th install day, 14th pkgbuild class
+2013-09-01 13:16:28	+meskarune	and we need to advertise the shit out out of them :)
+2013-09-01 13:16:56	Caleb	heh yeah
+2013-09-01 13:17:13	Caleb	oh snap its our dating anniversay today
+2013-09-01 13:17:27	Caleb	we have been together 12 years today
+2013-09-01 13:17:30	Caleb	wewt
+2013-09-01 13:17:31	+meskarune	aw
+2013-09-01 13:17:48	Caleb	been married 5 years the 20th of this month
+2013-09-01 13:18:27	+tigrmesh	that is awesome
+2013-09-01 13:19:19	numeral	hrm, I haven't installed arch in a while
+2013-09-01 13:19:22	Caleb	yeah 
+2013-09-01 13:22:28	Sornaensis	I installed arch to a usb drive a month ago to bail out a messed up laptop
+2013-09-01 13:22:43	carharttjimmy	I have done it before
+2013-09-01 13:22:59	carharttjimmy	Caleb: congrats 
+2013-09-01 13:23:28	+tigrmesh	me either.  maybe i'll install to the partition i'm not doing anything with then move my /home to the new install
+2013-09-01 13:24:26	carharttjimmy	I am going camping at a park with this kind of view
+2013-09-01 13:24:28	carharttjimmy	http://www.dpr.ncparks.gov/photos/photos/CRMO_2013/03/640.22796.jpg
+2013-09-01 13:24:32	carharttjimmy	going ot be a lot of fun
+2013-09-01 13:24:38	+tigrmesh	nice
+2013-09-01 13:24:42	+tigrmesh	ok.  here are the meeting notes:  https://pad.riseup.net/p/aw2013sept
+2013-09-01 13:24:46	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-09-01 13:24:51	+meskarune	Caleb: my fav chocolate place: http://www.socolachocolates.com/
+2013-09-01 13:24:53	phrik	Title: Socola Chocolates | Chocolate Truffles, Wedding Favors, Business Gifts (at www.socolachocolates.com)
+2013-09-01 13:24:57	+meskarune	if you want major brownie points
+2013-09-01 13:25:39	+tigrmesh	have we covered the things in the server section?  issue tracker and migrating b2evolution blog posts to the new site?
+2013-09-01 13:25:52	+meskarune	no, I don't think so
+2013-09-01 13:25:53	+tigrmesh	sorry.  i got distracted a few minutes ago
+2013-09-01 13:26:02	+meskarune	I've been playing with different issue trackers
+2013-09-01 13:26:14	+meskarune	but none of them have the features of redmine 
+2013-09-01 13:29:15	yar	hey sorry
+2013-09-01 13:29:50	+meskarune	I did find this: http://tinyissue.com/
+2013-09-01 13:29:51	phrik	Title: Tiny Issue (at tinyissue.com)
+2013-09-01 13:29:52	+meskarune	that looks nice
+2013-09-01 13:30:09	+meskarune	php based
+2013-09-01 13:30:17	+meskarune	but haven't tested it
+2013-09-01 13:30:19	+meskarune	hi yar :D
+2013-09-01 13:30:21	+meskarune	<3
+2013-09-01 13:30:47	yar	i actually have an arch install class scheduled at my hackerspace on saturday (7th) so that is good timing
+2013-09-01 13:31:11	yar	i'm ashamed to admit i haven't installed arch on a local machine since last year's install scripts changes!
+2013-09-01 13:31:13	yar	only on servers
+2013-09-01 13:31:29	yar	but i have an eeepc that i've been meaning to practice on anyway
+2013-09-01 13:31:31	+meskarune	yar: I"m the same LOL
+2013-09-01 13:32:34	+meskarune	I have an arch install that is like, 5 years old, but desktop broke and was off for quiet a while, got it booted again, and going to reinstall rather than figure out what the heck I was doing a year ago
+2013-09-01 13:32:56	+meskarune	the install is messy anyways by virtue of the system's age
+2013-09-01 13:34:48	+meskarune	kk, sept 7th install day
+2013-09-01 13:35:12	+meskarune	yar: your hackerspace install sounds awesome!
+2013-09-01 13:35:30	+meskarune	if you want, could write a little about it in a blog post. I would love to hear how it went
+2013-09-01 13:35:53	numeral	meskarune: you should come here right now for like all day brunch
+2013-09-01 13:35:53	numeral	I need a partner in crime
+2013-09-01 13:35:59	+meskarune	hehe
+2013-09-01 13:36:00	Nisstyre	tigrmesh: what is an install day?
+2013-09-01 13:36:09	Nisstyre	we help people install Arch?
+2013-09-01 13:36:23	+meskarune	yep
+2013-09-01 13:36:38	+meskarune	or like, install arch with others at teh same time
+2013-09-01 13:36:46	Nisstyre	well, yeah I should be free
+2013-09-01 13:36:48	+meskarune	or even update your system
+2013-09-01 13:37:01	+meskarune	sweet
+2013-09-01 13:37:02	Nisstyre	I don't really have anything to install it on, though
+2013-09-01 13:37:12	Nisstyre	it's already on my laptop, and linode installs it for you :P
+2013-09-01 13:37:17	+meskarune	can just hang out :)
+2013-09-01 13:37:19	Nisstyre	sure
+2013-09-01 13:38:43	hh4a	tigrmesh: iam up for install day.
+2013-09-01 13:39:15	+meskarune	yay
+2013-09-01 13:39:19	carharttjimmy	And I am out for the day amd nght
+2013-09-01 13:39:20	+meskarune	ok, issue tracker
+2013-09-01 13:39:29	+meskarune	what do ya'll think of: https://github.com/mikelbring/tinyissue
+2013-09-01 13:39:29	carharttjimmy	I am going to go camping now
+2013-09-01 13:39:30	phrik	Title: mikelbring/tinyissue · GitHub (at github.com)
+2013-09-01 13:39:33	carharttjimmy	bye all
+2013-09-01 13:39:34	+meskarune	haha have fun carharttjimmy 
+2013-09-01 13:39:41	carharttjimmy	you too meskarune 
+2013-09-01 13:39:50	hh4a	carharttjimmy: i hate campers, they are my competition... lol
+2013-09-01 13:39:57	carharttjimmy	lol
+2013-09-01 13:39:58	+meskarune	we have a list of things we were checking into
+2013-09-01 13:39:59	carharttjimmy	cy
+2013-09-01 13:40:02	carharttjimmy	cya
+2013-09-01 13:42:26	hh4a	meskarune: you seen one at pwmt http://bugs.pwmt.org/
+2013-09-01 13:42:27	phrik	Title: Dashboard - mothra bug tracker (at bugs.pwmt.org)
+2013-09-01 13:43:46	hh4a	ugh sorry, looks like its a special theme, iam up for tinyissue!
+2013-09-01 13:46:53	+meskarune	kk
+2013-09-01 13:46:56	+meskarune	:)
+2013-09-01 13:47:32	+meskarune	we need to finish converting the old blog posts to new blog
+2013-09-01 13:47:50	+meskarune	I can tweak the submit form and then its a simple copy paste submit with that
+2013-09-01 13:47:56	+meskarune	its almost done
+2013-09-01 13:48:01	+meskarune	about 20 more pages to go
+2013-09-01 13:48:08	hh4a	meskarune: i love what you did with the site, looks awesome
+2013-09-01 13:48:13	+meskarune	:D
+2013-09-01 13:48:33	+meskarune	still needs lots of work
+2013-09-01 13:49:05	+tigrmesh	i said i would look into mantis (i think that was the name), but i haven't
+2013-09-01 13:49:31	hh4a	so redmine is in phasing out?
+2013-09-01 13:49:33	+tigrmesh	and i cannot remember if kaictl looked into making trac more usable for us
+2013-09-01 13:49:34	hh4a	mantis is eek
+2013-09-01 13:49:47	hh4a	naah no trac please...
+2013-09-01 13:50:04	+meskarune	trac has a terrible search function and doesn't index things well
+2013-09-01 13:50:33	+meskarune	so its hard to find information
+2013-09-01 13:50:44	+tigrmesh	hh4a: redmine is resource intensive. 1) ruby is a hog, 2) lots of admin an upgrades on both ruby and redmine
+2013-09-01 13:51:03	+tigrmesh	other than that, it's pretty...
+2013-09-01 13:51:11	+meskarune	and redmine compiles in configuration options
+2013-09-01 13:54:06	hh4a	hmm but redmine is pretty much defacto lol
+2013-09-01 13:55:00	+tigrmesh	?
+2013-09-01 13:55:45	hh4a	oh nothing, i elevate issue tracking decisions to you, not my cup of tea.
+2013-09-01 13:56:47	+meskarune	I like the redmine user interface, it looks nice and is pretty easy to use, but a pain to admin
+2013-09-01 13:57:35	-->	fsckd (~joggle@april-fools/runnerup/fsckd) has joined #archlinux-women
+2013-09-01 13:58:40	+meskarune	we'll keep working on it, and maybe install a few things on teh server to test
+2013-09-01 13:59:05	hh4a	oh
+2013-09-01 14:00:44	+meskarune	I forget where we are at in teh meeting
+2013-09-01 14:01:14	+meskarune	so I guess community stuff?
+2013-09-01 14:01:45	+meskarune	we need to buff up the resources page: https://archwomen.org/resources/
+2013-09-01 14:01:46	phrik	Title: Arch Linux Women | Resources (at archwomen.org)
+2013-09-01 14:02:04	+meskarune	and add like info on contributing to arch linux, info on the arch irc and forum mods, etc
+2013-09-01 14:02:11	+meskarune	and links to other similar projects
+2013-09-01 14:02:34	+meskarune	people can pm us links, or add them with git, or just email us some things :)
+2013-09-01 14:03:07	+meskarune	we need to make soem marketing materials
+2013-09-01 14:03:34	+meskarune	I was thinking maybe a flyer that says "arch women like to K.I.S.S (keep it simple stupid)"
+2013-09-01 14:03:54	+meskarune	and then put the url and irc chan on there
+2013-09-01 14:04:09	+meskarune	and we could do an install day flyer
+2013-09-01 14:13:21	hh4a	hmm behold http://www.welovemetal.com/newsite/wordpress/wp-content/uploads/2012/10/KISS2.gif, having a head with aw logo tattoo and blue lips and below KISS, heh that would be too obvious
+2013-09-01 14:14:02	fsckd	tinyissue uses github as their bug tracker :P
+2013-09-01 14:17:16	hh4a	fsckd: oh the irony
+2013-09-01 14:18:00	+meskarune	hehe
+2013-09-01 14:20:09	fsckd	on the old site there was a list of affiliated projects
+2013-09-01 14:20:12	numeral	wait... what
+2013-09-01 14:20:29	+meskarune	yeah, we can get that off the database :)
+2013-09-01 14:20:37	+meskarune	and add in new stuff too
+2013-09-01 14:25:52	+tigrmesh	i'd like to put the resources in the wiki
+2013-09-01 14:25:57	+tigrmesh	so people can add to it
+2013-09-01 14:27:01	+tigrmesh	so if hh4a has an account on the wiki and reads that there's a tinyissue-women, he can add it  ;)
+2013-09-01 14:29:27	+meskarune	oh good idea tigrmesh 
+2013-09-01 14:30:10	+tigrmesh	also, and i think this is a technical issue someone might get into wrapping their mind around, it would be nice for someone to get one login and have it cover both the issue tracker and the wiki.  since they're 2 different pieces of software, doing that is a technical issue.  that's why you need a separate login for everything on the arch site - bbs, wiki, bugtracker.  they're 3 different pieces of
+2013-09-01 14:30:10	+tigrmesh	software
+2013-09-01 14:31:40	+meskarune	yeah, maybe we could somehow have the user info transfered over
+2013-09-01 14:31:46	+meskarune	from one database to the other
+2013-09-01 14:31:52	+meskarune	or use open auth
+2013-09-01 14:33:22	-->	enixam (~maxine@dsl-66-36-145-6.mtl.aei.ca) has joined #archlinux-women
+2013-09-01 14:33:42	hh4a	open auth could work
+2013-09-01 14:35:23	+meskarune	and open id
+2013-09-01 14:35:31	+meskarune	most things have a plugin for that
+2013-09-01 14:35:40	+meskarune	and people can use the same login for everything
+2013-09-01 14:37:03	hh4a	yeah we could do that
+2013-09-01 14:38:31	+meskarune	it is good and bad. if you have the same sign on for all accounts, if someone gets that sign on, they can access all of your stuff
+2013-09-01 14:39:02	+meskarune	so instead of a single site compromise, you have tons of data compromised
+2013-09-01 14:39:09	hh4a	are we prepared to take such a risk?
+2013-09-01 14:39:27	+meskarune	you take that risk every time you use open id to log into something :)
+2013-09-01 14:39:36	+meskarune	or use the same user/pass on multiple sites
+2013-09-01 14:39:40	+tigrmesh	i'd rather have a home-grown thing
+2013-09-01 14:39:55	+tigrmesh	as long as some community member is willing to try it out
+2013-09-01 14:40:25	+tigrmesh	i know we've got lots of people here who have the skills and are into cool software projects
+2013-09-01 14:43:17	+meskarune	yeah, I know other people do it
+2013-09-01 14:43:37	+meskarune	I think oauth is mostly used, site 1 is oauth server, other sites use info from site 1
+2013-09-01 14:44:50	+meskarune	i'm not incredibly familiar though
+2013-09-01 14:44:54	+meskarune	I think you can use cookies too
+2013-09-01 14:46:15	Nisstyre	tigrmesh: it would have to be patches to all the different pieces of software
+2013-09-01 14:46:41	Nisstyre	certainly possible to do, they probably use similar methods of authentication
+2013-09-01 14:47:49	hh4a	openid down the road
+2013-09-01 14:48:47	+meskarune	I guess you have a central user login database that the sites use?
+2013-09-01 14:49:05	+meskarune	so patch doku wiki to use the database instead of its own thing, and same with other sites
+2013-09-01 14:51:02	+meskarune	doku wiki has an auth.php I believe that can be patched to something custom
+2013-09-01 14:51:30	Nisstyre	yeah it would probably be fairly straightforward
+2013-09-01 14:51:34	Nisstyre	assuming the code is readable
+2013-09-01 14:51:38	+meskarune	hehe
+2013-09-01 14:51:55	+meskarune	I smell a pet peeve ;)
+2013-09-01 14:52:06	Nisstyre	yeah, I haven't had great experiences with php
+2013-09-01 14:52:25	+meskarune	I don't like writing the syntax, and people often write it messy
+2013-09-01 14:52:31	+meskarune	but it gets the job done. lol
+2013-09-01 14:52:41	Nisstyre	it's not the syntax, the language is unpredictable wrt type conversion rules
+2013-09-01 14:52:46	Nisstyre	and a lot of things are just unexpected
+2013-09-01 14:53:05	kaictl	use python!
+2013-09-01 14:53:13	Nisstyre	I use Haskell for a lot of things
+2013-09-01 14:53:31	kaictl	use !php!
+2013-09-01 14:54:24	+meskarune	:P
+2013-09-01 14:54:36	+meskarune	ok, we'll make an issue for that :)
+2013-09-01 14:54:50	+meskarune	user database that all sites can use for auth
+2013-09-01 14:55:13	+meskarune	ok, mission statement?
+2013-09-01 15:00:00	+meskarune	we to have a mission statement about our primary goal/reason for existing
+2013-09-01 15:00:02	+meskarune	:)
+2013-09-01 15:02:01	+meskarune	only 2 things left on the agenda, mission statement and blog post requests 
+2013-09-01 15:02:33	+meskarune	we'd like more people to write posts, about why they use arch, or use linux, a project they are working on, or a cook thing that happened, etc
+2013-09-01 15:02:36	+meskarune	its pretty open ended
+2013-09-01 15:02:55	-->	camilasan (~camilasan@91-64-83-129-dynip.superkabel.de) has joined #archlinux-women
+2013-09-01 15:02:58	hh4a	oh mission statement, hmm ugh nothing comes to my mind... :sadface:
+2013-09-01 15:04:54	+tigrmesh	maybe a small group for that and then discuss at a regular meeting.  and the small group not meet in here
+2013-09-01 15:05:02	+meskarune	for hte mission statement I was thinking maybe "help increase the community involvement of women in Arch Linux and FOSS though networking and learning"
+2013-09-01 15:05:29	+meskarune	only better 'cus I'm not good at that sort of thing
+2013-09-01 15:05:38	+tigrmesh	good start
+2013-09-01 15:05:42	+meskarune	maybe talk about making women's involvement in foss more visible 
+2013-09-01 15:06:05	+tigrmesh	who'd like to be involved in that?  looks like it will be a pretty quick thing
+2013-09-01 15:06:14	+tigrmesh	*discussion
+2013-09-01 15:06:39	+tigrmesh	anyone?
+2013-09-01 15:06:47	+meskarune	basically just need a simple and clear mission statement that we can spam all over the place
+2013-09-01 15:07:18	hh4a	oh sorry iam kinda spaced out
+2013-09-01 15:07:50	+meskarune	me too
+2013-09-01 15:07:54	+meskarune	:(
+2013-09-01 15:08:14	+meskarune	been feeling spacey all day, so meeting is completely chaotic
+2013-09-01 15:08:16	+meskarune	lol
+2013-09-01 15:08:28	hh4a	yeah
+2013-09-01 15:08:52	+tigrmesh	i think we all are.  that's why i think a small group would be good
+2013-09-01 15:09:53	+meskarune	++
+2013-09-01 15:09:57	+tigrmesh	anyone interested in writing it can see meskarune, even if all you do is prettify the wording.  meskarune, are you willing to recruit people for it if no one volunteers?
+2013-09-01 15:10:07	+meskarune	sure :)
+2013-09-01 15:10:33	+meskarune	I'll make a riseup pad thingy, and brainstorm, and people can just join and add when they have time?
+2013-09-01 15:11:31	+tigrmesh	however you want to do it.  it would be nice to have something for our next meeting.  i know of at least one person who wasn't sure what we're about, so they left
+2013-09-01 15:11:56	hh4a	aye
+2013-09-01 15:12:05	+meskarune	yeah, people on first look don't understand why we exist
+2013-09-01 15:12:40	+meskarune	https://pad.riseup.net/p/awmissionstate
+2013-09-01 15:12:44	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-09-01 15:17:18	<--	camilasan (~camilasan@91-64-83-129-dynip.superkabel.de) has quit (Ping timeout: 245 seconds)
+2013-09-01 15:18:08	+meskarune	ok, made a start on it
+2013-09-01 15:23:44	+tigrmesh	are we on to the next item?
+2013-09-01 15:25:32	+meskarune	yeah, I think so :)
+2013-09-01 15:26:47	+tigrmesh	ok.  so.  i'll be approaching people and asking for a quick writeup or something i can write up about "What arch women means to me" or "Why I participate in arch women"
+2013-09-01 15:27:38	+tigrmesh	and if you want to tell me the answers to these, i'd love that
+2013-09-01 15:28:06	+tigrmesh	i thought this could be a recurring feature on the blog and/or a regularly updated wiki or static page
+2013-09-01 15:28:29	+meskarune	yeah, sounds awesome
+2013-09-01 15:29:43	+tigrmesh	also, if you have any ideas for blog posts that you think would be of interest to arch women people, write them up or let meskarune, me or fsckd know
+2013-09-01 15:31:01	+tigrmesh	also any cool links/info for scholarships or internships for people in tech (like google SoC)
+2013-09-01 15:31:26	+meskarune	I need to go through scroll back for links
+2013-09-01 15:31:35	+meskarune	lots of cool things have been posted in teh channel alone
+2013-09-01 15:31:37	+meskarune	:)
+2013-09-01 15:31:41	+tigrmesh	especially, but not entirely, for those specifically aimed at women
+2013-09-01 15:31:46	+tigrmesh	yeah
+2013-09-01 15:32:21	+tigrmesh	there was something else, but i forget
+2013-09-01 15:33:16	+tigrmesh	one other thing.  that "why i participate in arch women" thing?  just a sentence or a short paragraph is fine.  long one is fine too
+2013-09-01 15:36:54	+tigrmesh	ok
+2013-09-01 15:37:08	+tigrmesh	anyone see an agenda item we haven't covered?  https://pad.riseup.net/p/aw2013sept
+2013-09-01 15:37:12	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-09-01 15:37:22	+tigrmesh	or have anything they want to bring up or add?
+2013-09-01 15:37:38	hh4a	i think we are finish here for today
+2013-09-01 15:38:17	+tigrmesh	that's what i'm thinking.  but i don't want to cut anybody off...
+2013-09-01 15:38:17	+meskarune	https://archwomen.org/wiki/resources
+2013-09-01 15:38:19	phrik	Title: Resources [Arch Women Wiki] (at archwomen.org)
+2013-09-01 15:38:20	+meskarune	;)
+2013-09-01 15:38:41	+tigrmesh	awesome  :)
+2013-09-01 15:38:51	+meskarune	maybe could add a sentence explaing what the links are
+2013-09-01 15:38:55	+tigrmesh	sure
+2013-09-01 15:40:21	+tigrmesh	oh!  technical item - would anyone be interested in exploring exporting wiki items from redmine and importing them into our new wiki?
+2013-09-01 15:40:33	+tigrmesh	let one of us know
+2013-09-01 15:40:53	+tigrmesh	meskarune: you ready?
+2013-09-01 15:40:57	+meskarune	yeah :)
+2013-09-01 15:41:33	+tigrmesh	==== Meeting Ends ===

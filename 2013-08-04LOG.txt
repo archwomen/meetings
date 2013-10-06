@@ -1,0 +1,434 @@
+2013-08-04 12:05:21	fsckd	======================== Meeting Begins ========================
+2013-08-04 12:05:35	numeral	bbl
+2013-08-04 12:05:42	fsckd	hehe
+2013-08-04 12:05:45	fsckd	see ya
+2013-08-04 12:05:54	fsckd	the agenda is https://archwomen.org/wiki/meetings:2013_august
+2013-08-04 12:05:55	phrik	Title: 18th IRC Meeting [Arch Women Wiki] (at archwomen.org)
+2013-08-04 12:06:15	fsckd	someone should start keeping notes in a riseup etherpad :)
+2013-08-04 12:06:36	fsckd	i'll start anyways
+2013-08-04 12:06:52	fsckd	there have been a lot of changes this past month
+2013-08-04 12:06:59	+meskarune	++
+2013-08-04 12:07:15	fsckd	the biggest is Arch Women has a sponsor
+2013-08-04 12:08:01	-->	Tom^ (~root@unaffiliated/tom/x-6084202) has joined #archlinux-women
+2013-08-04 12:08:01	 *	Tom^ engages lurkmode
+2013-08-04 12:08:09	fsckd	Digital Ocean has kindly given two vps instances to Arch Women
+2013-08-04 12:08:22	+meskarune	we really REALLY needed the resources
+2013-08-04 12:08:45	fsckd	https://twitter.com/digitalocean/status/357512116082704384
+2013-08-04 12:08:47	phrik	Title: Twitter / digitalocean: We are happy to announce that ... (at twitter.com)
+2013-08-04 12:09:15	-->	Sybock- (~Sybock-@S010600221504dcfb.cg.shawcable.net) has joined #archlinux-women
+2013-08-04 12:09:37	fsckd	the IGiB vps
+2013-08-04 12:10:08	+meskarune	https://archwomen.org/blog/post/digitalocean-partnership.html
+2013-08-04 12:10:09	phrik	Title: Arch Linux Women | Blog (at archwomen.org)
+2013-08-04 12:11:25	fsckd	everything has been moved. the old server instance was baleted
+2013-08-04 12:12:48	fsckd	the system is very good
+2013-08-04 12:13:14	+meskarune	the SSD drives are really fast :)
+2013-08-04 12:13:24	fsckd	haha yeah
+2013-08-04 12:14:03	fsckd	pacman is instantaneous
+2013-08-04 12:14:26	fsckd	my home machine feels too slow now :(
+2013-08-04 12:14:41	+meskarune	lol
+2013-08-04 12:14:45	-->	jrex_laptop (~jrex@pool-108-7-224-76.bstnma.fios.verizon.net) has joined #archlinux-women
+2013-08-04 12:15:58	fsckd	the move from one server to two means stuff is getting reorganized
+2013-08-04 12:16:07	fsckd	more about that later
+2013-08-04 12:16:10	<--	Sybock- (~Sybock-@S010600221504dcfb.cg.shawcable.net) has quit (Ping timeout: 245 seconds)
+2013-08-04 12:16:44	fsckd	redmine is being dropped. i think that was announced at the last meeting?
+2013-08-04 12:17:11	fsckd	dokuwiki has replaced the wiki part of it
+2013-08-04 12:17:47	fsckd	it'll be used for documentation and notes
+2013-08-04 12:17:50	fsckd	https://archwomen.org/wiki
+2013-08-04 12:17:52	phrik	Title: Youve reached the Arch Women Wiki [Arch Women Wiki] (at archwomen.org)
+2013-08-04 12:18:23	fsckd	migration is still in progress. pages on specific meetings have been moved
+2013-08-04 12:18:32	fsckd	including the agenda for this one
+2013-08-04 12:18:34	fsckd	:)
+2013-08-04 12:19:41	fsckd	now on to the fun part of the meeting, Classrooms!
+2013-08-04 12:19:44	+tigrmesh	anyone started a riseup pad yet?
+2013-08-04 12:19:51	fsckd	lol
+2013-08-04 12:19:58	+tigrmesh	haha
+2013-08-04 12:20:02	fsckd	need that before we continue ><
+2013-08-04 12:20:50	fsckd	take 5 minutes to set that up
+2013-08-04 12:21:02	fsckd	brb quickly
+2013-08-04 12:22:40	+tigrmesh	i don't remember how i put in may name  
+2013-08-04 12:23:58	+meskarune	there is a menu button thingy in the top right
+2013-08-04 12:24:32	+tigrmesh	ok.  there i am
+2013-08-04 12:24:40	+tigrmesh	https://pad.riseup.net/p/archwomen-aug
+2013-08-04 12:24:42	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-08-04 12:24:45	+tigrmesh	join me
+2013-08-04 12:26:07	fsckd	yay one minute
+2013-08-04 12:27:19	fsckd	alright, so classroom
+2013-08-04 12:27:37	+tigrmesh	did the order change?
+2013-08-04 12:27:51	fsckd	ya
+2013-08-04 12:28:09	+tigrmesh	what's the new order?  projects, server, community?
+2013-08-04 12:28:22	fsckd	no, see https://archwomen.org/wiki/meetings:2013_august
+2013-08-04 12:28:23	phrik	Title: 18th IRC Meeting [Arch Women Wiki] (at archwomen.org)
+2013-08-04 12:28:39	-->	Sybock- (~Sybock-@68.147.173.178) has joined #archlinux-women
+2013-08-04 12:30:13	fsckd	kaictl: manfred: any idea when to schedule?
+2013-08-04 12:30:31	fsckd	the PKGBUILD class
+2013-08-04 12:34:04	fsckd	they must be busy atm
+2013-08-04 12:34:24	fsckd	they'll interrupt us when they can respond
+2013-08-04 12:34:45	fsckd	moving on...
+2013-08-04 12:34:59	+meskarune	lol
+2013-08-04 12:35:07	+tigrmesh	gtmanfred?
+2013-08-04 12:35:17	+meskarune	ping gtmanfred kaictl 
+2013-08-04 12:35:21	+tigrmesh	man*fred* ?
+2013-08-04 12:36:05	+meskarune	kk
+2013-08-04 12:36:07	+meskarune	install day?
+2013-08-04 12:36:12	fsckd	yup
+2013-08-04 12:36:13	fsckd	It has been proposed we have another Arch Linux Install Day
+2013-08-04 12:36:34	fsckd	any ideas, thoughts?
+2013-08-04 12:36:40	-->	dagle (~dagle@d83-183-100-86.cust.tele2.se) has joined #archlinux-women
+2013-08-04 12:37:30	+tigrmesh	i think it's a great idea.  but then, i suggested it  :p
+2013-08-04 12:37:38	fsckd	lol
+2013-08-04 12:38:05	fsckd	last time it was come in the channel and install arch linux with us
+2013-08-04 12:39:00	fsckd	some people chose to do special upgrades instead of install
+2013-08-04 12:39:30	fsckd	how about this time we have special events. like someone could talk about something in arch linux
+2013-08-04 12:40:29	+meskarune	like setting up a webserver? or configuring weechat?
+2013-08-04 12:40:34	fsckd	yeah
+2013-08-04 12:40:39	+meskarune	that sounds fun
+2013-08-04 12:40:40	+tigrmesh	or those of us who haven't done the /bin /sbin update (and are willing to admit it) can come and do a "scary update with a buddy" thing
+2013-08-04 12:40:47	fsckd	or say someone could give a talk about systemd user stuff
+2013-08-04 12:41:00	fsckd	tigrmesh: that's a good one
+2013-08-04 12:42:02	fsckd	may be could have the same thing scheduled multiple times in the day so people in opposite timezones can share in the fun
+2013-08-04 12:42:16	+tigrmesh	yeah
+2013-08-04 12:43:58	+tigrmesh	in terms of the scary update thing, maybe someone would be willing to watch the arch-dev-public list and let us know a couple of weeks ahead of time when something big is coming up.  that way we can publicize the buddy party and "upgrade with a friend" ahead of time
+2013-08-04 12:44:16	fsckd	sure
+2013-08-04 12:44:34	fsckd	anyone want to volunteer to do that?
+2013-08-04 12:44:38	+meskarune	yeah, its a good idea to do that for manual intervention type things
+2013-08-04 12:45:11	+tigrmesh	big ones
+2013-08-04 12:45:38	+tigrmesh	too late for "upgrade your bootloader from grub legacy to syslinux"
+2013-08-04 12:46:46	+meskarune	I can help with /bin /sbin
+2013-08-04 12:47:18	+tigrmesh	me too.  just did this with someone.  worked great
+2013-08-04 12:47:35	+meskarune	yeah, I really like the idea of people doing update together for that sort of stuff
+2013-08-04 12:48:20	+meskarune	should we set a day ?
+2013-08-04 12:48:39	fsckd	sure a tentative date
+2013-08-04 12:48:46	+tigrmesh	and meskarune and fsckd walked through the server setup and basic software installs together.  it was a lovely thing
+2013-08-04 12:49:01	fsckd	will need to give people time to set up events and their schedule
+2013-08-04 12:49:02	+tigrmesh	first, what are we going to install/set up?
+2013-08-04 12:49:17	+meskarune	how about in 3 weeks - month time ?
+2013-08-04 12:49:38	+tigrmesh	like the 24th or 25th?
+2013-08-04 12:49:46	fsckd	of this month?
+2013-08-04 12:50:03	+meskarune	people will be going back to school in sept.
+2013-08-04 12:50:14	fsckd	good point
+2013-08-04 12:50:55	fsckd	people who move in to dorms go there at the end of Aug.
+2013-08-04 12:54:23	+tigrmesh	right
+2013-08-04 12:54:54	+tigrmesh	so the weekend of the 21st or 28th of sept?
+2013-08-04 12:57:52	+meskarune	that sounds ok to me
+2013-08-04 12:58:01	+meskarune	we should make a formate for the install days
+2013-08-04 12:58:05	+meskarune	format 
+2013-08-04 12:58:19	+meskarune	and have then regularly, like maybe every 2 months or so?
+2013-08-04 12:58:22	+tigrmesh	so what are we doing?  a regular arch install day?
+2013-08-04 12:58:30	+tigrmesh	sounds great to me
+2013-08-04 12:58:55	+meskarune	and people can ask questions about arch, get a buddy to install with, etc
+2013-08-04 12:59:12	+meskarune	and do upgrades and things
+2013-08-04 12:59:31	fsckd	yeah
+2013-08-04 12:59:33	+tigrmesh	of course
+2013-08-04 13:01:08	+tigrmesh	so a day of "regular" installs (with allowance for other upgrades).  every 2 months or so.  so the next one on the weekend of the 21st or the 28th?  saturday or sunday?
+2013-08-04 13:01:32	+tigrmesh	and create a format for those days
+2013-08-04 13:01:55	+meskarune	yeah
+2013-08-04 13:02:00	+meskarune	and maybe make a wiki page for install days
+2013-08-04 13:02:08	+meskarune	with like, info on how they work and some resources for people
+2013-08-04 13:02:26	+meskarune	like the beginners guide and arch news
+2013-08-04 13:03:40	fsckd	hmm, good idea
+2013-08-04 13:04:06	<--	Sybock- (~Sybock-@68.147.173.178) has quit (Ping timeout: 240 seconds)
+2013-08-04 13:06:03	+tigrmesh	cool.  anyone have a preference for when?  extra points if the person who says something is *not* meskarune, fsckd or me
+2013-08-04 13:06:26	fsckd	lol
+2013-08-04 13:07:04	+meskarune	people are probably sleeping LOL
+2013-08-04 13:07:28	fsckd	Sunday XD
+2013-08-04 13:07:50	+tigrmesh	naw.  there has to be a european here somewhere
+2013-08-04 13:08:08	+meskarune	haha
+2013-08-04 13:09:28	+tigrmesh	well, there are many in this channel.  i mean here and paying attention in real time
+2013-08-04 13:10:01	fsckd	perhaps this could be continued at the next meeting. perhaps a special meeting to set up install day can be scheduled for the middle of this month?
+2013-08-04 13:10:15	fsckd	tentative date be placed ta end of Sept.?
+2013-08-04 13:12:16	+tigrmesh	what if we set a day/date for the day, then took a poll about 2 weeks before to see if anyone's coming?
+2013-08-04 13:12:29	+tigrmesh	or would that make us look bad if no one wanted to do it?
+2013-08-04 13:13:09	fsckd	may be sept. is too early...
+2013-08-04 13:13:41	+meskarune	my internets is bad
+2013-08-04 13:13:55	+meskarune	if I disappear, ping home.meskarune.com
+2013-08-04 13:13:56	+meskarune	lol
+2013-08-04 13:14:35	fsckd	ok
+2013-08-04 13:15:58	+meskarune	lets do 28th sept, and write up some docs and get the word out
+2013-08-04 13:16:05	fsckd	fine with me
+2013-08-04 13:16:27	+meskarune	ok
+2013-08-04 13:16:29	+meskarune	:)
+2013-08-04 13:16:50	fsckd	anything else regarding install day?
+2013-08-04 13:18:32	fsckd	ok, moving on...
+2013-08-04 13:19:18	+meskarune	kk
+2013-08-04 13:19:26	fsckd	right now the server is running mariadb. it's been proposed to switch to postgresql (and run it on the second server)
+2013-08-04 13:19:51	fsckd	i think only redmine is using mariadb and that is slated to be removed
+2013-08-04 13:20:14	fsckd	it is likely that whatever issue tracker is chosen, it will use a database server
+2013-08-04 13:20:22	+meskarune	I think PostgreSQL syntax is easier
+2013-08-04 13:20:47	+meskarune	yeah, issue tracker will probably use a database
+2013-08-04 13:21:03	+meskarune	and if we use other self hosted tools, those will as well depending
+2013-08-04 13:21:10	+tigrmesh	does docuwiki use a database?
+2013-08-04 13:21:20	fsckd	it stoes stuff as text files
+2013-08-04 13:21:56	fsckd	meskarune renamed a page this morning by just mv the file
+2013-08-04 13:22:42	-->	fogobogo (~fogobogo@unaffiliated/fogobogo) has joined #archlinux-women
+2013-08-04 13:22:49	<--	fogobogo (~fogobogo@unaffiliated/fogobogo) has left #archlinux-women
+2013-08-04 13:23:45	+meskarune	it should be easy to stick into a git repo
+2013-08-04 13:24:11	fsckd	there's a git repo which backs it up
+2013-08-04 13:24:27	+meskarune	but if you wanted to add a page using git, I think its possible
+2013-08-04 13:25:19	+meskarune	though its is probably easier to just use the site LOL
+2013-08-04 13:25:28	fsckd	hehe
+2013-08-04 13:25:56	fsckd	i guess there's no concern about switching to postgresql?
+2013-08-04 13:29:03	+meskarune	I guess not LLL
+2013-08-04 13:29:27	fsckd	heh
+2013-08-04 13:29:44	+meskarune	ok, what's next?
+2013-08-04 13:30:08	fsckd	right, Arch Women needs an issue tracker
+2013-08-04 13:30:23	fsckd	to replace redmine's
+2013-08-04 13:31:27	+tigrmesh	right
+2013-08-04 13:31:46	fsckd	one problem, as highlighted before, is many issue trackers are for help desk or software
+2013-08-04 13:31:58	+tigrmesh	right
+2013-08-04 13:32:03	fsckd	and are geared for workflows for those things
+2013-08-04 13:33:07	fsckd	i think some criteria were listed the other day in -dev
+2013-08-04 13:33:27	+meskarune	yeah, and many of them have way more features than we need
+2013-08-04 13:33:36	+meskarune	like forums, chat things, wiki's, etc
+2013-08-04 13:33:45	fsckd	charts
+2013-08-04 13:33:49	+meskarune	yeah lol
+2013-08-04 13:34:04	+meskarune	we just need something to keep track of projects and their progress, etc
+2013-08-04 13:34:08	+meskarune	like a ramped up to-do list
+2013-08-04 13:34:40	fsckd	yeah
+2013-08-04 13:36:12	fsckd	rt was suggested last time
+2013-08-04 13:36:38	fsckd	tigrmesh did some research about it and spoke to people
+2013-08-04 13:37:26	+tigrmesh	yes i did
+2013-08-04 13:38:49	fsckd	i can't find the list of criteria in my back log
+2013-08-04 13:39:05	fsckd	i'll list what i can remember
+2013-08-04 13:40:02	+tigrmesh	one feature people really liked about RT was that it can automatically make tickets out of emails
+2013-08-04 13:40:21	fsckd	needs custom statuses, show what's assigned to user when they log in, easy to install and upgrade, easy to administrate
+2013-08-04 13:40:44	fsckd	low resource usage
+2013-08-04 13:40:48	+tigrmesh	other than that, it was described as hard to use/non-intuitive
+2013-08-04 13:41:39	fsckd	that can be a problem. we're doing this part time
+2013-08-04 13:41:56	fsckd	it should be a no-brainer to use
+2013-08-04 13:43:00	+tigrmesh	and i didn't find what a "regular person" who was just surfing the web would see.  i hate when i have to commit just to view something simple
+2013-08-04 13:43:16	fsckd	yeah
+2013-08-04 13:43:43	+meskarune	I really like the way this looks: http://www.duetapp.com/
+2013-08-04 13:43:45	phrik	Title: Duet - Professional Project Management (at www.duetapp.com)
+2013-08-04 13:43:50	fsckd	question allow anonymous bug reports? that is no need to log in to make a suggestion? but that might open the way for trolls and spam. (spam can be blocked with captcha)
+2013-08-04 13:43:53	+meskarune	but its not open source or free
+2013-08-04 13:44:28	fsckd	that really does look nice
+2013-08-04 13:45:13	+tigrmesh	also several people like trello.  kubuntu uses it.  but i haven't seen that it has the capacity to allow casual users to add things
+2013-08-04 13:46:47	+tigrmesh	so WebIssues, The Bug Genie, Fossil, EventNum, and OTRS got "meh" reviews from Apsu in #archlinux
+2013-08-04 13:47:53	kaictl	'meh' as in "that's better than everything else"?
+2013-08-04 13:50:19	+tigrmesh	hold on
+2013-08-04 13:50:22	+tigrmesh	and  Request Tracker - we were just talking about; Redmine - <3 redmine, but too much maintenance for us; Trac - meskarune doesn't like trac, kaictl said he'd look into ways around some issues and get back to us; Mantis - i haven't talked to anyone who's used it, got several "looks nice" comments; Bugzilla got a big "no" from several people
+2013-08-04 13:50:39	+tigrmesh	this is the list i was working from  http://www.thegeekstuff.com/2010/08/bug-tracking-system/
+2013-08-04 13:50:41	phrik	Title: Top 10 Open Source Bug Tracking System (at www.thegeekstuff.com)
+2013-08-04 13:50:45	+tigrmesh	also, hi kaictl!'
+2013-08-04 13:51:03	kaictl	hey. 
+2013-08-04 13:52:38	+meskarune	there is also project peir
+2013-08-04 13:52:42	+meskarune	and phpcollab
+2013-08-04 13:52:49	+meskarune	I haven't used either
+2013-08-04 13:52:55	+tigrmesh	wow.  duet "This price includes: The full source code of the application (PHP, Javascript)"
+2013-08-04 13:52:57	+tigrmesh	wow
+2013-08-04 13:53:13	+tigrmesh	there are others as well
+2013-08-04 13:53:49	+meskarune	I don't think it would be hard to take an open source project manager and style it to look similar
+2013-08-04 13:55:07	+meskarune	I do like how their projects have "requirements" and "developements"
+2013-08-04 13:55:27	+meskarune	so what do you need to complete the project, what is being done/needs to be done
+2013-08-04 13:56:51	+tigrmesh	which one?
+2013-08-04 13:57:18	+meskarune	duet has that, but I don't think it would be hard to add to an open source project manager
+2013-08-04 14:00:08	+meskarune	redmine would be amazing if it was slimmed down a bit
+2013-08-04 14:00:14	fsckd	yeah
+2013-08-04 14:00:30	fsckd	and if ruby gems and bundles were easier to work with
+2013-08-04 14:01:06	+tigrmesh	another suggestion was django-helpdesk
+2013-08-04 14:02:24	+tigrmesh	2 other additons/forks of trac are roundup and bloodhound
+2013-08-04 14:03:52	+meskarune	http://www.socialphy.com/posts/computers-technology/5017/Open-source-project-management-software.html
+2013-08-04 14:03:56	phrik	Title: Open source project management software - Socialphy (at www.socialphy.com)
+2013-08-04 14:04:05	+meskarune	there are so many o_O
+2013-08-04 14:07:07	+tigrmesh	as i see it, at this point we can a) pick mantis, since that's the one with the least negative comments (because no one i talked to had used it), 2) do more research
+2013-08-04 14:07:26	+tigrmesh	or c) pick another that we've mentioned
+2013-08-04 14:09:07	fsckd	lol, that's a fine reason to use mantis :P
+2013-08-04 14:09:25	fsckd	i'd say at least test it in a nspawn
+2013-08-04 14:10:52	fsckd	i don't think we can get a sure solution right now
+2013-08-04 14:11:14	fsckd	at the least let's decide on how to approach it
+2013-08-04 14:11:43	fsckd	we have a list of possible choices and a list of criteria
+2013-08-04 14:11:52	kaictl	tigrmesh: i was originally reading up on how to set modules or whatnot for trac
+2013-08-04 14:12:00	+tigrmesh	kaictl: and?
+2013-08-04 14:12:04	kaictl	figured that it would actually be easier to just install it to an nspawn and test
+2013-08-04 14:12:07	kaictl	so i'm doing that now.
+2013-08-04 14:12:10	+tigrmesh	cool
+2013-08-04 14:12:13	kaictl	but i have to spread mulch.
+2013-08-04 14:12:18	kaictl	so i'll be back in a bit to break things.
+2013-08-04 14:12:23	+tigrmesh	lol
+2013-08-04 14:12:27	fsckd	heh
+2013-08-04 14:12:32	+tigrmesh	plants happen
+2013-08-04 14:12:52	fsckd	lol
+2013-08-04 14:13:33	fsckd	ok, should we move on?
+2013-08-04 14:13:54	fsckd	for now test things. kaictl will test trac and other people can test other stuff
+2013-08-04 14:16:34	+meskarune	we could do a test install of mantis too to see
+2013-08-04 14:16:47	fsckd	yes, in nspawn
+2013-08-04 14:18:13	fsckd	for those of you not familiar with systemd-nspawn, there's a quick and painless guide https://wiki.archlinux.org/index.php/Arch_systemd_container
+2013-08-04 14:18:14	phrik	Title: Arch systemd container - ArchWiki (at wiki.archlinux.org)
+2013-08-04 14:19:59	+meskarune	oh nice
+2013-08-04 14:21:30	+tigrmesh	so we'd run this individually not collectively
+2013-08-04 14:21:53	+meskarune	we can check into options. 
+2013-08-04 14:22:00	+tigrmesh	i mean. we couldn't all fill the same one with items
+2013-08-04 14:22:03	+tigrmesh	ok
+2013-08-04 14:22:11	+meskarune	its strange to me how the project managers out there now have so many extra features
+2013-08-04 14:22:22	+tigrmesh	like what?
+2013-08-04 14:22:28	fsckd	can run an nspawn on the dataserver to test stuff
+2013-08-04 14:22:35	+meskarune	forums, wiki, live chat, etc
+2013-08-04 14:22:37	fsckd	and share access
+2013-08-04 14:22:42	+tigrmesh	that we can all see, fsckd?
+2013-08-04 14:22:49	fsckd	tigrmesh: yes
+2013-08-04 14:23:00	+tigrmesh	k
+2013-08-04 14:23:54	fsckd	makes for easy cleanup too. just delete the whole thing when we're done :)
+2013-08-04 14:24:00	+tigrmesh	nice
+2013-08-04 14:24:06	+tigrmesh	is anyone else interested in trying out a bug tracker?  in an nspawn or whatever?
+2013-08-04 14:24:28	+tigrmesh	if you see one you like or are curious about, then let us know what you think?
+2013-08-04 14:27:01	fsckd	anything else on issue trackers?
+2013-08-04 14:29:57	fsckd	ok, moving on
+2013-08-04 14:30:21	+tigrmesh	anyone just coming in - you can see what we've doing here.  the last of the light blue is the end of what we've done so far.  https://pad.riseup.net/p/archwomen-aug
+2013-08-04 14:30:24	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-08-04 14:32:05	fsckd	Anyone willing to help migrate redmine data to the new wiki and issue tracker? Even if it's just to suggest ways to automate the process, research whether automation has been done and find a tutorial, or simply be a sounding board in case there are any issues during the actual migration.
+2013-08-04 14:35:35	fsckd	help is always appreciated :)
+2013-08-04 14:37:05	+tigrmesh	maybe it can happen at the install day?  although that's quite a ways away
+2013-08-04 14:37:53	fsckd	what can happen at install day?
+2013-08-04 14:38:06	+meskarune	we can ping people in channel too. 
+2013-08-04 14:38:14	+tigrmesh	the migration to the new wiki and issue tracker
+2013-08-04 14:38:15	+meskarune	people could just create pages even and cp data
+2013-08-04 14:38:28	+tigrmesh	meskarune: true
+2013-08-04 14:38:30	+meskarune	is there a way to export the redmine wiki into text files?
+2013-08-04 14:39:23	fsckd	yes
+2013-08-04 14:39:30	+tigrmesh	^^ this is the kind of question this agenda item is looking for
+2013-08-04 14:39:33	fsckd	but the format is different from dokuwiki
+2013-08-04 14:39:54	fsckd	i guess it can be automated
+2013-08-04 14:39:59	+tigrmesh	not all all-knowing, all-wise, perfect sounding board
+2013-08-04 14:40:14	fsckd	make a script to walk through each wiki page and download the text version
+2013-08-04 14:40:41	fsckd	and have another script convert the markup
+2013-08-04 14:41:02	fsckd	internal links may need manual work
+2013-08-04 14:41:14	fsckd	and of course putting pages into the right place
+2013-08-04 14:43:27	+meskarune	yeah, we can do some sed magic maybe
+2013-08-04 14:43:34	+meskarune	to change the text files in dokuwiki style
+2013-08-04 14:45:23	+tigrmesh	sounds like we have a plan.  what if we set a date for the wiki migration and see who comes to participate?
+2013-08-04 14:45:32	+meskarune	oh good idea!
+2013-08-04 14:48:19	fsckd	example link, https://archwomen.org/redmine/projects/archwomen/wiki/Contributing_to_Open_Source.txt
+2013-08-04 14:48:48	fsckd	hmm... that only works when logged in?
+2013-08-04 14:50:58	+tigrmesh	?
+2013-08-04 14:51:33	fsckd	that link returns an empty page when not logged in
+2013-08-04 14:52:31	fsckd	also that particular wiki page i linked to would be good material for a blog post
+2013-08-04 14:52:42	+tigrmesh	that's the plan  :)
+2013-08-04 14:53:14	fsckd	hehe, a good plan :)
+2013-08-04 14:54:14	+tigrmesh	i'm available next week - either saturday the 10th or sunday the 11th.  i'm also available either day of the weekend after - the 17th or 18th.  
+2013-08-04 14:54:17	+meskarune	speaking of which, blog is almost totally back up
+2013-08-04 14:54:19	gtmanfred	tigrmesh: sorry meskarune was asleep
+2013-08-04 14:54:25	+meskarune	hehe 
+2013-08-04 14:54:37	+meskarune	my internets are broken :(
+2013-08-04 14:55:38	+tigrmesh	fsckd: you can see it if you navigate to it within redmine.  but not outside it
+2013-08-04 14:55:39	fsckd	that's the next agenda item, but first y'all settle on a date to work on the wiki?
+2013-08-04 14:55:58	+tigrmesh	i have proposed 4 dates
+2013-08-04 14:56:13	fsckd	tigrmesh: oh, so not logged in, just having the right referer? interesting...
+2013-08-04 14:56:21	+tigrmesh	yeah
+2013-08-04 14:56:51	fsckd	that's even simpler
+2013-08-04 14:58:09	+meskarune	sunday works for me
+2013-08-04 14:58:13	+meskarune	sunday or sat
+2013-08-04 14:58:28	+tigrmesh	anyone not logged in to the arch women redmine who'd be willing to see if this link works for them?  https://archwomen.org/redmine/projects/archwomen/wiki/IRC_Bots
+2013-08-04 14:58:29	phrik	Title: IRC Bots - Arch Linux Women - Arch Linux Women: Project Manager (at archwomen.org)
+2013-08-04 14:59:59	gtmanfred	tigrmesh: works
+2013-08-04 15:00:13	fsckd	gtmanfred: how about https://archwomen.org/redmine/projects/archwomen/wiki/Contributing_to_Open_Source.txt
+2013-08-04 15:00:21	gtmanfred	nope
+2013-08-04 15:00:26	gtmanfred	blank page
+2013-08-04 15:00:35	fsckd	ok, tigrmesh says that needs setting a referer
+2013-08-04 15:00:41	fsckd	to view
+2013-08-04 15:01:15	+tigrmesh	found it (maybe)  .txt 
+2013-08-04 15:01:51	+tigrmesh	how about this one?  https://archwomen.org/redmine/projects/archwomen/wiki/Contributing_to_Open_Source
+2013-08-04 15:01:52	phrik	Title: Contributing to Open Source - Arch Linux Women - Arch Linux Women: Project Manager (at archwomen.org)
+2013-08-04 15:06:56	fsckd	so which date have you agreed on?
+2013-08-04 15:07:12	+tigrmesh	gtmanfred: were you able to get to that one?
+2013-08-04 15:07:23	gtmanfred	yes
+2013-08-04 15:07:56	+tigrmesh	k
+2013-08-04 15:08:29	+tigrmesh	my scrollback sees no date discussion after my proposal
+2013-08-04 15:09:07	fsckd	14:59:29   +meskarune  sunday works for me
+2013-08-04 15:09:27	fsckd	14:59:33   +meskarune  sunday or sat
+2013-08-04 15:10:06	+tigrmesh	oops
+2013-08-04 15:10:37	+tigrmesh	how about saturday the 10th?
+2013-08-04 15:14:27	fsckd	the meeting has gone on for a long time. i think we should end it soon. i move for deferring the last three agenda items to the next meeting (Sept.)
+2013-08-04 15:15:44	+tigrmesh	mission statement, git mini class, and marketing materials?
+2013-08-04 15:15:50	manfred	me and kaictl need to sit down and reorganize, because we completely forgot to announce the class...
+2013-08-04 15:16:17	manfred	otherwise, I want to try and do it by the end of august... just like say yes this date, and go with it
+2013-08-04 15:16:28	manfred	probably at the end of the month
+2013-08-04 15:16:29	fsckd	tigrmesh: yes
+2013-08-04 15:16:33	manfred	kaictl: wakeup you drunk
+2013-08-04 15:16:46	fsckd	manfred: hehe, ok
+2013-08-04 15:17:02	manfred	oh oh git miniclass? when was this?
+2013-08-04 15:17:12	fsckd	a propasal was to be made today
+2013-08-04 15:17:41	fsckd	"Suggestion: mini class on using git so more people can add to Archwomen projects"
+2013-08-04 15:18:28	manfred	oh ! i can help with that
+2013-08-04 15:18:43	fsckd	awesome
+2013-08-04 15:20:08	manfred	ugh i need to go rebuild sage mathematics for the db update, i will give you a shout when me and kaictl have a plan
+2013-08-04 15:20:29	fsckd	ok, we'll add it to the minutes
+2013-08-04 15:20:44	fsckd	the git miniclass stuff can be discussed in detail next month
+2013-08-04 15:22:26	+meskarune	yeah, I think a mini class on git will help people to add to the site and other things. we can just use the test repo on the server or something for people to practice
+2013-08-04 15:23:26	kaictl	manfred: wat
+2013-08-04 15:23:27	+meskarune	also other open source projects. pyladies updates their blog with git
+2013-08-04 15:23:34	+meskarune	lol hai kaictl 
+2013-08-04 15:23:41	kaictl	so i've been looking through the trac docs and trac-admin stuff
+2013-08-04 15:23:47	kaictl	and it doesn't look like you can disable the wiki...
+2013-08-04 15:24:36	+meskarune	idk if trac has project pages too
+2013-08-04 15:24:41	+meskarune	its mostly tickets?
+2013-08-04 15:25:08	+meskarune	http://alternativeto.net/software/redmine/?platform=linux&license=opensource
+2013-08-04 15:25:13	+meskarune	a bajillion options
+2013-08-04 15:25:32	+meskarune	there are so many project management systems out there lol
+2013-08-04 15:26:38	kaictl	yeah...
+2013-08-04 15:26:47	kaictl	but trac looks cool anyway.
+2013-08-04 15:26:53	 *	kaictl sets up on vm
+2013-08-04 15:27:52	+meskarune	so we can have another meetup/chat on the project manager
+2013-08-04 15:28:03	+meskarune	and then add the other things to the next meeting
+2013-08-04 15:28:13	fsckd	in the middle of August?
+2013-08-04 15:28:20	+meskarune	lets recap: this month, what do we need to do?
+2013-08-04 15:28:43	+meskarune	fsckd: when people are available to meet I guess :)
+2013-08-04 15:29:09	kaictl	git mini classes!!1!11
+2013-08-04 15:29:16	kaictl	will be available for that.
+2013-08-04 15:29:19	+meskarune	we should add things to the calendar
+2013-08-04 15:29:42	fsckd	good idea
+2013-08-04 15:29:56	+tigrmesh	redmine wiki to dokuwiki migration on the 10th
+2013-08-04 15:29:58	+tigrmesh	i think
+2013-08-04 15:30:22	+tigrmesh	unless cat's walking on me, so i can't think
+2013-08-04 15:32:17	-->	MarkDude (~MT@fedora/MarkDude) has joined #archlinux-women
+2013-08-04 15:33:22	 *	dagle steals a cookie.
+2013-08-04 15:33:26	+meskarune	waiting for my calendar app to open -_-
+2013-08-04 15:34:01	+meskarune	I wish there was a lightweight calendar application not connected to an email client
+2013-08-04 15:36:18	+meskarune	http://dataserver.archwomen.org:5232/archwomen/calendar
+2013-08-04 15:36:26	+meskarune	caldav arch women calendar
+2013-08-04 15:36:45	+meskarune	you can add it in thunderbird/lightning or evolution as a web calendar
+2013-08-04 15:37:21	+meskarune	so what dates did we set?
+2013-08-04 15:37:27	+meskarune	sept 28th install day?
+2013-08-04 15:37:37	+meskarune	and aug 10th wiki migration?
+2013-08-04 15:37:47	fsckd	yup
+2013-08-04 15:38:22	fsckd	haven't decided for issue tracker
+2013-08-04 15:39:15	<--	camilasan (~camilasan@91-64-83-110-dynip.superkabel.de) has quit (Quit: Konversation terminated!)
+2013-08-04 15:39:29	fsckd	kaictl and manfred: is there a tentative date for PKGBUILD class?
+2013-08-04 15:39:52	fsckd	oh right, will let us know later
+2013-08-04 15:39:54	kaictl	ask manfred. he had a date...
+2013-08-04 15:40:08	-->	camilasan (~camilasan@91-64-83-110-dynip.superkabel.de) has joined #archlinux-women
+2013-08-04 15:40:11	fsckd	yeah, ignore me. i forget he said he'll get back to us
+2013-08-04 15:41:32	+meskarune	updated the calendar
+2013-08-04 15:41:50	+meskarune	so install day and wiki are on there
+2013-08-04 15:42:58	+meskarune	so final comments?
+2013-08-04 15:43:28	+meskarune	OMG ITS ALMOST 4pm
+2013-08-04 15:43:45	fsckd	a meeting that isn't at least 4 hours long isn't worth attending :P
+2013-08-04 15:44:04	+meskarune	haha
+2013-08-04 15:44:05	kaictl	lol
+2013-08-04 15:45:04	dagle	I was a member of a locale community... 30 years old and we had to limit our meetings to 1 hour.
+2013-08-04 15:45:29	fsckd	i wish we could do that, but people want to talk, a lot :P
+2013-08-04 15:45:43	+meskarune	I guess it shows that people care? :)
+2013-08-04 15:46:21	fsckd	yeah :)
+2013-08-04 15:47:06	fsckd	so what about the issue tracker meeting?
+2013-08-04 15:49:48	fsckd	how about aug. 11th?
+2013-08-04 15:50:26	+meskarune	thats day after wiki migration :)
+2013-08-04 15:50:36	fsckd	yes
+2013-08-04 15:50:38	+meskarune	I'm ok with sunday
+2013-08-04 15:50:51	fsckd	ok, tigrmesh said she's fine with 11th
+2013-08-04 15:51:01	+meskarune	kk
+2013-08-04 15:51:20	+meskarune	what time?
+2013-08-04 15:51:37	fsckd	16:00 UTC?
+2013-08-04 15:51:59	+meskarune	are people going to be awake ;)
+2013-08-04 15:52:02	+meskarune	lol
+2013-08-04 15:52:07	fsckd	no, lol
+2013-08-04 15:53:04	fsckd	it's 4 in the afternoon in Europe and 8 am in west coast North America
+2013-08-04 15:53:46	fsckd	that's the earliest time to cover the US
+2013-08-04 15:54:11	+meskarune	kk
+2013-08-04 15:54:13	+meskarune	:)
+2013-08-04 15:54:17	+meskarune	I added to the calendar
+2013-08-04 15:54:23	fsckd	ok great
+2013-08-04 15:54:23	+meskarune	can someone test to see if its working?
+2013-08-04 15:54:33	+meskarune	http://dataserver.archwomen.org:5232/archwomen/calendar
+2013-08-04 15:54:48	fsckd	so that's it then for the meeting?
+2013-08-04 15:54:53	+meskarune	I think so
+2013-08-04 15:55:05	fsckd	excellent
+2013-08-04 15:55:16	fsckd	======================== Meeting Ends ========================
