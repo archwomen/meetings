@@ -1,0 +1,24 @@
+20th IRC Meeting - October 6th, 2013
+
+Announcements and Status Updates
+    
+    * "Beginer's Guide to Package Maintaining" class was held on September 14th and it was awesome! Thanks Kaictl and GTManfred!
+    Logs are availble online at https://archwomen.org/media/
+    
+    * Install day was held on September 7th and that was awesome too
+
+Topics for discussion
+    
+    * Migraint Redmine to Dokuwiki is in progress
+        + Namespaces to make: aw-tech and aw-org, meetings, projects
+        + Wiki migration sprint on Sunday Oct. 13th
+    * Issue Tracker
+        + Suggestion: use the wiki to track issues
+            - there are also issue tracking plugins for the wiki, advantage is that you only need a single login
+        + Suggestion: trello
+    * Blog
+        + Suggestion: use email for comments, add a link and we can add comments by hand
+        + Suggestion: have a comment submit form that saves comments to a file
+            - could use git
+            - could integrate with site generator
+            - need to brainstorm
