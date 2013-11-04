@@ -4,6 +4,7 @@ Announcements and status updates
 
     * Redmine to Dokuwiki migration is in progress and is almost done.
         + Issues migrated to https://archwomen.org/wiki/aw-org:todo - can take our time to get a proper issue tracker (like Tiny Issue).
+        + Accounts on Redmine will not be copied. New accounts will need to be made for Dokuwiki. Will consider OAuth.
 
 Topics for discussion
 
