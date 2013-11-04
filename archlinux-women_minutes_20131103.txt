@@ -1,0 +1,19 @@
+21st IRC Meeting - November 03, 2013
+
+Announcements and status updates
+
+    * Redmine to Dokuwiki migration is in progress and is almost done.
+        + Issues migrated to https://archwomen.org/wiki/aw-org:todo - can take our time to get a proper issue tracker (like Tiny Issue).
+
+Topics for discussion
+
+    * Tiny Issue - need to update laravel
+        + https://github.com/mikelbring/tinyissue/pull/143
+        + http://tinyissue.com/
+        + http://laravel.com/
+    * Mailing List
+        + GNU Mailman (uses python2) with Postorious (web interface) and Hyperkitty (archives, uses django)
+            - Decide whether installing by pacman or in virtualenv.
+            - Need to determine how it'll be configured.
+        + Alternatives: Open Atrium, Majordomo, Dada Mail
+
