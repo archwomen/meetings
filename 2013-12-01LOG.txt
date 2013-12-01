@@ -1,0 +1,200 @@
+Log of Arch Women 22nd IRC Meeting, December 1st, 2013
+
+Dec 01 12:05:38 <meskarune>	==== Meeting Start ====
+Dec 01 12:05:43 <meskarune>	announcements: 
+Dec 01 12:06:15 *	crankyop (~tigrmesh@archlinux/op/tigrmesh) has joined #archlinux-women
+Dec 01 12:06:15 *	ChanServ gives voice to crankyop
+Dec 01 12:07:00 *	tigr has quit (Ping timeout: 240 seconds)
+Dec 01 12:07:57 *	crankyop is now known as tigr
+Dec 01 12:08:10 *	vodik (~root@archlinux/op/vodik) has joined #archlinux-women
+Dec 01 12:09:24 <meskarune>	we are using the wiki for project management at the moment. We are using tags
+Dec 01 12:09:36 <meskarune>	so we can tag things with people, done/closed, todo, etc
+Dec 01 12:09:51 <meskarune>	and then just look at an index or search for them
+Dec 01 12:11:49 <fsckd>	https://archwomen.org/wiki/todo:start
+Dec 01 12:11:50 <phrik>	Title: To-do [Arch Women Wiki] (at archwomen.org)
+Dec 01 12:15:50 *	tigr has quit (Remote host closed the connection)
+Dec 01 12:16:18 *	tigr (~tigrmesh@archlinux/op/tigrmesh) has joined #archlinux-women
+Dec 01 12:16:18 *	ChanServ gives voice to tigr
+Dec 01 12:17:09 <meskarune>	there was a power outage so the server was down for a bit: https://www.digitalocean.com/blog_posts/ny1-equinix-power-issue-postmortem
+Dec 01 12:17:12 <phrik>	Title: NY1 (Equinix) Power Issue Postmortem | DigitalOcean (at www.digitalocean.com)
+Dec 01 12:17:22 <meskarune>	I'm working on getting munin up, and looking into 3rd party notification things
+Dec 01 12:19:03 *	polyzen has quit (Quit: polyzen)
+Dec 01 12:23:02 <meskarune>	we've also been dealing with lots of trols this month
+Dec 01 12:23:10 <meskarune>	arch women was posted on 4chan
+Dec 01 12:23:19 <meskarune>	and there is probably another troll den somewhere
+Dec 01 12:23:31 <meskarune>	so the channel mode was changed to quiet unregistered
+Dec 01 12:24:43 <tigrmesh>	so if someone PMs you and says "i can't talk in arch women", you can explain why.  and can tell them how to be able to
+Dec 01 12:25:50 <tigrmesh>	and if someone comes in who's clearly a troll, let a mod know.  find mods by doing   /msg chanserv access #archlinux-women list
+Dec 01 12:26:15 <tigrmesh>	gmzlj is vodik,  wonder is ioni
+Dec 01 12:26:31 <tigrmesh>	or do !awops
+Dec 01 12:26:36 <tigrmesh>	!awops
+Dec 01 12:26:38 <phrik>	HALP! meskarune tigrmesh tigr wonder ioni vodik yardena fsckd
+Dec 01 12:27:24 <tigrmesh>	if you don't want to do that in channel, just PM phrik
+Dec 01 12:27:40 <fsckd>	does that work?
+Dec 01 12:27:45 <meskarune>	yep :)
+Dec 01 12:27:53 *	fsckd doesn't know how
+Dec 01 12:27:58 <meskarune>	you can pm him and play with all the commands without spamming the channel
+Dec 01 12:28:04 <meskarune>	do /query phrik
+Dec 01 12:28:08 <fsckd>	oh that, lol
+Dec 01 12:28:19 <fsckd>	i thought you meant call the ops from pm
+Dec 01 12:28:38 <meskarune>	you can run the !awops command in pm
+Dec 01 12:30:08 <meskarune>	so server stuff
+Dec 01 12:30:16 <fsckd>	regarding the powerout thing, i like that Digital Ocean is open about stuff
+Dec 01 12:31:32 <meskarune>	I lost my internet connection
+Dec 01 12:31:45 <tigrmesh>	completely?
+Dec 01 12:31:59 *	polyzen (~polyzen@unaffiliated/polyzen) has joined #archlinux-women
+Dec 01 12:33:08 <meskarune>	I'm using 3G on my phone
+Dec 01 12:33:12 <meskarune>	><
+Dec 01 12:33:28 <meskarune>	the Internet should come back up soon
+Dec 01 12:33:30 <tigrmesh>	oy
+Dec 01 12:33:47 <meskarune>	yeah I do really like how open digital ocean is about what's going on
+Dec 01 12:35:53 <meskarune>	omg I'm back online
+Dec 01 12:35:55 <meskarune>	yay
+Dec 01 12:36:04 <fsckd>	yay welcome back
+Dec 01 12:39:55 <tigrmesh>	anyone have any other announcements?
+Dec 01 12:41:51 <meskarune>	so server stuff
+Dec 01 12:42:04 <meskarune>	need to get munin finished up, and just keep an eye on bandwidth
+Dec 01 12:42:12 <meskarune>	if it uses too much, we could have it update less often
+Dec 01 12:42:18 <meskarune>	crap, offline again
+Dec 01 12:43:41 <meskarune>	back
+Dec 01 12:43:54 <fsckd>	yikes
+Dec 01 12:43:58 <meskarune>	ok, so monitoring needs to get setup, and then we can check for server issues
+Dec 01 12:44:12 <meskarune>	munin is installed, but I have to play with the configure and do some tests for bandwidth usage
+Dec 01 12:44:16 <meskarune>	hopefully its not too much
+Dec 01 12:44:25 <meskarune>	and hopefully private networking is up in NY1 soon
+Dec 01 12:46:46 *	yar (~yar@gateway/tor-sasl/yar) has joined #archlinux-women
+Dec 01 12:48:21 <meskarune>	so arch linux install day
+Dec 01 12:48:26 <meskarune>	should we set a date?
+Dec 01 12:48:50 <tigrmesh>	sure
+Dec 01 12:50:00 <meskarune>	well, next month is dec
+Dec 01 12:50:07 <meskarune>	and lots of people will have finals, then holidays
+Dec 01 12:50:41 <CalimeroTeknik>	I will be releasing config utilities for arch linux soon — written with dialog
+Dec 01 12:51:05 <CalimeroTeknik>	remember AIF, the interactive installer?
+Dec 01 12:51:36 <CalimeroTeknik>	can be useful for install parties; I'll post some news when I release that
+Dec 01 12:54:31 *	psyl0n has quit (Remote host closed the connection)
+Dec 01 12:54:44 <meskarune>	oh cool
+Dec 01 12:54:48 <meskarune>	that sounds really awesome
+Dec 01 12:56:00 <meskarune>	so how about Dec. 20th?
+Dec 01 12:57:04 <fsckd>	just before the holidays?
+Dec 01 12:57:05 <tigrmesh>	CalimeroTeknik, wiil your utilities be released by then?
+Dec 01 12:57:34 <CalimeroTeknik>	the basic one yeah, probably. it's modular so I'll add modules
+Dec 01 12:57:46 <meskarune>	should it be eariler?
+Dec 01 12:57:48 <meskarune>	idk
+Dec 01 12:57:50 <meskarune>	><
+Dec 01 12:57:57 <meskarune>	maybe people will be travling?
+Dec 01 12:59:25 <fsckd>	it is a Friday
+Dec 01 13:00:09 <meskarune>	oooh kk. idk what a good day would be
+Dec 01 13:00:49 <CalimeroTeknik>	in France we generally do that on saturdays (when it's an exceptional event, on sundays)
+Dec 01 13:01:10 <CalimeroTeknik>	people work monday through friday
+Dec 01 13:04:03 <meskarune>	ok
+Dec 01 13:04:34 <meskarune>	21st? or do the week before on the 14th?
+Dec 01 13:05:12 <fsckd>	14th is trailing end of finals
+Dec 01 13:05:47 <fsckd>	i say 21st or 28th
+Dec 01 13:06:46 <fsckd>	err 14th is middle of finals, depending on the school of course
+Dec 01 13:13:32 <meskarune>	28th is after the main holiday, but people should still have time off
+Dec 01 13:13:36 <meskarune>	before new years
+Dec 01 13:13:40 <meskarune>	so that might be a good date
+Dec 01 13:19:26 <tigrmesh>	before we decide, does anyone besides the 4 of us (me, CalimeroTeknik, fsckd and meskarune have an opinion)?
+Dec 01 13:19:46 <tigrmesh>	we can't speak for anyone but ourselves
+Dec 01 13:19:51 <tigrmesh>	CalimeroTeknik, are you in school?
+Dec 01 13:23:24 <meskarune>	I guess not
+Dec 01 13:23:32 <meskarune>	ugh, I hate my internet connection. It does this all day
+Dec 01 13:29:24 <tigrmesh>	vodik, jy2wong and terra-and-luna are in shcool.  Aster too.  we're thinking of doing an install day the saturday between Christmas and New Year's.  dec 29.  any opinion about whether that's good or bad for students?
+Dec 01 13:30:58 <tigrmesh>	we could do a new year's day: New Year, New Arch Install" install day.  but we'd get very few people, most of whom would be hung over or overtired from staying up late
+Dec 01 13:31:13 <tigrmesh>	"New Year, New Arch Install"
+Dec 01 13:32:42 <fsckd>	i like that as the slogan, even if it's on 28th or 29th
+Dec 01 13:33:58 <meskarune>	outsourcing the question to offtopic
+Dec 01 13:34:10 <meskarune>	I'm sure someone will answer after a few jokes and trolls
+Dec 01 13:34:22 <meskarune>	I like that tigrmesh :)
+Dec 01 13:34:32 <tigrmesh>	haha
+Dec 01 13:35:53 <meskarune>	people are saying 14th in the afternoon
+Dec 01 13:35:55 <meskarune>	LOL
+Dec 01 13:36:24 <tigrmesh>	afternoon where?    ;)
+Dec 01 13:37:05 <fsckd>	i suppose following afternoon tea
+Dec 01 13:37:24 <meskarune>	haha
+Dec 01 13:40:13 <meskarune>	kk, 14th has 3 votes, 28th has one vote
+Dec 01 13:41:35 <meskarune>	when will ya'll be free ?
+Dec 01 13:44:30 <fsckd>	when master gives Dobby a sock
+Dec 01 13:49:25 <meskarune>	kk 14th or 28th
+Dec 01 13:49:34 <meskarune>	14th is in 2 weeks
+Dec 01 13:49:39 <meskarune>	is that enough time?
+Dec 01 13:49:44 <meskarune>	if not, then 28th is probably good
+Dec 01 13:50:24 <vodik>	14th im at work, 28th im on vacation
+Dec 01 13:50:43 <vodik>	so both won't work for me
+Dec 01 13:52:08 <jy2wong>	tigrmesh: Dec 29 sounds reasonable, other than the fact that *because* there is no school, people are on vacation somewhere :P
+Dec 01 13:52:40 <CalimeroTeknik>	tigrmesh, I am in engineer school yeah, no courses during the week-end
+Dec 01 13:53:26 <jy2wong>	exam period is more reasonable of a time for $event than you'd think
+Dec 01 13:53:52 <CalimeroTeknik>	I'm in vacation 21st through 5th january
+Dec 01 13:54:20 <tigrmesh>	will that be enough time, and what do we want to do to publicize it?
+Dec 01 13:54:42 <tigrmesh>	aw twitter, aw site, where else?
+Dec 01 13:54:43 <vodik>	as jy2wong said
+Dec 01 13:54:51 <meskarune>	irc chans
+Dec 01 13:54:54 <meskarune>	maybe linux chix?
+Dec 01 13:54:57 <vodik>	who doesn't love a study distraction
+Dec 01 13:54:59 <meskarune>	idk if they would be interested
+Dec 01 13:55:02 <tigrmesh>	vodik, haha
+Dec 01 13:55:20 <jy2wong>	vodik: we think the same way, haha
+Dec 01 13:58:13 <meskarune>	so 29th?
+Dec 01 13:58:23 <meskarune>	I hate scheduling LOL
+Dec 01 14:07:05 <tigrmesh>	any votes for the 29th?
+Dec 01 14:07:28 <tigrmesh>	atm, we have 3 for the 14th and 1 for the 28th
+Dec 01 14:07:41 <tigrmesh>	gasp!
+Dec 01 14:08:03 <tigrmesh>	isn't there an archlinux announce mailing list?
+Dec 01 14:08:15 <fsckd>	yes there is
+Dec 01 14:09:04 <fsckd>	i think it's for news announcements
+Dec 01 14:09:16 <tigrmesh>	events
+Dec 01 14:09:23 <fsckd>	yes
+Dec 01 14:09:39 <meskarune>	oh good idea
+Dec 01 14:09:52 <carharttjimmy>	agreed
+Dec 01 14:09:54 <carharttjimmy>	great idea
+Dec 01 14:10:09 *	carharttjimmy has appeared from the wild
+Dec 01 14:10:41 <tigrmesh>	wb carharttjimmy 
+Dec 01 14:10:52 <carharttjimmy>	thank you tigrmesh 
+Dec 01 14:11:06 <jy2wong>	my vote is for the 14th if you haven't counted it
+Dec 01 14:11:38 <meskarune>	kk
+Dec 01 14:11:45 <meskarune>	looks like 14th has the most votes
+Dec 01 14:12:04 <tigrmesh>	so moved
+Dec 01 14:12:12 <tigrmesh>	;)
+Dec 01 14:12:24 <carharttjimmy>	 I vote as well
+Dec 01 14:12:28 <carharttjimmy>	to abstain
+Dec 01 14:12:54 <tigrmesh>	ok
+Dec 01 14:13:14 <fsckd>	lol
+Dec 01 14:13:25 <tigrmesh>	meskarune, so what date?
+Dec 01 14:13:36 <meskarune>	looks like 14th
+Dec 01 14:13:40 <tigrmesh>	k
+Dec 01 14:15:21 *	kristof (~kristof@unaffiliated/kristof) has joined #archlinux-women
+Dec 01 14:15:29 <tigrmesh>	i'll research which linuxchix and arch announce lists would be right, and post the announcements there
+Dec 01 14:17:50 <meskarune>	ok awesome
+Dec 01 14:18:05 <meskarune>	and last thing is call for blog posts :)
+Dec 01 14:18:11 <meskarune>	I really got to get on some of mine
+Dec 01 14:18:20 <meskarune>	and add the blog rss to the home page so people can see what's up
+Dec 01 14:20:24 <meskarune>	but I can ask again when people are about
+Dec 01 14:20:43 <meskarune>	anything else we need to discuss?
+Dec 01 14:20:45 <meskarune>	:)
+Dec 01 14:23:04 <tigrmesh>	also, would anyone be willing to quickly write up link items when asked?
+Dec 01 14:23:29 <tigrmesh>	it takes me forever to write stuff, so they don't get posted
+Dec 01 14:25:24 <tigrmesh>	just like "ada lovelace day will be [date]. ada lovelace was [about 1 sentence].  and was really cool and relevant to arch women because [about 1 sentence]."
+Dec 01 14:25:33 <tigrmesh>	?  please?
+Dec 01 14:30:29 <tigrmesh>	also, any events or links that you find, or thoughts that you have about:
+Dec 01 14:31:00 *	vodik has quit (Quit: moving)
+Dec 01 14:31:05 <tigrmesh>	being a woman in tech classes [for women only]
+Dec 01 14:31:17 <meskarune>	the submission page should help make it easier to create the post format, but I need to automate blog updates more so its easier
+Dec 01 14:31:38 <tigrmesh>	for both genders:  being in tech classes (or other tech spaces) with women
+Dec 01 14:31:53 <tigrmesh>	that doesn't matter for now
+Dec 01 14:32:01 <tigrmesh>	if you write a post, we'll get it on there
+Dec 01 14:32:06 <tigrmesh>	no worries about that part
+Dec 01 14:32:37 *	vodik (~root@archlinux/op/vodik) has joined #archlinux-women
+Dec 01 14:33:10 <tigrmesh>	sorry, meskarune.  of course it matters.  just trying to say there's no need to wait for the automated posting if you have something to say  :)
+Dec 01 14:33:28 <tigrmesh>	*if someone has something they want to put on the site
+Dec 01 14:33:39 <meskarune>	<3 I know what you mean :D
+Dec 01 14:33:41 <meskarune>	no worries
+Dec 01 14:34:04 <meskarune>	I think I could have a git hook that runs the blog update script
+Dec 01 14:34:11 <meskarune>	so we can just git push and bam blog updates
+Dec 01 14:35:50 <meskarune>	then I can have the submission script email us when there is a new post
+Dec 01 14:36:05 <meskarune>	or maybe ping the channel or something idk
+Dec 01 14:36:12 <meskarune>	whatever will work best for us
+Dec 01 14:36:26 <fsckd>	:)
+Dec 01 14:39:10 <tigrmesh>	any other comments or questions?
+Dec 01 14:43:32 <tigrmesh>	anyone?
+Dec 01 14:44:23 <fsckd>	i guess it is time to end the meeting
+Dec 01 14:45:50 <meskarune>	==== Meeting Ended ====
