@@ -1,0 +1,25 @@
+Arch Women 22nd IRC Meeting, December 1st, 2013
+
+Announcements and status updates
+    * Project manager - currently using the wiki and using tags to organize the todo pages. https://archwomen.org/wiki/todo:start
+    * Power outage at our VPS a few days ago - https://www.digitalocean.com/blog_posts/ny1-equinix-power-issue-postmortem
+    * There was a troll fest in the IRC channel due to 4chan and perhaps an unknown troll den.
+         + IRC channel is now set to quiet non-registered users for now.
+         + See instructions on registering a nick on freenode at  http://freenode.net/faq.shtml#nicksetup
+         + Use  /msg chanserv access #archlinux-women list  to see who the ops are, or do !awops to call ops in channel.
+
+Server 
+    * meskarune will configure munin to monitor server resources. It is already installed. Need to configure and test bandwidth usage. (Private networking will help with that.)
+
+Projects 
+    * Arch Linux Install Day - lets set a new date, and do some advertising.
+          + Date: Saturday, Dec. 14th
+          + To be announced on twitter and the Arch Women site
+          + ΤoDo: tigrmesh find the arch and linuxchix announce mailing lists and post to them.
+
+Community 
+    * Need people to write some blog posts.
+    * And volunteer(s) to write quick link posts when links are found.
+
+Final comments, questions, etc.
+    None.
