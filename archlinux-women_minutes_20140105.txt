@@ -1,0 +1,23 @@
+Arch Women 23rd IRC Meeting - January 5th, 2014, 17:26 UTC
+
+General
+   * Install Day on December 14th went well. Some people stopped by.
+   * The sudden surge of trolls in November and early December has abated.
+
+Goals for 2014
+   * Fundraising and Awareness.
+        + wiki: https://archwomen.org/wiki/aw-org:finances and https://archwomen.org/wiki/aw-org:fundraising
+        + crowd funding
+        + online store?
+        + ask for donations
+   * Internship
+        + wiki: https://archwomen.org/wiki/projects:internships:start
+        + First, need to define what an intern will do.
+             * teach a class
+             * software programing project
+             * web development
+   * Get presence at conferences - pamphlets, or have people attend.
+
+Goals for next month (January)
+   * Set up mailing list(s).
+   * Finish setting up munin.
