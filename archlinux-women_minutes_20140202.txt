@@ -1,0 +1,20 @@
+Arch Women 24th IRC Meeting - February 2nd, 2014
+
+Server
+   * action: set up mailing list (meskarune and fsckd)
+   * action: set up munin (meskarune)
+
+Internship
+   * Projects
+        + ideas: software development, web development, teach a class (Arch Linux Classroom)
+        + action: fsckd will come up with a list of projects Arch Women can offer to interns
+   * Funding
+        + estimate $5000-$7000 for one intern
+        + ideas: crowd sourcing, grants, donations, online store(?)
+        + need a plan for funding
+   * Recruiting
+        + need a plan for recruiting interns
+   * Miscellaneous ideas
+        + work within https://www.gnome.org/opw/
+             * would still need funding
+        + have projects from Arch Linux, like pacman hooks or whatever else they are needing
