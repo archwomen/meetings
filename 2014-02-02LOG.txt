@@ -1,0 +1,74 @@
+Log of Arch Women 23rd IRC Meeting, February 2nd, 2014
+
+Feb 02 10:56:03           fsckd  is anyone here for the meeting?
+Feb 02 11:04:50           fsckd  agenda is here, https://archwomen.org/wiki/meetings:2014_february
+Feb 02 11:04:52           phrik  Title: 24th IRC Meeting [Arch Women Wiki] (at archwomen.org)
+Feb 02 11:06:16           fsckd  i'll delay the meeting until someone wants to participate
+Feb 02 11:55:26        nisstyre  fsckd: well I'm here
+Feb 02 11:55:59           fsckd  hello nisstyre :)
+Feb 02 11:56:49        nisstyre  not sure what to discuss though :)
+Feb 02 11:58:14           fsckd  hehe
+Feb 02 11:58:50           fsckd  anything which concerns arch women i suppose
+Feb 02 11:59:05           fsckd  you saw the agenda?
+Feb 02 11:59:19        nisstyre  yeah
+Feb 02 11:59:33           fsckd  that's what would have been followed if there were more people :P
+Feb 02 11:59:39        nisstyre  why do you need munin?
+Feb 02 12:00:03           fsckd  for monitoring the servers
+Feb 02 12:00:04        nisstyre  or I guess I should say, why does meskarune need it
+Feb 02 12:00:08        nisstyre  ok
+Feb 02 12:00:13        nisstyre  we have more than one server?
+Feb 02 12:00:18           fsckd  there are two servers
+Feb 02 12:00:38           fsckd  dataserver (which i haven't looked at yet) and webserver
+Feb 02 12:01:51           fsckd  when the site was hosted at linode, meskarune had munin set up
+Feb 02 12:02:10        nisstyre  they have it setup for you basically
+Feb 02 12:02:52           fsckd  no. meskarune had it on her personal linode and set archwomen's server to use her munin stuff
+Feb 02 12:02:58        nisstyre  oh okay
+Feb 02 12:03:14        nisstyre  fsckd: what else did you have in mind for an intern?
+Feb 02 12:05:19           fsckd  so far the ideas are to work on software, do web development, or teach a class as part of arch linux classroom
+Feb 02 12:06:01        nisstyre  how would you recruit intern(s)?
+Feb 02 12:06:05        nisstyre  any ideas?
+Feb 02 12:06:36           fsckd  hmm, honestly, i don't know
+Feb 02 12:06:53        nisstyre  I think that's more important than figuring out what an intern would do
+Feb 02 12:06:53           fsckd  i was hoping we could work with an existing thing like gnome's opw
+Feb 02 12:07:37           fsckd  yeah?
+Feb 02 12:08:26           fsckd  do have any ideas on how to recruit interns?
+Feb 02 12:08:56           fsckd  also, need to get funding for it. unpaid internships aren't nice
+Feb 02 12:09:43        nisstyre  fsckd: yes I agree they need to be paid
+Feb 02 12:09:54        nisstyre  fsckd: I don't know what the best way would be to get funding
+Feb 02 12:11:47           fsckd  could do crowd funding, like indigogo
+Feb 02 12:12:06           fsckd  may be get some grants
+Feb 02 12:12:22        nisstyre  fsckd: yes, although that depends entirely on how much people like you
+Feb 02 12:12:26           fsckd  hehe
+Feb 02 12:12:31        nisstyre  not on what benefits you might actually produce
+Feb 02 12:12:38           fsckd  true
+Feb 02 12:16:49           fsckd  you know what, i'll look into gnome opw this week and see what's needed to participate
+Feb 02 12:17:21           fsckd  may be we can part of their program this year or next year
+Feb 02 12:18:44           fsckd  may be get arch linux proper into it. Allan said he's willing to mentor people who help with pacman development
+Feb 02 12:23:46           fsckd  i think we'll have to figure out funding first
+Feb 02 12:24:28  CalimeroTeknik  for that you need to figure out a project that will convince people though ^^
+Feb 02 12:25:38           fsckd  there are two possibilities, archwomen offers the work or arch linux offers the work
+Feb 02 12:25:44           fsckd  either is possible
+Feb 02 12:26:16           fsckd  someone *might* be working on pacman hooks for GSoC this year
+Feb 02 12:27:02           fsckd  ok, here's the plan, by next meeting i will have a list of projects arch women can offer
+Feb 02 12:27:22           fsckd  meanwhile everyone else think of how it can be funded
+Feb 02 12:27:55           fsckd  is that ok?
+Feb 02 12:28:28             -->  hh4a (~hh4a@BSN-142-100-71.dial-up.dsl.siol.net) has joined #archlinux-women
+Feb 02 12:30:34           fsckd  hi hh4a :) just in time for the meeting
+Feb 02 12:31:02            hh4a  hi fsckd 
+Feb 02 12:31:20            hh4a  oh really? wonderful, i finally managed it :)
+Feb 02 12:32:05           fsckd  i'm going to put some of the stuff we've been talking about on a riseup pad
+Feb 02 12:33:59            hh4a  ok
+Feb 02 12:41:34            hh4a  any tips on unattended laptop shutdown due to power loss regarding hard drive?
+Feb 02 12:42:43       +tigrmesh  i'm back  :)
+Feb 02 12:42:48           fsckd  welcome back
+Feb 02 12:43:09           fsckd  and here is the riseup pad, https://pad.riseup.net/p/aw-feb-2014-meeting
+Feb 02 12:43:11           phrik  Title: Riseup Pad (at pad.riseup.net)
+Feb 02 12:54:15           fsckd  ok, so anything else?
+Feb 02 12:57:33       +tigrmesh  hh4a, where are you?  what time zone?
+Feb 02 13:02:18            hh4a  GMT
+Feb 02 13:09:13       +tigrmesh  we originally set this meeting for 16:00 UTC because people from eastern Europe were interested in being here for it
+Feb 02 13:09:34       +tigrmesh  and now i'm not sure if any of them come
+Feb 02 13:09:55       +tigrmesh  or if they come but they don't say anything
+Feb 02 13:11:38            hh4a  oh
+Feb 02 13:12:29            hh4a  you know how it is with meetings and timezones, most people just say they do
+Feb 02 13:31:56           fsckd  i suppose the meeting is over :)
