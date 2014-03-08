@@ -1,0 +1,29 @@
+Arch Women 25th IRC Meeting - March 2nd, 2014 at 16:30 UTC
+
+
+There have been incremental improvements to the server and website.
+
+Internships discussion postponed until the next meeting.
+
+Site Changes / Improvements List (in no particular order):
+   1. The text in the Classroom paragraph on the home page <https://archwomen.org/> says "Arch Women is hosting a package building class".
+       1.1. Suggested FIX:  Change the text to, "Arch Women hosted a package building class".
+       1.2. Can be done by anyone.  The code is on GitHub.  The file is <https://github.com/archwomen/website/blob/master/index.php>.  Get it, fix it, make a pull request, and badger us until we do something.
+   2. The join page <https://archwomen.org/join/> has "text here" placeholders.
+       2.1. Suggested FIX (part 1):  A group to meet to discuss what makes someone a member.
+       2.2. This group can be attended by anyone.
+   3. Need to announce upcoming classes when we have them.
+       3.1. Suggested FIX:  Classes be announced in the blog and there be a blog Tag/Category "Classes".
+       3.2. Can only be fixed by fsckd, meskarune, tigrmesh or yar.
+   4. There should be a link on the Arch Linux wiki page about the PKGBUILD class to the logs for the class, which are on the Arch Women site.
+       4.1. Suggested FIX:  Add the log link to the wiki page, <https://archwomen.org/media/project_classroom/classlogs/>.
+       4.2. Can be done by anyone with an Arch Linux wiki account.
+   5. The "Project Manager" link in the far right column of the home page <https://archwomen.org/> links to Redmine. Redmine is no longer used by Arch Women.
+       5.1. Suggested FIX:  Remove it or change the link to our current todo list: <https://archwomen.org/wiki/start?idx=todo>. 
+       5.2. Can be done by anyone.  The code is on GitHub.  The file is <https://github.com/archwomen/website/blob/master/index.php>.
+   6. CalimeroTeknik reports that the home page <https://archwomen.org/> loads slow.
+
+More classes - possible volunteers:
+   * meskarune might do a class on web design.
+   * jy2wong might do a class on kernels, what their role is and compiling your first one.
+   * CalimeroTeknik might do a class on PKGBUILDs.
