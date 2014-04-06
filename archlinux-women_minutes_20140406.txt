@@ -1,0 +1,24 @@
+Arch Women IRC Meeting, 06 April 2014 at 16:13 UTC
+
+Announcements and status updates
+   * CalimeroTeknik reported the front page loads slow. This was fixed by enabling caching.
+      * https://archwomen.org/wiki/aw-tech:xcache
+      * https://archwomen.org/wiki/aw-tech:apc
+   * Arch Women is hosting data files for ArchMap.
+      * ArchMap is a project to create a map of where Arch Linux users are in the world. https://wiki.archlinux.org/index.php/ArchMap
+      * Data files are found at https://archwomen.org/media/archmap . The .geojson and .kml files contain the same information.
+      * Google Maps - http://goo.gl/maps/N4qu0
+      * Geojson.io - http://geojson.io/#data=data:text/x-url,https://archwomen.org/media/archmap/archmap.geojson
+
+Topics for discussion
+   * Internships - deferred to May meeting
+   * Proposed Classes
+      * [ meskarune ] A class on web design.
+      * [ jy2wong ] A class on kernels, what their role is and compiling your first one.
+         * Perhaps split into two classes.
+         * Decide on minimum prerequisites, possibly "comfortable with the command line and installing arch, but little knowledge of how the software integrates with hardware."
+      * [ CalimeroTeknik ] A class on PKGBUILDs, twice in the same day.
+         * Dates and times: Saturday, April 19ᵗʰ 2014年
+            * 9:30AM UTC (~7:30PM in Brisbane AU and ~9:30 in Wellington NZ)
+            * 4PM UTC (~12 noon in New York and ~9am in Vancouver)
+      * Classroom Resources: https://github.com/archwomen/classroom-media
