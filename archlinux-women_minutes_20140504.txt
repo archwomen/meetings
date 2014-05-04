@@ -1,0 +1,24 @@
+Arch Women IRC Meeting, 04 May 2014 at 16:05 UTC
+
+Announcements and status updates
+--------------------------------
+
+CalimeroTeknik taught a class on PKGBUILDs. Logs for that class and the previous class are available.
+https://archwomen.org/media/project_classroom/classlogs/
+
+Topics for discussion
+---------------------
+
+Internships - https://archwomen.org/wiki/projects:internships:start
+* Need to pick one route to focus on. - suggestion OWP as they allow a broader range of interns.
+* GSoC more likely to get Arch Devs involved - must be a programming project, only college students can apply.
+* https://archwomen.org/wiki/projects:internships:ideas Ideas list for internship.
+
+Proposed Classes
+* A class on web design. By meskarune.
+* A class on kernels, what their role is and compiling your first one. By jy2wong.
+  Tentative date, Saturday May 24th. Final date will be announced sometime in the first week of May.
+
+Class requests
+* Applying patches in PKGBUILDs.
+* Using git, both basics and advanced stuff (including hooks).
