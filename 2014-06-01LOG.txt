@@ -1,0 +1,650 @@
+Log of Arch Women 28th IRC Meeting, June 1st, 2014
+
+16:23:00          demize  Agenda at https://archwomen.org/wiki/meetings:2014_june
+16:23:01           phrik  Title: 28th IRC Meeting [Arch Women Wiki] (at archwomen.org)
+16:25:57       @tigrmesh  i've copied the agenda to a riseup pad.  https://pad.riseup.net/p/arch-women-meeting_-_June_2014
+16:25:58           phrik  Title: Riseup Pad (at pad.riseup.net)
+16:26:06       @tigrmesh  so we cab take meeting notes
+16:26:15            hh4a  nice
+16:26:34         sharvey  awesome
+16:26:46           liara  i liked the class yesterday, as always:)
+16:27:10  CalimeroTeknik  there was a suggestion for a class on VCS
+16:27:20  CalimeroTeknik  by emlun
+16:28:19            hh4a  be specific
+16:28:54         sharvey  on VCSs in general? or on a specific one
+16:28:57      +meskarune  gah, I forgot there was a meeting
+16:29:00      +meskarune  T_T
+16:29:24          demize  s/he said that it could either be Git centric or VCSs in general
+16:29:40      +meskarune  I even woke up early, just didn't get online until now
+16:30:00      +meskarune  I'd realy like a class on git
+16:30:03         sharvey  Git centric is probably reasonable
+16:30:10         sharvey  as most people use that nowadays
+16:30:13              --  tigrmesh has changed topic for #archlinux-women from "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://bit.ly/13rVGg5 <|||> Twenty-eighth IRC Meeting: Sunday June 1st at 16:00 UTC. See you there!  Agenda: https://archwomen.org/wiki/meetings <|||> If you're having a problem with someone, !awops" to "IRC meeting is happening *now*.  Agenda and meeting notes at https://pad.riseup.net/p/arch-women-meeting_-_June_2014 <|||> Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://bit.ly/13rVGg5 <|||>  If you're having a problem with someone, !awops"
+16:30:14          demize  I'd say that both could be useful really.
+16:30:21          demize  But separate.
+16:30:21         sharvey  maybe touch on a bit of history, on VCSs in general
+16:30:24            hh4a  damn i missed kernel class ...
+16:30:33      +meskarune  it was sweet :)
+16:31:14          demize  hh4a: The logs are up if you want to read them. https://archwomen.org/media/project_classroom/classlogs/2014-05-31-first_look_at_the_linux_kernel.txt
+16:32:01            hh4a  demize: thanks!
+16:39:31      +meskarune  kk
+16:39:33      +meskarune  meeting?
+16:39:36  carharttjimmy_  am I late for the meeting?
+16:39:47      +meskarune  I am too T_T
+16:39:58       @tigrmesh  we were just getting started
+16:40:05              --  Mode #archlinux-women [-o tigrmesh] by ChanServ
+16:40:26              --  carharttjimmy_ is now known as carharttjimmy
+16:40:37       +tigrmesh  i didn't set up the pad and the topic until after i'd pinged everyone
+16:41:02   carharttjimmy  ah good
+16:41:14   carharttjimmy  We should have a basic programming class go over an easy language
+16:41:23   carharttjimmy  like Java8 or early C++
+16:41:29   carharttjimmy  or even python
+16:41:45   carharttjimmy  sorry, that just came in my mind and I had to get it out before it got lost
+16:41:54          demize  C or some scripting language like python or ruby would probably be nice :p
+16:42:14       +tigrmesh  bash?
+16:42:24   carharttjimmy  that doesnt really get your feet wet
+16:42:40   carharttjimmy  just sayin
+16:42:44          demize  bash could also be a good scripting tutorial.
+16:42:46       +tigrmesh  true
+16:43:00  CalimeroTeknik  bash I can do, but I have to warn that it's a language for people who LOVE the details
+16:43:03   carharttjimmy  Bash is great for a welcome to scripting
+16:43:07       +tigrmesh  but it's what i could use *right now*
+16:43:08      +meskarune  I think bash scripts would be sweet
+16:43:12  CalimeroTeknik  otherwise it doesn't qualify as a language
+16:43:16           fsckd  bash is not a good language to learn programming in. it will give you bad habits
+16:43:16   carharttjimmy  ^
+16:43:23   carharttjimmy  yes I am with fsckd 
+16:43:31       +tigrmesh  ok
+16:43:33          demize  fsckd: programming, no, but simple scripting and automation, yes.
+16:43:38   carharttjimmy  we need Java, C/C++, python or something along the likes
+16:43:43  CalimeroTeknik  no, it will give you good habits if you're a structured person fsckd 
+16:43:51          demize  carharttjimmy: Java or C++ would be a bit... too heavy.. methinks.
+16:43:52  CalimeroTeknik  otherwise it'll just be a mess, indeed
+16:43:53  CalimeroTeknik  http://ctkarch.org/git/sysconfig is written in bash
+16:43:56           phrik  Title: ctkarch-sysconfig (at ctkarch.org)
+16:43:59   carharttjimmy  but thats a large assumption to make CalimeroTeknik 
+16:44:06  CalimeroTeknik  yes
+16:44:07      +meskarune  python 
+16:44:12  CalimeroTeknik  that's why Rust is a good answer
+16:44:13   carharttjimmy  demize, they teach both languages at intro comp sci classes
+16:44:20   carharttjimmy  the languages are solid and have lots of web pages
+16:44:23   carharttjimmy  along with python
+16:44:25  CalimeroTeknik  because really there is no "good" language out there except ADA
+16:44:27           fsckd  demize: yeah, a separate class on bash would be good, but not as an intro. to programming
+16:44:31  CalimeroTeknik  and ocaml/haskell
+16:44:32          demize  carharttjimmy: That's not much of a reason.
+16:44:47   carharttjimmy  demize, I am not an expert on teaching programming
+16:44:49  CalimeroTeknik  intro to programming : ADA is good
+16:44:53            hh4a  i vote for python
+16:44:54          demize  fsckd: Intro to simple automation, scripting small things you do a lot, would be nice.
+16:44:57   carharttjimmy  so I am going to go with how I was taught
+16:45:01            Fox^  you need to teach lisp
+16:45:03           fsckd  demize: totally
+16:45:10  CalimeroTeknik  python can be nice, but it has lots of weird features I'd live better without
+16:45:10            Fox^  enlighten then from the beginning.
+16:45:16            Fox^  With parens.
+16:45:23      +meskarune  I like that python forces people to use white space, I like that java is more similar to other programming languages wiht teh parens
+16:45:23   carharttjimmy  brb I need to see a carbon based unit about a horse
+16:45:37   carharttjimmy  Java is great because you have API's
+16:45:48   carharttjimmy  and that can make some of the "wtfs" go away
+16:45:51       thiagowfx  +1 for haskell
+16:45:58      +meskarune  and it can also run on everything
+16:45:58            hh4a  but we are allowed to be modern arent we? Rust or Go?
+16:45:59   carharttjimmy  +1 for Java8
+16:46:06   carharttjimmy  brb
+16:46:23          demize  No reason that we can't have all of them, there just have to be people willing to actually make a proper class.
+16:46:27            Fox^  you could also teach assembly
+16:46:32  CalimeroTeknik  carharttjimmy, java brings in a new level of wtfs with its over-engineered encapsulation though
+16:46:55           fsckd  demize: +1
+16:47:34          demize  Should make thestinger make a rust class :p
+16:47:49          demize  Probably would be good to have him in if someone is going to make a C++ class too
+16:48:21           fsckd  it is possible for each of you to teach an intro to programming class. i request you not do it at the same time :P
+16:48:51      +meskarune  I'm surprised there aren't any ruby groupies ;)
+16:49:04            Fox^  or perl
+16:49:05           fsckd  no one likes ruby ಠ_ಠ
+16:49:07      +meskarune  haha
+16:49:22            Fox^  we could teach awk
+16:49:28          demize  meskarune: Ruby is one of the first ones I suggested ;p
+16:49:34          demize  Fox^: That's a good idea.
+16:49:40      +meskarune  when I was playing around with just plain ole ruby, it annoyed me that there were like 20 ways to do anything, and no "best" way
+16:49:53          demize  awk is a rather nice tool that few people seem to know..
+16:49:55      +meskarune  but it was very simple
+16:50:13      +meskarune  I only do simple things with awk/gawk scripts
+16:50:20      +meskarune  but I have seen some crazy shit done with it
+16:50:21            Fox^  me too
+16:50:21          demize  meskarune: And in C there's 5 ways to do anything and all of them suck.
+16:50:24          demize  ;p
+16:50:24       thiagowfx  Also, it is cool to see something along the lines of 'here is problem X. Now, let's code it into these 10 different languages'. You know, seeing different syntaxes/styles is a way to learn programming 
+16:50:25            Fox^  but it is really powerful
+16:50:30      +meskarune  lol demize
+16:50:38          demize  keenerd has a rather nice awk music script
+16:50:44            Fox^  OH
+16:50:44          demize  *real* 8-bit music :p
+16:50:48            Fox^  We should teach BASIC
+16:50:53      +meskarune  keenerd does crazy shit with gawk scripts
+16:50:56      +meskarune  lol
+16:50:56            Fox^  or maybe PASCAL
+16:51:25      +meskarune  well, why don't we schedule a meeting in -classroom about a programing class?
+16:51:50      +meskarune  I think that sort of class should probably use a book, maybe from wikibooks on programing?
+16:52:11           fsckd  SICP ^_^
+16:52:14          demize  Yeah, a programming class without a book would easily get off track otherwise
+16:52:14      +meskarune  and you'd need a place for code samples, or a way to show an interactive shell
+16:52:23        nisstyre  I'm late to the party I guess
+16:52:27      +meskarune  howdy
+16:52:57   carharttjimmy  CalimeroTeknik, but OO is all about encapuslation
+16:53:06      +meskarune  So class on "intro to programming
+16:53:10      +meskarune  and git?
+16:53:28   carharttjimmy  or we could do a general VCS class as well?
+16:53:39          demize  carharttjimmy: You don't need classes to have OO tho
+16:53:43       thiagowfx  SICP is loooooong
+16:53:47          demize  meskarune: Sounds good.
+16:53:59         jy2wong  it strikes me that a weekly let's follow sicp meetup (or replace with any other book) might be cool
+16:54:08          demize  jy2wong: Agreed
+16:54:15   carharttjimmy  demize, eh, thats a rather interesting topic that I would rather go into more depth later
+16:54:18           fsckd  meskarune: should i contact the person who offered to teach a class on git and guide them to make a class?
+16:54:23           fsckd  jy2wong: +1
+16:54:24          demize  carharttjimmy: http://joshldavis.com/2013/06/16/the-rise-of-the-gang-of-four-with-rust/ read that :p
+16:54:25           phrik  Title: The Rise of the Gang of Four with Rust - Josh Davis (at joshldavis.com)
+16:54:30      +meskarune  yeah, let's talk with them :)
+16:54:34       +tigrmesh  thiagowfx, i love, love, lobe that idea
+16:54:34   carharttjimmy  cool demize 
+16:54:45      +meskarune  are they on IRC at the moment?
+16:54:54   carharttjimmy  I volunteer to teach an intro to programming class on Java8
+16:54:54       +tigrmesh  thiagowfx, the problem X one
+16:54:55      +meskarune  it feels weird spelling atm out
+16:55:10      +meskarune  ok carharttjimmy :)
+16:55:26   carharttjimmy  we can have multiple classes
+16:55:32           fsckd  yeah
+16:55:32   carharttjimmy  if we have mutliple teachers
+16:55:38        nisstyre  I can definitely teach Scheme
+16:55:41   carharttjimmy  one for Java, one for scheme
+16:55:46        nisstyre  I am a Scheme lover
+16:55:51   carharttjimmy  we could do a whole month or so?
+16:55:57          demize  nisstyre: Scheme would be interesting.
+16:56:03          demize  carharttjimmy: Could do more really..
+16:56:07   carharttjimmy  yeah we could
+16:56:13   carharttjimmy  weekly programming classes
+16:56:15           fsckd  the PKGBUILD class gtmandfred and kaictl taught was originally intended to have multiple sessions
+16:56:23           fsckd  so it is perfectly fine
+16:56:52      +meskarune  http://shell.appspot.com/
+16:56:53           phrik  Title: Interactive Shell (at shell.appspot.com)
+16:56:53   carharttjimmy  one second, connecting to vpn may interrupt my irc connection
+16:57:00   carharttjimmy  I am working release right now
+16:57:17      +meskarune  there are interactive shells as web apps, so that might be useful
+16:57:24      +meskarune  if people don't want to use a terminal
+16:58:12        nisstyre  carharttjimmy: you should use mosh
+16:58:36   carharttjimmy  windows vpn
+16:58:37   carharttjimmy  :/
+16:58:51   carharttjimmy  I also have a bouncer service running
+16:58:53       thiagowfx  tigrmesh: there is [this](http://rosettacode.org/) wiki which is inspired by this idea, but I actually never saw a dynamic thing, like a class, adopting it (it = the idea, not the wiki)
+16:58:54           phrik  Title: Rosetta Code (at rosettacode.org)
+16:58:55   carharttjimmy  on my remote machine
+16:59:00        nisstyre  carharttjimmy: I am disappoint
+16:59:10   carharttjimmy  nisstyre, I work at a .NET shop
+16:59:12   carharttjimmy  lol
+17:00:05       +tigrmesh  ok
+17:00:30   carharttjimmy  even though I am really competent Java wise
+17:01:02            hh4a  nice
+17:02:25        nisstyre  it would be easy to setup some kind of Scheme REPL in a webpage
+17:02:33        nisstyre  I'm sure that exists too, could find one for Racket
+17:02:46        nisstyre  I would be inclined to get everyone running DrRacket eventually
+17:03:42   carharttjimmy  site is offline, going for backups
+17:03:45      +meskarune  thiagowfx: I've been doing soemthing simliar when learning to program, write something in python, then in php, perl and ruby too
+17:03:49   carharttjimmy  I am going to have some fun today
+17:03:55      +meskarune  but I don't know if that is the best way to learn
+17:04:05      +meskarune  I might be going about it the long way
+17:04:06   carharttjimmy  I find the best way to learn is working on small programs
+17:04:24   carharttjimmy  and then reading up on advanced concepts
+17:04:26      +meskarune  right now I"m working on a simple blog
+17:04:34   carharttjimmy  and implementing those along the way
+17:05:11      +meskarune  ok, so back on topic
+17:05:23      +meskarune  we have people volunteering to teach
+17:05:41      +meskarune  I think maybe we should try to get a mailing list topic on the main arch lists
+17:05:42        nisstyre  I'm writing a compiler
+17:05:44        nisstyre  >.>
+17:05:54   carharttjimmy  top level compiler or low level?
+17:05:55       +tigrmesh  ooh!
+17:06:14        nisstyre  carharttjimmy: it could have multiple backends, I'm exploring generating code for a bare metal ARM processor
+17:06:20        nisstyre  it's written in JavaScript btw
+17:06:22        nisstyre  lol
+17:06:39       +tigrmesh  compiler is compiler
+17:06:46        nisstyre  https://github.com/oftn/JLambda
+17:06:47   carharttjimmy  no
+17:06:48           phrik  Title: oftn/JLambda · GitHub (at github.com)
+17:06:51      +meskarune  cool
+17:06:52   carharttjimmy  they arent the same tigrmesh 
+17:07:13   carharttjimmy  sometimes you can have code -> byte code -> machine code
+17:07:14        nisstyre  carharttjimmy: it is a functional compiler, meaning it does closure conversion, lambda lifting, and so on
+17:07:16       +tigrmesh  carharttjimmy, i'm responding to the language the compiler is written in
+17:07:25   carharttjimmy  oh i see tigrmesh 
+17:07:31        nisstyre  and the intermediate language will be a continuation language
+17:07:32   carharttjimmy  nice nisstyre 
+17:07:52   carharttjimmy  anyways we should get back on track
+17:07:54        nisstyre  having everything in terms of continuations makes it easier to generate machine code
+17:07:57        nisstyre  yeah
+17:08:12      +meskarune  so next thing on the list is internship, we were generating ideas for projects here: https://archwomen.org/wiki/projects:internships:ideas
+17:08:14           phrik  Title: Internship Project Ideas [Arch Women Wiki] (at archwomen.org)
+17:08:20       +tigrmesh  wait!
+17:08:28      +meskarune  hehe
+17:08:29       +tigrmesh  are we scheduling a class?
+17:08:47       +tigrmesh  this was an awesome discussion
+17:09:15       +tigrmesh  anyone?
+17:10:12        nisstyre  well
+17:10:16   carharttjimmy  well
+17:10:22        nisstyre  I don't know what the best date would be
+17:10:22   carharttjimmy  we need a classroom cordinator
+17:10:28        nisstyre  yeah
+17:10:30       +tigrmesh  or just leave the notes as " carharttjimmy will do ??? soonish" 
+17:10:34   carharttjimmy  someone who can coordinate with the teachers
+17:10:43       +tigrmesh  and "well be talking to emlun" ?
+17:10:45   carharttjimmy  I'll volunteer to be the classroom cordinator 
+17:10:49        nisstyre  a saturday is obviously best
+17:11:02        nisstyre  but I'm going to be internetless for a few days, not sure when
+17:11:06       +tigrmesh  sorry.  scheduling wasn't the right word
+17:11:33         sharvey  oh activity
+17:11:35       +tigrmesh  more like, "classes + teachers" 
+17:11:57       +tigrmesh  and thanks carharttjimmy 
+17:12:35         sharvey  I know excessive amounts of Java and C fyi
+17:12:49         sharvey  less excessive amounts of python
+17:12:57      +meskarune  sweet
+17:12:58         sharvey  if you guys need more teachers
+17:13:05        nisstyre  I've programmed Python "professionally"
+17:13:11        nisstyre  and for 7 years or so
+17:13:16       +tigrmesh  so carharttjimmy - you'll be classroom coordinator?  did you also mention a specific class?
+17:13:19      +meskarune  basically anyone who wants to teach a class will have our support/infrastructure
+17:13:37         sharvey  my python experience comes from research coding, so nisstyre you probably are more qualified in that arena than I :P
+17:13:48      +meskarune  help with teaching materials and hosting for files, etc
+17:13:50   carharttjimmy  I'll be teaching "Intro to Java8"
+17:13:56    almost_fsckd  ill coordinate too
+17:13:59   carharttjimmy  yes I will be tigrmesh 
+17:14:19   carharttjimmy  I will work with almost_fsckd as my partner in crime
+17:14:50    almost_fsckd  XD
+17:14:58         sharvey  oh, also
+17:14:59         sharvey  https://squareup.com/code-camp/college
+17:15:01           phrik  Title: College Code Camp | SquareSquare logo (at squareup.com)
+17:15:10         sharvey  if like, any of you are in college
+17:15:15         sharvey  deadline is pretty soon though to apply
+17:16:00       +tigrmesh  i think someone from this channel will be applying   :)
+17:16:08       +tigrmesh  at least one person  \o/
+17:16:08         sharvey  hooray
+17:16:17         sharvey  if any of you get in, let me know
+17:16:27       +tigrmesh  oh?
+17:16:30         sharvey  I'm interning there right now, so it would be cool to meet people from this channel
+17:16:43       +tigrmesh  a w e s o m e
+17:16:55   carharttjimmy  I am an intern for a SAAS company
+17:17:05   carharttjimmy  so we have more interns here. Yay!
+17:17:10         sharvey  hooray!
+17:17:16    almost_fsckd  nice sharvey
+17:17:40   carharttjimmy  Do we have an Archlinux-Women-classroom github repo?
+17:17:52    almost_fsckd  yes
+17:18:27   carharttjimmy  k
+17:18:29    almost_fsckd  look for classroom-media
+17:18:39   carharttjimmy  okay I see it now
+17:19:03    almost_fsckd  ill give perms when im back
+17:19:05        nisstyre  sweet I got synergy working :D
+17:19:13       +tigrmesh  nisstyre and sharvey would you two be willing to get together and talk about a python class?  maybe you can do it together, or 2 levels
+17:19:14        nisstyre  now I can control my desktop and laptop at the same time
+17:19:26        nisstyre  tigrmesh: perhaps yeah
+17:19:27       +tigrmesh  :)
+17:19:33        nisstyre  I'd still like to teach some Scheme
+17:19:44        nisstyre  maybe that can be an "advanced" class after
+17:19:52       +tigrmesh  yeah
+17:19:59         sharvey  I'm cool with whatever, but my python experience is limited to data crunching stuff
+17:20:06         sharvey  I have only worked with it for about a year
+17:20:42        nisstyre  I've been using it long enough to know most of the common mistakes
+17:20:57        nisstyre  and to spot problems easily
+17:24:36   carharttjimmy  I know a lot of enterprise languages
+17:25:18      +meskarune  I know enough to know bad code when I see it
+17:25:19    almost_fsckd  starship enterprise? 
+17:25:21      +meskarune  thats about it
+17:25:36         sharvey  enterpriiiise
+17:25:50         sharvey  I write java currently
+17:26:32           Aster  ..What?
+17:26:37           Aster  A meeting I haven't quite missed?
+17:26:42           Aster  Great
+17:26:52         sharvey  hi there!
+17:27:10   carharttjimmy  I work in VB.NET, C# and I do fun programs in Java
+17:27:54        nisstyre  right now I have a summer research job doing Haskell
+17:28:00       +tigrmesh  hi Aster !
+17:28:03      +meskarune  hi aster
+17:28:05           Aster  Hey there
+17:28:18      +meskarune  you missed fsckd's star pun ;)
+17:28:33      +meskarune  we are talking about more classes
+17:28:35           Aster  D:
+17:28:44      +meskarune  so a class on intro to programming and git/vcs
+17:28:47           Aster  I have my scrollback for this channel set to 50 lines or something
+17:30:48      +meskarune  I need an irc log reader web app
+17:31:03  CalimeroTeknik  carharttjimmy, I would like you to not go into the argument we've always had and I always have with java developers; the thing is, when you need something *real* done, encapsulation is in the way and your only option is to read the code (encapsulated)
+17:31:35  CalimeroTeknik  for instance, logging. you want the method that writes a log message to guarantee that it will be written on disk when the function returns
+17:31:50   carharttjimmy  not now CalimeroTeknik 
+17:31:51  CalimeroTeknik  in java, you don't really know and just assume that calling flush will work
+17:32:02  CalimeroTeknik  in C you call fsync() on the file.
+17:32:05      +meskarune  yeah, can you take to pm? :)
+17:32:21  CalimeroTeknik  oh, sorry! it's the meeting, right?
+17:32:26      +meskarune  hehe yep :P
+17:32:28           Aster  Language arguments are futile. Let's all use x86 Assembly instead.
+17:32:28      +meskarune  <3
+17:33:06      +meskarune  ok, any other suggestions or volunteers for classroom stuff? :)
+17:33:23      +meskarune  I'd honestly like to get some funding
+17:33:44      +meskarune  so we could maybe pay teachers a small stipend or something
+17:33:53      +meskarune  it would be nice for classes that are more longer term
+17:34:20  CalimeroTeknik  longer term?
+17:34:21      +meskarune  I don't know anything about fund raising for projects
+17:34:21       +tigrmesh  yeah
+17:34:33  CalimeroTeknik  you mean several classes then?
+17:34:35      +meskarune  but we'd like to do quiet a few things that require funds
+17:34:45   carharttjimmy  what if we launch a seperate project group for it?
+17:35:53       +tigrmesh  meskarune, i have some ideas about that.  can we talk after the meeting about this?
+17:36:01      +meskarune  sure :)
+17:36:22       +tigrmesh  and then bring it to next month's meeting  :)
+17:37:17      +meskarune  sounds good to me :)
+17:38:26       +tigrmesh  ready to move the next item.  you said what it.  but i derailed you.  and we kind of jumped in in the middle...
+17:38:35       +tigrmesh  so what's mext, meskarune ?
+17:42:01       +tigrmesh  uh-oh
+17:42:16          demize  meskarune ran away?
+17:42:46       +tigrmesh  also possible connection problem
+17:42:54   carharttjimmy  demize, I told you to throw the pokeball earlier
+17:43:12       +tigrmesh  <meskarune> so next thing on the list is internship, we were generating ideas for projects here: https://archwomen.org/wiki/projects:internships:ideas
+17:43:13           phrik  Title: Internship Project Ideas [Arch Women Wiki] (at archwomen.org)
+17:43:34          demize  Hmm, she seems to be responding to pings :p
+17:43:37      +meskarune  bah
+17:43:41      +meskarune  internets lol
+17:43:44          demize  She returns!
+17:43:46      +meskarune  :)
+17:44:08      +meskarune  kk, so internship ideas
+17:44:31      +meskarune  basically we were looking at OPW (outreach program for women)
+17:44:44      +meskarune  and to apply you need some project ideas and some mentors
+17:45:18       +tigrmesh  is that gnome?
+17:49:12      +meskarune  yeah
+17:49:29      +meskarune  they don't have a college student requirement, so anyone can apply for the internshilps
+17:49:42      +meskarune  we can aply to GSOC also
+17:49:48      +meskarune  you can be an organization in both
+17:50:02      +meskarune  but to do that, we need project ideas and mentors for the projects
+17:51:50       +tigrmesh  there was something on the forums about a possible arch GSoC intern.  i don't remember if there was much interest
+17:53:33       +tigrmesh  https://bbs.archlinux.org/viewtopic.php?id=176184
+17:53:34           phrik  Title: Google Summer of Code 2014 (Page 1) / Arch Discussion / Arch Linux Forums (at bbs.archlinux.org)
+17:57:25      +meskarune  yeah, looks like the thread died
+17:57:29      +meskarune  "Also if Arch does want to participate as a GSOC project, we gotta set up an ideas page with a mentor list"
+17:57:39      +meskarune  so basically that is what we need, mentors and projects that need doing
+17:58:12      +meskarune  maybe I'll revive the thread?
+17:59:58   carharttjimmy  we could have an intern and I and a few others work on an android app for arch women?
+18:01:17   carharttjimmy  just an idea
+18:03:49   carharttjimmy  or we could work on software that Arch Women is sponsorig
+18:05:25      +meskarune  yeah, we basically just need some ideas 
+18:05:27      +meskarune  :)
+18:05:42      +meskarune  https://archwomen.org/wiki/projects:internships:ideas
+18:05:43           phrik  Title: Internship Project Ideas [Arch Women Wiki] (at archwomen.org)
+18:05:50      +meskarune  so any ideas people have can go on the list :)
+18:06:21       +tigrmesh  maybe it would be good to have a smaller project group to talk about this stuff
+18:06:28   carharttjimmy  agreed
+18:06:31   carharttjimmy  a work group
+18:06:38       +tigrmesh  and break it down into smaller pieces
+18:06:40   carharttjimmy  IETF has work groups for stuff
+18:06:46   carharttjimmy  we can follow the same
+18:07:13   carharttjimmy  we will need two-three work group leads
+18:07:13      +meskarune  wasn't there a project for hosting your own private repo to update multiple machines on the same LAN?
+18:07:27      +meskarune  I think it needs some work/revival
+18:07:39   carharttjimmy  I am willing to sponsor multiple log aggrevation
+18:07:54   carharttjimmy  then people who have logs everywhere
+18:08:01   carharttjimmy  can use one program
+18:08:08   carharttjimmy  including db logs
+18:08:16         sharvey  aggregation?
+18:08:19         sharvey  or aggrevation
+18:08:36       +tigrmesh  wait, wiat
+18:08:36            hh4a  just something to aggree on ?
+18:08:53   carharttjimmy  aggregration
+18:08:56         sharvey  aggregation is putting it all in one place
+18:08:58       +tigrmesh  how about like just a time for people interested to talk?
+18:09:06   carharttjimmy  yes sharvey exacly
+18:09:07         sharvey  aggrevation is making people upset
+18:09:14   carharttjimmy  the first one
+18:09:32   carharttjimmy  write a parser so it can be intelligent
+18:09:36            hh4a  we should upset more people
+18:10:02   carharttjimmy  I volunteer to be a Intern Workgroup Lead
+18:10:08   carharttjimmy  unless someone else is interested
+18:10:15   carharttjimmy  then its all yours
+18:10:29        nisstyre  I'm not interested, you can probably win by default
+18:11:05      +meskarune  hehe
+18:11:08            hh4a  carharttjimmy: loves wining by default
+18:11:30            hh4a  thats a good idea thou
+18:11:37       +tigrmesh  i'm interested in being part of the group
+18:11:52   carharttjimmy  well I want stuff to get done
+18:12:04   carharttjimmy  so sometimes you have to saddle up and get on the rhino
+18:12:09            hh4a  i can be a footnote if ya want
+18:12:10       +tigrmesh  so let's set a time to talk further
+18:12:30       +tigrmesh  what are you doing next sunday, carharttjimmy ?
+18:12:44   carharttjimmy  talking about interns
+18:12:54       +tigrmesh  what time?
+18:12:58   carharttjimmy  I will let you know when sunday gets closer
+18:13:03       +tigrmesh  ok
+18:13:15   carharttjimmy  I am free after 1 though
+18:14:55      +meskarune  ok, anything else with internship stuff?
+18:15:02      +meskarune  do we need a wiki page or soemthing?
+18:15:11   carharttjimmy  wiki page 
+18:15:30   carharttjimmy  and a subscription to NHL all season pass for next year
+18:15:55   carharttjimmy  so the interns can watch Hockey with me
+18:15:57   carharttjimmy  err
+18:15:59   carharttjimmy  with us
+18:16:05   carharttjimmy  :P
+18:18:23      +meskarune  :P
+18:18:29          demize  For.. science?
+18:18:36            hh4a  finale?
+18:18:52  terra-and-luna   *reading through the backlog* tigrmesh, fsckd, carharttjimmy, the only problem with a Java8 class is that there isn't a clean way of installing it on arch. you either have to head to the AUR for oracle's version or add an external repo (as mentioned on the mailing list) because openjdk8 isn't in the repos
+18:19:14   carharttjimmy  its coming
+18:19:18   carharttjimmy  but I agree
+18:19:22   carharttjimmy  Java7 it is
+18:19:40   carharttjimmy  until openjdk8 hits stable (they are waiting on IcedTea8)
+18:19:47              --  Mode #archlinux-women [+v tigr] by ChanServ
+18:19:59   carharttjimmy  (Java 8 snapshots build for Arch perfectly though)
+18:20:08           Aster  We're doing a Java 8 class?
+18:20:16           +tigr  yes
+18:20:18   carharttjimmy  (As well as Java9)
+18:20:24          demize  Yeah, the dev has a separate repo with openjdk8 without icedtea until they release icedtea for 8
+18:20:27           Aster  No comment.
+18:20:58   carharttjimmy  Arguing over languages is pointless and only divides us more
+18:21:19           Aster  I agree with that.
+18:21:37   carharttjimmy  We will be having multiple language classrooms
+18:21:38           +tigr  have i pinged out yet?
+18:21:43           Aster  tigr: yup
+18:21:45               *  tigr shoots her machine
+18:21:47  terra-and-luna  but yeah. i offer my services as an assistant for a java, python, or c class.
+18:21:47   carharttjimmy  so choice is better
+18:21:57           +tigr  terra-and-luna, yay
+18:22:04              --  tigr is now known as tigrmesh
+18:22:12   carharttjimmy  terra-and-luna, you know, you are always welcomed to help me with Java
+18:22:31   carharttjimmy  I was actually going to ask you later :)
+18:22:42           Aster  I agree to teaching newer languages like Scala or Dart. Or more "eternal" languages like Assembly, C and C++. Or modern and elegant languages like C#.
+18:23:01      +meskarune  sweet :)
+18:23:03   carharttjimmy  another time Aster 
+18:23:03           Aster  I don't agree to teaching old languages that were just added upon to keep up with its competitors.
+18:23:15           Aster  Not another time. This is relevant.
+18:23:28   carharttjimmy  there is a lot about Java8 that makes it more powerful than C#
+18:23:35           Aster  Why teach something like Java, when you could teach languages that have a lot more demand?
+18:23:39      +meskarune  Do you mean teaching a class or other people teaching a class Aster ?
+18:23:49           Aster  meskarune: "having a class" in general.
+18:24:03   carharttjimmy  Java is still used heavily in industry....
+18:24:09           Aster  Less and less.
+18:24:09   carharttjimmy  and with Google losing to Oracle
+18:24:12   carharttjimmy  its here to stay 
+18:24:15           Aster  It's also a huge language.
+18:24:17      +meskarune  idk, I feel that if someone wants to teach a class, and people want to go to that class to learn, its fine
+18:24:25      +meskarune  doesn't affect the people who aren't interested
+18:24:27      +meskarune  :P
+18:24:35           Aster  Eh
+18:24:41       +tigrmesh  Aster,  2 reasons:  1) we wanted an intro class, and 2) someone volunteered
+18:24:44   carharttjimmy  c# is only powerful if you are using .NET
+18:24:53         sharvey  Java has demand still
+18:25:02           Aster  Much less than it did a few years ago.
+18:25:02   carharttjimmy  and yes Java has a lot of demand
+18:25:18         sharvey  it's kind of arguable I think
+18:25:22   carharttjimmy  indeed
+18:25:27      +meskarune  people still use cold fusion and perl and php too ;)
+18:25:42         sharvey  PHP is technically used heavily if you consider facebook
+18:25:47   carharttjimmy  when IBM and Redhat leave openjdk development I will move on
+18:25:49         sharvey  but then again it's their variant of PHP
+18:25:55      +meskarune  I don't have an opinion on java, i've never used it before 
+18:26:05   carharttjimmy  and anyways openjdk8+ will be the basis for Java8+
+18:26:08         sharvey  square uses RoR+Java extensively
+18:26:21   carharttjimmy  c# is not like that
+18:26:27   carharttjimmy  and c# is a framework language
+18:26:41   carharttjimmy  totally different than Java where Java is API based
+18:26:51           Aster  This isn't a language argument. This is a "Think about the Future" argument.
+18:26:57         sharvey  shrug
+18:27:03   carharttjimmy  we dont know what language will be in the future
+18:27:07         sharvey  everyone needs to be adaptable anyway in this industry
+18:27:13           Aster  I don't care which language is better or not. imo x86-32 assembly is the best language.
+18:27:14      +meskarune  kk, so far we've talked about teaching some classes, and a few people have volunteered, and talked about project ideas for an internship
+18:27:21      +meskarune  with OPW and GSOC
+18:27:36         sharvey  you don't just learn one language and stick with it, but learn a number of language paradigms and be adaptable
+18:27:54   carharttjimmy  Learning a language helps you understand how the language workj
+18:28:07         sharvey  learning multiple languages is ideal
+18:28:07   carharttjimmy  learning core programming concepts teach you how to program
+18:28:19   carharttjimmy  the language gets in the way a bit
+18:28:38   carharttjimmy  but at the root level they all act the same when they are running on a VM or CLR
+18:28:40   carharttjimmy  or w/e
+18:28:48   carharttjimmy  c/c++ is different
+18:29:17         sharvey  meskarune: completely side tangent; is there interest in getting a meetup at grace hopper?
+18:29:24       +tigrmesh  Aster, i get what you're saying.  but we can only offer classes we can teach.  if you know someone in the larger community who would be willing to come and teach a short intro class on irc, we'd love that
+18:30:07      +meskarune  sharvey: I'd love to go to a conference, but atm I don't have the money 
+18:30:09   carharttjimmy  arguably speaking, once you get locked into a language you will always need those devs
+18:30:20      +meskarune  but it would be awesome to have a conference meet up
+18:30:21       +tigrmesh  Aster, maybe this will make the java class more palatable:  at least it's not a COBOL class.  ;)   i have a decade of COBOL experience, and could totally teach one
+18:30:24            hh4a  oh i volunteer for awk, mentioned it on the Pad lol
+18:30:33       +tigrmesh  ok
+18:30:36      +meskarune  thanks hh4a
+18:30:47         sharvey  meskarune: for those who are in college, they should bug their department on sending them
+18:31:08         sharvey  for those who are at companies, bug your boss I guess?
+18:31:19   carharttjimmy  but its not .NET related
+18:31:20   carharttjimmy  :/
+18:31:23           Aster  tigrmesh: eh. I didn't even want to start a language battle
+18:31:46            hh4a  iam jerbless i have to bug myself
+18:31:46         sharvey  tigrmesh: funnily enough I might be interested in learning a bit of COBOL :P
+18:32:03       +tigrmesh  sharvey, talk to me after the meeting
+18:32:17       +tigrmesh  Aster, it's a really good point though
+18:32:18         sharvey  ok
+18:33:01   carharttjimmy  but in the end, language is hard to gauge where it will be in the market
+18:33:01            hh4a  well have to go, l8r i guess
+18:33:20   carharttjimmy  so many factors you have to add in
+18:33:29   carharttjimmy  vendor lockin is the biggest
+18:33:46   carharttjimmy  and have you tried converting legacy applications written in one language to another?
+18:34:00   carharttjimmy  thats a lot of money to spend 
+18:34:20   carharttjimmy  when you could be having those developers work on other features
+18:34:28           Aster  tigrmesh: I could argue about it all day, but it's useless the second an enthusiast pipes up.
+18:34:30       +tigrmesh  =================HEY==================
+18:34:45       +tigrmesh  time to move on.  
+18:34:55   carharttjimmy  anyways, whats next on the agenda?
+18:35:26       +tigrmesh  any server updates, meskarune ?
+18:36:30       +tigrmesh  i'd like to cover this stuff before we get to the next big item
+18:36:45       +tigrmesh  anyone noticed any problems with the site?
+18:36:50       +tigrmesh  slowness or anything?
+18:38:44        khyperia  is the meeting still going on?
+18:38:49       +tigrmesh  yes
+18:39:07        khyperia  ah, cool, I was off graduating
+18:39:19       +tigrmesh  congratulation khyperia !
+18:39:29        khyperia  thank you!
+18:39:38         sharvey  congrats!!
+18:39:47    almost_fsckd  wow congrats!
+18:40:01      +meskarune  oh awesome, congratualations
+18:40:09  terra-and-luna  yay
+18:40:22      +meskarune  the website needs work, and more/better content
+18:40:50        khyperia  thanks :) it's been a long ride, but now it's off to college with me
+18:41:08      +meskarune  harder and more interesting classes
+18:41:11      +meskarune  lots of coffee
+18:41:14       +tigrmesh  yay  :)
+18:41:15         sharvey  haha
+18:43:18   carharttjimmy  awesome
+18:44:24   carharttjimmy  and the fun of releasing software starts, I will be in and out for now
+18:44:35   carharttjimmy  we're upgrading our SAAS
+18:44:45   carharttjimmy  well pushing new code to it
+18:45:06       +tigrmesh  also, thanks to jy2wong for leading the kernel class.  everyone has said they liked it   :)
+18:46:20       +tigrmesh  so
+18:46:21    almost_fsckd  many thanks to jy2wong. it was a great class 
+18:46:47      +meskarune  yeah, really informative
+18:47:26         sharvey  jy2wong: ^^
+18:48:22   carharttjimmy  and more fun now
+18:48:32   carharttjimmy  stuff doesnt work :/
+18:48:37       +tigrmesh  dang
+18:48:51         jy2wong  awww :)
+18:48:53   carharttjimmy  anyways, yes jy2wong I heard did an awesome job
+18:49:16         jy2wong  sharvey: if I apply and get in, do I get to meet you again? :P
+18:49:31         sharvey  :P
+18:49:33         sharvey  sure
+18:49:35         sharvey  also
+18:49:39         sharvey  do you want an internship/job?
+18:50:42         jy2wong  not at the moment. it also appears the meeting is still going on
+18:52:13       +tigrmesh  yes
+18:52:22       +tigrmesh  so
+18:52:26    almost_fsckd  for those who don't know the channel is logged during meetings 
+18:52:44       +tigrmesh  so you can read anything you missed  :)
+18:52:58       +tigrmesh  also, i forgot to put it in the channel topic.  sorry
+18:53:17       +tigrmesh  so i've wanted to rewrite the rules for this channel for a long time
+18:53:35       +tigrmesh  this is my draft document
+18:54:47       +tigrmesh  everything above and below the "============" lines are not part of it.  also, what's in the brackets after NOTE:
+18:54:48       +tigrmesh  https://pad.riseup.net/p/v2_arch-women-rules-playpen-jun2014
+18:54:49           phrik  Title: Riseup Pad (at pad.riseup.net)
+18:57:21       +tigrmesh  anyone have any suggestions or comments?
+18:58:23       +tigrmesh  i also have some silly additional lines that i will share after the meeting is over and the logging ends
+18:59:23      +meskarune  how to do people feel about the channel culture too?
+18:59:29      +meskarune  are there things you'd like to see changed?
+19:01:12          tugrik  tigrmesh: I think the "be mindful" sentence is particularly well put
+19:01:46      +meskarune  oh and if folks want to pm me, thats fine
+19:01:47       +tigrmesh  thank you  :)
+19:01:49         jy2wong  agreed
+19:02:03          tugrik  if we're going for "full on" QA, the line containing "creeped out" needs a space removing after the asterisk so it lines up with everything else
+19:02:54       +tigrmesh  and we are!
+19:02:57       +tigrmesh  and done!
+19:02:59          tugrik  that line is also especially well put, considering that it's a difficult subject to raise and, IMHO, you've got to finish it with "it's our call, we're not going to argue definitions"
+19:03:47   carharttjimmy  agreed
+19:03:53       +tigrmesh  you think that sentence is not clear enough?
+19:04:15          tugrik  I'd change "probably not negotiable" to "not negotiable" in the "Asking you" line
+19:04:59      +meskarune  heh, yeah people might take that as a free pass to harass OP's
+19:05:01          tugrik  ah, sorry, the bit I just typed in quotes ( "it's ...  definitions" ) was just me summarising that point of view - you've already expressed it well enough
+19:05:20       +tigrmesh  "not negotiable" is in 2 places
+19:05:41       +tigrmesh  creeps exit.  not negotiable
+19:07:06      +meskarune  I think its short and covers most things that people might be punished for
+19:07:08          tugrik  overall afaict it's fine, it's quick enough for people to read; simple enough that it'll put anyone off who's casually looking for an online argument
+19:07:12          tugrik  yes, what meskarune said
+19:08:09       +tigrmesh  some things are more about personal style.  if someone complains about being single everywhere, they'd complain about it here.  so that might be solvable with a simple request
+19:10:11       +tigrmesh  i was really going after the 'not quantifiable' in the "creeped out" line
+19:11:17       +tigrmesh  would it be better to remove the 'not negotiable' from that line and just tighten up the 'Asking' line?
+19:11:52          tugrik  yeah, good point, I'd finish that sentence with "op doing so."
+19:12:58       +tigrmesh  please paste the whole sentence.  
+19:13:20       +tigrmesh  also, it's an etherpad.  you can make the change
+19:13:30          tugrik  "Asking you to leave/muting/banning are entirely at the discretion of the channel op doing so.  Evading a ban or quiet will result in a permanent ban."
+19:14:10       +tigrmesh  what would you like it to be?
+19:14:38          tugrik  that sentence I just typed, I think that's the clearest and simplest it can be
+19:16:06       +tigrmesh  had you already changed it?
+19:16:23          tugrik  not me, I regard editing documents in web browsers as heresy ;)
+19:16:27       +tigrmesh  i'm seeing the same thing
+19:16:28       +tigrmesh  haha
+19:16:41       +tigrmesh  Asking you to leave/muting/banning are entirely at the discretion of the channel op doing so.  Evading a ban or quiet will result in a permanent ban.
+19:16:57       +tigrmesh  is what i see
+19:17:31          tugrik  that's fine, although for clarity to non-native speakers... should op be "Op"?  Also "quiet" as a noun isn't something I'm familiar with....
+19:18:09          tugrik  but I QA "professionally" quite often, so I might be over-doing it
+19:18:27      +meskarune  in IRC its +q I think
+19:18:29          tugrik  yes, better
+19:18:48      +meskarune  a person is muted in channel but they can still see what others say?
+19:18:56       +tigrmesh  yes
+19:19:08       +tigrmesh  they can come and go, just can't speak
+19:20:03       +tigrmesh  iirc, someone banned but not kicked out can still see what others say.  but once they're out they can't return
+19:20:35          tugrik  nicely put, I'd regard that document as "ready for release"
+19:21:11       +tigrmesh  one moment
+19:23:02       +tigrmesh  one final thing.  i've been wondering about explicitly using the word "harassment".  it think it's kind of intimidating and invites intellectual discussion and research of the "rules"
+19:23:31       +tigrmesh  but "making me feel bad", while sounding wimpy, is much more clear
+19:24:09          tugrik  I don't think it sounds wimpy, it's "this is our house, if you come into our house and make us unhappy, we'll ask you to leave the house"
+19:24:27       +tigrmesh  "does it meet the definition of harassment?  dunno.  did it make someone feel bad about being female?  yes."  out the person goes
+19:24:36       +tigrmesh  ok
+19:27:32          tugrik  I *think* if you start defining behaviours then people will argue about behaviours and how to define them; if you express the rules in terms of their impact on the channel's participants, you don't give miscreants a basis to argue on - they can say "this isn't harrassment", they can't say "you're not unhappy"
+19:28:42       +tigrmesh  ok
+19:29:14          tugrik  it's an interesting situation, especially for document designed to mean different things to different audiences, so I hope I'm contributing rather than mansplaining ;)
+19:30:08       +tigrmesh  your feedback has been very helpful.  to me
+19:30:35       +tigrmesh  anyone else have comments about it?
+19:30:53         jy2wong  I'm in agreement with what tugrik's saying
+19:30:56      +meskarune  I really like it
+19:31:24      +meskarune  its clear that if people are coming in for the wrong reasons they won't stay long
+19:31:28       +tigrmesh  and if you don't feel comfortable saying anything here PM meskarune or me
+19:32:16       +tigrmesh  anything else before we close?
+19:33:08      +meskarune  The meeting has covered classes, internship and irc rules
+19:33:24      +meskarune  any additional comments, suggestions, things to talk about next meeting, etc?
+19:35:16      +meskarune  I guess I'll close the meeting :)
+19:35:25      +meskarune  ================== Meeting Ends ======================
