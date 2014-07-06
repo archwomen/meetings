@@ -1,0 +1,18 @@
+Arch Women IRC Meeting, 06 July 2014 at 17:15 UTC
+
+Classroom
+  * Announcement:
+     * carharttjimmy is the lead coordinator.
+     * Anyone can teach a class even if there has been a similar class taught before. Don't wait for approval on the topic. Start drafting a lesson plan.
+     * If you want to teach a class, please contact carharttjimmy or fsckd.
+     * Suggestions for class topics can be made on the ArchWiki: https://wiki.archlinux.org/index.php/Classroom#Requested_Classes
+  * Proposed Classes
+     * [hh4a] A class on awk/gawk
+        * To be given in late July.
+     * Discussion postponed until August meeting.
+        * [nisstyre] Intro. to programming using Scheme
+        * [nisstyre and sharvey] Intro. to programming with Python
+
+Internship
+  * Postponed to August meeting.
+  * tigrmesh volunteers to contact meskarune and carharttjimmy (Workgroup Lead) should they wish to hold the workgroup meeting before the August meeting.
