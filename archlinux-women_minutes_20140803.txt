@@ -1,0 +1,16 @@
+Arch Women IRC Meeting, 03 August 2014 at 19:00 UTC
+
+Announcements and status updates
+  * DokuWiki updated to “Ponder Stibbons”.
+
+Classroom
+  * Proposed Classes
+     * [hh4a] A class on awk/gawk
+     * [nisstyre] Intro. to programming using Scheme - Friday, September 5th at 4pm EDT, 8pm UTC
+     * If they need help, we can create a forum post or otherwise communicate with the Arch community.
+
+Internship
+  * Intern Workgroup - smaller group to talk about internship stuff
+     * In the June meeting, carharttjimmy volunteered to be Intern Workgroup Lead.
+     * There was supposed to be a meeting in June but it didn't happen.
+        * Rescheduled to Sunday, August 10th at 7pm EDT, 11pm UTC
