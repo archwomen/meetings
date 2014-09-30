@@ -1,0 +1,224 @@
+2014-08-10 23:40:08	+meskarune	really I think a good starting point is just to itemize the steps to get into GSoC/OWP (you can apply to both and do them both at once)
+2014-08-10 23:40:34	+meskarune	idk maybe they have some good resources for that, but I am sorta having a hard time finding info for organizations
+2014-08-10 23:40:49	demize	I'm here :p
+2014-08-10 23:41:19	demize	(For now at least, it's 2 so I should sleep soon)
+2014-08-10 23:41:46	carharttjimmy	kk demize 
+2014-08-10 23:42:49	fsckd	i'm here. i guess i'm not missing the meeting :)
+2014-08-10 23:43:07	carharttjimmy	nope :)
+2014-08-10 23:43:34	fsckd	!give carharttjimmy eikooc
+2014-08-10 23:43:35	phrik	carharttjimmy: cookie wanted you to have this fsckd.
+2014-08-10 23:43:54	demize	Noo, my fsckd!
+2014-08-10 23:44:02	carharttjimmy	demize: no he's mine
+2014-08-10 23:45:14	demize	:(
+2014-08-10 23:45:31	carharttjimmy	k now that, that is over
+2014-08-10 23:45:34	carharttjimmy	meskarune: go on
+2014-08-10 23:45:45	+meskarune	haha
+2014-08-10 23:46:07	+meskarune	so ugh, dis meeting is about helping with an internship program
+2014-08-10 23:46:27	+meskarune	and there was some interest in teh forums
+2014-08-10 23:46:42	+meskarune	but new posts so far haven't garnered any responses
+2014-08-10 23:47:16	+meskarune	I know that basically you need a list of project ideas, and mentors
+2014-08-10 23:47:44	demize	I'd be interested in helping however I could, but I'm not sure how.
+2014-08-10 23:48:12	+meskarune	we'll need some devs who want help with some arch related program
+2014-08-10 23:48:35	carharttjimmy	so we need to reach out to the Developer team
+2014-08-10 23:48:37	carharttjimmy	right?
+2014-08-10 23:48:43	+meskarune	yeah, basically
+2014-08-10 23:48:51	+meskarune	allan said he could mentor on pacman stuff
+2014-08-10 23:49:01	+meskarune	but we need moar people
+2014-08-10 23:49:11	+meskarune	and more projects they need help with 
+2014-08-10 23:49:15	carharttjimmy	okay, lets see if we can lure Allan or someone else into a meeting
+2014-08-10 23:49:17	+meskarune	and of course they would need some time
+2014-08-10 23:49:36	carharttjimmy	and have them get onto the devs
+2014-08-10 23:49:41	+meskarune	maybe posting the mailing list woudl also be a good idea
+2014-08-10 23:50:07	+meskarune	perhaps pierre would too
+2014-08-10 23:51:32	carharttjimmy	yeah
+2014-08-10 23:59:17	+meskarune	ok, so I guess lets round up some people who want help
+2014-08-10 23:59:22	+meskarune	and go from there?
+2014-08-10 23:59:51	+meskarune	I'm not a strong enough dev to help another person work on a project, so we'll def need people who work on code
+2014-08-11 00:00:22	carharttjimmy	I am down for that
+2014-08-11 00:00:30	carharttjimmy	does it matter what we are working on?
+2014-08-11 00:03:22	+meskarune	I think it has to be open source?
+2014-08-11 00:03:42	+meskarune	so you can't like, make a person build you a proprietary money making thing
+2014-08-11 00:03:58	carharttjimmy	so if you were to write an open source engine
+2014-08-11 00:04:02	carharttjimmy	it would  be cool?
+2014-08-11 00:04:26	+meskarune	yeah
+2014-08-11 00:04:32	carharttjimmy	okay then
+2014-08-11 00:04:34	carharttjimmy	hmm
+2014-08-11 00:07:29	+meskarune	so It looks like kde and gnome have been involved in the past, and firefox
+2014-08-11 00:07:35	carharttjimmy	yeah
+2014-08-11 00:07:37	carharttjimmy	hmmm
+2014-08-11 00:07:50	+meskarune	they have more information about how to apply for the internship than they do on applying as an organization
+2014-08-11 00:09:29	carharttjimmy	mhmm
+2014-08-11 00:09:40	carharttjimmy	we need to come up with a good idea
+2014-08-11 00:09:42	+meskarune	I'm in #GSoC but I've posted there previously and didn't really get replies :/
+2014-08-11 00:10:55	fsckd	in freenode?
+2014-08-11 00:11:11	fsckd	oh, nvm, confusing gsoc for something else
+2014-08-11 00:12:38	+meskarune	:)
+2014-08-11 00:16:18	+meskarune	https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page#2._What_should_a_mentoring_organization
+2014-08-11 00:16:24	phrik	Title: Google Summer of Code 2014 Frequently Asked Questions (at www.google-melange.com)
+2014-08-11 00:16:33	+meskarune	so like that is the main thing I've found on becoming a mentoring organization
+2014-08-11 00:16:46	+meskarune	their FAQ, but I don't know how/where you send the application
+2014-08-11 00:18:19	+meskarune	they have some specific things like, "what is your criteria for selecting mentors" and "What is your plan for dealing with disappearing students?"
+2014-08-11 00:19:15	carharttjimmy	we're going to beat them with a wet moodle
+2014-08-11 00:19:18	carharttjimmy	noodle
+2014-08-11 00:19:21	+meskarune	haha
+2014-08-11 00:19:22	carharttjimmy	and send them free booze
+2014-08-11 00:19:29	carharttjimmy	if they are of legal age
+2014-08-11 00:19:37	+meskarune	I think maybe it would be a good idea to get into contact with another mentoring organization taht has gone through the process
+2014-08-11 00:19:41	demize	carharttjimmy: Wooh!
+2014-08-11 00:19:58	+meskarune	just so we can ask how they handle students
+2014-08-11 00:20:17	+meskarune	actually if there is anyone we know who has done GSoC, it might be a good idea to ask them questions too
+2014-08-11 00:20:38	+meskarune	I wonder how the GSoC peeps would take the main arch chat? ;D
+2014-08-11 00:20:51	kristof	poorly
+2014-08-11 00:21:08	+meskarune	heh yeah
+2014-08-11 00:21:10	kristof	meskarune: thestinger (if you remember him) called it #sniffing-glue the other noight
+2014-08-11 00:21:28	kristof	meskarune: I don't think I've spoken to you in 8 months
+2014-08-11 00:21:59	+meskarune	yeah, it feels liek it's been a while :)
+2014-08-11 00:22:07	kristof	meskarune: How've you been? :)
+2014-08-11 00:23:23	+meskarune	I was in the hospital june, but I guess doing a bit better now
+2014-08-11 00:23:31	kristof	Oh no! What happened?
+2014-08-11 00:23:53	fsckd	sorry to interrupt, is this meeting being logged?
+2014-08-11 00:24:05	+meskarune	oh right :P
+2014-08-11 00:24:07	James_T	meskarune: you've been missing for awhile
+2014-08-11 00:24:15	fsckd	:P
+2014-08-11 00:24:21	+meskarune	yeah, my health is a bit of a struggle :P
+2014-08-11 00:24:24	kristof	fsckd: I thought the meeting was over an hour ago?
+2014-08-11 00:24:25	+meskarune	but I get buy
+2014-08-11 00:24:31	James_T	*by
+2014-08-11 00:24:36	+meskarune	lol
+2014-08-11 00:24:47	fsckd	kristof: it started after you left and is still going on
+2014-08-11 00:24:48	 *	James_T buys meskarune replacement organs off the black market
+2014-08-11 00:24:59	kristof	Oh! pardon me.
+2014-08-11 00:25:17	fsckd	kristof: sorry, should have changed the topic
+2014-08-11 00:25:24	escondida	meskarune: Glad you're feeling better
+2014-08-11 00:25:43	+meskarune	thanks :)
+2014-08-11 00:27:02	--	ChanServ has changed topic for #archlinux-women from "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/ZAz3he <|||> Thirty-first IRC Meeting: Sunday September 7th at 16:00 UTC. See you there!  Agenda: https://archwomen.org/wiki/meetings <|||> If you're having a problem with someone, !awops" to "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/ZAz3he <|||> Intern Workgroup meeting in progress. Channel is being logged. <|||> If you're having a problem with someone, !awops"
+2014-08-11 00:27:21	fsckd	carry on :)
+2014-08-11 00:36:14	+meskarune	hehe
+2014-08-11 00:36:24	+meskarune	so we need a plan
+2014-08-11 00:36:52	+meskarune	should we get mentors first and figure out the rest laters, or work on the application stuff first and then track down mentors?
+2014-08-11 00:37:12	+meskarune	I have no idea where to even start networking stuff with GSoC
+2014-08-11 00:51:04	carharttjimmy	hmm
+2014-08-11 00:51:10	carharttjimmy	let me look into that
+2014-08-11 00:51:14	carharttjimmy	and see what I can find out
+2014-08-11 00:54:24	+meskarune	ok
+2014-08-11 00:55:01	+meskarune	I think just having the mentors focus on mentoring while we like, organize shiz would be a good idea
+2014-08-11 00:55:15	+meskarune	I don't want to throw more work onto them, most of the Arch Devs are pretty damn busy
+2014-08-11 00:56:17	carharttjimmy	yeah
+2014-08-11 00:56:23	carharttjimmy	lets come up with some project ideas
+2014-08-11 00:56:32	carharttjimmy	and see if we can get something in people's strong areas
+2014-08-11 00:56:50	nisstyre	how about....
+2014-08-11 00:57:03	nisstyre	do we have a tool to automate bug submission?
+2014-08-11 00:57:11	nisstyre	openbsd has something like that I think
+2014-08-11 00:57:18	nisstyre	and other distros (GUI ones) have fancy shit
+2014-08-11 00:57:37	kristof	do you mean what burp does for aur packages?
+2014-08-11 00:57:46	nisstyre	what is burp?
+2014-08-11 00:57:59	nisstyre	also no, I mean a tool that aids in collecting information and putting it in a bug report
+2014-08-11 00:58:15	nisstyre	maybe with some friendly hints about what to put in it
+2014-08-11 00:58:39	nisstyre	could even use it for regular irc/bbs help
+2014-08-11 00:59:02	nisstyre	a lot of people who are new have trouble figuring out how to get info out of their system
+2014-08-11 00:59:07	kristof	I'm picturing the tool you're describing and it looks a lot like burp
+2014-08-11 00:59:13	kristof	just for bug reports instead of aur packages
+2014-08-11 00:59:13	carharttjimmy	I like that idea
+2014-08-11 00:59:16	carharttjimmy	for the bug report
+2014-08-11 00:59:18	nisstyre	well then make burp more general
+2014-08-11 00:59:18	kristof	I do too, ++
+2014-08-11 01:00:02	+meskarune	thats a good idea nisstyre 
+2014-08-11 01:00:09	nisstyre	thanks, I have my moments
+2014-08-11 01:00:12	+meskarune	a lot of people don't know how to really describe bugs
+2014-08-11 01:00:16	+meskarune	lol :P
+2014-08-11 01:00:42	carharttjimmy	yep
+2014-08-11 01:00:43	+meskarune	a lot of arch stuff isn't automated 
+2014-08-11 01:04:42	demize	I'm not sure how you'd make burp more general, it takes a srcball and just uploads it ;p
+2014-08-11 01:05:11	kristof	^
+2014-08-11 01:05:21	nisstyre	ok, well then this could be a completely new tool
+2014-08-11 01:05:22	James_T	http://hardkernel.com/main/products/prdt_info.php?g_code=G140448267127 buy some
+2014-08-11 01:05:26	James_T	run arch on it
+2014-08-11 01:05:29	nisstyre	maybe model it after the openbsd one, but I have never used that
+2014-08-11 01:05:32	James_T	WIN!
+2014-08-11 01:05:36	kristof	Right, but I would definitely look at burp's source
+2014-08-11 01:05:40	demize	But yeah, people are really bad at describing bugs, and don't even follow the already filled-in template form you get when you open a new BR
+2014-08-11 01:05:42	kristof	Let's name it! Since that's the hardest thing, anyway.
+2014-08-11 01:05:52	demize	nisstyre: Good idea
+2014-08-11 01:06:03	demize	Would be a good idea to look at several systems really.
+2014-08-11 01:06:23	kristof	Let's name it "fart"
+2014-08-11 01:06:46	kristof	the... fantastic arch reporting tool
+2014-08-11 01:07:40	kristof	Joking. However, if we can get a name decided within the course of this meeting I can start a wikipedia page and someone can start a github repo.
+2014-08-11 01:24:02	nisstyre	kristof: nothing is coming to me
+2014-08-11 01:24:32	nisstyre	maybe something related to http://www.catb.org/jargon/html/H/heisenbug.html
+2014-08-11 01:24:34	phrik	Title: heisenbug (at www.catb.org)
+2014-08-11 01:24:47	carharttjimmy	meskarune: exactly
+2014-08-11 01:24:55	nisstyre	maybe mandelbug is a good name itself
+2014-08-11 01:25:45	demize	/usr/bin/allanbrokesomething
+2014-08-11 01:25:50	kristof	:)
+2014-08-11 01:25:53	nisstyre	allanbrokeit would be a good name
+2014-08-11 01:25:57	nisstyre	abt for short
+2014-08-11 01:26:01	demize	Indeed.
+2014-08-11 01:26:08	kristof	nisstyre: Arch Bug Tracker
+2014-08-11 01:26:17	nisstyre	yeah something like that
+2014-08-11 01:26:19	kristof	nisstyre: But the SECRET acronym is Allan Broke It
+2014-08-11 01:26:22	kristof	I love it
+2014-08-11 01:26:27	nisstyre	well, that's abi
+2014-08-11 01:26:33	nisstyre	which already means application binary interface
+2014-08-11 01:26:34	kristof	oh, whoops
+2014-08-11 01:26:38	demize	allan broke that
+2014-08-11 01:26:39	demize	;p
+2014-08-11 01:26:43	demize	or this
+2014-08-11 01:27:03	nisstyre	but
+2014-08-11 01:27:06	demize	"allan broke this" makes sense as the name, since it's a rapport of something that broke
+2014-08-11 01:27:26	carharttjimmy	hehe
+2014-08-11 01:27:28	kristof	Yes
+2014-08-11 01:27:29	carharttjimmy	lets do it
+2014-08-11 01:27:29	kristof	I like it
+2014-08-11 01:27:49	kristof	/usr/bin/abt is free
+2014-08-11 01:28:09	kristof	Oh, instead of "Arch Bug Tracker", we can call it "Arch Bug Ticket"
+2014-08-11 01:28:20	kristof	Since a single report can be considered a single ticket
+2014-08-11 01:28:39	carharttjimmy	yeah
+2014-08-11 01:28:45	nisstyre	on a comepletely tangential note
+2014-08-11 01:28:51	nisstyre	this concerns me greatly, ImportError: /usr/lib/python2.7/lib-dynload/_ssl.so: undefined symbol: SSLv2_method
+2014-08-11 01:28:51	kristof	Are these meetings always this constructive?
+2014-08-11 01:28:58	demize	Well
+2014-08-11 01:29:09	demize	in flyspray it's called task
+2014-08-11 01:29:11	demize	IIRC
+2014-08-11 01:29:24	nisstyre	*completely
+2014-08-11 01:30:14	demize	So using task makes more sense than ticket if it'll open something on the Arch bugtracker
+2014-08-11 01:37:03	nisstyre	also, arch ticket tracker = att
+2014-08-11 01:37:18	nisstyre	arch ticket manager = atm
+2014-08-11 01:38:02	carharttjimmy	how do we make sure the ticket is legit
+2014-08-11 01:38:04	carharttjimmy	and not spam
+2014-08-11 01:38:08	nisstyre	you don't
+2014-08-11 01:38:21	nisstyre	also it doesn't need to have web integration
+2014-08-11 01:38:23	nisstyre	it could
+2014-08-11 01:38:39	nisstyre	but it could be two separate tools
+2014-08-11 01:41:44	demize	could just have to do http login
+2014-08-11 01:41:46	demize	but
+2014-08-11 01:41:51	demize	would be nice to make a new bugtracker...
+2014-08-11 01:41:57	demize	becaue all existing ones are crap.
+2014-08-11 01:42:02	kristof	burp makes you specify a username and a login
+2014-08-11 01:42:40	kristof	That's necessary because you need those two things in order to host aur packages, though
+2014-08-11 01:42:58	kristof	Can you mark bug reports as spam with flytracker?
+2014-08-11 01:43:14	kristof	If so, then IPs that submit too much spam could just be blocked at the server level :P
+2014-08-11 01:43:37	demize	You can't submit bug reports unauthed.
+2014-08-11 01:43:41	nisstyre	demize: NO
+2014-08-11 01:43:54	demize	what?
+2014-08-11 01:43:56	nisstyre	xkcd 927
+2014-08-11 01:44:17	demize	This isn't about standards
+2014-08-11 01:44:26	demize	This is about all software being absolute crap
+2014-08-11 01:44:48	nisstyre	I guess that could be reasonable
+2014-08-11 01:51:30	+meskarune	so I like that idea, and we can have some intern get paid to help build it :)
+2014-08-11 01:51:47	+meskarune	and it helps Arch Linux
+2014-08-11 01:54:20	carharttjimmy	yep
+2014-08-11 01:54:22	carharttjimmy	lets do that
+2014-08-11 01:54:32	demize	Awesome :D
+2014-08-11 01:57:07	+meskarune	ok, so we'll add that to the list of stuff on the wiki
+2014-08-11 01:57:39	+meskarune	and I'll post to the arch mailing list, basically along the lines of "we need mentors, we got people planning the other stuffs"
+2014-08-11 01:57:53	+meskarune	GSoC lets do dis!!111
+2014-08-11 01:58:56	kristof	enthusiasm++
+2014-08-11 01:59:40	+meskarune	so once we get some mentors together and a list of projects, we can like write up something, and I"ll spam the #gsoc channel until someone tlaks to me
+2014-08-11 02:01:05	carharttjimmy	good idea
+2014-08-11 02:01:16	carharttjimmy	sounds like a plan meskarune 
+2014-08-11 02:01:27	+meskarune	ok :)
+2014-08-11 02:01:37	kristof	yaaaaay!
+2014-08-11 02:01:57	carharttjimmy	so is meeting over?
+2014-08-11 02:20:50	+meskarune	yeah I guess so :)
+2014-08-11 02:20:54	+meskarune	<3
+2014-08-11 02:21:30	carharttjimmy	k
