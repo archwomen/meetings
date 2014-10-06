@@ -1,0 +1,28 @@
+Arch Women IRC meeting, October 5, 2014
+
+Announcements
+   * DokuWiki updated to 2014-09-29 "Hrun".
+   * Channel rules are linked to from the topic. https://archwomen.org/wiki/aw-org:irc
+      * polyzen suggested: "If you make us feel bad about being smart." would be better as "If you insult our intelligence."
+      * tigrmesh replied: it sounds like really low level language.  until you've gotten into wrangling with someone about whether something was an insult. and then there's phase 2, the exact meaning of "intelligence"
+
+Classroom
+   * The class "Introduction to Scheme and Functional Programming" taught by Nisstyre was on Friday, September 5, 2014. Logs are up if you missed it. https://archwomen.org/media/project_classroom/classlogs/2014-09-05-introduction_to_scheme_and_functional_programming.txt
+   * If anyone wants to teach a class, please contact one of the coordinators. https://archwomen.org/wiki/projects:classroom:start#coordinators
+      * halosghost may teach a multi-segment class--"A Gentle Introduction to C Programming".
+      * halosghost is planning a class on datatypes for beginners.
+         * A temporary link to the skeleton is already available ( http://ix.io/eDr ). Send comments, suggestions, concerns and requests about it to halosghost.
+   * There was some discussion about wanting to have a whiteboard for classes.
+      * Suggestions included using Google hangouts, https://awwapp.com/, or Twiddla (more examples at http://www.shambles.net/pages/staff/intwhiteb/ ).
+   * Suggestions for other classes included bash scripting, debugging how-to, understanding makepkg, understanding yaourt, more lisp, an interpreted language such as python/ruby, and the ever-popular dream class, haskell.
+
+Internship
+   * Intern Workgroup Meeting was on August 10th.  Log for those of us who missed it  https://archwomen.org/media/meeting-logs/intern_workgroup_2014-08-10LOG.txt .
+      * They discussed ideas for projects.
+      * They decided on Google Summer of Code (GSoC).
+
+Some belated and some current thank you's
+   * For Classroom, thanks to the teachers for great classes and for being willing to put themselves out there:  kaictl and gtmanfred, CalimeroTeknik, jy2wong, and nisstyre.
+   * Also for Classroom, thanks to CalimeroTeknik for his suggestions on the process.
+   * Thanks to polyzen for pointing out the update to DokuWiki.
+   * And to everyone who also helped.
