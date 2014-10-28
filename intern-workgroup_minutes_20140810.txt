@@ -1,0 +1,21 @@
+Intern Workgroup IRC meeting notes
+#archlinux-women, August 10th, 2014
+
+Arch Women's role should be to organize the whole thing so that mentors and Arch Linux developers are not burdened by the process.
+
+Need to itemize the steps for getting into GSoC and OPW.
+* GSoC information for mentoring organizations.
+  https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page#2._What_should_a_mentoring_organization
+* Get in contact with another mentoring organization or anyone who has participated in GSoC.
+
+Get people to volunteer as mentors.
+* Reach out to Arch Linux developers.
+ * Allan said he could mentor for pacman projects.
+   Should involve him in a meeting.
+ * Post to the mailing list.
+* Other people?
+ * carharttjimmy
+
+Project ideas.
+* https://archwomen.org/wiki/projects:internships:ideas
+* New idea: tool for automating bug reports - collection of info. and submission.
