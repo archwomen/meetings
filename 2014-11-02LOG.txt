@@ -1,0 +1,233 @@
+Log of Arch Women 32nd IRC Meeting, November 2nd, 2014
+
+16:10:34	fsckd	******************** Meeting Begins ********************
+16:11:41	fsckd	first thing first, we have a new op, escondida!
+16:12:17	fsckd	she is also op in -classroom
+16:12:54	+meskarune	\o/
+16:16:14	fsckd	she wields the mystical and ancient Golden Banhammer; passed in line from women to women from ages long since removed from human memory. her power is absolute and all will tremble before her might! for she is Thor incarnated!
+16:16:22	fsckd	muahahaha! glory!
+16:16:32	fsckd	err... sorry, got a bit carried away
+16:16:39	fsckd	anywho
+16:17:09	demize	Hm
+16:17:26	demize	does that mean that vod1k is a woman?
+16:17:39	demize	"passed in line from women to women"...
+16:17:52	fsckd	no. vod1k is an artificial construct
+16:17:58	demize	Ah, I see.
+16:18:30	fsckd	he was created to serve sangria but by chance filled in a temporary gap :)
+16:18:30	demize	But yay.. too bad she's not on ATM.
+16:18:50	demize	Fate, ey.
+16:19:05	fsckd	aye, works in mysterious ways
+16:20:13	fsckd	that's all the announcement for this month
+16:20:22	fsckd	meeting over, bye folks :)
+16:20:23	demize	mmm...
+16:20:24	fsckd	j/k
+16:20:25	demize	;p
+16:20:43	+meskarune	haha
+16:20:58	demize	halosghost: You about?~
+16:20:59	fsckd	our friend halosghost is working on two classes
+16:21:40	fsckd	halosghost: any progress?
+16:21:54	halosghost	demize: I am
+16:22:17	halosghost	fsckd: I'm afraid, having started a full-time job since the last meeting, that I have made very little progress
+16:22:38	fsckd	oh, it's good to have a job :)
+16:22:45	halosghost	additionally, I did not receive very much feedback on the preliminary draft syllabus I posted for the static-typing class
+16:22:58	halosghost	fsckd: indeed it is, but 49 hours a week does take a lot of my spare time away
+16:23:02	demize	Should put out some ads in #archlinux{,-offtopic} for people wanting to teach a class :p
+16:23:18	demize	halosghost: I think I must have missed that..
+16:23:29	halosghost	here let me reupload it
+16:23:41	fsckd	was it this http://ix.io/eDr ?
+16:24:07	fsckd	for the class on datatypes
+16:24:08	halosghost	fsckd: http://ix.io/eDr/rst
+16:24:12	halosghost	fsckd: indeed it was :P
+16:24:18	fsckd	hehe :)
+16:24:39	halosghost	also, I just saw a typo that I'm gonna fix
+16:24:49	fsckd	:)
+16:24:58	demize	'languages¹' there's no citation or reference o.o
+16:24:59	+meskarune	demize: I feel like there would be a ton of volunteers for "trolling 101" from -offtopic ;)
+16:25:07	demize	meskarune: yeah >.>
+16:25:21	halosghost	demize: yep, it's preliminary :P
+16:25:26	+meskarune	I am interested in learning about datatypes
+16:25:28	+meskarune	sounds fun
+16:25:38	halosghost	demize: eventually, all the footnotes will be added
+16:25:43	demize	mmm...
+16:25:45	halosghost	in fact, I'll see if I can't do that now
+16:26:12	 *	meskarune gives halosghost a cookie
+16:26:30	halosghost	heh
+16:26:48	demize	(also, if you host it on gists you can get the rst rendered ;p)
+16:26:52	demize	also clone/push to it
+16:26:56	demize	because woo, git
+16:27:06	fsckd	+1
+16:28:31	halosghost	demize: the ix isn't a hosting choice, just a way for the preliminary draft to be viewed
+16:28:38	halosghost	demize: I'll probably end up hosting this on my website
+16:28:41	halosghost	when it's ready
+16:28:49	demize	Yeah, and I meant the same use of gists
+16:28:57	halosghost	ahh
+16:28:58	demize	there you can get diffs, and it rendered ;p
+16:29:05	demize	also embed elsewhere
+16:29:12	halosghost	good idea
+16:29:21	halosghost	after the footnotes are added, I'll put it on a gist
+16:29:37	demize	\o/
+16:29:50	fsckd	:)
+16:31:11	fsckd	when you put it in a gist (if you choose to), i'll post a link on the forums to ask for feedback
+16:31:47	fsckd	or, you can post a link yourself :P
+16:31:50	demize	One thing I miss in gists from regular repos are commenting on specific lines in a change
+16:32:40	halosghost	fsckd: I'll leave that to you :)
+16:32:51	halosghost	I'm writing out the footnote explanations now
+16:33:18	+meskarune	thanks halosghost <333
+16:33:24	halosghost	❤
+16:33:45	+meskarune	I know a class is a lot of work, so take your time and maybe we can drum up some help for you
+16:33:56	fsckd	+1
+16:34:09	+meskarune	I'm sure your class will be really popular, we have had great turn out on the other classes :D
+16:34:15	fsckd	indeed
+16:35:06	fsckd	take your time and get it to the quality you want it to be :)
+16:35:29	demize	^__^
+16:37:35	halosghost	thanks all!
+16:37:48	halosghost	the static typing class, I don't think will actually take too much more work
+16:37:49	demize	halosghost: ❤
+16:37:56	halosghost	the C class, however, will be a much more thorough ordeal
+16:39:19	fsckd	i can imagine
+16:39:43	fsckd	i'm glad you want to be thorough :)
+16:40:49	demize	halosghost: Do tell if you want some advertisement for help~
+16:41:45	jy2wong	halosghost: if you need a hand with the C class, let me know?
+16:44:31	 *	meskarune doesn't know anything about C
+16:45:48	halosghost	demize, jy2wong: I shall! For the moment, I'm focusing on the static typing class since it may be considered a "soft" pre-requisite for the C class
+16:45:52	halosghost	also
+16:45:54	halosghost	gist incoming
+16:45:56	demize	Yeah \o
+16:46:14	demize	We love you for working on it, even if you can't spend too much time on it :D
+16:46:31	halosghost	heh
+16:47:34	halosghost	ugh, copying into gist…
+16:48:59	fsckd	𝓱𝓪𝓵𝓸𝓼𝓰𝓱𝓸𝓼𝓽 𝓲𝓼 𝓪𝔀𝓮𝓼𝓸𝓶𝓮
+16:50:02	+meskarune	halosghost: yeah, I wish that were better, I always have problems copying into gists
+16:50:20	halosghost	gist: https://gist.github.com/HalosGhost/aaf5ea068ef0f2854a3c
+16:50:21	phrik	Title: The skeleton / syllabus of a short IRC class on Static Typing (at gist.github.com)
+16:51:03	fsckd	nice :D
+16:51:15	halosghost	seems one of my footnotes wasn't rendered correctly
+16:51:17	 *	halosghost fixes
+16:51:28	halosghost	…
+16:51:39	halosghost	seems none of my footnotes were rendered correctly in-line
+16:51:46	halosghost	welp, I don't know how to fix that :P
+16:53:35	+meskarune	hehe
+16:53:40	+meskarune	good enough for gov work
+16:54:10	halosghost	it's a good start at least
+16:54:32	halosghost	if only gists had PRs
+16:54:40	halosghost	comments welcome!
+16:54:54	+meskarune	yes, it is! :D
+16:55:01	+meskarune	so for class stuff
+16:55:15	+meskarune	haloghost has a gist, and needs some comments
+16:55:20	+meskarune	so we can spam the link around
+16:55:35	+meskarune	anything else for classroom?
+16:57:53	+meskarune	next agenda item is google summer of code
+16:58:36	fsckd	i found a couple of links to help
+16:58:51	+meskarune	there doesn't seem to be a ton of interest from the devs, besides like, allan
+16:58:57	fsckd	FAQ: http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page
+16:58:58	phrik	Title: Google Summer of Code 2014 Frequently Asked Questions (at www.google-melange.com)
+16:59:12	fsckd	Mentor Manual: http://en.flossmanuals.net/gsocmentoring/
+16:59:13	phrik	Title: Mentors Guide (at en.flossmanuals.net)
+17:04:40	fsckd	found through this blog post: http://google-opensource.blogspot.com/2014/02/mentoring-organization-applications-now.html
+17:04:42	phrik	Title: Google Open Source Blog: Mentoring Organization Applications Now Being Accepted for Google Summer of Code 2014! (at google-opensource.blogspot.com)
+17:05:33	+meskarune	oh nice
+17:05:59	fsckd	one thing i noticed is the requirement for organization admin
+17:06:03	demize	halosghost: https://gist.github.com/kyrias/4f5ac27ee8d04720492c 
+17:06:04	phrik	Title: static_typing_class.rst (at gist.github.com)
+17:06:12	demize	halosghost: Need a space before, like with all other markup
+17:06:17	demize	tho the links fail ;p
+17:06:30	jy2wong	halosghost: for the data representation section, do you want to get into endianness? You're assuming little-endian for 0x7f800000 being interpreted as a large number
+17:06:57	fsckd	the org admin leads the GSoC stuff for the project
+17:07:15	halosghost	jy2wong: I'll add a note about it, but the class isn't really about machine-level representation, that's just a part of it
+17:08:03	halosghost	demize: the links fail?
+17:08:11	fsckd	meskarune: the org admin would have some authority over the mentors. would have to be a dev. can't be AW. iiuc
+17:08:47	jy2wong	halosghost: yeah, IMO endianness doesn't warrant more than a "caution! here's a wikipedia link" but it's probably worth mentioning.
+17:08:47	+meskarune	fsckd: Oh I see
+17:08:48	demize	halosghost: clicking the links reloads the page and doesn't move you down to them.
+17:08:51	+meskarune	so we need to recruit
+17:09:05	halosghost	oh
+17:09:14	halosghost	jy2wong: definitely!
+17:09:19	halosghost	jy2wong: I'll add it momentarily
+17:09:48	halosghost	demize: either way, the footnotes are fixed :P
+17:10:56	fsckd	meskarune: need to get more devs on board. AW can do the research on setting up a GSoC program in Arch. and present it to the devs. but it would need to be the devs who run it and do the work
+17:11:15	+meskarune	yeah, and I know the devs are very busy
+17:11:35	demize	meskarune for dev!
+17:11:46	fsckd	+100 XD
+17:12:31	+meskarune	I gotta get better at programming :3
+17:12:38	halosghost	jy2wong: link added
+17:12:49	+meskarune	I think I know more theory than practice
+17:12:49	demize	meskarune: Don't need to be a programmer to be an Arch dev :p
+17:13:07	fsckd	just need to be good at breaking things :P
+17:13:21	demize	I should become an Arch dev too then ;p
+17:13:31	demize	I'm fully qualified for breaking things!
+17:13:36	fsckd	haha
+17:13:44	fsckd	demize for dev!
+17:14:14	demize	Well, unfortunately we'd need to get the devs on board and they'd need to chose to make me a dev, and that feels rather unlikely :p
+17:14:26	fsckd	hmm...
+17:15:00	demize	coup d'etat?
+17:15:08	fsckd	oh good idea!
+17:15:20	+meskarune	 demize orly?
+17:15:27	 *	fsckd raises the banners of war! "We will march to Canada and throw down those fat taco eating slobs. We will usher a new era in Arch. For glory!"
+17:15:28	+meskarune	is arch dev mostly packaging?
+17:15:37	demize	meskarune: Pretty much..
+17:16:01	demize	hmm...
+17:16:16	demize	Allan was on an hour ago...
+17:16:25	demize	left around the same time the meeting started
+17:16:27	demize	too bad...
+17:16:31	fsckd	yeah
+17:16:33	--	numie is now known as numeral
+17:16:52	halosghost	meskarune: and bug fixing on packaging
+17:16:55	halosghost	meskarune: pretty much
+17:18:41	halosghost	I've considered signing up for TUship before
+17:18:48	halosghost	I still might
+17:18:49	demize	Doo eet!
+17:18:58	+meskarune	I've been trying to package more on the AUR
+17:19:12	demize	I wish I had packages that would be worth enough to get into the repos ;p
+17:19:18	+meskarune	I think some of hte really outdated packages should be removed though :/
+17:19:19	halosghost	don't know if they'd be interested in accepting someone whose interest area would be "bring MOAR games and haskelly things to the repos"
+17:19:44	fsckd	(i am pretty sure most of the devs are in EU or US. any war party seeking to usurp power by going to Canada will be disappointed and will probably freeze to death before they can accomplish anything)
+17:19:49	+meskarune	I just recently found out that creatures works on linux
+17:19:49	halosghost	either way, my interest area for TUship is ot for the meeting
+17:20:19	+meskarune	lol fsckd 
+17:20:24	demize	halosghost: Well, games they most likely would be.
+17:20:32	demize	fsckd: ;)
+17:20:43	demize	fsckd: I'm Swedish, not German.
+17:21:44	+meskarune	as an american... what is the difference?
+17:21:46	+meskarune	trolololol
+17:21:50	fsckd	:P
+17:22:32	demize	:p
+17:23:19	demize	(It was a reference to the German soldiers freezing to death when they tried to invade Russia)
+17:23:38	demize	I mean, it's horrible, but it's also a bit amusing.
+17:23:47	demize	But that's okay, because I'm a horrible person.
+17:23:49	fsckd	heh
+17:25:28	fsckd	demize would be the sole survivor of our failed invasion of Canada. he'd be seen walking along the banks of the Arctic Ocean in swimwear. "ten below zero is good beach weather" :P
+17:25:45	+meskarune	so we have the infos, maybe can post to mailing list and forums again and see who responds
+17:25:46	 *	demize smirks
+17:25:51	+meskarune	or maybe we could get allan to
+17:26:09	demize	meskarune: Might get more response if Allan posts to arch-dev-public
+17:26:19	+meskarune	I wouldn't make it past 20ft from my door. Its so cold outside T_T
+17:26:32	fsckd	forums are not a place many devs are found in
+17:28:42	demize	heh..
+17:29:02	+meskarune	I never seem to be on when allan is :/
+17:29:06	demize	fsckd: To be fair tho, I don't swim, and I'm never ever seen in public in swimwear.
+17:29:19	demize	meskarune: Well, you were earlier sorta :p
+17:29:42	+meskarune	I can't take cold, but I am fine in heat
+17:29:55	+meskarune	demize: lol
+17:30:07	demize	It's easier to put on more clothes and wrap yourself in blankets than getting cold.
+17:30:19	demize	so I prefer cold over heat
+17:30:23	demize	But I prefer neither.
+17:30:30	demize	Autumn or spring is good.
+17:30:45	jy2wong	(is the meeting over, or just very off-topic right now? :P)
+17:30:55	demize	Well
+17:30:55	fsckd	very offtopic right now :P
+17:31:15	demize	Not *that* off topic...
+17:31:19	demize	;p
+17:32:13	+meskarune	ok, so decision for GSOC - we need to get devs involved, maybe has allan make a post to the mailing list
+17:32:20	+meskarune	if he is still interested in being involved
+17:32:44	fsckd	how about if you talk to him. we can't make much progress until then
+17:33:17	fsckd	i suggest emailing him your ideas or scheduling a time to tlak on IRC
+17:33:22	fsckd	talk*
+17:34:20	demize	That's an excellent idea.
+17:35:41	+meskarune	ok :)
+17:39:04	fsckd	so is that it, anything else on internship?
+17:42:11	+meskarune	I think thats all
+17:42:44	fsckd	ok
+17:42:53	fsckd	any final comments of questions?
+17:42:58	fsckd	or*
+17:45:26	fsckd	ok then, by the authority invested in me by the Arch Linux Women project, i hereby declare
+17:45:36	fsckd	******************** Meeting Ends ********************
