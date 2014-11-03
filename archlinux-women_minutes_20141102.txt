@@ -1,0 +1,18 @@
+Arch Women IRC Meeting, 02 November 2014 at 16:10 UTC
+
+Announcements
+  * New channel operator, escondida!
+
+Classroom
+  * halosghost is planning two classes. As he recently got a full time job, his time is limited. He will focus on the datatypes class. Offers to assist him with both classes are encouraged.
+    * a multi-segment class - “A Gentle Introduction to C Programming” - still needs some time/work, probably after the other class
+    * a class on datatypes for beginners - https://gist.github.com/HalosGhost/aaf5ea068ef0f2854a3c
+      * Please take a look at that draft. Feedback and comments are welcome.
+
+Internship - GSoC
+  * fsckd found some links.
+    * FAQ: http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page
+    * Mentor Manual: http://en.flossmanuals.net/gsocmentoring/
+  * According to the Mentor Manual and FAQ, an organization administrator is needed to oversee Arch Linux's participation in GSoC. Due to the role the organization administrator plays, they will need to be an Arch Linux developer.
+  * We need to get the involvement of Arch Linux developers.
+    * meskarune will contact Allan to discuss ideas for GSoC internship program in Arch Linux. (Either by email or scheduling to talk on IRC.)
