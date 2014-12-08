@@ -1,0 +1,19 @@
+Arch Linux Women 33rd IRC meeting, 07 December 2014, 16:22 UTC
+
+Announcements and status updates
+  * SSL certificate reissued to use SHA2 instead of SHA1.
+    * https://community.qualys.com/blogs/securitylabs/2014/09/09/sha1-deprecation-what-you-need-to-know 
+    * http://googleonlinesecurity.blogspot.co.uk/2014/09/gradually-sunsetting-sha-1.html
+    * https://bugs.archlinux.org/task/42778
+  * Setup a systemd unit to kexec Grsecurity kernel on boot.
+    * https://archwomen.org/wiki/aw-tech:kexec
+
+Classroom
+  * HalosGhost is working on making some classes. Currently focusing on a class on Static Typing. Please take a look at his draft. Feedback and comments are welcome.
+    * https://gist.github.com/HalosGhost/aaf5ea068ef0f2854a3c
+    * demize added a notice to the topics of #archlinux and #archlinux-offtopic. fsckd posted to the forums <https://bbs.archlinux.org/viewtopic.php?id=190788>. HalosGhost(?) will also send an email to the arch-general mailing list.
+  * jy2wong may teach another class, "a quick survey of build systems as applied to installing software."
+
+Internship
+  * meskarune spoke to Allan and he sent an email to arch-dev-public mailing list asking if any Arch developer is interested in GSoC. 
+    * https://lists.archlinux.org/pipermail/arch-dev-public/2014-November/026748.html
