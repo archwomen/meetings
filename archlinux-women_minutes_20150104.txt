@@ -1,0 +1,26 @@
+Arch Linux Women 34th IRC meeting, 4th January 2015 at 16:33 UTC
+
+Announcements and status updates
+* DokuWiki switched over to git and updated to the latest version.
+
+Classroom
+* HalosGhost is working on making some classes. Maybe we can update on the forums for some help?
+  * Posted on the BBS, and in the topics for #archlinux and #archlinux-offtopic. There was some good feedback.
+* HalosGhost proposed organizing classroom stuff into teams for classes.
+  * GitHub teams?
+  * Gitolite supports per directory permissions for people, we could organize classroom stuff per directory for classes.
+  * Another option: make a new organization on GitHub for Arch Classroom, put everything in repositories there.
+* hh4a is hoping to finalize his AWK class this month.
+
+Internship
+* There hasn't been a strong response to GSoC volunteers among the developers.
+  * meskarune's notes: https://gist.github.com/meskarune/6b52d1603ddd540460cd
+  * https://wiki.archlinux.org/index.php/Google_Summer_of_Code
+  * Specifically pull out the link for the timeline http://www.google-melange.com/gsoc/events/google/gsoc2015 (scroll down past the calendar).
+  * tigrmesh proposes bumping the BBS thread and archlinux-dev thread to try spurring interest.
+
+Miscellaneous
+* hh4a suggests making a timeline/history of Arch Women's accomplishments.
+  * https://archwomen.org/wiki/aw-org:history
+* CalimeroTeknik made suggestions on changing the website and wiki pages to be clearer and better communicate goals, intents, and current activity.
+* Arch Linux Install Day, Jan 17th
