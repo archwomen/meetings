@@ -1,0 +1,451 @@
+2015-01-04 13:33:58	+meskarune	====== Meeting Start ======
+2015-01-04 13:33:59	fsckd	in the riseup pad you can also change your nick. please do so that we may know who you are :)
+2015-01-04 13:35:01	<<<	vodik (~root@archlinux/op/vodik) has quit (Ping timeout: 244 seconds)
+2015-01-04 13:35:07	+meskarune	so dokuwiki was swtiched over to git so we can update with a "git pull" instead of messing with manually downloading things
+2015-01-04 13:35:15	halosghost	fancy!
+2015-01-04 13:35:19	+meskarune	it's on the stable branch so it will match their updates :D
+2015-01-04 13:35:33	fsckd	yay XD
+2015-01-04 13:35:55	+meskarune	we try to keep everything on the server updated for security
+2015-01-04 13:36:16	+meskarune	it makes me appreciate the work that other companies do/don't put into updates
+2015-01-04 13:36:43	halosghost	is the server actually running arch, or is it running something that's more “stable”?
+2015-01-04 13:36:49	+meskarune	its arch :P
+2015-01-04 13:36:55	halosghost	gewdtimes
+2015-01-04 13:37:25	+meskarune	arch linux + lighttpd 
+2015-01-04 13:37:58	halosghost	fer nuff
+2015-01-04 13:38:00	+meskarune	https://archwomen.org/media/
+2015-01-04 13:38:01	phrik	Title: Index of /media/ (at archwomen.org)
+2015-01-04 13:38:06	+meskarune	you can see in the footer on dir listings
+2015-01-04 13:38:51	+meskarune	ok, first thing on the agenda is classroom stuff
+2015-01-04 13:39:11	+meskarune	halosghost is working on a class :)
+2015-01-04 13:39:17	halosghost	indeed
+2015-01-04 13:39:36	halosghost	it's now been posted on the BBS, and in the topics for #al and #al-ot since last meeting
+2015-01-04 13:39:45	+meskarune	\o/
+2015-01-04 13:39:54	halosghost	it hasn't yet been posted to the ML (afaik) (which is mainly because my email account wasn't working there for a while)
+2015-01-04 13:40:00	halosghost	but we can do that if we'd like
+2015-01-04 13:40:03	+meskarune	oh ok :)
+2015-01-04 13:40:22	fsckd	you got some good feedback from a number of people
+2015-01-04 13:40:30	halosghost	however, the advice I've gotten suggests to me that it's ready for a final run-through by me (and anyone else interested) and then it'll be set
+2015-01-04 13:40:34	halosghost	fsckd: I have
+2015-01-04 13:40:37	halosghost	and it has been helpful
+2015-01-04 13:40:40	halosghost	(and more is welcomed :D)
+2015-01-04 13:40:48	fsckd	:D
+2015-01-04 13:41:29	halosghost	additionally, I have an idea about the classroom
+2015-01-04 13:41:33	halosghost	(one moment)
+2015-01-04 13:41:43	+meskarune	awesome :D
+2015-01-04 13:42:28	⛔⛔★	fsckd is excited
+2015-01-04 13:43:04	>>>	vodik (~root@archlinux/op/vodik) has joined #archlinux-women
+2015-01-04 13:45:21	halosghost	all right, does ArchWomen have a git repo
+2015-01-04 13:45:23	halosghost	?
+2015-01-04 13:45:28	halosghost	/github org?
+2015-01-04 13:45:49	fsckd	for classroom? yes
+2015-01-04 13:46:14	halosghost	is it an org or a repo?
+2015-01-04 13:46:20	fsckd	https://github.com/archwomen
+2015-01-04 13:46:21	phrik	Title: Arch Linux Women Project · GitHub (at github.com)
+2015-01-04 13:46:21	demize	https://github.com/archwomen
+2015-01-04 13:46:30	fsckd	see all the repos there
+2015-01-04 13:46:32	+meskarune	we have gitolite on the server, and use github also
+2015-01-04 13:46:32	halosghost	ahh
+2015-01-04 13:46:32	demize	Ah, same second on my side :p
+2015-01-04 13:46:41	fsckd	haha
+2015-01-04 13:46:49	halosghost	okay, my notion was that we could start using teams to setup a team for each class
+2015-01-04 13:47:00	halosghost	and then make the syllabus and related stuff in a repo for that team
+2015-01-04 13:47:22	halosghost	it's a fancy little feature and would allow the project leaders to fine-tune access while keeping all the projects well-organized under one roof
+2015-01-04 13:48:17	+meskarune	right now I think everything is thrown into here: https://github.com/archwomen/classroom-media
+2015-01-04 13:48:19	phrik	Title: archwomen/classroom-media · GitHub (at github.com)
+2015-01-04 13:48:20	demize	Neat idea.
+2015-01-04 13:48:30	+meskarune	I think having teams is a good idea
+2015-01-04 13:49:36	halosghost	it would also mean that my static typing class, for example, would be under the ArchWomen org rather than a personal gist
+2015-01-04 13:50:06	demize	Though one repo per class would be a bit more work on the website-part
+2015-01-04 13:50:24	demize	And GH can’t do permissions per directories alas
+2015-01-04 13:50:42	halosghost	I guess I'm not familiar with how the website organizes it now
+2015-01-04 13:50:51	halosghost	anyway, it was just an idea for people to mull over
+2015-01-04 13:51:15	halosghost	(my place of work started using gh teams (mainly because I decided we would), and it seems really handy)
+2015-01-04 13:51:16	demize	well, right now it just needs to pull that repo ^
+2015-01-04 13:51:21	demize	But yeah, it’s a good idea.
+2015-01-04 13:51:37	fsckd	iirc the original idea for classroom was to have materials developed by the community on the Arch Linux wiki
+2015-01-04 13:52:03	fsckd	but things happened differently from that idea
+2015-01-04 13:52:06	halosghost	yeah
+2015-01-04 13:52:19	halosghost	doesn't really seem like that would work without a lot more motivation in the wiki community
+2015-01-04 13:52:30	fsckd	mmhmm
+2015-01-04 13:53:11	fsckd	i do think it would be nice to have teams work on a class. the hard part is getting teams
+2015-01-04 13:53:17	+meskarune	the plus side is that the wiki has like, talk pages and history and everyone knows how to access and use the wiki vs. git
+2015-01-04 13:53:32	fsckd	that's true
+2015-01-04 13:53:42	+meskarune	but git ended up being easier in terms of saving files and pushing them to various places
+2015-01-04 13:54:06	halosghost	fsckd: well, the notion is that at the very least, you'd have the class teacher/author on the team
+2015-01-04 13:54:20	fsckd	i see, yeah
+2015-01-04 13:54:23	halosghost	fsckd: then, anyone else in the project who wishes to join would ask the project leaders (and the teacher/author) to join
+2015-01-04 13:54:42	+meskarune	also if you wanted to have code samples for students to download
+2015-01-04 13:55:12	halosghost	in some ways, I guess it would be more decentralized, but it definitely feels more organized to me
+2015-01-04 13:55:26	+meskarune	I'm not super familar with teams on github
+2015-01-04 13:55:39	demize	It would be sort of cool if github could let you clone a whole organization, were it will create a virtual repo with a submodule for each repo
+2015-01-04 13:55:40	+meskarune	I think we have repos on the server and they are pushed to github
+2015-01-04 13:55:49	+meskarune	gitolite has user permission controls
+2015-01-04 13:55:54	demize	meskarune: teams are just groups of people with access to certain repos.
+2015-01-04 13:55:56	halosghost	demize: that doesn sound fancy
+2015-01-04 13:56:02	demize	halosghost: How so?
+2015-01-04 13:56:10	halosghost	s/sn/s/
+2015-01-04 13:56:22	demize	halosghost: If you for example had an organization for just classroom then you could clone that and have all of the matierials at onece
+2015-01-04 13:56:38	halosghost	indeed, I mean “does”
+2015-01-04 13:56:43	demize	hehe
+2015-01-04 13:56:59	+meskarune	actually we COULD just make an arch classroom github group, and stick all the things in there
+2015-01-04 13:57:11	fsckd	hmm, as meskarune says, we have gitolite on the server which iiuc allows perms on dirs. i'd have to research this more
+2015-01-04 13:57:20	demize	fsckd: Yeah, it does.
+2015-01-04 13:57:28	+meskarune	https://github.com/archclassroom
+2015-01-04 13:58:02	halosghost	are there any questions I can answer (either about the teams idea or the static typing class) as I need to leave here in a moment
+2015-01-04 13:58:11	+meskarune	hehe ok
+2015-01-04 13:58:36	fsckd	bye halosghost, this is a good idea you proposed, thanks :)
+2015-01-04 13:58:37	+meskarune	halosghost I think classroom needs to be more organized, and I think you are on the right track with your suggestions :)
+2015-01-04 13:58:51	+meskarune	<3
+2015-01-04 13:58:53	halosghost	I'm happy it might be helpful
+2015-01-04 13:58:55	halosghost	❤
+2015-01-04 13:59:26	halosghost	all right, well I'll be back in a bit, so if there are other questions that need answering, please let me know
+2015-01-04 13:59:27	halosghost	till then
+2015-01-04 13:59:29	halosghost	o/
+2015-01-04 13:59:43	demize	Take care o/
+2015-01-04 14:01:29	+meskarune	https://pad.riseup.net/p/arch-women-meeting_-_January_2015
+2015-01-04 14:01:31	phrik	Title: Riseup Pad (at pad.riseup.net)
+2015-01-04 14:01:35	+meskarune	^ if anyone wants to add :P
+2015-01-04 14:03:14	+meskarune	I have a tendancy to puke my thoughts into lists, and then fsckd organizes them into something ledgible :P
+2015-01-04 14:03:20	demize	hehe
+2015-01-04 14:03:35	fsckd	glad to help XD
+2015-01-04 14:03:50	demize	fsckd is awesome
+2015-01-04 14:03:55	demize	As are everyone else though.
+2015-01-04 14:04:23	hh4a	good stuff
+2015-01-04 14:04:33	+tigrmesh	if anyone wants to view what makes an etherpad magical, this is the time
+2015-01-04 14:04:57	hh4a	sorry i was watching some anime... Anyways i want to finalize my awk class this month
+2015-01-04 14:05:21	+meskarune	ok, thanks hh4a :)
+2015-01-04 14:05:30	+tigrmesh	you bluish/purplish/pinkish people already did
+2015-01-04 14:05:44	+meskarune	its fine, it takes time to make classes, and all of us have lives outside of arch :P
+2015-01-04 14:06:49	+tigrmesh	halosghost, have you seen enough activity to warrant teams?
+2015-01-04 14:07:12	+meskarune	I think he's gone atm :)
+2015-01-04 14:07:14	+meskarune	will be back later
+2015-01-04 14:07:30	+tigrmesh	right
+2015-01-04 14:07:40	fsckd	hh4a: awesome!
+2015-01-04 14:08:41	+tigrmesh	hh4a, i found a use for awk.  so i'm excited
+2015-01-04 14:09:06	+meskarune	I've only ever used awk's print stuff to cut out text
+2015-01-04 14:09:31	+meskarune	I would love to know how to do more with it
+2015-01-04 14:09:38	fsckd	there's a lisp implemented in awk
+2015-01-04 14:09:43	hh4a	yeah awk is nice(TM)
+2015-01-04 14:09:46	+tigrmesh	hehe
+2015-01-04 14:12:13	+meskarune	hh4a: do you need any help with your class?
+2015-01-04 14:12:25	+meskarune	should we make posts on the bbs/mailing list ?
+2015-01-04 14:17:27	+meskarune	wooo my coffee almost done brewing :3
+2015-01-04 14:18:28	+tigrmesh	yay
+2015-01-04 14:19:04	hh4a	meskarune: well not for now :)
+2015-01-04 14:19:04	+tigrmesh	so about GSoC.  when is the deadline?
+2015-01-04 14:19:57	+meskarune	I have to look it up, I have a bunch of notes on it
+2015-01-04 14:20:43	+meskarune	its a gist under meskarune, but my internet is dying
+2015-01-04 14:21:08	+meskarune	!g meskarune gist gsoc
+2015-01-04 14:21:09	phrik	meskarune: No matches found.
+2015-01-04 14:21:12	+meskarune	-_-
+2015-01-04 14:21:29	+meskarune	bah, I can't get any websites to load
+2015-01-04 14:21:53	+meskarune	I want to say the deadline is in may?
+2015-01-04 14:22:18	fsckd	https://gist.github.com/meskarune/6b52d1603ddd540460cd
+2015-01-04 14:22:19	phrik	Title: Information on GSOC for mentoring organizations (at gist.github.com)
+2015-01-04 14:22:29	+meskarune	thanks :)
+2015-01-04 14:22:37	+meskarune	I can't get any websites up :(
+2015-01-04 14:22:45	fsckd	yikes :(
+2015-01-04 14:22:58	+tigrmesh	ah  February 20th is mentoring organization application deadline
+2015-01-04 14:23:28	+meskarune	mosh is keeping me on irc I think lol
+2015-01-04 14:24:00	+tigrmesh	so we should bump the thread on the bbs, if there is one, and prod a dev to bump the dev-public email thread
+2015-01-04 14:24:53	+meskarune	there have been numerous attempts in teh past to get arch involved in GSoC
+2015-01-04 14:25:01	+meskarune	there is even a wiki page with ideas on it
+2015-01-04 14:25:20	+meskarune	but it seems like there are ever only 1-2 people interested and it doesn't gain steam
+2015-01-04 14:25:36	+meskarune	GSoC does require some paperwork and a decent time commitment
+2015-01-04 14:25:57	+meskarune	the soon we start working on the application the better
+2015-01-04 14:26:15	demize	Should we start planning for GSoC 2020? ;)
+2015-01-04 14:26:23	+tigrmesh	hehe
+2015-01-04 14:26:23	fsckd	lol
+2015-01-04 14:26:32	+tigrmesh	i think some thread bumping might help
+2015-01-04 14:26:50	+tigrmesh	all i can say is that threads get lost
+2015-01-04 14:27:19	fsckd	may be talk to other devs? we know Allan is interested
+2015-01-04 14:27:51	+tigrmesh	my experience with #archlinux is that sometimes all it takes is a bump.  people think the topic is dead if there's no activity
+2015-01-04 14:28:38	+tigrmesh	i go in there, make phrik say something, and people who were hesitant speak up
+2015-01-04 14:28:58	+tigrmesh	not infallible.  but works often enough
+2015-01-04 14:29:00	+meskarune	yeah, lets do it :)(
+2015-01-04 14:29:38	+meskarune	yeah, those notes were from when I talked to Allan, but he can't like lead the whole thing 'cus he has many other time commitments
+2015-01-04 14:29:57	+meskarune	he works and does lots of other projects on top on arch things
+2015-01-04 14:30:04	hh4a	i am just thinking, do we have a list of things 'we' have done like a changelog heh
+2015-01-04 14:31:25	+tigrmesh	meskarune, there's something on the wiki from 2009 or 10.  i'd think an arch GSoC was dead if i found those first
+2015-01-04 14:31:31	+meskarune	hh4a: everything from AW is thrown onto the wiki or a git repo :)
+2015-01-04 14:32:01	+meskarune	maybe we should have a timeline/history thing on the wiki
+2015-01-04 14:32:15	hh4a	sure it is, but its not in a time ordered list
+2015-01-04 14:33:00	+meskarune	yeah, not time ordered, so there is like, searching involved. It might help to have one :)
+2015-01-04 14:35:04	hh4a	well at least we have our things documented :)
+2015-01-04 14:35:37	+meskarune	maybe something like this: https://archwomen.org/wiki/aw-org:history
+2015-01-04 14:35:38	phrik	Title: aw-org:history [Arch Women Wiki] (at archwomen.org)
+2015-01-04 14:35:47	+meskarune	I'd make the page if my internets was working better :P
+2015-01-04 14:35:58	+meskarune	then we can just do timeline with projects and stuff
+2015-01-04 14:36:09	+meskarune	so new folks can easily see what's up
+2015-01-04 14:36:36	+meskarune	hh4a: yeah, idk if arch linux itself has a history type thing for new users to see
+2015-01-04 14:36:49	+meskarune	besides like, looking at the bug tracker/mailing list maybe
+2015-01-04 14:38:30	hh4a	yeah
+2015-01-04 14:40:16	hh4a	yesh accomplishment, thanks fsckd 
+2015-01-04 14:40:25	fsckd	:)
+2015-01-04 14:40:25	CalimeroTeknik	by the way, what are the tasks you want to affect to this internship thing?
+2015-01-04 14:41:58	hh4a	any task we can get?
+2015-01-04 14:42:48	+meskarune	CalimeroTeknik: I think there are some pacman things and package things the devs would want help with
+2015-01-04 14:42:58	fsckd	there's a list in the wiki of proposed tasks
+2015-01-04 14:42:59	+meskarune	debian and freebsd do GSoC
+2015-01-04 14:43:03	CalimeroTeknik	ah, so provide workforce for arch linux?
+2015-01-04 14:43:10	+meskarune	paid workforce
+2015-01-04 14:43:17	CalimeroTeknik	yes
+2015-01-04 14:43:27	+meskarune	and basically interns get mentored and paid to work exclusively on arch stuff
+2015-01-04 14:43:46	+meskarune	so we get new things, they get experience and hopefully continue to contribute after the internship is over
+2015-01-04 14:44:25	+meskarune	if there are any lower priorty things the devs want done, that would be good to give to interns also
+2015-01-04 14:44:46	fsckd	https://archwomen.org/wiki/projects:internships:ideas
+2015-01-04 14:44:47	phrik	Title: Internship Project Ideas [Arch Women Wiki] (at archwomen.org)
+2015-01-04 14:45:07	fsckd	these seem to be mostly aw stuff. GSoC would focus on al tasks though
+2015-01-04 14:45:13	+meskarune	there is an older list on the arch wiki too, from like 2012 I think
+2015-01-04 14:45:54	fsckd	https://wiki.archlinux.org/index.php/Google_Summer_of_Code
+2015-01-04 14:45:54	+meskarune	and we could get soem ideas from the projects that freebsd and debian are working on
+2015-01-04 14:45:56	phrik	Title: Google Summer of Code - ArchWiki (at wiki.archlinux.org)
+2015-01-04 14:46:15	+tigrmesh	we should ask them to revamp that.  possible applicants might think that project is dead
+2015-01-04 14:46:42	+tigrmesh	oh.  there was another one
+2015-01-04 14:46:43	+meskarune	yeah, totally
+2015-01-04 14:47:11	+meskarune	I think there are some older arch bbs threads on GSoC also
+2015-01-04 14:47:30	+meskarune	I really think that if Arch does it one year, it will continue
+2015-01-04 14:47:40	fsckd	yeah
+2015-01-04 14:47:54	fsckd	the big hurdle seems to getting Arch to start
+2015-01-04 14:48:26	+meskarune	yeah, and after the initial application and paperwork, I think it's easier in subsequent years
+2015-01-04 14:48:50	+meskarune	we would have to give info about arch's monetary sponsor
+2015-01-04 14:48:52	+tigrmesh	wow is this old
+2015-01-04 14:49:20	+meskarune	I forget waht organization does Arch Linux's project funds
+2015-01-04 14:49:58	fsckd	http://www.spi-inc.org/
+2015-01-04 14:50:00	phrik	Title: SPI (at www.spi-inc.org)
+2015-01-04 14:50:05	+meskarune	Allan was telling me about them and how we'd need to get into contact with the person who does the financial stuff
+2015-01-04 14:50:14	+tigrmesh	AIF: netcfg, add grub2 option, systemd: Add an option to choose between initscripts and systemd, 
+2015-01-04 14:50:57	CalimeroTeknik	AIF? arch install framework? that's abandoned
+2015-01-04 14:51:33	+meskarune	I think someone wants to revive it actually
+2015-01-04 14:52:01	+meskarune	there was some talk about it
+2015-01-04 14:52:43	+meskarune	those are probably stuff from the old wiki list
+2015-01-04 14:53:12	demize	Various people have made similarly bad scripts.
+2015-01-04 14:53:38	demize	There isn’t really any interest in Arch for either AIF or initscripts though.
+2015-01-04 14:53:59	+meskarune	kk
+2015-01-04 14:54:37	+meskarune	I don't mind not having a fancy installer thing, it's more transparent what is happening
+2015-01-04 14:54:59	+meskarune	and with systemd you don't have to configure as much
+2015-01-04 14:55:05	CalimeroTeknik	choose between initscripts and systemd? I don't think that even makes any sense… people who don't want systemd use OpenRC
+2015-01-04 14:55:43	demize	well
+2015-01-04 14:55:53	CalimeroTeknik	and as usual, for software, without somebody who is both competent and some kind of an overlord, nothing durable happens
+2015-01-04 14:55:57	demize	People do want initscripts when they don’t know better.
+2015-01-04 14:56:03	+meskarune	lol
+2015-01-04 14:56:22	CalimeroTeknik	also, as a general remark, the fact that I was wondering what the internship was about, notably, shows that AW's projects miss impact
+2015-01-04 14:56:34	CalimeroTeknik	and acute communication
+2015-01-04 14:56:35	+meskarune	I can think of a few reasons why someone might want initscripts, mostly involving support for older software packages
+2015-01-04 14:56:46	+meskarune	but at that point, why are you using arch to host them?
+2015-01-04 14:57:04	demize	meskarune: All distros wrote their own initscripts though
+2015-01-04 14:57:13	CalimeroTeknik	look, if I go to archwomen.org and try to find what that internship thing is about, it's not clear
+2015-01-04 14:57:28	+meskarune	demize: horrible
+2015-01-04 14:57:31	⛔⛔★	meskarune shudders
+2015-01-04 14:57:33	demize	CalimeroTeknik: Yeah, that is a rather wide-spread thing really.
+2015-01-04 14:57:56	demize	meskarune: You sort of had to because different ones did things differently ;p
+2015-01-04 14:58:04	demize	And pretty much all of them were crap.
+2015-01-04 14:58:06	CalimeroTeknik	same thing about the classes, I learned today that the actual objective was to… write (self-education?) materials for the arch wiki
+2015-01-04 14:58:21	demize	But yeah, at least OpenRC uses cgroups.
+2015-01-04 14:58:29	+meskarune	So the website def needs more work/content, and it's on git, so anyone can add a few lines in their free time ;D
+2015-01-04 14:58:34	⛔⛔★	meskarune makes shameless plug
+2015-01-04 14:58:34	CalimeroTeknik	cgroups are useful, but not a good thing to use everywhere
+2015-01-04 14:58:48	demize	meskarune: Can anyone actually clone and send PRs though?
+2015-01-04 14:58:54	+meskarune	demize: yeah
+2015-01-04 14:59:02	demize	Where is it?
+2015-01-04 14:59:02	CalimeroTeknik	meskarune, "everyone can add" will never end up with something clear and oriented
+2015-01-04 14:59:11	+meskarune	its on github and there is a gitolite repo, we've taken pull requests before :)
+2015-01-04 14:59:23	CalimeroTeknik	I'd go so far as say it just increases the ambient disorientation
+2015-01-04 14:59:33	fsckd	CalimeroTeknik: that was the original idea for classes as documented in the BBS and older meetings. but things changed when classes were being made.
+2015-01-04 14:59:34	+meskarune	CalimeroTeknik: idk, have a look at the code
+2015-01-04 14:59:49	CalimeroTeknik	it's not a matter of code, it's a matter of the goals of the project
+2015-01-04 14:59:53	demize	CalimeroTeknik: It will if things are actually moderated.
+2015-01-04 15:00:00	+meskarune	I'm working on redoing the front page though, and menu
+2015-01-04 15:00:03	demize	It doesn’t mean “Write anything and we’ll merge it.”
+2015-01-04 15:00:15	+meskarune	yeah, we look at things and test before deployment
+2015-01-04 15:00:17	CalimeroTeknik	demize, that does not solve the human, organizational thing
+2015-01-04 15:00:40	demize	CalimeroTeknik: How so?
+2015-01-04 15:01:19	+meskarune	actually I think we have a pull request for our lighttpd config too, most of the server stuff is in git
+2015-01-04 15:01:29	CalimeroTeknik	only a single person (or an intensely communicating team of a few people) can make up something coherent
+2015-01-04 15:02:07	+meskarune	CalimeroTeknik: thats why we have #archlinux-women-dev
+2015-01-04 15:02:25	+meskarune	team of people who talk constantly and get things done on the backend
+2015-01-04 15:02:39	CalimeroTeknik	I'm even learning things I should know for ages today; but I'd say the front page needs three links, one for the classes, one for the internship and… what is the mentor thing?
+2015-01-04 15:03:05	+meskarune	we wanted to start up a mentorship program to match students with people who have skills
+2015-01-04 15:03:14	+meskarune	but also needs work
+2015-01-04 15:03:50	+meskarune	but seriously if anyone wants to get involved with web dev, I don't have anything against that
+2015-01-04 15:04:06	+meskarune	I'm not very strong in the writing department
+2015-01-04 15:04:11	CalimeroTeknik	why doesn't "Internship" on archwomen.org point to https://archwomen.org/wiki/projects:internships:ideas ?
+2015-01-04 15:04:12	phrik	Title: Internship Project Ideas [Arch Women Wiki] (at archwomen.org)
+2015-01-04 15:04:15	+meskarune	so content writers especially would be helpful
+2015-01-04 15:04:25	CalimeroTeknik	except not that, something that actually says what the internship will be about: arch development.
+2015-01-04 15:04:55	+meskarune	I mean, there isn't anything because it hasn't been written up yet >.>
+2015-01-04 15:05:09	+meskarune	there needs to be some stuff written about those projects and links added
+2015-01-04 15:05:14	fsckd	CalimeroTeknik does bring up a good point. we should make clearer what Arch Women is doing, what our goals are and how we're accomplishing them
+2015-01-04 15:05:22	+meskarune	++
+2015-01-04 15:05:28	>>>	tuxampol (~Mylin@ppp-46-244-168-37.dynamic.mnet-online.de) has joined #archlinux-women
+2015-01-04 15:05:29	fsckd	sort of ties in with what hh4a said earlier
+2015-01-04 15:05:43	+meskarune	yeah, it will also make people more likely to sponsor us for things
+2015-01-04 15:05:57	+meskarune	front page def needs to be redone a bit
+2015-01-04 15:05:57	CalimeroTeknik	well, "Internship" and "Mentor Connection" should be links to the pages where the info is
+2015-01-04 15:06:11	CalimeroTeknik	meskarune, "redone" is a bit much for adding two <a> tags :p
+2015-01-04 15:06:54	fsckd	the current internships page has an overview
+2015-01-04 15:06:57	CalimeroTeknik	though I agree that the blog things should be down on the page, and the presentation stuff all on top
+2015-01-04 15:06:57	+meskarune	CalimeroTeknik: well, I'm currently redoing the grid stuff so its better for mobile and redoing the menu ;)
+2015-01-04 15:06:58	demize	CalimeroTeknik: Multiple people can write coherent things if they actually communicate properly, which is a rather hard thing to do, yes.
+2015-01-04 15:07:05	demize	(Sorry, did some dishes)
+2015-01-04 15:07:16	fsckd	wow lots of lines at once XD
+2015-01-04 15:07:41	fsckd	(in IRC, it was spammy :P)
+2015-01-04 15:07:44	+meskarune	I mean, anyone can write up content for the website, and most likely one of the AW devs will edit it and add in the code
+2015-01-04 15:07:52	CalimeroTeknik	well, sorry for missing the beginning of the meeting, I was sewing a bag
+2015-01-04 15:07:54	+meskarune	so that things fit together
+2015-01-04 15:08:13	+meskarune	CalimeroTeknik: its ok, you're here now and bringing up lots of good stuff
+2015-01-04 15:08:36	demize	Indeed
+2015-01-04 15:08:44	CalimeroTeknik	demize, yeah, what I pointed is that what meskarune just said (anyone can contribute) will just not happen
+2015-01-04 15:09:09	CalimeroTeknik	(that's a little bit pessimistic, but I always think in terms of making the worst case sufficiently good)
+2015-01-04 15:09:16	demize	It can if people think that they can contribute and that it will be useful.
+2015-01-04 15:09:18	+meskarune	so far its been mostly me, tigrmesh and fsckd doing web stuff
+2015-01-04 15:09:29	demize	Like the Arch Wiki for example
+2015-01-04 15:09:47	CalimeroTeknik	yes, and I believe that the reason why nobody really does anything, is that the objectives aren't clear enough
+2015-01-04 15:09:49	demize	(The AW wiki is also rather hard to find things on >.>)
+2015-01-04 15:09:57	demize	Yeah
+2015-01-04 15:10:02	CalimeroTeknik	and that can only be done, I believe, by *one* strong will
+2015-01-04 15:10:18	fsckd	we need a dictator?
+2015-01-04 15:10:29	demize	Well, someone to take a strong lead.
+2015-01-04 15:10:30	CalimeroTeknik	haha, that's different.
+2015-01-04 15:10:47	fsckd	i nominate myself. grovel before me insolent peasants
+2015-01-04 15:10:52	demize	There can be multiple really, but there has to be a clear will, right now everything is fuzzy.
+2015-01-04 15:11:19	CalimeroTeknik	well, the actual structural work can be done as we speak, right?
+2015-01-04 15:11:26	hh4a	we need jesus
+2015-01-04 15:11:29	+meskarune	:P
+2015-01-04 15:11:50	fsckd	should have the project stuff up and center
+2015-01-04 15:11:52	CalimeroTeknik	I mean we can fix most of the structural problems of the website during this meeting, can't we?
+2015-01-04 15:11:59	+meskarune	git clone https://github.com/archwomen/website.git
+2015-01-04 15:12:01	phrik	Title: archwomen/website · GitHub (at github.com)
+2015-01-04 15:12:02	CalimeroTeknik	it's just a few links and a small page edit
+2015-01-04 15:12:07	CalimeroTeknik	wiki page
+2015-01-04 15:12:35	CalimeroTeknik	does everybody agree that "Internship" on the main page must link to https://archwomen.org/wiki/projects:internships:ideas ?
+2015-01-04 15:12:36	phrik	Title: Internship Project Ideas [Arch Women Wiki] (at archwomen.org)
+2015-01-04 15:12:54	CalimeroTeknik	and this page edited to reflect the actual goal : arch linux paid workforce
+2015-01-04 15:13:06	CalimeroTeknik	plus a link to the todo-list of arch linux projects
+2015-01-04 15:13:31	fsckd	what about https://archwomen.org/wiki/projects:internships:start ?
+2015-01-04 15:13:33	phrik	Title: Internships [Arch Women Wiki] (at archwomen.org)
+2015-01-04 15:13:33	hh4a	i would keep ideas separate
+2015-01-04 15:13:41	CalimeroTeknik	so, what fsckd just said?
+2015-01-04 15:13:51	CalimeroTeknik	okay, let's write a new page, it doesn't change much
+2015-01-04 15:14:15	CalimeroTeknik	and link as part of the goals of the internship to the existent page
+2015-01-04 15:14:16	+meskarune	on the front page the main projects we have should have a few sentences explaining what they are, with links to relevelant things
+2015-01-04 15:14:55	hh4a	we should just edit that start page i guess
+2015-01-04 15:15:32	fsckd	start is the default page :P
+2015-01-04 15:15:44	+meskarune	archwomen.org/wiki:start
+2015-01-04 15:16:11	CalimeroTeknik	right. fsckd, can you already put the link on the front page, and for the text from what meskarune just said I suggest "GSoC-funded internship to work on Arch Linux development"
+2015-01-04 15:16:50	CalimeroTeknik	and maybe "Looking for applicants!"
+2015-01-04 15:17:45	fsckd	i don't think we've abandoned OPW (or whatever it is called now). we're focusing on GSoC for now?
+2015-01-04 15:18:01	+meskarune	hh4a: actually I would appreciate any suggestions for making the wiki easier to browse and use :)
+2015-01-04 15:18:03	CalimeroTeknik	ah? well I don't know, you know better than me
+2015-01-04 15:18:39	fsckd	it looks like we are. haven't spoken about OPW in months
+2015-01-04 15:18:40	+meskarune	fsckd: organizations can do both at the same time, but we figured we should get one thing at least off the ground, and there is more interest in GSoC
+2015-01-04 15:18:55	fsckd	yeah ok
+2015-01-04 15:19:07	CalimeroTeknik	ah right I forgot about OPW
+2015-01-04 15:19:22	+meskarune	doing both would be ideal because OPW doesn't require applicants to be in college
+2015-01-04 15:19:40	+meskarune	so more people would qualify
+2015-01-04 15:20:15	fsckd	hmm, it would probably be easier to get Arch into GSoC than OPW as GSoC has a lot more interest from the community
+2015-01-04 15:21:27	fsckd	at the very least we should clarify what we're doing in the wiki page
+2015-01-04 15:21:31	hh4a	meskarune: yeah iam kinda lost with wikis lol
+2015-01-04 15:21:31	+meskarune	yeah, and I think once GSoC has momentum it will be easier to get OPW started up, and I also think its better to focus on one thing at a time
+2015-01-04 15:21:44	fsckd	true
+2015-01-04 15:21:49	+meskarune	hh4a: I mostly use the most recently edited list and the search thingy lol
+2015-01-04 15:22:05	+meskarune	I think there is a sitemap somewhere too
+2015-01-04 15:22:38	+meskarune	https://archwomen.org/wiki/start?do=index
+2015-01-04 15:22:39	phrik	Title: Youve reached the Arch Women Wiki [Arch Women Wiki] (at archwomen.org)
+2015-01-04 15:22:44	CalimeroTeknik	it's not really necessary if the main page puts up the three or something points of the project, is it?
+2015-01-04 15:22:45	⛔⛔★	meskarune internet is sorta working again \o/
+2015-01-04 15:22:54	fsckd	yay \o/
+2015-01-04 15:23:15	CalimeroTeknik	well, at least that "Internship" title on archwomen.org needs to be a link to https://archwomen.org/wiki/projects:internships:start
+2015-01-04 15:23:16	phrik	Title: Internships [Arch Women Wiki] (at archwomen.org)
+2015-01-04 15:24:04	+meskarune	I think the problem is that website edits are one thing in a very long list of todo items
+2015-01-04 15:24:09	+meskarune	and we really need help
+2015-01-04 15:24:13	demize	Also feels a bit like something rather major like the wiki should be part of the top nav bar
+2015-01-04 15:24:16	fsckd	haha, indeed
+2015-01-04 15:24:51	demize	It always confuses me for a bit every time I’m going back to the start page.
+2015-01-04 15:25:24	demize	And there should probably be a home link too, but *shrug*
+2015-01-04 15:25:44	CalimeroTeknik	"we need help" → when the website is somewhat patched to have impact. otherwise, help will not come
+2015-01-04 15:26:15	CalimeroTeknik	it doesn't need to be well done: technical details are fixable once the content structure is clear
+2015-01-04 15:26:34	+meskarune	I agree CalimeroTeknik :)
+2015-01-04 15:26:54	hh4a	"Look to my coming, at first light, on the fifth day. At dawn, look to the East."
+2015-01-04 15:26:56	+meskarune	I'm just not a very strong content writer, so If I write anything it needs lots of edits
+2015-01-04 15:27:09	+meskarune	unless someone wants to write up something for the front page?
+2015-01-04 15:27:19	+meskarune	I do art and code lol
+2015-01-04 15:27:20	CalimeroTeknik	what I just posted?
+2015-01-04 15:27:53	hh4a	well then, we should just log in and edit it, and also we need a supervisor :)
+2015-01-04 15:28:22	CalimeroTeknik	we're here now, I'm quite assertive when it comes to my character
+2015-01-04 15:28:29	CalimeroTeknik	I can probably write English
+2015-01-04 15:29:06	CalimeroTeknik	do you agree to this structure http://sprunge.us/cMcX for https://archwomen.org/wiki/projects:internships:start ?
+2015-01-04 15:29:07	phrik	Title: Internships [Arch Women Wiki] (at archwomen.org)
+2015-01-04 15:29:30	CalimeroTeknik	I forgot the page 'ideas' in Objectives, sorry
+2015-01-04 15:30:01	hh4a	a resounding yes
+2015-01-04 15:32:13	CalimeroTeknik	https://bbs.archlinux.org/viewtopic.php?id=176184 is completely useless as of now, rightN
+2015-01-04 15:32:14	phrik	Title: Google Summer of Code 2014 (Page 1) / Arch Discussion / Arch Linux Forums (at bbs.archlinux.org)
+2015-01-04 15:32:15	CalimeroTeknik	?*
+2015-01-04 15:32:26	CalimeroTeknik	can just be ditched
+2015-01-04 15:32:30	+tigrmesh	i don't think we have the resources to offer internships
+2015-01-04 15:32:50	CalimeroTeknik	"Arch Women will organize sponsored internships to people interested in FOSS." ?
+2015-01-04 15:32:51	+tigrmesh	but we want to ... find?  encourage?  facilitate?
+2015-01-04 15:33:13	CalimeroTeknik	am I being too assertive there?
+2015-01-04 15:33:18	+tigrmesh	put together?
+2015-01-04 15:33:29	+meskarune	We are helping organize internship for Arch Linux atm
+2015-01-04 15:33:38	+meskarune	through GSoC
+2015-01-04 15:34:04	+meskarune	and hopefully do OPW next
+2015-01-04 15:34:16	+meskarune	my dream is that we actually get some fundraising/money to do more things
+2015-01-04 15:34:24	+meskarune	like have tables at conventions and shit
+2015-01-04 15:34:32	+meskarune	and have our own paid internship
+2015-01-04 15:34:50	+tigrmesh	how about "help organize"?  ?push for"
+2015-01-04 15:34:50	+tigrmesh	?
+2015-01-04 15:36:37	CalimeroTeknik	meskarune, dreams might or might not come true, but one thing is sure: *you* make them come true
+2015-01-04 15:36:43	CalimeroTeknik	so if you do, they do.
+2015-01-04 15:38:46	fsckd	CalimeroTeknik: thank you for your help :D
+2015-01-04 15:38:56	+meskarune	CalimeroTeknik: I mean, we stared with me paying out of pocket for hosting, and now we have a sponsor for hosting
+2015-01-04 15:39:25	fsckd	CalimeroTeknik: i like the structure but the Sponsoring section should be changed to something to describe what meskarune wrote above
+2015-01-04 15:39:38	fsckd	describe/reflect
+2015-01-04 15:39:46	+meskarune	I've been working on finding more sponsors, but for individual donations I think the marketing and logistics need work
+2015-01-04 15:39:56	CalimeroTeknik	fsckd, yep, of course
+2015-01-04 15:40:23	fsckd	having a section Objectives is a really good idea. i like its placement
+2015-01-04 15:40:36	CalimeroTeknik	I'll edit anyway with what I have here, then we can elaborate on the content
+2015-01-04 15:40:43	CalimeroTeknik	the fact is there is none
+2015-01-04 15:40:45	+meskarune	kk thanks
+2015-01-04 15:41:50	fsckd	thanks CalimeroTeknik :)
+2015-01-04 15:42:11	fsckd	meskarune: you're doing a great job. you've done so much already :D
+2015-01-04 15:42:29	CalimeroTeknik	fsckd, can you put up the link on the main page (archwomen.org)? along with um, a little text
+2015-01-04 15:42:38	+meskarune	thanks, its been hard 'cus of my health being terrible
+2015-01-04 15:42:53	CalimeroTeknik	"GSoC internship to work on Arch Linux development", maybe?
+2015-01-04 15:42:55	+meskarune	even right now I have a 101 fever from a tooth infection :/
+2015-01-04 15:43:05	CalimeroTeknik	ah, mention others
+2015-01-04 15:43:38	CalimeroTeknik	"Internships to work on Arch Linux development: GSoC, OPW [click for more]", maybe?
+2015-01-04 15:43:41	fsckd	meskarune: that sucks :(
+2015-01-04 15:44:13	fsckd	CalimeroTeknik: i can do it later. i'm having lunch right now. and then i have to wash dishes.
+2015-01-04 15:44:19	CalimeroTeknik	I also have a cold! hopefully will get better, also I finished my studies last week
+2015-01-04 15:45:30	fsckd	congrats on finishing your studies :)
+2015-01-04 15:46:56	fsckd	meskarune: may i propose ending the meeting? the work we're doing now isn't strictly part of the meeting. we might be doing this stuff for the next few hours
+2015-01-04 15:47:09	+meskarune	yeah, sounds fine to me
+2015-01-04 15:47:28	+meskarune	for the ending I was goign to suggest picking a new arch install day
+2015-01-04 15:47:52	+meskarune	and then plugging it on social media
+2015-01-04 15:47:57	fsckd	sure
+2015-01-04 15:48:20	+meskarune	maybe like january 17th?
+2015-01-04 15:48:33	>>>	swashy (~swashy@73.165.135.216) has joined #archlinux-women
+2015-01-04 15:50:40	+meskarune	that is next saturday
+2015-01-04 15:51:53	fsckd	is that enough time to get the word out?
+2015-01-04 15:52:50	fsckd	oh, it's a week from Sat
+2015-01-04 15:53:01	fsckd	so i guess the answer to my question is yes?
+2015-01-04 15:53:34	+meskarune	hehe I think so ;)
+2015-01-04 15:53:53	+meskarune	like 2 weeks is enough time I think
+2015-01-04 15:53:58	+meskarune	for people to plan on that
+2015-01-04 15:55:02	CalimeroTeknik	do we agree that this can be definitely ditched? https://bbs.archlinux.org/viewtopic.php?id=176184
+2015-01-04 15:55:03	phrik	Title: Google Summer of Code 2014 (Page 1) / Arch Discussion / Arch Linux Forums (at bbs.archlinux.org)
+2015-01-04 15:55:06	CalimeroTeknik	we're in 2015
+2015-01-04 15:56:30	fsckd	may be as a historical link? we use the wiki to document what we know. we can refer to the wiki and say, these were the past attempts at getting Arch into GSoC
+2015-01-04 15:57:03	fsckd	meskarune: hehe yes, perfectly enough time :)
+2015-01-04 15:57:23	fsckd	we'd have to get the word out over the next couple of days of course
+2015-01-04 15:57:50	CalimeroTeknik	edit done https://archwomen.org/wiki/projects:internships:start
+2015-01-04 15:57:51	phrik	Title: Internships [Arch Women Wiki] (at archwomen.org)
+2015-01-04 15:58:11	CalimeroTeknik	I'll eat now then discuss the missing content
+2015-01-04 15:58:24	fsckd	ok, thanks :)
+2015-01-04 16:02:03	<<<	tuxampol (~Mylin@ppp-46-244-168-37.dynamic.mnet-online.de) has quit (Quit: Verlassend)
+2015-01-04 16:08:11	+meskarune	ok, is that everything for the meeting? we talked about classes and internship stuff
+2015-01-04 16:08:22	+meskarune	and some website things and arch install day
+2015-01-04 16:08:31	+meskarune	anything else before I close the meeting? :)
+2015-01-04 16:11:30	+meskarune	kk 
+2015-01-04 16:11:38	+meskarune	====== Meeting Ends ======
