@@ -1,0 +1,44 @@
+Arch Linux Women 36th IRC Meeting, March 1st
+
+We need help!
+	* Meetings.
+		* Need people to run meetings and help with making notes and logs.
+		* Urls:
+			* https://archwomen.org/wiki/meetings:how_meetings_are_run
+			* https://archwomen.org/wiki/meetings:after_meeting_checklist
+		* Volunteers:
+			* HalosGhost is willing to run monthly meetings.
+			* jy2wong and alad are willing to draft notes and logs.
+				* alad will be doing to the notes/logs today.
+	* Projects.
+		* Need leadership.
+		* HalosGhost volunteered to help with classroom.
+		* Mentorship?
+
+Mentorship
+	* Scope of topics.
+		* Arch-specific topics (packaging, documentation, etc)
+		* Scope defined by a smaller group of volounteers (+public announce)
+			* tigrmesh will lead this group
+			* report back at next meeting
+	* Define what kind of commitment being a mentor/mentee entails 
+	* Maintaing privacy of mentors and mentees.
+		* current list (https://archwomen.org/wiki/projects:mentorship:offers) offers no privacy to members
+		* dokuwiki ACLs: mentor group can see names, others can only see topics
+			* should remain accessible to those unfamiliar to IRC
+		* refer discussion to small group
+
+Classroom
+	* Proposed classes.
+		* hh4a - Awk class
+			* Contact hh4a during the month and ask him if he needs help or anything.
+		* HalosGhost - Intro. to static typing.
+			* planned duration: ~1h30
+		* jy2wong - file compression survey (decide on audience?).
+			* accessible: similar to kernel talk
+			* size vs. speed tradeoffs
+	* Question of whether to use a different technology than IRC, so that the class can be streamed and recorded?
+		* concerns about visually or hearing impaired individuals
+		* further discussion in small group
+	* Build classes as teams.
+	* Lightning talks.
