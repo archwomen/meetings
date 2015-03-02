@@ -1,0 +1,42 @@
+Arch Women 35th IRC meeting, February 1st, 2015
+
+Announcements and status updates
+  * Changes made to to the content and appearance of website. Many thanks to CalimeroTeknik, jy2wong, and meskarune.
+  * Arch Women has a mailing list again! Hosted by the wonderful Arch Linux.
+    https://lists.archlinux.org/listinfo/arch-women
+
+Classroom - deferred to next meeting
+  * Classes being developed:
+    * HalosGhost
+    * hh4a's class on Awk
+  * In the last meeting HalosGhost proposed developing classes in teams.
+    * CalimeroTeknik proposes lightning talks.
+
+Internship
+  * Arch sponsored Google Summer of Code
+    * There hasn't been a strong response on the mailing list.
+      https://lists.archlinux.org/pipermail/arch-dev-public/2014-November/026748.html
+    * Contact individual devs?
+
+Mentorship
+  * https://archwomen.org/wiki/projects:mentorship:start
+  * If you want to be available to mentor, add yourself to this page, https://archwomen.org/wiki/projects:mentorship:offers
+  * Privacy for mentors on the list. Should the page be logged in members only?
+    * For the next meeting, list the specific attacks we're trying to defend against, and find possible solutions.
+  * We need to clarify the scope of the subjects and topics for mentoring. For example, limit to topics useful for Arch.
+
+Donation/Funding:
+  * Domain name needs to get renewed this month.
+  * Currently have donation button with paypal, should we look at other platforms or crowd funding?
+  * Social media to ask for donations for ssl/domain name, etc
+  * Donation website: https://github.com/gokercebeci/donateme
+  * Possibly use simple, bitcoin, or another gateway
+
+Final comments, questions, etc.
+
+To talk about at the next meeting:
+  * Should we move meetings and classes to another platform?
+    * Google Hangouts (or any other platform, for that matter). It could be used for mentoring, for those monthly meetings, and this kind of stuff.
+    * Mentors and mentees can decide for themselves the best way for them to communicate and we shouldn't specify it for them.
+    * Meetings and classes should be held on a medium that is accessible (consider hard of hearing and visually impaired).
+
