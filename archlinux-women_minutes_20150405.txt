@@ -1,0 +1,49 @@
+## Arch Women IRC Meeting, 05 April 2014 at 16:00 UTC
+
+### Announcements and status updates
+  * Dokuwiki updated to latest.
+  * Community news page back up. https://archwomen.org/community-news/
+
+### Mentorship
+[ tigrmesh ]
+  * There was to be a small group meeting. broken: https://pad.riseup.net/p/arch-women-mentorship-meeting-March_2015
+mirror: https://archwomen.org/~fsckd/arch-women-mentorship-meeting-March_2015.txt
+  * Schedule the small group meeting for some time in April.
+  * 3rd Week of April - 22nd (wed) or 25-26 (weekend) 18:00 UTC
+  * Ask people in channel this evening about meeting time
+
+### Classroom
+
+#### Proposed classes
+  * hh4a - Awk class
+    * Contact hh4a during the month and ask him if he needs help or anything.
+  * jy2wong - file compression survey
+    * decide on target audience?
+    * accessible: similar to kernel talk
+    * size vs. speed tradeoffs
+  * HalosGhost - Intro. to static typing
+    * planned duration: ~1h30
+
+### Live video classes
+  * HalosGhost's class may possibly be done this way.
+    * Where will they be held? Google Hangouts is a possibility.
+    * Could also stream video with ffmeg or use something like https://subrosa.io/
+    * Needs to allow:
+      * Many people to watch and participate.
+      * Moderation. E.g. kicking, silencing.
+      * Recording for future playback.
+      * How to accommodate visually impaired?
+      * How to accommodate hearing impaired?
+        * Subtitles
+        * Use a class outline and type in what is being discussed
+          * Google Hangouts supports simultaneous video and text chat
+        * Post transcript with video recording as well as subtitle file
+          * Editors: https://wiki.archlinux.org/index.php/List_of_applications#Video_editors
+    * Create guidelines for including blind and deaf users in classes.
+      * Best practices: http://www.fda.gov/AboutFDA/AboutThisWebsite/Accessibility/ucm214503.htm
+      * IRC aid example: https://github.com/nisstyre56/IRC-Speak
+      * Take questions via chat/twitter, answer in speech and text
+        * Speech->text Software: Dragon Naturally speaking, Google Chrome --enable-speech-input
+        * Manual typing: requires good keyboard for prolonged use, or software like Plover
+
+Final comments, questions, etc.
