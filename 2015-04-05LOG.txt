@@ -1,0 +1,195 @@
+2015-04-05 14:12:11	+meskarune	==== Meeting Starts ====
+2015-04-05 14:12:18	+meskarune	so announcements
+2015-04-05 14:12:46	+meskarune	dokuwiki was updated and we have a news page again: https://archwomen.org/community-news/
+2015-04-05 14:13:05	+meskarune	we were using moon moon but it had some issues so this one is written from scratch
+2015-04-05 14:13:28	>>>	tuxampol (~Mylin@ppp-188-174-8-81.dynamic.mnet-online.de) has joined #archlinux-women
+2015-04-05 14:13:51	i	ChanServ has changed topic for #archlinux-women from "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Thirty-seventh IRC Meeting: Sunday April 5th at 16:00 UTC. See you there!  Agenda: https://archwomen.org/wiki/meetings <|||> If you're having a problem with someone, !awops" to "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Thirty-seventh IRC Meeting is in progress. Channel is being logged. Notes: https://pad.riseup.net/p/aw-2015-april-05 <|||> If you're having a problem with someone, !awops"
+2015-04-05 14:15:20	+meskarune	\o/
+2015-04-05 14:15:38	+meskarune	ok and next up mentorship stuffs
+2015-04-05 14:15:57	+meskarune	need to set a date for a meeting type thing
+2015-04-05 14:16:01	+meskarune	https://archwomen.org/~fsckd/arch-women-mentorship-meeting-March_2015.txt
+2015-04-05 14:16:14	+meskarune	and then maybe stick that in the topic or something :)
+2015-04-05 14:16:38	+meskarune	do sundays work for people or should we like, do a weekday/evening type of deal?
+2015-04-05 14:18:55	alad	for me weekends or wednesdays work
+2015-04-05 14:19:21	+meskarune	ok awesome
+2015-04-05 14:19:22	+tigrmesh	what timezone are you in?
+2015-04-05 14:20:14	alad	UTC +2
+2015-04-05 14:24:53	+meskarune	I think I'm -4 maybe
+2015-04-05 14:25:16	+meskarune	yeah UTC -4
+2015-04-05 14:27:12	+meskarune	does wed evening work?
+2015-04-05 14:29:08	+meskarune	23:00 UTC would be like 7pm for me
+2015-04-05 14:30:33	+meskarune	that is sorta late for alad
+2015-04-05 14:30:56	alad	yeah, a bit earlier would be nice (18-19 UTC or so)
+2015-04-05 14:32:57	+meskarune	ok
+2015-04-05 14:33:17	+meskarune	thats like 3pm which works for me
+2015-04-05 14:37:49	+meskarune	why don't we say like april 22nd?
+2015-04-05 14:37:59	+meskarune	and then ask again later today when more people are online lol
+2015-04-05 14:40:53	<<<	phrik (phrik@archlinux/bot/phrik) has quit (Remote host closed the connection)
+2015-04-05 14:41:10	>>>	phrik (phrik@archlinux/bot/phrik) has joined #archlinux-women
+2015-04-05 14:41:49	alad	ok
+2015-04-05 14:43:40	+tigrmesh	i may not be able to be there.  but let's have the meeting and get this started.  i can look at the notes later to see what happened
+2015-04-05 14:47:25	+meskarune	ok
+2015-04-05 14:47:45	+meskarune	we can reschedule after hearing back from some more people :)
+2015-04-05 14:48:17	+meskarune	but let's say 3rd week of april, 22nd or 25-26
+2015-04-05 14:48:48	+tigrmesh	cool
+2015-04-05 14:49:59	+meskarune	so for classes
+2015-04-05 14:50:18	+meskarune	I don't think the folks are around atm
+2015-04-05 14:50:52	+meskarune	but we were interested in video classes
+2015-04-05 14:50:58	+meskarune	and looking into technology for that
+2015-04-05 14:51:47	+meskarune	a few suggestions: using ffmpeg to stream video people can watch with mplayer/vlc, https://subrosa.io/, google hangouts
+2015-04-05 14:52:16	+meskarune	for subtitles I think we could have someone get a class outline and type in what is being discussed
+2015-04-05 15:02:40	alad	noob question, what program would you use to add/edit the subtitles?
+2015-04-05 15:08:36	<<<	tuxampol (~Mylin@ppp-188-174-8-81.dynamic.mnet-online.de) has quit (Quit: Verlassend)
+2015-04-05 15:09:48	alad	quite a few it seems: https://wiki.archlinux.org/index.php/List_of_applications#Video_editors
+2015-04-05 15:09:49	phrik	Title: List of applications - ArchWiki (at wiki.archlinux.org)
+2015-04-05 15:10:44	<<<	phrik (phrik@archlinux/bot/phrik) has quit (Remote host closed the connection)
+2015-04-05 15:11:01	>>>	phrik (phrik@archlinux/bot/phrik) has joined #archlinux-women
+2015-04-05 15:17:26	fsckd	cool find
+2015-04-05 15:18:22	+meskarune	alad: I was thinking someone could put into a chat, like google hangouts supports video and text chat at the same time :)
+2015-04-05 15:18:37	+meskarune	and then we can post the video and transcript laster
+2015-04-05 15:18:39	+meskarune	later
+2015-04-05 15:19:21	alad	ah
+2015-04-05 15:20:19	<<<	phrik (phrik@archlinux/bot/phrik) has quit (Remote host closed the connection)
+2015-04-05 15:20:31	fsckd	for video classes should there be guidelines for including blind and deaf users?
+2015-04-05 15:20:41	+meskarune	yeah, def
+2015-04-05 15:26:39	>>>	phrik (phrik@archlinux/bot/phrik) has joined #archlinux-women
+2015-04-05 15:32:05	+meskarune	I've been posting on forums and reddit for software recomendations
+2015-04-05 15:32:17	+meskarune	but I think there might actually be a gap in that technology
+2015-04-05 15:34:34	+meskarune	I think having a policy would be great
+2015-04-05 15:34:45	+meskarune	so we can ensure that all classes are accessible
+2015-04-05 15:38:19	fsckd	yeah
+2015-04-05 15:47:24	>>>	escondida (~joyfulgir@archlinux/op/escondida) has joined #archlinux-women
+2015-04-05 15:47:24	i	Mode #archlinux-women [+v escondida] by ChanServ
+2015-04-05 15:47:55	alad	hi escondida 
+2015-04-05 15:48:34	+meskarune	my browser is being wonky
+2015-04-05 15:49:03	+escondida	hey
+2015-04-05 15:50:45	+meskarune	aaaaand it crashed
+2015-04-05 15:54:44	+meskarune	should I end the meeting?
+2015-04-05 15:54:55	+meskarune	any other comments on video class or other things?
+2015-04-05 15:56:44	nisstyre	is the meeting still going?
+2015-04-05 15:56:48	+meskarune	lol yeah
+2015-04-05 15:56:53	nisstyre	I was sleeping because of illness apparently
+2015-04-05 15:57:24	+escondida	End it? I thought it was at GMT 6:00 == 1:00 here
+2015-04-05 15:57:26	nisstyre	fsckd: I think accessibility is important for classes
+2015-04-05 15:57:28	+escondida	Ah man
+2015-04-05 15:57:32	nisstyre	IRC is pretty damn accessible already
+2015-04-05 15:58:02	nisstyre	I'm not sure how good this is because I wrote it ages ago but https://github.com/nisstyre56/IRC-Speak
+2015-04-05 15:58:03	phrik	Title: nisstyre56/IRC-Speak · GitHub (at github.com)
+2015-04-05 15:58:10	nisstyre	also not sure if it still compiles
+2015-04-05 15:58:23	nisstyre	(with the C++ library it needs)
+2015-04-05 15:59:07	nisstyre	but if anyone wants to make it better and port it to other clients be my guest
+2015-04-05 16:08:57	+meskarune	oh that looks awesome nisstyre 
+2015-04-05 16:09:13	nisstyre	I wrote it like years ago though
+2015-04-05 16:09:34	nisstyre	so espeak has probably changed or improved
+2015-04-05 16:09:49	nisstyre	http://espeak.sourceforge.net/
+2015-04-05 16:09:49	+meskarune	I didn't even know about that python library 
+2015-04-05 16:09:50	phrik	Title: eSpeak: Speech Synthesizer (at espeak.sourceforge.net)
+2015-04-05 16:09:54	+meskarune	I mgiht have to play with it
+2015-04-05 16:10:13	nisstyre	the best one I've ever heard is, sadly, google's
+2015-04-05 16:10:32	nisstyre	because it has a massive corpus of data to train with
+2015-04-05 16:11:00	+meskarune	yeah, and they use google voice
+2015-04-05 16:11:11	nisstyre	but I think we should try to use free software first
+2015-04-05 16:11:26	+meskarune	companies actually use their phone voice menu systems to get records of people talking to improve voice stuff
+2015-04-05 16:11:50	+meskarune	the vox project is trying to get an open licensed voice corpus
+2015-04-05 16:12:08	+meskarune	my dog is begging for turkey :<
+2015-04-05 16:12:17	+meskarune	she loves chicken/turkey more than anything
+2015-04-05 16:12:37	freaj	x)
+2015-04-05 16:13:27	fsckd	nisstyre: awesome!
+2015-04-05 16:14:10	fsckd	nisstyre: there's been interest in having video classes. if we do have video classes, i think they should be done accessibly.
+2015-04-05 16:15:19	+meskarune	http://www.fda.gov/AboutFDA/AboutThisWebsite/Accessibility/ucm214503.htm
+2015-04-05 16:15:20	phrik	Title: Accessible Web Conferences and Webinar Best Practices (at www.fda.gov)
+2015-04-05 16:25:51	+meskarune	the nice thing about google hangouts, it can be used on a phone or computer and you can have text chat at the same time I believe
+2015-04-05 16:26:05	+meskarune	but then you are using google and maybe not all browsers support it
+2015-04-05 16:26:27	+escondida	Don't you have to access it using a browser, too?
+2015-04-05 16:29:32	+meskarune	you can use an app on a phone, or a browser with the right plugins
+2015-04-05 16:29:42	+meskarune	other options might be ekiga
+2015-04-05 16:29:54	+meskarune	tox apparently doesn't have vid conferences yet
+2015-04-05 16:30:11	+meskarune	and  https://subrosa.io/
+2015-04-05 16:30:12	phrik	Title: Subrosa - Encrypted messaging, calls and video chats (at subrosa.io)
+2015-04-05 16:30:29	+meskarune	its supposed to be open source, but every time I try it my browser crashes T_T
+2015-04-05 16:30:33	+meskarune	so idk
+2015-04-05 16:30:42	+meskarune	maybe my netbook is just weak sauce
+2015-04-05 16:33:03	fsckd	a strong sauce can overwhelm the flavours of the dish
+2015-04-05 16:37:05	fsckd	here's a concern. if a deaf persons starts interacting with a teacher via text, can a blind person know what they are saying?
+2015-04-05 16:37:17	fsckd	s/concern/question/
+2015-04-05 16:38:45	+meskarune	I think the teacher could say "someone asked blah" and then answer in speech and text
+2015-04-05 16:41:23	+meskarune	some video conference type things take questions on twitter/chat
+2015-04-05 16:41:38	+meskarune	from people who watch but aren't like video chatting
+2015-04-05 16:52:06	nisstyre	fsckd: isn't that what captions are for?
+2015-04-05 16:52:18	nisstyre	in the absence of an accurate speech->text program someone can do it right?
+2015-04-05 16:53:23	+meskarune	I'd be willing to type what people say
+2015-04-05 16:53:37	+meskarune	I don't know sign so I couldn't do that
+2015-04-05 16:54:22	fsckd	it can be tiring work. typing as fast as possible continuously for an hour.
+2015-04-05 16:56:43	+meskarune	if I use auto complete software and voice to text that might help :)
+2015-04-05 16:57:00	fsckd	cool
+2015-04-05 16:57:34	+meskarune	https://code.google.com/p/autokey/
+2015-04-05 16:57:35	phrik	Title: autokey - Desktop automation utility for Linux and X11 - Google Project Hosting (at code.google.com)
+2015-04-05 16:57:56	+meskarune	I used text automation doing techincal support tickets
+2015-04-05 16:58:12	+meskarune	and I think dragon naturally speaking works on linux
+2015-04-05 17:01:39	fsckd	oh cool
+2015-04-05 17:01:46	fsckd	that might work
+2015-04-05 17:02:52	+meskarune	WAIT chrome supports speach input
+2015-04-05 17:03:16	+meskarune	start it with --enable-speech-input
+2015-04-05 17:03:23	+meskarune	and I can talk and have it render text
+2015-04-05 17:03:26	nisstyre	meskarune: how about someone to just correct mistakes in the speech->text output
+2015-04-05 17:03:32	nisstyre	that requires reading fast but not much typing
+2015-04-05 17:03:42	nisstyre	also we can donate money so they can buy a better keyboard :p
+2015-04-05 17:04:21	nisstyre	meskarune: that's pretty neat
+2015-04-05 17:04:40	fsckd	nisstyre: that's also a good idea
+2015-04-05 17:04:44	<<<	escondida (~joyfulgir@archlinux/op/escondida) has quit (Quit: WeeChat 1.1.1)
+2015-04-05 17:05:11	+meskarune	I had to use dragon in college when I hurt my wrist
+2015-04-05 17:05:21	+meskarune	it worked pretty well I guess
+2015-04-05 17:05:36	+meskarune	and maybe we can tag team in case my hands get tired typing lol
+2015-04-05 17:05:46	fsckd	iirc it has to be trained. but that might be only for old versions.
+2015-04-05 17:06:54	nisstyre	meskarune: if you use a good mechanical keyboard with light switches, and don't put too much pressure on the keys then you can type for a pretty long time
+2015-04-05 17:06:57	nisstyre	and pretty fast
+2015-04-05 17:07:53	+meskarune	yeah, I've wanted a mech keyboard for a long time
+2015-04-05 17:07:57	+meskarune	but they are so much money
+2015-04-05 17:08:04	nisstyre	yeah I spent $100 on mine
+2015-04-05 17:08:29	nisstyre	I've had it for almost 2 years though
+2015-04-05 17:08:42	nisstyre	still works perfectly
+2015-04-05 17:08:53	+meskarune	yeah, I mean, those things should last a really long time :)
+2015-04-05 17:09:06	+meskarune	like at least 10 years lol
+2015-04-05 17:09:12	nisstyre	yeah it's supposed to last a ridiculous number of keystrokes
+2015-04-05 17:09:18	nisstyre	like 100 million or something idk
+2015-04-05 17:09:52	nisstyre	this one is a steelseries
+2015-04-05 17:09:57	+meskarune	oh nice
+2015-04-05 17:10:00	alad	there's a few threads on mechanical keyboards, I use a Coolermaster quick storm (Brown) myself
+2015-04-05 17:10:00	alad	http://crunchbang.org/forums/viewtopic.php?id=36646
+2015-04-05 17:10:39	fsckd	humans speak very fast. professional captioners use chording keyboards.
+2015-04-05 17:11:30	nisstyre	is has nkro too
+2015-04-05 17:11:34	nisstyre	nkro master race
+2015-04-05 17:11:44	nisstyre	and it somehow does that with usb input too
+2015-04-05 17:12:56	alad	fsckd, http://stenoknight.com/wiki/FAQ
+2015-04-05 17:12:57	phrik	Title: FAQ - Plover Wiki (at stenoknight.com)
+2015-04-05 17:13:54	fsckd	alad: nice find, thanks
+2015-04-05 17:18:15	alad	.. and I just realized I spelled my keyboard model wrong (*quickfire). the irony
+2015-04-05 17:20:09	nisstyre	alad: I like the pinging sound some keys make when I release them too
+2015-04-05 17:20:16	nisstyre	idk, it just sounds pleasing
+2015-04-05 17:20:49	nisstyre	I also like that neither my laptop keyboard or mech one have a "windows" key
+2015-04-05 17:21:16	+meskarune	I call that the super key
+2015-04-05 17:22:25	alad	you can buy caps with a penguin logo and so on... the prices are extortionate though :P
+2015-04-05 17:22:48	+meskarune	I have a keyboard that just has boxes on that key
+2015-04-05 17:22:55	+meskarune	it looks very generic I guess
+2015-04-05 17:24:12	nisstyre	alad: laptop has the ubuntu logo on that because it is a system76
+2015-04-05 17:24:18	nisstyre	I prefer that over windows at least
+2015-04-05 17:24:21	alad	boxes like http://img.carapedia.com/images/article/windows%208%20shortcut.jpeg ?
+2015-04-05 17:24:59	alad	system76.. i've heard some things on those, how's the quality?
+2015-04-05 17:25:14	fsckd	my desktop's keyboard has the manufacturer's logo: Microsoft /ducks
+2015-04-05 17:25:50	nisstyre	alad: well the components are high quality, it has an i7 processor with the Iris Pro graphics, 8 gb of memory, 500 gb Samsun SSD, intel everything else
+2015-04-05 17:25:59	nisstyre	*Samsung
+2015-04-05 17:26:19	nisstyre	the screen is matte'd or w/e so it doesn't glare
+2015-04-05 17:26:39	nisstyre	it's usually pretty cool too
+2015-04-05 17:27:12	alad	I used to have a thinkpad x61 but it, eh, broke
+2015-04-05 17:29:33	+meskarune	anything else meeting wise? :P
+2015-04-05 17:29:46	+meskarune	have a sort of plan for meeting for mentoring
+2015-04-05 17:29:51	+meskarune	3rd week of april
+2015-04-05 17:29:57	+meskarune	and some ideas for video class
+2015-04-05 17:30:38	+meskarune	!yt Mirai no Kakera
+2015-04-05 17:30:40	phrik	meskarune: Asian Kung-Fu Generation - Flashback + Mirai No Kakera Live ...: <http://www.youtube.com/watch?v=FMv9pV5TT3k>
+2015-04-05 17:30:42	nisstyre	nothing else that I can think of
+2015-04-05 17:30:48	+meskarune	oh woops, wrong channel lol
+2015-04-05 17:31:09	+meskarune	ok should I send the meeting?
+2015-04-05 17:31:50	alad	ok with me
+2015-04-05 17:31:52	nisstyre	yes
+2015-04-05 17:32:31	+meskarune	==== Meeting Ends ====
