@@ -1,0 +1,36 @@
+Arch Linux Women IRC Meeting, 3 May 2015
+
+### Announcements and status updates
+None
+
+### Mentorship
+The small group meeting about the mentorship program could not be scheduled. The discussion will be moved to the mailing list. https://lists.archlinux.org/listinfo/arch-women
+
+### Classroom
+* Proposed classes in progress:
+  * jy2wong - file compression survey
+    * jy2wong was unable to attend.  Moved this item to June
+* Scheduled class:
+  * HalosGhost - Intro. to static typing
+    * Class will be held on 14 May 2015 at 21:30 UTC in #archlinux-classroom with ptpb snippets
+      * There is a possilility of using a different format, an update will be given if so
+      * But the time and date are firm.
+* New proposed classes:
+  *PKGBUILDs or git or lambda calculus ?
+
+### Classroom License
+* Materials and lesson plans kept in classroom-media need to be under an open license.  The Arch Women Wiki page on it  https://archwomen.org/wiki/todo:classroom_license
+* Suggested licenses:  
+  * ISC http://opensource.org/licenses/ISC
+    * Possible downside is that ISC actually has the person's info in the license
+  * GNU Free Documentation License (GNU FDL) http://www.gnu.org/copyleft/fdl.html
+    * Arch wiki uses GDL. if there were to be information exchange with the arch wiki, gdl would be the choice.
+  * Attribution-NonCommercial-ShareAlike 3.0 Unported  (CC BY-NC-SA 3.0) http://creativecommons.org/licenses/by-nc-sa/3.0
+* Next steps:
+ * Ask previous class presenters for their preference
+
+### Final comments, questions, etc.
+* a minecraft server for the IRC channel
+* have the 14 May class be a combined arch women pajama party and static typing party
+
+Next meeting:  Sunday, 7 June, 2015
