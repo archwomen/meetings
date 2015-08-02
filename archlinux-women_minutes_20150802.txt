@@ -1,0 +1,29 @@
+Arch Women 39th IRC Meeting - 2nd August 2015, 16:17 UTC
+
+Announcements and status updates
+    * New op jy2wong.
+    * The mailing list is being used for discussions. Feel free to join. https://lists.archlinux.org/listinfo/arch-women
+    * HalosGhost taught a class, “An Imperfect Introduction to Static Typing”. It was originally scheduled for 14 May 21:30UTC and was rescheduled to 17 May 23:00UTC.
+
+Server
+    * Working on secure password management and sharing system.
+
+Projects
+    * Classroom
+        * Proposed Classes
+            * jy2wong - file compression survey
+                * Will ask jy2wong more later.
+            * halosghost - class on C or haskell (probably C for now)
+                * Format will be multiple classes.
+                * Will work on syllabus.
+    * Mentorship
+        * How to handle matching people?
+            * Email form that posts to mailing list with request.
+                * Mailing list is inactive so it may not be the way to go
+            * Private Wiki page.
+                * Page with projects skills, criteria for mentors/mentees and other resources/information
+                * private page with contact information
+                * Have an application form
+                * This group uses a wiki page: http://teachingopensource.org/index.php/FOSS_Mentor_Projects
+            * Arch Women email - mentorship@archwomen.org
+                * A lot of people don't use email
