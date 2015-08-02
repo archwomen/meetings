@@ -1,0 +1,132 @@
+2015-08-02 12:17:56 <meskarune> ==== Meeting Begins ====
+2015-08-02 12:21:57 <meskarune> ok so we got a new OP jy2wong \o/
+2015-08-02 12:22:09 <halosghost>    \o/
+2015-08-02 12:22:09 <meskarune> she has the ban hammer of thor at her dispossal
+2015-08-02 12:22:11 <halosghost>    phrik: yay
+2015-08-02 12:22:12 <phrik> http://i.imgur.com/2gywlte.gif
+2015-08-02 12:23:02 <meskarune> and halosghost previous taughts a class on May 17th called "An Imperfect Introduction to Static Typing" which was a great sucess \o/
+2015-08-02 12:23:13 <halosghost>    there were types everywhere
+2015-08-02 12:23:18 <meskarune> haha
+2015-08-02 12:23:28 <fsckd> !grab halosghost 
+2015-08-02 12:23:28 <phrik> fsckd: Tada!
+2015-08-02 12:23:29 <meskarune> I personally learned enough for it to actually be useful :P
+2015-08-02 12:23:38 <halosghost>    :D
+2015-08-02 12:23:42 *   milly_tanz has quit (Ping timeout: 244 seconds)
+2015-08-02 12:24:04 <meskarune> Also it seems the 8channers have gotten bored of trolling here
+2015-08-02 12:24:13 <halosghost>    :D
+2015-08-02 12:24:30 <meskarune> so Server stuffs, we are stiching the password management for AW accounts to a git backed one that uses encryption
+2015-08-02 12:24:53 <meskarune> if anyone has questions let us know
+2015-08-02 12:25:11 <meskarune> We are as careful as possible about security things on the server
+2015-08-02 12:26:16 <meskarune> ok on to projects
+2015-08-02 12:26:20 <meskarune> Classroom
+2015-08-02 12:26:44 <meskarune> jy2wong was considering a file compression survey, but I'm not sure if that is still on
+2015-08-02 12:26:55 <meskarune> and I think halosghost was thinking to teach something
+2015-08-02 12:27:47 <halosghost>    I was considering a C class or an intro to Haskell class
+2015-08-02 12:28:02 <halosghost>    the C class just could not possibly fit into a single class period though
+2015-08-02 12:28:08 <halosghost>    it would have to be spread over a wide set
+2015-08-02 12:28:23 <meskarune> I mean, that would be fine
+2015-08-02 12:28:28 <meskarune> classes don't have to be one offs
+2015-08-02 12:28:31 <halosghost>    ok
+2015-08-02 12:28:38 <halosghost>    I'll look into creating a syllabus
+2015-08-02 12:28:40 <meskarune> basically you can set hte format to whatever works
+2015-08-02 12:30:50 <halosghost>    well, I imagine it'd be like 5, or so, 2 hour classes
+2015-08-02 12:30:58 <halosghost>    but, I'll need to consider a syllabus first
+2015-08-02 12:31:38 <meskarune> you could run a study group too
+2015-08-02 12:31:47 <meskarune> if you wanted it less formal
+2015-08-02 12:32:00 <meskarune> whatever works
+2015-08-02 12:32:18 <meskarune> do you want a partner in crime? maybe we can find another C programer to help
+2015-08-02 12:33:05 <halosghost>    I could certainly be open to that, sure
+2015-08-02 12:34:07 <meskarune> I'm expecting a class on C to be really popular, it has been requested on the forums
+2015-08-02 12:34:13 <meskarune> by multilpe people
+2015-08-02 12:34:58 <halosghost>    yeah
+2015-08-02 12:34:59 <meskarune> so having an extra person to help with planning/questions and teaching I think would be good, and if one person has to cancel the other can step up, etc
+2015-08-02 12:35:09 <halosghost>    sure
+2015-08-02 12:35:12 <meskarune> idk of anyone though
+2015-08-02 12:35:30 <halosghost>    I'll chat up some AW folks not-in-meeting and we'll figure something out
+2015-08-02 12:35:34 <meskarune> ok :)
+2015-08-02 12:36:52 <meskarune> so mentoring program
+2015-08-02 12:37:08 <meskarune> we can do this through email, a wiki page or the mailing list
+2015-08-02 12:37:40 <meskarune> I sorta like the idea of a mailing list, someone can post "I want to learn X is there anyone who can help?" and other people can reply
+2015-08-02 12:37:52 <fsckd> how to match people?
+2015-08-02 12:38:05 <meskarune> they would have to talk to each other :P
+2015-08-02 12:38:22 <tigrmesh>  nowai
+2015-08-02 12:38:28 <meskarune> lol
+2015-08-02 12:38:41 <meskarune> then we can have a private wiki page for contact info maybe
+2015-08-02 12:38:48 <fsckd> yeah
+2015-08-02 12:39:15 <halosghost>    what are the criteria for mentors?
+2015-08-02 12:39:24 <krosos>    or a bitmessage mailinglist-style address?
+2015-08-02 12:39:30 <meskarune> you know more about something than somemone else :P
+2015-08-02 12:39:47 <halosghost>    lol
+2015-08-02 12:39:54 <meskarune> mentors just help people get unstuck with something
+2015-08-02 12:40:07 <halosghost>    well, really I meant more since it's an AW project whether or not the mentors should primarily be women or other minorities
+2015-08-02 12:40:09 <meskarune> so if I was teaching myself haskell and suddenly got lost, I would ask them a question
+2015-08-02 12:40:43 <meskarune> I think I will just ask people's preference
+2015-08-02 12:41:08 <halosghost>    you mean each prspective mentee?
+2015-08-02 12:41:18 <meskarune> if someone wants to network with another woman or person who is LGBTQ they can mention that 
+2015-08-02 12:41:52 <meskarune> and I can reach out to linux chix and ubuntu women
+2015-08-02 12:41:58 <halosghost>    it may be good to have that be one of the requested bits of information during sign-up (or whatever process is used)
+2015-08-02 12:42:00 <meskarune> if we don't have someone who matches totally
+2015-08-02 12:43:07 <meskarune> yeah, we could do email form
+2015-08-02 12:43:10 <meskarune> or mailing list
+2015-08-02 12:43:18 <meskarune> and just have a template
+2015-08-02 12:43:21 <halosghost>    an email form which posts to the ML sounds like a great idea
+2015-08-02 12:43:27 <halosghost>    (imho)
+2015-08-02 12:43:30 <meskarune> kk
+2015-08-02 12:43:32 <tigrmesh>  no one is posting to the mailing list
+2015-08-02 12:44:08 <tigrmesh>  i don't think mailing lists is the way to go for this group
+2015-08-02 12:44:20 <tigrmesh>  at least for now
+2015-08-02 12:44:55 <meskarune> yeah, I haven't looked at my email in a while :/
+2015-08-02 12:44:57 *   halosghost didn't know the ML was so inactive
+2015-08-02 12:45:03 <meskarune> sign up :P
+2015-08-02 12:45:06 <halosghost>    perhaps not the email form then
+2015-08-02 12:45:08 <meskarune> tell your friends lol
+2015-08-02 12:46:08 <fsckd> i've had a busy few months. i've been poor on email stuff.
+2015-08-02 12:47:29 *   Disconnected (No such device or address)
+2015-08-02 12:48:00 *   Now talking on #archlinux-women
+2015-08-02 12:48:00 *   Topic for #archlinux-women is: Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Thirty-ninth IRC Meeting in progress. Channel is being logged. https://pad.riseup.net/p/aw-meeting-aug2015 <|||> If you're having a problem with someone, !awops
+2015-08-02 12:48:00 *   Topic for #archlinux-women set by fsckd (Sun Aug 02 12:17:21 2015)
+2015-08-02 12:48:00 *   Channel #archlinux-women url: http://archwomen.org
+2015-08-02 12:48:00 *   ChanServ gives voice to tigr
+2015-08-02 12:48:19 *   milly_tanz (~milly@dslb-178-000-097-040.178.000.pools.vodafone-ip.de) has joined
+2015-08-02 12:48:25 *   Disconnected (No such device or address)
+2015-08-02 12:49:11 *   Now talking on #archlinux-women
+2015-08-02 12:49:11 *   Topic for #archlinux-women is: Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Thirty-ninth IRC Meeting in progress. Channel is being logged. https://pad.riseup.net/p/aw-meeting-aug2015 <|||> If you're having a problem with someone, !awops
+2015-08-02 12:49:11 *   Topic for #archlinux-women set by fsckd (Sun Aug 02 12:17:21 2015)
+2015-08-02 12:49:11 *   Channel #archlinux-women url: http://archwomen.org
+2015-08-02 12:49:11 *   ChanServ gives voice to crabbyop
+2015-08-02 12:50:42 <crabbyop>  tigrmesh duct tapes herself to the internet
+2015-08-02 12:50:50 <crabbyop>  this isn't to beat ourselves up.  there are lots of people email works really well for.  they just haven't found that list yet
+2015-08-02 12:50:59 *   tigrmesh has quit (Ping timeout: 246 seconds)
+2015-08-02 12:51:38 <meskarune> heh
+2015-08-02 12:51:38 <meskarune> http://www.mentoring.org/downloads/mentoring_417.pdf
+2015-08-02 12:51:38 *   You are now known as tigrmesh
+2015-08-02 12:52:23 *   tigr has quit (Ping timeout: 246 seconds)
+2015-08-02 12:54:18 <meskarune> https://community.apache.org/mentoringprogramme.html
+2015-08-02 12:54:19 <phrik> Title: Apache Community Development - MentoringProgramme (at community.apache.org)
+2015-08-02 12:54:27 <meskarune> they use an online form that is filled out
+2015-08-02 12:55:11 <meskarune> it looks like they mostly use a mailing list
+2015-08-02 12:55:26 <meskarune> dev-subscribe@community.apache.org.html
+2015-08-02 12:56:12 <meskarune> http://teachingopensource.org/index.php/FOSS_Mentor_Projects
+2015-08-02 12:56:23 <meskarune> those guys use a wiki page
+2015-08-02 13:02:44 <meskarune> I sorta like a wiki page, and we can post projects or skills and have someone fill out a form to request a mentor
+2015-08-02 13:03:21 <meskarune> the form can either go to email or like, maybe post to a private wiki page
+2015-08-02 13:03:38 <halosghost>    the wiki page sounds good to me
+2015-08-02 13:03:40 <meskarune> yeah, I am sorta learnign to that
+2015-08-02 13:03:54 <meskarune> so I'll work on the wiki page this week
+2015-08-02 13:04:06 <meskarune> and we'll need to post some criteria for mentors I suppose
+2015-08-02 13:04:22 <meskarune> and benefits to mentoring and other useful information
+2015-08-02 13:07:21 <meskarune> ok, any other comments or throughts?
+2015-08-02 13:07:42 <meskarune> oh I have another news thing, we got some donations to cover the domain and ssl certs :D
+2015-08-02 13:08:10 <meskarune> https://archwomen.org/donate/
+2015-08-02 13:08:10 <phrik> Title: Arch Linux Women | Donate (at archwomen.org)
+2015-08-02 13:08:10 <meskarune> \o/
+2015-08-02 13:08:13 <meskarune> I need to send out thank yous :)
+2015-08-02 13:09:30 <meskarune> anything else someone wants to cover?
+2015-08-02 13:09:46 <meskarune> otherwise the meeting will come to a close
+2015-08-02 13:11:10 <tigrmesh>  !ping
+2015-08-02 13:11:12 <phrik> pong
+2015-08-02 13:11:30 <tigrmesh>  sorry.  just making sure i wasn't talking to myself
+2015-08-02 13:11:50 <meskarune> :)
+2015-08-02 13:11:53 <tigrmesh>  looks like it's time to wrap up.  thank you meskarune   :)
+2015-08-02 13:12:22 <meskarune> \o/
+2015-08-02 13:12:23 <meskarune> ==== Meeting Ends ====
