@@ -1,0 +1,34 @@
+Arch Linux Women - September 6, 2015 IRC Meeting
+
+Announcements and status updates
+    * Recieved some donations from some generous people, enough to cover domain name renewals and SSL cert.
+
+Topics for discussion
+Server
+    * New password system is go!
+
+Website
+    * SSL Certificate:
+        * Free issuer? StartSSL isn't supported widely
+            * WoSign https://www.wosign.com/english/freeSSL.htm (thanks to demize)
+            * https://letsencrypt.org/ - possibly too new, but good to keep an eye on
+
+Classroom:
+    * halosghost is interested in doing a C programming class
+        * jy2wong would be happy to help out
+        * Start up a mailing list thread on the C class so people can keep up with the news
+
+Mentorship:
+    * Wiki page setup, maybe we can get volunteer writers?
+    * Use an intermediary between mentors and mentee, to prevent abuses
+        * Questionnaire, inspired from other mentor programs
+        * Also check out whether the mentors and mentees have a website available, e.g for projects they have worked on?
+    * Add link/line to Arch site/wiki
+        * Suggested page: https://wiki.archlinux.org/index.php/Getting_involved#Community_projects
+
+Community
+    * Host another Arch Install day?
+        * Saturday, September 26th
+        * Mailing list announcement
+
+Final comments, questions, etc.
