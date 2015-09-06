@@ -19,7 +19,7 @@ Classroom:
         * Start up a mailing list thread on the C class so people can keep up with the news
 
 Mentorship:
-    * Wiki page setup, maybe we can get volunteer writers?
+    * Arch Women wiki page setup, maybe we can get volunteer writers?
     * Use an intermediary between mentors and mentee, to prevent abuses
         * Questionnaire, inspired from other mentor programs
         * Also check out whether the mentors and mentees have a website available, e.g for projects they have worked on?
