@@ -1,0 +1,442 @@
+18:15:40 - tigrmesh: ====== meeting starts  ======
+18:15:41 - polyzen: tigrmesh will make the announcement
+18:15:46 - tigrmesh: done
+18:15:46 - GermainZ: woo
+18:15:56 - tigrmesh: <fsckd> notes https://pad.riseup.net/p/arch-women_meeting_Oct-2015
+18:15:57 - phrik: Title: Riseup Pad (at pad.riseup.net)
+18:16:21 - tigrmesh: agenda https://archwomen.org/wiki/meetings:2015_october
+18:16:22 - phrik: Title: 41st IRC Meeting [Arch Women Wiki] (at archwomen.org)
+18:17:05 - alad: GermainZ: don't forget to add your name by clicking on the "people" button right :)
+18:17:10 - alad: *on the right
+18:17:43 - tigrmesh: we have a twitter message:  https://archwomen.org/wiki/meetings:2015_october
+18:17:44 - phrik: Title: 41st IRC Meeting [Arch Women Wiki] (at archwomen.org)
+18:17:59 - tigrmesh: oops.  not that  https://twitter.com/archwomen/status/650703677724991488
+18:17:59 - polyzen: pastefail, tigrmesh
+18:17:59 - phrik: Title: archwomen auf Twitter: "We have been having problems with awful spam today. If you can't speak, type `/query tigrmesh I can't speak`, and someone will help you :)" (at twitter.com)
+18:18:11 - meskarune: I have crazy lag y'all T_T
+18:18:38 - polyzen: the spammers have targetted meskarune
+18:18:42 - alad: meskarune: tried a /reconnect ?
+18:18:50 - sudokode: :(
+18:18:58 - meskarune: I think its just my ISP lol
+18:19:00 - tigrmesh: i started to write `awful spam problems`, but it's also been awful spam
+18:19:22 - polyzen: tigrmesh, at least colorize_nicks.pl makes it pretty
+18:19:38 - tigrmesh: hehe
+18:19:39 - polyzen: when you enable in-line nick coloring :p
+18:20:01 - sudokode: polyzen: colorize_lines too :P
+18:20:13 - polyzen: that was too much for me lol
+18:20:22 - GermainZ: look at my pretty glorious weechat https://ptpb.pw/ALRXz0k_0AiJ3Z9UxdRzgM2YYlsL.png
+18:20:23 - sudokode: I hate going back now D:
+18:20:37 - sudokode: that is very pretty
+18:20:41 - polyzen: hm
+18:21:01 - sudokode: https://ptpb.pw/xdaZ.png
+18:21:09 - polyzen: GermainZ, are you going to start? :p
+18:21:16 - GermainZ: should I? I'm confused :D
+18:21:22 - GermainZ: I thought tigr did
+18:21:46 * alad breaks the impasse
+18:21:53 - alad: let's start! :P
+18:21:56 * sudokode interrupts
+18:22:13 - alad: so, 1. topic - the installation day on the 26th last month
+18:22:14 - sudokode: just unplug me. I'm a broken printer
+18:22:20 - alad: Since I wasn't there, how did it go?
+18:23:26 - meskarune: it was awesome :D
+18:23:31 * alad sends sudokode for repair to the Apple store
+18:23:35 - meskarune: a few new people stopped by and said hi
+18:23:45 - meskarune: but also pretty low key
+18:24:00 - alad: cool. no problems with the beginner's guide or other wiki articles?
+18:25:21 - tigrmesh: i don't think anyone actually installed except me working on mine.  we need to get the word out better
+18:25:27 - polyzen: what can we do to better advertise it?
+18:25:35 - polyzen: ^
+18:25:41 - meskarune: social media
+18:25:47 - meskarune: and forum posts
+18:25:49 - meskarune: and mailing list
+18:26:08 - polyzen: perhaps a note in the install and/or beginner guide?
+18:26:22 - polyzen: was it mentioned in #archlinux-newbie?
+18:26:26 - meskarune: oh good idea
+18:26:27 - polyzen: the topic or anything
+18:26:39 - tigrmesh: there was something on twitter.  but maybe something a 2 weeks before, 1 week before, and that day
+18:26:41 - alad: polyzen: what did you have in mind as a note?
+18:26:41 - GermainZ: maybe something on reddit too?
+18:26:47 - alad: polyzen: for the guides that is
+18:26:49 - tigrmesh: i think there was something in -newbie
+18:26:52 - meskarune: ++
+18:26:56 - polyzen: the link could be like "check here to find the next install day"
+18:27:24 - tigrmesh: reddit?  really?  
+18:27:35 - GermainZ: tigrmesh: why not?
+18:27:35 - alad: polyzen: how about adding a link here https://wiki.archlinux.org/index.php/Category:Getting_and_installing_Arch
+18:27:37 - phrik: Title: Category:Getting and installing Arch - ArchWiki (at wiki.archlinux.org)
+18:27:42 - alad: GermainZ: reddit is ew
+18:27:49 - alad: GermainZ: to put it mildly
+18:27:53 - polyzen: alad, didn't know this page existed :p
+18:27:55 - GermainZ: alad: depends on the sub, i'm not suggesting to post in /r/worldnews
+18:28:04 - tigrmesh: on that day or immediately before?  sure
+18:28:16 - alad: polyzen: well, it's a recent development - but it's now linked from both installation guides
+18:28:24 - tigrmesh: oh
+18:28:30 - polyzen: reddit could be a good way to get the word out, but perhaps could draw the wrnog crowd
+18:28:36 - polyzen: alad, i see
+18:28:52 - polyzen: tbf i don't really use reddit so might be biased
+18:28:55 - GermainZ: polyzen: might be best to target female friendly subs then
+18:29:07 - polyzen: sounds good
+18:29:26 - meskarune: yeah, that's a great idea
+18:30:44 - GermainZ: what about the arch general ML?
+18:31:03 - MarkDude: Quotes from other projects regarding the awesomeness of Arch Docs help give Arch context. I mean the biggest suppoerts can be other Distros that like Docs from A
+18:31:20 - polyzen: !g archlinux mailing lsits
+18:31:21 - phrik: polyzen: lists.archlinux.org Mailing Lists: <https://www.archlinux.org/mailman/listinfo>;
+18:32:48 - GermainZ: potential subs: /r/archlinux, /r/girlsgonewired, /r/CSwomen, /r/TwoXChromosomes
+18:33:13 - GermainZ: (the thread will need to explain what archlinux-women is, ofc)
+18:33:33 - tigrmesh: there are others.  girls who code, maybe?
+18:33:45 - meskarune: I love girlsgonewired :3
+18:34:00 - tigrmesh: why these?  /r/CSwomen, /r/TwoXChromosomes
+18:34:02 - polyzen: lol
+18:34:20 - GermainZ: tigrmesh: women in CS are likely to be interested, no?
+18:34:31 - GermainZ: tigrmesh: and TwoXChromosomes might be interested in projects that encourage women to get into tech
+18:34:35 - Mikaela: the second seems a little transphobic to me knowing only the name
+18:34:38 - tigrmesh: ohh.  i was thinking of cis-gendered
+18:34:44 - polyzen: same :p
+18:34:44 - GermainZ: CS is Computer Science
+18:35:17 - tigrmesh: right.  and i think i read the list starting with the last one
+18:35:18 - GermainZ: Mikaela: not a problem, other subs can be targeted as well if you know any for trans women
+18:35:53 - Mikaela: GermainZ: I think proper target would be women, not trans or cis women separately.
+18:36:13 - GermainZ: Mikaela: that can be done by targeting both separately if no one sub exists for both, don't you agree?
+18:36:17 - krosos: I have a hard time reading back and following at the same time, but I think I can reach out to a friend in northern germany who might have ideas on how to promote this
+18:36:31 - krosos: (in context of trans/non-binary etc)
+18:36:36 - krosos: hackerspaces.. etc
+18:36:49 - Mikaela: GermainZ: I am not active reddit user and have no idea of what exists and what doesn't
+18:37:02 - krosos: it's in general about PR of the AW project or about installation day?
+18:37:17 - GermainZ: Mikaela: well, that's what I know exists (after a search), hence my suggestions :)
+18:38:24 - alad: krosos: whynotboth.gif
+18:39:48 - krosos: sure. okay, I will see that I talk to them and there's some contact to the asta of the women department/thing in a university a friend is currently doing her master at, they might be interested too
+18:40:03 - krosos: since they already offer install days once a month
+18:40:14 * krosos makes notes
+18:40:27 - alad: krosos: neat, thanks :)
+18:40:43 - krosos: feel free to add this at the pad, i'm not on the pad
+18:40:57 - polyzen: krosos, oooo
+18:41:06 - polyzen: a collaboration would be cool
+18:41:24 - krosos: um, i will add it to the pad myself, some more minutes and i can access it
+18:41:26 - polyzen: krosos, want a link to the pad? or should i just add it?
+18:41:57 - krosos: polyzen: no i can still see it, I have to open it from another computer
+18:42:11 - polyzen: k
+18:44:53 - krosos: added
+18:45:44 - polyzen: ..no wonder this shirt felt so awkward.. i had it on backwards >.<
+18:45:57 - alad: !grab polyzen
+18:45:57 - phrik: alad: Tada!
+18:46:04 - krosos: ohmy
+18:47:12 - alad: sooo - next topic?
+18:47:23 - alad: It says the dokuwiki was updated
+18:47:25 - polyzen: onward to victory
+18:48:04 - polyzen: fsckd, tigrmesh, meskarune ^ you probably know what this means
+18:48:16 - polyzen: not sure if it's just a version bump or something special
+18:48:39 - alad: I guess security and stuff
+18:49:10 - polyzen: !gh archwomen webserver
+18:49:11 - phrik: polyzen: archwomen/webserver · GitHub: <https://github.com/archwomen/webserver>;
+18:49:30 - polyzen: nothing there
+18:49:36 - tigrmesh: i do not remember.  but i think it's more a general statement about activity
+18:49:49 - alad: upstream activity you mean?
+18:50:30 - tigrmesh: no. just a 'we did stuff, and this was what it was'
+18:50:54 - alad: ok :P
+18:51:02 - polyzen: alrighty then
+18:51:14 - tuxampol [~Mylin@ppp-188-174-39-2.dynamic.mnet-online.de] is de ruimte binnengekomen.
+18:51:23 - tigrmesh: anything in -Syu that would be of particular interest or that involves web specific software - other than php  ;)
+18:51:46 - meskarune: yeah, the dokuwiki software was updated to the latest version
+18:51:48 - meskarune: :D
+18:52:08 - acgtyrant heeft de ruimte verlaten (Quit: 堕入 /dev/null).
+18:52:13 - alad: Should I add to the pad the server runs on Arch, or is this too obvious :P
+18:52:27 - meskarune: lol
+18:54:22 - alad: ok, moving on
+18:54:37 - polyzen: nothing too special in the latest release aside from the hotfix
+18:54:52 - alad: in the last meeting we discussed the group permissions e.a for the AQ wiki
+18:54:55 - alad: *AW
+18:55:12 - polyzen: "krosos> since they already offer install days once a month"
+18:55:31 - polyzen: woops. " fix for issue 1296 with Extension Manager which prevented installing tarballs and"
+18:55:53 - alad: polyzen: so security update?
+18:55:58 - fsckd: is anyone doing anything on the wiki right now?
+18:55:59 - polyzen: nope
+18:56:08 - alad: fsckd: umm
+18:56:10 - fsckd: i'm about to do something
+18:56:12 - krosos: polyzen: to be specific, install days for debian (i think), but the information about AW could be interesting for mary (the person running it) too, if she doesn't know already :)
+18:56:21 - polyzen: krosos, that was a pastefail
+18:56:26 - krosos: oh :D
+18:56:41 - polyzen: ah, so people who want arch could come here, then
+18:56:56 - alad: we could link them the "Arch vs. other distributions"
+18:57:16 - alad: It's a decent overview on what Arch does differently, without making overly bold claims
+18:57:23 - alad: !aw Arch compared to other distributions
+18:57:24 - phrik: alad: https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions
+18:59:19 - krosos: not on topic, but in the long run I am looking to try some installation wrokshop/whatever thing in safe spaces, maybe try it out in an lgbti* youth project friends run, so that's where I would try and get some (general) information on AW related projects into it.
+18:59:38 - alad: +1
+19:00:45 - alad: krosos: the Arch Linux page was also revised recently, and reflects the distribution pretty well
+19:00:47 - alad: !aw Arch Linux
+19:00:49 - phrik: alad: https://wiki.archlinux.org/
+19:00:49 - polyzen: krosos, can you condense that into the notepad? :p
+19:00:49 - krosos: long run/long shot. something
+19:00:52 - meskarune: ok so the mentorship group was made and there is a public and group only pages
+19:01:02 - alad: phrik: you
+19:01:02 - phrik: alad: NO, YOU
+19:01:05 - polyzen: krosos, long run
+19:01:06 - meskarune: so people's contact infos are on private pages
+19:01:12 - alad: krosos: https://wiki.archlinux.org/index.php/Arch_Linux
+19:01:13 - phrik: Title: Arch Linux - ArchWiki (at wiki.archlinux.org)
+19:01:27 - krosos: polyzen: no, because it's way down the road because of details I don't want in the meetings log :)
+19:01:35 - alad: !give meskarune beer
+19:01:36 - phrik: meskarune: http://pic.53280.de/factoids/beer.jpg
+19:01:38 - polyzen: gotcha
+19:02:09 - meskarune: :D
+19:02:27 - polyzen: holy cow, alad
+19:02:35 - polyzen: gj https://wiki.archlinux.org/index.php?title=Arch_Linux&action=history
+19:02:36 - phrik: Title: Revision history of "Arch Linux" - ArchWiki (at wiki.archlinux.org)
+19:03:06 - halosghost: did I miss it?
+19:03:23 - fsckd: halosghost: you missed everything. now the world shall end.
+19:03:25 - alad: polyzen: thanks - most of the credit goes to thestinger ;)
+19:03:30 - halosghost: D:
+19:03:36 - alad: what fsckd said!
+19:03:36 - fsckd: halosghost: the meeting though is still on :)
+19:03:43 - halosghost: :D
+19:03:47 - GermainZ: halosghost: teach us!
+19:04:04 - polyzen: halosghost, you're up next. just in time :p
+19:04:07 - Aster: m-m-mmeeting? :o
+19:04:13 - halosghost: so, here's the tl;dr: my supervisor at work just gave notice to the CEO, so my responsibilities/work are skyrocketing
+19:04:30 - alad: halosghost: not sure if :D or D:
+19:04:32 - halosghost: and, at least, for the next week or so, I'm really not sure at all what I'm going to be having for free time
+19:04:36 - halosghost: alad: it's plenty of both
+19:04:40 - alad: heh
+19:04:45 - Aster: halosghost: I have cake for free time, it's the best
+19:04:57 - GermainZ: halosghost: is that a good thing for you or not (other than free time)?
+19:04:57 - halosghost: as a result, I have had no time to write anything out for the syllabus
+19:05:07 * Aster gives halosghost cake for their free time
+19:05:10 - halosghost: GermainZ: 12:04:52     halosghost | alad: it's plenty of both
+19:05:12 - halosghost: Aster: ❤
+19:05:20 - meskarune: morning halosghost 
+19:05:30 - GermainZ: halosghost: \o/ I guess
+19:05:39 - polyzen: so should we move to halosghost's topic then jump back to the wiki in a bit? :p
+19:05:55 - halosghost: oh
+19:05:57 - halosghost: sorry
+19:06:03 - halosghost: I thought you meant it was my turn to go when you said that
+19:06:06 * halosghost waits
+19:06:10 - polyzen: yeah, my mistake
+19:06:12 - meskarune: halosghost: its ok, its not like we're paying you :P
+19:06:24 - meskarune: fun is the most important thing
+19:06:39 - halosghost: heh
+19:06:50 - Aster: money is only the second most important thing!
+19:06:51 - polyzen: halosghost, also congrats :)
+19:07:08 - meskarune: ++
+19:07:10 - halosghost: well, to wrap up what I have to say, rest assured: I still have every intention of getting a (basic) syllabus written for the course, at which point I'll be wanting to talk it over with jy2wong and whoever else may be interested in helping and then we can hammer out a real schedule
+19:07:41 - polyzen: vunderba
+19:07:46 - halosghost: I'm really shooting to have the basic one done before next meeting and having surveyed for help before the next meeting so that next meeting we'll be able to talk about schedule
+19:07:50 - tuxampol heeft de ruimte verlaten (Quit: Verlassend).
+19:09:23 - fsckd: halosghost: sounds good :)
+19:09:37 - halosghost: and sorry for being late to the party!
+19:09:38 - fsckd: halosghost: thank you :)
+19:09:48 - fsckd: halosghost: no worries ^_^
+19:10:09 - polyzen: you brought the party
+19:10:09 - fsckd: i am half afk myself :)
+19:10:44 - GermainZ: you killed the party
+19:10:57 - polyzen: you bastard!
+19:11:01 - GermainZ: :D
+19:11:16 - alad: !yt video killed the radio star
+19:11:17 - phrik: alad: Buggles - Video killed the radio star 1979 - YouTube: <http://www.youtube.com/watch?v=Iwuy4hHO3YQ>;
+19:11:23 - polyzen: meskarune, did you want to talk about mentors and organizers?
+19:12:28 - meskarune: sure
+19:12:52 - meskarune: lol
+19:13:08 - meskarune: so right now we'll have a public contact person for mentorship program
+19:13:23 - meskarune: and a private contact list of people who are trustworthy and want to mentor others
+19:13:41 - meskarune: and then people who want a mentor can contact us
+19:13:57 - meskarune: I was thinking of somehting like https://community.apache.org/mentoringprogramme.html
+19:13:58 - phrik: Title: Apache Community Development - MentoringProgramme (at community.apache.org)
+19:14:07 - meskarune: they have an application thingy with questions
+19:14:27 - alad: ok, so tl;dr - if you wanted to be a mentor, you'd send a query or some such, and there'd be sanity checks, and then you'd be added to the list?
+19:14:28 - meskarune: and these people http://teachingopensource.org/index.php/FOSS_Mentor_Projects#Outreach have a nice wiki page that they use for their mentor stuff
+19:14:44 - meskarune: alad: yeah, basically
+19:14:51 - meskarune: so we don't get trolls or whatever
+19:15:03 - meskarune: and we protect the mentor's privacy from people with a go between
+19:15:10 - meskarune: atm I'm the publicly available person
+19:16:15 - polyzen: hm
+19:16:56 - alad: and would these applications be always private, or can it be done in the channel or such, too ?
+19:17:21 - meskarune: sure, if people wanna talk with me
+19:17:28 - meskarune: or send an email or whateves
+19:17:51 - alad: meskarune: well, in that case I'd volounteer on mentoring for anything archwiki related
+19:18:14 - meskarune: ok :)
+19:18:43 - meskarune: if you have a wiki account I can add you to mentor gropu and then you can add yourself to the list along with what you know
+19:19:00 - MarkDude: Me too. Private or public- whichever helps. I'm decent at being a lightning rod- and that can help others not have as much drama
+19:19:20 - MarkDude: (F*ck the trolls, they can talk direct to me.)
+19:19:41 - meskarune: its not just trolling but doxing that is an issue
+19:19:43 - MarkDude: If AW would like. Whatever would be helpful
+19:19:43 - alad: meskarune: let me check if I didn't forge to fix my wiki account
+19:19:44 - meskarune: and stalking
+19:19:48 - alad: *forget
+19:19:50 - meskarune: hehe
+19:20:03 - MarkDude: Yep, my address is public, Im male, I can do this ally part well
+19:20:46 - MarkDude: Again, this (Italian) posture is ONLY if AW would like. Im here to help. And that means me listening :)
+19:23:04 - meskarune: thanks
+19:26:10 - alad: meskarune: ok, IIRC my account was "Alad", but it says "Looks like there was an error on sending the password mail. Please contact the admin!"
+19:26:21 - alad: the mail should be my regular archlinux.info one ...
+19:27:02 - meskarune: I can reset your pass to something random so you can login
+19:27:02 - alad: (and yes, I'm terrible at managing my keepass, that's why I lose my passwords from time to time)
+19:27:06 - alad: meskarune: ok
+19:27:18 - meskarune: I can't actually see anyones passwords
+19:27:21 - meskarune: just reset them
+19:27:53 - polyzen: alad, syncthing ftfw
+19:28:00 - alad: !aw syncthing
+19:28:01 - phrik: alad: https://wiki.archlinux.org/index.php/Syncthing
+19:28:01 - polyzen: syncthing-inotify
+19:28:13 - alad: polyzen: I'll look into it, thanks
+19:28:18 - polyzen: :)
+19:32:43 - meskarune: ok where are we in the meeting?
+19:32:45 - meskarune: lol
+19:33:31 - alad: we were at the group permissions
+19:33:52 - alad: so, this is the correct link, right: https://archwomen.org/wiki/projects:mentorship:start
+19:33:53 - phrik: Title: Mentorship Program [Arch Women Wiki] (at archwomen.org)
+19:35:51 - meskarune: yeah, and I neeed people to help add description and program information to the start page :)
+19:36:34 - meskarune: https://archwomen.org/wiki/projects:mentorship:offers
+19:36:35 - phrik: Title: Mentorship offers [Arch Women Wiki] (at archwomen.org)
+19:36:37 - meskarune: that should be a private page
+19:36:52 - alad: we could condense some info from the pages you linked, as well as the meeting notes
+19:36:53 - MarkDude Mikaela MrElendig meskarune marienz
+19:36:57 - alad: meskarune: ok, so I just add myself there?
+19:37:03 - meskarune: yep :)
+19:37:09 - alad: *nods*
+19:38:15 - meskarune: so its not set in stone yet, but for now, this is how the program is setup, with people listed privately and then we'll have some public people who can be go-betweens
+19:38:20 - fsckd: the wiki doesn't send emails (yet)
+19:38:36 - meskarune: yeah, need to setup that sendmail thingy
+19:38:37 - alad: silly question, what classifies as "Linux sysadmin" ? :P
+19:38:49 - meskarune: idk, I've been paid cash money to do it :P
+19:39:06 - alad: ah ok :P
+19:39:34 - meskarune: but if you can setup and secure a server and do automation things it probably counts :P
+19:39:42 - meskarune: and system monitoring
+19:39:48 - polyzen: i would very like to learn how to setup e-mail in dokuwiki, myself
+19:39:56 - polyzen: very much*
+19:40:19 - alad: ok, I think I got it right after 3 tries
+19:40:24 - meskarune: \o/
+19:41:03 - polyzen: i'd also like to be a mentor. i think there is plenty i can pass along :p
+19:41:38 - polyzen: just wasn't sure what it entailed
+19:41:50 - alad: polyzen: will you be mentoring in matters of "wat" ?
+19:41:52 - polyzen: this helped https://community.apache.org/mentoringprogramme.html
+19:41:53 - phrik: Title: Apache Community Development - MentoringProgramme (at community.apache.org)
+19:41:55 - alad: polyzen: heh just kidding. glad to hear :P
+19:41:59 - polyzen: alad, hehe
+19:42:02 - meskarune: polyzen: well, thats info we need to have someone add to the mentorship page ;)
+19:42:25 - meskarune: but really you just help someone when they get stuck
+19:42:47 - meskarune: so you don't have to teach them from the beginging, but if a person is learning to program and gets stuck you can help explain things
+19:43:03 - polyzen: gotcha
+19:43:40 - polyzen: You are here: You've reached the Arch Women Wiki » projects » Mentorship Program » Mentorship offers
+19:43:42 - polyzen: Permission Denied Sorry, you don't have enough rights to continue.
+19:43:50 - polyzen: properly secured
+19:43:54 - alad: yep yep
+19:46:12 - alad: there's one more topic on the list: [hellerbarde] - Make sure people know about us. (and wiki structuring)
+19:46:21 - alad: but I think we discussed that at the beginning of the meeting already
+19:46:34 - meskarune: they wanted to have a wiki cleanup day
+19:46:34 - alad: or ?
+19:46:36 - alad: oh
+19:46:51 - meskarune: I would also sorta like to have a class on contributing to the wiki
+19:46:59 - meskarune: so people are encouraged to do so
+19:47:08 - meskarune: some new users are sorta shy about doing that
+19:47:40 - fsckd: was hellerbarde talking about arch linux wiki, arch women wiki, or both?
+19:47:47 - meskarune: both
+19:47:50 - alad: A full class would be long enough to cover both
+19:47:51 - fsckd: ok
+19:47:54 - alad: I think
+19:48:11 - meskarune: yeah, just show people how the wiki works and wiki syntax and talk pages and stuff
+19:48:31 - fsckd: i want to see the how to help page finished. i thought i wrote notes on it but now i think i didn't.
+19:48:36 - alad: meskarune: well, I could probably cover that with some help
+19:48:39 - fsckd: (aw wiki)
+19:48:43 - polyzen: has there been a wiki cleanup day? if it's the first, we should focus on arch women
+19:48:52 - krosos: shouldn't there be an "introduction to the wiki" / "how to use the wiki" etc page(s)?
+19:48:53 - polyzen: consequent ones can be just general
+19:49:07 - alad: polyzen: for archwiki, every day is a wiki cleanup day :P
+19:49:15 - polyzen: that too
+19:49:28 - alad: polyzen: so, cleanup we do here should probably focus on the archwomen wiki
+19:49:45 - alad: for starters, at least
+19:49:56 - alad: krosos: well, there's a few of those
+19:49:59 - alad: krosos: sec
+19:50:26 - alad: krosos: https://wiki.archlinux.org/index.php/Category:Help
+19:50:27 - phrik: Title: Category:Help - ArchWiki (at wiki.archlinux.org)
+19:50:36 - alad: krosos: lotsof paperwork, mind you :P
+19:50:48 - krosos: ah
+19:51:39 - alad: krosos: also, it can't really cover the things you learn from experience, so a class could help to condense some of those ideas as well
+19:52:13 - krosos: that's true
+19:52:40 - krosos: learning by doing or people talking from experience is worth more than something written down
+19:52:55 - alad: yep
+19:54:34 - tigrmesh: what can we do to increase the visibility of arch women?  or will posting about the class, install day and maybe after the wiki cleanup will be enough?
+19:55:08 - alad: tigrmesh: maybe talk to jasonwryan on a sticky post somewhere?
+19:55:12 - alad: also fsckd: ^
+19:55:17 - alad: (on BBS that is)
+19:55:29 - polyzen: tigrmesh, get arch linux to endorse aw events more, as they cover all of arch linux
+19:56:08 - alad: the archwiki has an Events category as well, but it's unused since 2012 or so
+19:56:16 - alad: could add an article there
+19:56:18 - alad: as well
+19:56:19 - polyzen: install day isn't only for women. wiki cleanup day isn't just for the aw wiki. mentorship probably isn't only for women, either
+19:56:43 - meskarune: alad: we can def find some help for you :)
+19:56:47 - polyzen: either/afaik*
+19:56:50 - alad: meskarune: :)
+19:57:18 - MMukherjee [~Howaboutt@unaffiliated/powerkiller] is de ruimte binnengekomen.
+19:57:24 - meskarune: yeah, lets do an aw wiki cleanup and mark pages that need more content written
+19:57:32 - alad: polyzen: well, I did notice that when "cleanups" or larger topics to be handled are announced to the community at large, lots of changes do happen
+19:57:33 - tigrmesh: the arch wiki cleanup maybe should happen at a different time/day than the arch-women one.  too confusing since the wikis have such similar names
+19:57:39 - alad: yeah
+19:57:44 - krosos: i would like to volunteer, but otoh I have a truckload of other things to do and solve :/
+19:57:51 - meskarune: yeah, and we can get some of the wiki mods involved for the arch wiki
+19:58:08 - meskarune: krosos: well, this is going to be in the future after some planning :)
+19:58:15 - meskarune: and we can hold more than one
+19:58:15 - polyzen: imo the cleanup day should cover both
+19:58:30 - polyzen: just be specific to the wiki y ou'r referring to.. shouldn't be hard
+19:58:45 - tigrmesh: polyzen, hellerbarde's idea is for the arch women blog to be added to arch planet.  which reminds me
+19:58:49 - krosos: meskarune: i meant not for the wiki, in general, offer more help :)
+19:58:54 - polyzen: i feel that would lead to the most attendees
+19:58:56 - tigrmesh: we need someone to write blog posts!
+19:59:10 - alad: tigrmesh: I used to have a blog, but it took me way too long to write things up
+19:59:14 - polyzen: there's an aw blog? :p
+19:59:20 - polyzen: oh, there is
+19:59:32 - alad: polyzen: one thing we do have to keep in mind though, is that efforts should be well-directed, or we might end up with more "mess" than "clean-up" :P
+19:59:32 - meskarune: lol
+19:59:35 - polyzen: i wonder if it's no gmane
+19:59:39 - polyzen: on*
+19:59:49 - polyzen: alad, gotcha
+20:00:06 - tigrmesh: alad, anything.  even just events of interest to women in tech.  class announcements.  wiki cleanup day!
+20:00:17 - tigrmesh: alad, true!
+20:00:55 - polyzen: tigrmesh, perhaps mainly use twitter, and when something deserves a write-up, whip out a blog post
+20:01:31 - tigrmesh: sure.  but we didn't have one for a long, long time
+20:01:37 - krosos: tigrmesh: what if we sort this into project/teams/hords like gentoo does with projects, so there's more people working on a small amount of related content/sections/tasks
+20:02:02 - krosos: so there's a blog team, etc
+20:02:06 - tigrmesh: sure
+20:02:11 - tigrmesh: awesome
+20:02:36 - krosos: just an idea, i have no idea how many people are actually active helping
+20:03:40 - alad: added to the map
+20:03:45 - polyzen: tigrmesh, it should work out fine as twitter is mainly used now, anyways
+20:03:48 - alad: *pad
+20:03:51 - polyzen: as far as i can tell
+20:04:00 - polyzen: by AW
+20:06:15 - krosos: alad: okay, so maybe teams can get overview pages where a public contact is listed where they can get contacted, etc. (i would add this myself, but it might be put into confusing words)
+20:06:43 - tigrmesh: ok
+20:07:08 - tigrmesh: krosos, you add it, i will fix  :)
+20:07:17 - krosos: to get a picture of what I am refering to, take a look at https://wiki.gentoo.org/wiki/Project:KDE , similar to that, in addition to that
+20:07:20 - phrik: Title: Project:KDE - Gentoo Wiki (at wiki.gentoo.org)
+20:07:31 - krosos: s/addition*//
+20:08:32 - MarkDude: +1 on having clear ideas on major wiki shifts, otherwise you end up with layers of archive/archiveS :D
+20:09:05 - alad: krosos: it may sound obvious, but we should also consider the scope of the task at hand when looking at the number of projects to create
+20:09:30 - krosos: the wiki restructuring and related ideas might need an entire pad for itself
+20:09:44 - krosos: so we can provide and discuss idea, layouts, etc
+20:09:44 - alad: MarkDude: on archwiki, there's often 10 pages for the exact same topic. terrible
+20:09:50 - alad: krosos: sounds good
+20:10:56 - alad: Ok, are there other topics to discuss? :)
+20:11:01 - krosos: there's about a month to go, so I think I will look at the AW wiki, projects, etc and have something wwith more substance until the next meeting
+20:11:14 - alad: krosos: cool
+20:11:57 - krosos: not that I have a complete overview of what's there, but at least to give some visual/tree/structure thingie (lack of word right now)
+20:12:10 - alad: krosos: a mindmap :D
+20:12:23 - krosos: suggestion
+20:12:25 - krosos: that's the one
+20:15:24 - alad: tigrmesh: is there anything else, or can the meeting be adjourned? :D
+20:15:54 - tigrmesh: moment
+20:16:23 - youngbaks [~youngbaks@41.204.187.12] is de ruimte binnengekomen.
+20:16:30 - tigrmesh: krosos, is this just about the wiki cleanup, or in general?  Use teams/projects to distribute efforts
+20:16:38 - krosos: in general
+20:16:48 - krosos: wiki cleanup, blog, [etc]
+20:17:34 - krosos: it might already exist in this way, if so it wasn't obvious to me as I have not looked incredibly much into the AW wiki
+20:18:24 - meskarune: I think right now its sorta a free for all :P
+20:18:31 - tigrmesh: krosos, like that?
+20:18:44 - krosos: tigrmesh: changes at pad you mean?
+20:18:45 - krosos: yes
+20:18:54 - tigrmesh: ok and yest
+20:19:03 - tigrmesh: alad, now ready, i think
+20:19:30 - alad: tigrmesh: can I post that fancy equal sign header, or would you like the honor ? :P
+20:19:32 - tigrmesh: also, please look at the riseup pad in case there's something we missed
+20:19:37 - tigrmesh: https://pad.riseup.net/p/arch-women_meeting_Oct-2015
+20:19:40 - phrik: Title: Riseup Pad (at pad.riseup.net)
+20:19:42 - tigrmesh: alad, go for it  :)
+20:19:57 - alad: ====== meeting ends ======
