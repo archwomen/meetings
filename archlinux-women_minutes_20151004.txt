@@ -1,0 +1,48 @@
+Arch Women IRC meeting - October 4th, 2015
+
+Announcements and status updates
+	* Arch Install Day was on the 26th
+		* It was awesome. A few new people stopped by and said hi, but pretty low key
+		* Needs better advertising for people to actually install!
+			* [alad] [polyzen] Add a note to the Arch wiki, e.g. in https://wiki.archlinux.org/index.php/Category:Getting_and_installing_Arch
+			* Email to Arch-women mailing list
+			* Twitter - 2 weeks before, 1 week before, on the day of
+			* [germainz] reddit - female-friendly subs -- potential subs: /r/archlinux, /r/girlsgonewired, /r/CSwomen - channels for women in/interested in tech (and archlinux)
+			* [tigrmesh] [polyzen] #archlinux-newbie topic/announcements
+			* MarkDude suggested quotes from other projects regarding the awesomeness of Arch Docs help give Arch context. I mean the biggest supporters can be other Distros that like Docs from Arch
+			* krosos will inquire on university contacts
+				* They already offer install days once a month (that's in the university in Bochum so far, maybe more)
+				* Also talk to a contact in the area of Kiel/Hamburg about hackerspaces and the general context of lgbti*/computing/something
+				* -> this would involve in general information about the AW project and also pointing to mentorship etc.
+			* Alad suggested we could link them the "Arch vs. other distributions"
+				* https://wiki.archlinux.org/index.php/Arch_compared_to_other_distributions
+				* https://wiki.archlinux.org/index.php/Arch_Linux
+
+Server
+	* dokuwiki updated - sign of life of the AW wiki!
+
+Projects
+	* Mentorship - wiki pages and group permissions are up, we need some volunteers to help write up information and organize things
+		* https://community.apache.org/mentoringprogramme.html
+			* <@meskarune> they have an application thingy with questions
+		* http://teachingopensource.org/index.php/FOSS_Mentor_Projects#Outreach
+			* <@meskarune> [sic] a nice wiki page that they use for their mentor stuff
+		* Aspiring mentors can contact a go-between/ally (currently meskarune)
+		* Mentor list stored privately
+	* Classroom
+		* [haloghost] - C programming class - probably next month
+			* His workload has picked up recently. Basics/Survey will hopefully be done before the next meeting, the schedule can be discussed then
+		* [meskarune] [alad] Class on contributing to the Arch+ArchWomen wiki?
+		* Get more info out there about classes when they happen.  See ideas above.
+
+Community
+	* [hellerbarde] - Make sure people know about us. (and wiki structuring)
+		* Wiki cleanup-days
+			* first one probably for ArchWomen
+			* Then the Arch wiki
+		* "Cleaning" efforts should be well-directed for best productivity
+	* Use teams/projects to distribute efforts (wiki, blog, etc.)
+		* Provide overview pages for each team with (public) contact information
+			* https://wiki.gentoo.org/wiki/Project:KDE (for example, for orientation)
+		* Details can be discussed in a following meeting/pad
+			* krosos will try to come up with ideas (e.g. mindmap, something visual)
