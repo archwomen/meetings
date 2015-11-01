@@ -1,0 +1,37 @@
+Arch Linux Women 42nd IRC meeting - 1st November 2015, 16:00 UTC
+
+Announcements and status updates
+	* Blog posts git repository will be available soon.
+		* [discuss] We use Lilac, but it is deprecated. Replace or revive it. https://archwomen.org/wiki/todo:new_blog_engine
+			* Suggestions:
+				* pelican (rst)
+				* nikola (https://getnikola.com/listings/conf.py.html#listingsconfpy-242)
+				* jekyll (mdown)
+				* sphinx (rst)
+				* rux (mdown) - successor to lilac
+			* Add any criteria to blog engine wiki page (link above).
+	* #archlinux-women sometimes has spam and/or troll problems, so the channel sometimes is set to where only people registered with freenode can speak. this is usually a temporary measure. if you can't speak, talk to a channel op. the channel ops are escondida, fsckd, jy2wong, meskarune, tigrmesh/tigr, vodik, and yar. or do !awops to get the channel bot to highlight whoever is around.
+	* What we plan to work on is at https://archwomen.org/wiki/projects:wiki_improvements:start
+
+Classroom
+	* escondida has expressed an interest in putting together a class on bash scripting and coreutils basics. (Unfortunately escondida can't make it to the meeting.)
+		* [done] Is there interest in the class? Yes!
+		* CalimeroTeknik volunteers to help escondida with the class. As will jy2wong and polyzen.
+	* haloghost - C programming class cf. <https://ptpb.pw/r/KICu>. This document is still a work in progress
+		* Will have multiple parts, maybe 6.
+		* Anyone who wants to be help or be a co-instructor, please contact halosghost.
+	* [discuss] Next meeting ask about the progress of the two classes.
+
+Community
+	* anonymiss has proposed to organize teams to distribute effort using ideas from LiquidDemocracy. The full proposal is on the mailing list. (Unfortunately anonymiss can't make it to the meeting.)
+		* https://lists.archlinux.org/pipermail/arch-women/2015-October/000032.html
+		* and https://lists.archlinux.org/pipermail/arch-women/2015-October/000034.html
+		* [started] polyzen will make a consolidated list of volunteers at https://archwomen.org/wiki/projects:start
+		* [todo] divide Arch Women into projects which people can volunteer for
+			* ignoring project groups: classroom, mentor, internship, wiki, blog, server, website, meetings, mailing list, social media (twitter, etc.), irc, organization
+			* [discuss] how would subprojects work? would people volunteer for the parent projects? how would volunteers from parent projects interact with volunteers from subprojects?
+	* [todo] tigrmesh will ask on twitter and on the arch women mailing list about whether anyone would prefer to use an IM client (re moving the channel to PSYC (psyced.org))
+
+Final comments, questions, etc.
+
+[discuss] polyzen suggests changing the file names of minutes to something shorter. GitHub is cutting off the names. Caveat: broken links.
