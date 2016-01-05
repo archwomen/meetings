@@ -1,0 +1,31 @@
+Arch Women IRC meeting - December 6th, 2015
+
+Announcements and status updates
+* [fsckd] Set up of the blog posts git repository has been delayed.
+* [fsckd] Tagging items in meeting notes.
+  * done ⇒ no further action is needed
+  * todo ⇒ add it to a todo page, find volunteers, etc.
+  * discuss ⇒ add it to the agenda of the next meeting, post on ml
+
+
+Topics for discussion
+Community
+* In the previous meeting polyzen suggested changing the file names of minutes to something shorter. GitHub is cutting off the names. Caveat: broken links.
+  * After the meeting a name scheme was determined (to match the scheme used by logs): yyyy-mm-ddnotes.txt
+  * a lighttpd rule to redirect older links to the newer scheme: “^(/media/meeting-notes/)archlinux-women_minutes_([0-9]{4})([0-9]{2})([0-9]{2}).txt” ⇒ “$1$2-$3-$4notes.txt” - todo
+    * it uses perl regex http://redmine.lighttpd.net/projects/1/wiki/docs_modredirect
+
+
+Classroom
+* [halosghost] C programming class - [todo]
+  * progress - secion 1-3 planned, need to work on 4-6
+  * name - "C alice walk, C alice run" :P
+* [escondida] Bash scripting and coreutils class - discuss
+  * progress?
+  * name?
+* Classroom license, propose to use GFDL to match Arch Linux Wiki - have GFDL default and if teachers have strong preference they can pick another. CC0 is possibilty, probably compatible with GFDL.
+  * https://archwomen.org/wiki/todo:classroom_license
+  * Using the same license as the Arch Linux Wiki will allow information to flow between both projects easily.
+  * Classroom cannot maintain tutorials. Either the Arch Linux Wiki can do that or a new wiki can be made for that. Don't duplicate effort.
+  * Choosing a license is important and should be done before inviting people to make new classes.
+  * Will need records of permission granteed from each past teacher: gtmanfred, kaictl, CalimeroTeknik, jy2wong, nisstyre, halosghost, and escondida. - [todo]
