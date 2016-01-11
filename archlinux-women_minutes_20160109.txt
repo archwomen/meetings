@@ -1,0 +1,50 @@
+Announcements and status updates
+* Coming up on 4 years!
+  * Announced on reddit: https://www.reddit.com/r/archlinux/comments/3yvfs7/arch_linux_women_4th_year_anniversary/
+
+Server
+* Blog
+  * blog-posts git repository is up and usable. Fork to add a post. https://github.com/archwomen/blog-posts (To deploy, push the repository to the server.)
+  * If someone wants to post they can ask for help with git in channel. Meskarune, Fsckd, polyzen should be able to do any repo magics.
+  * We use Lilac, but it is deprecated. Replace or revive it. There are suggestions for replacements on the wiki. https://archwomen.org/wiki/todo:new_blog_engine
+    * Comments
+      * Trolls are a big concern. Will need moderation.
+      * Likely done by a third party system (like Disqus but doesn't have to be Disqus).
+      * Perhaps not have a comment system and let people comment in IRC or on the ML.
+      * Anonymous comments can be done by a proxy.
+      * Premoderated comment system.
+      * Keep comments open for only a short time, like a week.
+      * Can look at how Geek Feminism does comments.
+
+Projects
+* The Great Wiki Cleanup - https://archwomen.org/wiki/projects:wiki_improvements:start
+  * tigr, hellerbarde, alad, alliecat|L, polyzen, MarkDude can help with wiki cleaning
+* Classroom
+  * C class - First three sections done; will have total of six. Should have multiple classes on each section in various time zones. Once the rest of the syllabus is done teachers can work out a schedule.
+  * Git class proposed by meskarune. Taught by polyzen and anyone else who'd like.
+  * Poll for class availability times suggested by MarkDude
+  * "if we get the license thing done, i want to ask some other arch people to do classes. may be allan or xyne or ewaller." - fsckd
+
+Community
+* Meetings
+  * Proposal to hold meetings on second Saturdays of the month rather than first Sundays.
+    * Poll to schedule or ask people to list their preferred times.
+      * http://www.timeanddate.com/worldclock/meeting.html
+      * http://doodle,com/
+    * Keep it Saturday for now and poll to find preferred times.
+  * Schedule rename of meeting files.
+    * Steps: (1) rename files (2) add redirect to lighttpd.conf (3) update links on the wiki
+    * We need volunteers for (1) and (3).
+  * Shorten meeting commit messages.
+    * http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+    * Consideration: "Meeting logs/notes from 2015-12-06"
+* Proposal to simplify requesting op-attention at IRC
+  * Currently it's required to just “!awops” on the channel while it could be desirable to do so in private and avoid getting negative attention.
+  * Possible solutions
+    * Using phrik !awops & maybe even !ops should be made aliases to “channel alert” which allows PMing and describing what is the problem (which is not possible with “!awops”).
+    * Externalizing !ops to #AntiSpamMeta (antispammeta.net) or it's clone for wider audience ##suchantispam. It allows calling ops with !ops in channel and /msg antispammeta !ops #channel with optional description, but would require requesting it to channel and ops being on the channel and requesting to be highlighted by alerts on #archlinux-women.
+    * Should have multiple ways to alert OP's, public and private, maybe have a list in topic or in the IRC rules of OP's along with how to contact them
+    * Proposal: OP's active on irc should OP themselves in channel?
+      * - Can increase harassement to OP's, increase tension in channel.
+      * + If ChanServ is down or netsplits it can be good to have OP's on.
+      * https://mikaela.info/english/2015/04/01/keep-the-ops-opped.html
