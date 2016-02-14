@@ -1,0 +1,18 @@
+Arch Women 45th IRC meeting, 13 February 2016, 16:16 UTC
+
+Announcements and status updates
+* escondida joined the server team.
+* meskarune joined the Fedora community ops team. We can share resources and efforts. It would be great to make connections with other diversity efforts across linux distros. We all have more in common than we do differences, and we'll have access to more mentors and can share information.
+  * Website: https://fedoraproject.org/wiki/CommOps
+  * IRC channel: #fedora-diversity
+
+Classroom
+* The bash class is unfortunately canceled. If someone else would like to teach it, please let us know.
+* Update on the C class by halosghost - He has an idea for a fourth project (it'll be the implementation of a basic data structure; probably a linked list), and he's likely to reorganize which projects are on which sessions. Once that's all done, that'll be four of the six sessions fully planned. He's also working on a small Makefile that they will include and provide to students which will be usable for each project. Or, at least, will be a good skeleton for each project's Makefile.
+* polyzen has offered to teach a class on git basics.
+
+Tigrfluff asked for the progress on renaming the files of meeting notes. The redirect rule for lighttpd is already crafted. Links on the wiki will still need to be edited. Links on the mailing list will go through the redirect.
+
+demize asked why the moon is made of cheese.
+* spider-mario attributes it to Wallace.
+* meskarune said ancient humans got into a contest to see who could make the biggest cheese and it got out of hand.
