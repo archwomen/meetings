@@ -1,0 +1,27 @@
+Arch Women 46th IRC meeting
+
+The wiki is getting hit by a spammer. We currently have a simple CAPTCHA. We are using http://www.dokuwiki.org/plugin:captcha. Some ideas for countering the spam are,
+	* stronger captcha, perhaps reCaptcha https://www.dokuwiki.org/plugin:recaptcha
+	* blacklist certain topics https://www.dokuwiki.org/blacklist
+	* move to OpenID
+	* See also https://www.dokuwiki.org/antispam .
+
+Classroom
+	* C Programming class by halosghost - More feedback on the syllabus as it stands is welcome. https://ptpb.pw/r/~alcclass
+	* Git Basics class by polyzen. https://pad.riseup.net/p/archlinux-git-class
+
+Meetings
+	* Renaming of meeting notes files still needs to be done. Any volunteers?
+		* tigrmesh will talk to polyzen and get back to us.
+		* When the files are renamed, fsckd will edit lighttpd's config so that the old URLs are redirected to the new names.
+	* Need volunteers to help run meetings. Specifically we need people who can make log files and help draft meeting notes. Everything gets saved in git repositories.
+		* Automate using a meeting bot.
+			* https://wiki.ubuntu.com/meetingology
+				* Source: https://code.launchpad.net/~ubuntu-bots/ubuntu-bots/meetingology
+			* https://wiki.debian.org/MeetBot ancestor of Meetingology
+			* Create a plugin for meskarune's bot.
+
+Sharing Resources with other FOSS groups
+	* linuxmodder, markdude, jflory7 - fedora
+	* belkinsa, amani_glugcal - ubuntu
+	* Have a pad to plan out collaboration: https://etherpad.wikimedia.org/p/Mega_Free_Software_Classroom
