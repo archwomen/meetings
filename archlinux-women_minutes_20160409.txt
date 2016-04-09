@@ -1,0 +1,22 @@
+Announcements and status updates
+  * escondida is taking some time away, thanks for all of the great things you've done!
+
+Server
+  * Switch to python/flask for the website? - #TODO
+
+Classroom
+  * halosghost - C class
+    * On hold for now.
+  * polyzen - Git class
+    * https://pad.riseup.net/p/archlinux-git-class
+  * Volunteers help are welcome. As are suggestions, comments, et al.
+
+
+Other
+  * ng0 writes a "working with git over tor network" short instruction/text for the wiki,
+    * Example case on the youbroketheinternet.org gentoo overlay.
+
+
+Community
+  * Cross distribution events!
+    * Can start with git class maybe? Invite other groups to come and ask them to promote it. - #TODO
