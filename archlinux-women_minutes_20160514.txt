@@ -1,0 +1,32 @@
+Arch Linux Women 48th IRC meeting, 14th May 2016
+
+Announcements and status updates
+* Summer is coming up, and that means more trolls, let's all be vigilant.
+
+Server
+* Work on flask rewrite for the website: https://github.com/archwomen/flask-website
+  * If people have suggestions for the site or want to contribute, please feel free. Even if you are new to programming we can always help you learn.
+  * Demo: http://dev.doloresportalatin.info:5000/
+  * speak volunteers to help and advise. They have experience with flask and webdev.
+
+Classroom
+* [polyzen] Git Class
+  * Create test git repos on Arch Women's server.  #TODO
+    * Make a sign up page with nicks and keys.
+    * Help people to create keys if they don't know how.
+    * Put this on the Arch wiki and link to docs.
+  * Finish up the list of topics to cover, basics should be fine and people can research further and play with test repos.
+    * https://asciinema.org/ (or https://ptpb.pw [see /t]) Could create an example of git/clone with asciinema and post to ptpb.pw or another pb instance.
+  * Maybe we can set a date for 1-2 months? Tentative date: July 16th.
+    * Post to AW wiki.  #TODO
+
+Community
+* Change IRC rules to make it clear we will preemptively ban due to X criteria, such as neo-nazism on other sites, trolling in other Arch Linux channels or involvement in gamer gate. - voted yes, we'll work on a draft
+* Inter-group connections with Ubuntu, Fedora, and Linux Chix. - get a list of contacts  #TODO
+* Research what policies Arch Linux has in place for removing community members and document them for posterity.  #TODO
+  Create an Arch wiki page "how to report" or whatever and list information on reporting abuse in the wiki, forums, and mailing list, etc.
+
+Final comments, questions, etc.
+* Arch Linux wiki admins will discuss an #archlinux-wiki IRC channel and possibly have a monthly cleanup event.  #TODO
+* AW wiki cleanup will be next Saturday, May 21th and one week later Saturday, May 28th.
+  * Announce on AW mailing list.  #TODO
