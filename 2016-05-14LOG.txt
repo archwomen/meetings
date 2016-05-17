@@ -1,0 +1,483 @@
+18:12 <@meskarune> ok I'm gonna start I guess, for new people, the riseup pad is available for everyone to help take notes during the meeting: https://pad.riseup.net/p/archwomen-may-meeting
+18:12 < phrik> Title: Riseup Pad (at pad.riseup.net)
+18:12 <@meskarune> And the meeting agenda is here: https://archwomen.org/wiki/meetings:2016_may
+18:12 < phrik> Title: 48th IRC Meeting [Arch Women Wiki] (at archwomen.org)
+18:12 <@meskarune> ==== Meeting Starts ====
+18:12 <@meskarune> First announcements, summer is coming up and there will be an increase in trolling, please let the OPs know if you see anything :)
+18:13 <@meskarune> kk next, classroom
+18:14 <@meskarune> idk if polyzen is around?
+18:14 <@meskarune> if not I can ask again in a bit :O
+18:15 <@meskarune> So server things, I've been working on a rewrite of the site in python that uses markdown files: https://github.com/archwomen/flask-website
+18:15 < phrik> Title: GitHub - archwomen/flask-website: Website Built with Flask (at github.com)
+18:15 < halosghost> [polyzen] is away: AFK
+18:15 <@meskarune> It would make contributes easier/fast for people
+18:15 <@meskarune> halosghost: thanks
+18:15 < halosghost> :)
+18:15 <@meskarune> I think we can still maybe set a soft date for the class in 2 months
+18:15 < fsckd> sounds good
+18:15 <@meskarune> and move it up if things progress, the planning is pretty well done,so there are some admin things to do
+18:16 <@meskarune> Anyways, if people have suggestions for the site or wanna contribute code please feel free, even if you are new to programming
+18:16 <@meskarune> we can always help you learn
+18:16 < speak> meskarune: Flask is awesome :) (just started using it)
+18:16 <@meskarune> yeah, I really like it :D
+18:17 <+tigrmesh> hi.  i'm sorry i'm late.  and i'll probably have to leave early.  an elderly neighbor fell, and they think they might need for her to go to the emergency room.  they'll let me know in a while
+18:17 < polyzen> hi hi
+18:17 < polyzen> 2 months sounds good
+18:17 < alad> tigrmesh: D:
+18:18 <@meskarune> http://dev.doloresportalatin.info:5000/
+18:18 < phrik> Title: Arch Linux Women | Home (at dev.doloresportalatin.info:5000)
+18:18 <@meskarune> quick live demo
+18:18 < alad> meskarune: spot the 10 differences? :P
+18:18 <@meskarune> There is syntax highligting in the about page as a test
+18:18 <@meskarune> alad: lol
+18:18 <+tigrmesh> pretty
+18:19  * polyzen thought it was in production already :p
+18:19 <@meskarune> haha
+18:19 <@meskarune> not yet :)
+18:19 < alad> oh, that syntax stuff is fancy
+18:19 <@meskarune> I need to write an rss feed parser thing
+18:19 <@meskarune> alad: its pygments :D
+18:20 < speak> I might be able to help with Flask related stuff if specific questions pop up, even if I don't have time to properly contribute
+18:20 <+tigrmesh> woo!  """Test code for syntax highlighting!"""
+18:20 < alad> meskarune: also I'd say the bigger font is an improvement
+18:20 <@meskarune> that would be great speak, thank you. I can always use a person to pick at their brain :)
+18:20 < alad> meskarune: though I'd perhaps go with something inbetween the old site and this
+18:20 <@meskarune> alad: it also has a fancy new mobile menu :)
+18:21 < speak> I've just done sqlalchemy / login kinda stuff, basic but useful!
+18:21 <@meskarune> if you make the site small or look at it on mobile
+18:21 < speak> Cool meskarune 
+18:21 <@meskarune> right now it is a bit slow, but in production we would have a cache
+18:21 < alad> meskarune: actually I forgot my browser has a zoom button -_-'
+18:21 <@meskarune> so that it is faster
+18:21 <@meskarune> hehe
+18:22 < polyzen> https://ptpb.pw/synY.png
+18:23 < polyzen> i don't think people use devices that small
+18:23 < polyzen> :p
+18:23 < polyzen> aligns properly in 360x640
+18:24 <@meskarune> hehe
+18:24 <@meskarune> but if they do, the site is still usable lmao
+18:24 <@meskarune> ok git class :D
+18:25 <@meskarune> thanks for being here polyzen :D
+18:25 < alad> um, I still had one question on the https://archwomen.org site if that's ok
+18:25 < phrik> Title: Arch Linux Women (at archwomen.org)
+18:26 < fsckd> alad: sure, go ahead :)
+18:27 < alad> https://ptpb.pw/cuhI.png
+18:27 < alad> "Insecure information on this page has been blocked"
+18:27 <@meskarune> alad: oh sure
+18:27 <@meskarune> alad: its still in dev atm
+18:28 < alad> oh, ok
+18:28 <@meskarune> oh archwomen.org is the live homepage, do you know what is inssecure?
+18:28 <@meskarune> does your browser allow you to list things?
+18:29 <@meskarune> well, maybe I can open a bug report and investigate more after the meeting ;)
+18:29 <@meskarune> thanks alad 
+18:30 < alad> meskarune: gstatic apparently https://www.whynopadlock.com/check.php
+18:31 < phrik> Title: Why No Padlock? - Why is my SSL web page insecure? Find the culprit! (at www.whynopadlock.com)
+18:31 <@meskarune> aw, thank you
+18:31 < alad> hope it helps
+18:32 <@meskarune> alad: it does, and the new site actually removes all that :)
+18:32 <@meskarune> I think I will make a push to replace soonish
+18:32 <@meskarune> since its mostly done
+18:32 < alad> \o/
+18:33 <@meskarune> ❤ 
+18:33 <@meskarune> ok, git class \o/
+18:34 <@meskarune> polyzen: I was thinking we could create test git repos this month on AW's servers or whatever server would work
+18:34 <@meskarune> and set a date 2 months from now for the class
+18:34 <@meskarune> and then make a push to finish up the class plan/agenda or whatever
+18:36 <@meskarune> maybe we can use the dev.archwomen.org server
+18:36 <@meskarune> or github
+18:36 <@meskarune> maybe we could also demo creating and adding something to the AUR
+18:37 < polyzen> hmm
+18:39 < alad> I'd like to suggest to reduce our use of github, because of its proprietary nature and general tendency to attract trolls
+18:40 < polyzen> last time someone brought up not wanting to use github as that being third-party or w/e
+18:40 < alad> k
+18:40 < polyzen> going to assume that if they don't know git basics, they don't have a github account :p
+18:41 < polyzen> not sure how difficult it'd be to add a user for each person
+18:41 < polyzen> on AW's server
+18:41 < alad> polyzen: but for git basics you can do stuff locally?
+18:41 < alad> not sure it has to be remote right away
+18:41 < polyzen> right
+18:41 <@meskarune> I was thinking we could have a git user for people to use
+18:41 <@meskarune> and either set a temp password for the class, or have people give us keys
+18:42 <@meskarune> the test repos will be removed probably a few days after the class
+18:42 <@meskarune> and could always use a chroot or something for security
+18:43 < polyzen> alad, i think push/pull should be included
+18:43 <@meskarune> polyzen: aw has gitolite. Its possible that we could maybe ask people to sign up to the class with a user and key
+18:43 <@meskarune> and then add them all before the class date
+18:43 < polyzen> sgtm
+18:43 <@meskarune> then we just add public keys and users and people would have access to test as much as they like
+18:45 < polyzen> hard to think of a good aur example as everyone uses it differently
+18:46 < alad> maybe AUR is a bit too complicated, as you then have to pull in decent packaging practices
+18:46 < speak> Yeah git is complicated enough as it is :)
+18:46 <@meskarune> I was thinking of just doing an icon theme from gnome look :P
+18:46 <@meskarune> something basic lol
+18:47 < polyzen> !ddg gnome look
+18:47 < phrik> https://duckduckgo.com/html/?q=gnome%20look
+18:47 < fsckd> that might be a lot for one class
+18:47 <@meskarune> how to git clone from AUR, add a basic package build and then push
+18:47 < fsckd> you need an aur account to push
+18:47 < fsckd> may be mention how but having everyone do it might be harder
+18:48 <@meskarune> I know, I could use mine, or maybe make one of those magic terminal video things
+18:48 < fsckd> that's an idea
+18:48 < polyzen> basically all of my pkgbuild's are in one repo, separated by branches
+18:48 <@meskarune> oh, I was thinking to just have one person do it help other people can see how it goes
+18:48 <@meskarune> it would take a very short time
+18:48 < fsckd> magic terminal video :D
+18:49 < fsckd> that pb thing halosghost did
+18:49 < polyzen> pbpst?
+18:49 <@meskarune> https://asciinema.org/
+18:49 < phrik> Title: asciinema - Record and share your terminal sessions, the right way (at asciinema.org)
+18:49 <@meskarune> that, and pb supports it :)
+18:49 < fsckd> polyzen: ahh, pb can host some terminal playback thing. it is cool.
+18:49 <@meskarune> so someone can record a simple AUR git clone/push
+18:49 <@meskarune> just as an example
+18:49 < polyzen> fsckd, i think you mean https://ptpb.pw/r
+18:49 < fsckd> yeah asciinema
+18:50 < fsckd> polyzen: no... what meskarune linked to
+18:50 < polyzen> ah
+18:50 < polyzen> that's not related to pb nor hg :p
+18:50 < polyzen> hence muh confuse
+18:50 < fsckd> polyzen: pb can render it
+18:51 < fsckd> polyzen: eh, host it
+18:51 < polyzen> o.O
+18:51 < halosghost> polyzen: /t actually
+18:51 < fsckd> polyzen: and halosghost was the one who showed me which is why i mentioned him
+18:51 < polyzen> status: not found
+18:51 < halosghost> polyzen: give me a sec
+18:52 < polyzen> nice
+18:52 <@meskarune> I think we could demo a few git things using that
+18:52 <@meskarune> it would be faster than explaining I think
+18:52 < halosghost> polyzen: https://ptpb.pw/t/ahWL
+18:52 < phrik> Title: pb (at ptpb.pw)
+18:52 < alad> asciinema is dope
+18:53 < fsckd> magic terminal video \o/
+18:53 < polyzen> /o/
+18:53 < fsckd> \o\
+18:53 < alad> /o\
+18:53 < polyzen> dope indeed
+18:53 < halosghost> polyzen: if you use pbpst, -S has learned -t (which works like -r, but for files made with asiinema)
+18:54 < alad> fancy
+18:55 < polyzen> so what does -r do? :p
+18:57  * polyzen got the idea to use one repo with a pkgbuild-per-branch from demize
+18:57 < polyzen> not sure if anyone else does that
+18:57 < fsckd> cool
+18:57 < polyzen> too "complex" for this imo
+18:58 <@meskarune> ok, so maybe we can make a todo for this month
+18:58 <@meskarune> create the test repos, and create a signup for people and help them to make keys if they don't know how
+18:58 <@meskarune> then maybe a week before the class or so we can add all the users
+18:59 <+tigrmesh> i'm sure fsckd has probably already created a wiki page about how to make keys
+18:59 <@meskarune> yeah, there are lots of good guides about doing that
+18:59 < polyzen> too many :p
+18:59 <@meskarune> haha
+19:00 <@meskarune> we can pick a good one to link people to :)
+19:00 <+tigrmesh> i mean on the archwomen wiki
+19:00 <+tigrmesh> he's awesome at documenting things
+19:00  * fsckd blushes
+19:00 < fsckd> i'm not sure i did for this
+19:00 <+tigrmesh> ah
+19:00 < fsckd> may be for gitolite?
+19:00 <+tigrmesh> ok
+19:01 < polyzen> doesn't ssh-keygen instruct you along the way?
+19:01 <@meskarune> polyzen: yeah :)
+19:01 <@meskarune> its not too hard to do
+19:01 <+tigrmesh> before meeting and after meeting checklists, fsckd 
+19:01 <@meskarune> just new users are new users heh
+19:01 < fsckd> tigrmesh: i try :)
+19:01 <+tigrmesh> :)
+19:02 < fsckd> tigrmesh: i have lots of stuff i want to add to the wiki but they are in vim swap files left over from crashes
+19:02 <+tigrmesh> dang
+19:02 < polyzen> meskarune, perhaps one could be picked if someone mentions having troubles making one?
+19:02 < fsckd> tigrmesh: haven't had time to go through them. may be this month.
+19:02 <@meskarune> yeah, or we could make a simple one
+19:02 <+tigrmesh> k  :)
+19:03 <@meskarune> basically, how to make a key, where are public keys saved, and how to get the key to share with others
+19:03  * polyzen prefers to link to upstream as opposed to duplicating info
+19:03 <@meskarune> totally
+19:03 <@meskarune> so lets do that, and link to creating keys on the class signup
+19:04 <@meskarune> maybe we can put that on the arch wiki under classroom
+19:04 <+tigrmesh> link to good docs
+19:04 <@meskarune> and people can add themselves to a list, or ask some of us to add them
+19:04 <@meskarune> yeah
+19:04 < polyzen> or perhaps route them here
+19:04 <@meskarune> yeah totally
+19:05 <@meskarune> and then we advertise the hell out of it so people sign up before hand
+19:05 <@meskarune> :)
+19:05 <@meskarune> polyzen: with the class planning, id the teaching topics mostly hashed out?
+19:06 <@meskarune> I think for the git class page on the arch wiki we can add links to more resources like ebooks on git and tutorials and things
+19:06 < polyzen> not really. mostly barfed out
+19:06 <@meskarune> haha
+19:06 <@meskarune> I can organize it more
+19:06 < polyzen> probably missing something/s. needs a bit more organization
+19:06 <@meskarune> probably the best way to learn git is to use it
+19:06 <@meskarune> polyzen: do you think that would be done in ~2 months?
+19:06 < polyzen> sure
+19:07 <@meskarune> so maybe we can set a soft date for the class
+19:07 <@meskarune> in july
+19:09 <@meskarune> polyzen: do know what your schedule will be like?
+19:10 < polyzen> i do not
+19:10 <@meskarune> oh ok, well, do you prefer afternoon or evening and weekdays or weekends? :)
+19:10 <@meskarune> maybe I could set like, july 16th, its a saturady
+19:11 < polyzen> sgtm :p
+19:11 <@meskarune> just a softdate and we can reschedule 
+19:11 <@meskarune> sooner if we get things done really fast, or later if we need
+19:11 <@meskarune> kk awesome
+19:12 < polyzen> probably push it up if there is enough interest. that might cause issues, though
+19:12 <@meskarune> its 2 months out now, so I think that gives us some time/wiggle room
+19:12 < polyzen> si
+19:12 <@meskarune> maybe I can teach a class on git myself after doing the one with you :)
+19:13 < polyzen> the more the merrier
+19:13 <@meskarune> I am not really super strong with git, at least some of the more esoteric things
+19:13 <@meskarune> so if we push the date up and have a class we could do july 16th too as a second round
+19:13 <@meskarune> I want to see us regularly do git classes and pkgbuild classes
+19:14 < jy2wong> ++
+19:14 <@meskarune> those are both super relevant to getting people to contribute
+19:14 < polyzen> train people in the way of the ARch
+19:14 <@meskarune> for the git classes we can recruit some students from linux chix, ubuntu women, etc
+19:15 <@meskarune> make sure they know we have female mods in channel and that it is a fine enviroment for them
+19:15 < jy2wong> sorry if it was linked to earlier. have a link to the got classroom materials?
+19:15 < polyzen> https://pad.riseup.net/p/archlinux-git-class
+19:15 < phrik> Title: Riseup Pad (at pad.riseup.net)
+19:16 < polyzen> do any of you use asp
+19:16 <@meskarune> I do not 
+19:16 < alad> dreisner's thing?
+19:17 < polyzen> yes
+19:17 < alad> yes, I do
+19:17 < alad> btw, there's git.archlinux.org now
+19:17 < jy2wong> what level is this classroom aimed at?
+19:18 < polyzen> Git Basics/Crash-Course
+19:18 <@meskarune> yeah, its to get people started
+19:19 < alad> man git-tutorial, git-tutorial-2
+19:19 <@meskarune> sorta a workshop/intro type of thing, and then we can link extra resources
+19:19 < alad> should def by linked to :)
+19:19 < polyzen> maybe pick a few exercises and put up a poll to choose one
+19:19 < alad> s/by/be
+19:19 < polyzen> alad, did not know those were things :p
+19:19 <@meskarune> I really think that once people get the basics of git they can run with it
+19:19 <@meskarune> its just getting started that can be hard
+19:19 < alad> polyzen: git upstream docs is some of the best I've seen :)
+19:19 < jy2wong> suggestion: take the time to explain why you need to add and commit changes in different steps
+19:20 <@meskarune> maybe after the meeting we can work more on the git class content :)
+19:21 < jy2wong> okay :)
+19:21 <@meskarune> we now have a list of todo's to get done 
+19:21 <@meskarune> \o/
+19:21 < fsckd> Yay
+19:21 < polyzen> jy2wong, noted
+19:22 < alad> also, make the importance of good commit messages clear right away
+19:22 < polyzen> alad, thinking of adding excerpts of http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+19:22 < phrik> Title: tbaggery - A Note About Git Commit Messages (at tbaggery.com)
+19:22 <@meskarune> ++
+19:23 <@meskarune> sounds good to me
+19:23 < polyzen> or add that as a pre-requisite ;p
+19:23 < polyzen> probably not
+19:23 < alad> polyzen: well, that makes the technical parts clear, but it doesn't tell you on how to write the actual content :)
+19:23 < polyzen> (do they even know what a commit is? :p)
+19:23 < alad> "More detailed explanatory text, if necessary."
+19:23 < alad> could use some expanding on
+19:24 < alad> I mean not "Good Technical Writing 101"
+19:24 < alad> but just some general tips
+19:24 < polyzen> hmm
+19:24 < polyzen> not sure how to accomplish that, but will think about it
+19:27 <@meskarune> sounds good to me
+19:27 < alad> wfm
+19:27 <@meskarune> ok, I'm going to move to the next item on the agenda :)
+19:27 < polyzen> :)
+19:27 <@meskarune> pre-emtively banning people
+19:28 <@meskarune> this would be an official additional to the arch women irc rules
+19:28 <@meskarune> to make it clear for new people that if they are being toxic in other places they can be banned here
+19:28 < alad> I'd vote to include bans from the archwiki – people are pretty rare to be banned there (maybe 1-3 a year), but when it happens, it's for bad offenses
+19:29 <@meskarune> ok
+19:29 <@meskarune> we already have a private watch list the mods use to keep track of previous bans and trolls from other communities
+19:29 <@meskarune> I think the past we have mostly waited to ban until someone actually trolls here
+19:30 < fsckd> We've preemptively banned in here.
+19:30 < alad> if you do a pre-emptive ban, how do you make sure to "connect" the accounts ?
+19:30 < alad> I mean, find out the right account for the troll
+19:30 <@meskarune> fsckd: yeah, but there are also times when we haven't for edge cases
+19:30 <@meskarune> I think the times where we did, the person was REALLY bad in other parts of the community
+19:30 < alad> this assumes the troll hasn't been active in the channel yet
+19:31 < fsckd> Yes
+19:31 <@meskarune> alad: right now we have a private document that the irc ops use
+19:31 <@meskarune> for trolls we can put known nicks/emails/domains or whatever
+19:31 <@meskarune> and group associations
+19:32 <@meskarune> it helps to keep up with all the trolls long term, we get a lot of them here
+19:32 < alad> oh, ok
+19:32 < polyzen> ircops or #a-w ops?
+19:32 <@meskarune> aw
+19:32 < alad> maybe both should coordinate
+19:32 <@meskarune> I don't know how arch linux keeps track of their bans
+19:32 < alad> if they don't already
+19:32 <@meskarune> tigrmesh is an op in both
+19:32 < alad> polyzen: I read that IR cops
+19:32 < fsckd> alad: buhman is banned in here preemptively.
+19:33 < alad> right
+19:33 < polyzen> why? o.O
+19:33 < polyzen> and lol alad
+19:33 < fsckd> As are some other trolls.
+19:34 < polyzen> why? fsckd | alad: buhman is banned in here preemptively.
+19:34 < polyzen> he's trolled here? o.O
+19:34 < polyzen> he's a troll..?
+19:34 < fsckd> He hasn't been in here.
+19:34 < polyzen> wat
+19:34 < fsckd> He was banned in the main channel. On advice of the ops of main channel we banned him here.
+19:35 < polyzen> he's no longer banned there
+19:35 < fsckd> Here is banned from classroom for trolling in classroom.
+19:35 < polyzen> and i don't see why any op/s would suggest banning him here xD
+19:35 < polyzen> ah
+19:36 < fsckd> polyzen: They dif and it was done.
+19:36 < polyzen> he is a dick or whatever term you'd prefer, but not a troll afaik
+19:36 < fsckd> did*
+19:36 < polyzen> didn't say they didn't
+19:36 < polyzen> :p
+19:36 < alad> polyzen: I prefer the term "douchebag"
+19:36 < polyzen> ..though i could see him trolling -classroom
+19:36 < polyzen> :p
+19:36 < alad> polyzen: anyway, back to to meeting matters, k
+19:37 < polyzen> this concerns pre-emptive bans
+19:38 < fsckd> What matters is how much we trust the person not to cause problems.
+19:38 < polyzen> preemptive*
+19:38 <@meskarune> polyzen: he was intentionally causing trouble in -classroom instead of being helpful, and has said things I don't think people here would appreciate
+19:38 <@meskarune> but I've worked with him on some projects too
+19:38 < polyzen> just silly to hold a ban for someone who would never join here
+19:38 <@meskarune> just, there are time/place for that lol
+19:39 <@meskarune> polyzen: idk, we both worked at the same company and lived in the same town
+19:39 <@meskarune> its possible he might 
+19:39 <@meskarune> but anyways, its not like it hurts anything if he doesn't decide to ever join
+19:39 < polyzen> did not know that
+19:39 < speak> Anyway I don't get why the long discussion. He's an arse; he's banned; all is well.
+19:39 < speak> Next subject! :P
+19:39 <@meskarune> haha yeah
+19:39 < fsckd> Haha
+19:39 < polyzen> heh
+19:39 < alad> speak: +1
+19:40 <@meskarune> so I guess adding the preemptive ban rule is yay
+19:40 <@meskarune> and I will add a list of criteria to it
+19:40 < polyzen> seems like it needs some fine-tuning first
+19:40 <@meskarune> its not like we will just ban arbitrarily
+19:40 <@meskarune> like, if someone is being very racist/sexist and causing issues in other arch linux channels then it seems prudent to ban
+19:41 < speak> polyzen: I think you're the only one who has any issues with it, and I'm not even sure what your issue is
+19:41 < polyzen> i have no issues with it
+19:41 < polyzen>    polyzen | ircops or #a-w ops?
+19:41 < polyzen> @meskarune | aw
+19:41 < polyzen>       alad | maybe both should cood so many :p
+19:43 < fsckd> Yup
+19:44 < fsckd> What we saw recently is someone trolling on a number of channels but still allowed in one channel.
+19:45 < fsckd> The ops were informed of y the toxicity but the still were like, not our problem.
+19:45 <@meskarune> polyzen: basically, if they join here and have social media with racist stuff, we would ban even if they haven't trolled directly in channel, and if someone is really bad in the other arch channels and gets banned we would have to decide if we want to ban here too
+19:45 < polyzen> fsckd, and then?
+19:45 < polyzen> the troll joined their channel?
+19:45 <@meskarune> thats another issue
+19:45 < fsckd> The troll was already in their channel.
+19:45 <@meskarune> polyzen: if you like, you can help with the rule write up
+19:46 <@meskarune> I will probably put it in an etherpad and post here for anyone to help with edits
+19:46 < polyzen> fsckd, that's just dumb lol
+19:46 < polyzen> !define preemptive
+19:46 <@meskarune> I just want to make it clear so that people realize their actions in other places have an effect here
+19:46 < phrik> polyzen: gcide: Preemptive \Pre*["e]mp"tive\, a. Of or pertaining to pre["e]mption; having power to pre["e]mpt; pre["e]mpting. [1913 Webster]; wn: preemptive adj 1: designed or having the power to deter or prevent an anticipated situation or occurrence; "a preemptive business offer" [syn: {preemptive}, {pre-emptive}]
+19:46 < polyzen> i figured that meant banning before they even joined
+19:46 <@meskarune> polyzen: no, just banning before they cause trouble
+19:47 <@meskarune> I hope that makes sense
+19:47 < polyzen> it does
+19:47 < fsckd> Sorry for confusing you.
+19:47 <@meskarune> we won't just ban willy nilly, we'll define it in the irc rule
+19:48 <@meskarune> so if a person has a ton of twitter posts that are racist they would be banned here even if they aren't trolling here and just lurking
+19:48 <@meskarune> I think that would prevent issues in the future
+19:48 < polyzen> pretty sure that's already enforced, so just writing the rule up
+19:48 <@meskarune> of course we don't research every person in channel, but if it gets pointed out then we would take action
+19:49 <@meskarune> polyzen: yeah, basically, so people don't think its ok to make rape jokes in -offtopic and hang out here also
+19:49  * MarkDude is hoping we can get someone to volunteer to help with cannibal troll efforts, there are some limits to what can be done. But for other projects, showing causality will help. (PM me if interested.)
+19:49 < polyzen> meskarune, gotcha
+19:49 < polyzen> MarkDude, what does that even mean :p
+19:50 < alad> ^
+19:50 < MarkDude> Thats about as much as I can say in public, but these folks are treating as a game
+19:50 < fsckd> If a person in this channel is raiding other channels but sweet as a pea here, well still ban them.
+19:50 < MarkDude> And they can use rules of channel to hide so to speak
+19:50 < MarkDude> They use some to recruit
+19:50 < fsckd> polyzen: coordinate
+19:51 < polyzen> fsckd, wat
+19:51 < fsckd> cannibal
+19:51 < MarkDude> fsckd: I agree. But for other places in FOSS, they have differing policies. Using sunlight as disinfectant should help
+19:51 <@meskarune> lol, ok, I'm gonna move to the next thing since this one has been decied :P
+19:51 < speak> Yes please
+19:51  * MarkDude is done
+19:51 < MarkDude> :)
+19:51 <@meskarune> ❤ 
+19:52 < polyzen> how does cannibal trolling mean coordinated trolling o_o
+19:52 < polyzen> should it mean they go after each other
+19:52 < polyzen> shouldn't*
+19:52 < MarkDude> We waste their time
+19:52 < Mark < ng0> mostly I gather this time it's about trolls and cordination with other projects?
+20:05 <@meskarune> yeah :)
+20:05 < fsckd> I know we spoke with UW folks about coordination. They were fairly receptive.
+20:06 < fsckd> Has anyone spoken with Linux Chix?
+20:09 <@meskarune> we spoke with them before about sharing mentors
+20:09 <@meskarune> I think we need to decide how to setup the mentor program for people to sign up
+20:10 <@meskarune> we have also been in contact with fedora
+20:10 <@meskarune> MarkDude is part of them
+20:13 <@meskarune> so I think maybe we should get a list of contacts so have have people who we know to talk to in each project
+20:14 <@meskarune> and then I've been hanging out in various project channels
+20:14 <@meskarune> So last thing in the meeting, I was wondering what the current policy is in arch linux for removing community members
+20:14 <@meskarune> or if there was even a policy that currently exists, and if that could be documented on the wiki or whatever
+20:15 < fsckd> what do you mean by community members?
+20:15 <@meskarune> like say, a dev or TU is being abusive
+20:15 <@meskarune> or an IRC OP or whatever
+20:15 < alad> I thought positions like that were pretty much permanent
+20:16 <@meskarune> just to be clear, I am not saying there is currently a problem
+20:16 <@meskarune> I am just wondering for reference
+20:16 < ng0> maybe an unwritten policy exists, like some policies in torproject
+20:16 < alad> meskarune: fwiw, in archwiki, if an administrators goes against the forum etiquette or contribution guidelines, he's first warned, then his admin title removed, then banned
+20:16 <@meskarune> oh ok
+20:17 <@meskarune> do you guys have abuse reporting in place, like would people email the admins or whatever?
+20:17 < alad> also if you start using a different account, without making this very clear, you're verly likely to lose your admin rights too
+20:17 < alad> meskarune: yeah, write a mail to an active admin
+20:17 < alad> meskarune: https://wiki.archlinux.org/index.php/ArchWiki:Administrators
+20:17 <@meskarune> I sorta want to make an arch wiki page called something like, "reporting abuse or reporting issues with guildlines" or whatever
+20:17 < phrik> Title: ArchWiki:Administrators - ArchWiki (at wiki.archlinux.org)
+20:18 <@meskarune> and then have information for the wiki, irc, the forums, etc all in one place
+20:18 < fsckd> There's an email to contact if a forum moderator or admin is abusive. It is documented in the Forum Etiquette.
+20:18 < fsckd> Also can email another moderator directly.
+20:18 <@meskarune> yeah, but I think having a wiki page with all the infos together would be good
+20:18 < fsckd> Yes.
+20:18 < fsckd> I agree.
+20:19 < MarkDude> +1
+20:19 <@meskarune> people should be away such things exist and how to use them
+20:19 < MarkDude> The trolls are coordinating, we should too
+20:19 < alad> meskarune: that should be coordinated with the IRC ops and forum admins where possible
+20:20 < alad> but I agree on having stuff in one place
+20:21 < MarkDude> We also have to be mindful of picking our battles- trolls like to focus on perceived gray areas.
+20:22 < fsckd> The fragmentary nature of the Arch community means information is scattered. Having a single place is more accessible.
+20:22 < fsckd> MarkDude: very true
+20:22 < MarkDude> Micro-aggressions are real, but, to much focus on them could take away form things. To me its dividing things into felony and misdemeanor 
+20:23 < MarkDude> focus on felony type things
+20:23 < MarkDude> (This is how laws are in US.) 
+20:24 < MarkDude> Trolls oaw wiki
+20:39 <@meskarune> ok
+20:39 <@meskarune> do people have time next weekend?
+20:39 < alad> meskarune: I've been thinking of a separate channel for some time now
+20:39 <@meskarune> or the weekend after?
+20:39 < alad> meskarune: until now, most wiki issues were discussed in the main channel
+20:40 <@meskarune> alad: I fully support the idea :)
+20:40 < alad> ok then :)
+20:40 < pid1> o/
+20:40 < polyzen> o/
+20:40 <@meskarune> then you can have a monthly wiki cleanup 
+20:40 < alad> pid1: hey
+20:40 <@meskarune> or a place for people to coordinate wiki edits
+20:40 <@meskarune> alad: maybe you can make the channel as founder or another wiki admin :)
+20:41 < alad> meskarune: sure, I'll bring it up to the team – would be nice if all them would join
+20:41 <@meskarune> yeah, totally
+20:41 <@meskarune> I'd def participate
+20:42 < polyzen> same
+20:44 <@meskarune> and I guess I'll set an aw wiki cleanup for next sat and the sat after
+20:44 <@meskarune> so 2 days to sorta work on that
+20:44 <@meskarune> whomever is around to do so
+20:46 <@meskarune> ok I added to the notes
+20:46 <@meskarune> anything else ?
+20:46 <@meskarune> :D
+20:46 < MarkDude> Good meeting, so many ideas in my head now. Rock on AW \o
+20:46 <@meskarune> :)
+20:46 <@meskarune> thanks
+20:47 <@meskarune> ok, I am goign to go ahead and end :)
+20:47 < MarkDude> Wiki edits are such a good way to get new folks involved
+20:47 <@meskarune> YES totally
+20:47 <@meskarune> and having good docs helps the whole community
+20:48 <@meskarune> if we had a cleanup monthly then the wiki would kept very nice :)
+20:48 <@meskarune> ok
+20:48 <@meskarune> ==== Meeting End ====
