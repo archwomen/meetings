@@ -1,0 +1,31 @@
+== Announcements and status updates ==
+
+* Arch Wiki Anniversary and Clean up this weekend! yay!
+* New OP Elky, thanks for your help
+* Fedora Women Day event: https://fedoraproject.org/wiki/Fedora_Women_Day%2716_at_Open_Labs_Hackerspace
+    * broadcast over Google Hangouts
+    * go hear how other women got started with Linux
+* Arch Linux now has a Code of Conduct for the whole project
+* Verrlara is a new Arch Linux user and has made a  blog about her experiences at http://verrling.us
+
+== Topics for discussion ==
+
+=== Server ===
+
+* Setting up Ansible for automated administration
+* Wiki theme updates [todo]
+* flask website [todo]
+
+=== Projects ===
+
+* Classroom
+    * GIT class [polyzen]
+        * Asciinema have been created and class topics at https://pad.riseup.net/p/archlinux-git-class
+        * Please signal-boost by sharing links among groups you think would be interested
+
+=== Community ===
+
+* Let's adopt the code of conduct rules along with the current community standards
+    * use the Arch-wide standards, then add-on stuff specific to Arch-Women
+    * the Code is supposed to apply to the whole Arch community anyway
+    * would set a good example for similar Arch sub-communities
