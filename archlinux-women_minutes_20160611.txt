@@ -1,0 +1,28 @@
+Arch Women IRC meeting - June 11
+================================
+
+Announcements and status updates
+--------------------------------
+
+* New channel #archlinux-wiki for wiki discussion
+* New Arch Linux Code of Conduct - https://wiki.archlinux.org/index.php/Code_of_conduct
+
+Server
+------
+
+* flask website - need to setup system so it can run/update
+* Wiki theme updates - todo
+
+Projects
+--------
+* git class - July 16th
+    * This is an active workshop 
+    * We have created test a repo called "playground" for people to use during the class
+    * Still need to make arch wiki sign up page, login nick + public key
+    * Still need to create some asciinema's and upload to ptpb.pw
+    * Status on class setup [polyzen] - check in in 2 weeks and set a hard date for the class
+
+Community
+---------
+* Had AW wiki cleanup may 21th: and 28th, should we set more dates?
+* June 24th, cleanup AW wiki again
