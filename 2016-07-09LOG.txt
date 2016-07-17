@@ -1,0 +1,168 @@
+2016-07-09 16:18:45	@meskarune	====== Meeting Starts ======
+2016-07-09 16:18:51	fsckd	wait
+2016-07-09 16:19:02	@meskarune	oh hi fsckd
+2016-07-09 16:19:04	@meskarune	:)
+2016-07-09 16:19:17	ng0	verrlara: there's also older clients if you're into modifying.. epic5 for example
+2016-07-09 16:19:39	fsckd	meskarune: what is url for notes?
+2016-07-09 16:19:49	qguv	fsckd: https://pad.riseup.net/p/awjuly2016
+2016-07-09 16:19:50	phrik	Title: Riseup Pad (at pad.riseup.net)
+2016-07-09 16:19:50	ng0	https://pad.riseup.net/p/awjuly2016
+2016-07-09 16:19:54	ng0	too slow
+2016-07-09 16:19:58	fsckd	thank you
+2016-07-09 16:20:38	--	ChanServ has changed topic for #archlinux-women from "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Fiftieth IRC Meeting: July 9th, 16:00 UTC. See you there! Agenda: https://archwomen.org/wiki/meetings <|||> If you're having a problem with someone, !awops" to "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Fiftieth IRC Meeting in progress. Channel is publicly logged. Notes: https://pad.riseup.net/p/awjuly2016 <|||> If you're having a problem with someone, !awops"
+2016-07-09 16:20:55	fsckd	meskarune: done :D
+2016-07-09 16:21:06	 *	fsckd recedes into the shadows
+2016-07-09 16:26:21	verrlara	brb
+2016-07-09 16:30:07	@meskarune	ok
+2016-07-09 16:30:16	@meskarune	Announcements
+2016-07-09 16:30:37	@meskarune	This weekend is the anniversary for the arch wiki and they are having a great wiki cleanup :D
+2016-07-09 16:30:46	 *	verrlara cheers
+2016-07-09 16:30:56	@meskarune	You can organize and chat with the wiki admins in #archlinux-wiki
+2016-07-09 16:31:15	@meskarune	and help with getting the beginers guide merged with the install guide
+2016-07-09 16:31:24	@meskarune	so there is only one very good install guide
+2016-07-09 16:31:38	@meskarune	Next is we have a new OP!
+2016-07-09 16:32:05	@meskarune	elky has been an OP in many IRC channels and she has already gotten a ban under her belt lol
+2016-07-09 16:32:14	@meskarune	so I wanna say welcome
+2016-07-09 16:33:09	@meskarune	And then next I wanna mention again that there is a code of conduct for the arch community now and the wiki admins are still editing it if people wanna get invovled in that
+2016-07-09 16:33:25	@meskarune	does anyone have any questions about the announcements?
+2016-07-09 16:35:16	 *	verrlara doesn't think its appropriate to announce stuff about ampache accomplishments. So she stays mum.
+2016-07-09 16:35:28	@meskarune	hehe
+2016-07-09 16:35:53	@meskarune	you did get through an arch install recently, so thats pretty awesome
+2016-07-09 16:36:23	@meskarune	oh, I guess also I should say that fedora women is having a fedora women day event
+2016-07-09 16:36:47	@meskarune	you will be able to go onto a google hangouts and hear about how other women got started with linux
+2016-07-09 16:37:42	@meskarune	I think thats happening on the 17th and there should be announcements on the fedora blog
+2016-07-09 16:37:56	 *	verrlara did get through several arch installs... installing arch on digital ocean vps. Which is unsupportive of arch.
+2016-07-09 16:38:24	 *	verrlara shuts up and listens
+2016-07-09 16:39:01	@meskarune	verrlara: they told me that only 1% of their users used arch but 90% of the support tickets were for arch so thats why they dropped it
+2016-07-09 16:40:00	@meskarune	ok now topics for discussion
+2016-07-09 16:40:05	@meskarune	Server Updates and things
+2016-07-09 16:40:19	@meskarune	We are setting up ansible to automate some stuff with the servers
+2016-07-09 16:40:39	@meskarune	this should free up admin time and make sure the servers stay updated in a timely manner
+2016-07-09 16:40:49	@meskarune	The ansible scripts will be posted in git
+2016-07-09 16:41:16	@meskarune	The arch wiki theme still needs updating
+2016-07-09 16:41:26	@meskarune	if someone wants to try their hand I can walk through that :)
+2016-07-09 16:41:59	@meskarune	otherwise maybe I can do it later tonight
+2016-07-09 16:42:16	@meskarune	And we still need to do the flask site switch over, but I think the server needs maintance first
+2016-07-09 16:43:19	 *	verrlara thinks all shall feel free to delete my comment if its inappropriate to stick it on announcements.
+2016-07-09 16:43:56	qguv	meskarune: updating for fun? or for style? or is stuff broken?
+2016-07-09 16:44:21	@meskarune	python virtual enviroments weren't workign right for me as a regular user but worked for root
+2016-07-09 16:44:31	@meskarune	so I need to figure out why >.>
+2016-07-09 16:44:58	@meskarune	or I guess not use a virtual env
+2016-07-09 16:45:10	@meskarune	and just install python2 and python2-flask
+2016-07-09 16:45:35	@meskarune	and then hopefully flask upgrades to python 3 really soon
+2016-07-09 16:46:50	@meskarune	So I guess projects are up next
+2016-07-09 16:46:57	@meskarune	We have a git class in teh wroks
+2016-07-09 16:47:04	qguv	flask runs on python3 meskarune
+2016-07-09 16:47:13	qguv	!give meskarune apkg python-flask
+2016-07-09 16:47:21	@meskarune	qguv: sorta, and most of the modules for flask are currently python2
+2016-07-09 16:47:41	@meskarune	I looked into being python3 only and it wasn't ideal :(
+2016-07-09 16:47:54	@meskarune	so I want to give them more time
+2016-07-09 16:48:19	qguv	hmm, I've had pretty good success on my sites. if you want to talk about it, we can do it over pm or after the meeting
+2016-07-09 16:48:20	@meskarune	but porting shouldn't be hard
+2016-07-09 16:48:28	@meskarune	oh ok qguv
+2016-07-09 16:48:36	@meskarune	actually the code is on the github now as flask-site
+2016-07-09 16:48:50	@meskarune	https://github.com/archwomen/flask-site I think
+2016-07-09 16:49:13	qguv	s/site/website/
+2016-07-09 16:49:14	@meskarune	but I think I'm going to remove the email contact form maybe and replace with the donation page and just have an @ mailto link
+2016-07-09 16:50:34	ng0	or both, or a picture of the email-address with an alt-text?
+2016-07-09 16:51:13	@meskarune	I was mostly having trouble getting validation working and flashing proper warnings
+2016-07-09 16:51:19	@meskarune	and I want to add in anti-spam
+2016-07-09 16:51:36	@meskarune	this is the first proper flask project I've written lol
+2016-07-09 16:51:42	ng0	there are some script ways for that, flipping around characters etc
+2016-07-09 16:51:53	ng0	i no longer use them, so I'd have to search them in my scripts
+2016-07-09 16:51:59	@meskarune	oh ok :)
+2016-07-09 16:52:04	ng0	pure css i think
+2016-07-09 16:52:11	@meskarune	oh cool
+2016-07-09 16:53:05	ng0	either today or a days after that I can point you to an .git or a webview of a repository which holds this file with where it was sourced from
+2016-07-09 16:53:27	ng0	I'm moving everything today, need to cut down costs.
+2016-07-09 16:54:34	@meskarune	oh ok, thanks ng0
+2016-07-09 16:54:39	@meskarune	I hope your move goes well
+2016-07-09 16:54:51	ng0	I know almost no one uses mailinglists anymore for specific reasons, but will the archlinux.org domain update the mailman to version 3 this year? it has nice fresh features. I'm waiting for gnu.org to update
+2016-07-09 16:55:36	@meskarune	oh I think pierre or bluewind would be the ones to contact since they admin the servers
+2016-07-09 16:57:05	@meskarune	I haven't heard about it, but you could make a flyspray bug report on the mailing list software being out of date
+2016-07-09 16:57:54	@meskarune	er heard about plans to upgrade
+2016-07-09 16:58:08	ng0	it's not my distro, I'm just pointing it out. people are slow in catching up, mostly due to migrating costs i think
+2016-07-09 16:58:36	@meskarune	oh ok, maybe I can open a bug report :)
+2016-07-09 16:58:46	@meskarune	the arch mailing lists are decently busy
+2016-07-09 16:59:36	ng0	okay :) https://mail.python.org/pipermail/mailman-announce/2015-April/000210.html this is the release announcement
+2016-07-09 16:59:37	phrik	Title: [Mailman-Announce] ANNOUNCING: GNU Mailman 3.0 (at mail.python.org)
+2016-07-09 16:59:45	@meskarune	thanks
+2016-07-09 17:01:15	@meskarune	maybe I can set a day to work on the flask site stuff
+2016-07-09 17:01:26	@meskarune	like wednesday evening or soemthing
+2016-07-09 17:01:53	@meskarune	So next item on the list is Arch Classroom
+2016-07-09 17:02:02	@meskarune	There is a git class happening this month
+2016-07-09 17:02:54	@meskarune	polyzen is teaching and I'm co-teaching. We've made some asciinema videos showing how git works and have a signup page and a testing repo for the class and I think the sylabus is mostly finalized
+2016-07-09 17:03:11	@meskarune	https://wiki.archlinux.org/index.php/Classroom/git_2016
+2016-07-09 17:03:12	phrik	Title: Classroom/git 2016 - ArchWiki (at wiki.archlinux.org)
+2016-07-09 17:03:26	@meskarune	thats the sign up page so people can get access to the test repo
+2016-07-09 17:04:01	@meskarune	the class is on July 16th 16:00UTC in #archlinux-classroom
+2016-07-09 17:04:14	@meskarune	if people could signal boost and share links I would appreciate it :)
+2016-07-09 17:04:26	ng0	(verrlara:  Content © Nobody, no rights reserved  is a poor choice, https://creativecommons.org/choose/zero/ (public domain) is what comes close)
+2016-07-09 17:04:27	phrik	Title: CC0 (at creativecommons.org)
+2016-07-09 17:05:23	ng0	okay, I'll share the git class thing on 2 lists which may hold interested people.
+2016-07-09 17:06:01	@meskarune	awesome, thanks
+2016-07-09 17:06:17	@meskarune	I'm going to make a post to the archlinux reddit and some women tech reddits
+2016-07-09 17:06:17	verrlara	ng0: I need to change that. Thats what came with the luapress defaults
+2016-07-09 17:07:35	ng0	for me it'll be a local lgbtiq + political hackerspace and the guix-help (or dev) list, for maybe some people who are not so much into the development might benefit, as we are using git.
+2016-07-09 17:08:12	verrlara	ng0: I will fix that copy right thing right now
+2016-07-09 17:10:35	verrlara	ng0: Should be fixed and rebuilt
+2016-07-09 17:12:18	qguv	ng0: political hackerspace++, sounds cool
+2016-07-09 17:15:30	verrlara	Set it to @ 2016 Anna all rights reserved.
+2016-07-09 17:15:33	ng0	https://blog.space-left.org/about/ which i still need to visit and offer to fix the website and talk, get in contact.. if they had more than one or two days per week it would be easier to just come by.
+2016-07-09 17:15:35	phrik	Title: About space-left (at blog.space-left.org)
+2016-07-09 17:15:59	ng0	moving on, next point is community
+2016-07-09 17:16:00	@meskarune	ok I think the last thing on the agenda is adding to the CoC to our rules page
+2016-07-09 17:16:10	@meskarune	and removing any rules that we have that are redundant with it
+2016-07-09 17:16:23	verrlara	meskarune: ++
+2016-07-09 17:16:45	@meskarune	The arch linux code of conduct sets standards for the whole arch community, and I think it would be a good idea to use it, and then just add on arch women specific stuff
+2016-07-09 17:16:53	@meskarune	on our community standards
+2016-07-09 17:17:04	ng0	https://archwomen.org/wiki/aw-org:irc specifically this page in the topic?
+2016-07-09 17:17:05	phrik	Title: IRC [Arch Women Wiki] (at archwomen.org)
+2016-07-09 17:20:48	@meskarune	ng0: yeah, there is also a community-standards page on the main site
+2016-07-09 17:20:53	@meskarune	we can add to both
+2016-07-09 17:21:08	@meskarune	just like how we note this channel also follows freenode server rules
+2016-07-09 17:22:47	qguv	I think the method of referring to the main standards and then adding on our own would set a good example for similar Arch sub-communities
+2016-07-09 17:23:07	qguv	the Code is supposed to apply to the whole Arch community anyway
+2016-07-09 17:23:17	@meskarune	 yeah, I agree. I've been working on swtiching the archlinux-newbie channel rules to that as waell
+2016-07-09 17:23:18	@meskarune	well
+2016-07-09 17:23:39	@meskarune	and the main irc channels already have their rules integrated into the CoC
+2016-07-09 17:24:21	qguv	meskarune is a busy bee
+2016-07-09 17:24:26	@meskarune	hehe
+2016-07-09 17:24:43	@meskarune	ok, I think that was everything in the agenda
+2016-07-09 17:24:53	@meskarune	so now I'm gonna open up to comments
+2016-07-09 17:25:11	@meskarune	if peopele have requests, or ideas or things they wanna discuss more
+2016-07-09 17:27:54	@meskarune	are people ok with the channel culture here so far?
+2016-07-09 17:27:54	verrlara	Do you think we could have a basic bash coding class?
+2016-07-09 17:28:04	fsckd	yes, we should
+2016-07-09 17:28:11	@meskarune	yeah, I think someone wanted to do core utils or something
+2016-07-09 17:28:18	@meskarune	we just need a teacher
+2016-07-09 17:28:22	verrlara	There are a lot of things I know can be done in bash but I haven't a clue how.
+2016-07-09 17:30:56	fsckd	verrlara: what would you like to know?
+2016-07-09 17:31:08	qguv	I may have someone who would want to teach a shell course
+2016-07-09 17:31:16	@meskarune	that would be awesome :)
+2016-07-09 17:31:35	@meskarune	the classes themselves aren't too hard to plan out
+2016-07-09 17:31:50	@meskarune	you really make a list of topics to cover, then talk about them and answer questions
+2016-07-09 17:32:06	qguv	I'll send them the logs of this meeting for context
+2016-07-09 17:32:26	@meskarune	ok :)
+2016-07-09 17:32:37	qguv	verrlara/fsckd/meskarune: do you have anything in particular you want covered, besides things like coreutils and pipes?
+2016-07-09 17:32:40	@meskarune	verrlara: bash is in the list of requested classes
+2016-07-09 17:33:03	@meskarune	qguv: probably basic if/else, case statements, etc
+2016-07-09 17:33:12	verrlara	fsckd: Would like to have a sort of search and locate script that finds music files in the home dir, moves them to a central location, checks for duplicates and chmods them so that ampache can read them.
+2016-07-09 17:33:39	ng0	you can do it the posix way or the bash way
+2016-07-09 17:33:49	@meskarune	verrlara: so to do that you'd need to use the find and mv commnads
+2016-07-09 17:34:14	@meskarune	verrlara: bash scripts use the same commands that you type into the terminal
+2016-07-09 17:34:26	+tigrmesh	eep reboot
+2016-07-09 17:34:38	@meskarune	hehe
+2016-07-09 17:34:53	verrlara	Alright so find then list the file types, mv (list filetypes and locations from the find script) then chmod?
+2016-07-09 17:35:09	verrlara	Essentially
+2016-07-09 17:35:27	fsckd	yeah
+2016-07-09 17:35:28	ng0	and when you are done, you look at 'parallel' and see how you can shorten the script :)
+2016-07-09 17:35:41	qguv	my friend who I'm thinking of is somewhat of a POSIX sh expert
+2016-07-09 17:36:31	fsckd	nice!
+2016-07-09 17:36:36	@meskarune	oh awesome. Let them know they don't have to do the whole class alone, we can help with writing the syllabus, advertising and helping to find a co-teacher and stuff
+2016-07-09 17:36:36	verrlara	Then I also want to do a script that can talk to my chromebook's libnotify via ssh from a tmux session of weechat so I can get popups saying meskarune(your an example) says she fixed your ampache woes.
+2016-07-09 17:36:43	ng0	i think we are done, aren't we? someone should do the finishing line if no one has further questions/comments :)
+2016-07-09 17:36:51	ng0	ahsorry
+2016-07-09 17:36:57	@meskarune	haha yes :)
+2016-07-09 17:37:14	verrlara	Because me and Meskarune have the problem of missing messages!
+2016-07-09 17:37:17	@meskarune	====== Meeting Ends ======
