@@ -1,0 +1,34 @@
+Arch Women 51st IRC Meeting, 13 August 2016
+
+Announcements and status updates
+  * Just had a git class!
+    * Logs and materials are available.
+  * Flask site is up.
+    * Replaces the PHP pages. Solves the problem with the front page being super slow. Has better mobile support. Pages are in markdown for easier editing. Plan to move the blog to flask as well.
+
+Community
+  * Add Arch CoC to our community rules.
+    * Code of conduct: https://wiki.archlinux.org/index.php/Code_of_conduct
+    * Community standards (includes link to Arch Women IRC rules): https://archwomen.org/community-standards/
+    * Have a section or article on conflict resolution.
+    * Meeting to discuss, hash out, and update on Tuesday, August 16th at around 22:00 UTC.
+
+Classroom
+  * License for class materials will be CC BY-NC-SA for future classes.
+    * A single license for all classrooms for simplicity and ease of reusing materials or remixing from different classes.
+    * ArchWiki interchangeability is no longer a consideration. The ArchWiki's goal is to document Arch specific things for software, not really compatible with hosting tutorials and class materials.
+    * The license of past classes will be determined on a case by case basis.
+  * Lets find some teachers for bash and PKGBUILD.
+    * halosghost and meskarune are willing to help with a PKGBUILD class.
+  * Someone has volunteered to teach a prompt customization class.
+
+Mentoring
+  * Add more mentors to the wiki page. Also looking for people to volunteer as mentors. Mentor identities are not public.
+    * halosghost and pid1 volunteer.
+  * Mentee and mentor sign up forms.
+    * Preference for similar background/experiences, gender, a mentor who is LGBTQA.
+    * TODO fsckd will draft posts for discussion on the AW mailing list.
+  * Setup email group for mentor program - mentorship@archwomen.org, maybe have a mailing list thread?
+    * Public contacts who are prepared to deal with conflicts, abuse, etc.
+
+Final comments, questions, etc.
