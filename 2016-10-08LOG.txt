@@ -1,0 +1,174 @@
+2016-10-08 17:11 <fsckd> ========== meeting.init(Oct 2016) ==========
+2016-10-08 17:12 <fsckd> The meeting notes are in https://pad.riseup.net/p/aw-oct-2016.
+2016-10-08 17:12 <phrik> Title: Riseup Pad (at pad.riseup.net)
+2016-10-08 17:12 <fsckd> First, a couple of announcements.
+2016-10-08 17:13 <fsckd> We have a manual to-do system on the wiki. We're replacing that with something we clal activities.
+2016-10-08 17:14 <fsckd> The to-do system was tedious, trying to simulate a conventional issue system. Which can't be done manually. :P
+2016-10-08 17:16 <fsckd> All we need is simple tracking of what is done and what still needs work. And a place to keep notes on plans, proposals, and things to accomplish.
+2016-10-08 17:17 <fsckd> The wiki is a good place for keeping shared notes. The new activities stuff is documented here: https://archwomen.org/wiki/wiki:activities
+2016-10-08 17:17 <phrik> Title: Activities [Arch Women Wiki] (at archwomen.org)
+2016-10-08 17:18 <fsckd> (We may use one of DokuWiki's many to-do plugins for fine grained assignments. That hasn't been decided yet.)
+2016-10-08 17:18 <halosghost> cool
+2016-10-08 17:19 <fsckd> The next announcement is wiki administrators now have a tool for renaming pages. It also edits backlinks (albeit slowly). https://archwomen.org/wiki/aw-tech:dokuwiki#move_plugin
+2016-10-08 17:19 <phrik> Title: Dokuwiki [Arch Women Wiki] (at archwomen.org)
+2016-10-08 17:23 <fsckd> As announced in the August meeting, the flask site is up.
+2016-10-08 17:23 <fsckd> Need to set up git automation for deployment.
+2016-10-08 17:23 <fsckd> I think meskarune is going to do that.
+2016-10-08 17:24 <meskarune> yeah
+2016-10-08 17:24 <meskarune> I can this month sometime
+2016-10-08 17:24 <meskarune> I need reminders :)
+2016-10-08 17:24 <meskarune> we had a mini-meeting on how everything will get setup in -dev
+2016-10-08 17:25 <fsckd> yeah, ok, i'll try to remind you :)
+2016-10-08 17:25 <meskarune> and also doing some cleanup of the git repos  like combining notes and logs from meetings into one thing
+2016-10-08 17:27 <fsckd> Sounds good.
+2016-10-08 17:27 <fsckd> meskarune: you will also do that?
+2016-10-08 17:28 <meskarune> I think I can
+2016-10-08 17:28 <meskarune> I have a lot going on with the gov atm, but I think that is something quick
+2016-10-08 17:28 <meskarune> I'd like to get more volunteers to help with things
+2016-10-08 17:29 <fsckd> ok, i'll put it down for you and me. if you can't do it, i'll try to.
+2016-10-08 17:29 <fsckd> meskarune: I don't understand the next agenda item. It merely says, "Events feed?"
+2016-10-08 17:31 <Mikaela>  I interpreted it as either RSS feeds describing some events or more likely ical including events like meetings and possibly other AW or anydistro-women related events which people could throw into their digital calendars and be always aware of them
+2016-10-08 17:32 <fsckd> oh, hmm, that would be nice
+2016-10-08 17:33 <meskarune> we used to have an events list of meetings from us and other groups
+2016-10-08 17:34 <meskarune> and things like install days or bug days or wiki cleanups
+2016-10-08 17:34 <fsckd> RSS feed?
+2016-10-08 17:36 <meskarune> well the php site was using an ical file
+2016-10-08 17:36 <meskarune> basically its a calendar and you can make them using thunderbird or any other calendar client
+2016-10-08 17:36 <meskarune> I think there is a python module for calendars
+2016-10-08 17:37 <meskarune> I basically just need to get a list of events for a given time period
+2016-10-08 17:37 <fsckd> Oh, so host an iCal file or display on the website?
+2016-10-08 17:37 <meskarune> we already host an ical file
+2016-10-08 17:37 <meskarune> on the php site we had an events list that updated using the data from the ical
+2016-10-08 17:37 <Mikaela> I think common way to handle that is registering to Google Calendar and making the calendar public and embedding it somewhere where people then copy links when it's not especially avoided. At least Ubuntu, Pirate Party Finland and HeSeta (Helsinki Seta (LGBT* organization)) do that
+2016-10-08 17:37 <meskarune> yeah, but we don't use any google services
+2016-10-08 17:38 <fsckd> meskarune: so make an RSS feed from the iCal file?
+2016-10-08 17:38 <meskarune> fsckd: no, just use python to make an html list
+2016-10-08 17:38 <fsckd> oh ok
+2016-10-08 17:38 <meskarune> I mean, it might be possible to code an rss feed, but I just want to stick a list on the front page
+2016-10-08 17:39 <fsckd> ok, so a list of upcoming events on the front page
+2016-10-08 17:40 <meskarune> yeah, and maybe a link to an ical file so people can subscribe or add to their desktop calendar
+2016-10-08 17:41 <Mikaela> would you mind linking that ical file now?
+2016-10-08 17:42 <meskarune> I can but it is out of date
+2016-10-08 17:42 <meskarune> I used thunderbird to create it
+2016-10-08 17:42 <meskarune> basically added ubuntu women meeings and linux chix and arch women meeting times
+2016-10-08 17:42 <Mikaela> oh, I will wait then unless the address is going to stay as the same
+2016-10-08 17:46 <meskarune> https://archwomen.org/media/archwomen.ics
+2016-10-08 17:46 <meskarune> thats the old file
+2016-10-08 17:47 <meskarune> previously I just manually exported it from a desktop calendar app
+2016-10-08 17:47 <fsckd> meskarune: i want the meeting notes to be actionable. so i am marking these as TODO but i know you are busy so i am not assigning them to you. will try to find an activity to add them too. either an activity for specifically them or something more generic. i'll get back to you on that. though if you have an idea where to put them, let me know.
+2016-10-08 17:47 <meskarune> and then parsed with php
+2016-10-08 17:47 <Mikaela> will the new file appear at same location?
+2016-10-08 17:49 <meskarune> I have no idea
+2016-10-08 17:49 <meskarune> but its possible. It will either be there or in /static
+2016-10-08 17:49 <Mikaela> I hope it will so if I add that now, calendar will update it and people already subscribing it will get the updates
+2016-10-08 17:49 <meskarune> but it depends on how the flask stuff is made
+2016-10-08 17:50 <meskarune> Mikaela: yeah, I mean, thats why I want to use calendar files, so other people can add to their own calendars
+2016-10-08 17:50 <meskarune> but in any case when the events feed is created, it will have a link to the calendar file for people
+2016-10-08 17:54 <fsckd> cool
+2016-10-08 17:54 <fsckd> Next on the agenda is classroom. :)
+2016-10-08 17:55 <fsckd> A lot of meeting items today are for meskarune. :P
+2016-10-08 17:55 <fsckd> So there is a new PKGBUILD class being drafted.
+2016-10-08 17:55 <fsckd> https://pad.riseup.net/p/al-pkgbuild-class
+2016-10-08 17:55 <phrik> Title: Riseup Pad (at pad.riseup.net)
+2016-10-08 17:56 <fsckd> Those are the notes. Please take a look and note your suggestions or comments.
+2016-10-08 17:59 <meskarune> yeah, we had a meeting a little while ago and got those togther
+2016-10-08 17:59 <meskarune> they need editing and suggestions
+2016-10-08 17:59 <meskarune> the class is an intro to PKGBUILDs
+2016-10-08 18:00 <alad> I made a meaningful contribution to the draft!
+2016-10-08 18:00 <alad> ACTION added "emacs"
+2016-10-08 18:00 <fsckd> \o/
+2016-10-08 18:02 <fsckd> There's also been a proposal for a bash/zsh prompt class. We need someone to help coordinate that. meskarune does not have the time, and sadly neither do I.
+2016-10-08 18:02 <alad> how do you mean, "prompt class" ?
+2016-10-08 18:02 <fsckd> meskarune: did someone volunteer to teach a bash/zsh prompt class?
+2016-10-08 18:03 <ng0> I think automatic trusting an openpg key defeats the purpose of trust..
+2016-10-08 18:03 <alad> ng0: at the least they should use a long ID from upstream
+2016-10-08 18:03 <ng0> that's what the class suggest atm
+2016-10-08 18:03 <fsckd> it does?
+2016-10-08 18:03 <fsckd> ACTION looks
+2016-10-08 18:03 <alad> oh yeah, it might link to that kernel bug on long vs. short ids
+2016-10-08 18:04 <ng0> you might suggest using the new tofu model of gnupg
+2016-10-08 18:04 <ng0> I never trust keys of developers I just use t overify software packages from
+2016-10-08 18:06 <ng0> wait. i'm out of the loop of archlinux for years. what I said refers to manual verification of files.. and the section reads like that
+2016-10-08 18:06 <ng0> I would add something, but I don't know 2016 archlinux
+2016-10-08 18:07 <ng0> I know ~2005ish archlinux
+2016-10-08 18:07 <meskarune> fsckd: yes, I have been emailing them, but I need someone else to keep up with it because I keep replying slowly
+2016-10-08 18:08 <fsckd> ok
+2016-10-08 18:08 <fsckd> what help do they need?
+2016-10-08 18:08 <meskarune> alad: a class on customizing the prompt
+2016-10-08 18:08 <meskarune> fsckd: mostly answering questions and help with the class notes
+2016-10-08 18:08 <fsckd> ahh
+2016-10-08 18:10 <alad> oh, that sounds nice
+2016-10-08 18:10 <alad> meskarune: I have 0 clue on that stuff ._.
+2016-10-08 18:10 <meskarune> heh
+2016-10-08 18:11 <meskarune> polyzen, CalimeroTeknik, halosghost and jy2wong have all taught classes previously
+2016-10-08 18:11 <meskarune> and who else?
+2016-10-08 18:11 <fsckd> you :P
+2016-10-08 18:11 <ng0> damn clipboard 
+2016-10-08 18:11 <fsckd> ng0: PKGBUILDs used to verify source files using only checksums. now they can verify using GPG too. so now, checksums for verifying no error in transmission and gpg signatures for countering malicious MITM. something like that. the user building the package would have to import the key for it verify. the PKGBUILD only has the key ID to use.
+2016-10-08 18:12 <fsckd> and a url to the signature
+2016-10-08 18:13 <fsckd> example is int he PKGBUILD of cower
+2016-10-08 18:13 <fsckd> in the*
+2016-10-08 18:13 <meskarune> you should add that stuff to the class notes
+2016-10-08 18:13 <meskarune> ;D
+2016-10-08 18:14 <meskarune> but anways, I need to find someone to help with class coordination and specifically to talk with the person who wants to teach a prompt customization class
+2016-10-08 18:14 <ng0> so what I added is without knowing how pkgbuilds 2016 work.
+2016-10-08 18:14 <meskarune> and we have the notes for the PKGBUILD class, should be set another meeting for that?
+2016-10-08 18:15 <fsckd> may be run the notes by Allan
+2016-10-08 18:15 <CalimeroTeknik> also about keys and PKGBUILDs, the validpgpkeys=() array doesn't suffice for me, it still fails so I just --skippgpcheck
+2016-10-08 18:16 <alad> please lets not have any mention of flags like that - teach people to fix issues rather than sweep them under rug
+2016-10-08 18:18 <ntfx> think all flags should be mentioned no?
+2016-10-08 18:18 <ng0> all flags can be found in the man pages I assume.
+2016-10-08 18:18 <ntfx> think if i followed the a-z of linux admin procedures id have chucked towel in years ago
+2016-10-08 18:19 <ng0> or whereever arch keeps the documentation for pkgbuild.
+2016-10-08 18:19 <fsckd> man page and wiki :P
+2016-10-08 18:19 <fsckd> man PKGBUILD
+2016-10-08 18:19 <fsckd> and man makepkg
+2016-10-08 18:20 <fsckd> but --skippgpcheck for the user building the package, not for the person making the PKGBUILD
+2016-10-08 18:20 <fsckd> so is sort of out of scope for the class
+2016-10-08 18:28 <alad> that too
+2016-10-08 18:28 <fsckd> Anything more on either of the two classes or anything related to classroom?
+2016-10-08 18:31 <alad> with the draft now having a tribute to St. Ignucius, there's no complaints from me
+2016-10-08 18:32 <fsckd> lmao
+2016-10-08 18:35 <fsckd> Okay, moving on.
+2016-10-08 18:36 <fsckd> Slowly working on styles and conventions for the Arch Women Wiki. https://archwomen.org/wiki/wiki:conventions
+2016-10-08 18:36 <phrik> Title: Conventions for Wiki Structure and Content [Arch Women Wiki] (at archwomen.org)
+2016-10-08 18:37 <fsckd> So I have a question. What should be the rules for capitalization of page titles and headers?
+2016-10-08 18:37 <fsckd> Can have something like book titles where more of the words are capitalized.
+2016-10-08 18:38 <fsckd> Or can have sentence capitalization where only the first word and words that are normally cpaitalized. e.g., like on the Arch Linux Wiki.
+2016-10-08 18:39 <fsckd> (Can also have separate rules for page titles and headers like what wikipedia does.)
+2016-10-08 18:39 <fsckd> Any suggestions?
+2016-10-08 18:39 <alad> whatever you do don't make it complicated
+2016-10-08 18:39 <alad> I'd just use regular sentence case where possible
+2016-10-08 18:43 <fsckd> Yeah, I'm leaning towards sentence case too, not sure if it is because i'm so used to it form everywhere else. :P
+2016-10-08 18:48 <meskarune> yeah, we can just do what the arch wiki does
+2016-10-08 18:48 <meskarune> and make it easy on ourselves
+2016-10-08 18:49 <fsckd> ok
+2016-10-08 18:49 <fsckd> so sentence case
+2016-10-08 18:49 <fsckd> for both page titles and section headers?
+2016-10-08 18:49 <meskarune> yeah, seems fine to me
+2016-10-08 18:50 <fsckd> ok
+2016-10-08 18:51 <fsckd> The next item on the agenda was going to be to start a page on styles but as I mentioned, that already happened. https://archwomen.org/wiki/wiki:conventions
+2016-10-08 18:51 <phrik> Title: Conventions for Wiki Structure and Content [Arch Women Wiki] (at archwomen.org)
+2016-10-08 18:52 <fsckd> That brings to the last items of the meeting.
+2016-10-08 18:53 <fsckd> For mentorship, make an email address mentor@archwomen.org.  I think meskarune can do that? Also, what will the email be used for?
+2016-10-08 18:53 <meskarune> for people to contact us about getting a mentor
+2016-10-08 18:54 <fsckd> Ok, who has access to it?
+2016-10-08 19:02 <fsckd> Ok, may be can discuss that at a later date. The important thing is to note that an email for contact is to be made.
+2016-10-08 19:02 <fsckd> Next is creating a signup page for mentors and mentees.
+2016-10-08 19:03 <alad> I probably lost my account again <.<
+2016-10-08 19:03 <fsckd> I think meskarune will need help for that, considering limits on time.
+2016-10-08 19:04 <fsckd> If anyone would like to volunteer, please contact her.
+2016-10-08 19:05 <fsckd> We'll need to decide what information we'll get from potential mentors and mentees. I was to post an email about that. I've been a little distracted. I have a draft which I'll work on. I'll try to get it out this next week.
+2016-10-08 19:05 <fsckd> May be start an activity page for it.
+2016-10-08 19:06 <ng0> did I miss the ending? else I'll just keep this laptop running and use the other for the thing I have to do now
+2016-10-08 19:06 <fsckd> Almost over.
+2016-10-08 19:07 <fsckd> That was the last item on the meeting agenda.
+2016-10-08 19:07 <fsckd> Now any final comments, concerns, questions?
+2016-10-08 19:07 <alad> Allan broke it.
+2016-10-08 19:07 <alad> otherwise, none
+2016-10-08 19:07 <fsckd> lol
+2016-10-08 19:08 <ng0> s/allan/alad :P
+2016-10-08 19:09 <alad> !aurutils
+2016-10-08 19:09 <phrik> Alad broke it
+2016-10-08 19:09 <fsckd> Ok, I guess that's it.
+2016-10-08 19:10 <fsckd> ========== meeting.close() ==========
