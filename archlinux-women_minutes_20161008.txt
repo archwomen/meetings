@@ -1,0 +1,26 @@
+Arch Women 52nd IRC Meeting, 08 October 2016
+
+Announcements and status updates
+  * Migrating from the manual to-do system to activity pages. The old to-do system was tedious and not much used. Activity pages will keep notes on our plans, proposals, and things to accomplish. We may use one of DokuWiki's many to-do plugins for fine-grained assignments.https://archwomen.org/wiki/wiki:activities
+  * Wiki administrators now have a tool for renaming pages. It edits links to renamed pages too (albeit slowly).https://archwomen.org/wiki/aw-tech:dokuwiki#move_plugin
+
+Server
+  * New Flask Site is up, need to setup git automation for deployment.There was a mini-meeting in -dev on how it will be set up. TODO: meskarune
+  * Merge meeting logs and notes git repository into one. TODO: meskarune, fsckd
+  * Add to the front page a list of upcoming events for us and other groups, like meetings, install days, bug days, wiki cleanup. We have an iCal file. Can link to that too so people can load it into their desktop calendar. TODO
+    * Need to update the iCal file with newer event dates. https://archwomen.org/media/archwomen.ics TODO
+
+Classroom
+  * PKGBUILD class https://pad.riseup.net/p/al-pkgbuild-class - suggestions and comments are welcome.
+    * Describe key trust (do we trust the key or not) and how GPG is used to verify sources and why. TODO
+    * Have Allan review notes. TODO
+  * Bash/Zsh prompt class - need coordinator to help, meskarune doesn't have enough time. TODO
+
+Community
+  * Wiki conventions on style and structure https://archwomen.org/wiki/wiki:conventions
+    * Question asked: What should be the capitalization rules for page titles and section titles? Broadly, the choices are title case (capitalize all words like in a book's title) and sentence case (capitalize just the first word). Can have separate rules for page titles and section titles.  Answer: Use sentence case for page titles and section headers, similar to the Arch Wiki.
+
+Mentorship
+  * Add mentor@archwomen.org email - to contact about getting a mentor. TODO: meskarune
+  * Create mentor/mentee signup page. TODO
+    * Mailing list post to start discussion on what information we need from candidate mentors and mentees. TODO: fsckd
