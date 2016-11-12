@@ -1,0 +1,29 @@
+Arch Women 53rd IRC meeting, 12 November 2016
+
+Announcements and status updates
+  * Servers updated so they are not vulnerable
+
+Server
+  * Should we add an xmpp server?
+    * Doesn't seem to be needed
+
+Projects
+  * Classroom
+    * PKGBUILD class https://pad.riseup.net/p/al-pkgbuild-class Sat. Dec 10th
+      * Set a date for the class
+      * Add in safety warnings for bash, PGP, don't go into detail with split packages
+    * Bash/Zsh prompt class - need coordinator to help, meskarune doesn't have enough time
+  * Mentoring
+    * mentor@archwomen.org email created
+    * Document mentor connection
+      * Coordinator/s vet mentors, and add them to the wiki
+      * Mentees send an email for mentor@
+      * A coordinator connects them (currently meskarune)
+        * Add polyzen
+
+Community
+  * New conflict resolution guidelines posted \o/
+  * https://archwomen.org/wiki/todo:gitbacked
+  * How can we get more volunteers to help out?
+    * Define ways to help and time requirements
+    * Advertise in channel and social media
