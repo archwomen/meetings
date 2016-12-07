@@ -1,0 +1,306 @@
+2016-11-12 16:52:50	+meskarune	=== Meeting Start ===
+2016-11-12 16:52:53	+meskarune	announcements
+2016-11-12 16:53:13	+meskarune	the servers have been updated so they are not vulnerable to the security issue
+2016-11-12 16:55:51	+tigrmesh	yay
+2016-11-12 16:56:55	+meskarune	so for server
+2016-11-12 16:57:07	+meskarune	I was wonder if we should install something like prosody for an xmpp server
+2016-11-12 16:57:19	+meskarune	its basically instant messenger
+2016-11-12 16:57:39	+meskarune	This would be for people to use for mentoring
+2016-11-12 16:58:03	+meskarune	that way they will have a unique and private chat account to use
+2016-11-12 16:58:15	+meskarune	but idk if there is interest in that
+2016-11-12 16:58:32	+meskarune	maybe jy2wong or CalimeroTeknik could weight in
+2016-11-12 17:00:23	--	xocket is now known as dr101
+2016-11-12 17:01:05	--	dmc is now known as polyzen
+2016-11-12 17:01:52	polyzen	so.. meeting? :D
+2016-11-12 17:02:27	polyzen	!crickets
+2016-11-12 17:02:27	phrik	http://www.youtube.com/watch?v=Hk_-XWpUFmU
+2016-11-12 17:02:31	CalimeroTeknik	IRC or XMPP, is there a notable difference?
+2016-11-12 17:02:43	fsckd	polyzen: in progress
+2016-11-12 17:03:05	fsckd	polyzen: https://pad.riseup.net/p/aw-nov2016
+2016-11-12 17:03:07	phrik	Title: Riseup Pad (at pad.riseup.net)
+2016-11-12 17:04:05	CalimeroTeknik	I mean for the 'mentoring' use case, is that other means of communication necessary? I already have an XMPP address by the way.
+2016-11-12 17:04:45	+meskarune	hi
+2016-11-12 17:05:06	+meskarune	CalimeroTeknik: well, it was just in case people didn't want to use a personal account
+2016-11-12 17:05:14	+meskarune	for privacy or whatever else
+2016-11-12 17:05:23	Tazmain	you can use OTR with XMPP 
+2016-11-12 17:05:29	+meskarune	yeah :)
+2016-11-12 17:05:35	+meskarune	so it can also be encrypted
+2016-11-12 17:06:41	+meskarune	mostly this is protection for people who are at risk of being doxxed or harassed
+2016-11-12 17:07:00	+meskarune	so if they don't want personal contact info out, they could use an arch women email and chat
+2016-11-12 17:07:16	CalimeroTeknik	is there a lot of mentoring going on? I haven't really received pings to help anyone on subjects I said I could help with
+2016-11-12 17:07:25	+meskarune	I have been mentoring 2 people
+2016-11-12 17:08:03	+meskarune	but I want to get the infra up more better and then advertise the hell out of mentoring so that we get more students
+2016-11-12 17:08:27	+meskarune	I wanted to have some documentation on how it works, like people can do mentoring over email or chat
+2016-11-12 17:08:44	+meskarune	and if someone wants a mentor they email mentor@archwomen.org
+2016-11-12 17:09:22	CalimeroTeknik	well, or can see the wiki to find people who are publicly documented there
+2016-11-12 17:11:50	polyzen	people still use XMPP? :p
+2016-11-12 17:12:36	polyzen	Tazmain, you can also use OTR with IRC
+2016-11-12 17:13:10	polyzen	don't know how Tox and such work, but that could be an option?
+2016-11-12 17:13:30	+meskarune	I use tox now :)
+2016-11-12 17:13:53	+meskarune	I just wanted to know if people wanted a nick@archwomen.org address to chat from
+2016-11-12 17:13:57	+meskarune	but it doesn't sound like its needed
+2016-11-12 17:14:41	+meskarune	so the next bit is like, documenting the mentor stuff
+2016-11-12 17:15:16	spider-mario	documentor
+2016-11-12 17:15:24	spider-mario	(I’ll see myself out)
+2016-11-12 17:15:28	polyzen	lol
+2016-11-12 17:15:36	+meskarune	so to apply to be a mentor I guess people would talk to me or email mentor@archwomen.org and for mentees they can email that address and get asked questions and matched with someone
+2016-11-12 17:15:54	+meskarune	but that all needs to get written down in the wiki, as well as the scope for a mentor since mentors are not teachers
+2016-11-12 17:16:00	+meskarune	they just help people when they are stuck
+2016-11-12 17:16:17	+meskarune	that way they aren't just getting a bunch of tech support questions lol
+2016-11-12 17:16:49	+meskarune	would any of y'all be interested in helping to coordinate the mentor things?
+2016-11-12 17:17:09	+meskarune	its honestly not a ton of work atm. Just checking the email and being available to chat
+2016-11-12 17:17:18	+meskarune	and so far there are just like, 2 mentees atm
+2016-11-12 17:17:28	+meskarune	and I will help out
+2016-11-12 17:18:20	+meskarune	the benifits are getting to put "mentorship coordinator" on a resume and I can write a letter of recomendation if you need one
+2016-11-12 17:19:29	polyzen	so, what does that entail?
+2016-11-12 17:20:13	polyzen	vetting and connecting?
+2016-11-12 17:20:59	polyzen	I imagine at some point drama might need to be dealt with :p
+2016-11-12 17:21:25	+meskarune	yeah, mostly likely polyzen
+2016-11-12 17:21:45	+meskarune	but right now its just like, checking the mentor@archwomen.org email, and connecting mentors with mentees
+2016-11-12 17:21:52	polyzen	say the connection doesn't work out, and one of them reaches out to a coordinator
+2016-11-12 17:21:56	+meskarune	and answering questions from either party
+2016-11-12 17:21:57	polyzen	idk :p
+2016-11-12 17:22:32	+meskarune	well, its a very small operation atm, and if it grows larger and people don't have time, you can always stop
+2016-11-12 17:22:47	+meskarune	its not like someone has to do it forever, or spend tons of time
+2016-11-12 17:23:06	+meskarune	ideally there would be like 4-5 folks all doing just a little bit of work
+2016-11-12 17:23:14	+meskarune	so its not all on 1-2 people
+2016-11-12 17:24:07	+meskarune	I also want to contact some college about unpaid internships with us, so we could get some people doing social media marketing and mentoring and they get college creds
+2016-11-12 17:25:03	polyzen	need to add a phrik command to search the ALW wiki :p
+2016-11-12 17:25:20	polyzen	maybe !alww
+2016-11-12 17:26:05	CalimeroTeknik	that acronym looks a bit arcane
+2016-11-12 17:26:18	polyzen	CalimeroTeknik, well, there's already !alw
+2016-11-12 17:26:29	polyzen	which is the same as !aw
+2016-11-12 17:26:45	polyzen	!literal aww
+2016-11-12 17:26:45	phrik	polyzen: <reply> aaaaaaaaawwwwwwwwwwwwwwww
+2016-11-12 17:26:51	polyzen	and that's taken ;
+2016-11-12 17:26:53	polyzen	;p*
+2016-11-12 17:27:01	spider-mario	which sounds like a command to post cat pictures
+2016-11-12 17:27:05	spider-mario	what does it do?
+2016-11-12 17:27:08	spider-mario	!literal aw
+2016-11-12 17:27:08	phrik	spider-mario: Error: Factoid "aw" not found.
+2016-11-12 17:27:14	spider-mario	!aw
+2016-11-12 17:27:15	phrik	spider-mario: alw Search the arch linux wiki with alw <search>
+2016-11-12 17:27:34	+meskarune	maybe "wl"
+2016-11-12 17:27:45	+tigrmesh	a-w_wiki
+2016-11-12 17:27:45	polyzen	wiki linux?
+2016-11-12 17:27:52	spider-mario	is there already !w?
+2016-11-12 17:27:54	spider-mario	!w
+2016-11-12 17:27:55	phrik	spider-mario: wikipedia wiki <search term>
+2016-11-12 17:27:55	polyzen	yeah
+2016-11-12 17:27:56	+meskarune	ww ?
+2016-11-12 17:28:00	+tigrmesh	a-w_ops ?
+2016-11-12 17:28:01	+meskarune	women-wiki
+2016-11-12 17:28:03	+meskarune	lol
+2016-11-12 17:28:22	spider-mario	why not make !w point to the arch women wiki and “demote” wikipedia to !wp?
+2016-11-12 17:28:39	+tigrmesh	because phrik is a shared bot
+2016-11-12 17:28:40	polyzen	because they'd sooner have it point to the ArchWiki :p
+2016-11-12 17:28:52	polyzen	!help wp
+2016-11-12 17:28:52	phrik	polyzen: Error: There is no command "wp".
+2016-11-12 17:28:57	CalimeroTeknik	!awiki and !wiki sound good
+2016-11-12 17:28:57	phrik	CalimeroTeknik: Maybe yes? I'm not too sure...
+2016-11-12 17:29:04	spider-mario	ah, right
+2016-11-12 17:29:10	polyzen	those are too general imo
+2016-11-12 17:29:12	CalimeroTeknik	not too arcane, see
+2016-11-12 17:29:15	polyzen	sticking by alww :p
+2016-11-12 17:30:06	+meskarune	ok, I'm going to post on the mailing list to look for some extra mentoring coodinators
+2016-11-12 17:30:14	+meskarune	atm the actual work invovled is very light
+2016-11-12 17:30:22	+meskarune	and we will work on documentation as well
+2016-11-12 17:30:37	polyzen	meskarune, pretty sure I could help, but I haven't been very active with you guys in a while :p
+2016-11-12 17:30:54	+meskarune	polyzen: well, I can make you an email :)
+2016-11-12 17:31:01	+meskarune	and stick your contact info on teh wiki
+2016-11-12 17:31:12	+meskarune	and basically its all of looking at the email once in a while
+2016-11-12 17:31:34	polyzen	¯\_(ツ)_/¯
+2016-11-12 17:31:40	polyzen	si tu quieres
+2016-11-12 17:31:51	polyzen	would be glad to help
+2016-11-12 17:32:08	+meskarune	thanks so much
+2016-11-12 17:32:41	polyzen	:)
+2016-11-12 17:32:49	+meskarune	ok, classroom stuffs
+2016-11-12 17:33:07	+meskarune	PKGBULID class is mostly planned out here: https://pad.riseup.net/p/al-pkgbuild-class
+2016-11-12 17:33:08	phrik	Title: Riseup Pad (at pad.riseup.net)
+2016-11-12 17:33:17	CalimeroTeknik	I'm up for PKGBUILD stuff
+2016-11-12 17:33:21	+meskarune	:D
+2016-11-12 17:33:51	+meskarune	CalimeroTeknik: I need a bit of help with pgp and split packages, mostly with examples and how much should be explained in class, vs linked resources
+2016-11-12 17:33:53	polyzen	that is pretty massive
+2016-11-12 17:34:03	+meskarune	it needs editing
+2016-11-12 17:34:17	+meskarune	its a bit of a mess, so it really needs to get better organized
+2016-11-12 17:34:28	+meskarune	but I think all the basics are in there
+2016-11-12 17:34:52	CalimeroTeknik	split packages? so this isn't an introduction.
+2016-11-12 17:34:56	+meskarune	I was thinking we could maybe set a date for the class
+2016-11-12 17:35:04	CalimeroTeknik	yup, I know how split packages work, and pgp too, now
+2016-11-12 17:35:08	+meskarune	CalimeroTeknik: do you think it shouldn't be in the class?
+2016-11-12 17:35:14	+meskarune	CalimeroTeknik: omg awesome :D
+2016-11-12 17:35:24	+meskarune	those are the one thing tripping me up a little
+2016-11-12 17:35:31	+meskarune	because I haven't used them before
+2016-11-12 17:35:46	CalimeroTeknik	it's actually simpler than it should be, somehow
+2016-11-12 17:35:57	+meskarune	thats good
+2016-11-12 17:36:02	polyzen	RIP --pkg
+2016-11-12 17:36:08	CalimeroTeknik	for gpg, there's the pacman keyring, and then it's pure gpg for makepkg
+2016-11-12 17:36:23	CalimeroTeknik	like, arch doesn't provide anything to wrap around it
+2016-11-12 17:36:32	+meskarune	I see
+2016-11-12 17:36:59	CalimeroTeknik	when I started PKGBUILDs, it was enough trouble getting my head around how packaging would work in itself, so "extras" such as split packages weren't my core preoccupation
+2016-11-12 17:37:11	+meskarune	do you know of a good step by step for making PKGBUILDs with pgp signing?
+2016-11-12 17:37:50	+meskarune	for split packages I mostly just wanted to mention them briefly and link to more information and an example package
+2016-11-12 17:37:57	+meskarune	but I can't find lots of exapmles of them
+2016-11-12 17:38:57	+meskarune	the arch wiki also didn't seem to give much detail
+2016-11-12 17:39:16	CalimeroTeknik	1/ find a signature for the file, 2/ add it to the sources with a name maching the sources it verifies (that's generally already the case 3/ add the public fingerprint of the key that made the signature in validpgpkeys=()
+2016-11-12 17:39:25	CalimeroTeknik	that's what you need to do as a packager
+2016-11-12 17:39:44	Tazmain	polyzen, OTR with irc doesn't work in channels as far as I know 
+2016-11-12 17:40:32	polyzen	I forgot about that
+2016-11-12 17:40:41	polyzen	was mainly thinking about direct messages
+2016-11-12 17:40:48	polyzen	forgot XMPP has group chat..
+2016-11-12 17:40:54	Tazmain	yeah for dm it works fine 
+2016-11-12 17:40:59	CalimeroTeknik	meskarune: once you know how things work they look simple; it's when you don't that they look hard, and documentation doesn't always try to make things simple *to understand* :(
+2016-11-12 17:41:08	polyzen	s/mainly /
+2016-11-12 17:41:30	Tazmain	polyzen, however with XMPP you can verify the person, not sure if that is available in irc. 
+2016-11-12 17:41:55	polyzen	with OTR?
+2016-11-12 17:42:00	Tazmain	yeah 
+2016-11-12 17:42:16	Tazmain	verify the fingerprint I thnk,. perhaps thats a XMPP thing 
+2016-11-12 17:43:22	polyzen	might have that feature over IRC as well.. it's been so long :p
+2016-11-12 17:43:51	Tazmain	yeah I can't remember if irc does it. 
+2016-11-12 17:44:08	Tazmain	but I do rememeber it was only xchat that supported OTR, the newer clients didn't 
+2016-11-12 17:44:23	polyzen	meskarune, a lot of the time, for the source, you just need to append {,.asc} (thanks to demize for pointing that out to me initially)
+2016-11-12 17:45:55	polyzen	Tazmain, there's an OTR script for WeeChat, but I don't recall actually using it :p
+2016-11-12 17:46:19	polyzen	only ever had 2 people who were interested in using it
+2016-11-12 17:46:32	polyzen	it/OTR
+2016-11-12 17:46:34	Tazmain	polyzen, oh really? Its nifty 
+2016-11-12 17:46:52	polyzen	it is
+2016-11-12 17:51:48	+meskarune	thanks CalimeroTeknik
+2016-11-12 17:52:49	+meskarune	do you append asc to the filename or inside the file?
+2016-11-12 17:53:20	polyzen	to the filename
+2016-11-12 17:53:40	polyzen	source=("blah{,.asc}")
+2016-11-12 17:53:45	polyzen	'' might work there
+2016-11-12 17:53:48	CalimeroTeknik	polyzen, not within the quotes
+2016-11-12 17:54:15	CalimeroTeknik	the {} pattern in bash works only unquoted, as such: source=('blah'{,.asc})
+2016-11-12 17:54:23	polyzen	source=('blah'{,.asc})
+2016-11-12 17:54:25	polyzen	https://github.com/polyzen/pkgbuilds/blob/razercfg/PKGBUILD#L16
+2016-11-12 17:54:26	phrik	Title: pkgbuilds/PKGBUILD at razercfg · polyzen/pkgbuilds · GitHub (at github.com)
+2016-11-12 17:54:27	CalimeroTeknik	bash subtleties
+2016-11-12 17:54:35	polyzen	heheh
+2016-11-12 17:54:52	polyzen	odd
+2016-11-12 17:54:58	CalimeroTeknik	not odd!
+2016-11-12 17:55:06	polyzen	oddities
+2016-11-12 17:55:11	CalimeroTeknik	what if you actually want that character in your string?
+2016-11-12 17:55:21	CalimeroTeknik	then you quote it, and no need to escape
+2016-11-12 17:55:32	CalimeroTeknik	which is why my PKGBUILD course included some bash syntax reminders
+2016-11-12 17:55:58	CalimeroTeknik	I've seen so many PKGBUILDs vulnerable to code injection in filenames it's scary
+2016-11-12 17:56:26	Tazmain	wait really ?
+2016-11-12 17:56:33	polyzen	o.O
+2016-11-12 17:56:56	CalimeroTeknik	or argument injection
+2016-11-12 17:58:08	polyzen	tfw you've started forgetting quoting rules
+2016-11-12 17:59:57	CalimeroTeknik	DON'T RUN THIS: srcdir=/tmp; something=' -rf /* #'; rm $srcdir/$something
+2016-11-12 18:00:27	CalimeroTeknik	because it will erase every file and directory you have write access to
+2016-11-12 18:00:50	--	Mode #archlinux-women [+v tigrmesh] by ChanServ
+2016-11-12 18:01:27	CalimeroTeknik	the fix is the following: rm -- "$srcdir/$something"
+2016-11-12 18:01:58	polyzen	that doesn't come out to `rm /tmp/ -rf /*`?
+2016-11-12 18:02:15	CalimeroTeknik	yes that does, precisely
+2016-11-12 18:02:27	CalimeroTeknik	the fix doesn't
+2016-11-12 18:02:29	polyzen	didn't know you could use it that way
+2016-11-12 18:02:50	polyzen	good to know
+2016-11-12 18:02:52	CalimeroTeknik	the fix involves both indicating to rm that no further options shall be accepted in the following arguments, and quoting those so they stay one argument (if that's what you meant to do)
+2016-11-12 18:02:57	spider-mario	bash does word splitting *after* expansion of non-quoted $variables
+2016-11-12 18:02:58	polyzen	meskarune, should we continue? :p
+2016-11-12 18:03:08	spider-mario	(unlike fish, for example)
+2016-11-12 18:03:18	spider-mario	with fish, you would still need the --, but not the ""
+2016-11-12 18:03:36	CalimeroTeknik	so yeah, for the meeting in progress: I would like to add safety warnings about bash syntax this time as well in the PKGBUILD class, meskarune
+2016-11-12 18:03:59	CalimeroTeknik	this can be discussed later
+2016-11-12 18:04:44	+meskarune	sounds good
+2016-11-12 18:05:04	+meskarune	I added a bit about quoting, but I think its important to mention that
+2016-11-12 18:05:51	CalimeroTeknik	the bit about argument sanitization is an extra and not related to the shell, but to the command used (grep, rm…) actually
+2016-11-12 18:05:56	polyzen	there's some fancy CSS stuff to get sidenotes..
+2016-11-12 18:06:14	polyzen	https://edwardtufte.github.io/tufte-css/
+2016-11-12 18:06:15	phrik	Title: Tufte CSS (at edwardtufte.github.io)
+2016-11-12 18:06:24	polyzen	https://jez.io/tufte-pandoc-css/
+2016-11-12 18:06:25	phrik	Title: Tufte Pandoc CSS (at jez.io)
+2016-11-12 18:06:53	polyzen	could be useful for those warnings and such?
+2016-11-12 18:07:16	polyzen	perhaps a bit much :p
+2016-11-12 18:07:54	polyzen	"to get sidenotes" is misleading
+2016-11-12 18:11:23	+meskarune	:)
+2016-11-12 18:11:32	+meskarune	halosghost: are you awake?
+2016-11-12 18:11:48	+meskarune	do y'all think the class notes are done enough that we can schedule a time for the class?
+2016-11-12 18:11:58	+meskarune	and then finish up the notes for that in the meantime?
+2016-11-12 18:13:35	CalimeroTeknik	also there is material from the previous PKGBUILD class(es?)
+2016-11-12 18:13:45	CalimeroTeknik	is there a reason not to reuse it?
+2016-11-12 18:14:44	CalimeroTeknik	I mean, there is nothing prevent the class from being scheduled
+2016-11-12 18:18:28	+meskarune	CalimeroTeknik: some of it was resumed, others were outdated
+2016-11-12 18:18:45	+meskarune	yeah, I think once halosghost wakes up and gets online I will ask him about setting a date
+2016-11-12 18:18:52	+meskarune	maybe for fall break would be a good idea?
+2016-11-12 18:19:41	halosghost	what's that now?
+2016-11-12 18:19:43	halosghost	oh
+2016-11-12 18:19:46	halosghost	the class?
+2016-11-12 18:19:51	halosghost	tomorrow :P
+2016-11-12 18:20:02	+meskarune	lol
+2016-11-12 18:20:08	+meskarune	morning
+2016-11-12 18:20:22	+meskarune	halosghost: CalimeroTeknik had a bunch of suggestions for it
+2016-11-12 18:20:31	halosghost	cool :D
+2016-11-12 18:21:02	+meskarune	I was thinking to set a date
+2016-11-12 18:21:08	+meskarune	and then advertise it a ton
+2016-11-12 18:23:22	polyzen	meskarune, you might want to modify line 81
+2016-11-12 18:23:25	polyzen	~ > pkgname=blah-gitlovers-git; echo ${pkgname//-git/}; echo ${pkgname%-*}
+2016-11-12 18:23:27	polyzen	blahlovers
+2016-11-12 18:23:29	polyzen	blah-gitlovers
+2016-11-12 18:24:26	+meskarune	we can probably work more on the class notes outside of the meeting ;)
+2016-11-12 18:24:31	+meskarune	in archlinux-classroom maybe
+2016-11-12 18:24:32	+meskarune	heh
+2016-11-12 18:24:39	polyzen	roger
+2016-11-12 18:24:54	+meskarune	halosghost: is the 19th of nov too soon?
+2016-11-12 18:25:00	+meskarune	are you traveling for the holidays?
+2016-11-12 18:25:29	halosghost	if it happens really anytime between next weekend until after thanksgiving, I likely won't be able to help ):
+2016-11-12 18:25:35	+meskarune	thanksgiving is the 24th of nov
+2016-11-12 18:25:42	halosghost	family is coming in town and then I travel
+2016-11-12 18:25:53	+meskarune	we could do it dec too
+2016-11-12 18:26:28	+meskarune	what about like dec 10th ?
+2016-11-12 18:26:50	halosghost	I imagine that will be fine :)
+2016-11-12 18:27:00	+meskarune	ok :)
+2016-11-12 18:27:53	+meskarune	ok, next items
+2016-11-12 18:28:00	+meskarune	conflict resolutoin stuff is posted https://archwomen.org/wiki/aw-org:conflict_resolution
+2016-11-12 18:28:01	phrik	Title: Conflict Resolution [Arch Women Wiki] (at archwomen.org)
+2016-11-12 18:28:07	+meskarune	and on the site under community standards
+2016-11-12 18:28:36	+meskarune	then the last 2 things to discuss is git backed doku wiki and how to recruit more people to volunteer
+2016-11-12 18:28:59	+meskarune	though I suppose I need to figure out a list of benifits and work descriptions
+2016-11-12 18:29:07	+meskarune	and advertise heavily over social media
+2016-11-12 18:29:17	+meskarune	also I am wondering if we should do a holiday fund raiser
+2016-11-12 18:30:29	+meskarune	even just $500 and we could use that for a conference speaker or internship
+2016-11-12 18:33:05	polyzen	conference speaker?
+2016-11-12 18:36:28	polyzen	regarding Git-backed DokuWiki, I plan on setting that up for myself. wanted to know if you were still interested in it as well
+2016-11-12 18:36:30	polyzen	Page Tools
+2016-11-12 18:36:35	polyzen	* https://archwomen.org/wiki/todo:gitbacked
+2016-11-12 18:36:36	phrik	Title: Gitbacked [Arch Women Wiki] (at archwomen.org)
+2016-11-12 18:42:11	polyzen	the only obstacle is figuring out how to have the repo owned by the http user, and yet allow my own user to push to it
+2016-11-12 18:42:42	polyzen	probably simpler than I think.. should TIAS
+2016-11-12 18:43:24	+meskarune	I think fsckd would know
+2016-11-12 18:43:36	+meskarune	you can do a group/user thing
+2016-11-12 18:43:47	+meskarune	http group with git user
+2016-11-12 18:44:27	polyzen	was thinking that
+2016-11-12 18:44:35	polyzen	or the other way around
+2016-11-12 18:44:43	polyzen	┐(ツ)┌
+2016-11-12 18:45:02	+meskarune	yeah :)
+2016-11-12 18:45:06	+meskarune	ok, I think that is everything
+2016-11-12 18:45:12	+meskarune	does anyone has anything else to discuss?
+2016-11-12 18:45:48	Mikaela	polyzen: I forwarded your message to #weechat-otr
+2016-11-12 18:46:09	+meskarune	should I end the meeting?
+2016-11-12 18:47:00	polyzen	Mikaela, thank you
+2016-11-12 18:47:25	polyzen	meskarune, so are you guys still interested in that todo?
+2016-11-12 18:49:08	polyzen	tigrmesh, fsckd ^
+2016-11-12 18:50:50	+meskarune	I think so polyzen
+2016-11-12 18:51:00	polyzen	okay
+2016-11-12 18:51:49	+meskarune	ok, any more final comments/suggestions/ideas ?
+2016-11-12 18:53:42	polyzen	meskarune, did we skip "Bash/Zsh prompt class"?
+2016-11-12 18:55:20	+meskarune	oh
+2016-11-12 18:55:28	+meskarune	there is another person working on that
+2016-11-12 18:55:34	+meskarune	I haven't heard from them recently
+2016-11-12 19:01:45	CalimeroTeknik	I think gentoo/debian bash prompts are cool
+2016-11-12 19:02:11	CalimeroTeknik	red for root, green for others; I have that set up myself (although based on the default provided by arch)
+2016-11-12 19:03:11	+meskarune	yeah :0
+2016-11-12 19:03:17	fsckd	polyzen: what todo?
+2016-11-12 19:03:22	+meskarune	ok should I end the meeting today?
+2016-11-12 19:03:24	polyzen	gitbacked
+2016-11-12 19:03:25	+meskarune	fsckd: gitbacked
+2016-11-12 19:03:26	CalimeroTeknik	it's useful, nothing extraordinary but at least you know which machine and which user
+2016-11-12 19:03:57	fsckd	oh, i misunderstood
+2016-11-12 19:04:25	fsckd	how would we migrate to gitbacked? like with the attic and all.
+2016-11-12 19:04:42	CalimeroTeknik	on top, some user; below, root: http://www.kirikoo.net/images/14Anonyme-20161112-201400.png
+2016-11-12 19:04:43	fsckd	also, we have private pages on the wiki now. those can't be made public.
+2016-11-12 19:05:04	--	speculae is now known as stk
+2016-11-12 19:11:35	+meskarune	fsckd: do y'all want to keep discussion goign or should I end the meeting? :P
+2016-11-12 19:17:55	+meskarune	ok I'm gonna end the meeting lol
+2016-11-12 19:18:01	+meskarune	=== Meeting End ===
