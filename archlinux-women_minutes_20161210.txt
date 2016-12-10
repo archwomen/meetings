@@ -1,0 +1,21 @@
+Arch Women 54th IRC meeting
+Sunday, Dec. 10, 2016
+
+Wiki
+  * Lots of work done on the wiki and still lots more to go.
+    * Updated to latest stable (Elenor of Tsort) and updated template theme.
+    * Namespace aw-tech: will be renamed to tech: as part of the activity to update our technical documentation. https://archwomen.org/wiki/wiki:act:aw-tech
+    * New how to help page in progress. https://archwomen.org/wiki/aw-org:how_to_help
+      * Update in conjunction with the contribute page. https://archwomen.org/contribute/
+      * TODO Move some things from how to help to contribute and have the pages link to each other. Work on the specifics on the relation between the how to help and contribute pages outside the meeting.
+    * A few updates to wiki conventions. Please read when you have the time. https://archwomen.org/wiki/wiki:conventions
+
+Classroom
+  * “Getting Started with Arch Linux Package Building” taught by halosghost and meskarune
+    * Tomorrow Sunday Dec 11 at 19:00 UTC in #archlinux-classroom
+    * From the announcement: This class will give you the understanding and resources to read, edit and write your own PKGBUILDs from scratch. We will be covering basic PKGBUILDs as well as version control systems and GPG signed software. You will also learn how to check PKGBUILDs for errors and security issues to look out for.
+    * TODO Class notes converted to REst. Please take a look for any errors or missing information. https://gist.github.com/meskarune/4879c8338da4b85b98454ffede676558
+
+Mentoring
+  * TODO Need to create polyzen's email address to help coordinate.
+  * TODO Create page on the website with contact email mentor@archwomen.org. (The email is already set up.)
