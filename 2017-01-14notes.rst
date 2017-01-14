@@ -1,0 +1,36 @@
+Arch Women 55th IRC meeting
+===========================
+
+Sunday, Jan. 14, 2017
+
+Announcements and status updates
+--------------------------------
+
+* PKGBUID class was a success
+
+* Arch Classroom GitHub group created
+
+  * TODO Make webpage for it
+
+Topics for discussion
+---------------------
+
+Server
+^^^^^^
+
+* DokuWiki updated
+
+Projects
+^^^^^^^^
+
+* Classroom
+
+  * Another package build class possibly taught by Eli Schwartz
+  * <meskarune> .. like to have pkgbuild classes and git classes regularly
+  * fsckd drafting notes for the future of classroom
+  * <tigrmesh> i'd like to have a class about being a freenode catalyst.  i've found a member of staff why might be interested
+  * Debugging class in the works by jy2wong and tigrmesh
+
+* TODO Recruit more teachers & organizers
+
+  * hellerbarde expressed interest in teaching
