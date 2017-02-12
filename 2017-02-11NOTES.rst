@@ -1,0 +1,74 @@
+Arch Women 56th IRC meeting
+===========================
+
+Saturday, Feb. 12, 2017
+
+Announcements and status updates
+--------------------------------
+
+* fsckd going on a hiatus
+
+  * He is awesome and we wish him the best!
+  * See meskarune, tigrmesh or elky with your questions/concerns/comments/general-compliments
+
+* Meeting logs were renamed and server rules written, thanks dmc and fsckd!
+
+Topics for discussion
+---------------------
+
+Server
+^^^^^^
+
+* Combine meetings git repos without rewriting history
+
+  * https://stackoverflow.com/questions/13040958/merge-two-git-repositories-without-breaking-file-history#14470212 ?
+  * Do we want to merge two branches with different roots? - yes
+  * The new directory structure is:
+
+    * meetings/YYYY/YYYY-MM-DD{log, notes}.txt
+
+* Get Flask site into a repo and work on blog - meskarune will work on this week
+
+  * Event calendar using iCalendar - https://plugins.getnikola.com/v7/ical/
+  * Render rST meeting notes
+
+Projects
+^^^^^^^^
+
+* Classroom
+
+  * Classes
+
+    * PKGBUILD class by Eli (eschwartz)
+    * Maybe we can organize another Git class - dmc contacting some people, meskarune should make announcement on forums
+
+  * Classroom moved into its own project on GitHub, no longer shows as an Arch Women repo
+
+    * Need to make a site and recruit Archers to participate
+    * Post looking for class instructors to arch-general mailing list, Arch forums and social media (r/archlinux, twitter with archlinux hashtag)
+    * Add to notes we should post class announcements on [arch-general] mailing list, arch forums and social media (r/archlinux, twitter with archlinux hashtag)
+    * Move those notes to the Classroom info
+    * Also look into posting class announcements to [arch-events] mailing list
+
+Community
+^^^^^^^^^
+
+* Set year goals for 2017
+
+  * Recruit more women
+
+    * Outreach on social media, make regular blog posts, mailing list/s - https://lists.archlinux.org/pipermail/arch-events/
+    * Make a list of places to do announcements on, including college LUGs and mailing lists for other Arch related distros like Antergos and women in tech groups
+    * Create some digital fliers that can be printed out
+
+  * Maybe organize a meet up in Silicon Valley? Possibly also NYC. Need to find sponsors for the space, tech companies or a college
+  * Work on becoming a non-profit
+  * Online events like video chats
+  * Increase interaction with other women's groups
+  * Bring mentor program to maturity
+  * Help classroom grow into independent organization
+
+Final comments
+--------------
+
+* Put a job board on the site? - discuss on mailing list
