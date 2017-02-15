@@ -1,0 +1,104 @@
+Log of Arch Women 29th IRC Meeting, July 6th, 2014
+
+2014-07-06 17:15:12 <tigrmesh>	===========  begin archlinux women meeting  ======
+2014-07-06 17:16:48 <tigrmesh>	so first item, classroom
+2014-07-06 17:17:00 <fsckd>	ahh a moment
+2014-07-06 17:17:16 <fsckd>	before we start with, i want say something
+2014-07-06 17:17:25 <tigrmesh>	ok
+2014-07-06 17:18:06 <fsckd>	in this past month people were busy with their own stuff
+2014-07-06 17:18:46 <fsckd>	not a lot was done. things which we said we'd do didn't happen
+2014-07-06 17:19:09 <fsckd>	which is ok. arch women is volunteer, not an 8-5 job
+2014-07-06 17:19:35 <fsckd>	ok, carry on :)
+2014-07-06 17:20:36 <tigrmesh>	and i was #1 with lack of follow through; i didn't finish the meeting notes and post them on the site
+2014-07-06 17:21:34 <tigrmesh>	ok.  so for those of you who didn't see the link before, here's the agenda for the meeting  https://pad.riseup.net/p/aw-july-irc-meeting
+2014-07-06 17:21:35 <phrik>	Title: Riseup Pad (at pad.riseup.net)
+2014-07-06 17:22:25 <tigrmesh>	so carharttjimmy is the lead coordinator.  he's not here to tell us what he's been up to
+2014-07-06 17:22:33 <tigrmesh>	does anyone know?
+2014-07-06 17:24:45 <CalimeroTeknik>	hello ; (no idea, sorry) — I'll read you while implementing some rbtree hashmap
+2014-07-06 17:24:52 <tigrmesh>	hehe
+2014-07-06 17:25:11 <fsckd>	carharttjimmy volunteered during the last meeting
+2014-07-06 17:25:17 <tigrmesh>	so we don't know
+2014-07-06 17:25:57 <fsckd>	i may have forgotten to tell him he has write access to classroom-media
+2014-07-06 17:26:05 <tigrmesh>	whoops
+2014-07-06 17:26:09 *	fsckd twiddles thumbs
+2014-07-06 17:27:01 <tigrmesh>	it looks like there haven't been any class requests since our last meeting
+2014-07-06 17:27:13 <fsckd>	not that i'm aware of
+2014-07-06 17:27:25 <tigrmesh>	*nothing added to the wiki
+2014-07-06 17:27:52 <tigrmesh>	does anyone have any suggestions now?
+2014-07-06 17:28:05 <CalimeroTeknik>	people still come to archlinux-classroom asking stuff related to the previous classes
+2014-07-06 17:28:23 <fsckd>	yes that is true
+2014-07-06 17:28:23 <tigrmesh>	cool
+2014-07-06 17:29:51 <tigrmesh>	do you think it would be good to have another pkgbuild or kernel class any time soon?
+2014-07-06 17:30:17 <tigrmesh>	or better to wait?
+2014-07-06 17:31:03 <tigrmesh>	fsckd, do you want to do the classroom announcements?
+2014-07-06 17:31:12 <fsckd>	yes please :)
+2014-07-06 17:32:05 <fsckd>	Anyone can teach a class even if there has been a similar class taught before. Don't wait for approval on the topic.
+2014-07-06 17:32:40 <fsckd>	Start drafting a lesson plan.
+2014-07-06 17:33:01 <hh4a>	cool
+2014-07-06 17:33:02 <fsckd>	If you want to teach a class, please contact carharttjimmy or me.
+2014-07-06 17:34:07 <fsckd>	the Arch Wiki page isn't finished yet but it has useful info. 
+2014-07-06 17:34:26 <fsckd>	also it doesn't hurt to see the classroom admin page, https://archwomen.org/wiki/projects:classroom:start
+2014-07-06 17:34:27 <phrik>	Title: Classroom [Arch Women Wiki] (at archwomen.org)
+2014-07-06 17:35:04 <fsckd>	Suggestion for class topics (stuff you want to see a class on) can be made on the ArchWiki: https://wiki.archlinux.org/index.php/Classroom#Requested_Classes
+2014-07-06 17:35:06 <phrik>	Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2014-07-06 17:35:35 <fsckd>	thus endeth the classroom announcements
+2014-07-06 17:35:46 <fsckd>	tigrmesh, back to you :)
+2014-07-06 17:35:52 <tigrmesh>	thank you  :)
+2014-07-06 17:36:37 <tigrmesh>	we'll start the proposed classes with hh4a, since he's here
+2014-07-06 17:37:01 <tigrmesh>	hh4a, are you still interested and willing?
+2014-07-06 17:37:11 <hh4a>	yeah
+2014-07-06 17:37:25 <hh4a>	willing to do awk class
+2014-07-06 17:38:56 <fsckd>	hh4a: awesome
+2014-07-06 17:39:47 <fsckd>	hh4a: you should start by drafting a lesson plan (which may be published in classroom-media after the class is over)
+2014-07-06 17:40:02 <hh4a>	much work
+2014-07-06 17:40:28 <fsckd>	it can just be an outline
+2014-07-06 17:40:53 <fsckd>	it doesn't have to be detailed prose ;P
+2014-07-06 17:41:31 <hh4a>	will try to make something this week
+2014-07-06 17:41:40 <tigrmesh>	cool
+2014-07-06 17:41:52 *	polyzen (~poly@unaffiliated/polyzen) has joined
+2014-07-06 17:41:57 <fsckd>	publishing afterwards is optional. for example CalimeroTeknik's notes weren't published while jy2wong's notes were
+2014-07-06 17:42:56 <fsckd>	(publishing helps future teachers of the same topic)
+2014-07-06 17:43:45 <hh4a>	true
+2014-07-06 17:47:00 <tigrmesh>	any thoughts on when you'd like to do the class?
+2014-07-06 17:52:10 <tigrmesh>	this month?  maybe later?
+2014-07-06 17:54:04 <hh4a>	end of this month
+2014-07-06 17:54:13 <tigrmesh>	cool!
+2014-07-06 17:59:47 <CalimeroTeknik>	fsckd, my notes weren't published?
+2014-07-06 17:59:53 <CalimeroTeknik>	I thought they were
+2014-07-06 18:00:29 <CalimeroTeknik>	http://sprunge.us/ADPS there
+2014-07-06 18:00:45 <fsckd>	oh... umm... i thought you said not to as they would not be necessary?
+2014-07-06 18:00:54 <fsckd>	ok, i'll add them later
+2014-07-06 18:02:45 <fsckd>	hh4a: should i contact you again at the end of the week?
+2014-07-06 18:02:51 <CalimeroTeknik>	they were written for me, but are readable by others, so long as they see what it talks about :p
+2014-07-06 18:03:01 <CalimeroTeknik>	know* even
+2014-07-06 18:03:05 <fsckd>	sure, thank you :)
+2014-07-06 18:03:09 <hh4a>	fsckd: you should! By any means necessary
+2014-07-06 18:03:31 <fsckd>	hh4a: ok :)
+2014-07-06 18:05:54 <tigrmesh>	yay
+2014-07-06 18:06:09 <tigrmesh>	nisstyre and sharvey - are either of you here?
+2014-07-06 18:09:22 <tigrmesh>	the next item is internships
+2014-07-06 18:10:18 <fsckd>	CalimeroTeknik: thank you, done: https://archwomen.org/media/project_classroom/lessons/2014-04-19-pkgbuilds/class_notes.txt
+2014-07-06 18:11:26 <tigrmesh>	i don't know much about this.  does anyone else know?  
+2014-07-06 18:11:40 <tigrmesh>	meskarune isn't here to give an update of what she's been up to
+2014-07-06 18:12:48 <fsckd>	all i know is there was supposed to be a meeting last month which didn't happen
+2014-07-06 18:14:27 <tigrmesh>	i don't feel comfortable to make plans for 2 people who aren't here
+2014-07-06 18:14:44 <fsckd>	yeah
+2014-07-06 18:15:18 <tigrmesh>	so i don't fee comfortable setting a meeting for the small workgroup 
+2014-07-06 18:16:01 <tigrmesh>	i think we should postpone any discussion until next month
+2014-07-06 18:16:45 <fsckd>	i am in favor. the workgroup meeting can be rescheduled then
+2014-07-06 18:17:54 <tigrmesh>	although i volunteer to contact meskarune and carharttjimmy later in hopes they'd meet before next month
+2014-07-06 18:18:06 <fsckd>	sure
+2014-07-06 18:18:30 <tigrmesh>	is there something on the internship pages we should discuss?
+2014-07-06 18:21:55 *	polyzen has quit (Ping timeout: 240 seconds)
+2014-07-06 18:26:27 <tigrmesh>	that pause was for adding the postponement to the meeting notes
+2014-07-06 18:26:52 <tigrmesh>	and because i typed the next items into the wrong channel
+2014-07-06 18:27:08 <tigrmesh>	oops
+2014-07-06 18:27:15 <tigrmesh>	any last questions, ideas, thoughts?
+2014-07-06 18:28:18 <fsckd>	four score and seven minutes ago, we set out on a brave journey
+2014-07-06 18:28:23 <tigrmesh>	comments?
+2014-07-06 18:28:26 <tigrmesh>	hehe
+2014-07-06 18:28:55 <hh4a>	i think that is it
+2014-07-06 18:29:08 <fsckd>	to discussion matters of great import
+2014-07-06 18:29:37 <tigrmesh>	ok.  thanks all
+2014-07-06 18:29:46 <fsckd>	concerning the endeavours of our great project
+2014-07-06 18:30:02 <tigrmesh>	===========  end of arch women meeting  ==============

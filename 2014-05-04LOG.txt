@@ -1,0 +1,123 @@
+Log of Arch Women 27th IRC Meeting, May 4th, 2014
+
+16:06:11  +meskarune  ====== Meeting Starts ======
+16:06:50  +meskarune  Announcements: CalimeroTeknik taught an awesome class on pkgbuilds \o/
+16:07:23  +meskarune  the logs are online, and we need to make a blog thingy (if anyone feels like writing up a quick blog post on the class, it would be appreciated)
+16:07:45  +meskarune  and Topics to discuss
+16:07:52  +meskarune  Internship program
+16:08:05  +meskarune  https://archwomen.org/wiki/projects:internships:start
+16:08:06       phrik  Title: Internships [Arch Women Wiki] (at archwomen.org)
+16:08:53  +meskarune  we have some ideas there. To add your organization to google code or OPW, you need to have mentors, a project, and I think a few other designated persons involved
+16:09:16       fsckd  just a note, logs for CalimeroTeknik's PKGBUILD class and other classes are at https://archwomen.org/media/project_classroom/classlogs/
+16:09:18       phrik  Title: Index of /media/project_classroom/classlogs/ (at archwomen.org)
+16:10:34  +meskarune  <3
+16:11:05  +meskarune  was there a strong interest in Arch Linux to do google summer of code?
+16:11:12    nisstyre  might be cool to have a class on creating patches and integrating them into pkgbuilds
+16:11:12  +meskarune  I think there was a forum post
+16:11:15    nisstyre  if that wasn't covered
+16:11:28    nisstyre  meskarune: well it's too late now obviously
+16:11:31  +meskarune  yeah, I think making patches would be awesome, and docs too
+16:11:43    nisstyre  the deadline was in februar
+16:11:45    nisstyre  *y
+16:11:53  +meskarune  yeah, but we can plan for next year :P
+16:11:57    nisstyre  yeah true
+16:12:03  +meskarune  and I think it will take a lot of planning and recruiting and stuff
+16:12:19  +meskarune  and the other option is to fund raise and have our own intership
+16:13:14       fsckd  this was the forum thread on GSoC. i don't know if anything came of it. https://bbs.archlinux.org/viewtopic.php?id=176184
+16:13:16       phrik  Title: Google Summer of Code 2014 (Page 1) / Arch Discussion / Arch Linux Forums (at bbs.archlinux.org)
+16:15:08  +meskarune  ok
+16:15:55  +meskarune  I'll try and get some momentum on it, but I think maybe we should pick a route to focus on
+16:17:16  +meskarune  I sorta like out reach program for women because they don't have a requirement that people we in college
+16:17:25  +meskarune  so it broadens who can be an intern
+16:17:30  +meskarune  but what do ya'll think?
+16:17:52    nisstyre  that sounds fine
+16:20:35  +meskarune  but I think GSoC might be more likely to get ARch LInux devs invovled
+16:21:45       fsckd  what is required to be in GSoC?
+16:22:14       fsckd  for an organization
+16:23:08    nisstyre  no idea but I know Haskell only got in this year
+16:23:22    nisstyre  perhaps it was for lack of trying
+16:23:24  +meskarune  You have to have a proposal for a porject, and you need at least 3 people working as mentors and coordinators I think
+16:24:04    nisstyre  meskarune: and the mentors have to make sure work is getting done and so on right?
+16:24:23    nisstyre  and help out, etc...
+16:24:24       fsckd  any funding requirements? do GSoC interns get paid?
+16:24:28  +meskarune  yeah, they teach and also help move the project 
+16:24:29    nisstyre  yeah they do
+16:24:39    nisstyre  google pays out
+16:25:27  +meskarune  http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page#2._What_should_a_mentoring_organization
+16:25:29       phrik  Title: Google Summer of Code 2014 Frequently Asked Questions (at www.google-melange.com)
+16:25:39  +meskarune  that linkls ot what a proposal looks like
+16:26:01  +meskarune  you have to have an ideas list, and I think students can apply for different projects
+16:26:11  +meskarune  but it also has to be programming I think
+16:26:15    nisstyre  yeah
+16:26:24    nisstyre  sooo
+16:27:00    nisstyre  ideas can also be about improving existing software
+16:27:05    nisstyre  in specific ways
+16:27:12  +meskarune  it would be really great if we could get soem arch projects like pacman improved or fixed up
+16:27:23    nisstyre  what's wrong with pacman?
+16:27:43  +meskarune  nothign wrong with it, they just need help :P
+16:27:46    nisstyre  true
+16:27:52    nisstyre  pacman would be an advanced project though
+16:27:56    nisstyre  it's in C, etc..
+16:28:02  +meskarune  yeah
+16:28:04    nisstyre  but that's a good idea
+16:28:57    nisstyre  also this kind of died https://github.com/toofishes/multipkg
+16:28:58       phrik  Title: toofishes/multipkg · GitHub (at github.com)
+16:29:02    nisstyre  might be able to improve that somehow
+16:30:04    nisstyre  person would have to know or be willing to learn basic TCP/IP concepts (i.e. multicast) and know python and possibly twisted (or be willing to learn quickly)
+16:30:08  +meskarune  taht would be useful if like, one wanted to host packages on a private lan with a vps host
+16:30:13    nisstyre  yeah
+16:30:21  +meskarune  or a college lab
+16:30:26  +meskarune  to update things faster
+16:30:52  +meskarune  so I think we need a project ideas list on the wiki
+16:31:01  +meskarune  to add internet ideas to
+16:31:33    nisstyre  you could ask toofishes if he is willing to revive the project and mentor someone
+16:31:43  +meskarune  ok :)
+16:31:53  +meskarune  https://archwomen.org/wiki/projects:internships:ideas 
+16:31:55       phrik  Title: projects:internships:ideas [Arch Women Wiki] (at archwomen.org)
+16:31:55  +meskarune  ?
+16:34:29  +meskarune  ok, I made the page wiht 2 items
+16:35:26  +meskarune  so for internship, 1. get some ideas and mentors together, 2. create proposal ?
+16:35:26    nisstyre  great
+16:36:18  +meskarune  ok, and I can post on teh mailing list I guess to see what other people think
+16:36:31  +meskarune  so last meeting item?
+16:36:38  +meskarune  Arch Classroom stuff
+16:36:53  +meskarune  I can teach a class on web design if people are interested
+16:37:18  +meskarune  and jy2wong wants to do a class on kernel compiling
+16:37:39  +meskarune  I think that might happen some time this sumer
+16:38:00  +meskarune  And nisstyre suggested class on makeing patches for packages
+16:38:24  +meskarune  which is useful not just for pkgbuilds but also compiling stufff
+16:38:31  +meskarune  and I want to see a class on using git
+16:38:49  +meskarune  since tons of open source projects use git, so if people understand how to use it, can they contribute more
+16:39:09       fsckd  jy2wong unfortunately can't make it for today's meeting. the tentative date for her class is May 24th. a final date may be announced sometime by the end of this week or start of next
+16:39:33    khyperia  I would love a git class, I get really confused by the terminal interface and a lot of GUIs aren't fully-featured
+16:40:03    nisstyre  sometimes git confuses me when it fails to merge branches
+16:40:20  +meskarune  awesome, thanks for chiming in
+16:40:32  +meskarune  I'll try and find someone to teach a class on git stuff
+16:40:52  +meskarune  I can do basic things wiht git, but more complicated stuff trips me up
+16:42:04  +meskarune  khyperia: I agree that git gui programs often don't have all the features of the command line git 
+16:42:15    nisstyre  I know how to clone, pull, push, commit, add/delete, and branch
+16:42:17    nisstyre  that's about it
+16:42:56  +meskarune  so we can also show how to make git hooks, and how to create repositories
+16:43:13    nisstyre  oh, yeah I guess
+16:43:28  +meskarune  git hooks allow all sorts of cool things to happen
+16:43:31    nisstyre  like running some tests or doing static analysis of the code after you commit
+16:43:50    khyperia  Oh, huh, I didn't know that even existed.
+16:43:50  +meskarune  so I think a class would be really awesome
+16:44:04    nisstyre  there is one that takes pictures of you when you commit
+16:44:09  +meskarune  haha
+16:44:34  +meskarune  photo of linus with troll face 
+16:44:37  +meskarune  >.>
+16:45:04    nisstyre  meskarune: angry commit messages + angry face
+16:45:48  +meskarune  "changed the password storage from plain text to md5sum hashed" >:|
+16:45:50  +meskarune  lol
+16:46:20    nisstyre  "changed the password storage from md5sum hashed to scrypt" :|
+16:46:37  +meskarune  haha
+16:46:44  +meskarune  I think that was the last thing on the agenda
+16:46:57  +meskarune  so we can go to questions/requests
+16:47:07  +meskarune  if anyone has suggestions, or something they wanna talk about
+16:47:32  +meskarune  I'll sum up then :)
+16:48:16  +meskarune  We have a pkgbuild class which was awesome, talked about internship and decided to get an idea list together and contact people about being mentors for projects.
+16:48:58  +meskarune  For Arch Classroom a kernel compilation class is in teh works, and there is proposal for a class on web design, creating patches, and using git
+16:49:48  +meskarune  shoudl I end the meeitng?
+16:49:55  +meskarune  any objections? ;)
+16:50:47  +meskarune  ====== Meeting Ends ======

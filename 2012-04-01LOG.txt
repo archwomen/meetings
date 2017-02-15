@@ -1,0 +1,577 @@
+Apr 01 12:08:44 .:@meskarune:.	for the new comers, meeting agenda is on the main site
+Apr 01 12:08:46 .:@meskarune:.	!archwomen
+Apr 01 12:08:48 .:phrik:.	http://archwomen.org
+Apr 01 12:08:54 .:code_astronomer:.	is the meeting now?
+Apr 01 12:09:07 .:fsckd:.	code_astronomer: any minute
+Apr 01 12:09:11 .:code_astronomer:.	OK
+Apr 01 12:09:48 .:@meskarune:.	Ok
+Apr 01 12:09:58 .:Silvah:.	oK
+Apr 01 12:10:00 .:@meskarune:.	Official start the second archwomen meeting is.....
+Apr 01 12:10:00 .:qubodup:.	go go go?
+Apr 01 12:10:02 .:@meskarune:.	NOW
+Apr 01 12:10:13 Â»Â»	code_astronomer claps
+Apr 01 12:10:18 ---Â»	joyfulgirl (~joyfulgir@unaffiliated/joyfulgirl) has Joined #archlinux-women
+Apr 01 12:10:19 Â»Â»	code_astronomer stops clapping
+Apr 01 12:10:23 .:@meskarune:.	so first thing: great job on everything we've acomplished in the last month
+Apr 01 12:10:28 .:@meskarune:.	I can't thank all of you enough
+Apr 01 12:10:32 .:fsckd:.	:)
+Apr 01 12:11:07 .:@meskarune:.	So first thing on the agenda: Teaching / Mentorship Program
+Apr 01 12:11:43 .:@meskarune:.	some suggested ideas were to have certain times set for teaching, or to have a "class" setup
+Apr 01 12:11:44 .:@meskarune:.	etc
+Apr 01 12:12:14 .:@meskarune:.	idk how formal you guys/gals want this to be
+Apr 01 12:12:26 Â»Â»	fsckd is curious
+Apr 01 12:12:30 .:code_astronomer:.	I guess there should be an option
+Apr 01 12:12:54 .:@meskarune:.	I could teach a class on making PKGBUILDS (with some help) 
+Apr 01 12:13:01 .:code_astronomer:.	to improve oneself is desirable
+Apr 01 12:13:24 .:@meskarune:.	and maybe we could have someone in the european time zone teach so they have one at a time that isn't crazy
+Apr 01 12:13:34 .:@meskarune:.	!ubuntu classroom
+Apr 01 12:13:34 -Notice-	{from phrik} Error: "ubuntu" is not a valid command.
+Apr 01 12:13:38 .:code_astronomer:.	I'm actually interested in pkgbuilds at the moment... and if there's someone to chat with instead of going alone with documentation, that'd be cool
+Apr 01 12:13:42 .:@meskarune:.	!g ubuntu classroom
+Apr 01 12:13:43 <phrik>	meskarune: Classroom - Ubuntu Wiki: <https://wiki.ubuntu.com/Classroom>
+Apr 01 12:14:27 .:@meskarune:.	code_astronomer: yeah, I'm thinking it will be a lot easier and people will be more motivated to contribute if they have a "class" to take and maybe times when they can come online and have someone to talk to
+Apr 01 12:14:42 .:code_astronomer:.	exactly.
+Apr 01 12:14:50 .:qubodup:.	so one task could be to investigate ubuntu classroom practices more, interviewing them about their process and success with it to then make a suggesion what archwomen can do
+Apr 01 12:15:01 .:@meskarune:.	yeah
+Apr 01 12:15:06 <joyfulgirl>	meskarune: You might talk to some of the folks at linuxchix.org; I know they used to have classes for a while
+Apr 01 12:15:17 .:@meskarune:.	oh awesome. thanks joyfulgirl :)
+Apr 01 12:15:20 .:joyfulgirl:.	np
+Apr 01 12:15:22 .:joyfulgirl:.	(-:
+Apr 01 12:15:27 .:code_astronomer:.	documentation is fine, and being a long term linux user, I'm used to it, but it's always more friendly to chat with others and documentation can't answer questions or give "experience" advice
+Apr 01 12:15:54 .:qubodup:.	joyfulgirl: you mean http://www.linuxchix.org/content/courses/ ?
+Apr 01 12:15:56 .:phrik:.	Title: LinuxChix course information (at www.linuxchix.org)
+Apr 01 12:16:17 .:@meskarune:.	one great thing is that PKGBUILDS are bash
+Apr 01 12:16:26 .:joyfulgirl:.	qubodup: Yup!
+Apr 01 12:16:30 .:@meskarune:.	so people can study bash scripting as they learn to write PKGBUILDS
+Apr 01 12:16:37 .:@meskarune:.	and bash has a TON of documentation
+Apr 01 12:16:38 .:Silvah:.	That's a bad thing.
+Apr 01 12:16:48 .:code_astronomer:.	why bad?
+Apr 01 12:16:56 .:@meskarune:.	its easier to use than debian's packaging system :P
+Apr 01 12:17:12 .:code_astronomer:.	bash is pretty much known by any linux user
+Apr 01 12:17:27 .:@meskarune:.	Silvah: I can image it getting confusing if someone learns bash and PKGBUILDS at the same time
+Apr 01 12:17:40 .:@meskarune:.	so I'll try and make the class very clear
+Apr 01 12:17:48 .:@meskarune:.	how about this: we work on class materials 
+Apr 01 12:17:54 .:@meskarune:.	like maybe I could set up a wiki?
+Apr 01 12:18:00 .:@meskarune:.	with homework assignments
+Apr 01 12:18:05 .:Silvah:.	code_astronomer: for it's bash, and bash sucks.
+Apr 01 12:18:22 .:code_astronomer:.	Silvah: I disagree, but..
+Apr 01 12:18:28 .:fsckd:.	whether bash sucks or not is kind of outside the scope of this meeting
+Apr 01 12:19:04 .:+tigrmesh:.	but it's so very arch to have opinions about it  ;)
+Apr 01 12:19:17 .:@meskarune:.	well, PKGBUILDS are based off bash, so I'd do a basic bash intro I guess, and talk about making PKGBUILDS
+Apr 01 12:19:30 .:@meskarune:.	and probably talk a little about the compilation process?
+Apr 01 12:19:51 <qubodup>	meskarune: I would absolutely try to use the official archwiki
+Apr 01 12:20:06 .:fsckd:.	i agree with qubodup
+Apr 01 12:20:09 .:@meskarune:.	qubodup: http://en.wikibooks.org/wiki/Bash_Shell_Scripting
+Apr 01 12:20:11 .:phrik:.	Title: Bash Shell Scripting - Wikibooks, open books for an open world (at en.wikibooks.org)
+Apr 01 12:20:19 .:@meskarune:.	I was sorta thinking along the lines of that
+Apr 01 12:20:28 .:@meskarune:.	with like, homework assignments and answers 
+Apr 01 12:20:31 .:code_astronomer:.	but like I said ... documentation is the first step, but it's not the same as talking with friendly people and getting more info
+Apr 01 12:20:42 .:@meskarune:.	you think it would be ok to put a PKGBUILD course on the official wiki?
+Apr 01 12:20:45 <code_astronomer>	what meskarune can do is expand in a more personal way
+Apr 01 12:21:10 .:fsckd:.	the classes would be like a seminar, back and forth interaction
+Apr 01 12:21:14 .:@meskarune:.	yeah
+Apr 01 12:21:16 Â»Â»	fsckd hates homework :P
+Apr 01 12:21:18 .:@meskarune:.	and like, code examples
+Apr 01 12:21:30 Â«---	julius2 (~julius@unaffiliated/julius2) has Left #archlinux-women
+Apr 01 12:21:45 <qubodup>	meskarune: I think this might make sense for bash, since there is no official bash wiki. with arch it might be wise to try to use the official wiki if archwiki authoroties agree
+Apr 01 12:21:48 .:@meskarune:.	fsckd: not like "homework homework" just code examples and maybe something like, "try this out and see what you can do"
+Apr 01 12:22:06 .:code_astronomer:.	fsckd: F!
+Apr 01 12:22:13 .:fsckd:.	:(
+Apr 01 12:22:17 .:code_astronomer:.	hehe
+Apr 01 12:22:38 Â»Â»	fsckd withdraws from the course
+Apr 01 12:22:55 ---Â»	tuxampol (~tuxampol@ppp-188-174-59-82.dynamic.mnet-online.de) has Joined #archlinux-women
+Apr 01 12:23:01 .:@meskarune:.	heh
+Apr 01 12:23:13 .:lurmksafngf:.	http://rubykoans.com/ (A nice example of getting into a language, very creatively done.
+Apr 01 12:23:14 Â»Â»	code_astronomer re-enrols fsckd and disguises the course with beer and cake
+Apr 01 12:23:18 .:phrik:.	Title: Learn Ruby with the EdgeCase Ruby Koans (at rubykoans.com)
+Apr 01 12:23:24 .:+tigrmesh:.	i'm not sure about using the arch wiki.  what if this spread to other pages?  i hate it when i'm trying to get an answer, and all i get is questions
+Apr 01 12:23:27 .:@meskarune:.	ok, so ideas so far: make up a few examples of the PKGBUILDING process
+Apr 01 12:23:34 .:@meskarune:.	and maybe put them on the wiki
+Apr 01 12:23:43 .:code_astronomer:.	I there are examples already
+Apr 01 12:23:59 .:code_astronomer:.	I think
+Apr 01 12:24:00 .:code_astronomer:.	there
+Apr 01 12:24:10 .:@meskarune:.	code_astronomer: I mean like, starting from the very beging. #1. look at the source readme
+Apr 01 12:24:11 .:@meskarune:.	ect
+Apr 01 12:24:18 .:code_astronomer:.	ah ok
+Apr 01 12:24:29 .:@meskarune:.	tigrmesh: yeah, I'm not sure if it would be appropriate to use the official wiki or not. 
+Apr 01 12:25:24 .:fsckd:.	actual PKGBUILDs are excellent examples, i see no reason to duplicate them, a simple link would work
+Apr 01 12:25:26 .:@meskarune:.	I want to do step by step with like, a regular package that installs with /configure make make install. and then maybe show PKGBUILDS for java, ruby programs, etc
+Apr 01 12:25:37 Â»Â»	code_astronomer says beer has arrived.. passes them out
+Apr 01 12:25:46 .:qubodup:.	fsckd: picking out excellent examples might be good
+Apr 01 12:25:53 <Silvah>	meskarune: set up your own wiki, maybe?
+Apr 01 12:25:54 .:@meskarune:.	fsckd: so should I just add in information on locating the install information in source packages? 
+Apr 01 12:25:57 .:qubodup:.	fsckd: creating commented versions might be useful as well
+Apr 01 12:26:19 .:fsckd:.	for complex stuff that would be good
+Apr 01 12:27:16 <qubodup>	meskarune: why ruby, java? because their processes are different from c programs?
+Apr 01 12:27:17 .:joyfulgirl:.	Also, newer features such as split packaging could be interesting; also, maybe a (brief) discussion of the general best practices on where to put stuff
+Apr 01 12:27:24 .:@meskarune:.	qubodup: yeah
+Apr 01 12:27:37 .:@meskarune:.	their PKGBUILDS are different
+Apr 01 12:27:46 <qubodup>	meskarune: this sounds more and more like improving the PKGBUILD documentation in general
+Apr 01 12:27:52 .:@meskarune:.	yeah I think so 
+Apr 01 12:28:07 .:qubodup:.	java, ruby and RCS (svn, git..) might be too specialized for courses
+Apr 01 12:28:15 .:qubodup:.	although I believe that they are very important
+Apr 01 12:28:31 .:@meskarune:.	I guess I can start out simple, and get more indepth as people learn....?
+Apr 01 12:29:01 .:joyfulgirl:.	Sure; that way you could also see where people's interest lies
+Apr 01 12:29:07 .:fsckd:.	baby's first PKGBUILD :P
+Apr 01 12:29:08 .:qubodup:.	I would suggest having a simple course and trying to put specific info into the general documentation (it probably is already there but probably messy)
+Apr 01 12:29:16 .:@meskarune:.	so PKGBUILD examples with comments and increase the information on the wiki. maybe call it the begingers guide to making PKGBUILDS  ?
+Apr 01 12:29:59 .:@meskarune:.	sorta like the begings guide to installing archlinux
+Apr 01 12:30:18 .:@meskarune:.	make a step by step guide on the wiki?
+Apr 01 12:30:34 .:@meskarune:.	and then set up a class and withint the class adopt orphan packages?
+Apr 01 12:30:36 .:fsckd:.	wait... was the whole tutorial idea just about PKGBUILDs?
+Apr 01 12:30:51 .:qubodup:.	it seems like a good start
+Apr 01 12:31:20 .:+tigrmesh:.	sounds ambitious, but great
+Apr 01 12:31:33 .:@meskarune:.	fsckd: I think it would be awesome to teach other things as well, but people have expressed an interest in learning to maintain packages and arch linux has a huge need for that anyways
+Apr 01 12:32:05 ---Â»	keenerd (~kyle@archlinux/trusteduser/keenerd) has Joined #archlinux-women
+Apr 01 12:32:18 .:fsckd:.	ok, so a PKGBUILD class to start the tutorial system
+Apr 01 12:32:19 .:@meskarune:.	I really think it would be great to create class materials that anyone could use to teach a class
+Apr 01 12:32:24 .:@meskarune:.	fsckd: yeah
+Apr 01 12:32:24 .:@meskarune:.	:)
+Apr 01 12:33:09 <qubodup>	meskarune: this material might already exist on ubuntu classroom and or linuxchix courses
+Apr 01 12:33:51 .:qubodup:.	added  "*or* to make it easy for people to start classes on their own" to investigating UC/LCC
+Apr 01 12:33:54 .:@meskarune:.	qubodup: yeah. I'm sure we can get a lot of information from other places, and then put it in the arch wiki in an organized manner. I bet people from #archlinux would help out too since its to their advantage
+Apr 01 12:35:35 .:qubodup:.	if the info is already structurized on UC/LCC, then perhaps it would not need to be copied... hm.
+Apr 01 12:35:39 .:fsckd:.	from UC website, people submit proposals for a class which gets accepted or not
+Apr 01 12:35:39 .:@meskarune:.	maybe I can start a forum thread on creating a beginners guide to PKGBUILDing and maintaining?
+Apr 01 12:36:01 <qubodup>	meskarune: either that or use the PKGBUILD wiki discussion page
+Apr 01 12:36:13 .:@meskarune:.	oh ok good idea :)
+Apr 01 12:36:20 .:qubodup:.	although I believe arch documentation (on wiki) states that forum should be used for discussing wiki too
+Apr 01 12:36:40 .:fsckd:.	forum/wiki section of forum :)
+Apr 01 12:36:45 .:qubodup:.	:)
+Apr 01 12:36:50 .:@meskarune:.	I'm really excited about this :D
+Apr 01 12:36:59 .:@meskarune:.	it would help out arch linux a lot
+Apr 01 12:37:06 .:fsckd:.	yeah XD
+Apr 01 12:37:12 .:qubodup:.	I had a lot of fun editing the "getting started" section of the wiki last month
+Apr 01 12:37:35 .:fsckd:.	thanks for that qubodup :)
+Apr 01 12:38:30 .:qubodup:.	hopefully it helped but I invite you all to look over it and comment/edit :)
+Apr 01 12:38:42 .:@meskarune:.	ok, so first get get the documentation together, and then later schedule classes and find teachers...?
+Apr 01 12:39:46 .:qubodup:.	I have my doubts that we will be able to completely work through PKGBUILD documentation. I believe there are at least 3 long wiki pages on it?
+Apr 01 12:40:02 .:qubodup:.	we might want to start a class/tutorial and work on general doc in parallel?
+Apr 01 12:40:27 .:fsckd:.	i vote parallel
+Apr 01 12:40:28 .:qubodup:.	'generral doc' meaning the wiki pages that already are in place on the wiki about PKGBUILDs
+Apr 01 12:40:34 .:@meskarune:.	yeah, and I think if we make a forum thread and discussion on the wiki, more people will add to it
+Apr 01 12:40:46 .:qubodup:.	(and AUR and ABS, since they probably repeat much info on these pages)
+Apr 01 12:40:49 .:fsckd:.	how do you plan to find teachers?
+Apr 01 12:40:52 .:@meskarune:.	and make the documentation clearer and easier to read
+Apr 01 12:41:33 .:@meskarune:.	fsckd: I'm thinking I might make general announcements on the mailing lists, forums, IRC, etc and get a list of names together
+Apr 01 12:41:48 <qubodup>	meskarune: I agree that forum would bring more people to discuss. I want to warn that there are likely to be trolls and that not every user's input should be taken into consideration. but I'm being pessimistic :)
+Apr 01 12:41:58 .:@meskarune:.	hehe
+Apr 01 12:42:14 .:@meskarune:.	well, the forum mods do a good job in trying to keep things on there in check
+Apr 01 12:42:19 .:qubodup:.	fsckd: I wonder about that as well (finding teachers)
+Apr 01 12:42:21 .:@meskarune:.	espeically since there are so few
+Apr 01 12:42:40 .:Silvah:.	Don't even get me started on forum mods.
+Apr 01 12:42:45 .:fsckd:.	lol
+Apr 01 12:43:18 .:@meskarune:.	qubodup: I think if we make it as easy as possible for someone to teach by having good teaching materials made, it won't be too difficult to find people
+Apr 01 12:43:21 .:qubodup:.	about the PKGBUILD tutorial/homework. is there a link somebody wants to suggest as inspiration?
+Apr 01 12:43:44 .:fsckd:.	man PKGBUILD ?
+Apr 01 12:44:00 .:Silvah:.	They do everything but a good job.
+Apr 01 12:44:04 .:qubodup:.	fsckd: I mean more like "homeworks" created on ubuntu classroom or something
+Apr 01 12:44:12 .:fsckd:.	oh, sorry
+Apr 01 12:44:49 .:qubodup:.	are we talking about the same thing?
+Apr 01 12:44:58 .:qubodup:.	I mean "Write beginners guide to making PKGBUILDS (on archwiki?)
+Apr 01 12:45:01 .:qubodup:.	"
+Apr 01 12:45:13 .:@meskarune:.	http://en.wikibooks.org/wiki/Bash_Shell_Scripting#Some introductory examples
+Apr 01 12:45:15 .:phrik:.	Title: Bash Shell Scripting - Wikibooks, open books for an open world (at en.wikibooks.org)
+Apr 01 12:45:49 .:@meskarune:.	I'm thinking like that. we have the process of building a PKGBUILD and putting that PKGBUILD in AUR step by step so anyone can sit down and follow along
+Apr 01 12:46:01 .:@meskarune:.	and then have examples of PKGBUILDS with lots of comments
+Apr 01 12:46:08 .:@meskarune:.	?
+Apr 01 12:46:11 .:qubodup:.	I think it should be a 'learning by doing' type documentation, allowing a user to create one pkgbuild without having to understand everything they do?
+Apr 01 12:46:18 .:@meskarune:.	yeah
+Apr 01 12:46:31 .:@meskarune:.	its like the arch wiki beginners guide
+Apr 01 12:46:43 .:@meskarune:.	they walk you through, and explain a bit, but link to more indepth articles
+Apr 01 12:46:43 .:fsckd:.	one thing, would a beginners' guide to PKGBUILDs in addition to existing docs be more like spoon feeding?
+Apr 01 12:47:23 .:qubodup:.	fsckd: I believe yes. spoon feeding for the first steps, to get users going.
+Apr 01 12:47:39 .:@meskarune:.	fsckd: well, it would just be a step by step tutorial on making and uploading an Arch PKGBUILD, and then link to the other documentation. so people have a starting point so to speak
+Apr 01 12:47:46 .:qubodup:.	fsckd: does that sound superfluous to you?
+Apr 01 12:47:59 <Silvah>	meskarune: a PKGBUILD with lots of comments would be a bad example, good PKBUILD explains itself very well.
+Apr 01 12:48:22 .:@meskarune:.	Silvah: so we just put all the explainatins withint the wiki article?
+Apr 01 12:48:44 .:@meskarune:.	Silvah: I mostly want to explain all the installation scripts stuff at the bottom :)
+Apr 01 12:49:18 .:keenerd:.	Silvah: Only if you already know bash.
+Apr 01 12:49:30 .:joyfulgirl:.	I disagree with that, actually; comments in a simple script may be superfluous to an experienced user, but when learning they can only help.
+Apr 01 12:49:32 .:qubodup:.	Silvah: you might be right. We'd have to see where the comments are best placed. they are needed for people who see a pkgbuild for the first time. I think there is something already on the wiki
+Apr 01 12:50:10 .:Silvah:.	keenerd: I don't know bash, yet I find most PKGBUILDs very readable.
+Apr 01 12:50:29 .:joyfulgirl:.	Also, although it is quite possible to have the PKGBUILD (5) manual up alongside your work, it couldn't hurt to have brief descriptions of the various options in an example PKGBUILD.
+Apr 01 12:50:45 .:fsckd:.	you would need to know bash to do PKGBUILDs
+Apr 01 12:51:09 .:@meskarune:.	Silvah: maybe we can just make something up, and have people look it over to see what is good/bad in comments :)
+Apr 01 12:52:11 .:keenerd:.	Any thoughts on improving the quality of the proto pkgbuilds?  (See /usr/share/pacman/* from the abs package.)
+Apr 01 12:52:24 .:@meskarune:.	we could have a comment like "below is how you put user instructions in your PKGBUILD" and have an example of "hello world"
+Apr 01 12:53:18 .:qubodup:.	I didn't know about man PKGBUILD (which seems to require bash knowledge - I don't know how a bash array works)
+Apr 01 12:53:26 .:qubodup:.	I also did not know about /usr/share/pacman
+Apr 01 12:53:31 .:joyfulgirl:.	keenerd: I think one important thing would be simply to make more people aware of them; I've often found people who just don't know that they're there.
+Apr 01 12:54:03 .:fsckd:.	joyfulgirl: that could serve better as our focus
+Apr 01 12:54:03 .:qubodup:.	it might be enough to have a page mostly justexplaining that /usr/share/pacman/ and man PKGBUILD exists) - we'll have to see
+Apr 01 12:54:19 .:joyfulgirl:.	Of course, I don't know how exactly to do that, since I think that may be mentioned on the wiki, and is certainly referenced in the SEE ALSO in makepkg(8)
+Apr 01 12:54:26 .:qubodup:.	these are now details on how to create such beginner's PKGBUILD documentation
+Apr 01 12:54:30 .:fsckd:.	increase awareness of existing resources and suggestions to improve them
+Apr 01 12:54:55 .:@meskarune:.	qubodup: we could add that information to the wiki
+Apr 01 12:55:03 .:qubodup:.	I'm sure it already is there :D
+Apr 01 12:55:12 .:qubodup:.	but if not, absolutely!
+Apr 01 12:55:28 .:qubodup:.	if it is there, we will have to see if there is improval of readability required
+Apr 01 12:55:35 .:@meskarune:.	and then put links in the PKGBUILD beginners guide?
+Apr 01 12:55:37 .:Silvah:.	Ugh, I wanted to remain silent during the meeting ><
+Apr 01 12:55:42 .:@meskarune:.	hehe
+Apr 01 12:55:49 .:fsckd:.	hi Silvah XD
+Apr 01 12:55:59 .:@meskarune:.	speak up Silvah :) its what meetings are for :P
+Apr 01 12:56:08 .:qubodup:.	also again, it might make sense to nevertheless make a beginner PKGBUILD documentation/tutorial, as the entire PKGBUILD docuemntation is likely to be large and have a spikey learning curve
+Apr 01 12:56:15 .:qubodup:.	Silvah: haha
+Apr 01 12:57:18 .:qubodup:.	we are 45 minutes into the meeting
+Apr 01 12:57:30 .:fsckd:.	hehe yes
+Apr 01 12:57:34 .:@meskarune:.	and still on the first agenda topic :P
+Apr 01 12:57:36 .:qubodup:.	I suggest we wrap up "1. Teaching / Mentorship"?
+Apr 01 12:58:12 .:qubodup:.	hm. we did not discuss office hours and/or irc sessions though, did we?
+Apr 01 12:58:28 .:qubodup:.	except 'find/create teaching material'?
+Apr 01 12:58:40 .:qubodup:.	Investigate UC & LCC practices and results, suggest methods of teaching to adopt by AW *or* to make it easy for people to start classes on their own
+Apr 01 12:59:19 .:@meskarune:.	qubodup: so I think first we need to make and find teaching material so its as easy as possible for people to run their own class
+Apr 01 12:59:24 .:qubodup:.	also --- Â Â Â  after documentation is updated/created we can make a call for teachers and set up classes
+Apr 01 12:59:32 .:@meskarune:.	after that is done, we can organize some classes themselves?
+Apr 01 12:59:52 .:@meskarune:.	and maybe individual people can set up office hours on IRC for helping users....?
+Apr 01 12:59:59 .:@meskarune:.	and we can post those on the site?
+Apr 01 13:00:01 <qubodup>	meskarune: yes, although we might fall into a trap of trying to improve teaching docs forever, never starting one :) (me being negative again)
+Apr 01 13:00:18 .:@meskarune:.	qubodup: well, as long as you are around to poke us with a stick :P
+Apr 01 13:00:19 .:qubodup:.	this is what often happens in (open source) game development - people make engines and never get to making games
+Apr 01 13:00:22 .:qubodup:.	haha
+Apr 01 13:00:40 <ioni>	hey meskarune
+Apr 01 13:00:44 .:@meskarune:.	hi ioni
+Apr 01 13:00:49 .:qubodup:.	(I'm exggerating of course)
+Apr 01 13:00:54 <ioni>	meskarune, how are you?
+Apr 01 13:01:14 .:@meskarune:.	pretty good ioni. we're talking about the first agenda item for the meeting
+Apr 01 13:01:25 .:@meskarune:.	ioni: http://titanpad.com/MYTjblo5Wt
+Apr 01 13:01:27 .:ioni:.	meeting?:D
+Apr 01 13:01:28 .:phrik:.	Title: TitanPad: MYTjblo5Wt (at titanpad.com)
+Apr 01 13:01:33 .:ioni:.	i'll shut the fuck up then :D
+Apr 01 13:01:36 .:@meskarune:.	haha
+Apr 01 13:01:44 .:qubodup:.	"1. teaching/mentorship program" is done? Are people content with the task suggestions on http://titanpad.com/MYTjblo5Wt ? Does anybody want to volunteer for any of the tasks yet?
+Apr 01 13:01:46 .:phrik:.	Title: TitanPad: MYTjblo5Wt (at titanpad.com)
+Apr 01 13:01:49 .:@meskarune:.	!give ioni topic
+Apr 01 13:01:50 .:phrik:.	ioni: Arch Linux Chix FTW: http://archwomen.org IRC Rules: http://bit.ly/zFZJQP >ATTENTION< Second IRC Meeting: April 1st at 12 PM US/Central (UTC-5), 20:00 Eastern Europe (UTC+3). See you there!
+Apr 01 13:01:56 .:qubodup:.	Or should we do task distribution (if needed at all) at end of meeting?
+Apr 01 13:02:02 .:ioni:.	damn
+Apr 01 13:02:08 .:@meskarune:.	:P
+Apr 01 13:02:10 .:qubodup:.	ioni: hehe :D
+Apr 01 13:02:18 .:ioni:.	i spilled the juice on me
+Apr 01 13:02:44 .:@meskarune:.	heh
+Apr 01 13:03:14 <joyfulgirl>	meskarune: I'd be glad to help gathering and improving documentation and/or teaching a class or module
+Apr 01 13:03:18 .:@meskarune:.	Ok, so 1. we set up a wiki page, make a call for contributions, etc. and then at a later date organize a class.
+Apr 01 13:03:35 .:@meskarune:.	awesome joyfulgirl :D we need all the help we can get :D
+Apr 01 13:03:40 .:joyfulgirl:.	(-:
+Apr 01 13:03:54 .:@meskarune:.	and as for having office hours....
+Apr 01 13:04:05 <qubodup>	meskarune: and forum thread?
+Apr 01 13:04:35 .:@meskarune:.	I'll create some for myself? and post them somewhere, and if other people to have a time where they can have office hours, I can set that up and add it to the site
+Apr 01 13:04:53 .:@meskarune:.	I'll probably have mine on saturdays for like, 2 - 3 hours
+Apr 01 13:05:17 .:@meskarune:.	that will force me to be online at a set time where people can contact me and be sure of a response
+Apr 01 13:05:18 .:@meskarune:.	:P
+Apr 01 13:05:44 .:+tigrmesh:.	heh
+Apr 01 13:06:09 <qubodup>	meskarune: well, if you create office hours for yourself, then these can be official archwomen office hours, since you're an important rep :)
+Apr 01 13:06:16 .:@meskarune:.	ok :)
+Apr 01 13:06:25 .:@meskarune:.	and if I can't do it maybe we can find substitutes
+Apr 01 13:06:42 .:@meskarune:.	and it would be awesome if we had a rep. from eastern/central europe
+Apr 01 13:06:45 .:@meskarune:.	since so many peopel are from there
+Apr 01 13:06:59 .:@meskarune:.	and idk what times woudl be the best for them
+Apr 01 13:08:34 Â«---	tuxampol (~tuxampol@ppp-188-174-59-82.dynamic.mnet-online.de) has Quit (Quit: Verlassend)
+Apr 01 13:08:36 .:@meskarune:.	Ok so we move on to the 2nd agenda item?
+Apr 01 13:08:53 .:@meskarune:.	any last words?
+Apr 01 13:08:54 .:@meskarune:.	:P
+Apr 01 13:08:58 .:qubodup:.	*shrugs* - shall we start with the hours you want to set for yourself and we'll try to also be there? we could add 'contact us <email> if it would help you if we had other hours as well'
+Apr 01 13:09:05 .:qubodup:.	?
+Apr 01 13:09:19 .:@meskarune:.	oh good idea qubodup 
+Apr 01 13:09:20 .:@meskarune:.	:)
+Apr 01 13:09:23 <qubodup>	"you want" = meskarune wants
+Apr 01 13:09:41 .:@meskarune:.	saturday is the best for me since I work full time
+Apr 01 13:09:56 .:@meskarune:.	and I'm thinking maybe afternoon since people go out in the evening
+Apr 01 13:10:20 .:@meskarune:.	but only for like, 1- 2 hours maybe? 
+Apr 01 13:10:29 .:qubodup:.	sounds good
+Apr 01 13:10:30 .:pink_anarchist:.	hello there
+Apr 01 13:10:33 .:@meskarune:.	and we could have shifts so like, one person is there 30 min. and another, etc
+Apr 01 13:10:35 .:@meskarune:.	hi pink_anarchist 
+Apr 01 13:10:48 .:@meskarune:.	so no one is spending their whole saturday on IRC
+Apr 01 13:10:55 .:qubodup:.	I seem to be unable to connect to titanpad atm
+Apr 01 13:10:57 .:@meskarune:.	(though I do often do that)
+Apr 01 13:11:10 .:@meskarune:.	http://titanpad.com/MYTjblo5Wt
+Apr 01 13:11:16 .:@meskarune:.	I think it sometimes have connection issues
+Apr 01 13:11:22 .:fsckd:.	i lost connection too
+Apr 01 13:11:45 .:@meskarune:.	I sorta want to host my own so arch women has like, its own pad thing. it would help with classes to have one
+Apr 01 13:11:55 .:@meskarune:.	but make it private
+Apr 01 13:11:56 .:@meskarune:.	?
+Apr 01 13:12:02 .:@meskarune:.	that is in the future though
+Apr 01 13:12:14 .:qubodup:.	ok, I'm back in
+Apr 01 13:12:19 .:@meskarune:.	it would be amazing if there were an official archpad
+Apr 01 13:12:28 .:@meskarune:.	for devs to use
+Apr 01 13:12:30 .:fsckd:.	i'm back too :)
+Apr 01 13:12:32 .:@meskarune:.	ok
+Apr 01 13:12:44 .:+tigrmesh:.	like this one?
+Apr 01 13:13:01 .:+tigrmesh:.	there was a pastebin, but it got too much spam
+Apr 01 13:13:02 .:@meskarune:.	tigrmesh: yeah, the code for titanpad, etterpad, etc is available in git
+Apr 01 13:13:11 .:+tigrmesh:.	ah
+Apr 01 13:13:17 .:qubodup:.	I'm ready for "2. website feature requests" :)
+Apr 01 13:13:25 .:@meskarune:.	tigrmesh: I'm thinking have it be private with only devs and TU's or people teaching classes having access 
+Apr 01 13:13:28 .:@meskarune:.	and invite only 
+Apr 01 13:13:31 .:+tigrmesh:.	ah
+Apr 01 13:13:56 .:@meskarune:.	I guess I could make a suggestion to whomever does the main arch site/wiki
+Apr 01 13:14:03 .:@meskarune:.	and help out if need be
+Apr 01 13:14:36 .:@meskarune:.	so that would be a website feature request thing :)
+Apr 01 13:14:51 ---Â»	ldvx (~|dvx@unaffiliated/dvx/x-29387621) has Joined #archlinux-women
+Apr 01 13:14:53 .:fsckd:.	feature request on flyspray :)
+Apr 01 13:15:48 .:@meskarune:.	so for site content
+Apr 01 13:16:16 .:@meskarune:.	tigrmesh mentioned having some information on how women can protect themselves online in general. I think some links or articles would be great
+Apr 01 13:16:19 .:ioni:.	 you guys discuss and let me know what i have to do :D
+Apr 01 13:16:28 .:@meskarune:.	haha ok ioni
+Apr 01 13:16:42 .:@meskarune:.	<3
+Apr 01 13:16:42 .:Silvah:.	ioni: lol
+Apr 01 13:16:54 Â»Â»	@meskarune gets out her whip for motivation
+Apr 01 13:16:58 .:fsckd:.	i unilaterally volunteer ioni as a teacher
+Apr 01 13:17:15 .:ioni:.	+1
+Apr 01 13:17:43 .:qubodup:.	(added ioni as potential teacher to titanpad)
+Apr 01 13:18:04 .:fsckd:.	lol XD
+Apr 01 13:18:07 .:@meskarune:.	\o/
+Apr 01 13:18:23 .:qubodup:.	so Privacy Protection
+Apr 01 13:18:49 .:@meskarune:.	I think there are resources online we coudl link to from the site
+Apr 01 13:19:01 .:@meskarune:.	like what to do in case of stalkers
+Apr 01 13:19:12 .:@meskarune:.	I myself have had 2 stalkers
+Apr 01 13:19:23 .:qubodup:.	privacy sounds like something that might have been covered by Linux Chix and GeekFeminismWiki
+Apr 01 13:19:25 .:@meskarune:.	one who moved across the country to be near me
+Apr 01 13:19:29 .:@meskarune:.	had to get the police involved
+Apr 01 13:19:34 .:+tigrmesh:.	yikes
+Apr 01 13:19:35 .:fsckd:.	scary
+Apr 01 13:19:38 .:@meskarune:.	yeah
+Apr 01 13:20:16 .:@meskarune:.	qubodup: yeah, i think they do cover that topic. so maybe making it visible and having a short article wth links would be good?
+Apr 01 13:20:30 .:@meskarune:.	and the "what to do if you run into harrassment" article is nearly done
+Apr 01 13:20:33 <joyfulgirl>	meskarune: D-:
+Apr 01 13:20:53 .:@meskarune:.	that article tells people who to contact the forum mods and IRC ops
+Apr 01 13:22:19 .:@meskarune:.	ok, so as far as events being held by other organizaions
+Apr 01 13:22:35 .:@meskarune:.	I sorta want to get an rss reading list together, just for events
+Apr 01 13:22:51 .:@meskarune:.	and that way it will be a lot easier to know when an event is coming up to post it on the site
+Apr 01 13:23:13 .:Silvah:.	Every time someone mentions forum mods and I answer to that, drink a pint of stout.
+Apr 01 13:23:14 .:@meskarune:.	and I'll contact some of the other groups like pyladies and devchix, etc
+Apr 01 13:23:31 .:@meskarune:.	Silvah: I'm all out of stout. :(
+Apr 01 13:24:57 .:@meskarune:.	ok here is an idea
+Apr 01 13:25:08 .:Silvah:.	That's the first rule of The #archlinux-women Drinking Game.
+Apr 01 13:25:10 .:@meskarune:.	I can make a mailing list folder for the site email
+Apr 01 13:25:22 .:@meskarune:.	and subscribe to other groups mailing list announcements
+Apr 01 13:25:32 .:@meskarune:.	and have it so it doesn't forward?
+Apr 01 13:25:37 .:qubodup:.	I have no ideas on providing "how to protect your privacy" information..
+Apr 01 13:25:40 .:@meskarune:.	that way people don't get a ton of spam
+Apr 01 13:25:53 .:@meskarune:.	and we have information on events in one place
+Apr 01 13:25:53 Â»Â»	qubodup checks google
+Apr 01 13:26:17 <qubodup>	meskarune: I'm not sure what you mean. what kind of events?
+Apr 01 13:26:26 .:@meskarune:.	like classes and cons
+Apr 01 13:26:26 .:fsckd:.	we could retweet their announcement tweets
+Apr 01 13:26:31 .:@meskarune:.	fsckd: good idea
+Apr 01 13:26:44 .:@meskarune:.	oh I forgot to annouce this meeting on twitter
+Apr 01 13:26:46 .:@meskarune:.	oops
+Apr 01 13:26:54 .:qubodup:.	related to linux or women geeks? specific to USA?
+Apr 01 13:26:56 .:fsckd:.	autotwitter posting thing
+Apr 01 13:27:06 <qubodup>	meskarune: well, the blog posts automatically to twitter, right? :)
+Apr 01 13:27:19 .:@meskarune:.	qubodup: we can totally post up events in other countries
+Apr 01 13:27:21 .:@meskarune:.	:)
+Apr 01 13:27:37 .:@meskarune:.	qubodup: yeah, it does. so the IRC announcements are on there and the agenda
+Apr 01 13:27:40 <qubodup>	meskarune: but events related to what exactly? :)
+Apr 01 13:28:10 .:@meskarune:.	http://girlslearningcode.com/about
+Apr 01 13:28:12 .:phrik:.	Title: About # Girls Learning Code (at girlslearningcode.com)
+Apr 01 13:28:15 .:@meskarune:.	like that would be an example
+Apr 01 13:28:19 .:@meskarune:.	they have a camp in march
+Apr 01 13:28:25 .:fsckd:.	kichawa retweeted the announcement tweets :) (i saw emails)
+Apr 01 13:29:00 .:@meskarune:.	march 31 ladies learning code had a ruby class
+Apr 01 13:29:16 <fsckd>	meskarune: links posted on the blog get tweeted?
+Apr 01 13:29:31 .:@meskarune:.	and we can post up programing cons and women in tech events as well as classes maybe?
+Apr 01 13:29:42 .:@meskarune:.	would twitter be better for that? or the site?
+Apr 01 13:30:00 .:qubodup:.	I would use the site, which then automatically twitters?
+Apr 01 13:30:10 .:@meskarune:.	oh ok. good point
+Apr 01 13:30:11 .:@meskarune:.	lol
+Apr 01 13:30:14 .:qubodup:.	not sure about creating a feed or calendar
+Apr 01 13:30:32 .:@meskarune:.	would a calendar be useful?
+Apr 01 13:30:37 .:qubodup:.	this kind of info might be too unstructured for this (events have different parameters and are probably rather individual)
+Apr 01 13:30:38 .:@meskarune:.	to put meeting dates on 
+Apr 01 13:30:41 .:@meskarune:.	and like other events
+Apr 01 13:30:45 .:@meskarune:.	and office hours, etc
+Apr 01 13:30:51 .:@meskarune:.	ok, yeah, that woudl be useful for me
+Apr 01 13:31:13 .:qubodup:.	not sure what you have in mind (calendar) a widget on the website? I would find that possibly confusing.
+Apr 01 13:31:17 .:@meskarune:.	people can subscribe to calendars
+Apr 01 13:31:18 .:qubodup:.	but I'm bad with calendars...
+Apr 01 13:31:41 .:qubodup:.	I use google calendar to share some events related to game dev jamming in germany to readers of a blog specific to that)
+Apr 01 13:31:51 .:qubodup:.	but there are very few events (1-3 per months)
+Apr 01 13:32:11 .:qubodup:.	I wouldn't know an open source tool to suggest for calendar sharing but it might be not bad
+Apr 01 13:32:26 .:qubodup:.	it might be acceptable to use google calendar for now
+Apr 01 13:32:33 .:qubodup:.	(if you like google calendar)
+Apr 01 13:32:40 .:@meskarune:.	http://en.wikipedia.org/wiki/ICalendar
+Apr 01 13:32:42 .:phrik:.	Title: iCalendar - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+Apr 01 13:33:08 .:qubodup:.	google calendar provides feeds for calendars
+Apr 01 13:33:13 .:@meskarune:.	qubodup: actually, my host has google apps enabled, so I could switch the email over to google and use all their apps. but idk how everyone would feel about taht
+Apr 01 13:33:47 .:@meskarune:.	then we can post a download link to the ical on the site?
+Apr 01 13:33:50 <joyfulgirl>	meskarune: The co-op community in Boston has had a lot of success using meetup.com; as a con, as far as I know, it's not Free Software or allied with that world, but folks seem to like it.
+Apr 01 13:34:29 .:@meskarune:.	joyfulgirl: haha. I actually use meetup.com :P
+Apr 01 13:34:37 .:joyfulgirl:.	(-:
+Apr 01 13:34:37 .:@meskarune:.	to meet people around where I live
+Apr 01 13:34:41 .:joyfulgirl:.	Oh, cool
+Apr 01 13:34:48 .:ioni:.	i should use it as well
+Apr 01 13:34:55 .:@meskarune:.	!nike
+Apr 01 13:34:57 .:phrik:.	just do it man
+Apr 01 13:34:59 Â«---	ldvx (~|dvx@unaffiliated/dvx/x-29387621) has Left #archlinux-women ("WeeChat 0.3.8-dev")
+Apr 01 13:35:04 .:@meskarune:.	:P
+Apr 01 13:35:13 .:fsckd:.	hehe XD
+Apr 01 13:35:18 .:qubodup:.	meetup is not free
+Apr 01 13:35:22 .:qubodup:.	and we don't host local events
+Apr 01 13:35:28 .:qubodup:.	which is what it is for I believe
+Apr 01 13:35:45 .:qubodup:.	we're just trying to find a way to let people know about events we find useful to the archwomen community?
+Apr 01 13:36:24 .:qubodup:.	shall we for now simply write a post each time we find an upcoming event?
+Apr 01 13:36:34 .:fsckd:.	ummm
+Apr 01 13:36:39 .:qubodup:.	until we get so annoyed that we would want to start using a new piece of infrastructure?
+Apr 01 13:36:46 .:fsckd:.	lol
+Apr 01 13:36:49 .:@meskarune:.	http://www.keepandshare.com/
+Apr 01 13:36:50 .:phrik:.	Title: Share Calendars, Files, To Dos & Photos Online for Free (at www.keepandshare.com)
+Apr 01 13:36:56 .:@meskarune:.	they let you embed calendars on your site
+Apr 01 13:38:20 <qubodup>	meskarune: have you used that service in the past?
+Apr 01 13:38:24 .:@meskarune:.	qubodup: I think posting up events/classes on the site would be good. and it would be great to get more people on the site who can post. maybe some of the girls in devchix, linuxchix, ladieswritingcode, etc
+Apr 01 13:38:36 .:@meskarune:.	and having a calendar would be useful for me at least
+Apr 01 13:38:42 .:@meskarune:.	idk if other peopel want one or not
+Apr 01 13:38:43 .:qubodup:.	google calendar also allows embedding. example: http://bearjam.de (one of my blogs)
+Apr 01 13:38:44 .:phrik:.	Title: BearJam - Game Dev Jams and Events Germany (at bearjam.de)
+Apr 01 13:39:02 <qubodup>	meskarune: is there a calendar software you use already?
+Apr 01 13:40:41 .:qubodup:.	(we are about 1:45 into the meeting I believe)
+Apr 01 13:40:53 .:+tigrmesh:.	yes
+Apr 01 13:41:42 Â»Â»	joyfulgirl personally likes org-mode, but since Emacs is contested territory 'round here...
+Apr 01 13:41:54 .:@meskarune:.	qubodup: I curently use remind which is a desktop calendar ap
+Apr 01 13:42:05 .:DaZ:.	hay guise
+Apr 01 13:42:06 .:@meskarune:.	http://www.keepandshare.com/htm/calendars/online_calendar/best_free_online_calendar.php
+Apr 01 13:42:08 .:phrik:.	Title: Online Calendar: Easy-to-Use Free Online Calendar (at www.keepandshare.com)
+Apr 01 13:42:23 .:@meskarune:.	I'm sorta liking keepandshare's features. espeically the privacy ones
+Apr 01 13:42:29 <qubodup>	meskarune: I think it's a bad idea trying to settle on a new piece of software to use during this meeting
+Apr 01 13:42:34 .:@meskarune:.	plus people who object to using google woudln't have to
+Apr 01 13:43:26 .:@meskarune:.	qubodup: yeah, how about I do some reasearch on online calendar systems with desktop ical sync capabilities? and for now lets just post stuff on the site
+Apr 01 13:43:27 .:@meskarune:.	:)
+Apr 01 13:43:41 .:qubodup:.	so we want to share events and do it in a more structured way than new posts on archwomen.org, right?
+Apr 01 13:43:56 <qubodup>	meskarune: I think that's a good idea
+Apr 01 13:44:36 .:+tigrmesh:.	great
+Apr 01 13:44:40 Â«---	lurmksafngf (50fe93fc@gateway/web/freenode/ip.80.254.147.252) has Quit (Ping timeout: 245 seconds)
+Apr 01 13:44:41 .:keenerd:.	Why not a dedicated rss feed on the site?
+Apr 01 13:45:12 .:qubodup:.	keenerd: come again?
+Apr 01 13:45:50 .:keenerd:.	A feed just for events.
+Apr 01 13:46:10 .:qubodup:.	that is what the calendar software would also provide hopefully
+Apr 01 13:46:36 <qubodup>	meskarune: by the way, b2e (our cms) might have a calendar solution
+Apr 01 13:46:43 .:keenerd:.	Right, but that is a new piece of software.  RSS is not something new.
+Apr 01 13:46:46 .:qubodup:.	google calendar for example does
+Apr 01 13:47:14 .:@meskarune:.	qubodup: that wouldn't surprise me actually. b2e has a lot of features I haven't figured out /seen yet
+Apr 01 13:47:15 .:qubodup:.	keenerd: the rss feed has to be maintained someway. using a calendar software would be a way to maintain it
+Apr 01 13:47:46 .:keenerd:.	6 of one, half a dozen of the other.
+Apr 01 13:47:59 .:qubodup:.	I don't follow.
+Apr 01 13:48:13 .:@meskarune:.	keenerd: maybe I can make a feedlist to post...? I wanted to make an RSS feed of archwomen and women tech related suff for myself anyways, so i guess I could just post it when its done
+Apr 01 13:49:02 <qubodup>	meskarune: you mean you want to create a consolidated feed from (linux) women geek feeds? I'm interested in that :)
+Apr 01 13:49:04 .:@meskarune:.	the devchix site has a lot of good posts. and anitaborg as well as geekfeminism
+Apr 01 13:49:09 .:qubodup:.	I think kde women has a planetplanet for that
+Apr 01 13:49:15 .:@meskarune:.	oh awesome
+Apr 01 13:49:36 .:qubodup:.	I started using moonmoon on my own homepage ( http://qubodup.net ) to have a feed of my online activity (at least the part that has feeds)
+Apr 01 13:49:39 .:@meskarune:.	ok so a shared RSS feed of women geek stuff
+Apr 01 13:49:44 .:phrik:.	Title: Iwan Gabovitch [qubodup@gmail.com] (at qubodup.net)
+Apr 01 13:50:15 .:@meskarune:.	qubodup: I have a personal lifestream on my portfolio site :)
+Apr 01 13:50:42 <qubodup>	meskarune: link? :)
+Apr 01 13:50:44 .:@meskarune:.	I don't think it woudl be hard to add an other news section with RSS feeds to the site. but first we'd have to get a list of feeds together
+Apr 01 13:50:56 .:fsckd:.	:)
+Apr 01 13:50:58 .:@meskarune:.	qubodup: http://doloresportalatin.info/links
+Apr 01 13:51:05 .:phrik:.	Title: Links | Dolores Portalatin (at doloresportalatin.info)
+Apr 01 13:52:02 .:qubodup:.	neat, thanks
+Apr 01 13:52:39 .:@meskarune:.	its still under contruction
+Apr 01 13:53:05 .:@meskarune:.	Ok, so feature request: RSS feed page, posts on other groups events, posts on privacy
+Apr 01 13:53:46 .:qubodup:.	any takers for the privacy protection post? :)
+Apr 01 13:54:07 .:qubodup:.	or would that be covered by the 'how to react to harassment' post that will be done soon?
+Apr 01 13:54:23 .:+tigrmesh:.	they're different
+Apr 01 13:54:27 .:@meskarune:.	If anyone wants an account on the website, please let me know and I'll get you set up
+Apr 01 13:54:30 .:qubodup:.	tigrmesh: k
+Apr 01 13:54:40 .:+tigrmesh:.	and i'd be willing to take a stab at the privacy protection one
+Apr 01 13:54:48 .:@meskarune:.	ok awesome
+Apr 01 13:55:09 .:@meskarune:.	And to everyone else, the site needs editors and writing as well as people to just mod comments :)
+Apr 01 13:55:13 .:qubodup:.	tigrmesh: neat!
+Apr 01 13:55:20 .:@meskarune:.	or you can just use the private chat functionality
+Apr 01 13:55:36 .:@meskarune:.	and you don't have to write much
+Apr 01 13:55:46 .:@meskarune:.	quich announcements or links are welcome
+Apr 01 13:55:49 .:@meskarune:.	quick
+Apr 01 13:56:11 .:@meskarune:.	send an email message to admin@archwomen.org if you are interested
+Apr 01 13:56:19 .:@meskarune:.	or use the site contact form
+Apr 01 13:57:27 .:qubodup:.	last topic on agenda: ssl encryption ?
+Apr 01 13:57:46 .:@meskarune:.	I have the keys and certificates made
+Apr 01 13:57:56 .:@meskarune:.	I just have to edit some site files to enable ssl site wide
+Apr 01 13:58:05 .:fsckd:.	excellent :)
+Apr 01 13:58:20 .:@meskarune:.	that way people can't spy on yoru with firesheep
+Apr 01 13:58:34 .:+tigrmesh:.	firesheep?
+Apr 01 13:58:45 .:@meskarune:.	its a firefox extention that packet snifs
+Apr 01 13:58:52 .:+tigrmesh:.	ah
+Apr 01 13:58:53 .:@meskarune:.	lets any noob be a "hacker"
+Apr 01 13:58:56 .:code_astronomer:.	firefox has been abandoned by me
+Apr 01 13:59:06 .:code_astronomer:.	or boycotted
+Apr 01 13:59:11 .:code_astronomer:.	memory leaks galore
+Apr 01 14:00:07 .:@meskarune:.	you can use any browser and still be spyed on by someone else with firesheep
+Apr 01 14:00:08 .:@meskarune:.	;P
+Apr 01 14:00:17 .:@meskarune:.	if you are on a public network
+Apr 01 14:00:22 .:@meskarune:.	or your own network is hacked
+Apr 01 14:03:30 .:+tigrmesh:.	scary
+Apr 01 14:03:32 .:code_astronomer:.	ffs. 64bit really causes issues
+Apr 01 14:03:56 .:@meskarune:.	Ok, any more website feature requests?
+Apr 01 14:04:08 Â»Â»	<code_astronomer> hugs meskarune and tigrmesh 
+Apr 01 14:04:10 .:@meskarune:.	if not we can move on to open discussion/requests
+Apr 01 14:05:12 .:qubodup:.	I'm up for that
+Apr 01 14:05:34 .:@meskarune:.	ok
+Apr 01 14:05:50 .:@meskarune:.	so if anyone would like to see the summary of this meeting see here: http://titanpad.com/MYTjblo5Wt
+Apr 01 14:05:52 .:phrik:.	Title: TitanPad: MYTjblo5Wt (at titanpad.com)
+Apr 01 14:05:53 .:@meskarune:.	its a rough draft
+Apr 01 14:06:02 .:@meskarune:.	and then make comments suggestions
+Apr 01 14:06:05 .:qubodup:.	also I feel that I've been talking too much during this meeting :)
+Apr 01 14:06:12 .:@meskarune:.	I always feel that way
+Apr 01 14:06:14 .:@meskarune:.	:P
+Apr 01 14:06:31 .:fsckd:.	my turn XD can there be a mailing list? it's clear some topics require more discussion and irc is not the best venue for that
+Apr 01 14:07:02 .:qubodup:.	agreed. right now we use b2e's  (archwomen.org cms) discussion features
+Apr 01 14:07:17 .:qubodup:.	fsckd: you would prefer an open discussion platform?
+Apr 01 14:07:35 .:fsckd:.	yeah, in place of six hour meetings :P
+Apr 01 14:07:42 .:qubodup:.	also, comments were used seldomly I believe
+Apr 01 14:08:07 .:@meskarune:.	hahaha
+Apr 01 14:08:08 .:@meskarune:.	ok
+Apr 01 14:08:09 .:@meskarune:.	mailing list
+Apr 01 14:08:11 .:@meskarune:.	add that 
+Apr 01 14:08:27 .:@meskarune:.	idk what software would be the best to use for one
+Apr 01 14:08:36 .:fsckd:.	perhaps we can have a mailing list on arch's system
+Apr 01 14:08:46 .:fsckd:.	or if archwomen.org's host has something
+Apr 01 14:08:56 .:@meskarune:.	mailman?
+Apr 01 14:08:58 .:qubodup:.	I hate mailing lists because I fail to understand whether my messages have been accepted or not and I don't understand whether I have to register before posting or not..
+Apr 01 14:09:00 .:@meskarune:.	!g mailman
+Apr 01 14:09:02 <phrik>	meskarune: Mailman, the GNU Mailing List Manager: <http://www.gnu.org/s/mailman/index.html>
+Apr 01 14:09:19 .:qubodup:.	but at the same time I like mailing lists as they are more comfortable than forums...
+Apr 01 14:09:30 .:qubodup:.	alternative would be google groups
+Apr 01 14:09:39 .:fsckd:.	qubodup: i check the archives a few hours after posting :)
+Apr 01 14:09:49 .:fsckd:.	google groups is an alternative
+Apr 01 14:10:05 .:qubodup:.	arch has mailing lists http://mailman.archlinux.org/mailman/listinfo/
+Apr 01 14:10:06 .:phrik:.	Title: mailman.archlinux.org Mailing Lists (at mailman.archlinux.org)
+Apr 01 14:10:07 .:fsckd:.	vialble*
+Apr 01 14:10:19 .:fsckd:.	biable*
+Apr 01 14:10:36 .:fsckd:.	err...
+Apr 01 14:10:46 .:fsckd:.	viable*
+Apr 01 14:11:07 .:fsckd:.	yay, i win!
+Apr 01 14:11:35 .:+tigrmesh:.	arch mailing lists tops google groups
+Apr 01 14:11:59 .:qubodup:.	we could ask for the creation of arch-women
+Apr 01 14:12:03 .:+tigrmesh:.	are we ready to wrap this up?  we've been meeting for more than 2 hours
+Apr 01 14:12:10 .:@meskarune:.	yeah, I think so
+Apr 01 14:12:10 .:qubodup:.	we could ask for the creation of arch-doc
+Apr 01 14:12:33 .:@meskarune:.	qubodup: do you think we could get an official list on the arch mailing list servers...?
+Apr 01 14:12:33 .:qubodup:.	we might need an own list, since our topics are not specific to documentation only..
+Apr 01 14:12:39 .:@meskarune:.	yeah
+Apr 01 14:12:42 <qubodup>	meskarune: I have no idea
+Apr 01 14:12:59 .:+tigrmesh:.	it was suggested in the original thread
+Apr 01 14:13:00 <qubodup>	meskarune: I suppose we should try
+Apr 01 14:13:08 .:fsckd:.	so ask arch devs for a mailing list, if that fails ...
+Apr 01 14:14:34 .:@meskarune:.	make our own list?
+Apr 01 14:14:52 .:qubodup:.	http://mailman.archlinux.org/mailman/create
+Apr 01 14:14:54 .:phrik:.	Title: Create a mailman.archlinux.org Mailing List (at mailman.archlinux.org)
+Apr 01 14:14:55 .:@meskarune:.	my hosting service says unlimited bandwidth
+Apr 01 14:15:06 .:@meskarune:.	omg awesome
+Apr 01 14:15:13 .:qubodup:.	it appears we are welcome to just start a new list?
+Apr 01 14:15:26 .:qubodup:.	I suggest the name "arch-women"
+Apr 01 14:16:25 <fsckd>	meskarune: you told me that day one! :P
+Apr 01 14:16:48 .:qubodup:.	oh wait, you need to have password to create a list
+Apr 01 14:16:54 .:fsckd:.	qubodup: may require permission, sort of like seeing a file and lacking write access
+Apr 01 14:17:00 .:fsckd:.	yeah...
+Apr 01 14:17:02 .:qubodup:.	I was just told on #archlinux that 'phrak' manages mailing lists?
+Apr 01 14:17:09 .:@meskarune:.	we'll have to ask someone about it
+Apr 01 14:17:12 .:fsckd:.	ok ask him
+Apr 01 14:17:32 .:@meskarune:.	so the meeting is officially closed?
+Apr 01 14:17:39 .:@meskarune:.	and now we'll get to work ?
+Apr 01 14:17:49 .:fsckd:.	who works on Sunday?
+Apr 01 14:17:55 .:@meskarune:.	I'll get the log put together and uploaded
+Apr 01 14:17:57 .:fsckd:.	we just want to go to the beach :P
+Apr 01 14:18:01 .:@meskarune:.	lol
+Apr 01 14:18:18 .:@meskarune:.	Ok, thanks everyone for coming and contributing to the Arch Women meeting! <3

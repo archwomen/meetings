@@ -1,0 +1,260 @@
+2015-03-01 17:40:20	fsckd	========== meeting.init("March") ==========
+2015-03-01 17:40:27	fsckd	notes are here: https://pad.riseup.net/p/arch-women-meeting_-_March_2015
+2015-03-01 17:40:28	phrik	Title: Riseup Pad (at pad.riseup.net)
+2015-03-01 17:41:45	fsckd	the past month has been hectic for some of us. not everything we said in the past meeting that we would do was done
+2015-03-01 17:41:48	fsckd	.
+2015-03-01 17:42:20	fsckd	things are not going to shape up any time soon.
+2015-03-01 17:42:40	fsckd	life happens, there's nothing we can do to prevent it.
+2015-03-01 17:42:49	fsckd	so help is needed.
+2015-03-01 17:43:55	fsckd	we will need members of aw community to take charge of the projects and help with some of the general tasks.
+2015-03-01 17:44:47	fsckd	meskarune and i won't be able to put our all into arch women for some time to come.
+2015-03-01 17:45:31	fsckd	myself, my participation will be reduced until fall, may be longer
+2015-03-01 17:46:08	fsckd	i wasn't going to lead today's meeting but circumstances necessitated that i do so today
+2015-03-01 17:46:21	fsckd	however, i won't have that flexibility in the future
+2015-03-01 17:46:39	fsckd	bleh, rmabling
+2015-03-01 17:46:46	fsckd	rambling even
+2015-03-01 17:47:26	fsckd	so... we need people to help run the meetings, draft the meetings notes. we can even give repository access for posting the notes and logs if people want that access
+2015-03-01 17:47:49	fsckd	we need people to head the projects and give direction and keep them moving
+2015-03-01 17:48:19	fsckd	i think classroom is on track, but mentors project will need declared leadership, i think
+2015-03-01 17:48:53	fsckd	if you want to volunteer, please step up. we'll much appreciate it
+2015-03-01 17:48:57	alad	do you have contribution checklists to follow? I've checked on the website, but it seemed mostly code-involved
+2015-03-01 17:49:01	jy2wong	I can do the meeting notes/logs today, but I can't promise anything for the future
+2015-03-01 17:49:28	fsckd	if we have people hwo can alternate doing the notes/logs, i think it will work out
+2015-03-01 17:49:57	fsckd	alad: we were keeping todo stuff on the wiki. it should probably be updated.
+2015-03-01 17:50:41	fsckd	some stuff on meetings: https://archwomen.org/wiki/meetings:how_meetings_are_run
+2015-03-01 17:50:42	phrik	Title: How Meetings Are Run [Arch Women Wiki] (at archwomen.org)
+2015-03-01 17:51:02	fsckd	https://archwomen.org/wiki/meetings:after_meeting_checklist
+2015-03-01 17:51:02	phrik	Title: After Meeting Checklist [Arch Women Wiki] (at archwomen.org)
+2015-03-01 17:52:34	halosghost	if the meetings remain monthly and regular, I could probably step up to run them
+2015-03-01 17:52:45	halosghost	I'll just need to make sure I add them to my schedule so I do not forget
+2015-03-01 17:52:52	fsckd	hehe, thanks
+2015-03-01 17:53:06	fsckd	they're the first sunday of every month
+2015-03-01 17:53:11	halosghost	right
+2015-03-01 17:53:57	halosghost	additionally, if the classroom needs any more leadership or guidance, I would be happy to help where I can
+2015-03-01 17:54:56	alad	well I've kept and summarized logs before, so if you need help there, I wouldn't mind
+2015-03-01 17:55:04	+tigrmesh	hi!
+2015-03-01 17:55:24	fsckd	alad: awesome, thanks
+2015-03-01 17:55:58	fsckd	halosghost: thanks. i'm planning on restructuring leadership for classroom. i think i'll make that this month's activity. would you mind if i talk to you later this week?
+2015-03-01 17:56:12	halosghost	fsckd: not at all; ping me whenever :)
+2015-03-01 17:56:16	halosghost	tigrmesh: o/
+2015-03-01 17:56:20	fsckd	alright thanks
+2015-03-01 17:56:39	jy2wong	alad: feel free to do the logging/note-taking today, I just volunteered in case nobody else did
+2015-03-01 17:57:58	alad	ok
+2015-03-01 18:02:00	fsckd	anyone want to help with Mentorship? (mentorship is the next item on the agenda btw.)
+2015-03-01 18:04:17	alad	specialist knowledge .. hmm
+2015-03-01 18:04:17	halosghost	I am not sure I have the freetime for that additional step at the moment, I'm afraid ):
+2015-03-01 18:04:36	alad	I'm not much a specialist at things, except knowing the archwiki style rules, so if people need help there
+2015-03-01 18:06:28	fsckd	i think my action items for this month is to set up new leadership for classroom and find someone to lead mentorship
+2015-03-01 18:07:06	+tigrmesh	i can help someone with Excel stuff.  formulas, some pivot tables.  not much need for that in this group.
+2015-03-01 18:07:35	jy2wong	fsckd: sorry, I don't know what my schedule will be like past the next couple of weeks
+2015-03-01 18:08:19	-->	lawren (~aqt@unaffiliated/attar) has joined #archlinux-women
+2015-03-01 18:08:22	fsckd	that's fine :)
+2015-03-01 18:09:27	fsckd	hi lawren, we're in the middle of a meeting. a link to the notes is in the topic. notes will bring you up to speed if you are interested. :)
+2015-03-01 18:10:20	+tigrmesh	i think we need to maybe have a small group about mentorship and clarify what we really mean
+2015-03-01 18:10:45	+tigrmesh	like is it intended to be a big commitment?
+2015-03-01 18:11:20	fsckd	yeah
+2015-03-01 18:11:36	+tigrmesh	how do we handle the privacy (not the right term) of the mentors and mentees, since the info is on the site
+2015-03-01 18:11:46	fsckd	i guess we're on the mentorship topic now :)
+2015-03-01 18:12:12	fsckd	we'll talk about privacy in a bit
+2015-03-01 18:12:20	+tigrmesh	ok
+2015-03-01 18:13:01	+tigrmesh	i'm sorry.  since i saw there was a volunteer to help with classroom, i thought that section was finished
+2015-03-01 18:13:21	fsckd	hehe, it's a smooth transition :D
+2015-03-01 18:13:28	fsckd	you made a good point, we need to get a clearer definition of what the program entails
+2015-03-01 18:14:08	fsckd	how much does a mentor have to commit to being a mentor.
+2015-03-01 18:14:25	fsckd	also in the last meeting it was asked what is the scope of topics
+2015-03-01 18:14:29	+tigrmesh	and a mentee
+2015-03-01 18:14:34	fsckd	yeah
+2015-03-01 18:14:45	 *	fsckd still reads that as manatee :P
+2015-03-01 18:14:50	+tigrmesh	hehe
+2015-03-01 18:15:24	fsckd	i do prefer manatees over humans ^_^
+2015-03-01 18:15:34	fsckd	or dolphins for that matter
+2015-03-01 18:16:23	+tigrmesh	just for fsckd.  is this the level of time commitment necessary?    ;)  http://animalscamp.com/wp-content/uploads/2011/11/Florida-Manatee.jpg
+2015-03-01 18:16:48	fsckd	lol!
+2015-03-01 18:18:44	fsckd	what should be the scope of the topics allowed?
+2015-03-01 18:19:16	fsckd	mentioned earlier, excel would be out of scope
+2015-03-01 18:20:45	+tigrmesh	maybe that's a small group thing
+2015-03-01 18:20:51	+tigrmesh	?0
+2015-03-01 18:20:58	+tigrmesh	*?
+2015-03-01 18:22:05	fsckd	small group?
+2015-03-01 18:23:21	alad	there are quite a few facets to arch, from bugtracking to packaging and documentation, so that's a good topic for mentorship
+2015-03-01 18:23:45	alad	(not related to small group question)
+2015-03-01 18:23:57	+tigrmesh	yeah.
+2015-03-01 18:24:36	+tigrmesh	ages ago, allan said he'd be willing to mentor someone in the toolchain, which he is the maintainer of
+2015-03-01 18:24:50	+tigrmesh	not sure if that's the right term.  
+2015-03-01 18:25:02	fsckd	(if i may ask, what is "small group"?)
+2015-03-01 18:29:51	+tigrmesh	not this larger meeting, but people who've expressed a specific interest.  like meskarune, you, me, jy2wong, alad, halosghost (i think).  
+2015-03-01 18:30:01	+tigrmesh	but to keep this particular meeting moving along
+2015-03-01 18:30:16	fsckd	ok, good idea
+2015-03-01 18:31:49	+tigrmesh	definitely publicly announced
+2015-03-01 18:32:18	fsckd	ok, so we'll defer the determination of scope of topics to a smaller group of volunteers
+2015-03-01 18:32:29	fsckd	who will publicly declare their findings
+2015-03-01 18:32:36	+tigrmesh	for those of you new, or interested but not mentioned, this is not to exclude anyone.  just to have a specific focus.  :)
+2015-03-01 18:32:51	+tigrmesh	report back at the next meeting?
+2015-03-01 18:32:56	fsckd	yes
+2015-03-01 18:33:06	fsckd	that is a good idea
+2015-03-01 18:33:46	fsckd	we need leadership for mentors. someone has to lead this smaller group. that'll be something to detemrine later, but not in the meeting.
+2015-03-01 18:34:25	+tigrmesh	i'm willing to lead the smaller group
+2015-03-01 18:34:31	fsckd	ok
+2015-03-01 18:34:37	fsckd	thank you :)
+2015-03-01 18:35:01	+tigrmesh	you're welcome  :)
+2015-03-01 18:35:47	fsckd	in the last meeting we were talking about privacy of mentors and mentee and agreed to continue the discussion today
+2015-03-01 18:37:36	fsckd	some of the participants of the last meeting are not here today. and others are having lunch i think.
+2015-03-01 18:37:53	fsckd	should we do this out of order?
+2015-03-01 18:38:15	fsckd	let's talk about some of the classes and get back to privacy later?
+2015-03-01 18:39:31	+tigrmesh	do we need to talk about mentorship privacy now, or can that also go to the small group?  we'll bring the info back to the meeting
+2015-03-01 18:39:52	fsckd	i have some info. for the privacy thing
+2015-03-01 18:40:03	+tigrmesh	oh!  cool
+2015-03-01 18:40:16	fsckd	i cna give the info. and the small group can discuss it further?
+2015-03-01 18:40:41	fsckd	i don't think we'll have the time to find a solution in today's meeting
+2015-03-01 18:42:25	+meskarune	out of order is ok with me
+2015-03-01 18:42:45	halosghost	meskarune: o/
+2015-03-01 18:43:55	+tigrmesh	sure
+2015-03-01 18:45:47	fsckd	ok.. we'll do the classroom stuff first, come back to the privacy stuff later and defer that to the small group for more indepth discussion
+2015-03-01 18:45:57	fsckd	(feel free to correct me if i'm wrong)
+2015-03-01 18:46:12	+tigrmesh	go for it
+2015-03-01 18:46:16	fsckd	awesome
+2015-03-01 18:46:20	fsckd	so, classroom
+2015-03-01 18:46:25	nisstyre	I'm here now
+2015-03-01 18:46:43	fsckd	hi nisstyre :)
+2015-03-01 18:46:57	fsckd	we're about to discuss proposed classes
+2015-03-01 18:47:02	nisstyre	ok
+2015-03-01 18:47:18	fsckd	first up is hh4a who has been working on an Awk class
+2015-03-01 18:47:36	fsckd	but hh4a isn't here so we'll defer talking to him until later
+2015-03-01 18:48:01	jy2wong	(I'm around right now)
+2015-03-01 18:48:08	fsckd	awesome :)
+2015-03-01 18:48:55	fsckd	i think we'll have to contact hh4a during the month. these days he's usually not here for the meetings.
+2015-03-01 18:49:19	jy2wong	okay so my proposal is a classroom on file compression formats (zip, 7z, etc.) and e.g. the relationships between png and zip
+2015-03-01 18:49:48	fsckd	cool
+2015-03-01 18:50:02	jy2wong	what I'm not decided on is how much background to assume of people attending
+2015-03-01 18:50:47	fsckd	hmm
+2015-03-01 18:50:53	jy2wong	I think I'd like to aim for something fairly high level and accessible to people with limited/no computer science background, similar to the kernel talk
+2015-03-01 18:51:01	jy2wong	but I'm not sure what that actually looks like in practice
+2015-03-01 18:51:54	jy2wong	nor how futile it is to assume that something like that can be run in an hour :P
+2015-03-01 18:52:00	fsckd	hehe
+2015-03-01 18:52:30	fsckd	i only have a vague notion of the theory around it
+2015-03-01 18:52:54	nisstyre	would you talk about other formats like zpaq, bz2, etc?
+2015-03-01 18:53:53	jy2wong	bz2, probably. I've never heard of zpaq
+2015-03-01 18:55:21	nisstyre	something that does journaling https://en.wikipedia.org/wiki/ZPAQ
+2015-03-01 18:55:22	phrik	Title: ZPAQ - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+2015-03-01 18:55:46	nisstyre	probably too complicated
+2015-03-01 18:57:20	jy2wong	I guess I also wanted more feedback on whether or not the topic is reasonable and interesting or...uh, too obscure
+2015-03-01 18:57:41	fsckd	i think a lot of people would be interested
+2015-03-01 18:57:45	nisstyre	I don't think it's too obscure
+2015-03-01 18:57:55	nisstyre	plenty of people are interested in using compression better
+2015-03-01 18:58:11	fsckd	yeah, it is something everyone deals with all the time
+2015-03-01 18:58:12	alad	and most archers use compression daily
+2015-03-01 18:58:15	nisstyre	like which compression algorithm is better for various things
+2015-03-01 18:58:25	nisstyre	speed vs. size tradeoffs
+2015-03-01 18:58:27	halosghost	I know I'd be interested
+2015-03-01 19:01:01	jy2wong	heh, okay. I'll try to make up classroom notes in the next couple of weeks.
+2015-03-01 19:01:15	fsckd	sounds like a plan :)
+2015-03-01 19:04:27	halosghost	all right, I'm afraid I'm going to need to leave in 30ish minutes
+2015-03-01 19:04:36	halosghost	is there anything people need me to cover while I'm here?
+2015-03-01 19:04:42	fsckd	ok, lets do your class now :)
+2015-03-01 19:04:47	halosghost	ok
+2015-03-01 19:05:07	fsckd	you proposed a class on static typing, how is that going?
+2015-03-01 19:05:07	halosghost	so, I believe I implemented most of the feedback that people gave me
+2015-03-01 19:05:18	fsckd	awesome
+2015-03-01 19:05:49	halosghost	so, I am probably set to do a couple of final changes this month and then set a date for the actual class
+2015-03-01 19:06:08	halosghost	it's planned to be around an hour and a half
+2015-03-01 19:07:18	+tigrmesh	cool  :)
+2015-03-01 19:07:53	halosghost	do we have a preferred piece of recording technology so that the class can be streamed and recorded?
+2015-03-01 19:08:01	halosghost	s/technology/software/
+2015-03-01 19:08:37	fsckd	haven't done anything out of irc yet
+2015-03-01 19:08:47	fsckd	haven't settled on anything really
+2015-03-01 19:09:01	halosghost	mmm
+2015-03-01 19:09:03	fsckd	part of the issue is we wnat to keep it accessible
+2015-03-01 19:09:07	halosghost	right
+2015-03-01 19:09:27	<--	prophecy (~prophecy@2a02:810b:380:2c4:8e89:a5ff:fec6:eb43) has quit (Remote host closed the connection)
+2015-03-01 19:09:42	halosghost	hmmm
+2015-03-01 19:09:55	halosghost	perhaps a live hangout that's recorded?
+2015-03-01 19:10:41	fsckd	hmm, if visually impaired and hearing impaired can still participate
+2015-03-01 19:10:57	halosghost	well, Hangouts has the chat bar
+2015-03-01 19:12:09	halosghost	I'm not sure
+2015-03-01 19:12:30	halosghost	the question is whether or not it is worth-while having a video session recorded as well so it can work like a talk
+2015-03-01 19:12:41	halosghost	so future people can just follow the video
+2015-03-01 19:12:54	fsckd	yeah, i can see the appeal
+2015-03-01 19:13:07	fsckd	youtube instructional videos are sometimes great
+2015-03-01 19:13:07	halosghost	additionally, I think it'd be much simpler for me to give a talk on types rather than just chatting with people about it
+2015-03-01 19:13:31	halosghost	I mean, there should definitely be a Q&A (and I should take quesitons during the talk), but I think the format lends itself better
+2015-03-01 19:13:41	fsckd	i see
+2015-03-01 19:14:17	fsckd	what i'm concerned about is... like ok, one person *says* something, would a hearing impaired be shown what was said? or say someone types something, would a visually impaired person be told what was written?
+2015-03-01 19:14:35	halosghost	well, it could
+2015-03-01 19:14:45	halosghost	but of course, IRC isn't really vision-impaired-friendly at all
+2015-03-01 19:14:55	fsckd	not strictly no
+2015-03-01 19:15:35	fsckd	i do like the idea of a video. may be we could try it and see what happens?
+2015-03-01 19:15:45	halosghost	sure
+2015-03-01 19:16:03	fsckd	perhaps discuss more in the next meeting?
+2015-03-01 19:16:04	halosghost	and, worse comes to worst, we could transcribe the talk after the fact
+2015-03-01 19:16:11	fsckd	yeah
+2015-03-01 19:16:16	-->	tuxampol (~Mylin@ppp-46-244-165-15.dynamic.mnet-online.de) has joined #archlinux-women
+2015-03-01 19:17:03	fsckd	we have had deaf people in aw before and at least one in classroom
+2015-03-01 19:17:10	halosghost	good to know
+2015-03-01 19:17:19	fsckd	i don't know about visually impaired...
+2015-03-01 19:17:52	halosghost	well, for the visually impaired, it wouldn't be hard to save the audio stream from the talk so they could just listen to it
+2015-03-01 19:18:05	fsckd	yeah
+2015-03-01 19:18:19	fsckd	i have spoken to a blind individual in irc but not in aw or related channels
+2015-03-01 19:19:02	halosghost	well, perhaps we should move the medium discussion into small group to be determined at a similar time as the actual date for the class?
+2015-03-01 19:19:19	fsckd	good idea
+2015-03-01 19:19:29	halosghost	all right
+2015-03-01 19:19:34	halosghost	is there anything else I need to cover?
+2015-03-01 19:20:32	fsckd	that's all you're required for. thanks. :)
+2015-03-01 19:20:40	halosghost	o/
+2015-03-01 19:20:45	fsckd	have fun :)
+2015-03-01 19:21:07	halosghost	peace and love folks; I hope all is well for fsckd and meskarune despite the life-happening :)
+2015-03-01 19:21:10	halosghost	have a good day
+2015-03-01 19:21:21	fsckd	thank you and you too :)
+2015-03-01 19:21:22	alad	likewise
+2015-03-01 19:21:29	halosghost	o/
+2015-03-01 19:22:32	fsckd	so next up is lightning talk and building classes as a team. i think those two topics should be done in a small group as well.
+2015-03-01 19:23:53	fsckd	for lightning talks we would need to know when to do them, where to do them, what the format would be and so on.
+2015-03-01 19:24:07	+tigrmesh	i think a class i'd like to see, or at least reference notes about it, would be about choosing linux-friendly hardware.  what are the places to look?  how do we tell?  may need to talk to a hardware person for that.  might only be enough for a lightning talk.
+2015-03-01 19:25:02	fsckd	oh yeah, and how long are lightning talks? 5 min.? 15 min.?
+2015-03-01 19:25:11	fsckd	tigrmesh: that would be a useful class. add that to the list on the arch wiki?
+2015-03-01 19:25:13	+tigrmesh	these are the places to look, these are the clues that the hardware is "linux friendly"
+2015-03-01 19:25:31	+tigrmesh	kk
+2015-03-01 19:27:50	-->	Shannon_ (~Shannon@unaffiliated/shannon) has joined #archlinux-women
+2015-03-01 19:28:00	fsckd	building classes as a team, need to know where the teams work (wiki? irc? email? all of the above?), how one can join a team, etc.
+2015-03-01 19:28:23	-->	kerrick__ (~kerrick@50-196-159-42-static.hfc.comcastbusiness.net) has joined #archlinux-women
+2015-03-01 19:29:19	fsckd	anything more on classrooms?
+2015-03-01 19:30:18	fsckd	if no one objects, let us return to the topic privacy for mentors and mentee
+2015-03-01 19:30:44	fsckd	that will be the last topic for the meeting
+2015-03-01 19:31:31	<--	Shannon (~Shannon@unaffiliated/shannon) has quit (Ping timeout: 272 seconds)
+2015-03-01 19:32:27	fsckd	what we said earlier, the work on finding a solution will be deferred to a small team
+2015-03-01 19:32:47	fsckd	the solution proposed in the last meeting is not a good one
+2015-03-01 19:34:01	fsckd	i was going to post to the mailing list about why it was not a good solution and possible alternatives. i was not able to make the time. sorry.
+2015-03-01 19:34:48	fsckd	may be i can post later if anyone wants me to.
+2015-03-01 19:35:27	fsckd	anyways, i said earlier i would share some info.
+2015-03-01 19:35:34	--	Shannon_ is now known as Shannon
+2015-03-01 19:35:57	fsckd	after the Feb. meeting i had a discussion with meskarune and a few days later with tigrmesh.
+2015-03-01 19:36:17	fsckd	we came up with possible solutions.
+2015-03-01 19:36:44	fsckd	but more importantly, i drafted some criteria which should be considered.
+2015-03-01 19:37:01	fsckd	this will be spammy (as if i'm not being spammy already :P)
+2015-03-01 19:37:16	fsckd	* The process of connecting mentors with mentees should not be convoluted or tedious.
+2015-03-01 19:37:19	fsckd	* Mentors should retain their privacy. The list of mentors should be neither public nor anonymously accessible.
+2015-03-01 19:37:21	fsckd	* Mentees should retain their privacy. There is no public list of mentees.
+2015-03-01 19:37:23	fsckd	* People should easily be able to add themselves to the list of mentors, remove themselves from the list of mentors, and temporarily take a break from the mentorship program.
+2015-03-01 19:37:25	fsckd	* Accessible to people not familiar with IRC.
+2015-03-01 19:37:27	fsckd	* Skills should be publicly viewable even though list of mentors is not.
+2015-03-01 19:38:36	alad	so in short, a "private" mentor list, where people can easily add themselves to, and that can be queried by topic?
+2015-03-01 19:39:36	fsckd	the current list is this: https://archwomen.org/wiki/projects:mentorship:offers
+2015-03-01 19:39:36	phrik	Title: Mentorship offers [Arch Women Wiki] (at archwomen.org)
+2015-03-01 19:39:53	fsckd	that has the problem of zero privacy for mentors.
+2015-03-01 19:40:11	fsckd	i'll paste what was said before about the problem, one moment.
+2015-03-01 19:40:48	fsckd	"While I'm happy to mentor, I'm not sure I'm happy having my name up on a...err, shit magnet page. I really have no desire to have internet poo flung at me by random strangers who decide the arch women mentorship program is lulzy."
+2015-03-01 19:41:03	fsckd	what the solution will look like, i don't know
+2015-03-01 19:42:03	fsckd	the ideas i prefer make use of dokuwiki's ACLs to create a special mentor group that can see the list of mentors
+2015-03-01 19:42:42	fsckd	people not in that group would be able to see the topics but not the names of the mentors. (names would be anonymized)
+2015-03-01 19:43:23	alad	sounds good to me
+2015-03-01 19:44:50	fsckd	it was tigrmesh who told me of that solution after i told her about meskarune's solution which also involved dokuwiki's ACLs.
+2015-03-01 19:45:09	fsckd	my own idea for using an irc bot was quickly shot down. :P
+2015-03-01 19:45:35	fsckd	(hence the "Accessible to people not familiar with IRC.")
+2015-03-01 19:46:37	fsckd	so finding a solution or making progress towards it is deferred to the small group. :)
+2015-03-01 19:46:56	fsckd	hopefully they will consider the criteria i listed above.
+2015-03-01 19:47:44	fsckd	anything more? any comments, concerns or questions on the topics covered in the meeting or on topics not covered?
+2015-03-01 19:49:47	alad	just a simple one - for the log/minutes, pull request at the github page, right?
+2015-03-01 19:50:50	fsckd	sure
+2015-03-01 19:51:10	fsckd	and thanks a lot for doing them :)
+2015-03-01 19:51:34	alad	yw
+2015-03-01 19:52:19	fsckd	ok then, i hereby declare this meeting adjourned.
+2015-03-01 19:52:22	fsckd	========== meeting.end() ==========

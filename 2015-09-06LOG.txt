@@ -1,0 +1,274 @@
+2015-09-06 18:13:39     tigr-mesh       ==========  meeting starts  =======
+2015-09-06 18:14:11     tigr-mesh       symetry, wherefore art thou, symetry?
+2015-09-06 18:14:30     tigr-mesh       =======  meeting starts  =======
+2015-09-06 18:14:42     +meskarune      hehe
+2015-09-06 18:16:14     +meskarune      ok, announcements: fsckd got the new password stuff setup so all admin passwords are in a git repo and encrypted with gpg keys
+2015-09-06 18:16:26     +meskarune      also we got some donations! I nearly forgot :)
+2015-09-06 18:16:30     alad    progress :D
+2015-09-06 18:16:49     +meskarune      we just need to raise $10 to cover the ssl certs and domain renewals
+2015-09-06 18:16:57     +meskarune      \o/
+2015-09-06 18:17:02     polyzen neat o.O what was used for hte password stuff? sounds like pass
+2015-09-06 18:17:21     polyzen meskarune, what about free certs
+2015-09-06 18:18:04     +meskarune      well like in the case of start ssl not all browsers support it
+2015-09-06 18:18:32     +meskarune      same goes for mail clients and phones
+2015-09-06 18:18:50     fsckd   polyzen: yup pass. we're using a wrapper script which you can find on aw's GitHub.
+2015-09-06 18:19:08     krosos  meskarune: even paid for startssl?
+2015-09-06 18:19:38     +meskarune      right now we have a cert that is good until 2017 I think :P
+2015-09-06 18:20:13     +meskarune      if there is a good free alternative or someoen can find a sponsor to host a cert for us please feel free to let me know
+2015-09-06 18:20:54     +meskarune      in the meantime, donations that we have now can cover domain and ssl cert, our goal was $50 :)
+2015-09-06 18:21:34     Mikaela is https://letsencrypt.org/ counted?
+2015-09-06 18:21:35     phrik   Title: Let's Encrypt (at letsencrypt.org)
+2015-09-06 18:21:57     krosos  that could be equally problematic since it is new
+2015-09-06 18:22:42     polyzen i use wosign. do you know how to check ssl cert browser support? i wonder if startssl has a hybrid intermediate to include
+2015-09-06 18:23:01     +meskarune      for now the situation is we have a valid and secure ssl certificate, and we've gotten some donations to help cover our current costs
+2015-09-06 18:23:32     polyzen fsckd, cool. i'll check it out
+2015-09-06 18:23:38     +meskarune      we went with something that was secure and valid for all browsers including mobile
+2015-09-06 18:23:43     krosos  polyzen: https://www.ssllabs.com/ssltest/analyze.html?d=searx.me&s=194.150.168.104
+2015-09-06 18:23:45     phrik   Title: SSL Server Test: searx.me (Powered by Qualys SSL Labs) (at www.ssllabs.com)
+2015-09-06 18:23:46     tigr-mesh       \o/
+2015-09-06 18:24:02     krosos  ssltest by ssllabs.com
+2015-09-06 18:24:11     krosos  oh, browser support.
+2015-09-06 18:24:21     krosos  hm, there was another test for that i think
+2015-09-06 18:24:26     polyzen for the certs themselves, as well
+2015-09-06 18:25:00     polyzen wait
+2015-09-06 18:25:13     polyzen startssl root certs are supposed to be included with browsers, no?
+2015-09-06 18:25:20     polyzen that's that ssllabs had told me
+2015-09-06 18:26:07     +meskarune      polyzen: look at the list of browsers that support them :P
+2015-09-06 18:26:23     +meskarune      anwyays, we are getting off track lol
+2015-09-06 18:26:25     polyzen that's ssl ciphers
+2015-09-06 18:26:31     ←       tigr-mesh (328be79d@gateway/web/freenode/ip.50.139.231.157) has left #archlinux-women
+2015-09-06 18:26:34     →       tigr-mesh (328be79d@gateway/web/freenode/ip.50.139.231.157) has joined #archlinux-women
+2015-09-06 18:27:17     polyzen meskarune, https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_configurations
+2015-09-06 18:27:19     phrik   Title: Security/Server Side TLS - MozillaWiki (at wiki.mozilla.org)
+2015-09-06 18:27:44     +meskarune      polyzen: that isn't the issue, not all browsers and desktop software consider them valid certs
+2015-09-06 18:28:00     +meskarune      but really, we can discuss more outside the meeting :P
+2015-09-06 18:28:03     +meskarune      <3
+2015-09-06 18:28:06     polyzen okay
+2015-09-06 18:28:53     +meskarune      so I think that's all the announcments :)
+2015-09-06 18:29:01     +meskarune      next halosghost is working on a C programming class
+2015-09-06 18:29:30     +meskarune      and jy2wong is willing to help out
+2015-09-06 18:29:53     +meskarune      I don't think there is a date set yet, but I could be wrong
+2015-09-06 18:30:06     +meskarune      halosghost is currently busy with rl stuff
+2015-09-06 18:30:13     +meskarune      this weekend
+2015-09-06 18:30:48     +meskarune      I think there was a lot of good discussion about what to include in the sylabus last month
+2015-09-06 18:31:30     +meskarune      maybe we should start up a mailing list thread on the C class so people can keep up with teh news?
+2015-09-06 18:31:39     +meskarune      would anyone be interested in that?
+2015-09-06 18:32:11     alad    +1 on mailing list 
+2015-09-06 18:32:24     alad    I think it's useful for people with irregulary schedules
+2015-09-06 18:32:36     tigr-mesh       ok
+2015-09-06 18:33:59     tigr-mesh       does anyone read or send to it?  there was only one mail in august
+2015-09-06 18:34:18     alad    fwiw, I read it, but don't always have reply ready :p
+2015-09-06 18:34:21     alad    *a reply
+2015-09-06 18:35:01     fsckd   me too
+2015-09-06 18:37:20     +meskarune      yeah, I read it as well
+2015-09-06 18:37:26     +meskarune      ok, so mailing list is go
+2015-09-06 18:37:55     +meskarune      so mentorship program
+2015-09-06 18:38:20     +meskarune      we were going to create a wiki page and have a private page for mentors
+2015-09-06 18:38:32     +meskarune      and I was thinking we could have some public reps to be intermediaries
+2015-09-06 18:38:45     polyzen reps?
+2015-09-06 18:38:50     +meskarune      representatives
+2015-09-06 18:38:55     polyzen in what sense?
+2015-09-06 18:39:07     +meskarune      like trusted people who can connect mentors with people who want to be taught
+2015-09-06 18:39:20     +meskarune      this way we can help protect people's privacy
+2015-09-06 18:39:40     +meskarune      and make sure mentors aren't sociopaths and people wanting a mentor aren't trolls
+2015-09-06 18:39:41     polyzen hm, like hacker group members or teachers, i suppose
+2015-09-06 18:39:50     polyzen hm
+2015-09-06 18:40:05     polyzen maybe i understand incorrectly
+2015-09-06 18:40:08     polyzen but those could work
+2015-09-06 18:40:28     alad    meskarune: how can the intermediary reliably figure out if the mentee isn't a troll, or just has bad intentions in general?
+2015-09-06 18:40:39     polyzen so to keep random troll for signing up for mentorship and giving a mentor hell? :p
+2015-09-06 18:41:04     krosos  so like a filter? i heard this before in a recent talk by some people, where their twitter and email was dealt with by friends
+2015-09-06 18:41:10     +meskarune      I wanted to have a short questionair and maybe ask for links to other projects they've worked on or social sites like github/twitter
+2015-09-06 18:41:24     alad    sounds reasonable
+2015-09-06 18:41:40     polyzen its possible they have none of those
+2015-09-06 18:41:52     polyzen links
+2015-09-06 18:42:03     +meskarune      and same for mentors, we can't just accept anyone because someone could end up being really homophobic or racist, so we would need to know that a person who is a mentor is a reasonable person who won't cause harm
+2015-09-06 18:42:19     fsckd   moderators :P
+2015-09-06 18:42:26     polyzen hey, as long as they keep it to themselves ;p
+2015-09-06 18:42:40     +meskarune      polyzen: well they could have a website, or school site, or information on previous projects. Most people have those sorts of things
+2015-09-06 18:43:12     +meskarune      just something to show they are really interested in learning and not trying to dox or harrass our members
+2015-09-06 18:44:04     polyzen wondering how to keep their privacy in mind as well in this scenario
+2015-09-06 18:44:05     +meskarune      I've been looking at other mentor programs, and I'll probably borrow some of the questionair stuff they use
+2015-09-06 18:44:16     polyzen ah, good stuff
+2015-09-06 18:44:55     +meskarune      polyzen: well let's say I am the public intermediary. I would be publicly known, but I am ok with dealing with that.
+2015-09-06 18:45:23     +meskarune      if people want to go after me their are gonna have their hands full ;)
+2015-09-06 18:46:08     +meskarune      also I don't have a job to lose or family that could get hurt
+2015-09-06 18:47:18     polyzen badass
+2015-09-06 18:49:07     +meskarune      so we can find a few people who feel comfortable being in the public to sorta vet mentors/mentees
+2015-09-06 18:49:19     +meskarune      and we'll need help writing things up on the wiki :)
+2015-09-06 18:49:49     +meskarune      we use dokuwiki and we keep the software and server updated and secure. Registeration is free
+2015-09-06 18:50:13     +meskarune      but if you'd reather not regiester feel free to email admin@archwomen.org with something you'd like to get posted :)
+2015-09-06 18:52:38     alad    hm, it looks my account got messed up ... I'll write a mail or register another one
+2015-09-06 18:52:48     polyzen !errors
+2015-09-06 18:52:49     phrik   Don't just say it doesn't work. Give the exact error. If you think that more information than a line or two will be useful, see !pastebin
+2015-09-06 18:52:51     polyzen ;p
+2015-09-06 18:53:19     alad    best suited for after the meeting I'd say :)
+2015-09-06 18:54:50     +meskarune      heh
+2015-09-06 18:55:20     +meskarune      the wiki is at https://archwomen.org/wiki in case someone wants the link
+2015-09-06 18:55:22     phrik   Title: You've reached the Arch Women Wiki [Arch Women Wiki] (at archwomen.org)
+2015-09-06 18:56:02     +meskarune      so I guess I'll move on to some community stuff
+2015-09-06 18:56:09     +meskarune      I was thinking we could have another arch install day
+2015-09-06 18:56:18     +meskarune      basically we set a day to help new people install arch linux
+2015-09-06 18:56:45     +meskarune      so we need to have peopel around in channel who understand the install and can help people go through it and link to wiki articles and stuff
+2015-09-06 18:57:10     +meskarune      what about doing saturday the 26th of september?
+2015-09-06 18:57:40     alad    I should be quite familiar with the installation process
+2015-09-06 18:57:47     alad    and the 26th should WFM
+2015-09-06 18:57:53     tigr-mesh       as far as i know, i'll be here
+2015-09-06 18:58:02     polyzen sgtm
+2015-09-06 18:59:54     tigr-mesh       sgtm?
+2015-09-06 19:00:08     polyzen phrik, sgtm
+2015-09-06 19:00:09     phrik   Sounds Good To Me™
+2015-09-06 19:00:17     tigr-mesh       thanks  :)
+2015-09-06 19:01:16     alad    post it on the ML too ?
+2015-09-06 19:01:32     tigr-mesh       sure
+2015-09-06 19:07:49     +meskarune      ok 26th it is, tell your friends!
+2015-09-06 19:07:59     alad    btw, the beginners' guide has changed a lot over the last few months, so if anybody wants to go over it, be my guest :)
+2015-09-06 19:08:11     +meskarune      ok thanks for the heads up
+2015-09-06 19:08:13     +meskarune      :)
+2015-09-06 19:08:52     +meskarune      and I guess that brings us to final comments/suggestions
+2015-09-06 19:09:13     +meskarune      if there is anything someoen wants to discuss or a project they think we could tackle
+2015-09-06 19:11:06     +meskarune      any takers?
+2015-09-06 19:11:13     alad    meskarune: there's a question on the riseup pad
+2015-09-06 19:11:19     +meskarune      oh ok
+2015-09-06 19:12:06     alad    maybe I understood the part on the website wrong when I wrote that
+2015-09-06 19:12:27     +meskarune      oh, for a mentor to check if a mentee is legit
+2015-09-06 19:13:03     +meskarune      so the thing is that a person wouldn't be assigned or introduced to a mentor until they filled out a little questionair and chated with a mod/intermediary or whatever we are gonna call them
+2015-09-06 19:13:21     +meskarune      some people want to learn who to make PKGBUILDS and others want to learn to code haskell
+2015-09-06 19:13:35     +meskarune      so we have to match skills but also gender preferences
+2015-09-06 19:13:51     +meskarune      as someone may only want to work with a person of the same gender or sexual orientation or whatever
+2015-09-06 19:13:55     alad    ok
+2015-09-06 19:14:47     +meskarune      and if we don't have someone that matches what a mentee is looking for, we can reach out to the wider community like linux chix and ubuntu women and php women, etc
+2015-09-06 19:14:55     +meskarune      to find them a mentor
+2015-09-06 19:15:33     +meskarune      also there is a big list of resources on the wiki, so if anyone wants to add to that list with more ideas, please do
+2015-09-06 19:15:48     +meskarune      I'd like to see more resources for people with disabilities and the LBGTQ community
+2015-09-06 19:15:55     polyzen +meskarune> so we have to match skills but also gender preferences
+2015-09-06 19:16:01     polyzen shouldn't that be only for women?
+2015-09-06 19:16:16     +meskarune      polyzen: well it depends. Some people wouldn't care about the gender of their mentor, others might
+2015-09-06 19:16:20     polyzen isn't the fear that men might seek mentorships just for the ladies? :p
+2015-09-06 19:16:27     +meskarune      it will have to be personalized for each one
+2015-09-06 19:16:32     alad    all I know on IT and disabilities is some fiddling with orca and edbrowse
+2015-09-06 19:17:03     fsckd   this page if anyone is interested https://archwomen.org/wiki/resources
+2015-09-06 19:17:04     phrik   Title: Resources [Arch Women Wiki] (at archwomen.org)
+2015-09-06 19:17:06     +meskarune      polyzen: I mean, that is possible, so like, thats why we have a questionair, and if some dude with a trolly twitter only wants a female mentor we can make a judgement call :P
+2015-09-06 19:17:59     tigr-mesh       @IAmCreepoHearMeSlobber
+2015-09-06 19:17:59     tigr-mesh       ?
+2015-09-06 19:18:06     +meskarune      haha
+2015-09-06 19:18:07     polyzen lol
+2015-09-06 19:18:09     alad    !cantgrab
+2015-09-06 19:18:09     phrik   dafuq, alad can't grab that!
+2015-09-06 19:20:17     tigr-mesh       there's a part of me that thinks gender shouldn't even be part of it.  on the other hand, since the organization's name has a gender, it's hard to leave that out
+2015-09-06 19:20:18     +meskarune      if people come across useful sites/services please feel free to share with us and it can get added to the wiki page
+2015-09-06 19:20:43     alad    meskarune: http://edbrowse.org/usersguide.html
+2015-09-06 19:20:44     phrik   Title: edbrowse documentation (at edbrowse.org)
+2015-09-06 19:20:59     alad    and main site http://edbrowse.org/
+2015-09-06 19:21:00     phrik   Title: Edbrowse, a Command Line Editor Browser (at edbrowse.org)
+2015-09-06 19:21:25     +meskarune      so I think we'll probably focus on finding women mentees mentors. I don't know how interested the greater arch linux community would be in this program. I know some arch devs have said they could mentor someone.
+2015-09-06 19:21:50     alad    " This program was originally written for blind users, but many sighted users have taken advantage of the unique scripting capabilities of this program, which can be found nowhere else. "
+2015-09-06 19:22:09     +meskarune      I think for many guys online, it isn't as dangerous for them to reach out and find a mentor, vs. a woman who could end up being harrassed or doxed if they talk with the wrong people
+2015-09-06 19:22:13     +meskarune      but I could be wrong
+2015-09-06 19:23:25     polyzen there we are.. managed to spill turkey grease on my kb
+2015-09-06 19:23:31     +meskarune      D:
+2015-09-06 19:23:41     polyzen i think there should be mention on the arch site
+2015-09-06 19:23:48     polyzen Mentor program sponsored by archwomen
+2015-09-06 19:23:59     polyzen s/sponsored //
+2015-09-06 19:24:28     polyzen hm
+2015-09-06 19:25:21     fsckd   alad: the developer of edbrowse used to be a TU :)
+2015-09-06 19:25:24     tigr-mesh       ooh!  good idea
+2015-09-06 19:25:33     tigr-mesh       oh?  who?
+2015-09-06 19:25:37     alad    fsckd: neat
+2015-09-06 19:25:42     fsckd   alad: he made a version of Arch for hard of seeing
+2015-09-06 19:25:57     alad    TalkingArch, right?
+2015-09-06 19:26:08     fsckd   may be, i don't remember the name
+2015-09-06 19:26:14     alad    http://talkingarch.tk/
+2015-09-06 19:26:15     phrik   Title: TalkingArch - Home (at talkingarch.tk)
+2015-09-06 19:26:22     krosos  i think it is talkingarch, there's also talkingparabola
+2015-09-06 19:27:23     tigr-mesh       oh no.  Firefox can't find the server at www.talkingarch.tk.  
+2015-09-06 19:27:29     fsckd   alad: ahh yeah! mentions him in the About page :)
+2015-09-06 19:30:37     +meskarune      cool
+2015-09-06 19:32:16     polyzen tigr-mesh, wfm
+2015-09-06 19:32:32     polyzen your friend must have some weird dns servers
+2015-09-06 19:32:45     tigr-mesh       quite possibly
+2015-09-06 19:32:47     krosos  works with opennic servers i use.
+2015-09-06 19:32:54     +meskarune      so I guess for now we have the mentor program sorta more fleshed out, and for now we can focus on helping people in groups that are minorities in FOSS
+2015-09-06 19:33:03     tigr-mesh       at&t, i think
+2015-09-06 19:33:21     tigr-mesh       so no surprise
+2015-09-06 19:33:33     +meskarune      and if there is a big demand for an actual arch linux mentoring program maybe the greater arch community can get involved
+2015-09-06 19:36:07     tigr-mesh       i would be surprised if there's a big demand.  but i'd be happy to be wrong
+2015-09-06 19:38:00     polyzen perhaps a link in some arch wiki "getting involved" section to the mentor program as well
+2015-09-06 19:38:35     polyzen or better just a community page
+2015-09-06 19:39:06     tigr-mesh       that's something to ask a wiki admin.  i know one.  i'll ask later
+2015-09-06 19:39:25     polyzen :)
+2015-09-06 19:40:09     +meskarune      polyzen: yeah, sounds good to me :)
+2015-09-06 19:41:23     →       alad_ (~alad@unaffiliated/alad) has joined #archlinux-women
+2015-09-06 19:41:32     alad_   such lag, much disconnect, wow
+2015-09-06 19:41:43     +meskarune      tigr-mesh: so archlinux-newbie sorta turned out that way. We were helping people with their issues in this channel, and then the demand was really huge for that, so we ended up making archlinux-newbie 
+2015-09-06 19:41:44     polyzen :o
+2015-09-06 19:41:47     alad_   polyzen: you could list it on https://wiki.archlinux.org/index.php/Getting_involved#Community_projects
+2015-09-06 19:41:47     phrik   Title: Getting involved - ArchWiki (at wiki.archlinux.org)
+2015-09-06 19:41:59     +meskarune      the mentor program could be similar if there is lots of demand
+2015-09-06 19:42:07     polyzen nice
+2015-09-06 19:42:17     tigr-mesh       yeah
+2015-09-06 19:42:31     +meskarune      we can wing it like Arch Linux users ;D
+2015-09-06 19:42:40     alad_   is #archlinux-newbie still used often?
+2015-09-06 19:42:49     tigr-mesh       #archlinux-newbie has had a lot of great activity
+2015-09-06 19:42:51     +meskarune      alad_: yes, it is pretty dang popular
+2015-09-06 19:43:08     alad_   good to know
+2015-09-06 19:43:21     +meskarune      lots of people go there because they feel the main chat is too trolly or rude
+2015-09-06 19:43:22     fsckd   currently has 85 nicks
+2015-09-06 19:43:39     alad_   meskarune: heh, engineering circles :p
+2015-09-06 19:43:51     tigr-mesh       it's still usual that only one person is asking for help at a time
+2015-09-06 19:44:01     +meskarune      yeah, it is still decendly small
+2015-09-06 19:44:05     ←       alad (~alad@unaffiliated/alad) has quit (Ping timeout: 244 seconds)
+2015-09-06 19:44:13     +meskarune      and I think people can eventually graduatea to the main chat
+2015-09-06 19:45:10     --      alad_ is now known as alad
+2015-09-06 19:45:58     polyzen !ban $a:user Congratulations. You have graduated to #archlinux
+2015-09-06 19:46:04     polyzen ;p
+2015-09-06 19:46:17     alad    lol
+2015-09-06 19:47:33     +meskarune      haha
+2015-09-06 19:47:42     fsckd   lmao
+2015-09-06 19:48:30     tigr-mesh       because i left and came back, i lost the info on what was covered by the donations we received
+2015-09-06 19:49:03     tigr-mesh       was it the domain name and the certificate?
+2015-09-06 19:49:05     +meskarune      tigr-mesh: domain name renewals and ssl cert should be :)
+2015-09-06 19:49:14     +meskarune      tigr-mesh: I think you have access to the paypal account 
+2015-09-06 19:49:25     tigr-mesh       for the meeting notes
+2015-09-06 19:49:38     +meskarune      oh! heh
+2015-09-06 19:50:51     tigr-mesh       so people can see what their donation went to  :)  in general
+2015-09-06 19:50:53     +meskarune      but honestly if anyone has questions or concerns about how something is run or how donations are used please feel free to ask (outside this meeting :P )
+2015-09-06 19:51:21     +meskarune      tigr-mesh: yeah I think things are listed on a few places on teh site too
+2015-09-06 19:51:42     +meskarune      I'd love to raise more money for going to conventions but thats probably way in the future
+2015-09-06 19:52:30     +meskarune      like having a table and handing out info's about arch women or maybe helping to sponsor a speaker or something
+2015-09-06 19:54:17     tigr-mesh       "'women don't use arch linux.  it's too advanced"  "yes they do"  "how do you know?"  "there are some right there.  by the arch logo"  "oh.  i guess they do"
+2015-09-06 19:54:25     +meskarune      lol
+2015-09-06 19:54:48     alad    !yt mom arch linux
+2015-09-06 19:54:49     phrik   alad: Mum Learns To Use Arch Linux 2013.08.01 (2013) - YouTube: <http://www.youtube.com/watch?v=mWyqJ50lho4>
+2015-09-06 19:55:05     alad    at the end of the video she was, "The Diana Operating System, I love it!"
+2015-09-06 19:55:10     alad    /thread
+2015-09-06 19:55:12     tigr-mesh       hehe
+2015-09-06 19:55:15     polyzen and you could sell calendars featuring risque shots of arch devs
+2015-09-06 19:55:20     +meskarune      sorry I've just gotten lost, where are we at in the meeting? :P
+2015-09-06 19:55:25     +meskarune      polyzen: lol
+2015-09-06 19:55:34     alad    !grab polyzen 
+2015-09-06 19:55:34     phrik   alad: Tada!
+2015-09-06 19:56:07     tigr-mesh       is there anything else we want to cover?
+2015-09-06 19:56:36     +meskarune      I think we are on final comments :)
+2015-09-06 19:59:20     tigr-mesh       alad: i never watched that video because i thought it would be one of those where he set up everything and then she was Just So Cute! using it.  i didn't realize she ended up empowered
+2015-09-06 20:00:05     tigr-mesh       any final comments?
+2015-09-06 20:00:10     polyzen on the next meeting, we should add a little note to the riseup "we are here"
+2015-09-06 20:00:25     polyzen riseup:*
+2015-09-06 20:00:31     alad    tigr-mesh: :)
+2015-09-06 20:00:42     tigr-mesh       what do you mean, polyzen ?
+2015-09-06 20:00:53     tigr-mesh       we didn't add it to the topic this time...
+2015-09-06 20:00:57     polyzen tigr-mesh, someone forgets where we are on the meeting, they can check riseup
+2015-09-06 20:01:04     tigr-mesh       ahh
+2015-09-06 20:01:05     polyzen that too :p
+2015-09-06 20:01:09     alad    tigr-mesh: there was a previous video where the son didn't guide her very well through the installation and methods of using Arch, and it ended up not nice
+2015-09-06 20:01:19     tigr-mesh       k
+2015-09-06 20:01:24     alad    tigr-mesh: then she was "Arch is my Arch enemy" :p
+2015-09-06 20:02:04     tigr-mesh       this is a different person/family?
+2015-09-06 20:02:18     alad    tigr-mesh: same from the video above
+2015-09-06 20:02:46     +meskarune      I think we can probably end the meeting :)
+2015-09-06 20:02:49     tigr-mesh       they were both willing to try again?  cool
+2015-09-06 20:02:50     alad    tigr-mesh: it's a decent channel really, especially since Mom has good ideas on what an UI should look like, imo
+2015-09-06 20:02:53     alad    yep :)
+2015-09-06 20:03:00     alad    meskarune: fine with me :D
+2015-09-06 20:03:11     tigr-mesh       =======   meeting ends  =======

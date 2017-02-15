@@ -1,0 +1,207 @@
+Log of Arch Women 30th IRC Meeting, August 3rd, 2014
+
+19:02:08          fsckd  ============================ Batman^WMeeting Begins ============================
+19:03:14          fsckd  There's only one announcement.
+19:04:02          fsckd  the wiki was updated to the latest stable release of DokuWiki, "Ponder Stibbons"
+19:06:13     +meskarune  the amazing fsckd updated it :P
+19:06:49          fsckd  it wasn't much, just untar and change one config ;P
+19:07:16          fsckd  it was my first time updating dokuwiki so it took longer than it should. next time will be much faster :)
+19:08:13          fsckd  now onto our first ongoing project, Classrooms
+19:08:26          fsckd  there are a couple of classes proposed
+19:08:50          fsckd  hh4a is working on a class on awk/gawk
+19:09:31          fsckd  he's not here today so may be we'll find out his progress some other
+19:10:30          fsckd  it's ok to take as much time as needed. quality is more important than quantity ;)
+19:11:14          fsckd  nisstyre is making a class, intro. to programming with scheme
+19:14:00     +meskarune  sounds really exciting
+19:14:16          fsckd  yeah, i want to take it
+19:14:18     +meskarune  I only know how to do basic stuff with awk
+19:14:28     +meskarune  and I don't know anything about scheme >.>
+19:14:34     +meskarune  so would be cool to learn a little
+19:14:42          fsckd  totally
+19:15:26          fsckd  it's a functional language which means it functions better than non-functional languages :P
+19:16:19     +meskarune  lol
+19:16:28     +meskarune  haskell and erlang are also functional languages?
+19:16:47          fsckd  yup
+19:17:25     +meskarune  but scheme is older
+19:17:49          fsckd  oh yeah, it is
+19:18:04     +meskarune  do they need help?
+19:18:26          fsckd  scheme is in the Lisp family while haskell is in the closely related ML family of languages
+19:18:41          fsckd  meskarune: who needs help?
+19:19:16         demize  anyone making a class.
+19:19:20     +meskarune  yeah
+19:19:26          fsckd  ahh, heh, sorry
+19:20:03     +meskarune  if they want/need some help writing up the lesson maybe we could network on the forums
+19:20:25         demize  Would be a good idea.. more persistent communications than IRC.
+19:21:43          fsckd  yeah
+19:26:39          fsckd  will have to talk to them when they're available
+19:27:15     +meskarune  yeah, sounds good
+19:27:36       nisstyre  fsckd: I'm here btw
+19:27:54       nisstyre  meskarune: scheme is older but there are 7 standards
+19:27:56          fsckd  hi nisstyre, thanks for being here :)
+19:28:25       nisstyre  i.e. it's been updated 6 times
+19:31:13     +meskarune  nisstyre: I am sorta on the side that a technology/language being around and developed for a while == its proved to be useful and there are more docs + examples available 
+19:31:25       nisstyre  meskarune: yeah, that's right
+19:31:41       nisstyre  also if you learn scheme then you can read lots of stuff in academia and understand it
+19:31:46       nisstyre  so it opens you up to a lot of knowledge
+19:32:02     +meskarune  that sounds like a good intro to scheme :)
+19:33:09     halosghost  sorry for being late; I'm here as well
+19:33:28     +meskarune  <3
+19:33:54          fsckd  hey halosghost :)
+19:34:04     halosghost  howdy, folks
+19:38:36     +meskarune  ok, talking about awk and scheme class
+19:38:51     +meskarune  so nisstyre do you need any help?
+19:40:10       nisstyre  meskarune: not really, I just need free time/motivation to get something more ready. Actually I could teach it whenever people want really.
+19:40:26       nisstyre  I had some example stuff I did a while ago that should be more than enough for one or two classes.
+19:41:27          fsckd  it's up to you, when you feel its done. will want to schedule it one month in advance, so you'll have that extra time
+19:41:35          fsckd  s/done/ready/
+19:41:45       nisstyre  then we can schedule it for a month from now
+19:41:54          fsckd  September?
+19:41:57       nisstyre  yep
+19:42:29          fsckd  what day and time would you like?
+19:42:46       nisstyre  hmm
+19:42:48          fsckd  btw, how long do you expect the class to be?
+19:42:56       nisstyre  the fifth would probably work best
+19:42:58     +meskarune  sounds good nisstyre :)
+19:43:11          fsckd  Friday the 5th
+19:43:15       nisstyre  it can go for an hour or more depending on how many people are around I guess
+19:43:33          fsckd  the 5th is good, what time?
+19:43:48       nisstyre  probably around 4pm would work
+19:44:15     +meskarune  I added it to the meeting notes
+19:44:16       nisstyre  I can't say *for sure* that would be the best time, but I can probably guess that would be best
+19:44:25     +meskarune  ok, we can go with that for now :)
+19:44:26          fsckd  what timezone is that?
+19:44:32       nisstyre  EST
+19:44:43          fsckd  UTC-4?
+19:44:48       nisstyre  not sure
+19:44:52          fsckd  heh
+19:44:56       nisstyre  that sounds right though
+19:45:08          fsckd  i don't know if Canadia has DST
+19:45:09      +tigrmesh  on a friday?
+19:45:21          fsckd  gotta get down on Friday
+19:45:27       nisstyre  well, yeah
+19:45:36      +tigrmesh  ok
+19:46:07          fsckd  so 8pm UTC
+19:46:27          fsckd  what is new zealand, +13?
+19:47:05          fsckd  it would be 9 am Sat in new zealand
+19:47:27          fsckd  Aus. might be too early, so no Allan
+19:49:15     +meskarune  what time in uk?
+19:49:29          fsckd  uk is +1 i think
+19:50:16          fsckd  yes, BST lasts until October
+19:50:35        jy2wong  fsckd: nisstyre and I are both in a part of Canadia that observes DST.
+19:51:00          fsckd  jy2wong: ok, thanks :)
+19:51:35          fsckd  jy2wong: do you call it EDT (Eastern Daylight Time)?
+19:56:16        jy2wong  everyone here says EST and means EDT.
+19:56:37          fsckd  hehe ok
+19:58:53     +meskarune  haha
+19:58:53          fsckd  ok, so the scheme class is scheduled
+19:59:42          fsckd  nisstyre: i'll ask you for some info. after the meeting for the announcements
+20:00:00       nisstyre  fsckd: ok
+20:00:31          fsckd  anything else regarding Classrooms?
+20:01:48     +meskarune  I'd like to do a basic html/css class, but I need to get my life sorted first >.>
+20:02:05     +meskarune  but I've been sticking small demos and resources all on one page
+20:02:17          fsckd  awesome
+20:03:28          fsckd  i am interested in a class for that. my css skills are... >.>
+20:03:44     +meskarune  http://meskarune.com/resources/
+20:03:46          phrik  Title: Meskarune's Web Design Resources (at meskarune.com)
+20:03:56     +meskarune  there is some stuff I've written and some outside links
+20:05:06     +meskarune  I need to write up some notes on html5 and css3
+20:06:16     +meskarune  is the classroom stuff done?
+20:06:29          fsckd  it is now :P
+20:07:00          fsckd  on to project #2, Internship
+20:07:59          fsckd  in the June meeting it was decided to make an Intern Workgroup
+20:08:10          fsckd  a smaller group to talk about internship stuff
+20:08:28          fsckd  carharttjimmy volunteered to be the lead of that group
+20:08:49          fsckd  there was supposed to be a meeting in June but didn't happen
+20:08:55          fsckd  may be reschedule it?
+20:09:41     +meskarune  yeah, sounds like a good idea
+20:11:28          fsckd  ok, when would y'all want to have that meeting?
+20:21:25     +meskarune  I would say a weekend
+20:21:31     +meskarune  like maybe sunday 
+20:21:39     +meskarune  in 1.5-2 weeks
+20:21:52     +meskarune  but carharttjimmy isn't around just yet
+20:22:15          fsckd  yeah, ok
+20:23:08          fsckd  so may be today or tomorrow, carharttjimmy can be contacted and a date can be set
+20:25:26  carharttjimmy  and I am here
+20:25:30          fsckd  yay!
+20:25:32     +meskarune  boom
+20:25:36  carharttjimmy  sorry, was a bit delayed
+20:25:44             *   fsckd hugs carharttjimmy
+20:25:58             *   carharttjimmy hugs fsckd and hands him a cookie
+20:26:40  carharttjimmy  I am okay with the reschedule
+20:26:45  carharttjimmy  I just need to know when
+20:26:53  carharttjimmy  perferabbly in the evening?
+20:27:01             *   fsckd munches on the cookie
+20:27:02  carharttjimmy  I mean if thats cool and all
+20:29:18  carharttjimmy  http://www.cs.umaine.edu/~chaitin/amsci.pdf
+20:30:01          fsckd  so 10th, 17th, or 24th? those are all Sundays
+20:30:17  carharttjimmy  24th
+20:30:24  carharttjimmy  but we can do 10th
+20:30:30  carharttjimmy  I think lets shoot for the 10th
+20:30:47     +meskarune  ok
+20:32:17          fsckd  carharttjimmy: you prefer evening?
+20:32:35  carharttjimmy  yes
+20:33:23          fsckd  3, 4, 5, 6, 7?
+20:33:40          fsckd  pm
+20:33:45  carharttjimmy  7
+20:45:34          fsckd  is 7 pm ok with everyone?
+20:46:10          fsckd  that's 11pm UTC
+20:46:11     +meskarune  its ok with me
+20:46:27          fsckd  great
+20:47:07          fsckd  so the Intern Workgroup meeting is Sun. Aug. 10th at 7pm EDT/11pm UTC
+20:47:53          fsckd  anything else regarding Internship?
+20:53:00          fsckd  i'll take that as a no
+20:53:03     +meskarune  heh
+20:53:08     +meskarune  yeah, I think the meeting we can plan more
+20:53:19          fsckd  fine with me :)
+20:53:36          fsckd  any final comments or questions about anything?
+20:54:12  carharttjimmy  yeah
+20:54:16  carharttjimmy  I am okay with that
+20:54:18  carharttjimmy  sorry
+20:54:34  carharttjimmy  I'll have more for the meeting
+20:54:39          fsckd  awesome
+20:55:06     +meskarune  should I post on the forum thread?
+20:55:56          fsckd  sure
+20:56:34     +meskarune  my dog keeps putting her head on my hands so I can't type
+20:56:39     +meskarune  she acts like such a cat
+20:56:40  carharttjimmy  sure
+20:56:45          fsckd  hehe
+20:57:20     +meskarune  what channel will the meeting be held?
+20:57:33          fsckd  oh, good question
+20:57:39          fsckd  i suppose in here?
+20:57:48     +meskarune  ok
+20:58:15  carharttjimmy  or #archlinux-interns?
+20:58:34  carharttjimmy  it could be made...
+20:58:40  carharttjimmy  just an idea anyways
+20:58:54     +meskarune  https://bbs.archlinux.org/viewtopic.php?pid=1443402#p1443402
+20:58:55          phrik  Title: Google Summer of Code 2014 (Page 1) / Arch Discussion / Arch Linux Forums (at bbs.archlinux.org)
+20:59:03          fsckd  yeah, eventually want a channel for interns
+20:59:09     +meskarune  yeah
+21:00:10  carharttjimmy  yeah
+21:01:04        kristof  yeah
+21:01:06        kristof  OH NO
+21:01:09          fsckd  lol
+21:01:13        kristof  Did I miss the irc meeting?!
+21:01:15  carharttjimmy  OH YEAH
+21:01:26  carharttjimmy  oh we weren't family guy
+21:01:32          fsckd  kristof: a few more minutes remain
+21:01:33  carharttjimmy  doing family guy*
+21:01:40        kristof  When did it START?
+21:01:44          fsckd  at 3
+21:01:44        kristof  I miss this EVERY SINGLE TIME. :/
+21:01:50        kristof  IT'S 2PM EST
+21:01:52  carharttjimmy  at the beginning of the meeting kristof 
+21:01:55        kristof  er PST
+21:02:11          fsckd  started 2 hours ago
+21:02:12        kristof  How many people were here?
+21:02:22          fsckd  but its still going on
+21:03:22          fsckd  ok, anything else?
+21:04:02     +meskarune  kristof: https://pad.riseup.net/p/aw-august-irc-meeting
+21:04:03          phrik  Title: Riseup Pad (at pad.riseup.net)
+21:04:29     +meskarune  kristof: talking about intership stuff atm
+21:04:56        kristof  nisstyre WOULD do a class on scheme :P
+21:05:01        kristof  Is he using sicp?
+21:07:35     +meskarune  not sure :P
+21:10:35          fsckd  so, i guess that's it unless someone has something more to say on internship or any other topic
+21:11:26     +meskarune  yeah, I think so
+21:11:35          fsckd  ok then
+21:11:41          fsckd  ============================ Here Endeth The Meeting ============================

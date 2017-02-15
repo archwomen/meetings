@@ -1,0 +1,231 @@
+2016-08-13 16:44:37	fsckd	========== 51st Meeting Start ==========
+2016-08-13 16:45:02	-->	ng0 (~ng0@unaffiliated/niasterisk) has joined #archlinux-women
+2016-08-13 16:45:10	fsckd	Notes are on riseup as usual. https://pad.riseup.net/p/archwomen-august-meeting
+2016-08-13 16:45:11	phrik	Title: Riseup Pad (at pad.riseup.net)
+2016-08-13 16:45:26	fsckd	hi ng0, meeting is just started. :)
+2016-08-13 16:45:30	ng0	hi
+2016-08-13 16:46:24	fsckd	So first of all, there was a git class. It went very well. Thanks to all who participated. :)
+2016-08-13 16:48:03	fsckd	It was a workshop where students got hands on experience with basic git commands, like git add, git push, git pull, and so on. Logs are linked to from the classroom page on the Arch Linux wiki.
+2016-08-13 16:48:54	fsckd	https://wiki.archlinux.org/index.php/Classroom#Previous_classes
+2016-08-13 16:48:56	phrik	Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2016-08-13 16:49:22	@meskarune	https://archwomen.org/media/project_classroom/lessons/2016-07-16-git_for_gits/
+2016-08-13 16:49:23	phrik	Title: Index of /media/project_classroom/lessons/2016-07-16-git_for_gits/ (at archwomen.org)
+2016-08-13 16:49:28	@meskarune	media for the class :)
+2016-08-13 16:49:50	fsckd	direct link to logs: https://archwomen.org/media/project_classroom/classlogs/2016-07-16-git_for_gits.txt
+2016-08-13 16:50:14	fsckd	those are also available in the classroom-media repo on Arch Women's GitHub.
+2016-08-13 16:50:47	fsckd	Next announcement, the flask site is up. :)
+2016-08-13 16:51:24	fsckd	Switching from PHP to flask (a python framework/library) for serving websites.
+2016-08-13 16:51:45	@meskarune	eventually the blog will be switched to it too
+2016-08-13 16:51:52	fsckd	awesome
+2016-08-13 16:51:55	@meskarune	the new flask site uses markdown so its way easier for anyone to edit and add to
+2016-08-13 16:52:07	@meskarune	it also has a nice mobile menu
+2016-08-13 16:52:23	pid1	Is the blog work available at https://github.com/archwomen as well? I'd be happy to lend a hand.
+2016-08-13 16:52:24	phrik	Title: Arch Linux Women Project · GitHub (at github.com)
+2016-08-13 16:53:05	@meskarune	pid1: thanks! There is a repo flask-site but I need to update it with the latest code heh
+2016-08-13 16:53:10	@meskarune	I should probably do that today
+2016-08-13 16:53:32	pid1	Sounds good! Just shoot me a link.
+2016-08-13 16:53:48	@meskarune	pid1: I was thinking of using frozen-flask
+2016-08-13 16:54:24	@meskarune	to either generate a cache of html files or generate the blog since blog pages aren't going to be edited as often or have dynamic things
+2016-08-13 16:54:39	pid1	That's a good plan, we might as well. 
+2016-08-13 16:54:46	@meskarune	:D
+2016-08-13 16:54:54	pid1	We don't have much (any?) dynamic content to work with anyway, so we might as well.
+2016-08-13 16:55:33	 *	pid1 clearly needs more coffee.
+2016-08-13 16:55:38	fsckd	hehe
+2016-08-13 16:55:50	 *	halosghost gives pid1 a 20 oz of espresso
+2016-08-13 16:56:39	fsckd	ok, so in short, the flask site is what is serving the main pages of the website now. so the issue with the front page being super slow is effectively fixed. :)
+2016-08-13 16:57:23	pid1	woop woop
+2016-08-13 16:57:30	@meskarune	and its moar better on mobile
+2016-08-13 16:58:17	@meskarune	on my todo is an event list using ical
+2016-08-13 16:58:25	@meskarune	or some other calendar type thingy
+2016-08-13 16:58:35	@meskarune	and maybe twitter tweets but idk
+2016-08-13 16:58:44	fsckd	cool
+2016-08-13 16:59:29	fsckd	those are the announcements. anything else to be announced?
+2016-08-13 17:00:31	fsckd	Ok, moving along...
+2016-08-13 17:00:59	fsckd	Add Arch Code of Conduct to the community rules of Arch Women.
+2016-08-13 17:01:21	@meskarune	our community standards are pretty short
+2016-08-13 17:01:26	@meskarune	then we have rules for irc
+2016-08-13 17:01:41	fsckd	code of conduct: https://wiki.archlinux.org/index.php/Code_of_conduct
+2016-08-13 17:01:43	phrik	Title: Code of conduct - ArchWiki (at wiki.archlinux.org)
+2016-08-13 17:01:45	@meskarune	https://archwomen.org/community-standards/
+2016-08-13 17:01:46	phrik	Title: Arch Linux Women | community-standards (at archwomen.org)
+2016-08-13 17:04:00	j605	it is short and to the point. Do you want legalese there?
+2016-08-13 17:05:00	@meskarune	well I was sorta thinking to add a page on conflict resolution
+2016-08-13 17:05:11	ng0	i currently can not open it, but what i found about coc's is that sometimes you need to go into details in external documents so that the coc doesn't leave space open for interpretations
+2016-08-13 17:05:14	@meskarune	and possibly contact information for AW mods
+2016-08-13 17:05:42	ng0	that's what i went for in guix, removing interpretationspace in the manual
+2016-08-13 17:06:43	@meskarune	j605: most of our stuff is short and to the point actually :) I don't like weasel words and shit, but its possible that it doesn't cover enough
+2016-08-13 17:06:49	@meskarune	¯\_(シ)_/¯
+2016-08-13 17:06:54	pid1	i appreciate keeping things like "This is both not quantifiable and not negotiable. It is a judgment call and entirely at the discretion of the Op requesting your exit." in there
+2016-08-13 17:07:18	pid1	it is the same thing we have in #archlinux et al, and it helps give the OPs sufficient discretion.
+2016-08-13 17:07:37	halosghost	pid1: ++
+2016-08-13 17:07:41	@meskarune	yeah, sometimes there are edge cases or whatever and you can't cover every damn thing lol
+2016-08-13 17:07:45	pid1	exactly
+2016-08-13 17:10:09	@meskarune	maybe we can just have a meeting on community standards at a later date to hash out a little and update them
+2016-08-13 17:10:15	@meskarune	fsckd ?
+2016-08-13 17:10:38	fsckd	OK
+2016-08-13 17:10:48	fsckd	When?
+2016-08-13 17:11:12	@meskarune	maybe tues evening? or would a weekend better?
+2016-08-13 17:11:20	@meskarune	idk who all wants to get in on it
+2016-08-13 17:11:42	@meskarune	I have a lot of ideas but I need some people to argue with me and edit :)
+2016-08-13 17:11:53	fsckd	Or do it on the ml?
+2016-08-13 17:11:56	halosghost	I would definitely be up for that
+2016-08-13 17:12:22	@meskarune	fsckd: we can do both, have a mailing list thread to start and then meeting for people to get soemthing done real time
+2016-08-13 17:12:39	@meskarune	I want to get it written and posted
+2016-08-13 17:13:02	fsckd	sound good
+2016-08-13 17:14:14	@meskarune	is tues evening too soon?
+2016-08-13 17:14:40	fsckd	i'm fine with Tues. evening. i defer to everyone else.
+2016-08-13 17:16:04	fsckd	meskarune: what time in the evening?
+2016-08-13 17:16:45	fsckd	Tuesday, August 16th
+2016-08-13 17:17:46	@meskarune	6-8
+2016-08-13 17:17:51	@meskarune	around there somewhere
+2016-08-13 17:18:26	-->	tuxampol (~Mylin@aftr-185-17-207-246.dynamic.mnet-online.de) has joined #archlinux-women
+2016-08-13 17:18:52	fsckd	that's 22:00 UTC
+2016-08-13 17:19:56	@meskarune	halosghost, pid1, everyone else?
+2016-08-13 17:20:41	halosghost	22.00 UTC
+2016-08-13 17:20:53	 *	halosghost tries to convert that to CDT
+2016-08-13 17:21:11	fsckd	halosghost: date -d '22:00 UTC'
+2016-08-13 17:21:28	halosghost	wow
+2016-08-13 17:21:43	halosghost	that's one of the more amazing cli things I've seen recently
+2016-08-13 17:21:49	halosghost	fsckd: you are a wizard
+2016-08-13 17:21:59	halosghost	also, 5 is hopefully doable
+2016-08-13 17:22:05	halosghost	I'll try to be home from work by then
+2016-08-13 17:22:15	halosghost	s/5/17/
+2016-08-13 17:22:15	fsckd	date command makes converting to and from UTC very easy.
+2016-08-13 17:22:51	fsckd	-d option is where the real power of date command is. ^_^
+2016-08-13 17:23:00	halosghost	:D
+2016-08-13 17:23:11	 *	libbies routinely uses date -d to convert unix time to time, because of log files
+2016-08-13 17:23:26	ng0	it gets easier when your timezone is utc and you just have to convert
+2016-08-13 17:24:34	@meskarune	I set my computer time to utc heh
+2016-08-13 17:24:40	@meskarune	and then my user is EST
+2016-08-13 17:25:04	@meskarune	but I am the only person I know who does that
+2016-08-13 17:25:05	fsckd	i should do that. >_>
+2016-08-13 17:25:50	j605	How do you do that
+2016-08-13 17:26:22	ng0	i convert local times in my head, keep everything else in utc. makes international time convertions easier.
+2016-08-13 17:26:37	ng0	TZ="UTC"
+2016-08-13 17:27:05	@meskarune	export TZ="/usr/share/zoneinfo/America/New_York"
+2016-08-13 17:27:23	@meskarune	you can put into .Xprofile and .profile
+2016-08-13 17:27:29	@meskarune	or .zshenv or whatever
+2016-08-13 17:27:37	@meskarune	j605: ^
+2016-08-13 17:27:59	@meskarune	then it only affects your user session
+2016-08-13 17:28:05	ng0	to be correct in my cases: (operating-system (timezone "UTC"))
+2016-08-13 17:28:23	ng0	was there anything left fot the meeting?
+2016-08-13 17:28:41	@meskarune	fsckd: ok, I guess we'll set that as a meeting :D
+2016-08-13 17:29:27	@meskarune	did we have any other community stuff?
+2016-08-13 17:29:30	j605	meskarune: thanks :)
+2016-08-13 17:29:42	fsckd	no more community stuff. next is classroom.
+2016-08-13 17:31:24	ng0	on classroom, i currently feel a lack of energy and time to even prepare one. i thought i mention as I said something along these lines expressing interest before.
+2016-08-13 17:31:41	ng0	too much action elsewhere
+2016-08-13 17:31:57	fsckd	ng0: no worries, thanks for letting us know. :)
+2016-08-13 17:32:19	fsckd	real life and higher priority things take precedence. :)
+2016-08-13 17:35:29	fsckd	For the license of class materials, CC BY-NC-SA will be the license for future classes.
+2016-08-13 17:36:13	fsckd	(past classes will depend on various things and will be decided on a case by case basis)
+2016-08-13 17:36:27	fsckd	having a single license for all classes simplifies things
+2016-08-13 17:37:02	fsckd	also, ArchWiki interop is a no go. the trend on the wiki now is to direct users to upstream docs.
+2016-08-13 17:37:30	fsckd	so hosting tutorials or anything is not something they will do.
+2016-08-13 17:38:44	@meskarune	which is fine, we can link to docs when we need and have class notes and materials in git repos
+2016-08-13 17:38:57	fsckd	yup
+2016-08-13 17:44:14	@meskarune	so then teaching more classes is up next in the agenda I think
+2016-08-13 17:44:19	fsckd	there will be some more changes to classroom in the future. will be hashing that out. more info. in the Sept. meeting i think.
+2016-08-13 17:44:50	@meskarune	oh, like with the github and stuff?
+2016-08-13 17:44:55	fsckd	yeah
+2016-08-13 17:45:00	@meskarune	kk
+2016-08-13 17:45:20	fsckd	also need to update my classroom futures page on arch wiki :)
+2016-08-13 17:45:54	fsckd	Ok, so would like volunteers for a bash class or another PKGBUILD class, if anyone is interested. :)
+2016-08-13 17:46:23	halosghost	I'd be willing to help out with a PKGBUILD class
+2016-08-13 17:49:36	@meskarune	I can help with PKGBUILD class
+2016-08-13 17:49:46	@meskarune	and there are previous class notes that can be used again
+2016-08-13 17:49:52	@meskarune	so it shouldn't be hard to throw together
+2016-08-13 17:50:02	fsckd	yeah :)
+2016-08-13 17:50:19	@meskarune	I was also emailed by someoen who wants to teach a prompt customization class
+2016-08-13 17:50:40	@meskarune	They told me they would work on a sylabus this weekend and email
+2016-08-13 17:50:43	@meskarune	email me
+2016-08-13 17:51:58	fsckd	sweet
+2016-08-13 17:54:48	fsckd	if anyone wants to teach a bash or PKGBUILD class, please contact us in here or on the arch women mailing list. thanks. :)
+2016-08-13 17:55:24	fsckd	Next on the agenda is mentorship.
+2016-08-13 17:55:54	fsckd	Would like more volunteers to be mentors.
+2016-08-13 17:56:28	halosghost	I would also be willing to do that
+2016-08-13 17:56:41	fsckd	Mentor info. is not made public.
+2016-08-13 17:56:42	halosghost	but given that this is -women, it should probably be made clear that I do not identify as a woman
+2016-08-13 17:57:11	fsckd	halosghost: cool
+2016-08-13 17:58:10	@meskarune	yeah, I will ask people if they have a gender preference or preference for someone who is LGBTQA
+2016-08-13 17:58:16	@meskarune	I think some people might have preferences like that
+2016-08-13 17:58:40	@meskarune	I'm sure people would be interested in just general getting started with linux help as well as programming
+2016-08-13 17:59:21	fsckd	that ties into the need for making a form for prospective mentees.
+2016-08-13 17:59:22	pid1	I'd be happy to mentor RE systems administration, networking, and automation stuff (Puppet et al)
+2016-08-13 17:59:59	pid1	same concerns as halosghost though RE if someone would prefer a similar background/experiences
+2016-08-13 18:00:00	@meskarune	thanks :)
+2016-08-13 18:00:38	@meskarune	the mentoring stuff is specifically to help disadvantaged groups contribute to arch and learn
+2016-08-13 18:01:03	@meskarune	sometimes they can't just post in channel asking for help, they might not be comfortable
+2016-08-13 18:01:51	@meskarune	or know if the person who helps them is gonna be ok if they find out their mentee is female or disabled or LGBTQA or whatever else
+2016-08-13 18:02:24	-->	swift110 (~swift1104@64.26.99.248) has joined #archlinux-women
+2016-08-13 18:02:34	@meskarune	so I want to address that specific thing
+2016-08-13 18:02:44	fsckd	i should reiterate, mentor identities are not public. we try to screen prospective mentees.
+2016-08-13 18:02:54	@meskarune	if arch linux in general is interested in a mentor thing though I would be willing to help with that
+2016-08-13 18:03:11	@meskarune	fsckd: yeah, I mean, I'd screen mentors too :P
+2016-08-13 18:03:23	fsckd	haha
+2016-08-13 18:03:26	@meskarune	in case someone thinks they can use it like a dating service >.>
+2016-08-13 18:03:37	fsckd	:/
+2016-08-13 18:03:38	@meskarune	there are some weird assholes and I wouldn't just add someone I didn't know to the list
+2016-08-13 18:03:47	fsckd	yeah, totally
+2016-08-13 18:04:11	fsckd	should there also be a mentor sign up form?
+2016-08-13 18:04:14	@meskarune	I'm willing to be a public contact
+2016-08-13 18:04:21	@meskarune	fsckd: yeah I think so
+2016-08-13 18:04:30	@meskarune	but for now I'm fine adding pid1 and halosghost
+2016-08-13 18:04:40	@meskarune	since they aren't strangers lol
+2016-08-13 18:05:13	 *	fsckd casts a suspicious eye on pid1 and halosghost :P
+2016-08-13 18:05:38	halosghost	topics I'd like to mentor on: C, Pandas, banning everyone
+2016-08-13 18:05:41	halosghost	:P
+2016-08-13 18:05:43	@meskarune	haha
+2016-08-13 18:05:55	pid1	i can vouch for 2 and 3 there
+2016-08-13 18:05:57	pid1	especially 3
+2016-08-13 18:06:15	fsckd	i think for the forms we should have that discussion on the ml. i'll draft two emails to post.
+2016-08-13 18:06:21	fsckd	lol!
+2016-08-13 18:08:20	ng0	i want a classrom on Pandas which are banning everyone for using C
+2016-08-13 18:08:36	halosghost	ng0: done
+2016-08-13 18:08:47	halosghost	ng0: I already have the syllabus finished
+2016-08-13 18:09:02	halosghost	it's titled, “Inside the Life and Times of halosghost”
+2016-08-13 18:09:10	fsckd	lmao
+2016-08-13 18:09:29	pid1	 i like "Halosghost: A Paenda Story"
+2016-08-13 18:09:53	halosghost	pid1: ooh, solid
+2016-08-13 18:10:33	fsckd	The Life Pandatic with Halosghost
+2016-08-13 18:11:15	pid1	"A Life Paentasitc"
+2016-08-13 18:11:27	fsckd	heh
+2016-08-13 18:12:04	fsckd	i'm using that now, "This spaghetti is pandastic!"
+2016-08-13 18:12:53	pid1	should i use something like numpy for the test-sec-flags math, or would just sed and bc be sufficient?
+2016-08-13 18:13:17	@meskarune	haha
+2016-08-13 18:13:25	fsckd	The last agenda item: Setup email group for mentor program - mentorship@archwomen.org, maybe have a mailing list thread?
+2016-08-13 18:13:43	@meskarune	pid1: sed and bc are more commonly installed by people :)
+2016-08-13 18:13:59	pid1	oh this is just for our needs, to put together something for the ML
+2016-08-13 18:14:04	j605	who installs bc?
+2016-08-13 18:14:05	@meskarune	fsckd: we have a group for admin@archwomen.org
+2016-08-13 18:14:05	pid1	so i'm less concerned about portability etc
+2016-08-13 18:14:12	pid1	j605: i do :(
+2016-08-13 18:14:12	@meskarune	and webmaster I think and abuse@
+2016-08-13 18:14:16	pid1	my go-to calculator, actually
+2016-08-13 18:14:42	j605	pid1: even I have it, but for scientific calculation I find ipython to be better suited
+2016-08-13 18:14:42	@meskarune	I use the python console as a calculator lol
+2016-08-13 18:14:53	fsckd	meskarune: what sort of emails are expected? and should mentors be given access?
+2016-08-13 18:15:10	@meskarune	fsckd: I would expect mentee's asking for a mentor to email there
+2016-08-13 18:15:26	@meskarune	we just need some public contacts to wrangle things
+2016-08-13 18:15:38	fsckd	yeah ok
+2016-08-13 18:15:45	@meskarune	public contacts have to be prepared to deal with conflicts and abuse and whatever else
+2016-08-13 18:17:47	fsckd	ok, that's a good idea.
+2016-08-13 18:18:24	@meskarune	I think having like 3-4 people would be good
+2016-08-13 18:18:27	@meskarune	I can do it
+2016-08-13 18:19:54	fsckd	may be i could too :)
+2016-08-13 18:20:23	fsckd	ok, anything else for mentorship?
+2016-08-13 18:21:06	pid1	j605: i don't do anything that fancy :)
+2016-08-13 18:21:08	@meskarune	I think thats all, vetting process, online form, email setup
+2016-08-13 18:21:19	@meskarune	heh "thats all"
+2016-08-13 18:21:36	fsckd	hehe
+2016-08-13 18:21:50	fsckd	Any final comments, questions, etc.?
+2016-08-13 18:22:22	fsckd	(I had one but forgot it.)
+2016-08-13 18:26:24	fsckd	Ok. I think that's it.
+2016-08-13 18:26:33	@meskarune	we got through a lot of stuff
+2016-08-13 18:26:39	fsckd	========== 51st Meeting Stop ==========
+2016-08-13 18:26:40	j605	What is the mentoring about? Do you have a page about it?
+2016-08-13 18:27:20	@meskarune	j605: basically one on one help with technical things
+2016-08-13 18:27:32	@meskarune	its not teaching the person, just helping them when they get stuck with something
+2016-08-13 18:28:10	@meskarune	mentees will primarily be women or other disadvantaged groups
+2016-08-13 18:30:37	@meskarune	I've actually been mentoring like 2 people
+2016-08-13 18:30:41	@meskarune	in sysadmin stuff

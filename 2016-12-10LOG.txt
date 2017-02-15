@@ -1,0 +1,93 @@
+2016-12-10 16:22:06	fsckd	===== Meeting Start =====
+2016-12-10 16:23:09	fsckd	So first the wiki.
+2016-12-10 16:23:33	@meskarune	yeah, lets try and be quick :)
+2016-12-10 16:23:48	fsckd	The wiki has been updated to the latest DokuWiki release, Elenor of Tsort.
+2016-12-10 16:24:15	@meskarune	halosghost, tigrmesh if y'all are around there is a meeting
+2016-12-10 16:24:21	@meskarune	I really like that name
+2016-12-10 16:24:29	fsckd	They name their releases after Discworld characters. :)
+2016-12-10 16:24:37	@meskarune	haha
+2016-12-10 16:25:05	fsckd	Those of you who know Discworld are probably understanding why we skipped the Binky release... >_>
+2016-12-10 16:25:33	fsckd	Also updated our wiki theme.
+2016-12-10 16:26:05	fsckd	There's been a lot of work done and lot more planned.
+2016-12-10 16:26:17	 *	j605 googles discoworlk
+2016-12-10 16:26:29	fsckd	Things are progressing at a steady pace.
+2016-12-10 16:26:58	@meskarune	just FYI fsckd did the work and is amazing :)
+2016-12-10 16:27:06	fsckd	The namespace aw-tech: will be renamed to tech: as part of the activity to update our technical documentation. https://archwomen.org/wiki/wiki:act:aw-tech
+2016-12-10 16:27:07	phrik	Title: aw-tech [Arch Women Wiki] (at archwomen.org)
+2016-12-10 16:27:43	fsckd	kind of redundant to have aw-
+2016-12-10 16:27:48	@meskarune	yeah heh
+2016-12-10 16:27:55	fsckd	and this shortens the url by three characters :P
+2016-12-10 16:28:30	@meskarune	lol
+2016-12-10 16:28:53	fsckd	This is the ideal time to make this kind of change as, as described in that link, the tech pages are being redone.
+2016-12-10 16:29:18	fsckd	There is a new how to help page in progress. https://archwomen.org/wiki/aw-org:how_to_help
+2016-12-10 16:29:20	phrik	Title: How to help [Arch Women Wiki] (at archwomen.org)
+2016-12-10 16:30:01	@meskarune	we have a contribute page already: https://archwomen.org/contribute/
+2016-12-10 16:30:02	phrik	Title: Arch Linux Women | contribute (at archwomen.org)
+2016-12-10 16:30:11	@meskarune	but it needs to be updated and better organized
+2016-12-10 16:30:17	fsckd	The intention is that will serve as the landing page for people who want to help with the project and many subprojects and activities.
+2016-12-10 16:30:18	@meskarune	it's just markdown
+2016-12-10 16:30:21	fsckd	meskarune: ahh
+2016-12-10 16:30:50	fsckd	the how to help page will have specifics on tasks and stuff.
+2016-12-10 16:31:00	fsckd	may be could link to it from the ocntribute page
+2016-12-10 16:31:11	@meskarune	I think they should both be updated in conjunction
+2016-12-10 16:31:24	@meskarune	like the contribute page should be mostly links
+2016-12-10 16:31:36	@meskarune	to help direct people to places where they can learn more
+2016-12-10 16:31:46	@meskarune	like the mailing list or whatever
+2016-12-10 16:32:11	fsckd	cool, that is a good idea
+2016-12-10 16:32:28	@meskarune	right now I think they both have almost the same information
+2016-12-10 16:32:36	@meskarune	so it might be redundant idk
+2016-12-10 16:33:12	fsckd	the how to help will point to activities and can be updated by anyone on the wiki.
+2016-12-10 16:33:38	fsckd	could move some of the stuff, like classroom and mentor things to contribute and link to contribute from the how to help page
+2016-12-10 16:33:46	fsckd	(and a link the other way too)
+2016-12-10 16:35:15	fsckd	we can work on the specifics later
+2016-12-10 16:35:34	fsckd	We're on a time limit with this meeting, lol.
+2016-12-10 16:37:52	fsckd	Moving on...
+2016-12-10 16:38:10	fsckd	There's been a few updates to wiki conventions. Please read when you have the time. https://archwomen.org/wiki/wiki:conventions
+2016-12-10 16:38:11	phrik	Title: Conventions for wiki structure and content [Arch Women Wiki] (at archwomen.org)
+2016-12-10 16:38:59	fsckd	Also added a link to conventions in the sidebar, under Syntax Guide
+2016-12-10 16:39:40	fsckd	Anything more about the wiki?
+2016-12-10 16:41:07	fsckd	There's a lot planned. Changes are happening slowly but steadily.
+2016-12-10 16:41:44	fsckd	We hope the wiki will have more and better content and become easier to navigate.
+2016-12-10 16:43:34	fsckd	The PKGBUILD class is tomorrow.
+2016-12-10 16:44:12	fsckd	“Getting Started with Arch Linux Package Building” taught by halosghost and meskarune
+2016-12-10 16:44:37	@meskarune	I converted the class notes to rst
+2016-12-10 16:44:46	fsckd	awesome
+2016-12-10 16:44:50	@meskarune	https://gist.github.com/meskarune/4879c8338da4b85b98454ffede676558
+2016-12-10 16:44:51	phrik	Title: class notes for creating arch packages · GitHub (at gist.github.com)
+2016-12-10 16:45:06	@meskarune	but it could still use a one last edit/once over for errors
+2016-12-10 16:45:20	@meskarune	I think its also still missing some resource links from the riseup
+2016-12-10 16:45:32	@meskarune	and maybe a few extra notes I missed when organizing
+2016-12-10 16:45:43	@meskarune	maybe halosghost can finish it up
+2016-12-10 16:47:11	fsckd	meskarune: Thanks. you've done a lot of work for the class.
+2016-12-10 16:47:14	@meskarune	but 99% of it is done and ready fora  class
+2016-12-10 16:47:28	@meskarune	and I think we'll have lots of students
+2016-12-10 16:47:34	fsckd	Those notes can be a base for future PKGBUILD classes.
+2016-12-10 16:47:41	fsckd	meskarune: awesome
+2016-12-10 16:47:51	fsckd	you announced it everywhere. :D
+2016-12-10 16:47:57	@meskarune	hehe
+2016-12-10 16:48:14	fsckd	To reiterate, the class is tomorrow Sunday Dec 11 at 19:00 UTC in #archlinux-classroom
+2016-12-10 16:48:46	fsckd	Last on the agenda for the meeting is mentoring.
+2016-12-10 16:49:13	fsckd	Need to create polyzen's email address to help coordinate.
+2016-12-10 16:50:15	fsckd	Also will create page on the website with contact email mentor@archwomen.org
+2016-12-10 16:52:03	fsckd	Hope to get the mentoring going like classroom is. :)
+2016-12-10 16:52:38	Riotela	ping
+2016-12-10 16:52:42	fsckd	if anyone wants to be a mentor, feel free let us know
+2016-12-10 16:53:01	@meskarune	yeah :)
+2016-12-10 16:53:04	Riotela	(sorry, Matrix was doing lazy-joining and someone had to say something for bridge to start working again)
+2016-12-10 16:53:09	@meskarune	we already have mentor@archwomen.org setup
+2016-12-10 16:53:25	fsckd	Awesome.
+2016-12-10 16:54:40	fsckd	meskarune: how does mentor@archwomen.org work? does it direct all messages to mentors and coordinators?
+2016-12-10 16:58:34	@meskarune	its a group
+2016-12-10 16:58:42	@meskarune	so everyone in the group can use the email
+2016-12-10 16:58:50	fsckd	ahh, cool
+2016-12-10 16:59:19	fsckd	Ok, that's the last thing on the agenda.
+2016-12-10 16:59:27	fsckd	Any final comments, questions, etc. about the topics covered in the meeting or anything else on your minds?
+2016-12-10 17:05:03	j605	What is the wiki going to cover? Is it complementing the arch wiki?
+2016-12-10 17:05:42	fsckd	it is notes and documentation for Arch Women things.
+2016-12-10 17:06:59	@meskarune	mostly notes/logs on meetings, how the server is setup, how to do things like updates
+2016-12-10 17:07:09	fsckd	yeah
+2016-12-10 17:07:17	fsckd	plans, things to do, how stuff is set up, check lists, everything
+2016-12-10 17:08:49	fsckd	Ok, anything else? Should I end the meeting now?
+2016-12-10 17:08:55	@meskarune	static information things go on the main site, like donating or mailing list or news
+2016-12-10 17:13:19	fsckd	Ok, I guess that's it then. Thank you everyone.
+2016-12-10 17:13:40	fsckd	===== Meeting Stop =====

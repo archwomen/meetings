@@ -1,0 +1,451 @@
+2013-05-05 12:04:42	+tigrmesh	***************  MEETING IN STARTING  *****************
+2013-05-05 12:05:45	<--	KylieBrooks (~kvirc@unaffiliated/kyliebrooks) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-05-05 12:06:09	-->	KylieBrooks (~kvirc@unaffiliated/kyliebrooks) has joined #archlinux-women
+2013-05-05 12:06:10	+tigrmesh	meeting notes are at https://pad.riseup.net/p/gSlgsPDOyDNC
+2013-05-05 12:06:13	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-05-05 12:09:10	+meskarune	So status updates
+2013-05-05 12:11:19	+tigrmesh	i guess fsckd is up
+2013-05-05 12:12:07	fsckd	yes i am :D
+2013-05-05 12:12:24	fsckd	redmine was updated from 2.2.4 to 2.3.0
+2013-05-05 12:12:48	fsckd	2.2.x branch looks like it'll be dead sooner or later. it can't use ruby2 for example
+2013-05-05 12:12:50	+meskarune	and just an fyi for the channel, updating remine is a PITA, so fsckd deserves an awark
+2013-05-05 12:12:51	+meskarune	award
+2013-05-05 12:12:59	fsckd	lol thnaks
+2013-05-05 12:13:13	fsckd	i'm working on a script/wizard to guide one through the process
+2013-05-05 12:13:15	 *	kaictl gives fsckd and awark
+2013-05-05 12:13:25	fsckd	!grab kaictl
+2013-05-05 12:13:25	phrik	fsckd: Tada!
+2013-05-05 12:14:49	fsckd	i guess i'll have more to say once the script is done
+2013-05-05 12:15:01	fsckd	i can't make it painless but i'll try my best to get close
+2013-05-05 12:15:35	-->	MarkDude (~MT@fedora/MarkDude) has joined #archlinux-women
+2013-05-05 12:16:24	+meskarune	awesome
+2013-05-05 12:16:25	+meskarune	:)
+2013-05-05 12:16:52	+meskarune	how does everyone feel about using redmine for project management?
+2013-05-05 12:17:13	+meskarune	so far I like having a place to put to-do's and list projects and news
+2013-05-05 12:17:26	fsckd	and wiki
+2013-05-05 12:18:56	+meskarune	maybe git integration would be cool, but I don't know how much more complicated that would make redmine/gitolite
+2013-05-05 12:19:32	fsckd	no need for that, github is sufficient imo
+2013-05-05 12:19:36	+meskarune	kk
+2013-05-05 12:19:56	+meskarune	so news
+2013-05-05 12:20:05	+meskarune	we have a rapid ssl cert that is good for 4 years
+2013-05-05 12:20:20	+meskarune	the certs are on the server, we just need to configure lighttpd 
+2013-05-05 12:20:40	+meskarune	I haven't used commercial certs before
+2013-05-05 12:20:47	+meskarune	so input/help with that would be much appreciated
+2013-05-05 12:22:50	fsckd	interjection: will need to move redmine from a subdomain to a subdir of the main site so that it is covered by ssl. will work on that this week
+2013-05-05 12:23:31	+meskarune	The website structure was changed a bit so subsections of the site are in subdirectories
+2013-05-05 12:24:06	+meskarune	we will need to redirect all port 80 traffic to https and redirect the redmine subdirectory to archwomen.org/redmine
+2013-05-05 12:25:36	+meskarune	does anyone have questions about the switch to SSL ?
+2013-05-05 12:26:12	XReaper	i shouldn't be able to register tasteless domains
+2013-05-05 12:26:17	XReaper	how is you lot going :)
+2013-05-05 12:26:29	fsckd	XReaper: in the middle of a meeting
+2013-05-05 12:26:35	XReaper	oh good
+2013-05-05 12:27:07	+meskarune	https://www.eff.org/https-everywhere/deploying-https
+2013-05-05 12:27:10	phrik	Title: How to Deploy HTTPS Correctly | Electronic Frontier Foundation (at www.eff.org)
+2013-05-05 12:27:19	+meskarune	^ information on why https is important in case anyone wants to read up
+2013-05-05 12:28:02	XReaper	It's awesome
+2013-05-05 12:28:37	+meskarune	ok, news on classroom
+2013-05-05 12:28:39	+meskarune	:)
+2013-05-05 12:28:48	+meskarune	kaictl ? :)
+2013-05-05 12:29:06	kaictl	yeah, i'll have something on monday/tuseday
+2013-05-05 12:29:11	+meskarune	hehe ok
+2013-05-05 12:29:22	kaictl	for now...i guess we could do it, but i don't know.
+2013-05-05 12:29:24	+meskarune	let us know if you need anything, volunteers, doc writers, etc
+2013-05-05 12:29:34	kaictl	i may be afk
+2013-05-05 12:29:37	+meskarune	maybe we can find a sponsor :)
+2013-05-05 12:30:59	--	ChanServ has changed topic for #archlinux-women from "Arch Linux Chix FTW: Join us on http://redmine.archwomen.org/ !  Project site is http://archwomen.org . IRC Rules: http://bit.ly/13rVGg5 <|||> Fifteenth IRC Meeting: Sunday May 5th at 16:00 UTC. See you there!  Agenda: http://bit.ly/YIGZ0B <|||> If you're having a problem with someone, !awops" to "Arch Linux Chix FTW: Join us on http://redmine.archwomen.org/ !  Project site is http://archwomen.org . IRC Rules: http://bit.ly/13rVGg5 <|||> If you're having a problem with someone, !awops <|||> Fifteenth IRC Meeting in progress. Channel is being publicly logged.  Agenda: http://bit.ly/YIGZ0B"
+2013-05-05 12:31:36	<--	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has quit (Ping timeout: 256 seconds)
+2013-05-05 12:32:13	fsckd	(sorry for delaying that)
+2013-05-05 12:32:37	kaictl	i don't think that's a problem, it's fine to write docs...it's just whether or not i'll be out of state...
+2013-05-05 12:32:57	+meskarune	don't sweat it :) ♥ we appreciate all of your work
+2013-05-05 12:33:20	+meskarune	also congrats on your new job
+2013-05-05 12:33:27	kaictl	you could still put the pdf on the site, or something
+2013-05-05 12:33:32	 *	kaictl doesn't know if he has a job yet...
+2013-05-05 12:33:52	kaictl	but thanks :>
+2013-05-05 12:34:08	+meskarune	hehe
+2013-05-05 12:34:13	+meskarune	ok thanks for the update :D
+2013-05-05 12:34:33	kaictl	(ironically this may be the same reason why we postponed it the first time...just for me and not gtmanfred )
+2013-05-05 12:36:28	-->	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has joined #archlinux-women
+2013-05-05 12:36:35	+meskarune	any other news we need to announce?
+2013-05-05 12:36:51	kaictl	don't think so. i haven't heard anything about new classrooms or anything...
+2013-05-05 12:37:04	+meskarune	kk
+2013-05-05 12:37:19	+meskarune	project discussion: 
+2013-05-05 12:37:22	+meskarune	Internship
+2013-05-05 12:37:52	+meskarune	We need to write up a job description with duties, etc
+2013-05-05 12:38:07	+meskarune	as well as resources and what sorts of experiance you need and what you will learn, etc
+2013-05-05 12:38:15	+meskarune	and then we can use that to post on sites
+2013-05-05 12:38:49	+meskarune	http://careers.washington.edu/ifiles/all/files/docs/shared/Best_Practices_for_Internship_Programs_NACE.pdf
+2013-05-05 12:38:51	kaictl	(we could possibly have something with us in the classroom when gtmanfred and i are settled)
+2013-05-05 12:39:35	+meskarune	yeah, getting an intern who is studing teaching would be useful
+2013-05-05 12:39:36	fsckd	in past discussion it was proposed joining a program like OPW
+2013-05-05 12:39:41	+meskarune	and introduce them to new technologies
+2013-05-05 12:40:08	fsckd	or GSOC
+2013-05-05 12:40:33	+meskarune	yeah, that would be great
+2013-05-05 12:40:46	fsckd	no harm in having more than one intership program, if possible
+2013-05-05 12:41:14	<--	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has quit (Ping timeout: 276 seconds)
+2013-05-05 12:41:19	kaictl	if we have mentors, we could have them do a classroom or two to get their stuff out to other people, too.
+2013-05-05 12:41:26	+meskarune	https://live.gnome.org/OutreachProgramForWomen
+2013-05-05 12:41:30	phrik	Title: OutreachProgramForWomen - GNOME Live! (at live.gnome.org)
+2013-05-05 12:41:50	+meskarune	we need someone to look into the application process and we need to write up what exactly the intern will do/learn :)
+2013-05-05 12:41:55	+meskarune	kaictl: I think that is a great idea :)
+2013-05-05 12:42:13	kaictl	well, i mean they're teaching anyway, may as well do a classroom.
+2013-05-05 12:42:33	kaictl	(and they could have their interns help or do stuff too)
+2013-05-05 12:43:44	fsckd	will the internship program be run by Arch Women or Arch Linux?
+2013-05-05 12:43:48	fsckd	(or both?)
+2013-05-05 12:44:25	kaictl	i'm guessing it would be arch women, honestly. if it goes well, they might pick it up...
+2013-05-05 12:44:52	+meskarune	yeah
+2013-05-05 12:45:01	+meskarune	we can start out with an internship program 
+2013-05-05 12:45:18	+meskarune	and maybe work with someoen in Arch Linux to get an internship program for arch
+2013-05-05 12:45:44	kaictl	well, probably fly the AW internships first as a test, then if that goes well start this up.
+2013-05-05 12:45:46	+meskarune	it would be awesome to have that and then recruit women from arch women to be mentors, so the mentors are more diverse
+2013-05-05 12:45:55	fsckd	what work can Arch Women offer?
+2013-05-05 12:45:57	+meskarune	kaictl: sounds like a plan :)
+2013-05-05 12:45:57	-->	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has joined #archlinux-women
+2013-05-05 12:46:18	kaictl	meskarune: like any free software thing, having something that actually works is better than just an idea.
+2013-05-05 12:46:26	fsckd	hehe true
+2013-05-05 12:46:30	+meskarune	fsckd: good question :)
+2013-05-05 12:47:34	+meskarune	we could have interns work on scripts and software 
+2013-05-05 12:47:38	+meskarune	or site developement
+2013-05-05 12:47:45	+meskarune	or outreach even
+2013-05-05 12:47:53	+meskarune	outreach/martketing/meetups
+2013-05-05 12:48:25	+meskarune	we could reach out to people studying teaching, non-profit, writing, comp-sci
+2013-05-05 12:48:43	+meskarune	and we can take interns with an interest in computers who might not be super proficient just yet
+2013-05-05 12:49:21	fsckd	should also talk to someone who has run an internship program and get their input/advice
+2013-05-05 12:49:36	+meskarune	yes, great idea
+2013-05-05 12:49:46	+meskarune	we could use some mentors/advisors of our own :)
+2013-05-05 12:49:56	fsckd	haha :D
+2013-05-05 12:50:42	fsckd	someone should make an internship for people who want to start and run an internship program :P
+2013-05-05 12:51:32	+meskarune	haha
+2013-05-05 12:52:03	kaictl	i heard you like internships, so i made an internship for your internships.
+2013-05-05 12:52:15	kaictl	so you can intern while you internship.
+2013-05-05 12:52:25	fsckd	lol
+2013-05-05 12:52:34	fsckd	your mentor is a turtle :P
+2013-05-05 12:52:38	kaictl	but what about the internships for the internship internship? 
+2013-05-05 12:52:55	fsckd	don't worry, it's internships all the way down
+2013-05-05 12:53:02	kaictl	mkay.
+2013-05-05 12:54:01	+meskarune	is internship on redmine?
+2013-05-05 12:54:29	+meskarune	can we add a doc for internships we could hold? anyone would be able to add to it
+2013-05-05 12:54:54	+meskarune	http://redmine.archwomen.org/projects/internship
+2013-05-05 12:54:55	phrik	Title: Overview - Internship - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-05-05 12:55:22	<--	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has quit (Ping timeout: 264 seconds)
+2013-05-05 12:58:53	+meskarune	any other thoughts/ideas on an intership ?
+2013-05-05 13:03:56	+meskarune	ok, Let's talk about fundraising
+2013-05-05 13:03:57	+meskarune	:)
+2013-05-05 13:04:57	+meskarune	are there any companies that benifit from arch linux who might be interested in helping?
+2013-05-05 13:05:58	-->	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has joined #archlinux-women
+2013-05-05 13:06:03	fsckd	good question
+2013-05-05 13:06:28	+meskarune	how would be find this out?
+2013-05-05 13:06:56	fsckd	i have no idea
+2013-05-05 13:07:10	kaictl	magic
+2013-05-05 13:08:00	+tigrmesh	i think we'd be better off looking for companies who support women in tech
+2013-05-05 13:08:13	+tigrmesh	how much money are we looking to raise?
+2013-05-05 13:08:19	kaictl	most likely. 
+2013-05-05 13:09:17	+meskarune	I would say vps hosting companies who offer arch linux hosting, maybe the gnome/kde projects or FOSS related organizations
+2013-05-05 13:09:43	+meskarune	tigrmesh: yeah, setting a goal would be good
+2013-05-05 13:10:34	<--	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has quit (Ping timeout: 252 seconds)
+2013-05-05 13:11:21	+tigrmesh	are we just looking to cover our expenses, such as our email, ssl, and such?  of course we don't need to pay for a vps for now, so that wouldn't be included
+2013-05-05 13:12:07	+meskarune	tigrmesh: yeah, and maybe we could also use some money for outreach
+2013-05-05 13:12:19	+meskarune	or sending someone to speak 
+2013-05-05 13:12:39	+meskarune	maybe lets say like, $500 or $1000 ?
+2013-05-05 13:12:44	+tigrmesh	outreach?  in what way?
+2013-05-05 13:13:50	+meskarune	we can host meetups
+2013-05-05 13:13:57	+tigrmesh	ah
+2013-05-05 13:14:15	+meskarune	and get the word out 
+2013-05-05 13:14:56	+meskarune	honestly I think if we have some funds, we will find uses for them that will benifit Arch Women and Arch Linux tangenitally
+2013-05-05 13:16:01	+meskarune	So the homepage we should have project goals, resources, what we do, etc and future plans/goals
+2013-05-05 13:16:15	+meskarune	so we have a place to point people when we ask "would you like to sponsor us?"
+2013-05-05 13:16:47	+meskarune	maybe first meetup can be in NYC ?
+2013-05-05 13:16:58	fsckd	why nyc?
+2013-05-05 13:17:15	+meskarune	hacker school is there and they have an outreach program
+2013-05-05 13:17:19	fsckd	ahh
+2013-05-05 13:17:37	+meskarune	and its pretty accessible as well with transportation going in
+2013-05-05 13:17:59	+meskarune	but that doesn't have to be set, its just an idea :)
+2013-05-05 13:18:43	fsckd	traffic is killer :P
+2013-05-05 13:19:11	XReaper	literally
+2013-05-05 13:19:13	XReaper	>.>
+2013-05-05 13:19:18	fsckd	lol
+2013-05-05 13:19:24	fsckd	meskarune: it's a nice idea, should meetups be a project of its own?
+2013-05-05 13:20:09	+meskarune	fsckd: oh good idea! or it could be under outreach? idk
+2013-05-05 13:20:43	+meskarune	maybe we could get github to sponsor some things for us since we use them and its good advertising for them
+2013-05-05 13:21:22	fsckd	hmm
+2013-05-05 13:21:29	-->	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has joined #archlinux-women
+2013-05-05 13:24:11	+meskarune	maybe we should get someone specifically to help with the organization of outreach?
+2013-05-05 13:24:38	+meskarune	recruite moar :)
+2013-05-05 13:24:46	fsckd	heh
+2013-05-05 13:25:48	+meskarune	ok now lets discuss the blog
+2013-05-05 13:25:49	+meskarune	:)
+2013-05-05 13:25:55	fsckd	:D
+2013-05-05 13:26:02	+meskarune	we need to get it into a git repo, and everyone can push to it :)
+2013-05-05 13:26:17	+meskarune	a few things we need to do: convert old posts to markdown blog format
+2013-05-05 13:26:23	+meskarune	finish templates
+2013-05-05 13:26:33	+meskarune	work on auto twitter thing
+2013-05-05 13:26:43	+meskarune	(which doesn't hard with python-twitter)
+2013-05-05 13:27:16	+meskarune	and maybe have a site so people can submit drafts to the server from a browser
+2013-05-05 13:27:39	 *	MarkDude would be willing to have some materials at my FOSS events
+2013-05-05 13:27:48	+meskarune	sweet :D
+2013-05-05 13:27:49	MarkDude	For NorCal
+2013-05-05 13:28:20	 *	MarkDude also brings UW materials as well as OpenSource.com and things like that
+2013-05-05 13:28:58	 *	MarkDude sees a fair amount of people getting tired in their project, and wanting to go elsewhere
+2013-05-05 13:29:08	MarkDude	Most are NOT interested in Fedora
+2013-05-05 13:29:40	 *	MarkDude feels very comfortable pointing people to Arch (now that I understand a bit more about it)
+2013-05-05 13:29:40	kaictl	is AW going to use any git frontend?
+2013-05-05 13:30:18	+meskarune	MarkDude: that would be amazing
+2013-05-05 13:30:29	+meskarune	And we would really appreciate it
+2013-05-05 13:30:56	+meskarune	MarkDude: materials as in like, flyers?
+2013-05-05 13:31:02	MarkDude	Yes
+2013-05-05 13:31:03	+meskarune	kaictl: git frontend ?
+2013-05-05 13:31:11	+meskarune	kaictl: like a web frontend?
+2013-05-05 13:31:12	kaictl	meskarune: something like cgit/gitweb ?
+2013-05-05 13:31:34	+meskarune	right now all of our public repos are on github 
+2013-05-05 13:32:13	+meskarune	cgit works with gitolite
+2013-05-05 13:32:19	kaictl	ah, right.
+2013-05-05 13:32:20	+meskarune	and its static html
+2013-05-05 13:32:21	+meskarune	:)
+2013-05-05 13:32:25	kaictl	well, anything works with gitolite. lol
+2013-05-05 13:32:27	+meskarune	lol
+2013-05-05 13:32:34	kaictl	(i would recommend cgit, though)
+2013-05-05 13:33:24	+meskarune	so people can see our repos on the server or on github?
+2013-05-05 13:33:52	kaictl	ya.
+2013-05-05 13:34:07	kaictl	(also, no ruby in that.)
+2013-05-05 13:34:25	fsckd	lol
+2013-05-05 13:34:29	fsckd	><
+2013-05-05 13:34:36	kaictl	should make fsckd happy
+2013-05-05 13:34:46	fsckd	XD
+2013-05-05 13:34:48	+meskarune	https://wiki.archlinux.org/index.php/Cgit#Lighttpd
+2013-05-05 13:34:49	phrik	Title: Cgit - ArchWiki (at wiki.archlinux.org)
+2013-05-05 13:35:12	kaictl	ya, it's super easy to set up.
+2013-05-05 13:36:12	+meskarune	so advantages of having a git web frontend vs. just github? :)
+2013-05-05 13:36:32	+meskarune	can we have git updates in an rss?
+2013-05-05 13:36:32	kaictl	if github goes down or the hooks stop working, people can still see the actual stuff.
+2013-05-05 13:36:44	kaictl	i believe you can have them in an atom feed...and i think rss.
+2013-05-05 13:37:23	kaictl	all i see in the man page is `max-atom-items`, so yeah.
+2013-05-05 13:37:57	+meskarune	good points
+2013-05-05 13:38:28	fsckd	github also has rss iirc
+2013-05-05 13:38:59	+meskarune	we can add a link to the git rss feed to the site
+2013-05-05 13:39:00	 *	kaictl hasn't seen any atom stuff on his cgit.
+2013-05-05 13:39:21	+meskarune	on my homepage I have a javascript thingy that shows rss feeds
+2013-05-05 13:40:19	kaictl	(but yeah, i think gitweb has some rss stuff, but it's like, 100x more resource intensive, and that much slower.
+2013-05-05 13:40:27	+meskarune	oh I see
+2013-05-05 13:40:59	fsckd	i can find rss feeds for individual branches in GitHub
+2013-05-05 13:41:17	fsckd	not quite what we want
+2013-05-05 13:41:58	+meskarune	we can research it more. but if we are using git as our main way to update things, an rss feed will be useful
+2013-05-05 13:42:07	fsckd	yeah
+2013-05-05 13:42:20	kaictl	there's probably some hooks magic you could do to make an rss feed...
+2013-05-05 13:42:37	fsckd	hmm. ok...
+2013-05-05 13:42:53	kaictl	idk. you can still keep things on github
+2013-05-05 13:43:54	fsckd	if anyone wants to help, make a bash function which outputs commits in atom :D
+2013-05-05 13:44:25	kaictl	i beleive cgit does that for you...
+2013-05-05 13:45:24	fsckd	iiuc, if you have a github account, you can make a general rss feed
+2013-05-05 13:46:29	kaictl	you can make one from your news feed, methinks.
+2013-05-05 13:47:40	+meskarune	maybe when we make a python script for makign the site rss, we can adapt it for other things?
+2013-05-05 13:47:42	+meskarune	:)
+2013-05-05 13:47:51	+meskarune	fun python project idea
+2013-05-05 13:47:52	kaictl	that would be cool.
+2013-05-05 13:47:58	kaictl	(pardon me making silly ideas)
+2013-05-05 13:48:06	+meskarune	♥
+2013-05-05 13:48:37	+meskarune	we'll get the blog into a subdir and git and then people hack on it :)
+2013-05-05 13:50:01	 *	MarkDude is intrigued by using git for this. All sorts of possibilities
+2013-05-05 13:50:22	<--	escondida (~joyfulgir@unaffiliated/joyfulgirl) has quit (Quit: WeeChat 0.4.0)
+2013-05-05 13:50:33	fsckd	kaictl: your ideas aren't silly, they are always welcome :D
+2013-05-05 13:50:37	+meskarune	MarkDude: https://github.com/pyladies/pyladies
+2013-05-05 13:50:39	phrik	Title: pyladies/pyladies · GitHub (at github.com)
+2013-05-05 13:50:46	+meskarune	pyladies update their blog with git :)
+2013-05-05 13:50:51	kaictl	okay then. REWRITE REDMINE IN NOT-RUBY!
+2013-05-05 13:50:55	kaictl	:D
+2013-05-05 13:51:00	+meskarune	haha
+2013-05-05 13:51:04	fsckd	!doit
+2013-05-05 13:51:06	phrik	Dooooooooo eeeeeeeettttttttt
+2013-05-05 13:52:06	MarkDude	Pyladies = awesome
+2013-05-05 13:52:20	+meskarune	yeah I love them :D
+2013-05-05 13:53:05	+meskarune	ok, I had a thought from the geek fem wiki: http://geekfeminism.wikia.com/wiki/Allies_training
+2013-05-05 13:53:07	phrik	Title: Allies workshop - Geek Feminism Wiki (at geekfeminism.wikia.com)
+2013-05-05 13:53:25	+meskarune	maybe we could do a talk/video on allies ?
+2013-05-05 13:54:38	+meskarune	why are allies awesome, how it helps, how to be an ally, etc ?
+2013-05-05 13:54:43	+meskarune	or maybe just a blog post on this topic
+2013-05-05 13:54:54	+tigrmesh	blog post for starters
+2013-05-05 13:55:00	+meskarune	but it might help people to understand more about what we do
+2013-05-05 13:55:33	+tigrmesh	who will present the talk/be the face on the video?
+2013-05-05 13:55:51	+tigrmesh	plus, i think the blog needs content
+2013-05-05 13:55:59	+meskarune	+10000000
+2013-05-05 13:56:00	+meskarune	:)
+2013-05-05 13:56:02	+tigrmesh	:)
+2013-05-05 13:56:57	+meskarune	I'd be willing to talk a bit in a video, but I'd need practice speaking...
+2013-05-05 13:57:11	kaictl	(oh, if i do move down by gtmanfred, i may try to convince him to do videos instead of just an irc thing.
+2013-05-05 13:57:16	+meskarune	I have trouble with grammar and my accent can be troublesome 
+2013-05-05 13:57:47	+meskarune	and it would be great to have a guy talk/interact also
+2013-05-05 13:57:56	<--	KylieBrooks (~kvirc@unaffiliated/kyliebrooks) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-05-05 13:58:58	<--	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has quit (Ping timeout: 252 seconds)
+2013-05-05 13:59:59	gtmanfred	the second one can be video
+2013-05-05 14:00:02	gtmanfred	the first one should still be irc
+2013-05-05 14:00:04	+meskarune	if anyone has blog ideas or wants to contribute, please do :)
+2013-05-05 14:00:11	gtmanfred	since we are setting up how everyone else is going to be doing it
+2013-05-05 14:00:26	+meskarune	yeah :)
+2013-05-05 14:00:43	kaictl	kk.
+2013-05-05 14:00:51	gtmanfred	yeah i have no problem with anything after the first one being video
+2013-05-05 14:01:19	kaictl	makes sense. i feel like we should try it out, at least.
+2013-05-05 14:01:27	gtmanfred	indeed
+2013-05-05 14:01:38	+meskarune	last day of class would be a google hangout ;P
+2013-05-05 14:01:52	gtmanfred	kaictl: though if you want, you can be my creepy stalker and hang out in my room while we do it on irc the first time :P
+2013-05-05 14:01:55	gtmanfred	heh
+2013-05-05 14:01:59	+meskarune	haha
+2013-05-05 14:02:05	+tigrmesh	i like irc.  videos are a PITA if you have to close your browser
+2013-05-05 14:02:13	kaictl	gtmanfred: mwahahaha
+2013-05-05 14:02:27	gtmanfred	tigrmesh: we would stream it on something where you wouldn't have to use a browser
+2013-05-05 14:02:34	kaictl	↑
+2013-05-05 14:02:37	kaictl	livestreamer
+2013-05-05 14:02:42	gtmanfred	like justin.tv which you can use community/livestreamer for
+2013-05-05 14:02:43	+meskarune	if not video, then maybe postcast
+2013-05-05 14:02:48	+meskarune	people can listen while on the way to work
+2013-05-05 14:02:49	-->	KylieBrooks (~kvirc@unaffiliated/kyliebrooks) has joined #archlinux-women
+2013-05-05 14:02:56	gtmanfred	meskarune: yeah you can save them on justin.tv
+2013-05-05 14:03:01	+meskarune	cool
+2013-05-05 14:03:47	gtmanfred	plus i already have it all setup and know how to use it for streams, just need to figure out the whole camera stuff since i only have the one on my work laptop and then my other old portege m700
+2013-05-05 14:04:01	gtmanfred	we could probably stream skype
+2013-05-05 14:04:09	gtmanfred	we can figure it out later :P
+2013-05-05 14:04:15	+meskarune	haha yeah
+2013-05-05 14:04:16	+meskarune	:)
+2013-05-05 14:04:22	fsckd	i think we're nearing the home stretch for the server stuff. a-w is pretty much back in business :D
+2013-05-05 14:04:27	+meskarune	any other items people want to discuss ?
+2013-05-05 14:04:37	+meskarune	fsckd: yeah, I'm supper happy about that
+2013-05-05 14:04:45	+meskarune	OH, we might need to convert to 64bit
+2013-05-05 14:04:52	+meskarune	I almost forgot
+2013-05-05 14:04:55	fsckd	right, i forgot!
+2013-05-05 14:05:24	-->	carharttjimmy (~james@user-0c2hdh9.cable.mindspring.com) has joined #archlinux-women
+2013-05-05 14:05:36	+meskarune	does anyone know how hard it is to reinstall * as 64bit?
+2013-05-05 14:05:46	+meskarune	right now the kernel is 64 bit and user space 32 bit
+2013-05-05 14:06:02	+meskarune	because of a Xen bug that won't allow VPS to boot in certain sectors of ram
+2013-05-05 14:06:20	gtmanfred	what are you doing?
+2013-05-05 14:06:46	+meskarune	gtmanfred: need to change the 32 bit userspace to 64 bit
+2013-05-05 14:06:55	+meskarune	we had to boot with a 64 bit kernel 
+2013-05-05 14:06:56	gtmanfred	archlinux?
+2013-05-05 14:06:59	+meskarune	yeah :)
+2013-05-05 14:07:06	gtmanfred	!give meskarune wiki migrate architectures
+2013-05-05 14:07:07	phrik	meskarune: https://wiki.archlinux.org/index.php/Migrating_Between_Architectures_Without_Reinstalling
+2013-05-05 14:07:21	+meskarune	gtmanfred: I tried that out on a server, and it didn't seem to work too well :/
+2013-05-05 14:07:29	+meskarune	I guess I can play around a bit more
+2013-05-05 14:07:35	gtmanfred	give me root
+2013-05-05 14:07:39	gtmanfred	i have done it before
+2013-05-05 14:07:43	+meskarune	orly
+2013-05-05 14:07:49	gtmanfred	yeah, twice actually
+2013-05-05 14:07:52	kaictl	lol
+2013-05-05 14:08:03	gtmanfred	once for my netbook and once for my desktop
+2013-05-05 14:08:03	gtmanfred	back when i had no clue what i was doing
+2013-05-05 14:08:11	gtmanfred	the first time i installed arch i install i686
+2013-05-05 14:08:14	+meskarune	I'd be fine with that
+2013-05-05 14:08:19	kaictl	lol
+2013-05-05 14:08:25	kaictl	sillymanfred
+2013-05-05 14:08:39	+meskarune	and we have backups for everything
+2013-05-05 14:08:47	gtmanfred	also, how are you booting 64bit and running all 32 bit programs? just installed the 64 bit kernel manually?
+2013-05-05 14:08:58	+meskarune	its a vps
+2013-05-05 14:09:06	+meskarune	so kernel and guest are sepperate things
+2013-05-05 14:09:12	+meskarune	Xen 
+2013-05-05 14:09:14	gtmanfred	OHHH 
+2013-05-05 14:09:16	+meskarune	hehe
+2013-05-05 14:09:19	gtmanfred	the host kernel is 64
+2013-05-05 14:09:28	gtmanfred	i thought you were saying you installed 64 bit kernel on the guest
+2013-05-05 14:09:29	kaictl	ah
+2013-05-05 14:09:33	gtmanfred	yeah i can do that easily
+2013-05-05 14:09:36	+meskarune	kk
+2013-05-05 14:09:39	kaictl	that's what i thought was happening too.
+2013-05-05 14:09:42	kaictl	i was confused...
+2013-05-05 14:09:58	gtmanfred	(cause you can do that if you really want to)
+2013-05-05 14:09:58	+meskarune	gtmanfred: is doing that goign to affect redmine?
+2013-05-05 14:10:11	gtmanfred	hrm?
+2013-05-05 14:10:14	+tigrmesh	can't we just tar everything, copy it somewhere else, then copy it back?  do the files care whether it's 32 bit or 64?
+2013-05-05 14:10:18	gtmanfred	it will probably be down for a bit
+2013-05-05 14:10:39	+meskarune	kk
+2013-05-05 14:10:47	+meskarune	I need to look into load balancing the site 
+2013-05-05 14:10:49	gtmanfred	meskarune: question, can you spin up an image of the backup so i can practice?
+2013-05-05 14:10:57	+meskarune	gtmanfred: yeah
+2013-05-05 14:11:29	gtmanfred	do that, gimme 30 minutes, and then i can tell you more
+2013-05-05 14:11:34	+meskarune	kk
+2013-05-05 14:12:23	 *	fsckd quickly hides the secret stash of secret stuff
+2013-05-05 14:12:55	kaictl	lol that sounds sketchy
+2013-05-05 14:13:36	+meskarune	gtmanfred: you wanna do that today or some other time?
+2013-05-05 14:13:47	gtmanfred	i can do it right now
+2013-05-05 14:15:18	fsckd	is the meeting over?
+2013-05-05 14:15:22	gtmanfred	no idea
+2013-05-05 14:15:24	gtmanfred	i just got back
+2013-05-05 14:15:48	fsckd	we've moved on to doing stuff so it feels that way
+2013-05-05 14:15:57	kaictl	haha
+2013-05-05 14:16:44	gtmanfred	meskarune: just tell me the ip and root password
+2013-05-05 14:19:32	MarkDude	You folks ahve the best meetings
+2013-05-05 14:19:40	fsckd	lol thanks
+2013-05-05 14:19:42	MarkDude	talk about doing things
+2013-05-05 14:19:51	gtmanfred	MarkDude: it helps that we all like each other
+2013-05-05 14:19:51	MarkDude	And then START doing them right then
+2013-05-05 14:20:07	MarkDude	Effective
+2013-05-05 14:20:39	+tigrmesh	shall we call it over?
+2013-05-05 14:20:48	fsckd	i guess so
+2013-05-05 14:20:53	+tigrmesh	anyone object?  any last burning comments?
+2013-05-05 14:21:07	maxine	sry been away, 1) wrt internship, has arch in gnome's OPW been considered/could it be possible? 2) i know a p. cheap and IME reliable vps provider (kvm / openvz) 3) why form an ally when you can form a feminist :p
+2013-05-05 14:21:29	fsckd	haha ♥
+2013-05-05 14:23:21	fsckd	the two programs suggested (in past meetings) have been OPW and GSOC, alternatively do something of our own
+2013-05-05 14:24:35	fsckd	earlier today it was said that the internship could be done by a-w and if successful then moved to arch proper
+2013-05-05 14:24:37	+meskarune	gtmanfred: making test server nao
+2013-05-05 14:24:56	fsckd	which leads to the question, what work could a-w offer?
+2013-05-05 14:24:59	gtmanfred	meskarune: cool
+2013-05-05 14:25:32	+tigrmesh	riseup pad is not taking any of my changes now
+2013-05-05 14:26:03	fsckd	tigrmesh: referesh the page, you seem to have been disconnected
+2013-05-05 14:26:37	+tigrmesh	that did it.  thanks  :)
+2013-05-05 14:26:42	MarkDude	The intern program you are making could be put on TOSW
+2013-05-05 14:27:14	MarkDude	http://www.theopensourceway.org/
+2013-05-05 14:27:15	phrik	Title: The open source way (at www.theopensourceway.org)
+2013-05-05 14:27:36	MarkDude	It may be a RH project, it wants other Distros and non-tech examples
+2013-05-05 14:27:59	MarkDude	Contribs will get a copy of the book and author credit
+2013-05-05 14:28:37	+meskarune	cool
+2013-05-05 14:28:40	MarkDude	Much of how you folks approach things, could be used to help other projects, IMHO
+2013-05-05 14:29:00	gtmanfred	\o/
+2013-05-05 14:29:09	 *	MarkDude is volunteering to write some things about this group and how being Open works
+2013-05-05 14:29:16	gtmanfred	you mean do stuff right away because we are very forgetfull :P
+2013-05-05 14:29:36	MarkDude	Well more DO STUFF
+2013-05-05 14:29:47	MarkDude	And operate under TOSW
+2013-05-05 14:29:59	MarkDude	Openess is GOOD
+2013-05-05 14:30:09	+meskarune	"This guide is for helping people to understand how to and how not to engage with the open source community"
+2013-05-05 14:30:18	+meskarune	sounds really interesting
+2013-05-05 14:30:20	MarkDude	Keeps Communities happy if they can see things
+2013-05-05 14:30:29	MarkDude	Karsten Wade started it
+2013-05-05 14:30:42	MarkDude	He made sure it was not under control of RH
+2013-05-05 14:31:03	MarkDude	btw, Karsten is one of the best Allies in all of FOSS
+2013-05-05 14:31:05	gtmanfred	but red hat is so good about being free and open! right guys?
+2013-05-05 14:31:07	gtmanfred	♥
+2013-05-05 14:31:17	+meskarune	trololol :P
+2013-05-05 14:31:19	MarkDude	Well on some projects sure
+2013-05-05 14:31:31	MarkDude	They pay for projects that help FOSS
+2013-05-05 14:31:37	MarkDude	Not just themselves
+2013-05-05 14:31:41	gtmanfred	yar
+2013-05-05 14:32:12	MarkDude	Karsten and I ended up in a fight over having GO Daddy sponsor an event
+2013-05-05 14:32:14	gtmanfred	i just don't like the whole BACK PORT EVERYTHING policy, i understand for stability and stuff... but it just bothers me
+2013-05-05 14:32:33	MarkDude	We got it removed :)
+2013-05-05 14:32:37	gtmanfred	good
+2013-05-05 14:32:40	MarkDude	gtmanfred: agreed
+2013-05-05 14:32:58	MarkDude	They have a new policy on 64 bit
+2013-05-05 14:33:09	MarkDude	Backports are discouraged
+2013-05-05 14:33:15	gtmanfred	nice
+2013-05-05 14:33:17	MarkDude	and new code is required
+2013-05-05 14:33:26	gtmanfred	i can't wait for systemd to be on rhel 7
+2013-05-05 14:33:30	+meskarune	haha
+2013-05-05 14:33:35	+meskarune	ok, is the meeting ended ?
+2013-05-05 14:33:38	 *	MarkDude cant imagine how bad that would have been
+2013-05-05 14:33:43	+meskarune	MarkDude: are you on our redmine thingy?
+2013-05-05 14:33:51	 *	MarkDude wants Anaconda to work :P
+2013-05-05 14:33:52	fsckd	meskarune: officially no, the meeting is still on
+2013-05-05 14:34:00	gtmanfred	MarkDude: HEY!
+2013-05-05 14:34:03	MarkDude	meskarune: nope
+2013-05-05 14:34:06	gtmanfred	MarkDude: anaconda is great now
+2013-05-05 14:34:13	 *	MarkDude is willing to help in anyway he can
+2013-05-05 14:34:14	gtmanfred	it was really really really good for the fedora 19 update
+2013-05-05 14:34:37	MarkDude	Ananconda will be awesome
+2013-05-05 14:34:49	gtmanfred	minus the fact that kde went from 4.10 on fedora 18 to 4.9.5 on fedora 19... everything went smoothly
+2013-05-05 14:34:56	gtmanfred	MarkDude: it is awesome, right now
+2013-05-05 14:35:00	gtmanfred	it wasn't on 18, but it is on 19
+2013-05-05 14:35:10	gtmanfred	i just used it the other day
+2013-05-05 14:35:13	MarkDude	the timing of it being done ended up with 19 being the one
+2013-05-05 14:35:23	MarkDude	There was confusion about 18
+2013-05-05 14:35:29	gtmanfred	yar
+2013-05-05 14:35:30	MarkDude	gtmanfred: you are right tho
+2013-05-05 14:35:46	 *	MarkDude is working on a remix that makes Gnome3 suck less
+2013-05-05 14:35:51	gtmanfred	16 -> 17 was a nightmare because they did the /lib -> usr/lib symlink in initramfs
+2013-05-05 14:35:54	fsckd	ok, time to end the meeting
+2013-05-05 14:36:06	gtmanfred	which was amazing, but screwed up A LOT of systems, which is why only a reinstall was actually supported
+2013-05-05 14:36:09	MarkDude	f14 was a peak in awesomeness- as well as numbers of download
+2013-05-05 14:36:13	fsckd	*************** Meeting is Over ****************

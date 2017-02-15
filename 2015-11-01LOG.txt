@@ -1,0 +1,508 @@
+16:03:26 - tigrmesh: =====================   Meeting starts  ===================== 
+16:03:42 - tigrmesh: fsckd, would you please repeat what you just said?
+16:04:34 - fsckd: hello, for this months meeting i want to try something a little differently
+16:04:40 - fsckd: month's*
+16:06:09 - fsckd: normally meeting notes contain what we say and discuss. sort of a transcript summary
+16:06:36 - fsckd: i want it to be structured differently. it should be easy to convert to a todo list.
+16:07:53 - halosghost: ok
+16:08:13 - tigrmesh: Meeting notes at   https://pad.riseup.net/p/arch-women_meeting_Nov-2015
+16:08:31 - fsckd: the plan is to tag each item with: done (no further action necessary), todo (action to be taken), and discuss (needs further discussion)
+16:08:49 - fsckd: this is a fuzzy idea. we'll see how it goes. :)
+16:08:53 - fsckd: tigrmesh: thanks :)
+16:09:04 - tigrmesh: you are welcome  :)
+16:09:32 - fsckd: so, an announcement.
+16:10:00 - fsckd: we'll be putting all blog posts in a git repo which will be available on GitHub
+16:10:26 - fsckd: the blog uses lilac, a static blog site generator written in python
+16:10:49 - halosghost: sounds fancy
+16:11:00 - yuvadm: nice, never heard of lilac before
+16:11:04 - fsckd: we'll have things set up so that one can just git push the blogs repo to the server and the site will be generated
+16:11:18 - yuvadm: why does github say "lilac is dead"?
+16:11:23 - fsckd: unfortunately lilac is deprecated. :/
+16:11:33 - halosghost: D:
+16:11:46 - spider-mario	maybe we can revive it
+16:11:49 - yuvadm: apparently rux replaces it?
+16:12:39 - yuvadm: https://github.com/hit9/rux
+16:12:40 - fsckd: https://archwomen.org/wiki/todo:new_blog_engine
+16:12:55 - fsckd: New Blog Engine [Arch Women Wiki]
+16:13:01 - fsckd: (thank you phrik)
+16:13:58 - fsckd: should we add that to discuss next meeting?
+16:14:14 - fsckd: either replace or revive lilac
+16:15:12 - fsckd: there isn't a rush to replace it as it works, but we should certainly start talking about it
+16:16:34 - halosghost: fsckd: what language does lilac use for blog posts?
+16:16:40 - halosghost: fsckd: rst, mdown?
+16:16:44 - fsckd: markdown
+16:18:40 - tigrmesh: meskarune picked lilac because when we moved from linode to digital ocean, we needed a blog post about it.  she wanted a static site generator, and she was in a rush
+16:18:59 - fsckd: oh right, there is garlicpress
+16:19:43 - fsckd: that was an attempt to make our own
+16:19:52 - tigrmesh: if you have something you like better, bring it up.  we don't need anything complicated or that has a lot of theming.  meskarune created an awesome theme for us
+16:20:50 - Mikaela: o/ sorry I had guests, is the meeting still on, quickly reading scrollback...
+16:21:01 - Mikaela: forty-second? already went long time ago, I guess
+16:21:16 - fsckd: Mikaela: we're still at the start. you're just in time. :)
+16:21:23 - Mikaela: oh
+16:21:37 - fsckd: so let's continue
+16:22:09 - fsckd: i put marked blog engine for further discussion, likely for the next meeting
+16:23:02 - fsckd: add ideas in a sublist. may be we'll talk about them at the end of today's meeting if there is time.
+16:23:49 - fsckd: so i was saying, blog posts will go up on a git repo. this should happen this week.
+16:24:11 - Mikaela: markdown is the most popular, I think and Jekyll isn't so difficult when you get the idea. Another popular one is what-was-that-what-Sphinx-used.
+16:24:14 - tigrmesh: \o/
+16:24:50 - tigrmesh: we decided against those.  i don't remember why
+16:24:54 - spider-mario	Mikaela: that’s reStructuredText
+16:24:59 - halosghost: Mikaela: sphinx is rst
+16:25:11 - spider-mario	I used rst in class
+16:25:15 - spider-mario	worked well
+16:25:18 - Mikaela: I see
+16:25:55 - halosghost: rst is really nice for a lot of reasons; perhaps most because it is more well-standardized and more flexible than mdown
+16:25:58 - halosghost: having said that
+16:26:00 - halosghost: fsckd: please continue :)
+16:26:08 - fsckd: hehe, thank you :)
+16:26:48 - fsckd: we'll be needing volunteers to write for the blog. we may need help converting the old b2evolution posts to lilac. this will be more apparent after the git repo. is available.
+16:27:11 - yuvadm: fsckd: will happily help with blog content
+16:27:32 - fsckd: yuvadm: thank you :)
+16:28:09 - fsckd: we'll give people push access on the server. so you can add or edit blog posts and push to deploy.
+16:30:29 - fsckd: now i am skipping over the wiki stuff today. there's been a lot of wiki activity. hellerbarde and tigrmesh are working on improving the wiki.
+16:30:56 - fsckd: i don't know if hellerbarde is here today. we'll discuss it if he shows up. :)
+16:31:35 - tigrmesh: i did spend some time on the wiki.  but not on the part anyone can see
+16:32:56 - fsckd: i have been doing a lot, restructuring and stuff. we will touch on a little bit of it in the context of another topic to be discussed today.
+16:33:08 - fsckd: one can see wiki activity here: https://archwomen.org/wiki/start?do=recent
+16:33:13 - tigrmesh: we ran out of spaces on the ban list, so started keeping in an admin page on the wiki so we can re-add if we get revisits
+16:33:22 - tigrmesh: sorry.  didn't mean to interrupt
+16:33:45 - fsckd: no worries, feel free to interrupt :)
+16:34:22 - fsckd: i brought up the wiki right now because the next item on the agenda is classroom
+16:34:44 - fsckd: and i have been making some changes to the classroom wiki pages
+16:35:08 - fsckd: i added a glossary https://archwomen.org/wiki/projects:classroom:glossary
+16:35:49 - fsckd: and we have a list of upcoming classes https://archwomen.org/wiki/projects:classroom:start
+16:36:31 - fsckd: there is also a list of upcoming classes on the Arch Linux wiki. those are classes which are scheduled and announced.
+16:36:47 - fsckd: the list on the Arch Women wiki are classes which are being developed.
+16:37:06 - fsckd: people can get a general idea of the progress.
+16:37:54 - halosghost: would someone mind adding the WIP syllabus to that table on the AW?
+16:38:04 - halosghost: s/\?/ wiki?/
+16:38:28 - halosghost: it's this one: https://ptpb.pw/r/KICu
+16:38:34 - halosghost: it's also on the riseup
+16:38:55 - fsckd: sure :)
+16:39:32 - fsckd: i can do it later if no one else does. or you can edit it yourself if you have an account on the wiki. :)
+16:39:50 - halosghost: I don't have one
+16:39:57 - halosghost: it would involve signing up and I'm lazy
+16:40:00 - halosghost: :)
+16:40:02 - fsckd: lol
+16:40:57 - fsckd: escondida has announced her intention to teach a class on bash scripting and coreutils basics :)
+16:41:01 - fsckd: https://lists.archlinux.org/pipermail/arch-women/2015-October/000030.html
+16:41:12 - fsckd: [arch-women] Proposal: bash scripting & coreutils basics class
+16:41:26 - halosghost: fsckd: any idea if she plans to include moreutils?
+16:41:33 - fsckd: no idea
+16:41:34 - halosghost: or is it really focused on the bare basics?
+16:41:39 - halosghost: mk
+16:42:23 - CalimeroTeknik: bash? coreutils?
+16:42:28 - CalimeroTeknik: count me in as an instructor
+16:42:32 - fsckd: one moment. there's something related to this i forgot to open before the meeting.
+16:42:32 - halosghost: heh
+16:43:21 - fsckd: ahh, ok
+16:43:39 - fsckd: escondida could not make it to the meeting
+16:44:10 - fsckd: she has asked if there's interest in the class, i'm putting down yes :P
+16:44:34 - fsckd: she asked in the ml if anyone wants to be a co-presenter
+16:44:52 - fsckd: CalimeroTeknik: you are volunteering to work with escondida on the clasS?
+16:45:03 - CalimeroTeknik: indeed
+16:46:36 - CalimeroTeknik: I have no intention to disturb the class project of course
+16:47:22 - CalimeroTeknik: since I wasn't the one to offer the class, I'll offer any help that is desired
+16:47:36 - fsckd: sure, thanks. i'll let her know. :)
+16:48:11 - fsckd: she also asks when the class should be run. i think that will be up to her. :P
+16:48:32 - CalimeroTeknik: notably in the area of securing the code; it is somewhat hard to write shell scripts that don't break on filenames with spaces and line feeds in them
+16:48:51 - CalimeroTeknik: I can help on such points
+16:48:55 - spider-mario	--, "", -print0, etc.
+16:49:15 - spider-mario	while IFS= read -d '' file; do …; done <(find -print0)
+16:49:18 - H20: well, tigrmesh why did you actually tell me
+16:49:18 - spider-mario	thanks, bash
+16:49:21 - CalimeroTeknik: yeah, what I was discussing on another #arch- channel the other day
+16:50:28 - CalimeroTeknik: the shell is a hard tool to use, even though it doesn't seem so
+16:50:37 - tigrmesh: hello H20 - i thought you'd like to participate in the arch women monthly meeting, which is happening right now  :)
+16:50:39 - CalimeroTeknik: it's just easy to write sloppy scripts!
+16:50:57 - fsckd: indeed. i am guilty of writing sloppy scripts. :(
+16:51:07 - spider-mario	booh!
+16:51:10 - polyzen: hm, thought this started at 12 EST
+16:51:13 - CalimeroTeknik: well, it may be an occation for some linting
+16:51:15 - spider-mario	it’s ok, theugh
+16:51:17 - spider-mario	tough*
+16:51:18 - fsckd: polyzen: DST
+16:51:20 - spider-mario	there will be a class
+16:51:21 - spider-mario	;)
+16:51:34 - fsckd: hehe :D
+16:52:03 - H20: yea, sure
+16:53:03 - fsckd: i'll let escondida know. or she'll find out herself when she reads the meeting logs and notes. :)
+16:53:46 - jy2wong: I'd be happy to act as a rubber duck during the planning of the bash course
+16:54:08 - fsckd: jy2wong: awesome. :)
+16:54:12 - jy2wong: and I might have time to field side questions day-of, but no guarantees
+16:54:13 - H20: :P
+16:54:22 - spider-mario	I have never been to a class on IRC. what is it like?
+16:55:42 - tigrmesh: it's irc.  so it's a bit chaotic.  but not too bad if you stay focussed on the conversation  :)
+16:55:44 - jy2wong: something like this: https://github.com/archwomen/classroom-media/tree/master/classlogs
+16:56:51 - fsckd: they are held in #archlinux-classroom
+16:58:12 - fsckd: anything more regarding the bash class?
+16:58:13 - spider-mario	didn’t know about that chan, thanks
+16:58:22 - fsckd: you are welcome :)
+16:59:44 - fsckd: next up, halosghost is preparing a class on C. he posted a draft syllabus https://ptpb.pw/rK/KICu
+16:59:58 - spider-mario	404?
+17:00:17 - H20: I wanna take part in C :D
+17:00:20 - fsckd: https://ptpb.pw/r/KICu
+17:00:23 - H20: I'd love to learn C Programming
+17:00:29 - H20: :DD :DD I'd love that class
+17:00:35 - H20: and BASH Would be awesome too :D
+17:00:46 - fsckd: spider-mario: the correct link ^ (removed the extra k)
+17:00:55 - fsckd: H20: me too!
+17:00:58 - spider-mario	thanks
+17:01:03 - halosghost: H20: the class will be public, and you will be welcome to join
+17:01:06 - spider-mario	so, you typed the link url by hand ? :o
+17:01:07 - halosghost: as will everyone else
+17:01:11 - jy2wong: https://gist.github.com/jy2wong/22e621eec9d8fb553e6c I typed these up for a couple people in the channel a couple months ago
+17:01:16 - fsckd: spider-mario: copied from the notes
+17:01:19 - jy2wong: might be useful as a side document
+17:01:25 - halosghost: jy2wong: yes!
+17:01:40 - halosghost: jy2wong: that's going to be a significant resource when we write up the memory Model / Pointers class
+17:01:47 - halosghost: it's been added to my local copy of the syllabus
+17:01:48 - spider-mario	tbh, I disagree with the advice to apply -Werror universally
+17:01:53 - spider-mario	but perhaps it’s not the right time for that
+17:02:18 - jy2wong: spider-mario: I don't think it's the worst thing when you're just starting out
+17:02:40 - fsckd: halosghost: how long do you expect the class to be? it looks form teh syllabus you intend to break it into parts offered on separate days?
+17:02:45 - halosghost: spider-mario: we can discuss it more at-length later, but it's done with the intent that the student recognize that fixing things the compiler warns about will result in better code
+17:03:07 - halosghost: fsckd: yep; at the moment, I'm suspecting it will be six full sessions of 1.5 to 2 hours
+17:03:28 - halosghost: it's a pretty involved class because it's a pretty involved subject
+17:03:45 - fsckd: wow
+17:04:10 - fsckd: that'll be the longest to date. i will attend each one. :D
+17:04:24 - halosghost: well, it involves taking people from never having written a line of C code in their life to figuring out their own project to pursue after the class ends
+17:04:38 - halosghost: big goals :)
+17:04:49 - fsckd: perfect :D
+17:05:59 - halosghost: all comments/questions/suggestions/concerns are welcomed
+17:06:08 - halosghost: feel free to ping me after the meeting is over to chat with me about it
+17:09:59 - fsckd: for scheduling we can do one at a time instead of scheduling them all at once. like we'll announce part 1 and then later part 2. and keep things flexible.
+17:10:09 - halosghost: definitely
+17:10:16 - halosghost: also note that the Syllabus is still WIP
+17:10:20 - halosghost: so it's not ready for an announcement
+17:10:25 - fsckd: sure :)
+17:10:26 - halosghost: (of a date)
+17:10:33 - halosghost: but we're much closer, at least for the first session
+17:10:40 - fsckd: awesome :)
+17:10:50 - halosghost: CalimeroTeknik and jy2wong have mentioned to me they may be interested in being co-instructors
+17:11:02 - halosghost: is that still the case / are there others who would be interested?
+17:13:06 - jy2wong: halosghost: I have considerably less free time than I did a couple months ago; I'll do what I can but I don't want to overcommit to too many things
+17:13:47 - halosghost: that's totally okay
+17:13:56 - jy2wong: generating notes is pretty much a free action for me though, so if you'd like some, let me know
+17:14:01 - halosghost: I can manage the thing by myself if need be; just wanted to offer folks the chance :)
+17:14:12 - halosghost: jy2wong: sounds good; I'll let you know :)
+17:19:20 - fsckd: anything more concerning the C class?
+17:20:03 - halosghost: not from me
+17:21:00 - H20: when will it start
+17:21:03 - meskarune: shoot, I thought meeting was @ 12 est
+17:21:07 - halosghost: H20: when it's ready
+17:21:10 - halosghost: meskarune: :P
+17:21:13 - fsckd: meskarune: DST :P
+17:21:22 - H20: Not Found
+17:21:22 - H20: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+17:21:23 - fsckd: meskarune: you're not the only one :P
+17:21:23 - meskarune: I'm gonna be in/out
+17:21:28 - H20: Where is syllabus
+17:21:52 - fsckd: H20: https://ptpb.pw/r/KICu
+17:21:54 - halosghost: H20: https://ptpb.pw/r/KICu
+17:22:12 - H20: https://wiki.archlinux.org/index.php/Classroom#Upcoming_classes
+17:22:14 - H20: empty :/
+17:22:34 - fsckd: H20: it is not yet scheduled
+17:22:37 - H20: clang :(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+17:22:42 - fsckd: it is still in development
+17:22:46 - H20: Why not GCC?
+17:22:54 - halosghost: H20: -Weverything
+17:22:59 - halosghost: H20: better output
+17:23:02 - tigrmesh: hey meskarune ?
+17:23:09 - halosghost: H20: better ISO C compatibility
+17:23:28 - halosghost: H20: because it's better
+17:23:35 - H20: Really?
+17:23:37 - tigrmesh: meskarune, ignore the question mark.  was supposed to be a smiley
+17:23:45 - halosghost: H20: yes
+17:23:50 - H20: Why not prefer GCC?
+17:23:57 - H20: GCC is highly compat with Clang 
+17:24:01 - halosghost: H20: the last three things I wrote
+17:24:14 - H20: -Weverything what does that even do?
+17:24:28 - halosghost: I explain it in the syllabus
+17:24:48 - H20: OK
+17:25:17 - H20: well I hate clang so I would love the C class but, I won't attend it
+17:25:37 - halosghost: H20: why do you hate clang?
+17:25:40 - H20: when is the BASH ?
+17:26:19 - CalimeroTeknik: I always love it when I type `bash foo` in my shell where 'foo' is a script
+17:26:37 - fsckd: H20: the bash class has only been proposed. work to prepare it will begin soonish.
+17:27:04 - H20: Well, a lot of stuff, first apple (don't care), then the University of Illinios licence (don't care too), then the not "be highly powerful as compared to GCC"
+17:27:18 - fsckd: H20: in the meetings we discuss classes which are being prepared. when they are ready we announce them on the mailing lists, and post on the arch linux wiki the date.
+17:27:18 - halosghost: wat
+17:27:23 - H20: well, no classes atm so
+17:27:33 - halosghost: H20: we'll talk about this further after the meeting
+17:27:42 - H20: ok
+17:28:13 - fsckd: thanks. :)
+17:28:25 - fsckd: next meeting we'll discuss more on both classes and see how they've progressed. :)
+17:28:36 - H20: Arch Womens have mailing lists?
+17:28:43 - fsckd: H20: yeah :)
+17:29:04 - fsckd: H20: https://lists.archlinux.org/listinfo/arch-women
+17:29:27 - tigrmesh: and all the arch mailing lists are here  https://lists.archlinux.org/
+17:29:41 - H20: ah 'k
+17:29:54 - H20: I'm subscribing
+17:30:13 - fsckd: :)
+17:31:01 - fsckd: tigrmesh has an announcement to make (unrelated to classroom). after that we'll go on to a proposal by anonymiss.
+17:31:35 - fsckd: tigrmesh: your turn. :)
+17:31:37 - tigrmesh: 3 announcements
+17:32:11 - tigrmesh: the first one is that #archlinux-women sometimes has spam and/or troll problems, so the channel sometimes is set to where only people registered with freenode can speak. this is usually a temporary measure. if you can't speak, talk to a channel op. the channel ops are escondida, fsckd, jy2wong, meskarune, tigrmesh/tigr, vodik, and yar. or do !awops to get the channel bot to highlight whoever is around
+17:32:20 - H20: wow
+17:33:12 - tigrmesh: we had a spammer that changed nicks.  sounds like not problem
+17:33:37 - tigrmesh: but 20 changes in a row is a lot
+17:34:59 - H20: well, next step: secure it :P
+17:35:08 - tigrmesh: and if we ever get visitors who seem to be only interested in harvesting nicks, we'd probably set the channel to only registered people can join.  at least for a while
+17:35:43 - tigrmesh: i don't think we should set the barriers to entry too high
+17:36:08 - tigrmesh: not everyone who's interested in participating is a battle-hardened irc veteran
+17:36:43 - fsckd: hehe
+17:37:43 - tigrmesh: let me rephrase.  i don't think that should one of the criteria for participating in arch women
+17:38:09 - tigrmesh: ok.  next
+17:39:16 - tigrmesh: the next steps for the arch woment wiki improvement project are at https://archwomen.org/wiki/projects:wiki_improvements:start
+17:39:35 - tigrmesh: all are welcome to participate
+17:40:00 - tigrmesh: and i had a 3rd one.  moment
+17:42:38 - fsckd: ok :)
+17:43:26 - tigrmesh: writing
+17:44:38 - tigrmesh: um.  yeah.  yuvadm is willing to help with blog content.  for the rest of us, please consider writing things for the blog and also sending emails to the mailing list.  so many of us tend to be more focussed on the technology we want to use.  which is great
+17:44:56 - tigrmesh: so if you
+17:46:38 - polyzen: i can help if you choose nikola as the "blog engine"
+17:46:50 - tigrmesh: feel like you're "not technical enough", please consider writing.  there are plenty of things of interest to women in technology that you don't need to be technically oriented in order to write about 
+17:47:26 - tigrmesh: there's a reason that so many technical blogs end up with the last post being "writers needed"
+17:48:06 - tigrmesh: i have a lot of links to possible posts 
+17:48:11 - H20: I can help administrating the blog 
+17:48:41 - H20: if you allow me (I don't think you will)
+17:49:22 - tigrmesh: also, we did have someone who read the email requesting a volunteer to write.  i can't find the person now.  please come back!
+17:50:13 - tigrmesh: hey polyzen .  does nikola include javascript?
+17:50:40 - halosghost: it's a static site generator, so probably not
+17:50:59 - polyzen: hm
+17:51:03 - fsckd: tigrmesh: narag was their nick?
+17:51:46 - H20: I can write technical stuff to
+17:51:48 - H20: too
+17:51:53 - tigrmesh: halosghost, polyzen awesome
+17:52:27 - polyzen: i mean, if you disable 1st-party scripts on my landing page, the dropdown doesn't work..
+17:52:39 - tigrmesh: H20, if you and yuvadm and anyone else interested can talk to me after the meeting, that would be great
+17:52:44 - polyzen: the default template uses bootstrap which uses js
+17:53:19 - polyzen: tigrmesh, you don't want js?
+17:53:23 - tigrmesh: ok.  have to ask meskarune about whether she's ok with js
+17:53:51 - meskarune: H20: there isn't really admin involved since posts are in git, but we could use a post editor
+17:53:53 - polyzen: "the web doesn't work without js" :p
+17:54:00 - halosghost: polyzen: ಠ_ಠ
+17:54:05 - polyzen: haha
+17:54:34 - meskarune: I'm ok w/ js as long as everything works without it
+17:55:02 - H20: ok, that's right
+17:55:05 - polyzen: this is supposed to be using (a) cdn/s. hm
+17:55:11 - H20: but I can help with technical stuff
+17:57:18 - tigrmesh: great  :)
+17:58:03 - meskarune: H20: all server config is though files on git, if you'd like to have a look at the files on github
+17:58:19 - polyzen: nikola's config can be hosted on github as well
+17:58:28 - meskarune: all the web stack is there
+17:58:33 - polyzen: i should through mine there soon
+17:59:47 - meskarune: polyzen: we deploy changes w/ git :)
+18:00:08 - meskarune: so no need to ssh
+18:00:20 - polyzen: nice
+18:00:48 - polyzen: there's `nikola deploy` that you can setup
+18:01:50 - polyzen: you'll probably want this as well https://plugins.getnikola.com/#ping
+18:02:03 - tigrmesh: ok.  any discussions of specific blog engines should happen not here
+18:02:13 - H20: nah, no problem
+18:02:21 - tigrmesh: maybe on that wiki page or at a separate meeting
+18:02:28 - H20: I don't need to see configuration
+18:03:01 - polyzen: throw*
+18:03:13 - tigrmesh: H20, what you're talking about is fine.  but getting into rst vs markdown or nikola vs sphinx.  stuff like that
+18:04:01 - H20: OK, but what technical writers is actually required?
+18:04:03 - meskarune: we could do a flask blog or php again even
+18:04:09 - H20: and also, which country you are from?
+18:04:21 - polyzen: ew
+18:04:29 - tigrmesh: talk to me after the meeting.  woah
+18:04:35 - polyzen: meskarune, sounds like rebuilding the wheel :p
+18:04:48 - tigrmesh: meskarune, polyzen, please postpone  :)
+18:05:02 - meskarune: kk :)
+18:05:09 - fsckd: :)
+18:05:11 - tigrmesh: we need to talk about anonymiss' ideas
+18:05:29 - fsckd: yup, anonymiss's ideas are next
+18:05:42 - fsckd: which in themselves are quite alot
+18:05:53 - tigrmesh: and very important
+18:06:15 - fsckd: meskarune: i am glad you are here. you definitely want to participate in this.
+18:06:17 - polyzen: anyone have a link to the email
+18:06:25 - tigrmesh: https://lists.archlinux.org/pipermail/arch-women/2015-October/000032.html
+18:06:41 - fsckd: the thread starts there
+18:06:47 - tigrmesh: and more at  https://lists.archlinux.org/pipermail/arch-women/2015-October/000034.html
+18:07:25 - polyzen: what's psyced.org about
+18:07:49 - polyzen: ah, 2nd email
+18:08:20 - fsckd: it's a messaging thing
+18:08:33 - fsckd: anonymiss is not here today
+18:08:58 - fsckd: i'm not familiar with any of the tech they mention in their emails.
+18:10:15 - H20: OK BB
+18:10:22 - fsckd: in their emails they proposed a number of changes to the organization
+18:10:40 - fsckd: of aw stuff
+18:13:26 - fsckd: the inspiration is LiquidDemocracy which i have heard of but never really looked into
+18:15:54 - polyzen: is there a list on the wiki of people who have volunteered for specific things/projects/groups
+18:16:04 - polyzen: consolidated list, i mean
+18:16:54 - fsckd: hmm, no. we have a list "staff" for classroom and "mentors" for mentorship stuff
+18:17:00 - fsckd: no consolidated list
+18:18:08 - fsckd: iiuc, we would divide every aspect of aw into projects
+18:18:44 - fsckd: and we'll have people volunteer to help with one or more project
+18:19:01 - fsckd: i think we should get an idea of what tools each project would need to function
+18:19:05 - tigrmesh: sounds awesome
+18:19:18 - tigrmesh: polyzen, would you be willing to start one?  
+18:20:00 - fsckd: this whole thing might relate to the "how to help" stuff
+18:20:04 - tigrmesh: don't worry about the namespace.  if it's in the wrong one, one of us (probably fsckd) will fix it 
+18:21:41 - polyzen: tigrmesh, i can do that
+18:22:29 - tigrmesh: \o/
+18:22:37 - tigrmesh: thank you  :)
+18:23:00 - polyzen: \o/
+18:24:29 - tigrmesh: so i'm still reading anonymiss' emails
+18:24:35 - fsckd: (brainstorming) projects could be: classroom, mentor, internship, wiki, blog, server, website, meetings, mailing list, social media (twitter, etc.), irc, organization
+18:24:57 - fsckd: i don't know how subprojects would work, so i am leaving that out.
+18:26:53 - polyzen: fsckd, i suppose it would be PR>{Blog, Social Media,..}
+18:27:00 - fsckd: yeah
+18:28:07 - polyzen: i wonder what the parent project would be called for Classroom, Mentor, Internship :p Arch Academy
+18:28:14 - fsckd: haha
+18:28:16 - polyzen: ALA
+18:29:29 - fsckd: how would subprojects work. would there be volunteers for the superproject? how would they interact with the subprojects?
+18:31:12 - fsckd: polyzen: you are making a consolidated list of volunteers?
+18:31:23 - polyzen: shortly
+18:31:37 - polyzen: fsckd, giong to add it here https://archwomen.org/wiki/projects:start
+18:31:57 - polyzen: btw projects/wikiimprovements/ should be rm'd
+18:33:54 - fsckd: you mean rm'd?
+18:34:12 - tigrmesh: where would you put it?  
+18:34:29 - tigrmesh: brb.  using 96% of my ram
+18:34:38 - tigrmesh: exit
+18:34:39 - fsckd: wow O_O
+18:34:42 -  *	halosghost uses the other 4 percent of tigrmesh's ram
+18:35:06 - polyzen: then you might have to rm stuff in data/{attic,meta,??}
+18:35:36 - polyzen: there's nothing in it. there's also a projects/wiki-improvements/ with stuff in it
+18:35:51 - fsckd: where are you finding projects/wikiimprovements/ ?
+18:35:56 - polyzen: well, this https://archwomen.org/wiki/projects:wiki_improvements:start
+18:36:04 - polyzen: the sitemap
+18:36:37 - fsckd: oh...
+18:36:43 - fsckd: that page was moved...
+18:37:18 - polyzen: going to have to bug anonymiss when they're back to move the stuff in their email to the wiki :p
+18:37:28 - fsckd: hehe
+18:37:57 - fsckd: one moment, i will try to fix site map right now. if i can't, i will try later today
+18:41:37 - polyzen: fsckd, i think `rm -r data/{attic,meta,pages}/projects/wikiimprovements}` would do the trick
+18:42:13 - polyzen: if you have a better way, please do tell :p
+18:42:31 - fsckd: polyzen: those files don't exist
+18:43:07 - polyzen: none of them? o.O
+18:43:09 - fsckd: oh, the directories do
+18:43:12 - polyzen: should be folders
+18:43:17 - fsckd: yeah, i see them
+18:43:18 - polyzen: directories* >.>
+18:43:24 - polyzen: nobody saw me use the f word
+18:43:34 - fsckd: haha, mum's the word ;P
+18:45:25 - fsckd: polyzen: that fixed it. thanks :)
+18:46:18 - polyzen: \o/
+18:49:55 - tigrmesh: yay
+18:50:21 - tigrmesh: sorry i had to leave.  did i miss the discussion about anonymiss' emails?
+18:50:35 - polyzen: that's the current topic
+18:50:45 - tigrmesh: good
+18:50:46 - polyzen: that/organization
+18:51:04 - fsckd: tigrmesh: for the time you were gone we were fixing a thing in sitemap
+18:51:05 - polyzen: fsckd just added some notes to the riseup that we can maybe discuss now
+18:51:33 - tigrmesh: ok
+18:52:13 - polyzen: perhaps the parent projects could be the teams
+18:53:10 - polyzen: until there are enough volunteers that this would be unmanageable
+18:53:56 - polyzen: this way someone from a team can be responsible for more than one subproject?
+18:54:34 - polyzen: hm
+18:56:19 - polyzen: s/be responsible for/have responsibilities in/
+18:58:13 - fsckd: a perosn can volunteer for multiple projects
+18:58:28 - polyzen: that too
+18:58:45 - fsckd: my concern with parent projects is it seems like a managerial thing and i don't want managers. :P
+18:59:59 - polyzen: i'm just using "parent project" as a grouping term
+19:00:17 - fsckd: ok
+19:00:26 - fsckd: so they won't be actual projects?
+19:01:16 - polyzen: hm
+19:01:24 - polyzen: right
+19:02:24 - fsckd: may be we could call them something else, like project groups?
+19:02:45 - polyzen: if someone says they want to volunteer for the Academy team, we just ask which parts/projects in particular they can do
+19:02:58 - fsckd: i see
+19:03:10 - polyzen: hm
+19:04:39 - fsckd: the main division i see in the projects are those which concern the arch community in general and those which are mainly for arch women 
+19:05:26 - tigrmesh: i like the idea of project groups
+19:05:27 - polyzen: General: Academy AW-specific: Maintenance & PR
+19:05:37 - tigrmesh: just even as a page organization thing
+19:05:52 - fsckd: polyzen: yeah
+19:06:35 - polyzen: dang, someone bought archacademy.org :p
+19:06:42 - fsckd: lol
+19:08:02 - tigrmesh: domains are expensive.  and there are so many dead links for someone who actually moved the project elsewhere, but you don't know where because the domain is expired
+19:08:51 - tigrmesh: so please.  no new domain  :)
+19:09:35 - polyzen: okay :p
+19:10:48 - fsckd: it is a little over three hours. should we continue these discussions next time?
+19:11:06 - tigrmesh: let's at least mention one more suggestion
+19:11:16 - fsckd: ok :)
+19:11:30 - tigrmesh: this proposal 
+19:11:30 - tigrmesh:   - PSYC channel instead of (or an addition to) freenode IRC.
+19:11:55 - polyzen: never heard of psyc(ed) until today
+19:12:02 - fsckd: ahh, good point, i forgot about that
+19:12:23 - tigrmesh: "In my opinion from usage, there's not a huge learning curve and it has support for multicast, meaning you can use irc, xmpp, psyc clients to communicate.
+19:12:23 - tigrmesh: "
+19:12:34 - Mikaela: is the meeting still on?
+19:12:39 - polyzen: yes
+19:12:42 - tigrmesh: yes.  wrapping up
+19:13:01 - Mikaela: ok
+19:13:07 - tigrmesh: i just want to say that's something we should think about.  
+19:13:50 - polyzen: what's the appeal? :p
+19:13:51 - tigrmesh: i don't use any IM software.  but if people do, and it would make it easier for people, that would be great
+19:14:02 - polyzen: ah
+19:14:24 - polyzen: i wonder if enough people actually use that
+19:14:29 - polyzen: as opposed to irc
+19:14:32 - tigrmesh: and the anti-spam stuff sounds good.  the downside is that the other arch channels are on freenode, and it's weird to have channels on different servers
+19:15:02 - polyzen: you could have a bot relaying the messages across channels
+19:15:22 - polyzen: essentially merging the channels
+19:15:38 - tigrmesh: true.  i suppose one thing would be to find out if there are lots of people who IM
+19:15:45 - fsckd: that would remove the advantage of psyced
+19:15:58 - polyzen: oh
+19:16:07 - polyzen: psyced does taht for you..?
+19:16:29 - tigrmesh: from our small sample of 3, one would say "no".  but small sample is small.  and doesn't include anyone who's not on irc
+19:17:36 - tigrmesh: i volunteer to ask on twitter and on the mailing list if there are many people who'd prefer IM or don't come because irc is intimidating/hard to use/ odd
+19:18:28 - polyzen: small sample of 3 what?
+19:18:45 - tigrmesh: people.  you and i and fsckd
+19:18:47 - polyzen: protocols?
+19:18:50 - polyzen: ohh
+19:18:58 - tigrmesh: who are here, and i know don't use IM
+19:19:05 - polyzen: hehe :p
+19:19:11 - tigrmesh: um.  actually, i don't know for sure about fsckd ...
+19:19:20 - polyzen: i do have bitlbee, but that's mostly for twitter
+19:19:46 - polyzen: and as a convenience for whenever someone catches me on facebook and tries to chat with me :p
+19:19:58 - polyzen: login via bitlbee so i don't have to keep the dumb webpage open
+19:20:04 - fsckd: we should list the ppros and cons of psyced
+19:20:30 - polyzen: we should probably talk that over with anonymiss
+19:20:35 - fsckd: yeah
+19:20:45 - fsckd: they are on th ml
+19:20:51 - fsckd: the*
+19:21:39 - polyzen: oh
+19:22:01 - fsckd: tigrmesh: do you think we should get the pros and cons from anonymiss first before asking for opinions/votes?
+19:22:02 - tigrmesh: that's covered pretty well in the emails
+19:22:11 - tigrmesh:  i think
+19:22:23 - fsckd: ok
+19:23:08 - fsckd: i think some of these things need a todo page on the wiki
+19:23:09 - tigrmesh: but could be summarized to be on one email
+19:23:36 - fsckd: 2-4 todo pages...
+19:24:51 - polyzen: lol i think perhaps the meeting notes should have a shorter name
+19:24:59 - polyzen: https://github.com/archwomen/meeting-notes
+19:25:55 - fsckd: what is it now?
+19:26:27 - polyzen: eg. https://github.com/archwomen/meeting-notes
+19:26:29 - polyzen: herp
+19:26:40 - polyzen: archlinux-women_minutes_20150802.txt
+19:26:58 - polyzen: all you see in the github tree view is archlinux-women_minutes_201
+19:28:10 - fsckd: oh
+19:29:06 - tigrmesh: oh man.  yeah.  even in a not-huge font
+19:29:54 - tigrmesh: all increasing the font size does is make you have to scroll side-to-side
+19:30:07 - polyzen: lol
+19:30:15 - fsckd: heh
+19:30:20 - fsckd: are we done with anonymiss's proposal? there are things there we'll continue with in the next meeting.
+19:31:12 - polyzen: i think we're good
+19:31:29 - tigrmesh: i'm not sure how to respond about the restructuring suggestions.  i'm not an organization person
+19:31:55 - tigrmesh: but i thought they should be mentioned
+19:32:06 - fsckd: yeah :)
+19:32:38 - fsckd: ok, that's the last item on the agenda.
+19:32:41 - fsckd: any final comments, questions, or concerns?
+19:33:00 - polyzen: nikola ftw
+19:33:19 - halosghost: lol
+19:33:28 - polyzen: :p
+19:33:31 - fsckd: haha
+19:36:08 - fsckd: i guess we're done. tigrmesh would you like to enter the end marker or should i?
+19:36:28 - tigrmesh: meskarune, would you be willing to review the suggestions, pick whichever one you like, and then ask here and on the mailing list for feedback on it?
+19:37:07 - tigrmesh: we need volunteers to 
+19:37:34 - tigrmesh: prepare the meeting minutes and logs.  i can't because i had to reboot
+19:37:55 - tigrmesh: anyone can say after the meeting ends, too
+19:38:36 - polyzen: i can put the notes up again
+19:38:37 - tigrmesh: fsckd, go for it  :)
+19:38:45 - tigrmesh: cool. thanks polyzen !
+19:38:46 - polyzen: just tinkering with the projects:start page
+19:38:47 - fsckd: =====================   Meeting ends  =====================

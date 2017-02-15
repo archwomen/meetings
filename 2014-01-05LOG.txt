@@ -1,0 +1,167 @@
+Log of Arch Women 23rd IRC Meeting, January 5th, 2014
+
+Jan 05 12:26:06  +meskarune  ======= Meeting Starts =======
+Jan 05 12:26:14  +meskarune  so its a new year, yay!
+Jan 05 12:26:29  +meskarune  we had an install day in dec.
+Jan 05 12:26:34  +meskarune  and got some members
+Jan 05 12:27:07  +meskarune  trolls seem to have gone
+Jan 05 12:27:37       fsckd  yeah, there was a sudden influx of trolls in nov. and early dec.
+Jan 05 12:32:02       eviii  so what will be our milestones this year?
+Jan 05 12:32:40      evilop  http://arch.har-ikkje.net/gfx/ke.jpg
+Jan 05 12:32:44      evilop  that is my plan anyway
+Jan 05 12:33:30       eviii   i think i will go into hiding this year /O.o\
+Jan 05 12:35:26       fsckd  lol
+Jan 05 12:36:05  +meskarune  maybe for this year, we can work on fundraising and getting the internship thing going
+Jan 05 12:36:21  +meskarune  either getting involved with google summer of code or gnome outreach project thing
+Jan 05 12:36:51  +meskarune  might be cool to have a presence at some conference also
+Jan 05 12:40:07       fsckd  that's a good idea
+Jan 05 12:40:26       eviii  which one?
+Jan 05 12:40:57       fsckd  internship/GSOC/GnomeOPW
+Jan 05 12:41:23       fsckd  and fundraising and conference
+Jan 05 12:41:56       fsckd  i'd like to see some progress made with the intership thing
+Jan 05 12:43:37  +meskarune  yeah, me too
+Jan 05 12:43:56  +meskarune  maybe we should start with a plan, and find someone to be an advisor?
+Jan 05 12:44:10  +meskarune  perhaps I can contact the ada initiative or something 
+Jan 05 12:45:09       eviii  what to you want to do? Do you want to offer internships or are you searching for liasons
+Jan 05 12:46:29  +meskarune  we want to have a paid internship 
+Jan 05 12:46:36  +meskarune  maybe one over the summer or something
+Jan 05 12:47:24  +meskarune  we all feel that unpaid internships are awful
+Jan 05 12:47:40  +meskarune  and exclude people who don't have the means to go 3 months without income
+Jan 05 12:48:08       eviii  i agree.
+Jan 05 12:48:12  +meskarune  :)
+Jan 05 12:48:56  +meskarune  I'm not great at fundraising though
+Jan 05 12:49:06  +meskarune  maybe we could have a wiki page to brainstorm
+Jan 05 12:50:15       fsckd  i would like to help but i can't lead. i'm already busy with the server stuff (asides from everything going on in my own life)
+Jan 05 12:50:17       eviii  yeah one for the fundraising and one for the task of the internship
+Jan 05 12:51:00       eviii  i think without a proper task description it will be hard to fundraise anything
+Jan 05 12:51:28    ladweeba  you could do crowdfunding or crowdsourcing using kickstart or indiegogo for funding
+Jan 05 12:52:30       eviii  and i have no clue how much money one will need for a proper payment (including insurances, tax and stuff ...)
+Jan 05 12:53:28  +meskarune  ladweeba: yeah, that might be a good option
+Jan 05 12:53:36       eviii   aj you wrote on the homepage 3000$/year
+Jan 05 12:53:41  +meskarune  but we'll need to drum up some hype and social media word of mouth
+Jan 05 12:54:53       fsckd  eviii's suggestion of drafting a description of stuff is the first step imo
+Jan 05 12:54:59  +meskarune  ++
+Jan 05 12:55:15       fsckd  get an idea of what can be offered so when people ask there's something to say
+Jan 05 12:55:24  +meskarune  yeah
+Jan 05 13:07:15  +meskarune  ugh, spacing out
+Jan 05 13:07:37       eviii  So what do you have in mind, what can be offered?
+Jan 05 13:07:43  +meskarune  ok, so we need to plan fund raising, awareness and figure out the internship stuff as our goal for 2014
+Jan 05 13:08:03  +meskarune  we could have a programming project
+Jan 05 13:08:24  +meskarune  like working on the irc bot, or working on server tools, or maybe just adding features to the blog
+Jan 05 13:08:45  +meskarune  we could also have marketing intern, or have someone do web developement
+Jan 05 13:08:59  +meskarune  or they could teach a class through arch classroom
+Jan 05 13:09:48       eviii  I'll like the idea with the arch classroom, cause it has these multiplier effect
+Jan 05 13:09:51  +meskarune  might be fun to have a "let's learn python" class and people just gather together to learn to program 
+Jan 05 13:10:55         -->  Chris_TR (~chris@187-178-35-237.dynamic.axtel.net) has joined #archlinux-women
+Jan 05 13:11:03  +meskarune  yeah, and classroom can work with people with different skills
+Jan 05 13:11:44  +meskarune  ps ya'll are being really helpful :)
+Jan 05 13:11:58  +meskarune  so thanks :D
+Jan 05 13:15:06       eviii  i liked the idea of railsgirls, that the learners can try and create their own projects through learning by doing and meet up again. The tutors helping them.
+Jan 05 13:16:01         <--  Chris_TR (~chris@187-178-35-237.dynamic.axtel.net) has quit (Ping timeout: 264 seconds)
+Jan 05 13:18:14  +meskarune  yeah, that is a great project
+Jan 05 13:20:12       eviii  time is up for me and i have to say good bye. I would appreciate it, if links to the newly created wiki pages will be linked in the minutes protocol or posted here.
+Jan 05 13:20:18       eviii  Have a good time byebye
+Jan 05 13:21:22       fsckd  thanks eviii, will do
+Jan 05 13:28:35         <--  eviii (~evi@2001:a60:1656:f901:c646:19ff:fe03:d29c) has quit (Ping timeout: 245 seconds)
+Jan 05 13:31:34  +meskarune  I updated the riseup a bit
+Jan 05 13:31:41  +meskarune  what else were we talking about?
+Jan 05 13:31:43  +meskarune  ><
+Jan 05 13:32:02  +meskarune  so we have some milestones for the year
+Jan 05 13:32:33  +meskarune  need to do some basic planning and I'll try to contact someone about mentoring/questions
+Jan 05 13:32:38  +meskarune  and for the month
+Jan 05 13:37:29    ladweeba  btw, have you seen this site http://www.internmatch.com/?
+Jan 05 13:37:31       phrik  Title: Find Internships | Intern Jobs | Paid Internships (at www.internmatch.com)
+Jan 05 13:38:13    ladweeba  we think a lot, phrik
+Jan 05 13:38:30    ladweeba  I mean alike
+Jan 05 13:39:10    ladweeba  :)
+Jan 05 13:39:36  +meskarune  oh cool
+Jan 05 13:39:41  +meskarune  I haven't heard of it, thanks
+Jan 05 13:42:26       fsckd  for this month, let's focus on getting the mailing list up
+Jan 05 13:43:18       fsckd  need to have a way to converse without us all being on at the same time
+Jan 05 13:43:34  +meskarune  yeeees
+Jan 05 13:43:46  +meskarune  I wonder if there is anyone in #archlinux who could help out?
+Jan 05 13:43:51  +meskarune  or maybe I can ask on the forums
+Jan 05 13:43:57       fsckd  totally
+Jan 05 13:44:35    ladweeba  what is the mailing list about?
+Jan 05 13:45:46       fsckd  archwomen :P
+Jan 05 13:46:10       fsckd  it's hard to get everyone in the channel at once to discuss stuff
+Jan 05 13:46:13  +meskarune  ladweeba: basically so we can further discuss things in meetings, and have an archive
+Jan 05 13:46:25  +meskarune  and people from different time zones can interact 
+Jan 05 13:46:38       fsckd  some people live in opposite time zones
+Jan 05 13:46:46           *  fsckd is slow today
+Jan 05 13:46:51    ladweeba  right
+Jan 05 13:46:54         -->  tigr (~tigrmesh@archlinux/op/tigrmesh) has joined #archlinux-women
+Jan 05 13:46:54          --  Mode #archlinux-women [+v tigr] by ChanServ
+Jan 05 13:47:00         <--  tigrmesh (~tigrmesh@archlinux/op/tigrmesh) has quit (Read error: Connection reset by peer)
+Jan 05 13:47:06    ladweeba  i mean right that people are in different time zones
+Jan 05 13:47:22       fsckd  :P
+Jan 05 13:47:31    ladweeba  that seems to be the case with most irc channels
+Jan 05 13:48:47    ladweeba  i'm in the U.S., west coast myself
+Jan 05 13:49:04       fsckd  good morning ^_^
+Jan 05 13:49:16    ladweeba  it looks like people here are from EU, and lotsa different places
+Jan 05 13:49:30    ladweeba  thank you, fsckd :)
+Jan 05 13:49:48       fsckd  there are a few other people from the west coast who don't normally attend the meetings because it is too early for them
+Jan 05 13:50:52          --  tigr is now known as tigrmash
+Jan 05 13:51:12    ladweeba  i bet ...i just stumbled upon your meeting this morning...i was looking for a women's group to learn about linux so here i am...i would love to be a part of a linux community in order to keep learning
+Jan 05 13:51:42       fsckd  glad you stopped by :)
+Jan 05 13:51:49    ladweeba  i am too
+Jan 05 13:55:42         <--  tigrmash (~tigrmesh@archlinux/op/tigrmesh) has quit (Quit: Leaving)
+Jan 05 14:00:26    ladweeba  I had never ever heard of archlinux until this morning.
+Jan 05 14:01:07       fsckd  oh, do you use linux?
+Jan 05 14:02:03    ladweeba  No, it's a new thing for me.
+Jan 05 14:02:33  +meskarune  oh nice :D
+Jan 05 14:02:34    ladweeba  I figured if I want to learn it, then I should find a group that would help me along the way.
+Jan 05 14:02:45         <--  psyl0n (~psyl0n@unaffiliated/psyl0n) has quit (Remote host closed the connection)
+Jan 05 14:02:52  +meskarune  ladweeba: we have install days to help people install arch, and we held a package building class and do other events
+Jan 05 14:03:04    ladweeba  ok
+Jan 05 14:03:05  +meskarune  you are in good company :D
+Jan 05 14:03:10    ladweeba  that sounds great
+Jan 05 14:03:39    ladweeba  I was reading about it on line just now.
+Jan 05 14:04:01         -->  tigrmesh (~tigrmesh@archlinux/op/tigrmesh) has joined #archlinux-women
+Jan 05 14:04:01          --  Mode #archlinux-women [+v tigrmesh] by ChanServ
+Jan 05 14:04:16    ladweeba  :)
+Jan 05 14:04:39  +meskarune  how did you hear about us? :)
+Jan 05 14:04:59    ladweeba  I did a search on searchirc
+Jan 05 14:05:07  +meskarune  haha cool
+Jan 05 14:05:17    ladweeba  I typed linux and women and you were in the results
+Jan 05 14:07:41  +meskarune  there is also ubuntu-women and fedora-women and linux chix 
+Jan 05 14:07:52  +meskarune  linux chix use their own server though
+Jan 05 14:08:38  +meskarune  so I guess next thing on meeting, blog - lets keep updating, and if there have little news things or opinions they want to share, we would be happy to post them
+Jan 05 14:08:51  +meskarune  and give link backs to author sites
+Jan 05 14:09:09  +meskarune  "if there are people who have little news things"
+Jan 05 14:09:19  +meskarune  I didn't get enough sleep last night
+Jan 05 14:09:20  +meskarune  lol
+Jan 05 14:09:48  +meskarune  ladweeba: have you used linux before?
+Jan 05 14:10:07  +meskarune  er, well I guess you probably have, but on a desktop computer?
+Jan 05 14:10:25  +meskarune  since like tons of mobile and tablet devices run linux
+Jan 05 14:10:27       fsckd  hehe, linux is everywhere now
+Jan 05 14:10:31  +meskarune  yeah lol
+Jan 05 14:10:38    ladweeba  yes, at an internet cafe here...all the computers had a linux OS to save the cafe owner moolah
+Jan 05 14:10:47  +meskarune  nice :)
+Jan 05 14:11:20  +meskarune  its more secure too, free updates for life, and staying updated = way lower risk of getting hacked
+Jan 05 14:11:24    ladweeba  one cafe used debian and another cafe used something different...all i did was use the internet
+Jan 05 14:11:58    ladweeba  whenever a problem came up the internet cafe manager or owner fixed the issue.
+Jan 05 14:12:12       fsckd  before i go, i just want to say, for the month goals, keep them few. cause, like we set 5 things and get only half of them done. keep stuff focused and get the important stuff done. every thing else should go in the todo on the wiki
+Jan 05 14:12:25  +meskarune  fsckd: yeah :)
+Jan 05 14:12:35  +meskarune  this month I want to finish up with munin
+Jan 05 14:12:41  +meskarune  and work on the mailing list
+Jan 05 14:13:00  +meskarune  and we can encourage people to help make ideas on teh wiki for fund raising and internship stuff
+Jan 05 14:13:11  +meskarune  mailing list will help with planning and discussion
+Jan 05 14:13:20  +meskarune  should we end the meeting? ;)
+Jan 05 14:13:34    ladweeba  how do I get access to the wiki ...i would like to post a list of cf sites
+Jan 05 14:13:59    ladweeba  cf = crowdfunding sites
+Jan 05 14:14:18    ladweeba  it's a comparison of cfs
+Jan 05 14:16:10  +meskarune  kk
+Jan 05 14:16:18  +meskarune  its dokuwiki
+Jan 05 14:16:23  +meskarune  and to use it you need to register
+Jan 05 14:16:57  +meskarune  https://archwomen.org/wiki/start?do=register
+Jan 05 14:16:58       phrik  Title: Youve reached the Arch Women Wiki [Arch Women Wiki] (at archwomen.org)
+Jan 05 14:17:14  +meskarune  then you can edit all sorts of stuff or add new pages
+Jan 05 14:17:46  +meskarune  ps ladweeba arch linux uses pacman as the package manager
+Jan 05 14:17:56  +meskarune  for the capcha
+Jan 05 14:18:02    ladweeba  ty
+Jan 05 14:18:43    ladweeba  ok I'm registered and logged in
+Jan 05 14:18:44  +meskarune  ok, I'm going to end the meeting, and then upload meeting notes and logs in a few hours
+Jan 05 14:18:47  +meskarune  yay :D
+Jan 05 14:18:50    ladweeba  ok
+Jan 05 14:18:57  +meskarune  ======= Meeting Ends =========

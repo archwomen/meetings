@@ -1,0 +1,440 @@
+Note:  The Arch Women IRC Meeting originally scheduled for September 7th had to be postponed, and took place on October 5th, 2014
+
+2014-10-05 16:44:43 <tigrmesh>	=============   Begin Arch Women 31st Meeting, October 2014  =========
+2014-10-05 16:45:29 <tigrmesh>	i chose android partly for autocomplete.  but i think 4.4 (4.3?) does it better thank 4.2
+2014-10-05 16:45:48 <tigrmesh>	so hi everyone
+2014-10-05 16:46:10 <tigrmesh>	first, we have announcements
+2014-10-05 16:46:17 <GermainZ>	depends on the keyboard… Google's does pretty well most of the time, although I have some things blacklisted (requires a mod) so "me" doesn't get replaced with "NY"
+2014-10-05 16:46:40 <tigrmesh>	yikes
+2014-10-05 16:46:43 <demize>	GermainZ: That has happened really often for me recently, didn't use to.
+2014-10-05 16:46:58 <tigrmesh>	fsckd, how's dokuwiki?
+2014-10-05 16:47:14 <fsckd>	pretty good
+2014-10-05 16:47:25 <fsckd>	updated it to the recent release, Hrun
+2014-10-05 16:47:57 <tigrmesh>	\o/
+2014-10-05 16:48:17 <fsckd>	which has a security fix which i think doesn't concern us but better to be safe and on the bleeding edge ;)
+2014-10-05 16:48:47 <tigrmesh>	we're archers, after all   :)
+2014-10-05 16:49:05 <tigrmesh>	any other server stuff?
+2014-10-05 16:49:09 <fsckd>	indeed XD
+2014-10-05 16:49:45 <fsckd>	not much. we're up to date regarding the bash thing
+2014-10-05 16:50:10 <tigrmesh>	of course
+2014-10-05 16:51:17 <tigrmesh>	next.  channel rules
+2014-10-05 16:51:37 *	spareproject (~spareproj@2.217.166.17) has joined
+2014-10-05 16:53:07 <tigrmesh>	i don't remember where we put them
+2014-10-05 16:53:41 <fsckd>	in the topic
+2014-10-05 16:54:06 <fsckd>	shortened link, to the wiki -> https://archwomen.org/wiki/aw-org:irc
+2014-10-05 16:54:06 <phrik>	Title: IRC [Arch Women Wiki] (at archwomen.org)
+2014-10-05 16:54:41 <tigrmesh>	so they're there
+2014-10-05 16:55:11 <fsckd>	yeah, so everyone is aware
+2014-10-05 16:55:25 <fsckd>	and new people can find them easily
+2014-10-05 16:55:46 <tigrmesh>	any questions?  are there other places on the site that it would be helpful to have a link to them?
+2014-10-05 16:59:21 <tigrmesh>	so classroom
+2014-10-05 16:59:40 <tigrmesh>	nisstyre taught a class.  "Introduction to Scheme and Functional Programming"
+2014-10-05 17:00:27 <tigrmesh>	i wasn't able to be there
+2014-10-05 17:00:43 <demize>	It went rather well, I think.
+2014-10-05 17:00:58 <tigrmesh>	great!
+2014-10-05 17:01:07 <tigrmesh>	thanks nisstyre !    :)
+2014-10-05 17:01:37 <demize>	nisstyre: Woo ❤
+2014-10-05 17:02:19 <tigrmesh>	and hh4a had mentioned maybe teaching a class.  the last i heard he wasn't ready yet
+2014-10-05 17:02:32 <tigrmesh>	does anyone want to teach a class?
+2014-10-05 17:02:42 <polyzen>	i feel "If you make us feel bad about being smart." would be better as "If you insult our intelligence."
+2014-10-05 17:03:08 <polyzen>	in the irc rules
+2014-10-05 17:04:39 <tigrmesh>	it sounds like really low level language.  until you've gotten into wrangling with someone about whether something was an insult
+2014-10-05 17:06:37 <polyzen>	hm
+2014-10-05 17:06:39 <tigrmesh>	and then there's phase 2, the exact meaning of "intelligence"
+2014-10-05 17:09:05 <tigrmesh>	anyone inspired to teach?  any suggestions on class topics?
+2014-10-05 17:09:32 <halosghost>	I would consider teaching something
+2014-10-05 17:09:37 <halosghost>	not sure what I would teach though
+2014-10-05 17:09:48 <GermainZ>	How to write bad C
+2014-10-05 17:09:57 <demize>	IIRC there were a bunch of topic suggestions in the last meeting
+2014-10-05 17:10:08 <halosghost>	link?
+2014-10-05 17:10:48 <demize>	hmm
+2014-10-05 17:11:08 <fsckd>	there's a section on the arch wiki page
+2014-10-05 17:11:34 <demize>	That too
+2014-10-05 17:12:43 <halosghost>	… which page?
+2014-10-05 17:12:44 <demize>	there were a bunch of suggestions in the riseup pad too tho, donno if they were moved somewhere
+2014-10-05 17:12:44 <tigrmesh>	meskarune said she wanted to do a basic html/css class
+2014-10-05 17:12:51 <demize>	halosghost: https://wiki.archlinux.org/index.php/Classroom#Requested_Classes
+2014-10-05 17:12:52 <phrik>	Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2014-10-05 17:12:54 <halosghost>	ahh
+2014-10-05 17:13:42 <tigrmesh>	in the meantime, here is meskarune's resources page  http://meskarune.com/resources/
+2014-10-05 17:13:43 <phrik>	Title: Meskarune's Web Design Resources (at meskarune.com)
+2014-10-05 17:14:13 <halosghost>	I mean, I could probably do a very basic Intro to C programming class
+2014-10-05 17:14:18 <halosghost>	s/very basic/pretty decent/
+2014-10-05 17:14:21 <fsckd>	that would be nice
+2014-10-05 17:14:58 <halosghost>	hmm, I'll take a look into working up a syllabus
+2014-10-05 17:15:06 <tigrmesh>	ok  :)
+2014-10-05 17:15:06 <fsckd>	sure, thanks :)
+2014-10-05 17:15:43 <tigrmesh>	i could do a 5-minute intro to basic excel pivot tables.  i just don't see this being the right group for that, though
+2014-10-05 17:15:55 <tigrmesh>	;)
+2014-10-05 17:15:55 <demize>	halosghost: there's probably a few people that at least could help you work on it.
+2014-10-05 17:16:03 <halosghost>	how long should classes last, how much should they cover?
+2014-10-05 17:16:14 <demize>	tigrmesh: heh, LO Calc? ;p
+2014-10-05 17:16:17 <halosghost>	and, should they be multiple sessions, or just a single crash course?
+2014-10-05 17:16:37 <tigrmesh>	demize, good point
+2014-10-05 17:16:42 <fsckd>	halosghost: generally aim for 1-1.5 hours
+2014-10-05 17:17:04 <halosghost>	single session, or recurring?
+2014-10-05 17:17:09 <fsckd>	halosghost: if you think its better to break the class into parts, that's ok. whatever works for you
+2014-10-05 17:17:10 <demize>	halosghost: several classes wold be rather good I think
+2014-10-05 17:17:16 <tigrmesh>	remember that this is on irc.  many people join late, etc
+2014-10-05 17:17:16 <fsckd>	^ +1
+2014-10-05 17:17:21 <demize>	Depends on how far reaching you want it to be tho.
+2014-10-05 17:17:37 <demize>	With several classes you could go a bit more in-depth
+2014-10-05 17:17:45 <halosghost>	yeah, I'd imagine a strong intro to C would be ~7-10 fairly concentrated hours
+2014-10-05 17:17:56 <tigrmesh>	data types.  just datatypes
+2014-10-05 17:18:03 <halosghost>	hmm?
+2014-10-05 17:18:28 <tigrmesh>	static typing for those moving from python and bash 
+2014-10-05 17:18:35 <halosghost>	oh, hah
+2014-10-05 17:18:40 <GermainZ>	who'd move from Python to C?
+2014-10-05 17:18:43 *	GermainZ hides
+2014-10-05 17:18:56 <halosghost>	yeah, if this happens, I imagine the first class will be the intro to syntax and convention
+2014-10-05 17:19:03 <tigrmesh>	GermainZ, someone who decides to contribute to pacman
+2014-10-05 17:19:18 <tigrmesh>	data types on their own
+2014-10-05 17:19:39 <GermainZ>	I don't think static typing is that hard, unless they've been using it really inconsistently in other languages…
+2014-10-05 17:19:53 <GermainZ>	e.g. same var for strings/ints/lists/whatever
+2014-10-05 17:20:05 <tigrmesh>	see bash above
+2014-10-05 17:20:13 <halosghost>	tigrmesh: really? you think it would take a whole hour to adequately explain that each variable has a type than "cannot" be changed?
+2014-10-05 17:20:25 <halosghost>	I mean, I guess I could do that
+2014-10-05 17:20:28 <tigrmesh>	really.  it's a lot.  just give it a sexy title
+2014-10-05 17:20:34 <halosghost>	hah
+2014-10-05 17:20:40 <GermainZ>	in italics
+2014-10-05 17:20:44 *	halosghost goes off to work on a syllabus
+2014-10-05 17:21:24 <demize>	Should probably take it at the same time as other things tho, because I have a feeling that people will get bored otherwise ;p
+2014-10-05 17:21:56 <tigrmesh>	don't name that as part of the C course.  because it's more than C, and "i'm not interested in C" people would miss it
+2014-10-05 17:22:23 <halosghost>	I mean
+2014-10-05 17:22:27 <tigrmesh>	not that i have an opinion or anything
+2014-10-05 17:22:27 <GermainZ>	Introduction to statically typed languages?
+2014-10-05 17:22:29 <halosghost>	I could just teach a course on data types too
+2014-10-05 17:22:42 <halosghost>	Introduction to static typing might be better
+2014-10-05 17:22:54 <halosghost>	and that could be a pre-req for the C class
+2014-10-05 17:22:58 <halosghost>	if pre-reqs are a thing
+2014-10-05 17:23:12 <tigrmesh>	on irc?
+2014-10-05 17:23:12 <demize>	well, the logs will be available so anyone could read them
+2014-10-05 17:23:16 <tigrmesh>	yeah
+2014-10-05 17:23:19 <halosghost>	true
+2014-10-05 17:23:27 <halosghost>	fair enough
+2014-10-05 17:23:31 <halosghost>	I can do both
+2014-10-05 17:23:54 <tigrmesh>	"static typing, why bother"   "data types and you"
+2014-10-05 17:24:02 <halosghost>	heh
+2014-10-05 17:24:04 <fsckd>	so many comments and yet no one has noticed the pun on C classes?
+2014-10-05 17:24:05 <demize>	would probably need to work with some people that haven't really done anything other than basic bash scripting
+2014-10-05 17:24:23 <tigrmesh>	"data types, why should you care?"
+2014-10-05 17:24:25 <halosghost>	fsckd: I mean, C doesn't have classes
+2014-10-05 17:24:25 <demize>	Because otherwise it'd probably be rather hard to make a meaningful class
+2014-10-05 17:24:34 <fsckd>	halosghost: exactly
+2014-10-05 17:24:53 <halosghost>	demize: I can do that
+2014-10-05 17:25:22 <demize>	Hard to put yourself in the people who know nothing about the subject's shoes.
+2014-10-05 17:25:46 <tigrmesh>	exactly
+2014-10-05 17:26:50 <demize>	Which is where many things fail, because then you don't know what they don't know, and can't really explain it easily in a way that people will actually get
+2014-10-05 17:26:56 <demize>	halosghost: but yay \o/
+2014-10-05 17:26:59 <demize>	halosghost: ❤
+2014-10-05 17:27:24 <halosghost>	well, I'm gonna try and start with the absolute basics and work forward
+2014-10-05 17:27:32 <tigrmesh>	\o/
+2014-10-05 17:27:36 <demize>	Sounds like a plan :)
+2014-10-05 17:27:42 <halosghost>	I'll bounce my lesson plans off people of a variety of backgrounds and see how it goes
+2014-10-05 17:27:46 <CalimeroTeknik>	I think C programming would need several classes
+2014-10-05 17:27:51 <halosghost>	CalimeroTeknik: I imagine it will
+2014-10-05 17:28:01 <demize>	halosghost: And we're here for you!
+2014-10-05 17:28:02 <CalimeroTeknik>	first the basic syntax, then the pointers are a big enough concept to require one class
+2014-10-05 17:28:28 <demize>	hm.
+2014-10-05 17:28:35 <CalimeroTeknik>	I remember understanding pointers wasn't a simple thing
+2014-10-05 17:28:43 <demize>	could be handy with some sort of virtual whiteboard ish thing for explaining stuff..
+2014-10-05 17:28:52 <demize>	CalimeroTeknik: the key is a good explanation
+2014-10-05 17:28:58 <demize>	Of which I've seen *Very* few.
+2014-10-05 17:29:00 <halosghost>	CalimeroTeknik: basic plan: intro to syntax, aggregate data types, pointers, undefined behavior
+2014-10-05 17:29:17 <CalimeroTeknik>	of course it is, but the thing is, you need to end the class on pointers
+2014-10-05 17:29:22 <demize>	UB is also something more things need to get into.
+2014-10-05 17:29:30 <CalimeroTeknik>	and anything before that needs to be very easy if there is any
+2014-10-05 17:29:55 <CalimeroTeknik>	otherwise nobody who doesn't already know what it's about can follow
+2014-10-05 17:30:03 <demize>	(more teaching material et.c. that is.)
+2014-10-05 17:30:38 <halosghost>	we'll see
+2014-10-05 17:30:40 <halosghost>	I'm working on the plan
+2014-10-05 17:30:45 <halosghost>	I'll let you know how it goes
+2014-10-05 17:30:51 <demize>	:)
+2014-10-05 17:31:01 <fsckd>	awesome :D
+2014-10-05 17:31:14 *	fsckd always gets excited for a new class
+2014-10-05 17:31:27 <tigrmesh>	yeah
+2014-10-05 17:31:30 <fsckd>	re whiteboard: originally there was an idea of having classes on something like hangouts. i don't know if that's possible when the classes often have 20+ attendees (kernel class had over 70 nicks in the channel)
+2014-10-05 17:31:56 <tigrmesh>	anyone else have class ideas or suggestions?
+2014-10-05 17:32:21 <CalimeroTeknik>	I think I'll express my idea about the C class more clearly
+2014-10-05 17:32:36 <tigrmesh>	after we do the C class, maybe someone involved in pacman development might be willing to come talk about pacman internals
+2014-10-05 17:32:45 <CalimeroTeknik>	it's a difficult enough language to require that the class ends after each "big part"
+2014-10-05 17:32:55 <fsckd>	tigrmesh: that would be awesome
+2014-10-05 17:33:12 <demize>	fsckd: hmm, does hangouts have a drawing thing? would be rather neat in that case.. should check out how many participants there can be
+2014-10-05 17:33:19 <CalimeroTeknik>	you cannot ask of a, hem, student, to use logical knowledge they just got
+2014-10-05 17:33:30 <polyzen>	wouldn't hangouts also require everyone have the plugin
+2014-10-05 17:33:36 <demize>	hmm, 10 users it seems :/
+2014-10-05 17:33:47 <CalimeroTeknik>	there is twiddla
+2014-10-05 17:33:51 <fsckd>	yikes, yeah. thought it was something low
+2014-10-05 17:33:53 <halosghost>	hangouts does have drawing
+2014-10-05 17:34:02 <demize>	oh, hmm
+2014-10-05 17:34:03 <halosghost>	and any number of people can be present
+2014-10-05 17:34:11 <demize>	seems it's 10 participants, but 100 viewers
+2014-10-05 17:34:12 <halosghost>	but only 10 can be seen through video
+2014-10-05 17:34:19 <halosghost>	the rest are in-text
+2014-10-05 17:34:28 <fsckd>	also, can hangouts be "logged" ?
+2014-10-05 17:34:45 <halosghost>	they can be recorded
+2014-10-05 17:34:50 <halosghost>	not sure about the text though
+2014-10-05 17:36:11 <demize>	wonder if there's something else..
+2014-10-05 17:37:24 <tigrmesh>	the whiteboard and only halosghost is in hangouts, and the discussion is on irc?
+2014-10-05 17:37:28 <demize>	because a recorded version of virtual whiteboard + possible speaking in addition to IRC would probably be a bit easier I think, for both sides
+2014-10-05 17:37:45 <demize>	tigrmesh: Question is if there's any way for the rest to see it tho
+2014-10-05 17:37:55 <demize>	guess some kind of streaming would work in any case, but..
+2014-10-05 17:38:24 <tigrmesh>	you said 100 viewers
+2014-10-05 17:38:38 <demize>	Read that on the support forums, but no where else..
+2014-10-05 17:38:40 <demize>	hmr
+2014-10-05 17:38:45 <demize>	https://awwapp.com/draw.html#47215422 maybe ;p
+2014-10-05 17:38:47 <phrik>	Title: A Web Whiteboard (at awwapp.com)
+2014-10-05 17:38:48 <halosghost>	you can have tons of viewers
+2014-10-05 17:39:06 <demize>	halosghost: live?
+2014-10-05 17:39:11 <halosghost>	demize: yeah
+2014-10-05 17:39:12 <demize>	if so, great
+2014-10-05 17:39:13 <halosghost>	tons
+2014-10-05 17:39:16 <demize>	that would be awesome
+2014-10-05 17:39:17 <halosghost>	no idea how many
+2014-10-05 17:39:18 <halosghost>	but tons
+2014-10-05 17:39:47 <demize>	Should try it then :)
+2014-10-05 17:39:59 <halosghost>	hmm, aww looks decent too
+2014-10-05 17:40:09 <halosghost>	but Hangouts has a drawing type thing already
+2014-10-05 17:40:11 <tigrmesh>	as long as it can be recorded so people who want to see the class later can follow
+2014-10-05 17:40:20 <halosghost>	yeah, that can be done
+2014-10-05 17:40:28 <halosghost>	I don't know how, but I can learn :P
+2014-10-05 17:40:37 <demize>	God I suck at drawing ;p
+2014-10-05 17:40:49 <demize>	halosghost: should try that one too ;p
+2014-10-05 17:41:18 <polyzen>	lolol
+2014-10-05 17:41:40 <fsckd>	also, don't forget accessibility. there was at least one hard of hearing person and may be are vision impaired people
+2014-10-05 17:42:11 <tigrmesh>	i don't mean the sound recorded
+2014-10-05 17:42:30 <tigrmesh>	i mean the whiteboard.  like record my desktop
+2014-10-05 17:42:40 <halosghost>	yeah
+2014-10-05 17:42:49 <halosghost>	hangouts records the video and audio
+2014-10-05 17:42:50 <tigrmesh>	the rest of the discussion should be elsewhere
+2014-10-05 17:42:52 <halosghost>	so, that shouldn't be an issue
+2014-10-05 17:43:01 <tigrmesh>	where we can all be
+2014-10-05 17:43:02 <demize>	tigrmesh: teacher speaking is rather good tho
+2014-10-05 17:43:06 <demize>	easier to explain that way
+2014-10-05 17:43:07 <halosghost>	and yeah, having all clarification be in-IRC for logs would be good
+2014-10-05 17:43:18 <demize>	At least IMO
+2014-10-05 17:43:36 <demize>	tho we need 11 or more people to test hangouts out with first ;p
+2014-10-05 17:43:48 <tigrmesh>	lol
+2014-10-05 17:44:06 <demize>	just to see if it actually works properly
+2014-10-05 17:45:05 <halosghost>	oh, I've already been in one of those
+2014-10-05 17:45:09 <halosghost>	it works
+2014-10-05 17:45:18 <halosghost>	but only ten people can be in the video slots
+2014-10-05 17:45:28 <halosghost>	again though, I don't know how many spectators there can be
+2014-10-05 17:45:31 <polyzen>	i should've gone to art school
+2014-10-05 17:46:06 <halosghost>	oh my
+2014-10-05 17:46:10 <halosghost>	it has text input
+2014-10-05 17:46:11 <tigrmesh>	if you're not dead, it's not too late, polyzen 
+2014-10-05 17:46:11 <halosghost>	so much simpler
+2014-10-05 17:46:25 <polyzen>	tigrmesh :p
+2014-10-05 17:47:14 <polyzen>	there have been massive hangouts, doubt there's need to worry about that front
+2014-10-05 17:49:35 <demize>	Well it's more the whiteboard part and such I meant.
+2014-10-05 17:49:49 <halosghost>	well, we can test it
+2014-10-05 17:49:53 <halosghost>	I have the plugin setup
+2014-10-05 17:50:10 <demize>	and that's why I said we need 11 or more people ;p
+2014-10-05 17:50:14 <halosghost>	:P
+2014-10-05 17:51:05 <demize>	Tho I wonder whether some kind of slides or a whiteboard would be more useful
+2014-10-05 17:54:31 <polyzen>	http://www.shambles.net/pages/staff/intwhiteb/
+2014-10-05 17:54:31 <phrik>	Title: Interactive WhiteBoards (at www.shambles.net)
+2014-10-05 18:00:40 <polyzen>	twiddla++
+2014-10-05 18:00:54 <halosghost>	I'm not sure the C class would even get into bit twiddling
+2014-10-05 18:01:04 <halosghost>	not sure that even makes sense
+2014-10-05 18:01:07 <halosghost>	but, I'll consider it
+2014-10-05 18:01:43 <halosghost>	that doesn't actually seem like something to be covered in an intro course
+2014-10-05 18:01:53 <polyzen>	http://drawonthe.net/board_index.php?id=141005_24
+2014-10-05 18:03:06 <demize>	phrik: ping
+2014-10-05 18:03:07 <phrik>	pony
+2014-10-05 18:04:51 <tigrmesh>	huh
+2014-10-05 18:05:06 <tigrmesh>	demize, page doesn't have a title
+2014-10-05 18:05:13 <demize>	yeah, noticed
+2014-10-05 18:05:15 <tigrmesh>	polyzen, cool
+2014-10-05 18:05:38 <tigrmesh>	demize, page doesn't have a title
+2014-10-05 18:05:46 <demize>	;p
+2014-10-05 18:05:55 <demize>	I'm not deaf, woman!
+2014-10-05 18:05:59 <demize>	❤
+2014-10-05 18:06:10 <tigrmesh>	wooo.  have to be careful of mouse cursor movement
+2014-10-05 18:06:45 <demize>	yeah...
+2014-10-05 18:07:06 <demize>	and sometimes when you click and drag it does that weird thing you do when click and drag images
+2014-10-05 18:07:18 <tigrmesh>	yeah.
+2014-10-05 18:08:17 <tigrmesh>	cool   :)
+2014-10-05 18:08:48 <GermainZ>	demize: that's when you select it as well, no?
+2014-10-05 18:08:49 <tigrmesh>	is there a way to limit who can write on it, polyzen ?
+2014-10-05 18:08:57 <demize>	hm?
+2014-10-05 18:11:59 <halosghost>	in hangouts, there might be
+2014-10-05 18:17:32 <tigrmesh>	 
+2014-10-05 18:17:34 <tigrmesh>	***  long pause for us to play with stuff
+2014-10-05 18:17:36 <tigrmesh>	 
+2014-10-05 18:17:43 <demize>	;p
+2014-10-05 18:17:48 <fsckd>	hehe
+2014-10-05 18:18:35 <tigrmesh>	any other suggestions about classes / class topics / class software and tools ?
+2014-10-05 18:19:02 <tigrmesh>	 i have a suggestion.  debugging
+2014-10-05 18:19:30 <halosghost>	I'd love it if someone taught a Haskell class
+2014-10-05 18:19:56 <halosghost>	debugging would be a great class, but it's often very specific to a language or task
+2014-10-05 18:20:09 <tigrmesh>	i wonder if there's a way we could all be looking (live) at someone walking through GDB
+2014-10-05 18:20:49 <demize>	could be streaming it somehow, sure
+2014-10-05 18:20:53 <tigrmesh>	the process is the same.  only the semantics change
+2014-10-05 18:21:37 *	numeral (~numeral@198.23.228.15) has joined
+2014-10-05 18:21:38 <polyzen>	tigrmesh, doesn't seem like it
+2014-10-05 18:21:45 <tigrmesh>	interpreted languages, too.  how do you get your variables to cough out their values so you can see why/how you get an error?
+2014-10-05 18:21:53 <tigrmesh>	too bad
+2014-10-05 18:22:54 <tigrmesh>	is there a newer, better way than "display myvar"  "display myvar2"  ?
+2014-10-05 18:23:12 <tigrmesh>	so.  anyway
+2014-10-05 18:23:29 <tigrmesh>	moving on
+2014-10-05 18:23:49 <demize>	there are debuggers for interpreted languages too ;p
+2014-10-05 18:23:58 <tigrmesh>	who knew!
+2014-10-05 18:24:30 <demize>	and printf debugging is *Really* flawed in C and related languages
+2014-10-05 18:24:33 <tigrmesh>	any other suggestions for classes or volunteers?
+2014-10-05 18:24:51 <demize>	because the printf doesn't, according to the standard, depend on the things you're trying to debug, so they can be reordered
+2014-10-05 18:25:09 <demize>	which results in fun things
+2014-10-05 18:25:41 <demize>	C, Haskell, debugging...
+2014-10-05 18:25:43 <demize>	hmm
+2014-10-05 18:25:56 <demize>	more lisp classes could be cool too
+2014-10-05 18:26:07 <fsckd>	yeah :)
+2014-10-05 18:26:23 *	tuxampol has quit (Quit: Verlassend)
+2014-10-05 18:27:04 <demize>	python/ruby/some other interpreted language would be cool too
+2014-10-05 18:27:13 <tigrmesh>	^^^   
+2014-10-05 18:28:02 <fsckd>	things other than languages too, a class on securing/hardening Arch would be nice
+2014-10-05 18:28:27 <GermainZ>	I wish everything had sh's set -x
+2014-10-05 18:28:27 <tigrmesh>	"bash scripting, or what is *yaourt* *really* doing?"
+2014-10-05 18:28:30 <GermainZ>	lazy solution
+2014-10-05 18:28:45 <demize>	no one wants to know what yaourt is doing ;p\
+2014-10-05 18:28:55 <demize>	makepkg maybe, but then people would have nighmares
+2014-10-05 18:29:13 <GermainZ>	yaourt is just for eating
+2014-10-05 18:29:23 <demize>	it's a 3k line bash script with a lot of it rather badly written :|
+2014-10-05 18:29:29 <fsckd>	!grab GermainZ
+2014-10-05 18:29:30 <phrik>	fsckd: Tada!
+2014-10-05 18:29:33 <tigrmesh>	we're constantly being told that "yaourt is bad"  let's see what it really does
+2014-10-05 18:29:40 <GermainZ>	demize: makepkg or yaourt?
+2014-10-05 18:29:50 <demize>	makepkg.
+2014-10-05 18:30:21 *	kerrick (~kerrick@50-196-159-42-static.hfc.comcastbusiness.net) has joined
+2014-10-05 18:30:26 <tigrmesh>	"bash scripting, or what is makepkg *really* doing?"
+2014-10-05 18:30:53 <fsckd>	how about we just find out what *bash* is really doing? :P
+2014-10-05 18:31:18 <GermainZ>	"bash scripting, or why you should use zsh"
+2014-10-05 18:31:19 <demize>	bash in general would be better
+2014-10-05 18:31:32 <tigrmesh>	yeah.  
+2014-10-05 18:31:33 <demize>	few people want to try to understand makepkg, fewer would be able to.
+2014-10-05 18:32:27 <GermainZ>	also, understanding makepkg isn't *that* interesting TBH 
+2014-10-05 18:32:35 <tigrmesh>	but the general flow of how the tool works would be useful.  and seeing and how bash is applied too
+2014-10-05 18:32:50 <tigrmesh>	ok.  so 5 mins.  still useful
+2014-10-05 18:33:00 <fsckd>	there's no harm in having a class for that
+2014-10-05 18:33:16 <demize>	the code probably would be rather pointless, using it might be better ;p
+2014-10-05 18:33:43 <tigrmesh>	you said it would give someone nightmares.  so lets see why
+2014-10-05 18:33:50 <tigrmesh>	*let's
+2014-10-05 18:34:27 <demize>	Good luck then ;p
+2014-10-05 18:35:47 <demize>	It's been getting a bunch of refactoring lately so it's a bit better, but it's still not something you'd want to try to understand.
+2014-10-05 18:36:40 <tigrmesh>	so yaourt it is   :p
+2014-10-05 18:37:02 *	tigrmesh hasn't written her first bash script yet.  don't look at her to teach this
+2014-10-05 18:37:20 <demize>	try looking at makepkg ;p
+2014-10-05 18:37:23 <tigrmesh>	ok.  so if anyone wants to teach a class, please contact one of the coordinators. https://archwomen.org/wiki/projects:classroom:start#coordinators
+2014-10-05 18:37:25 <phrik>	Title: Classroom [Arch Women Wiki] (at archwomen.org)
+2014-10-05 18:38:28 <tigrmesh>	next it's getting pretty late in eastern europe and scandinavia
+2014-10-05 18:38:46 <tigrmesh>	so i'd like to move on to internship now
+2014-10-05 18:38:57 <demize>	Shoot
+2014-10-05 18:39:09 <tigrmesh>	i wasn't at the intern workgroup meeting.  was anyone here?  how did it go?
+2014-10-05 18:40:20 <demize>	Me neither. Was rather interested in hearing about it last month, but alas...
+2014-10-05 18:40:59 <tigrmesh>	we'll just pretend it's september for this part   ;)
+2014-10-05 18:41:11 <demize>	heh..
+2014-10-05 18:41:15 <tigrmesh>	no one?  fsckd were you there?
+2014-10-05 18:41:30 <fsckd>	yes i was
+2014-10-05 18:42:05 <tigrmesh>	and here's the log of it.  https://archwomen.org/media/meeting-logs/intern_workgroup_2014-08-10LOG.txt
+2014-10-05 18:42:08 <fsckd>	it went well. ideas for projects were proposed 
+2014-10-05 18:42:51 <fsckd>	they decided on gsoc
+2014-10-05 18:42:53 <demize>	Oh, so I *was* there.
+2014-10-05 18:42:58 <fsckd>	hehe
+2014-10-05 18:43:22 <demize>	and heh at the bugtracker bit...
+2014-10-05 18:43:44 <demize>	I started making a basic bugtracker thingy a couple of days ago. probably wont end up being anything special, but interesting to play with.
+2014-10-05 18:45:28 <fsckd>	cool
+2014-10-05 18:46:19 <demize>	Uses github's oauth for authentication because screw having to care about passwords and stuff ;p
+2014-10-05 18:46:30 <fsckd>	haha
+2014-10-05 18:47:03 <demize>	Well, the bugtracker is really just a flask app that serves a json api, and a python client that interacts with that.
+2014-10-05 18:47:45 <fsckd>	i'm a little interested. i'll ask you more after the meeting :)
+2014-10-05 18:48:18 <demize>	the code looks really ewwy at the moment, but there's a dump in git if you want nightmares.
+2014-10-05 18:48:35 <demize>	But sure
+2014-10-05 18:48:45 <fsckd>	hehe ok :)
+2014-10-05 18:48:56 <demize>	Also, did any of you talk to Allan or anyone else about pacman GSoC?
+2014-10-05 18:51:20 <tigrmesh>	meskarune might have, but i don't know
+2014-10-05 18:52:10 <tigrmesh>	she should be the one, since she has the best way of putting why it would be important
+2014-10-05 18:52:35 <tigrmesh>	meskarune, where are you????  we need you!!
+2014-10-05 18:53:06 <tigrmesh>	oh.  and carharttjimmy 
+2014-10-05 18:53:22 <tigrmesh>	carharttjimmy, where are you????  we need you!!
+2014-10-05 18:53:25 <demize>	We need both of them!
+2014-10-05 18:53:28 <tigrmesh>	fsckd, any idea if more has happened on it?
+2014-10-05 18:53:32 <demize>	Should report them missing
+2014-10-05 18:53:57 <fsckd>	tigrmesh: i don't know, sorry
+2014-10-05 18:54:39 <tigrmesh>	ok.  anyone else know about any progress made on internship?
+2014-10-05 18:56:05 <demize>	meskarune: You are the glue that keeps us together! Come back to us!
+2014-10-05 18:56:32 <tigrmesh>	does anyone know of any cool/interesting stories about women in tech or linux?
+2014-10-05 18:59:25 <tigrmesh>	it would be awesome to have something on the blog in october.  takes me a year to write a forum post.  seriously.  so i'm not the one to do it
+2014-10-05 18:59:51 <demize>	heh ;)
+2014-10-05 19:00:33 <tigrmesh>	but if anyone has anything they'd like to write up, that would be awesome. 
+2014-10-05 19:01:23 <halosghost>	basic skeleton of the lecture/presentation for "intro to static typing": http://ix.io/eDr
+2014-10-05 19:01:27 <halosghost>	note, very much WIP
+2014-10-05 19:01:29 <tigrmesh>	the last blog post was in may.  if your only contact with arch women was looking at the blog, you'd think the project was dead
+2014-10-05 19:01:58 <tigrmesh>	halosghost,   <3
+2014-10-05 19:02:03 <halosghost>	:D
+2014-10-05 19:02:29 <tigrmesh>	so think about writing something.  even if it's just "we're not dead"
+2014-10-05 19:03:15 <fsckd>	ok, so a halloween themed blog post?
+2014-10-05 19:03:25 <tigrmesh>	sure
+2014-10-05 19:04:05 <tigrmesh>	is there a way to make it not US-centric?
+2014-10-05 19:04:10 <tigrmesh>	*seem
+2014-10-05 19:04:16 <fsckd>	"we're not dead. we're alive. most of us. some are undead which technically isn't dead."
+2014-10-05 19:04:24 <halosghost>	we can announce the yaourt class
+2014-10-05 19:04:24 <tigrmesh>	hahaha
+2014-10-05 19:04:27 <halosghost>	yaourt is scary
+2014-10-05 19:04:33 <demize>	haha
+2014-10-05 19:05:14 <tigrmesh>	first find a teacher.  although looking for a volunteer for it might be a good post
+2014-10-05 19:05:34 <tigrmesh>	also, about meskarune and internship - i know it's a project dear to her heart
+2014-10-05 19:05:39 <tigrmesh>	so
+2014-10-05 19:06:00 <tigrmesh>	anyone have suggestions about other things arch women could/should be doing?
+2014-10-05 19:06:29 <halosghost>	is there a concentration of AW users in any particular location?
+2014-10-05 19:06:34 <halosghost>	an AW LUG would be awesome
+2014-10-05 19:06:43 <halosghost>	I'd make cookies for it if it were around here
+2014-10-05 19:06:53 <tigrmesh>	hehe
+2014-10-05 19:07:12 <tigrmesh>	anyone know?
+2014-10-05 19:07:27 <tigrmesh>	i mean, cookies
+2014-10-05 19:08:11 <halosghost>	it'd be fun to have the (self-identifying as )men involved with the project be in the kitchen for a while :P
+2014-10-05 19:08:27 <tigrmesh>	hehe
+2014-10-05 19:08:55 <tigrmesh>	final comments, questions, etc before we stop?
+2014-10-05 19:09:06 <demize>	I like cookies.
+2014-10-05 19:09:11 <demize>	And stuff..
+2014-10-05 19:09:16 <fsckd>	well
+2014-10-05 19:09:31 <halosghost>	seems like a good word to end on
+2014-10-05 19:09:45 <fsckd>	i want to say thanks to polyzen for pointing out the update to DokuWiki
+2014-10-05 19:10:04 <fsckd>	and thanks to demize for all the works he's done for classroom
+2014-10-05 19:10:14 <fsckd>	and thanks to everyone else who also helped
+2014-10-05 19:10:31 <demize>	I haven't really done anything tho
+2014-10-05 19:10:41 <demize>	but thanks to all of you awesome people!
+2014-10-05 19:11:23 <polyzen>	fsckd, do you arch's package?
+2014-10-05 19:11:26 <polyzen>	use
+2014-10-05 19:11:31 <fsckd>	no
+2014-10-05 19:12:05 <fsckd>	demize: you gave ideas and are there and you did help with classroom, did you forget ;)
+2014-10-05 19:12:25 <polyzen>	fsckd, do you also have to manually have to intervene to get rid of those update check messages?
+2014-10-05 19:12:38 *	sharvey has quit (Ping timeout: 272 seconds)
+2014-10-05 19:12:52 <fsckd>	no, just update and they go away
+2014-10-05 19:12:56 <demize>	fsckd: I can't really think of anything special I've really actively done other than talk some and.. changed the topic once? ;p
+2014-10-05 19:13:05 *	sharvey (~sharvey@chi.metaether.net) has joined
+2014-10-05 19:13:23 <fsckd>	demize: you helped by announcing in the main #al channel
+2014-10-05 19:13:35 <demize>	Eh, nothing special exactly :p
+2014-10-05 19:14:34 <fsckd>	hehe, one small step for a demize, one giant step for demize-kind :P
+2014-10-05 19:14:40 <demize>	;)
+2014-10-05 19:15:55 <tigrmesh>	according to my (probably inaccurate) clock, it's 17:15 UTC
+2014-10-05 19:16:16 <fsckd>	19:15 UTC
+2014-10-05 19:16:18 <demize>	uh, not quite
+2014-10-05 19:16:24 <demize>	:)
+2014-10-05 19:16:26 <tigrmesh>	oops
+2014-10-05 19:16:33 <demize>	tigrmesh: `date -u` ;)
+2014-10-05 19:17:12 <tigrmesh>	we don't start at 14:00.  oops
+2014-10-05 19:17:24 <tigrmesh>	i knew 17:00 seemed early'
+2014-10-05 19:17:48 <tigrmesh>	if anyone has further questions or comments or suggestions, please contact meskarune, fsckd  or me.  or add it to the meeting page on the wiki for the november meeting
+2014-10-05 19:17:58 <tigrmesh>	thanks a lot for being here   :0
+2014-10-05 19:18:01 <tigrmesh>	:)
+2014-10-05 19:18:06 <tigrmesh>	final word:
+2014-10-05 19:18:07 <demize>	Cheers :D
+2014-10-05 19:18:09 <halosghost>	\o/
+2014-10-05 19:18:09 <polyzen>	fsckd, doesn't wfm that way even though i have $updateVersion = 46; in doku.php
+2014-10-05 19:18:11 <tigrmesh>	cookies
+2014-10-05 19:18:11 <polyzen>	huzzah
+2014-10-05 19:18:41 <fsckd>	polyzen: i don't know. i didn't set anything special
+2014-10-05 19:19:51 <tigrmesh>	also, please look at the riseup pad in case we missed anything for the meeting notes.  we post the notes right from there
+2014-10-05 19:20:15 <tigrmesh>	https://pad.riseup.net/p/arch-women-meeting_-_October_2014
+2014-10-05 19:20:17 <phrik>	Title: Riseup Pad (at pad.riseup.net)
+2014-10-05 19:20:19 <tigrmesh>	=============   End Arch Women 31st Meeting, October 2014  =========

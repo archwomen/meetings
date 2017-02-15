@@ -1,0 +1,280 @@
+2016-03-12 11:16:08	fsckd	loading core.meeting....
+2016-03-12 11:16:11	fsckd	========== Meeting Initialized ==========
+2016-03-12 11:16:27	fsckd	notes are at https://pad.riseup.net/p/archwomen-mar-2016
+2016-03-12 11:16:28	phrik	Title: Riseup Pad (at pad.riseup.net)
+2016-03-12 11:17:06	fsckd	you can add your nick by clicking the colored button on the upper right
+2016-03-12 11:17:21	fsckd	then we'll know who you are :)
+2016-03-12 11:18:03	fsckd	We have a few guests today from other projects. Hello and welcome. :)
+2016-03-12 11:18:21	belkinsa	o/ and thank you/
+2016-03-12 11:18:22	belkinsa	.*
+2016-03-12 11:18:36	belkinsa	I'm from the Ubuntu project.
+2016-03-12 11:18:43	belkinsa	Ubuntu Women*
+2016-03-12 11:18:46	amani_glugcal	me too
+2016-03-12 11:19:01	fsckd	hi belkinsa and amani_glugcal, glad you could join us today :)
+2016-03-12 11:21:27	@meskarune	me too :D
+2016-03-12 11:21:58	fsckd	The first item on the agenda is the wiki has been hit by a spammer. The spam is repeated nonsense, mainly Microsoft support's phone number.
+2016-03-12 11:22:35	fsckd	We're currently using a simple captcha provided by http://www.dokuwiki.org/plugin:captcha .
+2016-03-12 11:22:35	phrik	Title: plugin:captcha [DokuWiki] (at www.dokuwiki.org)
+2016-03-12 11:23:12	fsckd	We'll need to make a stronger captcha. At worst we'll need to use reCaptcha or osmething annoying.
+2016-03-12 11:23:20	fsckd	something*
+2016-03-12 11:23:58	spider-mario	reCaptcha is not as annoying as it used to be
+2016-03-12 11:24:33	fsckd	That's good news.
+2016-03-12 11:24:46	@meskarune	maybe we can do url blacklisting?
+2016-03-12 11:25:02	fsckd	The current captcha is a simple question which requires a little knowledge about Arch Linux (which can be found on Wikipedia).
+2016-03-12 11:25:05	@meskarune	dokuwiki lets you blacklist certain things, and if they are posted the article won't allowed itselt to be saved
+2016-03-12 11:25:18	fsckd	meskarune: That is a good idea.
+2016-03-12 11:25:24	@meskarune	I think we should take multiple approaches
+2016-03-12 11:25:33	@meskarune	https://www.dokuwiki.org/antispam
+2016-03-12 11:25:34	spider-mario	this is what it looks like now: https://youtu.be/jwslDn3ImM0
+2016-03-12 11:25:34	phrik	Title: antispam [DokuWiki] (at www.dokuwiki.org)
+2016-03-12 11:25:35	phrik	Title: Introducing the no CAPTCHA reCAPTCHA - YouTube (at youtu.be)
+2016-03-12 11:25:42	amani_glugcal	even we had our servers attacked at UW wiki 
+2016-03-12 11:25:59	belkinsa	And the Ubuntu main wikis also.
+2016-03-12 11:26:05	fsckd	Yikes.
+2016-03-12 11:26:26	spider-mario	(they do show a task to complete, but it’s not a captcha)
+2016-03-12 11:26:26	fsckd	The spam resembles ones that havce appeared n the Arch Linux wiki and the forums.
+2016-03-12 11:26:34	fsckd	have*
+2016-03-12 11:26:42	fsckd	(I swear I can type!)
+2016-03-12 11:27:19	belkinsa	Our Lauchpad.net also is attacked.
+2016-03-12 11:27:31	belkinsa	https://launchpad.net/
+2016-03-12 11:27:32	phrik	Title: Launchpad (at launchpad.net)
+2016-03-12 11:27:50	amani_glugcal	http://wiki.ubuntu-women.org/
+2016-03-12 11:28:36	@meskarune	we could also consider switching to openid logins
+2016-03-12 11:28:55	fsckd	amani_glugcal, belkinsa: Were you able to block the spammer?
+2016-03-12 11:29:18	belkinsa	I think not.  I wasn't watching or using the UW wiki.
+2016-03-12 11:29:24	Mikaela	that would be nice as the most annoying thing with Arch websites is that they all have separate logins. With Ubuntu everything is done with Launchpad account or Ubuntu ID which seem to be the same thing
+2016-03-12 11:29:36	amani_glugcal	others are working on it
+2016-03-12 11:29:38	Mikaela	from what I understood the wiki has been down for some time due to spamming
+2016-03-12 11:30:12	fsckd	Oh, that sucks.
+2016-03-12 11:30:18	belkinsa	Mikaela, it was locked down and we did have some DoS attacks due to spam.
+2016-03-12 11:30:30	Mikaela	oh, I see
+2016-03-12 11:30:31	belkinsa	But that's on the main wikis
+2016-03-12 11:30:45	fsckd	The counter spam activity on the Arch Wiki has caused grief for new users (lots of complainst).
+2016-03-12 11:30:54	fsckd	complaints*
+2016-03-12 11:31:52	Mikaela	does counter spam activity on Arch Wiki mean that it removes my account very often if I don't login to it for month or something like that?
+2016-03-12 11:32:45	fsckd	That sounds like a bug. You should talk to a wiki admin.
+2016-03-12 11:33:22	Mikaela	maybe I will if I have need and it happens again, I think I stopped registering after the second time
+2016-03-12 11:34:09	fsckd	A few admins are on IRC. alad and thestinger and jasonwryan are on IRC.
+2016-03-12 11:34:39	fsckd	May be others too...
+2016-03-12 11:35:58	fsckd	And Pierre is responsible for running the server. He's around too sometimes. I don't remember what his IRC nick is. (He's a dev so can just look up his profile.)
+2016-03-12 11:39:38	fsckd	So the strategies are (1) stronger captcha (may be use reCaptcha) (2) blacklist certain topics (3) move to OpenID logins.
+2016-03-12 11:40:38	nukke	for (2), are certain topics being spammed more? what do you mean by topics, too? as in keywords the spammers use?
+2016-03-12 11:41:03	@meskarune	yeah, I agree Mikaela, I hate having different logins for everything
+2016-03-12 11:41:18	@meskarune	but on the other hand, thats probably more secure lol
+2016-03-12 11:41:47	@meskarune	but its also way less convenient, and if I only have one login, I can make the password and user less easy to hack since its only thing to remember
+2016-03-12 11:41:54	fsckd	nukke: It seems to be the same topic each time, support numbers for Microsoft's products.
+2016-03-12 11:42:48	spider-mario	I don’t think it’s more secure to have several logins
+2016-03-12 11:42:59	spider-mario	or perhaps two or three
+2016-03-12 11:43:11	spider-mario	(to restore one if it’s taken over)
+2016-03-12 11:44:44	nukke	you could always give users the option but that's probably not very secure.
+2016-03-12 11:44:49	Mikaela	in my case I use LastPass which wants one password per domain and it doesn't understand archlinux.org having three different passwords so I just end up using one for them all which doesn't make it any more or less secure than OpenID.
+2016-03-12 11:44:54	nukke	I mean, it would add an extra attach vector.
+2016-03-12 11:45:11	nukke	s/ch/ck/
+2016-03-12 11:52:40	fsckd	Ok, anything more about dealing with the spammer?
+2016-03-12 11:52:51	nukke	simplest solution would be recaptcha
+2016-03-12 11:53:03	nukke	could be deployed almost instantly.
+2016-03-12 11:53:24	nukke	that's assuming it's a bot.
+2016-03-12 11:53:28	fsckd	Yeah, I am leaning towards that.
+2016-03-12 11:54:05	fsckd	Given what our existing captcha is and form what appears in the logs, I think think it's a bot targeting us.
+2016-03-12 11:54:33	fsckd	The timing of the attacks coincides with the appearance of a certain troll in #archlinux-newbie.
+2016-03-12 11:54:52	fsckd	Not hard evidence, but certainly suspicious.
+2016-03-12 11:56:31	fsckd	Next item on the agenda is classroom.
+2016-03-12 11:56:45	fsckd	There are two classes in progress.
+2016-03-12 11:57:11	nukke	where are these happening, btw?
+2016-03-12 11:57:26	fsckd	They are held in #archlinux-classroom.
+2016-03-12 11:58:27	fsckd	This is the Arch Women page, https://archwomen.org/wiki/projects:classroom:start
+2016-03-12 11:58:28	phrik	Title: Classroom [Arch Women Wiki] (at archwomen.org)
+2016-03-12 11:58:48	fsckd	And this is the Arch Wiki page, https://wiki.archlinux.org/index.php/Classroom
+2016-03-12 11:58:49	phrik	Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2016-03-12 12:00:38	fsckd	(Sorry, I forget there are newcomers here. If there's something you don't understand or are not familiar with, don't hesitate to interrupt me to ask for an explanation.)
+2016-03-12 12:01:32	belkinsa	I need to leave, sorry.  But I will still have the channel open and if you need me, please email me at belkinsa@ubuntu.com.
+2016-03-12 12:01:52	@meskarune	ok thanks belkinsa 
+2016-03-12 12:02:35	fsckd	belkinsa: Sure, thanks for stopping by. :)
+2016-03-12 12:03:53	fsckd	The first class is a C Programming class by halosghost.
+2016-03-12 12:04:28	fsckd	Unfortunately halosghost could not join us today.
+2016-03-12 12:05:15	fsckd	He did say that more feedback on the syllabus as it stands is welcome.
+2016-03-12 12:05:31	fsckd	This is the link to the syllabus, https://ptpb.pw/r/~alcclass
+2016-03-12 12:05:32	phrik	Title: pb (at ptpb.pw)
+2016-03-12 12:06:39	@meskarune	I think polyzen is afk right now
+2016-03-12 12:06:51	fsckd	Yes.
+2016-03-12 12:07:15	fsckd	polyzen is preparing a class on Git Basics.
+2016-03-12 12:08:36	fsckd	May be polyzen will show up later in which case we can go back to his class.
+2016-03-12 12:08:44	fsckd	Meanwhile we should move on.
+2016-03-12 12:12:38	fsckd	The next two topic concern meetings.
+2016-03-12 12:13:05	spider-mario	meta-meeting!
+2016-03-12 12:13:11	fsckd	Haha :P
+2016-03-12 12:14:41	@meskarune	ok
+2016-03-12 12:14:42	fsckd	A few meetings ago it was proposed to rename the files of meeting notes because GitHub is weird. But also to amke it match the names of files of meeting logs. This still needs to be done.
+2016-03-12 12:14:51	fsckd	make*
+2016-03-12 12:15:08	fsckd	Would anyone like to volunteer?
+2016-03-12 12:15:44	fsckd	Sorry I don't have the details on me at the moment. It would be a simple git pull, rename the files, commit, and make a pull request.
+2016-03-12 12:16:02	tigrfluff	I think I already did, but haven't followed through.
+2016-03-12 12:16:07	fsckd	Then I'd add some rewrite or redirect rule to lighttpd's config.
+2016-03-12 12:16:20	fsckd	tigrfluff: Oh, did you?
+2016-03-12 12:16:35	tigrfluff	I'll talk to polyzen about it.
+2016-03-12 12:16:50	fsckd	tigrfluff: Ok, thanks. Let me know what happens. :)
+2016-03-12 12:16:58	tigrfluff	K.  :)
+2016-03-12 12:17:32	fsckd	Once the rename is done, I can edit lighttpd's config so that old URLs point to the new names.
+2016-03-12 12:19:27	@meskarune	\o/
+2016-03-12 12:20:24	fsckd	The stuff was already decided. Just need to actually implement and test things.
+2016-03-12 12:20:58	fsckd	Next meeting item is also meetings...
+2016-03-12 12:21:07	fsckd	also on*
+2016-03-12 12:22:00	fsckd	We need volunteers to help run meetings. Specifically we need people who can make log files and help draft meeting notes.
+2016-03-12 12:22:24	amani_glugcal	can't that be automated
+2016-03-12 12:22:38	@meskarune	yeah, it would be cool if we had a meeting bot or something
+2016-03-12 12:22:46	fsckd	Totally.
+2016-03-12 12:23:01	Mikaela	https://wiki.ubuntu.com/meetingology the source is at launchpad
+2016-03-12 12:23:02	phrik	Title: meetingology - Ubuntu Wiki (at wiki.ubuntu.com)
+2016-03-12 12:23:14	 ▶ 	akk (~akkana@75-161-35-199.albq.qwest.net) has joined #archlinux-women
+2016-03-12 12:23:27	@meskarune	https://wiki.debian.org/MeetBot
+2016-03-12 12:23:28	phrik	Title: MeetBot - Debian Wiki (at wiki.debian.org)
+2016-03-12 12:23:39	Mikaela	meetingology is improved fork of MeetBot
+2016-03-12 12:23:44	@meskarune	yeah, I'm working on a bot, and really need to finish it so plugins can be added
+2016-03-12 12:23:49	@meskarune	oh nice Mikaela 
+2016-03-12 12:25:10	fsckd	The logs and notes are stored in a git repo. It would just be saving, git commit, and git push. :)
+2016-03-12 12:25:27	fsckd	A bot could do it, for sure.
+2016-03-12 12:26:18	Mikaela	possibly (un?)related(?), I have owner access to the meetingology, but as it's Ubuntu's bot, I have only joined it to Ubuntu channels when asked on #ubuntu-irc, but in theory nothing restricts it to Ubuntu channels. I just have no idea whom should be asked if it was wanted outside of Ubuntu channels (AlanBell maybe, but I haven't managed to get any contact with them in a long time) and I don't know
+2016-03-12 12:26:18	Mikaela	how undesirable it would be to have name of another distribution in the link
+2016-03-12 12:29:02	Mikaela	(Why do I have owner access to meetingology? I complained about it running outdated versions of Limnoria for a long time which is how these things always start...)
+2016-03-12 12:29:27	fsckd	Haha
+2016-03-12 12:29:38	fsckd	Happens to me too. :P
+2016-03-12 12:31:10	@meskarune	yeah, I think we should plan on automating meeting stuffs as much as we can )
+2016-03-12 12:31:12	@meskarune	:)
+2016-03-12 12:31:37	fsckd	Sounds like a plan. :)
+2016-03-12 12:33:41	Mikaela	for reference, the source for meetingology (supybot plugin) is at https://code.launchpad.net/~ubuntu-bots/ubuntu-bots/meetingology and in case someone setups a bot using it, Limnoria is the only currently developed choice (unless further development started happening since I was thrown out) and while they recommend Python 3, that plugin currently supports only Python 2 and there is Mikaela at issue
+2016-03-12 12:33:42	Mikaela	tracker complaining about it
+2016-03-12 12:33:42	phrik	Title: meetingology : Code : Ubuntu IRC Bots (at code.launchpad.net)
+2016-03-12 12:37:53	@meskarune	Mikaela: thanks. I'm writing a python bot, so maybe I can make a plugin and port the code to python 3
+2016-03-12 12:38:07	Mikaela	you're welcome
+2016-03-12 12:41:00	@meskarune	is that all the meeting stuffs?
+2016-03-12 12:41:16	fsckd	The meeting section fo the meeting, yes. :P
+2016-03-12 12:42:01	fsckd	The last item on the agenda is coordinating and sharing resources with other FOSS groups.
+2016-03-12 12:42:48	fsckd	meskarune: I believe you are more familiar with this than I am. If you would like to take the lead.
+2016-03-12 12:42:59	@meskarune	ok
+2016-03-12 12:43:14	@meskarune	we've been in contact with some people from fedora and ubuntu
+2016-03-12 12:43:36	@meskarune	we'd like to share mentors and maybe combined classes and whatever other resources
+2016-03-12 12:43:50	amani_glugcal	Makes sense
+2016-03-12 12:43:51	@meskarune	since many of the projects we all have are similar
+2016-03-12 12:44:17	@meskarune	and also many women's tech groups are rather small
+2016-03-12 12:44:20	@meskarune	so combined we can do more
+2016-03-12 12:44:26	amani_glugcal	Classes should be easier and more esoteric areas
+2016-03-12 12:44:33	amani_glugcal	on
+2016-03-12 12:44:48	@meskarune	we have had a classroom type program for a while, and I belive ubuntu has soemthing like that
+2016-03-12 12:44:52	@meskarune	ubuntu classroom
+2016-03-12 12:45:21	amani_glugcal	in UW we have lots of members ... but we are not very active
+2016-03-12 12:45:42	@meskarune	yeah I see
+2016-03-12 12:45:50	@meskarune	maybe we can work on having some events?
+2016-03-12 12:45:58	amani_glugcal	yes
+2016-03-12 12:46:47	@meskarune	does ubuntu women have any events right now?
+2016-03-12 12:47:01	amani_glugcal	wat has been happening is that many members hav moved to specialized areas
+2016-03-12 12:47:03	@meskarune	also arch women can help promote on social media and stuff
+2016-03-12 12:47:52	amani_glugcal	UW has no events ... we need to fix web parts
+2016-03-12 12:48:11	amani_glugcal	yes we can think of classes in .........
+2016-03-12 12:48:34	amani_glugcal	Julia?
+2016-03-12 12:48:41	amani_glugcal	GIMP?
+2016-03-12 12:48:58	amani_glugcal	or specificprojects 
+2016-03-12 12:49:06	@meskarune	yeah totally
+2016-03-12 12:49:35	@meskarune	maybe also things like using git, filing useful bug reports, editing a wiki
+2016-03-12 12:49:38	nukke	why not poll users?
+2016-03-12 12:49:51	@meskarune	that sort of stuff will be useful in many FOSS projects
+2016-03-12 12:49:59	nukke	yes, filing bug reports would be a great class.
+2016-03-12 12:50:06	jy2wong	++ for bug report class
+2016-03-12 12:50:09	Mikaela	UW also has a FB group which has been silent for a long time until 14h ago that one post happened and silence after it too https://www.facebook.com/groups/ubuntuwomen/?fref=ts
+2016-03-12 12:50:11	phrik	Title: Willkommen bei Facebook (at www.facebook.com)
+2016-03-12 12:50:21	amani_glugcal	poll users
+2016-03-12 12:50:37	amani_glugcal	I hav a G+ group
+2016-03-12 12:50:37	@meskarune	yeah. On the arch wiki we have a section for requested classes
+2016-03-12 12:50:55	@meskarune	https://wiki.archlinux.org/index.php/Classroom#Requested_classes
+2016-03-12 12:50:56	phrik	Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2016-03-12 12:51:02	@meskarune	people have added those sorts of things themselves
+2016-03-12 12:51:42	@meskarune	a few are arch specific but most would be useful for any linux user
+2016-03-12 12:53:10	amani_glugcal	So we have joint classes
+2016-03-12 12:53:21	Mikaela	did the pad just die?
+2016-03-12 12:53:39	@meskarune	yeah, I managed to save the into to a gist though
+2016-03-12 12:53:45	@meskarune	s/into/info/
+2016-03-12 12:54:09	@meskarune	amani_glugcal: yeah, I think joint classes would be great as well as cross promotion as many people dual boot multiple OS's
+2016-03-12 12:54:22	@meskarune	or maybe just want to increase their knowledge 
+2016-03-12 12:54:55	@meskarune	like a packaging class for ubuntu would be very useful for an arch software dev who wanted to make packages for other distros
+2016-03-12 12:55:06	jy2wong	I have some time today to plan for a classroom
+2016-03-12 12:55:13	@meskarune	oh awesome
+2016-03-12 12:55:16	@meskarune	thanks jy2wong 
+2016-03-12 12:55:22	fsckd	\o/
+2016-03-12 12:56:03	jy2wong	not sure if halosghost wants help with a specific section of the C series or what
+2016-03-12 12:56:21	@meskarune	he could probably use help with the sylabus 
+2016-03-12 12:56:46	@meskarune	https://ptpb.pw/r/~alcclass
+2016-03-12 12:56:47	phrik	Title: pb (at ptpb.pw)
+2016-03-12 12:57:03	fsckd	You should talk to him. He's very receptive to suggestions.
+2016-03-12 12:57:13	@meskarune	amani_glugcal: so I think we could share classroom stuff, cross promotion of events, mentors, etc
+2016-03-12 12:57:29	amani_glugcal	fine
+2016-03-12 12:57:38	@meskarune	I think it would be helpful to share notes on comunity organizing as well
+2016-03-12 12:57:49	@meskarune	I'm sure there is a ton I can learn from you guys and the fedora folks
+2016-03-12 12:58:23	@meskarune	we haven't gone to any events like cons and such and don't really have marketing materials, you guys seems to have a lot of stuff very well organized
+2016-03-12 12:58:48	amani_glugcal	the classes that people want to teach ... in arch wiki ... are related to core areas ... but people show lot of interest in upcoming areas
+2016-03-12 12:58:52	jy2wong	A canned intro of segfaulting code and some light instructions of how to debug/fix it? (see jy2wong) <-- well that makes it easy to decide what to do lol
+2016-03-12 12:59:14	@meskarune	amani_glugcal: yeah, maybe ubuntu can also have a way to request classes from their users?
+2016-03-12 12:59:19	amani_glugcal	for example GNU/R + shiny is a hot topic
+2016-03-12 12:59:55	amani_glugcal	there are many mailing lists ... if some of us coordinate ... would work
+2016-03-12 13:00:02	@meskarune	sounds good to me
+2016-03-12 13:00:13	@meskarune	I think there are far fewer teachers than there are people who want to learn
+2016-03-12 13:00:34	@meskarune	so if you have someone who is willing to teach something we can totally show up to learn and vis versa
+2016-03-12 13:00:47	fsckd	jy2wong: lol, I forgot about that. This is why I made that upcoming classes table. :P
+2016-03-12 13:01:08	@meskarune	amani_glugcal: which mailing lists do you think would be good?
+2016-03-12 13:01:19	@meskarune	ubuntu women or ubuntu classroom...?
+2016-03-12 13:01:33	@meskarune	also for planning out how to share mentors and whatever else
+2016-03-12 13:01:42	amani_glugcal	I can post to many ubuntu + fedora lists
+2016-03-12 13:01:59	amani_glugcal	am on ubuntu women list is active
+2016-03-12 13:02:14	amani_glugcal	am on arch list too ... 
+2016-03-12 13:02:34	amani_glugcal	but do people announce enough
+2016-03-12 13:04:20	@meskarune	ok sounds good
+2016-03-12 13:04:30	amani_glugcal	ubuntu-women would be fine 
+2016-03-12 13:04:30	@meskarune	and I can show up to y'alls meetings
+2016-03-12 13:05:16	ℹ 	marcusw_ is now known as marcusw
+2016-03-12 13:05:23	amani_glugcal	arch-women last post was on jan 12
+2016-03-12 13:05:46	Mikaela	where is arch-women mailing list? I think I might not be on it
+2016-03-12 13:06:38	@meskarune	https://lists.archlinux.org/listinfo/arch-women
+2016-03-12 13:06:40	phrik	Title: arch-women Info Page (at lists.archlinux.org)
+2016-03-12 13:06:46	@meskarune	I need to post on it more often >.>
+2016-03-12 13:07:19	@meskarune	I'm subbed to linuxchix and ubuntu women already 
+2016-03-12 13:07:39	Mikaela	where is linuxchix ML? I am sure that I am not on it
+2016-03-12 13:07:45	amani_glugcal	wat about systers
+2016-03-12 13:08:48	Mikaela	http://linuxchix.org/content/join-our-email-lists-or-read-archives apparently, but there are too many of them, so I am staying away
+2016-03-12 13:08:49	phrik	Title: Join our email lists (or read the archives) | LinuxChix (at linuxchix.org)
+2016-03-12 13:09:20	amani_glugcal	Mikaela ... join the tech-talk mailing list there
+2016-03-12 13:10:25	Mikaela	ok
+2016-03-12 13:11:34	@meskarune	Mikaela: I think actionchix is the main one that works on projects
+2016-03-12 13:11:43	@meskarune	http://mailman.linuxchix.org/mailman/listinfo/actionchix
+2016-03-12 13:11:44	phrik	Title: Actionchix Info Page (at mailman.linuxchix.org)
+2016-03-12 13:12:45	✻	Mikaela joined arch-women, techtalk & actionchix
+2016-03-12 13:13:17	@meskarune	\o/
+2016-03-12 13:13:30	@meskarune	sometimes there are some really awesome links to resources or jobs
+2016-03-12 13:14:11	@meskarune	ok, so maybe I can write up a preliminary plan and post to some mailing lists and get input?
+2016-03-12 13:14:23	@meskarune	or amani_glugcal if you want to :)
+2016-03-12 13:15:06	amani_glugcal	yes, please do ... will reply
+2016-03-12 13:15:14	Mikaela	this sounds like something that needs a pad for everyone to write something
+2016-03-12 13:15:15	@meskarune	ok
+2016-03-12 13:15:23	@meskarune	oh good idea Mikaela 
+2016-03-12 13:15:32	amani_glugcal	k.
+2016-03-12 13:16:20	@meskarune	jy2wong: maybe you can add to or make edits of the sylabus and throw it into a gist or something :)
+2016-03-12 13:16:34	@meskarune	halosghost is currently traveling 
+2016-03-12 13:17:08	@meskarune	https://etherpad.wikimedia.org/
+2016-03-12 13:17:10	phrik	Title: Etherpad (at etherpad.wikimedia.org)
+2016-03-12 13:17:16	@meskarune	since riseup is down atm I think
+2016-03-12 13:17:40	@meskarune	https://etherpad.wikimedia.org/
+2016-03-12 13:17:41	phrik	Title: Etherpad (at etherpad.wikimedia.org)
+2016-03-12 13:17:53	@meskarune	they are both ssl enabed, so which ever you trust more ;)
+2016-03-12 13:18:41	@meskarune	oh er, https://etherpad.mozilla.org
+2016-03-12 13:18:45	phrik	Title: Etherpad (at etherpad.mozilla.org)
+2016-03-12 13:18:59	@meskarune	wikimedia and mozilla both have etherpads
+2016-03-12 13:19:40	amani_glugcal	https://etherpad.wikimedia.org/p/Mega_Free_Software_Classroom
+2016-03-12 13:19:41	phrik	Title: Etherpad (at etherpad.wikimedia.org)
+2016-03-12 13:21:02	@meskarune	ok, we can work on that and I think that is the last agenda item in the meeting?
+2016-03-12 13:21:17	@meskarune	oh fsckd 
+2016-03-12 13:21:18	@meskarune	:)
+2016-03-12 13:21:55	fsckd	hi :)
+2016-03-12 13:22:10	@meskarune	idk if you wanna do the honors
+2016-03-12 13:22:11	fsckd	I was following along. I didn't fall asleep, I swear!
+2016-03-12 13:22:14	@meskarune	:P
+2016-03-12 13:22:19	fsckd	Sure :)
+2016-03-12 13:22:46	fsckd	One moment...
+2016-03-12 13:23:47	fsckd	========== Meeting Terminated ==========
+2016-03-12 13:24:22	fsckd	unloading core.meeting....

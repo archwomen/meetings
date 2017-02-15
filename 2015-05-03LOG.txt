@@ -1,0 +1,257 @@
+2015-05-03 12:17:00 <tigrmesh>	===========  Begin Arch Linux Women IRC Meeting, 3 May 2015  ===========
+2015-05-03 12:17:21 <MrElendig>	Bring out your dead!
+2015-05-03 12:17:25 <tigrmesh>	hehe
+2015-05-03 12:17:32 <tigrmesh>	that's coming up
+2015-05-03 12:17:35 <fsckd>	!grab MrElendig 
+2015-05-03 12:17:35 <phrik>	fsckd: Tada!
+2015-05-03 12:17:41 <tigrmesh>	so any server updates?
+2015-05-03 12:17:52 <tigrmesh>	*updates about the server?
+2015-05-03 12:17:59 <meskarune>	:D
+2015-05-03 12:18:04 <fsckd>	meeting notes here: https://pad.riseup.net/p/arch-women-meeting_May_2015
+2015-05-03 12:18:05 <phrik>	Title: Riseup Pad (at pad.riseup.net)
+2015-05-03 12:22:38 <tigrmesh>	no?
+2015-05-03 12:22:42 <tigrmesh>	ok
+2015-05-03 12:22:48 <halosghost>	lol
+2015-05-03 12:23:40 <tigrmesh>	so we never had the small group meeting about mentorship, and we decided to move it to the mailing list
+2015-05-03 12:24:36 <meskarune>	I need to post to that, but my mail client keeps crashing
+2015-05-03 12:24:50 <meskarune>	too many mails T_T
+2015-05-03 12:25:00 <tigrmesh>	would anyone object to moved it back to IRC and set a time now?
+2015-05-03 12:25:05 <tigrmesh>	*if we
+2015-05-03 12:25:20 <tigrmesh>	we could post on the mailing list when the meeting will be
+2015-05-03 12:26:06 <tigrmesh>	i'm not much of an email person either.  this is where the bulk of arch women's activity happens.  at least so far
+2015-05-03 12:26:49 <fsckd>	it's hard to schedule a meeting. ml allows people to reply whenever it is convenient to them.
+2015-05-03 12:27:28 <tigrmesh>	true
+2015-05-03 12:27:45 <meskarune>	yeah, we had a hard time finding a time everyone could meet up that wanted to meet
+2015-05-03 12:27:51 <tigrmesh>	ok
+2015-05-03 12:28:14 <fsckd>	the topics are large. i'm thinking two or three email threads.
+2015-05-03 12:32:31 *	markuman (~markuman@gir.cloud.tilaa.com) has joined
+2015-05-03 12:35:01 <tigrmesh>	the list has 18 non-digested subscribers and 2 digested.  cool
+2015-05-03 12:35:29 <CalimeroTeknik>	if the ML has a public archive, a bot could post links to new e-mail in the IRC channel
+2015-05-03 12:35:35 <tigrmesh>	fsckd, what would be one to start with
+2015-05-03 12:35:37 <tigrmesh>	true
+2015-05-03 12:36:33 <fsckd>	start what with?
+2015-05-03 12:37:38 <tigrmesh>	my mind is blank, but i'd like to post something about it to the list
+2015-05-03 12:38:18 <fsckd>	assuming you are talking about the mentorship emails, this was the agenda for the meeting, https://archwomen.org/~fsckd/arch-women-mentorship-meeting-March_2015.txt
+2015-05-03 12:38:38 <fsckd>	that's a number of topics, some related.
+2015-05-03 12:39:36 <fsckd>	each topic could get its own thread, but related ones can be grouped into the same thread.
+2015-05-03 12:40:09 <fsckd>	CalimeroTeknik: that is a good idea. at the least post new threads.
+2015-05-03 12:49:13 <meskarune>	maybe we can pimp out the mailing list a bit
+2015-05-03 12:49:28 <vodik>	woah, i'm actually around
+2015-05-03 12:49:41 <fsckd>	a wild vodik appears
+2015-05-03 12:50:20 *	vodik combs unkempt hair to be presentable
+2015-05-03 12:50:24 <meskarune>	;)
+2015-05-03 12:50:38 <vodik>	carry on, talk amongst yourselves
+2015-05-03 12:50:39 <meskarune>	I am a square
+2015-05-03 12:56:26 <meskarune>	(around asquare) :P
+2015-05-03 12:56:37 <meskarune>	anyways, should we talk about mentorship stuff or classes now?
+2015-05-03 12:56:43 <meskarune>	halosghost, jy2wong are ya'll around?
+2015-05-03 12:57:24 <halosghost>	pong
+2015-05-03 12:58:04 <halosghost>	classy things?
+2015-05-03 12:58:53 <tigrmesh>	i'm going to take fsckd's list and paste the whole thing into an email to get the discussion started
+2015-05-03 12:59:38 <tigrmesh>	unless someone stops me in the next 10 minutes
+2015-05-03 13:00:50 <tigrmesh>	i think we've covered mentorship since it's been moved to the mailing list.  meskarune did you want to add something now?
+2015-05-03 13:03:47 <tigrmesh>	jy2wong can't be here to say more about her class
+2015-05-03 13:04:26 *	tuxampol (~Mylin@ppp-188-174-8-87.dynamic.mnet-online.de) has joined
+2015-05-03 13:05:14 <tigrmesh>	halosghost, is your class close to being ready?  we can make the title something like, "An imperfect introduction to static typing"
+2015-05-03 13:05:37 <halosghost>	I think it is ready, yeah
+2015-05-03 13:05:42 <tigrmesh>	\o/
+2015-05-03 13:05:52 <halosghost>	but, now that I have a full-time jobby thing, I'm not sure when the best time to hold it would be
+2015-05-03 13:06:09 <tigrmesh>	the time you're available
+2015-05-03 13:06:12 <halosghost>	I suppose I still get off work fairly early, so 16/16.30 CST
+2015-05-03 13:06:17 <halosghost>	on weekdays
+2015-05-03 13:06:24 <halosghost>	but that won't work for many people, I imagine
+2015-05-03 13:08:16 <halosghost>	well, I'll figure out a time and hopefully hold the first session in the next two weeks
+2015-05-03 13:08:17 <halosghost>	does that sound good?
+2015-05-03 13:09:22 <meskarune>	thats fine :)
+2015-05-03 13:09:28 <meskarune>	whenever is good for you
+2015-05-03 13:09:59 <tigrmesh>	what time is that UTC?
+2015-05-03 13:09:59 <halosghost>	all right
+2015-05-03 13:10:07 <halosghost>	good question
+2015-05-03 13:10:32 <halosghost>	21/21.30 UTC
+2015-05-03 13:10:37 <halosghost>	apparently
+2015-05-03 13:10:40 <halosghost>	:P
+2015-05-03 13:10:47 <tigrmesh>	ok
+2015-05-03 13:11:04 <halosghost>	yeah, because CDT == UTC - 5
+2015-05-03 13:12:56 <halosghost>	all right, then I'll go through the syllabus again and make sure I'm set to walk others through the basics
+2015-05-03 13:12:58 <tigrmesh>	bottom line, a class has to be given at a good time for the presenter.  but i still need to ask this.  is there any way you can give it on a weekend day so it can be at a time someone in poland can attend?
+2015-05-03 13:13:18 <halosghost>	it depends
+2015-05-03 13:13:29 <halosghost>	I'm not free this weekend (moving), and next weekend might not be free
+2015-05-03 13:13:52 <tigrmesh>	moving takes much longer than expected
+2015-05-03 13:13:52 <halosghost>	if it's better to get it done when the largeest number of people can be there, then in three weeks, I might be able to
+2015-05-03 13:14:00 <meskarune>	ok
+2015-05-03 13:14:00 <halosghost>	tigrmesh: well, in this case, it won't really :)
+2015-05-03 13:14:28 <halosghost>	also, is the notion that it'll be done in-IRC?
+2015-05-03 13:14:53 <tigrmesh>	you might not be able to give it before that either, since preparing to move takes a lot of time as well
+2015-05-03 13:15:07 <halosghost>	tigrmesh: in this case, not really
+2015-05-03 13:15:24 <halosghost>	I have the whole month to move
+2015-05-03 13:15:29 <halosghost>	just that this upcoming weekend, my parents will be here to help
+2015-05-03 13:15:36 <tigrmesh>	ahh.  gotcha
+2015-05-03 13:16:23 <tigrmesh>	ok
+2015-05-03 13:16:41 <tigrmesh>	so when would be best *for you*?
+2015-05-03 13:17:04 <halosghost>	¯\o/¯
+2015-05-03 13:17:26 <halosghost>	like I said, weekdays after I get off work are simplest because I'm free and likely won't have any plans
+2015-05-03 13:17:32 <tigrmesh>	ok
+2015-05-03 13:17:43 <tigrmesh>	give a time. 
+2015-05-03 13:18:06 <halosghost>	I already gave a time, do you mean a date?
+2015-05-03 13:18:12 <tigrmesh>	yeah
+2015-05-03 13:18:26 <halosghost>	hrm
+2015-05-03 13:18:51 <halosghost>	14 May?
+2015-05-03 13:19:10 <halosghost>	(the day after I finish a large-scale product launch at work, should mean I'm much more laid-back :P)
+2015-05-03 13:20:23 <meskarune>	\o/
+2015-05-03 13:21:10 <tigrmesh>	so shall we give the additional half hour and say 21:30 UTC?  
+2015-05-03 13:21:36 <halosghost>	sure
+2015-05-03 13:21:46 <halosghost>	but, I'm still unsure of what is the best way to hold the class
+2015-05-03 13:21:55 <halosghost>	since I'll want to show code snippets and the like
+2015-05-03 13:21:59 <tigrmesh>	so class will be 14 May 2015 at 21:30 UTC  <<<  class
+2015-05-03 13:22:30 <tigrmesh>	did you have a particular technology in mind?
+2015-05-03 13:23:00 <halosghost>	not really
+2015-05-03 13:23:08 <halosghost>	we've talked about this before but never really settled on anything
+2015-05-03 13:23:16 <tigrmesh>	right.
+2015-05-03 13:23:20 <meskarune>	code snippets could go into a git repo or website
+2015-05-03 13:23:25 <halosghost>	I mean, I can just leverage a pastebin
+2015-05-03 13:23:27 <halosghost>	yeah
+2015-05-03 13:23:53 <tigrmesh>	or a riseup pad
+2015-05-03 13:24:44 <tigrmesh>	if you want to do it a different way than irc + pastebin or whatever, research and give us an update.
+2015-05-03 13:25:06 <halosghost>	yeah
+2015-05-03 13:25:08 <halosghost>	will do
+2015-05-03 13:25:59 <tigrmesh>	i'd like to have this as concrete as possible.  we can set the specific time and to happen on irc.  and change the format/tech if you want
+2015-05-03 13:26:25 <tigrmesh>	i'd prefer to not have finding the tech to hold up the class.
+2015-05-03 13:26:33 <tigrmesh>	does that make sense?
+2015-05-03 13:28:19 <halosghost>	definitely
+2015-05-03 13:28:28 <halosghost>	call it IRC + ptpb snippets for now
+2015-05-03 13:28:49 <halosghost>	should we need to change the tech, I'll ping you in here and we can discuss it
+2015-05-03 13:29:09 <tigrmesh>	awesome
+2015-05-03 13:32:04 <tigrmesh>	it's official
+2015-05-03 13:32:29 <halosghost>	:D
+2015-05-03 13:32:30 <tigrmesh>	class  >>  class will be held on 14 May 2015 at 21:30 UTC in #archlinux-classroom  <<  class
+2015-05-03 13:32:47 <meskarune>	yay
+2015-05-03 13:32:50 <tigrmesh>	there is a possilility of using a different format, an update will be given if so.  but the time and date are firm.
+2015-05-03 13:32:56 <tigrmesh>	\o/
+2015-05-03 13:33:35 <tigrmesh>	anything else anyone wants to bring up?  comments, questions?
+2015-05-03 13:37:14 <tigrmesh>	i'm going to give it another couple of minutes
+2015-05-03 13:37:29 <tigrmesh>	in case someone was getting more tea or whatever
+2015-05-03 13:37:43 <halosghost>	meskarune mentioned she'd be interested in seeing another PKGBUILD or a git class
+2015-05-03 13:37:46 <Aremis117>	idea, just out of the side of my head
+2015-05-03 13:38:04 <meskarune>	\o/
+2015-05-03 13:38:16 <Aremis117>	For the IRC channel, a minecraft server.  I dunno just kinda popped up.  Might be fun for some people
+2015-05-03 13:38:32 <meskarune>	that does sound fun :)
+2015-05-03 13:38:40 <tigrmesh>	hehe
+2015-05-03 13:38:41 <Aremis117>	!shrug
+2015-05-03 13:38:42 <phrik>	¯\(º_o)/¯
+2015-05-03 13:39:13 <tigrmesh>	anyone want to give a pkguild class?  or git?
+2015-05-03 13:39:34 <meskarune>	we could maybe throw minecraft onto the dataserver adn have a weekend event or something :)
+2015-05-03 13:40:25 <halosghost>	kaictl did a PKGBUILD class once
+2015-05-03 13:40:31 <halosghost>	I wonder if ey'd be up for a repeat
+2015-05-03 13:40:50 <tigrmesh>	i know, right?  i've pinged him to ask
+2015-05-03 13:40:51 <meskarune>	or demize ;)
+2015-05-03 13:40:59 <meskarune>	new TU powars
+2015-05-03 13:41:04 <tigrmesh>	right
+2015-05-03 13:41:22 <meskarune>	really for PKGBUILD we have previous classes for people to go on :)
+2015-05-03 13:41:48 <halosghost>	also, it might be a bit too mathy/out-there for a class here, but I've been tripping over the λ-calculus for a while now and I'm minorly in-love
+2015-05-03 13:41:58 <halosghost>	if that's something people would be interested in, I'd consider writing one up
+2015-05-03 13:42:04 *	Notify: Svetlana is online (freenode)
+2015-05-03 13:42:04 *	[Svetlana] (~cabotaje@160.pool85-55-201.dynamic.orange.es): purple
+2015-05-03 13:42:04 *	[Svetlana] cameron.freenode.net :Vilnius, Lithuania, EU
+2015-05-03 13:42:04 *	[Svetlana] idle 00:00:01, signon: Sun May 03 13:42:02
+2015-05-03 13:42:04 *	[Svetlana] End of WHOIS list.
+2015-05-03 13:42:06 <tigrmesh>	i know!  14 may:  arch women pajama party and static typing party
+2015-05-03 13:42:12 <halosghost>	legit
+2015-05-03 13:42:48 <tigrmesh>	please let halosghost know if a λ-calculus class is something you'd be interested in
+2015-05-03 13:42:53 <meskarune>	arch classroom is classes for arch users :P
+2015-05-03 13:42:58 <tigrmesh>	yeah
+2015-05-03 13:43:02 <meskarune>	so whatever people wanna teach/learn
+2015-05-03 13:43:28 <meskarune>	I think study groups for learning to program would be cool too, but we need more people involved
+2015-05-03 13:43:41 <tigrmesh>	yeah
+2015-05-03 13:46:17 <fsckd>	do it, lambda calculus class!
+2015-05-03 13:46:22 <fsckd>	!doit
+2015-05-03 13:46:23 <phrik>	Dooooooooo eeeeeeeettttttttt
+2015-05-03 13:47:05 <fsckd>	brb, hiring a plane to draw "Just do it man!" over hg's house
+2015-05-03 13:48:11 <halosghost>	lol
+2015-05-03 13:48:28 <halosghost>	Church Encoding, in particular, is fascinating to me
+2015-05-03 13:48:32 <halosghost>	so, maybe that'll happen
+2015-05-03 13:48:38 <halosghost>	after the whole static typing class though
+2015-05-03 13:48:51 <fsckd>	yeah, certainly
+2015-05-03 13:49:57 <fsckd>	here's something i'd like to add to the meeting agenda: https://archwomen.org/wiki/todo:classroom_license
+2015-05-03 13:49:58 <phrik>	Title: Classroom License [Arch Women Wiki] (at archwomen.org)
+2015-05-03 13:50:33 <fsckd>	should have handled it long ago but better late than never
+2015-05-03 13:50:50 <tigrmesh>	right
+2015-05-03 13:55:11 <tigrmesh>	*crickets chirp*
+2015-05-03 13:56:18 <fsckd>	crickets are considered lucky
+2015-05-03 13:56:40 <tigrmesh>	i know nothing about licenses.  and i haven't given a class.  halosghost, since you're presenting a class, have you given any thought to a license you'd want to use?
+2015-05-03 13:57:11 <halosghost>	either ISC, GPL or the Open Documentation License
+2015-05-03 13:57:33 <fsckd>	GPL? you mean GDL?
+2015-05-03 13:58:03 <halosghost>	s/, GPL.*/or the GDL/
+2015-05-03 13:58:19 <halosghost>	fsckd: thanks
+2015-05-03 13:58:24 <fsckd>	ok :)
+2015-05-03 13:58:40 <tigrmesh>	CalimeroTeknik, also taught a pkgbuild class.  perhaps he'd be interested in doing another
+2015-05-03 13:59:03 <fsckd>	arch wiki uses GDL. if there were to be information exchange with the arch wiki, gdl would be the choice.
+2015-05-03 13:59:53 *	Notify: Svetlana is offline (freenode)
+2015-05-03 14:00:25 *	Notify: Svetlana is online (freenode)
+2015-05-03 14:00:25 *	Notify: Svetlana is offline (freenode)
+2015-05-03 14:03:01 <meskarune>	sounds good to me
+2015-05-03 14:04:53 *	polyzen has quit (Ping timeout: 244 seconds)
+2015-05-03 14:11:48 <tigrmesh>	fsckd, do you want a decision now?
+2015-05-03 14:13:42 <tigrmesh>	also, do you have links to docs for that?
+2015-05-03 14:13:47 <tigrmesh>	*those?
+2015-05-03 14:13:56 <fsckd>	docs?
+2015-05-03 14:14:27 <tigrmesh>	like this  http://opensource.org/licenses/ISC
+2015-05-03 14:14:28 <phrik>	Title: ISC License (ISC) | Open Source Initiative (at opensource.org)
+2015-05-03 14:14:29 *	markuman (~markuman@gir.cloud.tilaa.com) has left ("WeeChat 1.1.1")
+2015-05-03 14:14:55 <fsckd>	in the todo page linked above i put links directly to the licenses listed in it.
+2015-05-03 14:15:16 *	tuxampol has quit (Quit: Verlassend)
+2015-05-03 14:15:20 <tigrmesh>	oh
+2015-05-03 14:15:37 <fsckd>	ISC is a short license :)
+2015-05-03 14:15:59 <tigrmesh>	which one is open documentation?
+2015-05-03 14:16:53 <fsckd>	not in that list
+2015-05-03 14:17:27 <halosghost>	tigrmesh: I meant the GDL really
+2015-05-03 14:18:12 <tigrmesh>	not this one?  GNU FDL - the license used on the Arch Linux wiki (http://www.gnu.org/copyleft/fdl.html)
+2015-05-03 14:18:13 <phrik>	Title: GNU Free Documentation License v1.3 - GNU Project - Free Software Foundation (at www.gnu.org)
+2015-05-03 14:18:20 <halosghost>	yeah, that one
+2015-05-03 14:18:55 *	polyzen (~poly@unaffiliated/polyzen) has joined
+2015-05-03 14:19:31 <tigrmesh>	do you have a link to the open documentation license?
+2015-05-03 14:20:33 <fsckd>	arch linux wiki has this at the bottom of every page: Content is available under GNU Free Documentation License 1.3 or later
+2015-05-03 14:23:10 <halosghost>	tigrmesh: I meant the GDL (what you called the FDL)
+2015-05-03 14:23:41 <tigrmesh>	halosghost, sorry about this.  but i have acronym overload really fast when it comes to license stuff.  so please confirm.  by "Open Documentation License" you meant GNU FDL the arch wiki license?
+2015-05-03 14:23:52 <halosghost>	yes
+2015-05-03 14:24:07 <fsckd>	i think something like this, (1) decide on license (2) get past teachers who have their stuff in classroom-media to license their stuff in classroom-media with that license (3) ??? (4) profit
+2015-05-03 14:24:09 <tigrmesh>	\o/
+2015-05-03 14:24:14 <fsckd>	g2g have fun
+2015-05-03 14:24:51 <tigrmesh>	halosghost, how do you feel about this one?
+2015-05-03 14:24:57 <tigrmesh>	http://creativecommons.org/licenses/by-nc-sa/3.0/
+2015-05-03 14:25:00 <phrik>	Title: Creative Commons — Attribution-NonCommercial-ShareAlike 3.0 Unported — CC BY-NC-SA 3.0 (at creativecommons.org)
+2015-05-03 14:25:15 <halosghost>	CC BY-NC-SA is fine too
+2015-05-03 14:33:47 <tigrmesh>	does the ISC have another name?  also, one downside is that ISC actually has the person's info in the license
+2015-05-03 14:36:10 <tigrmesh>	fsckd, did you want a decision today?
+2015-05-03 14:36:48 <meskarune>	I mostly use NC-SA but if Arch uses GDL thats probably good too
+2015-05-03 14:41:15 <meskarune>	does anyone know why Arch peeps choose GDL over other licenses?
+2015-05-03 14:41:31 <halosghost>	I mean, that's just for documentation
+2015-05-03 14:41:32 <fsckd>	tigrmesh: sure, if possible.
+2015-05-03 14:41:54 <halosghost>	and I bet it was mostly just because the ArchWiki chose it
+2015-05-03 14:42:02 <tigrmesh>	um.  not sure how to proceed.  we can ask all former contributors, and the let the person who has the most interest in one gets to choose.  in case of no decision or a tie, the person who gets the highest score on 2048 gets to decide
+2015-05-03 14:42:19 <halosghost>	lol
+2015-05-03 14:42:37 <fsckd>	i have the lowest score :(
+2015-05-03 14:42:54 <tigrmesh>	*and let the person who has the most interest in one particular license get
+2015-05-03 14:43:14 <tigrmesh>	use the phone, luke
+2015-05-03 14:43:36 <tigrmesh>	it's in the fdroid repo
+2015-05-03 14:44:45 <tigrmesh>	load it on your phone, drive to miami (NYC will do as substitute), pull over to calm down, play.  your score will improve exponentially!
+2015-05-03 14:46:01 <fsckd>	haha, 2048 bootcamp is in the parking lot in from of Walmart :P
+2015-05-03 14:46:26 <meskarune>	we could play rock, paper scissors ;)
+2015-05-03 14:46:39 <meskarune>	or just vote
+2015-05-03 14:47:00 <tigrmesh>	so the 3 candidates are CC BY-NC-SA 3.0, GNU FDL and ISC.  i'd be willing to contact the past contributors and ask their preference. 
+2015-05-03 14:47:03 *	kaipee has quit (Ping timeout: 250 seconds)
+2015-05-03 14:47:17 <tigrmesh>	and i'd suggest if none of them has one, we use the same as the arch wiki
+2015-05-03 14:48:36 <tigrmesh>	not suggest to them.  but as a guide in case there are no objections
+2015-05-03 14:48:43 <tigrmesh>	anyone here object?
+2015-05-03 14:48:54 <meskarune>	thats fine with me
+2015-05-03 14:49:25 <tigrmesh>	of course, if there come to be other suggestions, i'd bring that info back
+2015-05-03 14:49:28 <tigrmesh>	anyone?
+2015-05-03 14:49:32 <tigrmesh>	*else?
+2015-05-03 14:49:40 *	spider-mario has quit (Read error: Connection reset by peer)
+2015-05-03 14:51:10 <tigrmesh>	it would be nice to wrap this up
+2015-05-03 14:52:41 <tigrmesh>	one last thing.  if any of you might want to teach a class in the future, think about what license you'd want to use.  and let me know
+2015-05-03 14:53:37 *	demize (kyrias@archlinux/op/demize) has joined
+2015-05-03 14:55:38 <tigrmesh>	alright
+2015-05-03 14:57:48 <tigrmesh>	===========  End Arch Linux Women IRC Meeting, 3 May 2015  ===========
+
+Next meeting:  Sunday, 7 June, 2015
+

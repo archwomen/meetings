@@ -1,0 +1,490 @@
+2013-06-02 12:12:25	fsckd	************************ Meeting Begins ************************
+2013-06-02 12:12:52	+meskarune	ok, first items on the Agenda: Announcement and status updates
+2013-06-02 12:13:34	+meskarune	fsckd: wanna talk about your awesome irc bot?
+2013-06-02 12:13:41	fsckd	hehe
+2013-06-02 12:13:48	fsckd	it's in progress :P
+2013-06-02 12:13:53	+meskarune	:D
+2013-06-02 12:14:10	fsckd	i'll let you know by the end of the week if it can replace phrik
+2013-06-02 12:14:33	+meskarune	ok
+2013-06-02 12:14:38	fsckd	i'm making it extendable so features can be added
+2013-06-02 12:14:41	+meskarune	you are writing it in haskell ?
+2013-06-02 12:14:49	+meskarune	extensible is great :D
+2013-06-02 12:14:56	fsckd	right now i'm focusing on replacing the existing awbots
+2013-06-02 12:14:59	fsckd	yes, haskell
+2013-06-02 12:15:34	fsckd	because there's too much free disk space on the server :P
+2013-06-02 12:16:41	+meskarune	https://github.com/archwomen/awbot
+2013-06-02 12:16:43	phrik	Title: archwomen/awbot · GitHub (at github.com)
+2013-06-02 12:16:44	+meskarune	LOL fsckd 
+2013-06-02 12:17:50	+tigrmesh	hehe
+2013-06-02 12:18:14	fsckd	the haskell code isn't on the site yet. that which meskarune linked to is the code for the existing bot
+2013-06-02 12:18:36	fsckd	which will be replaced
+2013-06-02 12:18:37	+meskarune	^
+2013-06-02 12:19:21	+tigrmesh	in its infancy and already deprecated   
+2013-06-02 12:19:22	+tigrmesh	;)
+2013-06-02 12:19:29	fsckd	haha
+2013-06-02 12:22:02	+meskarune	so the bot will make the channel easier to mod, be informative, hopefully people can look at the code and learn, and it will be fun :D
+2013-06-02 12:22:25	fsckd	yeah :)
+2013-06-02 12:22:27	terra-and-luna	Superficial question: will it have quote support?
+2013-06-02 12:22:34	fsckd	i hope so
+2013-06-02 12:22:46	terra-and-luna	(and yeah, I look forward to browsing the code)
+2013-06-02 12:23:00	+tigrmesh	does informative mean easily added factoids?
+2013-06-02 12:23:27	fsckd	i hope so!
+2013-06-02 12:23:33	+tigrmesh	yay
+2013-06-02 12:23:39	+meskarune	it can also post announcements like blog posts, git updates, etc :D
+2013-06-02 12:23:45	+tigrmesh	cool
+2013-06-02 12:24:01	+meskarune	I want to learn haskell, so I might jump in amd make some simple things :)
+2013-06-02 12:24:06	+tigrmesh	:)
+2013-06-02 12:24:17	+meskarune	I've never used a functional lang before 
+2013-06-02 12:24:19	+meskarune	lol
+2013-06-02 12:24:35	+tigrmesh	anyone who wants to can added patches and bits of code too, right?
+2013-06-02 12:24:44	fsckd	yeah
+2013-06-02 12:25:03	fsckd	right now i've left stuff closed because i've been rehauling stuff every few days
+2013-06-02 12:25:20	fsckd	when the code is more stable (i hope this week) i'll put it on github
+2013-06-02 12:25:40	+meskarune	sounds good
+2013-06-02 12:25:43	+meskarune	ps: lag
+2013-06-02 12:25:48	+meskarune	might be on and off T_T
+2013-06-02 12:25:58	terra-and-luna	yay, githubbing~
+2013-06-02 12:25:58	fsckd	ok
+2013-06-02 12:26:27	fsckd	heh
+2013-06-02 12:26:30	+meskarune	thanks fsckd 
+2013-06-02 12:26:38	fsckd	:D
+2013-06-02 12:27:34	+meskarune	ok, next announcement
+2013-06-02 12:27:42	+meskarune	site is now secured with SSL!
+2013-06-02 12:27:49	+tigrmesh	yay!!!
+2013-06-02 12:27:59	+meskarune	if you go to http, it is redirected to https :D
+2013-06-02 12:28:12	+meskarune	SSL is important for privacy and security
+2013-06-02 12:28:48	terra-and-luna	Yup. Noticed it earlier today. S'nice.
+2013-06-02 12:28:52	+meskarune	the certificate is good for 4 years
+2013-06-02 12:29:22	fsckd	sweet
+2013-06-02 12:30:52	+tigrmesh	is that why you had to do things like switch  redmine.archwomen.org  to  archwomen.org/redmine ?
+2013-06-02 12:31:20	fsckd	yes
+2013-06-02 12:31:35	fsckd	subdomains are not covered by the cert
+2013-06-02 12:31:54	fsckd	(those cost waaaaay more)
+2013-06-02 12:31:56	+meskarune	we should also probably enable hsts on the server
+2013-06-02 12:32:05	+meskarune	yeah, wild card SSL certificates
+2013-06-02 12:33:44	ioni	one from starssl is not that expensive
+2013-06-02 12:34:01	ioni	startssl.com
+2013-06-02 12:34:15	ioni	60$ for 2 years
+2013-06-02 12:35:30	ioni	but now that you invested in another one, that's fine as well :D
+2013-06-02 12:35:53	+meskarune	lol
+2013-06-02 12:36:58	+meskarune	for $37 I got a cert for 4 years
+2013-06-02 12:37:08	+meskarune	i would have gotten a wild card if i had the money
+2013-06-02 12:38:46	+meskarune	we also changed the site structure into sub directories intead of subdomains so everything will be covered by the certificate
+2013-06-02 12:39:09	fsckd	yeah
+2013-06-02 12:41:36	+meskarune	ok, any other announcements?
+2013-06-02 12:42:32	fsckd	i guess that's it
+2013-06-02 12:42:50	+meskarune	awesoem
+2013-06-02 12:43:06	+meskarune	so now the discussion topics
+2013-06-02 12:43:23	-->	konundra (~michael@ec3137.student.earlham.edu) has joined #archlinux-women
+2013-06-02 12:43:30	+meskarune	first item is making a skills list so we can better organize contributions and have people find mentors
+2013-06-02 12:48:07	terra-and-luna	Stored where?
+2013-06-02 12:48:40	+tigrmesh	wiki, i think.  so it's things you don't mind others knowing
+2013-06-02 12:50:40	+tigrmesh	my skills are a willingness to use archlinux, i can use a webbrowser,  and show up for the meetings
+2013-06-02 12:51:06	terra-and-luna	i can edit writing and self-deprecate.
+2013-06-02 12:51:11	+tigrmesh	haha
+2013-06-02 12:51:25	+tigrmesh	what languages do you know?
+2013-06-02 12:52:17	+meskarune	tigrmesh is also great with irc :D
+2013-06-02 12:52:21	 *	meskarune not so much
+2013-06-02 12:52:42	 *	fsckd learned irc-fu from meskarune :P
+2013-06-02 12:52:48	terra-and-luna	some python, some C. s'about it, now that I think about it.
+2013-06-02 12:52:58	+meskarune	awesome
+2013-06-02 12:53:22	+tigrmesh	terra-and-luna: i bet there are people who know a lot less about them than you
+2013-06-02 12:54:30	terra-and-luna	Well... lampposts and the Amish, yes.
+2013-06-02 12:55:10	 *	tigrmesh raises her hand
+2013-06-02 12:55:19	+tigrmesh	i don't know either at all
+2013-06-02 12:55:36	fsckd	i want to get people on gitolite. there are already a couple of folks there.
+2013-06-02 12:55:40	+tigrmesh	i know cobol, if anyone's interested
+2013-06-02 12:55:48	+tigrmesh	to do what?
+2013-06-02 12:55:56	fsckd	when we want contributors for the blog, we can add them to gitolite too
+2013-06-02 12:56:16	fsckd	tigrmesh: various stuff, like coding, blog. there's a lot
+2013-06-02 12:56:20	+meskarune	that would  be great
+2013-06-02 12:56:31	+meskarune	we need to convert the blog posts to the new format
+2013-06-02 12:56:40	+meskarune	and start making new posts :)
+2013-06-02 12:57:05	+meskarune	I need to rename/move the web repo
+2013-06-02 12:57:23	+tigrmesh	k
+2013-06-02 12:57:34	fsckd	anyone who wants to help with that or something else, please come to #archlinux-women-dev
+2013-06-02 12:57:41	+tigrmesh	ok
+2013-06-02 12:57:46	fsckd	we should set up the groups in gitolite today
+2013-06-02 12:57:52	+tigrmesh	yes
+2013-06-02 12:58:04	-->	spaceships (~spaceship@host-72-174-137-126.msl-mt.client.bresnan.net) has joined #archlinux-women
+2013-06-02 12:58:11	fsckd	that's the last thing to be done with that
+2013-06-02 12:58:27	b3coutts	does said wiki, err, exist yet?
+2013-06-02 12:58:49	terra-and-luna	^
+2013-06-02 12:59:41	+tigrmesh	nope
+2013-06-02 12:59:46	+tigrmesh	PLUS,
+2013-06-02 13:00:30	+tigrmesh	we haven't heard from fsckd, b3coutts, meskarune, yardena, Sarah, and lots of others
+2013-06-02 13:00:41	+tigrmesh	cough it up, people
+2013-06-02 13:00:51	b3coutts	oh lol, forgot to change this back :P
+2013-06-02 13:00:52	--	b3coutts is now known as jy2wong
+2013-06-02 13:01:49	jy2wong	heard what from me?
+2013-06-02 13:02:04	+tigrmesh	about your skills.  for the skills list
+2013-06-02 13:02:30	+meskarune	I know html/css, some ssi, some python, a little php, a little bit about making PKGBUILDS, server administration, I can speak japanese, and I do graphic design 
+2013-06-02 13:02:36	+meskarune	I'm terrible at writting... :)
+2013-06-02 13:02:50	XReaper	Do the wiki in python
+2013-06-02 13:02:55	XReaper	:D
+2013-06-02 13:04:52	+tigrmesh	it's in redmine (ruby)
+2013-06-02 13:06:12	XReaper	Aww
+2013-06-02 13:06:22	jy2wong	for the definition of 'know' you are probably using, I know C, Python and Racket, and sorta know what I'm doing with ARM assembly. If you're including markup languages, I know my way around HTML/CSS and Latex.
+2013-06-02 13:06:27	XReaper	Oh, didn't know you already had it set up
+2013-06-02 13:07:51	+meskarune	lol XReaper 
+2013-06-02 13:08:01	+meskarune	XReaper: https://archwomen.org/redmine
+2013-06-02 13:08:05	+meskarune	its just the default theme right now
+2013-06-02 13:08:12	phrik	Title: Arch Linux Women: Project Manager (at archwomen.org)
+2013-06-02 13:08:34	terra-and-luna	When it's up, I'll add my small skills to it.
+2013-06-02 13:09:00	+meskarune	so where should we have the list of people at ?
+2013-06-02 13:09:09	+meskarune	its own site? redmine? what do ya'll think
+2013-06-02 13:09:42	vodik	fsckd: do you have your bot up on github?
+2013-06-02 13:09:42	+tigrmesh	my vote is in redmine in the arch women project
+2013-06-02 13:10:40	 *	carharttjimmy mosies into the meeting
+2013-06-02 13:10:56	+meskarune	[Dhai
+2013-06-02 13:11:36	carharttjimmy	My skills server side are in SQL :) And, I am working with fsckd on his/our? haskell bot
+2013-06-02 13:11:52	+meskarune	is anyone here familiar with mail servers?
+2013-06-02 13:12:25	carharttjimmy	I worked a little with IMAP protocols 
+2013-06-02 13:12:49	fsckd	vodik: not yet but i believe you can pull through gitolite
+2013-06-02 13:13:07	fsckd	vodik: a couple of lines in the parser are from your bot :)
+2013-06-02 13:13:13	+meskarune	other useful skills: writing, art, using social media, speaking a language, installing/configuring software, etc
+2013-06-02 13:13:30	XReaper	meskarune: running a mail server can be hell, people like me prefer to let other people handle the nitty gritty
+2013-06-02 13:13:46	+meskarune	XReaper: trying to configure a mailing list with mailman :P
+2013-06-02 13:14:08	carharttjimmy	I can install software if needbe, and handle the mailman, as well as writing 
+2013-06-02 13:14:11	+meskarune	got mailman installed in a python virtualenv with django and the web ui
+2013-06-02 13:14:24	+meskarune	need to then configure mail and get it to work with lighttpd LOL
+2013-06-02 13:14:33	XReaper	Also hell :P I'm going to be doing it myself :S
+2013-06-02 13:14:34	vodik	fsckd: sure i wouldn't mind taking a peek. im going to start poking at that bot soon again too
+2013-06-02 13:14:39	+meskarune	idk what I'm doing, and just kluding through atm
+2013-06-02 13:14:47	XReaper	meskarune: exim as the relay, PLEASE
+2013-06-02 13:14:59	+meskarune	XReaper: of course :P
+2013-06-02 13:15:06	XReaper	Awesome
+2013-06-02 13:15:08	carharttjimmy	I do a lot of javascript/ajax/node.js at work so I am good there too
+2013-06-02 13:15:16	+meskarune	XReaper: I'm not completely insane
+2013-06-02 13:15:22	XReaper	:D
+2013-06-02 13:15:26	+meskarune	carharttjimmy: sweet
+2013-06-02 13:15:28	XReaper	I run Apache now
+2013-06-02 13:15:28	fsckd	vodik: awesome. the code is in major flux, what you see today may be very different from tomorrow. i hope i can stablise stuff this week
+2013-06-02 13:15:55	 *	XReaper needs to convert a recently upgraded server to php-fpm >.>
+2013-06-02 13:15:57	carharttjimmy	XReaper: I run nginx
+2013-06-02 13:15:59	vodik	fsckd: link?
+2013-06-02 13:16:07	XReaper	carharttjimmy: I used to
+2013-06-02 13:16:19	XReaper	carharttjimmy: performance is the same in my configuration
+2013-06-02 13:16:20	yardena	crap i'm late
+2013-06-02 13:16:28	XReaper	yardena: welcome
+2013-06-02 13:16:29	carharttjimmy	XReaper: nice
+2013-06-02 13:16:35	carharttjimmy	hey yardena , I was late too
+2013-06-02 13:16:47	fsckd	vodik: umm... git clone git@archwomen.org/awbot-haskell
+2013-06-02 13:16:54	XReaper	carharttjimmy: apache doesn't do... anything, just proxies stuff (I like the apache syntax and the use of .htaccess)
+2013-06-02 13:17:00	carharttjimmy	meskarune: just let me know what you need and if any SQL works needs to be done, I do a lot of work with that :P
+2013-06-02 13:17:09	fsckd	vodik: you can push too but please don't atm. i'm imn the middle of some major adjustments
+2013-06-02 13:17:40	carharttjimmy	fsckd: I am adjusted to my workschedule, so I will be working on it too, and I won't push until you tell me too :P
+2013-06-02 13:18:14	vodik	fsckd: repo doesn't exist
+2013-06-02 13:18:22	+tigrmesh	hi yardena
+2013-06-02 13:18:33	fsckd	vodik: huh? umm
+2013-06-02 13:18:39	carharttjimmy	vodik: it should...
+2013-06-02 13:18:49	terra-and-luna	"fatal: repository 'git@archwomen.org/awbot-haskell' does not exist"
+2013-06-02 13:18:59	fsckd	vodik: output of ssh git@archwomen.org info
+2013-06-02 13:19:14	fsckd	terra-and-luna: you haven't given me your key yet :P
+2013-06-02 13:19:29	vodik	fsckd: http://ix.io/5W4
+2013-06-02 13:20:00	fsckd	vodik: you have rw access, one sec
+2013-06-02 13:20:07	+tigrmesh	the skills list so far is here:  did anyone else say theirs other than tal, jy2, car, mesk, and me?
+2013-06-02 13:20:07	vodik	but fatal: repository 'git@archwomen.org/awbot-haskell' does not exist
+2013-06-02 13:20:22	fsckd	vodik: oh, replace / with :
+2013-06-02 13:20:28	fsckd	lol sorry
+2013-06-02 13:20:28	vodik	oh right
+2013-06-02 13:20:30	vodik	derp
+2013-06-02 13:20:37	vodik	works
+2013-06-02 13:20:40	fsckd	:D
+2013-06-02 13:20:49	yardena	am i supposed to enumerate my skills now or can i wait til after the meeting :P
+2013-06-02 13:20:58	+tigrmesh	either
+2013-06-02 13:21:09	carharttjimmy	its up to you friend !
+2013-06-02 13:21:11	+tigrmesh	depends on how quiet it is.  now would be a good time
+2013-06-02 13:21:13	fsckd	vodik: you can peek, i'll give the word when it's safe to work on
+2013-06-02 13:21:23	 *	terra-and-luna is waiting for the actual page to be up to be serious about her skills
+2013-06-02 13:21:38	 *	yardena bits her lips until the TV news vans drive away
+2013-06-02 13:22:07	+tigrmesh	i i'll have to take out self-deprecate, won't i?  sad panda, no joke
+2013-06-02 13:22:23	+tigrmesh	yardena: over your skills?  wowza
+2013-06-02 13:22:24	terra-and-luna	No, that can stay.
+2013-06-02 13:23:10	+meskarune	lol
+2013-06-02 13:23:15	+meskarune	internet was down for a sec :(
+2013-06-02 13:23:21	+tigrmesh	ah
+2013-06-02 13:23:29	vodik	fsckd: kk. you really should be using a namespace instead of having lots of IrcFoo.hs files
+2013-06-02 13:23:33	XReaper	mosh?
+2013-06-02 13:23:43	vodik	fsckd: what are you using for the db layer?
+2013-06-02 13:27:14	fsckd	vodik: don't worry, i'll be using namespaces :)
+2013-06-02 13:27:32	carharttjimmy	fsckd: you better! 
+2013-06-02 13:27:35	carharttjimmy	:P
+2013-06-02 13:27:44	fsckd	vodik: haven't decided on the db layer yet. it'll have to work with either flat files or mariadb
+2013-06-02 13:28:11	carharttjimmy	fsckd: if you need help with SQL, I'm your guy!
+2013-06-02 13:28:19	+meskarune	https://archwomen.org/redmine/projects/archwomen/wiki/Members
+2013-06-02 13:28:21	fsckd	thanks carharttjimmy :)
+2013-06-02 13:28:26	+meskarune	we can rename later if we need to :)
+2013-06-02 13:28:29	XReaper	mariadb/mysql
+2013-06-02 13:28:31	phrik	Title: Members - Arch Linux Women - Arch Linux Women: Project Manager (at archwomen.org)
+2013-06-02 13:28:32	XReaper	same stuff
+2013-06-02 13:28:33	+meskarune	and/or restructure
+2013-06-02 13:28:41	carharttjimmy	I work with TSQL at work, and SQL doesnt change syntax that much
+2013-06-02 13:28:43	+meskarune	people who are good @ markup 
+2013-06-02 13:29:17	carharttjimmy	And, if we do anything with Mono, I'm your guy too :P
+2013-06-02 13:30:14	-->	fogobogo (~fogobogo@unaffiliated/fogobogo) has joined #archlinux-women
+2013-06-02 13:30:34	fsckd	i will need help with the database stuff, thanks :)
+2013-06-02 13:30:37	terra-and-luna	...I was going to make a mononucleosis joke, but decided not to.
+2013-06-02 13:30:43	fsckd	lol
+2013-06-02 13:30:52	carharttjimmy	fsckd: SQL isnt all that hard :P
+2013-06-02 13:31:02	vodik	fsckd: persistent
+2013-06-02 13:31:09	vodik	fsckd: yesod's layer
+2013-06-02 13:31:09	fsckd	i know, i'm just not comfortable with it
+2013-06-02 13:31:17	fsckd	vodik: cool
+2013-06-02 13:31:33	vodik	fsckd: then you don't need to know SQL. its a ORM
+2013-06-02 13:31:51	fsckd	since we're in the middle of a meeting, midn if the bot discussion is moved to #archlinux-women-dev ?
+2013-06-02 13:31:56	fsckd	mind*
+2013-06-02 13:32:24	vodik	fsckd: no. but thats really all i had to ask. i havn't read it yet and im not going to much more today :P
+2013-06-02 13:32:31	fsckd	hehe
+2013-06-02 13:32:34	vodik	carry on :P
+2013-06-02 13:32:42	carharttjimmy	Will SQL be needed for the webserver since we have to store data and such, and we will need to keep it encrypted for security purposes?
+2013-06-02 13:33:01	+meskarune	computer broke, on phone
+2013-06-02 13:33:19	fsckd	vodik: thanks, persistent is given greater weight with your advcie :)
+2013-06-02 13:33:29	fsckd	meskarune: damn
+2013-06-02 13:33:29	carharttjimmy	and meskarune should I edit the wiki to add my skills? 
+2013-06-02 13:37:46	-->	Kozaru (c3a9d10e@gateway/web/freenode/ip.195.169.209.14) has joined #archlinux-women
+2013-06-02 13:38:24	+tigrmesh	here computer broke?  crap
+2013-06-02 13:38:26	+meskarune	back
+2013-06-02 13:38:29	+meskarune	i think
+2013-06-02 13:38:32	+meskarune	laggy though
+2013-06-02 13:38:46	+meskarune	T_T
+2013-06-02 13:39:24	carharttjimmy	weechat or irssi should say the lag too
+2013-06-02 13:40:04	+meskarune	idk, I added a bunch of msg before I went offline, and they never made it
+2013-06-02 13:40:42	+meskarune	so anyways, go forth and add yourselves to the redmine!
+2013-06-02 13:40:43	+meskarune	:D
+2013-06-02 13:40:49	carharttjimmy	and to the wiki?
+2013-06-02 13:40:54	carharttjimmy	the part about skills?
+2013-06-02 13:40:57	+meskarune	yah
+2013-06-02 13:41:10	+meskarune	https://archwomen.org/redmine/projects/archwomen/wiki/Members
+2013-06-02 13:41:13	+meskarune	kk
+2013-06-02 13:41:18	+meskarune	next thing on the agenda?
+2013-06-02 13:41:22	phrik	Title: Members - Arch Linux Women - Arch Linux Women: Project Manager (at archwomen.org)
+2013-06-02 13:42:07	carharttjimmy	btw meskarune what database does redmine use to store data?
+2013-06-02 13:42:20	+meskarune	I belive its maria db atm
+2013-06-02 13:42:24	+meskarune	(MySQL)
+2013-06-02 13:44:08	carharttjimmy	ahh, I see
+2013-06-02 13:44:27	carharttjimmy	why no postgres sql ?
+2013-06-02 13:44:33	+meskarune	next thing is channel rules and guidelines
+2013-06-02 13:44:45	+meskarune	carharttjimmy: we can discuss switching to that 
+2013-06-02 13:44:54	+meskarune	maybe join -dev :D
+2013-06-02 13:45:35	carharttjimmy	already in there, kk
+2013-06-02 13:46:20	+meskarune	\o/
+2013-06-02 13:46:53	+meskarune	so the channel rules have an issue here: https://archwomen.org/redmine/issues/23
+2013-06-02 13:47:05	phrik	Title: To-Do #23: channel rules - Arch Linux Women - Arch Linux Women: Project Manager (at archwomen.org)
+2013-06-02 13:47:36	carharttjimmy	the issue is we need to publish them?
+2013-06-02 13:48:21	+meskarune	lol
+2013-06-02 13:48:59	+meskarune	I'm not a good writer, so it would be helpful to have someone who IS good at writting help with getting the thoughts down in an intelligible way
+2013-06-02 13:50:20	carharttjimmy	I write rather well. 
+2013-06-02 13:50:33	carharttjimmy	Just tell me what you want and I can work on a draft :) 
+2013-06-02 13:50:44	carharttjimmy	unless someone else wants to do it
+2013-06-02 13:50:53	carharttjimmy	then I will stay around as a backup :)
+2013-06-02 13:51:54	terra-and-luna	Not all of these will fit, but I do think the ##femninist rules are a good springboard https://github.com/freenode-feminists/freenode-feminists.github.com/wiki/Rules
+2013-06-02 13:51:55	phrik	Title: Rules · freenode-feminists/freenode-feminists.github.com Wiki · GitHub (at github.com)
+2013-06-02 13:55:08	carharttjimmy	terra-and-luna: I think a majority of those rules should be added/copied from 
+2013-06-02 13:56:58	+meskarune	awesoem thanks ya'll
+2013-06-02 14:01:41	<--	jrex_laptop (~jrex@pool-173-76-33-88.bstnma.fios.verizon.net) has quit (Ping timeout: 248 seconds)
+2013-06-02 14:04:13	terra-and-luna	added self to page
+2013-06-02 14:04:48	carharttjimmy	I should clarify mono to c#
+2013-06-02 14:04:50	carharttjimmy	:P
+2013-06-02 14:05:27	carharttjimmy	also terra-and-luna was it you who added the ## for sub-bullet points?
+2013-06-02 14:06:23	terra-and-luna	Yes.
+2013-06-02 14:06:38	carharttjimmy	great work, it looks a lot better now :)
+2013-06-02 14:08:07	terra-and-luna	semantic markup is a good thing, and typing space four times bored me.
+2013-06-02 14:09:16	carharttjimmy	yeah good point, which brings me to an idea
+2013-06-02 14:09:34	terra-and-luna	Outlawing the space bar?
+2013-06-02 14:09:48	carharttjimmy	meskarune: what if we have an architecht to keep everything in order and concise and in a standard format ?
+2013-06-02 14:10:03	<--	camilasan (~camilasan@91-64-91-158-dynip.superkabel.de) has quit (Read error: Connection reset by peer)
+2013-06-02 14:10:16	carharttjimmy	architecht(sp?)
+2013-06-02 14:10:53	-->	camilasan (~camilasan@91-64-91-158-dynip.superkabel.de) has joined #archlinux-women
+2013-06-02 14:13:27	carharttjimmy	It would keep us all on the same page and make everything look nice. 
+2013-06-02 14:13:44	+tigrmesh	the problem i have withe the rules is the line about men being guests
+2013-06-02 14:13:49	+tigrmesh	that bothers me a lot
+2013-06-02 14:14:07	+tigrmesh	that's the one that most needs to be removed or reworded
+2013-06-02 14:14:27	-->	jrex_laptop (~jrex@pool-173-76-33-88.bstnma.fios.verizon.net) has joined #archlinux-women
+2013-06-02 14:14:39	carharttjimmy	if we want there to be equality and such in the community, than we can't really treat some people as guests. It would discredit our intentions imho. 
+2013-06-02 14:15:08	carharttjimmy	Its only when we all work together regardless of anything, that we can progress to a true state of equality among everyone. 
+2013-06-02 14:15:21	carharttjimmy	wouldn't you agree tigrmesh ?
+2013-06-02 14:15:38	terra-and-luna	Made it a point to say that not all of them would apply here.
+2013-06-02 14:15:56	+tigrmesh	carharttjimmy: yes
+2013-06-02 14:16:44	 *	yardena supports the idea of men being guests in #archlinux-women and is bothered opposite-ly to tigrmesh
+2013-06-02 14:17:10	+tigrmesh	we are absolutely in opposition on this one
+2013-06-02 14:17:41	carharttjimmy	Well, in the spirit of discussion, could both of you layout your reasoning? 
+2013-06-02 14:18:01	+tigrmesh	imo, men are our allies, and men who love someone female that they want to encourage to use arch, are our most important friends
+2013-06-02 14:18:12	yardena	i think that's an important debate to have but doesn't need to derail the current meeting
+2013-06-02 14:18:43	carharttjimmy	Okay fair enough, after said meeting.
+2013-06-02 14:19:10	carharttjimmy	s/said meeting/this meeting
+2013-06-02 14:19:23	+tigrmesh	clearly we need to have a discussion about this.  should it be set for a particular later time?  or is after this meeting good?
+2013-06-02 14:19:38	yardena	up to you
+2013-06-02 14:20:30	yardena	i only bring it up to establish / reiterate that not everybody agrees
+2013-06-02 14:20:59	+tigrmesh	carharttjimmy: you available after this meeting?
+2013-06-02 14:21:08	carharttjimmy	We should have an architecht to keep everything written in blogs, codewise, and such fit a particular orderly form and standard. So, everything can look great and professional. 
+2013-06-02 14:21:12	carharttjimmy	tigrmesh: yeah, I am. 
+2013-06-02 14:21:24	+tigrmesh	anyone who wants to join is welcome
+2013-06-02 14:22:01	<--	camilasan (~camilasan@91-64-91-158-dynip.superkabel.de) has quit (Ping timeout: 246 seconds)
+2013-06-02 14:22:56	+tigrmesh	anything else about those?
+2013-06-02 14:24:05	+tigrmesh	meskarune: ?
+2013-06-02 14:32:55	+tigrmesh	i guess they're afk
+2013-06-02 14:33:11	carharttjimmy	well, soo, yeah 
+2013-06-02 14:33:12	+tigrmesh	moving on, GSoC research update
+2013-06-02 14:33:41	+tigrmesh	the deadline for projects has passed
+2013-06-02 14:35:26	+tigrmesh	however, i have some items to make a wiki page, including what the interns (don't remember what they're called off the top of my head) are supposed to do in addition to coding, with some examples
+2013-06-02 14:36:41	+tigrmesh	they're supposed to blog about their experience and something else (which i also don't remember.  nor do i remember where my notes are, atm)
+2013-06-02 14:36:50	+tigrmesh	that's my update
+2013-06-02 14:36:54	+tigrmesh	any questions?
+2013-06-02 14:38:42	carharttjimmy	who are the interns?
+2013-06-02 14:39:30	terra-and-luna	Have they been decided? Can one still apply? Are they even a thing right now?
+2013-06-02 14:39:32	+tigrmesh	as far as i know, there have never been interns for arch
+2013-06-02 14:39:53	+meskarune	bah, back online
+2013-06-02 14:40:24	carharttjimmy	if you do interns, you have to find a way to compensate per US Law
+2013-06-02 14:40:53	carharttjimmy	though compensation can be anything...
+2013-06-02 14:41:09	+tigrmesh	i think they do get money
+2013-06-02 14:41:14	+tigrmesh	terra-and-luna: looking
+2013-06-02 14:42:02	+meskarune	http://www.forbes.com/sites/theyec/2013/04/19/6-legal-requirements-for-unpaid-internship-programs/
+2013-06-02 14:42:03	phrik	Title: 6 Legal Requirements For Unpaid Internship Programs - Forbes (at www.forbes.com)
+2013-06-02 14:42:29	+meskarune	basically its for education and not for your direct company benefit
+2013-06-02 14:42:43	-->	camilasan (~camilasan@91-64-91-158-dynip.superkabel.de) has joined #archlinux-women
+2013-06-02 14:42:46	+meskarune	so teaching a person arch packaging as an internship = they are learning something useful like bash
+2013-06-02 14:42:55	+meskarune	and interns can get college credit
+2013-06-02 14:43:00	carharttjimmy	yes
+2013-06-02 14:43:09	+meskarune	or put it down on their resume for jobs
+2013-06-02 14:43:13	+tigrmesh	well, gsoc is only for working on open source projects
+2013-06-02 14:43:13	carharttjimmy	but unpaid internships are statistically more likely to not land you a job
+2013-06-02 14:43:27	+tigrmesh	not for google
+2013-06-02 14:43:29	carharttjimmy	compared to paid ones
+2013-06-02 14:43:39	carharttjimmy	tigrmesh: yeah google is different, because they are google :P
+2013-06-02 14:44:27	carharttjimmy	in fact, if you do an unpaid internship, you are paying to work.
+2013-06-02 14:44:45	carharttjimmy	because you still have to pay the college/uni for said credit :/
+2013-06-02 14:45:27	carharttjimmy	http://www.marketplace.org/topics/business/unpaid-interns-file-lawsuits
+2013-06-02 14:45:28	phrik	Title: Unpaid interns file lawsuits | Marketplace.org (at www.marketplace.org)
+2013-06-02 14:47:27	+meskarune	yeah thats true
+2013-06-02 14:47:33	carharttjimmy	http://www.marketplace.org/topics/business/difference-between-paid-and-unpaid-internship-job-later
+2013-06-02 14:47:34	phrik	Title: The difference between a paid and unpaid internship? A job later | Marketplace.org (at www.marketplace.org)
+2013-06-02 14:47:37	+meskarune	I should have gone to the coffee shop today, my internet is aweful
+2013-06-02 14:48:08	+meskarune	if we find a way to generate funds, we can pay interns
+2013-06-02 14:48:14	+meskarune	but lets get the program started first :P
+2013-06-02 14:48:25	+meskarune	maybe find some people we are willing to sponsor
+2013-06-02 14:48:35	+tigrmesh	but there are programs that are interested in women or that we can hook on to
+2013-06-02 14:48:38	+tigrmesh	like gsoc
+2013-06-02 14:48:51	+tigrmesh	or opw
+2013-06-02 14:49:08	+meskarune	yep
+2013-06-02 14:49:09	+meskarune	++
+2013-06-02 14:49:33	carharttjimmy	++
+2013-06-02 14:49:58	+tigrmesh	fun fact:  in 2010, the oldest gsocer was 47
+2013-06-02 14:51:33	--	fsckd is now known as PizzaTheHutt
+2013-06-02 14:51:47	--	PizzaTheHutt is now known as fsckd
+2013-06-02 14:52:25	fsckd	what will the interns do?
+2013-06-02 14:52:44	carharttjimmy	everything
+2013-06-02 14:52:48	 *	carharttjimmy needs a new green tea
+2013-06-02 14:52:55	fsckd	lol
+2013-06-02 14:53:42	carharttjimmy	at my internship, they gave me a project and told me to ask them for help. And, gave me some pointers and left me in control mostly. 
+2013-06-02 14:54:13	carharttjimmy	and when I thought outside of the box, they said, sure, go ahead. And, yeah, rather fun. 
+2013-06-02 14:54:18	+tigrmesh	terra-and-luna: i can't find it.  you can probably get a quick answer in #kde-women or #kde-soc.  in #kde-women, also ask about OPW
+2013-06-02 14:54:56	carharttjimmy	Now my company uses AGILE development, so maybe thats why... or they just trust my skills :P
+2013-06-02 14:55:03	+meskarune	that sounds awesome carharttjimmy 
+2013-06-02 14:55:25	carharttjimmy	phrik: give meskarune g amtdirect 
+2013-06-02 14:55:26	phrik	meskarune: AMTdirect: Leading Real Estate Management Software Provider: <http://www.amtdirect.com/>
+2013-06-02 14:55:27	+meskarune	interns should be able to use the resources of the company to learn and grow, etc
+2013-06-02 14:55:33	carharttjimmy	I work there.
+2013-06-02 14:55:48	carharttjimmy	As a software developer intern :)
+2013-06-02 14:55:51	+tigrmesh	fsckd: i'll read up more and give examples. one gsocer worked on the gnome-screen extension for GTD, and another worked on phonon
+2013-06-02 14:56:07	fsckd	cool
+2013-06-02 14:56:17	carharttjimmy	meskarune: we should encourage interns to take control of projects assigned to them, so they can gather experience. 
+2013-06-02 14:56:26	+tigrmesh	they do!
+2013-06-02 14:56:30	carharttjimmy	and we can facilitate thier learning and growth 
+2013-06-02 14:56:35	+tigrmesh	at least the gsoc ones
+2013-06-02 14:56:40	fsckd	but, umm, what will they do at archwomen? or will it be archlinux internships?
+2013-06-02 14:56:49	carharttjimmy	yeah tigrmesh! thats sweet!
+2013-06-02 14:57:39	+meskarune	fsckd: we could brainstorm projects :)
+2013-06-02 14:58:03	fsckd	yes, that i think needs to be done first
+2013-06-02 14:58:10	fsckd	can't have internships without projects
+2013-06-02 14:58:14	carharttjimmy	^
+2013-06-02 14:58:27	+meskarune	hi intern, what do you feel like doing today?
+2013-06-02 14:58:29	fsckd	and sponsors will likely ask the same question as i
+2013-06-02 14:58:30	+meskarune	;)
+2013-06-02 14:58:36	terra-and-luna	* get main site back up * make classroom materials * help write code for whatever
+2013-06-02 14:59:01	carharttjimmy	terra-and-luna: those would be nice. 
+2013-06-02 14:59:05	fsckd	terra-and-luna: those are great
+2013-06-02 14:59:24	terra-and-luna	...I should probably just tile this window and the window with the thing I'm drawing, so I don't have to keep switching between workspaces.
+2013-06-02 15:00:25	fsckd	(ot: can probably give an eta for the main site)
+2013-06-02 15:00:28	carharttjimmy	terra-and-luna: you can use the mouse to draw stuff? I am in awe. I always make horrible looking things... anyways back on track. So, if we do interns in coding, we will also need to zero in on a development cycle
+2013-06-02 15:00:46	terra-and-luna	Drawing in paper notebook, with a pencil.
+2013-06-02 15:01:01	carharttjimmy	because, interns will need to know how we do development aka agile or SDLC 
+2013-06-02 15:01:07	terra-and-luna	I do have a tablet around here somewhere, for when I finally have the drive to start learning it with the GIMP.
+2013-06-02 15:01:34	carharttjimmy	though I recommend agile for development because it eliminates the "not-my-job syndrome"
+2013-06-02 15:01:43	carharttjimmy	and a lot of companies are using it
+2013-06-02 15:02:04	carharttjimmy	http://en.wikipedia.org/wiki/Agile_software_development
+2013-06-02 15:02:05	phrik	Title: Agile software development - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+2013-06-02 15:03:06	carharttjimmy	the reason why I like agile is because it takes at least 4 weeks to produce functional, working code
+2013-06-02 15:04:22	+meskarune	interesting
+2013-06-02 15:04:37	+meskarune	is there an easy way to keep track of the timelines?
+2013-06-02 15:04:58	carharttjimmy	timelines for projects?
+2013-06-02 15:05:12	+meskarune	so we'll need a few people who are interested to maybe work on organizign the internship program :)
+2013-06-02 15:05:30	+meskarune	you don't need experiance, just willingness to jump in
+2013-06-02 15:05:46	carharttjimmy	well as an intern, I could offer my insights :)
+2013-06-02 15:06:18	+tigrmesh	meskarune: an arch gsoc project and intern?
+2013-06-02 15:10:54	+meskarune	yeah, that sounds good
+2013-06-02 15:11:07	+meskarune	does Arch Linux have meetings?
+2013-06-02 15:11:14	+tigrmesh	no
+2013-06-02 15:11:17	+meskarune	or do they just plan things through the mailing list?
+2013-06-02 15:11:19	+meskarune	oh ok
+2013-06-02 15:11:25	+tigrmesh	i think so
+2013-06-02 15:12:12	+tigrmesh	we'd have to either send to it or find a dev willing to.  perhaps ioni will when it's time and we're ready
+2013-06-02 15:12:26	+meskarune	ok, sounds good
+2013-06-02 15:13:12	+tigrmesh	final comments?
+2013-06-02 15:13:45	+tigrmesh	questions?
+2013-06-02 15:14:34	+tigrmesh	anyone want to add anything to the meeting notes at https://pad.riseup.net/p/archwomen-meet-jun2 ?
+2013-06-02 15:14:36	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-06-02 15:14:54	+tigrmesh	or see any errors or omissions?  misspellings?
+2013-06-02 15:15:08	ioni	we don't have meetings
+2013-06-02 15:17:07	carharttjimmy	meskarune: what if we have an architecht to keep everything in order and concise and in a standard format ?
+2013-06-02 15:17:30	carharttjimmy	I dont think you got that message meskarune hence why I reposted
+2013-06-02 15:17:30	+tigrmesh	ioni:  when we're ready to propose a gsoc internship project, would you mail our proposal to the arch-dev-public list?
+2013-06-02 15:17:50	+meskarune	ioni: google summer of code :)
+2013-06-02 15:18:49	ioni	i'll see what i can do tigrmesh 
+2013-06-02 15:19:00	+tigrmesh	great  :)
+2013-06-02 15:19:06	ioni	but i think we need to find a mentor 
+2013-06-02 15:19:12	yardena	yes
+2013-06-02 15:19:37	ioni	i'll forward first internally first
+2013-06-02 15:19:38	yardena	is arch still looking for devs these days?
+2013-06-02 15:20:04	yardena	do they only choose devs from among TUs or am I making that up
+2013-06-02 15:20:11	carharttjimmy	you have to be a trusted user first 
+2013-06-02 15:20:19	ioni	is not a must
+2013-06-02 15:20:20	+meskarune	I know they really REALLY need help 
+2013-06-02 15:20:30	carharttjimmy	ioni: oh.. I see
+2013-06-02 15:20:30	ioni	but some of devs are from tu land
+2013-06-02 15:20:47	carharttjimmy	falconindy was from TU Land
+2013-06-02 15:20:53	carharttjimmy	or is from I should say
+2013-06-02 15:21:00	yardena	i want to help with arch but i'm such a newb at so many things
+2013-06-02 15:21:16	terra-and-luna	that reminds me, i should finish looking at cower and contact him with my questions.
+2013-06-02 15:21:34	yardena	but mostly i know where to focus and just need more time to do it
+2013-06-02 15:21:45	+meskarune	yardena: the problem is that the more you know, the more you realize that you don't know :P
+2013-06-02 15:22:10	yardena	indeed.
+2013-06-02 15:22:18	 *	yardena throws her computers out the window and takes the blue pill
+2013-06-02 15:22:26	+meskarune	http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect
+2013-06-02 15:22:27	phrik	Title: Dunning–Kruger effect - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+2013-06-02 15:23:04	yardena	so is the meeting over?
+2013-06-02 15:23:21	carharttjimmy	meskarune: you will never truly know everything...
+2013-06-02 15:24:13	+tigrmesh	yardena: good question
+2013-06-02 15:24:21	<--	fogobogo (~fogobogo@unaffiliated/fogobogo) has quit (Ping timeout: 276 seconds)
+2013-06-02 15:24:27	+tigrmesh	meskarune, fsckd - shall we wrap this up?
+2013-06-02 15:25:12	fsckd	yardena: you can help without being a dev. there are many ways listed here https://wiki.archlinux.org/index.php/Getting_Involved
+2013-06-02 15:25:12	+meskarune	any last comments?
+2013-06-02 15:25:12	phrik	Title: Getting Involved - ArchWiki (at wiki.archlinux.org)
+2013-06-02 15:25:32	+meskarune	yeah, let work on getting more contributers
+2013-06-02 15:25:41	+meskarune	maybe we can spend a day and update a few package builds
+2013-06-02 15:25:46	+meskarune	in the aur
+2013-06-02 15:26:00	+meskarune	I don't know a lot, but we can work through them together
+2013-06-02 15:26:09	+meskarune	well, maybe not a day...
+2013-06-02 15:26:10	fsckd	sure, that's an awesome idea
+2013-06-02 15:26:14	yardena	yeah the more i think about it my bottleneck isn't confidence, just time
+2013-06-02 15:26:14	fsckd	AUR Day!
+2013-06-02 15:26:15	+meskarune	LOL
+2013-06-02 15:26:15	+meskarune	yeah
+2013-06-02 15:26:44	yardena	but if google really paid me .... lol
+2013-06-02 15:26:50	fsckd	haha
+2013-06-02 15:27:18	+tigrmesh	meeting over?
+2013-06-02 15:27:32	yardena	i wouldn't feel right taking money to do what so many arch devs do more and better, for free
+2013-06-02 15:27:42	yardena	sure, meeting over
+2013-06-02 15:27:48	+tigrmesh	************************ Meeting Ends ************************
+
+

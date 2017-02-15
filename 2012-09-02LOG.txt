@@ -1,0 +1,352 @@
+
+2012-09-02 12:57:42	+meskarune	hai everyone
+2012-09-02 12:57:42	adren	:D helloo
+2012-09-02 12:58:02	>>>	Anders_J (~anders@unaffiliated/anders-j/x-0508776) has joined #archlinux-women
+2012-09-02 12:58:10	Tom^	sudokode you lurker
+2012-09-02 12:59:48	>>>	Sanne (~Sanne@158-144-103-86.dynamic.dsl.tng.de) has joined #archlinux-women
+2012-09-02 13:01:03	+meskarune	its now UTC 17:00 :)
+2012-09-02 13:01:14	+meskarune	anyone want to open a notes thingy?
+2012-09-02 13:01:18	+meskarune	for the meeting?
+2012-09-02 13:01:33	adren	meskarune: like vim?
+2012-09-02 13:01:51	+tigrmesh	n
+2012-09-02 13:02:00	+tigrmesh	adren: it's on a pad thingie
+2012-09-02 13:02:03	+tigrmesh	moment
+2012-09-02 13:02:32	adren	pad thingie moment? o.O sounda romantic though
+2012-09-02 13:03:39	+tigrmesh	http://titanpad.com/AhuNTG1Jrj
+2012-09-02 13:03:40	phrik	Title: TitanPad: AhuNTG1Jrj (at titanpad.com)
+2012-09-02 13:03:44	adren	ohhh
+2012-09-02 13:04:01	+meskarune	if you would like to write there, that would be great :)
+2012-09-02 13:04:11	gtmanfred	tigrmesh: you could do that with vim I am sure!
+2012-09-02 13:04:25	+tigrmesh	but this can be seen by everyone here
+2012-09-02 13:04:42	+tigrmesh	like that
+2012-09-02 13:05:52	+tigrmesh	oops.  sorry.  i think there are 2 of me on there
+2012-09-02 13:05:57	+meskarune	Ok, so first: we are going to change the meeting time to UTC 18:00 since we have lots of members in europe
+2012-09-02 13:06:07	+meskarune	anyone have comments on that?
+2012-09-02 13:06:27	gtmanfred	!doit
+2012-09-02 13:06:28	phrik	Dooooooooo eeeeeeeettttttttt
+2012-09-02 13:07:38	+meskarune	ok cool
+2012-09-02 13:07:47	+meskarune	next: arch classroom
+2012-09-02 13:08:02	+meskarune	I've worked on it a bit, and someone else is working on a C++ class
+2012-09-02 13:08:13	+meskarune	 / study group
+2012-09-02 13:08:19	+meskarune	and I've been trying to add a bit ot the wiki
+2012-09-02 13:08:36	+meskarune	Does anyone know when the pacman updates are going to be in core?
+2012-09-02 13:08:49	gtmanfred	nope
+2012-09-02 13:08:54	+meskarune	We need more docs for the PKGBUILDING class
+2012-09-02 13:08:58	gtmanfred	hasn't even been talked about
+2012-09-02 13:09:04	+meskarune	I see
+2012-09-02 13:09:19	+meskarune	so maybe we can go with the current state of things, and edit later?
+2012-09-02 13:09:26	gtmanfred	sure
+2012-09-02 13:09:30	+meskarune	I don't want momentum to die on it :P
+2012-09-02 13:09:40	gtmanfred	i have started making a bunch of them though http://code.gtmanfred.com/~daniel/gitpkgbuilds
+2012-09-02 13:09:41	phrik	Title: Index of /~daniel/gitpkgbuilds/ (at code.gtmanfred.com)
+2012-09-02 13:09:48	+meskarune	oh awesome
+2012-09-02 13:10:24	adren	thanks gtmanfred
+2012-09-02 13:11:05	+meskarune	so I'll add in more stuff to the PKGBUILD template wiki 
+2012-09-02 13:11:27	+meskarune	and then someone who is really familiar with PKGBUILDS can add to the class maybe?
+2012-09-02 13:12:16	+meskarune	Lets maybe set a date for the class?
+2012-09-02 13:12:29	+meskarune	maybe Nov. ?
+2012-09-02 13:12:36	+meskarune	is that enough time?
+2012-09-02 13:12:45	+tigrmesh	i'm sorry.  i need to clarify the UTC thing.  what time is it right now in UTC?
+2012-09-02 13:12:47	gtmanfred	yeah, i can do it
+2012-09-02 13:12:59	+meskarune	I believe its 17:12
+2012-09-02 13:13:09	fsckd	wait... why 18:00? don't you mean 16:00 or did they switch off DST? /confus
+2012-09-02 13:13:33	+meskarune	we were thinking to make it an hour later than the reg. time
+2012-09-02 13:13:43	+meskarune	since lots of people are from europe
+2012-09-02 13:13:44	+tigrmesh	crap.  i'm sorry
+2012-09-02 13:13:56	+meskarune	?
+2012-09-02 13:14:01	+tigrmesh	i want to make it an hour earlier
+2012-09-02 13:14:06	+meskarune	oh ok
+2012-09-02 13:14:28	+meskarune	so 16:00 ?
+2012-09-02 13:14:35	+tigrmesh	yes
+2012-09-02 13:14:36	+meskarune	that is 12pm for me
+2012-09-02 13:14:36	fsckd	17 -> 18 is switching it from 8 pm to 9 pm, that's what is wanted?
+2012-09-02 13:14:38	+meskarune	so that works
+2012-09-02 13:14:43	fsckd	heh ok
+2012-09-02 13:14:52	+tigrmesh	what works?
+2012-09-02 13:15:12	fsckd	meskarune is in our time zone now :)
+2012-09-02 13:15:16	+meskarune	16:00 UTC
+2012-09-02 13:15:31	+tigrmesh	switching to 16:00 means the meeting will start at 18:00 for people in germany, right?
+2012-09-02 13:15:47	+tigrmesh	is anyone here from europe and can confirm?
+2012-09-02 13:16:46	Tom^	i am
+2012-09-02 13:16:52	nerfquark	CE Summer T is UTC +2, otherwise +1
+2012-09-02 13:16:53	Tom^	right now the time is 19:!6 in sweden
+2012-09-02 13:16:54	gtmanfred	Tom^: what time is it there
+2012-09-02 13:17:47	Tom^	and i think germany is 1 hour behind so 18:16
+2012-09-02 13:17:52	+tigrmesh	so UTC is the +1 -1 way of doing time?
+2012-09-02 13:18:37	+tigrmesh	what's the one where you say "21:00" and people work off of that?  and which one is preferable?
+2012-09-02 13:18:44	Tom^	nop germany is same time as me
+2012-09-02 13:18:47	Anders_J	UTC 16:00 was 1h and 19 minutes ago <.<
+2012-09-02 13:18:47	nerfquark	I do not believe that is correct
+2012-09-02 13:18:49	Tom^	so its 19:19 right now
+2012-09-02 13:18:55	Tom^	http://www.timeanddate.com/worldclock/custom.html?continent=europe
+2012-09-02 13:18:56	phrik	Title: Current local times in capitals in Europe (at www.timeanddate.com)
+2012-09-02 13:19:15	nerfquark	time in Berlin is 19:19:15 now
+2012-09-02 13:19:31	<<<	nerfquark (~nerfquark@c-71-200-31-13.hsd1.de.comcast.net) has left #archlinux-women
+2012-09-02 13:19:38	>>>	nerfquark (~nerfquark@c-71-200-31-13.hsd1.de.comcast.net) has joined #archlinux-women
+2012-09-02 13:19:48	nerfquark	sorry. i was perpetually pgup
+2012-09-02 13:19:54	+tigrmesh	hehe
+2012-09-02 13:20:02	+tigrmesh	thank you, Tom^
+2012-09-02 13:20:21	+tigrmesh	which of the 2 methods will be most useful to our members?
+2012-09-02 13:21:02	fsckd	what two methods?
+2012-09-02 13:21:54	+tigrmesh	i'm confused now.  is UTC the +1 type time?  or is it like we have in the topic?
+2012-09-02 13:22:12	fsckd	+1 is the utc offset
+2012-09-02 13:22:24	fsckd	take the current utc time and add one hour
+2012-09-02 13:22:34	fsckd	-1 takes away an hour
+2012-09-02 13:22:36	nerfquark	strictly set the time in UTC and most people know their offset
+2012-09-02 13:22:59	+tigrmesh	ooohhhh
+2012-09-02 13:23:00	Anders_J	Or can find out by "date --utc"
+2012-09-02 13:23:02	+tigrmesh	ok
+2012-09-02 13:23:14	fsckd	date -u too
+2012-09-02 13:23:18	+meskarune	I'm UTC -5
+2012-09-02 13:23:23	+meskarune	so i guess you are also
+2012-09-02 13:23:30	Anders_J	If they have correctly configured timezone for their system that is
+2012-09-02 13:23:44	fsckd	meskarune: no, -4 right now daylight time
+2012-09-02 13:23:51	fsckd	-5 is Texas :P
+2012-09-02 13:23:55	+meskarune	oh right heh
+2012-09-02 13:24:06	+meskarune	16 - 4 = 12
+2012-09-02 13:24:29	+tigrmesh	ok.  so today we started at 17:00 UTC.  and we want the new time to be 16:00 UTC
+2012-09-02 13:24:30	+meskarune	I think most people know what offset they are
+2012-09-02 13:24:38	+meskarune	yep :0
+2012-09-02 13:24:40	+meskarune	:)
+2012-09-02 13:24:50	+tigrmesh	so we all agree?
+2012-09-02 13:24:55	+tigrmesh	i'll put it in the notes
+2012-09-02 13:25:40	+meskarune	yeah :)
+2012-09-02 13:25:58	+tigrmesh	so back to the arch classroom
+2012-09-02 13:26:02	fsckd	:)
+2012-09-02 13:26:10	adren	let's get started :D
+2012-09-02 13:26:35	+tigrmesh	goal of pkgbuilds in november?
+2012-09-02 13:26:38	+meskarune	gtmanfred: it would be awesome if you could write a little, and I'll recruit more peeps :) I need to send out info to the arch mailing list
+2012-09-02 13:27:26	+meskarune	so we can do a push, and write and get the class together, we need to get a list of people who want to take the class also
+2012-09-02 13:27:29	fsckd	can we get abveritas on board? she's a chakra dev and would know PKGBUILDs
+2012-09-02 13:27:38	+meskarune	sounds good to me
+2012-09-02 13:29:37	fsckd	she's not on irc right, someone should email her
+2012-09-02 13:30:35	+meskarune	what's her email/contact info?
+2012-09-02 13:31:18	fsckd	from here http://chakra-project.org/team.html
+2012-09-02 13:31:20	phrik	Title: Chakra - Team (at chakra-project.org)
+2012-09-02 13:31:43	fsckd	 abveritas[at]chakra-project[dot]org
+2012-09-02 13:33:23	gtmanfred	hmm
+2012-09-02 13:33:27	gtmanfred	sorry hold on
+2012-09-02 13:33:54	+meskarune	hehe
+2012-09-02 13:34:03	 *	meskarune is feeling slow today
+2012-09-02 13:34:20	gtmanfred	sorry i was out for a second
+2012-09-02 13:34:34	gtmanfred	yeah, i can start writing some
+2012-09-02 13:34:52	+meskarune	that would be awesome, and I'll work on it too, and we'll contact people to add to it
+2012-09-02 13:34:59	gtmanfred	ok
+2012-09-02 13:35:06	+meskarune	I think ioni said he could teach? 
+2012-09-02 13:35:15	gtmanfred	i am sure
+2012-09-02 13:35:25	+meskarune	We have a goal now for a class in Nov.
+2012-09-02 13:35:31	+meskarune	so we need to get a list of students
+2012-09-02 13:35:34	fsckd	great :)
+2012-09-02 13:37:59	+meskarune	so I'll update the forum thread too
+2012-09-02 13:38:18	+meskarune	I've been working on some posts for the site also
+2012-09-02 13:38:27	+meskarune	so I'll get those up this month
+2012-09-02 13:38:45	+meskarune	and I'll work on getting rss integration
+2012-09-02 13:38:53	+meskarune	for the news and calendar
+2012-09-02 13:39:53	+meskarune	And then another goal for us; recuitment
+2012-09-02 13:40:02	+meskarune	lets get some more members :)
+2012-09-02 13:40:22	+meskarune	I think I'm going to start with devchix and maybe ada initiative
+2012-09-02 13:40:38	<<<	satmo54 (~satmo54@114.79.58.117) has left #archlinux-women
+2012-09-02 13:41:30	+tigrmesh	what are you going to do?
+2012-09-02 13:42:43	+meskarune	just invite people to come chat with us :)
+2012-09-02 13:43:02	+meskarune	they have mailing lists and irc channels
+2012-09-02 13:43:15	+meskarune	and mayabe some of the women there would be interested in arch
+2012-09-02 13:43:55	+tigrmesh	any other places you can think of?
+2012-09-02 13:45:12	+meskarune	social networking sites
+2012-09-02 13:45:27	+meskarune	maybe bin_bash can make some posts on women and tech groups on facebook?
+2012-09-02 13:45:35	+meskarune	and maybe we could have an arch install event?
+2012-09-02 13:46:00	+meskarune	and maybe have a google hangout thing to talk with groups of people
+2012-09-02 13:46:04	fsckd	do an arch install event in october
+2012-09-02 13:46:14	+meskarune	brainstorming some ways to recruit would be great
+2012-09-02 13:46:18	+meskarune	yeah
+2012-09-02 13:46:24	fsckd	use sept. to plan and advertise
+2012-09-02 13:46:37	+meskarune	good idea
+2012-09-02 13:46:52	+tigrmesh	as long as that doesn't distract us / take away the energy we would want to spend on the class
+2012-09-02 13:47:09	ioni	don't count on me
+2012-09-02 13:47:13	+meskarune	lol
+2012-09-02 13:47:29	+tigrmesh	ioni: :(
+2012-09-02 13:49:46	fsckd	hmm... we can ask wonder if ioni can't do it
+2012-09-02 13:51:07	+tigrmesh	hehe
+2012-09-02 13:51:17	+meskarune	I think we can find someone to teach it. we'll get the resources and class info together, so really they just need to explain how to do things
+2012-09-02 13:52:10	gtmanfred	i can :-P
+2012-09-02 13:52:34	fsckd	!give gtmanfred cookie
+2012-09-02 13:52:35	phrik	gtmanfred: fsckd wanted you to have this cookie.
+2012-09-02 13:53:13	+tigrmesh	i think it would be totally doable to have a temporary irc channel for the teacher and all attendees, and each student have their own codepad.  that way everyone could see everyone else's stuff and comment / explain
+2012-09-02 13:53:35	+tigrmesh	gtmanfred: that's wonderful!
+2012-09-02 13:55:40	+meskarune	awesome
+2012-09-02 13:55:43	+meskarune	thats a great idea
+2012-09-02 13:56:17	+meskarune	I want to put the class stuff on our github too, so people can just download them
+2012-09-02 13:56:24	+meskarune	git clone <repo>
+2012-09-02 13:57:28	fsckd	fatal: repository '<repo>' does not exist
+2012-09-02 13:57:44	gtmanfred	hub clone meskarune/classroom
+2012-09-02 13:57:54	gtmanfred	!aursearch hub-rubygem-git
+2012-09-02 13:57:55	phrik	gtmanfred: AUR (en) - hub-rubygem-git: <https://aur.archlinux.org/packages.php?ID=62170>
+2012-09-02 13:59:59	fsckd	cool, that's useful for people who use github a lot
+2012-09-02 14:01:14	<<<	herangr (~Jake@91.148.8.201) has quit (Quit: Leaving)
+2012-09-02 14:01:29	+meskarune	yeah :)
+2012-09-02 14:01:31	+meskarune	thanks
+2012-09-02 14:01:55	adren	so I just hub clone meskarune/classroom? D:
+2012-09-02 14:02:17	<<<	Sanne (~Sanne@158-144-103-86.dynamic.dsl.tng.de) has left #archlinux-women ("Leaving")
+2012-09-02 14:03:35	fsckd	adren: when it's up, you can an old fashion git clone too
+2012-09-02 14:05:36	+meskarune	adren: also we have an archwomen group on git :)
+2012-09-02 14:05:51	adren	oh cool, could you put that on the titanpad? I forget the command sometimes
+2012-09-02 14:07:22	+meskarune	I did it :)
+2012-09-02 14:07:46	adren	thank you
+2012-09-02 14:08:00	+meskarune	the meeting min and notes will be on the main site too
+2012-09-02 14:08:07	+meskarune	and on the github
+2012-09-02 14:08:17	+meskarune	so you wanted to you can git clone them and use grep 
+2012-09-02 14:08:39	+meskarune	it makes sharing files really easy
+2012-09-02 14:09:00	+meskarune	especially if you are cli only, like using a vps or server
+2012-09-02 14:09:30	+meskarune	does anyone else have stuff they want to add?
+2012-09-02 14:09:43	gtmanfred	gross github :-P
+2012-09-02 14:09:57	+meskarune	lol
+2012-09-02 14:11:28	+meskarune	so we'll have an oct. arch install event and people can come in and ask questions or even install arch
+2012-09-02 14:11:32	+tigrmesh	so are we doing an install thingie in october or waiting until after the pkgbuild class?
+2012-09-02 14:11:38	+tigrmesh	haha
+2012-09-02 14:11:40	+meskarune	and maybe I'll make a virtual box arch snapshot or osmething
+2012-09-02 14:11:45	+tigrmesh	question answered  :p
+2012-09-02 14:11:45	gtmanfred	i can ssh and install manjaro
+2012-09-02 14:12:00	+meskarune	November is the goal we have for the class
+2012-09-02 14:12:07	+meskarune	and we can get some students signed up
+2012-09-02 14:12:08	+tigrmesh	ok
+2012-09-02 14:12:20	+meskarune	I want to take the class, since I can make basic PKGBUILDS but would be interested in doing more
+2012-09-02 14:12:38	+tigrmesh	yeah
+2012-09-02 14:12:39	adren	are you guys also going to record the event as well? in case some students miss out on it?
+2012-09-02 14:12:49	+meskarune	Yeah, I want to
+2012-09-02 14:13:02	fsckd	tigrmesh: can phrik do that?
+2012-09-02 14:13:18	+tigrmesh	not in a way we can access
+2012-09-02 14:13:20	gtmanfred	phrik can log messages
+2012-09-02 14:13:21	phrik	No.
+2012-09-02 14:13:27	gtmanfred	phrik: liar!
+2012-09-02 14:13:28	phrik	Stop lying you imbasile
+2012-09-02 14:13:46	fsckd	what is an imbasile?
+2012-09-02 14:13:54	gtmanfred	!define imbasile
+2012-09-02 14:13:56	phrik	gtmanfred: No definition for "imbasile" could be found in english
+2012-09-02 14:13:58	gtmanfred	heh
+2012-09-02 14:14:06	<<<	camila (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Ping timeout: 276 seconds)
+2012-09-02 14:14:09	+tigrmesh	imbecile
+2012-09-02 14:14:13	+tigrmesh	gtmanfred: ^^
+2012-09-02 14:14:19	gtmanfred	!no liar is <reply> Stop lying you imbasile
+2012-09-02 14:14:20	phrik	gtmanfred: Tada!
+2012-09-02 14:14:22	gtmanfred	!no liar is <reply> Stop lying you imbacile
+2012-09-02 14:14:23	phrik	gtmanfred: Tada!
+2012-09-02 14:14:25	gtmanfred	...
+2012-09-02 14:14:28	gtmanfred	i am an idiot
+2012-09-02 14:14:39	gtmanfred	!no liar is <reply> Stop lying you imbecile
+2012-09-02 14:14:40	phrik	gtmanfred: Tada!
+2012-09-02 14:14:42	gtmanfred	there we go
+2012-09-02 14:14:43	+meskarune	haha
+2012-09-02 14:14:50	gtmanfred	oh the irony
+2012-09-02 14:14:54	+tigrmesh	i'll look more into it, but it's likely that having phrik log won't be possible
+2012-09-02 14:15:07	+meskarune	I can grab logs
+2012-09-02 14:15:07	fsckd	ok, thanks
+2012-09-02 14:15:18	gtmanfred	tigrmesh: i can log my znc to my website
+2012-09-02 14:15:20	fsckd	!grab meskarune
+2012-09-02 14:15:21	phrik	fsckd: Tada!
+2012-09-02 14:15:22	+meskarune	and maybe we can post highlights and stuff
+2012-09-02 14:15:30	+meskarune	lol fsckd 
+2012-09-02 14:15:42	fsckd	one more out of context quote :P
+2012-09-02 14:15:43	+tigrmesh	k
+2012-09-02 14:16:04	+meskarune	so it will be a social event as well as a "lets all install and check out arch linux"
+2012-09-02 14:16:07	gtmanfred	/join #archlinux-classroom
+2012-09-02 14:16:10	gtmanfred	?
+2012-09-02 14:16:35	+meskarune	oh I'm the only one there :P
+2012-09-02 14:16:38	gtmanfred	i can go ahead and make that now
+2012-09-02 14:18:09	<<<	mijenix (~mijenix@84-75-161-81.dclient.hispeed.ch) has left #archlinux-women
+2012-09-02 14:18:59	+meskarune	!nike
+2012-09-02 14:19:00	phrik	just do it man
+2012-09-02 14:19:18	+meskarune	ok so we'll do some event planning, and work on docs for classroom
+2012-09-02 14:19:28	+meskarune	and do some social media stuff. have to contact bin_bash
+2012-09-02 14:20:15	gtmanfred	done
+2012-09-02 14:20:30	gtmanfred	1                       ?14:20:00 zncfreenode  -- | ChanServ (ChanServ@services.): #archlinux-classroom is now registered to gtmanfred.
+2012-09-02 14:21:08	+tigrmesh	i'll have one other item before we end
+2012-09-02 14:21:32	fsckd	sure :)
+2012-09-02 14:22:04	+tigrmesh	are we done talking about the classroom?
+2012-09-02 14:22:49	fsckd	the conversation seems to have moved to -classroom
+2012-09-02 14:23:10	+tigrmesh	ok
+2012-09-02 14:23:34	fsckd	right now it's mostly songs
+2012-09-02 14:23:39	+tigrmesh	haha
+2012-09-02 14:23:55	+tigrmesh	would anyone be willing to put together the notes for the meeting?
+2012-09-02 14:24:07	+tigrmesh	in a cohesive way so we can put it on the site?
+2012-09-02 14:24:38	fsckd	ok... i can try
+2012-09-02 14:24:46	fsckd	it looks almost done to me
+2012-09-02 14:24:56	+tigrmesh	k
+2012-09-02 14:25:02	+tigrmesh	thanks  :)
+2012-09-02 14:25:21	<<<	amskah (~amskah@softbank126007231145.bbtec.net) has quit (Quit: Leaving)
+2012-09-02 14:26:27	>>>	CalimeroTeknik (~calimero@ARennes-357-1-252-74.w2-14.abo.wanadoo.fr) has joined #archlinux-women
+2012-09-02 14:27:04	adren	where do I register for class? D:
+2012-09-02 14:28:22	+meskarune	hehe, maybe i can make a registration thingy
+2012-09-02 14:28:22	+meskarune	:)
+2012-09-02 14:28:33	+meskarune	so irc nick and email?
+2012-09-02 14:28:46	gtmanfred	and favorite package
+2012-09-02 14:30:13	fsckd	tigrmesh: you said you have one more thing to add?
+2012-09-02 14:30:21	+tigrmesh	that was it
+2012-09-02 14:30:34	fsckd	ok :)
+2012-09-02 14:30:39	fsckd	i have a question
+2012-09-02 14:30:43	+meskarune	?
+2012-09-02 14:30:47	+tigrmesh	sure
+2012-09-02 14:31:09	fsckd	in the notes it says "maybe help people install chakra and archbang" why do we want to do that?
+2012-09-02 14:31:48	fsckd	chakra is very different from arch and archbang is supposed to be easy to install
+2012-09-02 14:32:10	gtmanfred	yes, I am 100% against that
+2012-09-02 14:32:16	+tigrmesh	me too
+2012-09-02 14:32:30	+tigrmesh	arch.  that's it.  arch
+2012-09-02 14:33:06	gtmanfred	chakra is seperate, completely, and doesn't help patch anything upstream (aka, no patching for pacman, no helping with anything)
+2012-09-02 14:33:13	gtmanfred	and archbang is just... i can't support that at all
+2012-09-02 14:33:16	+tigrmesh	if it turns out that someone's installing chakra or archbang, i wouldn't want to kick them out
+2012-09-02 14:33:18	+tigrmesh	but i wouldnt
+2012-09-02 14:33:28	+tigrmesh	wouldn't want to invite them
+2012-09-02 14:35:23	gtmanfred	hmm, there has to be a good way to link this... hold on
+2012-09-02 14:35:31	gtmanfred	oh i kno
+2012-09-02 14:35:34	gtmanfred	know
+2012-09-02 14:36:24	+meskarune	https://docs.google.com/spreadsheet/viewform?formkey=dE56bVFnanViNVNMVFQwdHdQampFb1E6MQ
+2012-09-02 14:36:25	+meskarune	?
+2012-09-02 14:36:26	phrik	Title: Arch Linux PKGBUILD Class Registration (at docs.google.com)
+2012-09-02 14:36:44	gtmanfred	looks fine
+2012-09-02 14:37:08	+meskarune	sounds good to me
+2012-09-02 14:37:16	+meskarune	@ tigrmesh, gtmanfred 
+2012-09-02 14:37:27	+tigrmesh	looks great
+2012-09-02 14:37:44	fsckd	that should work meskarune :)
+2012-09-02 14:38:00	+tigrmesh	just needs a date!
+2012-09-02 14:38:09	fsckd	regarding the chakra and archbang thing, remove that from the notes?
+2012-09-02 14:38:16	+tigrmesh	so the registration is on/in google docs and not on the arch women site?
+2012-09-02 14:38:28	+tigrmesh	that would be my vote
+2012-09-02 14:38:49	fsckd	tigrmesh: google docs will make a table, if i understand it
+2012-09-02 14:38:55	fsckd	a spreadsheet
+2012-09-02 14:39:17	+tigrmesh	ok
+2012-09-02 14:39:40	+tigrmesh	right.  now password / no security
+2012-09-02 14:39:43	+meskarune	yeah fsckd 
+2012-09-02 14:39:44	+meskarune	:)
+2012-09-02 14:39:44	+tigrmesh	no*
+2012-09-02 14:40:05	+meskarune	oh right, I can make a user pass for spam filtering
+2012-09-02 14:41:07	+tigrmesh	we wouldn't know what was spam and what wasn't
+2012-09-02 14:41:19	fsckd	spam in what?
+2012-09-02 14:41:27	+tigrmesh	so a third field for what's this class for?
+2012-09-02 14:41:54	+tigrmesh	registrations.  or would they not do that?
+2012-09-02 14:42:23	fsckd	i don't see a third field
+2012-09-02 14:42:56	fsckd	"WHat is your IRC nickname?" "What is your Email address?"
+2012-09-02 14:43:18	fsckd	am i looking at the wrong form?
+2012-09-02 14:43:30	adren	and where the fsckd am I?
+2012-09-02 14:43:37	+tigrmesh	haha
+2012-09-02 14:44:00	+meskarune	hehe
+2012-09-02 14:44:09	+tigrmesh	fsckd: there isn't a third field.  it's under discussion
+2012-09-02 14:44:11	+meskarune	I can embed it in the site, but its iframe
+2012-09-02 14:44:15	fsckd	oh
+2012-09-02 14:44:16	gtmanfred	http://code.gtmanfred.com/~znc/logs/classroom/
+2012-09-02 14:44:17	phrik	Title: Index of /~znc/logs/classroom/ (at code.gtmanfred.com)
+2012-09-02 14:44:24	gtmanfred	hmm maybe i can make it a symlink
+2012-09-02 14:44:24	+meskarune	awesome
+2012-09-02 14:44:50	fsckd	!give adren eikooc
+2012-09-02 14:44:52	phrik	adren: cookie wanted you to have this fsckd.
+2012-09-02 14:45:34	+tigrmesh	cute
+2012-09-02 14:48:40	CalimeroTeknik	????????
+2012-09-02 14:49:22	fsckd	we're still in the meeting?
+2012-09-02 14:49:25	CalimeroTeknik	silly me speaks Japanese while Silvah is offline
+2012-09-02 14:50:02	fsckd	approaching two hours, I propose immediate cessation
+2012-09-02 14:51:17	+meskarune	haha ok :0
+2012-09-02 14:51:22	+meskarune	meeting end?
+2012-09-02 14:51:33	+meskarune	we will do more plannign with classroom on the forums and irc chat?
+2012-09-02 14:51:55	+meskarune	and pick a date for our arch install event, then advertise the heck out of it
+2012-09-02 14:52:18	+meskarune	I'll put an arch virtual box together
+2012-09-02 14:52:56	+tigrmesh	sounds good.  i think this meeting has definitely wound down
+2012-09-02 14:53:35	+tigrmesh	the next meeting should be Sunday, October 7
+2012-09-02 14:53:42	+meskarune	now I need some coffee :)
+2012-09-02 14:53:59	+tigrmesh	:)

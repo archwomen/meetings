@@ -1,0 +1,227 @@
+2013-11-03 12:12:13	+meskarune	====== Meeting Begins ======
+2013-11-03 12:12:20	+meskarune	Status Updates
+2013-11-03 12:12:36	+meskarune	Dokuwiki Migration
+2013-11-03 12:12:43	+meskarune	We are killing redmine with fire
+2013-11-03 12:13:00	fsckd	yup yup yup
+2013-11-03 12:13:01	+meskarune	and using https://archwomen.org/wiki/ for documentation
+2013-11-03 12:13:03	phrik	Title: Youve reached the Arch Women Wiki [Arch Women Wiki] (at archwomen.org)
+2013-11-03 12:13:38	fsckd	migration is about 80-90% done
+2013-11-03 12:13:51	fsckd	all issues are migrated across
+2013-11-03 12:13:53	hh4a	oh nice
+2013-11-03 12:14:35	fsckd	i expect it to be finished today or within a few days
+2013-11-03 12:15:16	polyzen	i'm going to checkout docuwiki right quick
+2013-11-03 12:15:24	fsckd	:)
+2013-11-03 12:15:25	+meskarune	hehe
+2013-11-03 12:15:42	fsckd	in the last few meetings we asked about what issue tracker to use
+2013-11-03 12:15:44	+meskarune	I gotta write up info about the theme
+2013-11-03 12:15:53	+meskarune	we were looking at trello
+2013-11-03 12:16:05	fsckd	yeah, there were a bunch of suggestions
+2013-11-03 12:16:31	fsckd	me and tigrmesh decided that for now we'll use the wiki to track todo items
+2013-11-03 12:16:39	+meskarune	trello, tiny issue, an email issue tracker thing (can't remember), oh and there is a dokuwiki plugin
+2013-11-03 12:16:59	fsckd	the dokuwiki plugin doesn't suit our purposes so it won't be used
+2013-11-03 12:17:35	fsckd	here's where the stuff is now, https://archwomen.org/wiki/aw-org:todo
+2013-11-03 12:17:37	phrik	Title: To-Do [Arch Women Wiki] (at archwomen.org)
+2013-11-03 12:18:31	+meskarune	oh ok. yeah I was iffy on the plugin
+2013-11-03 12:18:56	fsckd	everything is on one page so they are easier to find. there aren't that many todo items so it is possible to manage manually
+2013-11-03 12:18:57	+meskarune	usually tacked on things aren't as good as something built specifically for a task
+2013-11-03 12:19:33	fsckd	i like trello but that has tradeoffs
+2013-11-03 12:19:35	hh4a	tiny issue should be adequate?
+2013-11-03 12:20:56	fsckd	may be
+2013-11-03 12:21:16	fsckd	the idea is right now to get rid of redmine, its too much of a problem
+2013-11-03 12:21:19	+tigrmesh	i ran out of energy for it.  others may have too.  i want to move on to having an active blog
+2013-11-03 12:21:33	fsckd	hehe yeah
+2013-11-03 12:21:58	fsckd	we can discuss issue trackers in the future and make a decision without rushing
+2013-11-03 12:22:32	+meskarune	https://archwomen.org/projectmanager/
+2013-11-03 12:22:54	+meskarune	I unpacked tinyissue there and ran the installer, but can't get it to actually work
+2013-11-03 12:23:00	+meskarune	need to troubleshoot more
+2013-11-03 12:23:05	+meskarune	I wanted to test it out and see
+2013-11-03 12:23:08	+tigrmesh	i don't see anything
+2013-11-03 12:23:14	+meskarune	yeah its borken
+2013-11-03 12:23:16	+tigrmesh	hh4a: have you used tinyissue?
+2013-11-03 12:25:24	hh4a	sorry havent used it, just have hopes for it, just like my opinion and all
+2013-11-03 12:27:17	fsckd	the migration from Redmine to DOkuwiki is almost complete. it can be finished soon. Redmine iwll be gone in a few days.
+2013-11-03 12:27:30	fsckd	Redmine accounts will not be moved over
+2013-11-03 12:28:11	fsckd	if you want to help edit the wiki, you'll need to make a new account there
+2013-11-03 12:28:52	fsckd	will be looking into oauth stuff may be, so people could sign in with their google accounts. but want to be sure it won't open a hole for spammers
+2013-11-03 12:29:51	hh4a	feeling blue about oauth
+2013-11-03 12:30:18	fsckd	yeah?
+2013-11-03 12:31:09	hh4a	well if integration aint pita, then why not
+2013-11-03 12:31:31	fsckd	what makes you feel blue about oauth?
+2013-11-03 12:38:18	Aster	We're using it in the company I worked at, it's wonderful imo
+2013-11-03 12:38:45	hh4a	yeah just implement it
+2013-11-03 12:43:12	polyzen	Aster: was this for a public service?
+2013-11-03 12:43:22	Aster	polyzen: nope
+2013-11-03 12:43:44	polyzen	hm
+2013-11-03 12:47:16	+meskarune	So I played around with tinyissue and it looks like the code is for php5.3, and our server has php5.5
+2013-11-03 12:47:33	+meskarune	in php5.5 yeild is a keyword, and that was used in the tinyissue code
+2013-11-03 12:47:45	+meskarune	so just have to change yeild to something else
+2013-11-03 12:47:52	+meskarune	should be fixed in upstream
+2013-11-03 12:48:29	+meskarune	fixing it = search and replace yeild with another word
+2013-11-03 12:51:44	+meskarune	https://github.com/mikelbring/tinyissue
+2013-11-03 12:51:45	phrik	Title: mikelbring/tinyissue · GitHub (at github.com)
+2013-11-03 12:51:50	+meskarune	or maybe we should fork?
+2013-11-03 12:52:10	hh4a	pull request
+2013-11-03 12:52:29	polyzen	https://github.com/mikelbring/tinyissue/pull/143
+2013-11-03 12:52:31	phrik	Title: Fix compability with PHP 5.5.x by kuc · Pull Request #143 · mikelbring/tinyissue · GitHub (at github.com)
+2013-11-03 12:53:20	polyzen	"So TinyIssue just needs to update Laravel."
+2013-11-03 12:54:06	+meskarune	heh
+2013-11-03 12:54:10	+meskarune	<3
+2013-11-03 12:55:37	polyzen	2 months ago ;o
+2013-11-03 12:55:40	+meskarune	how hard would it be to update our laravel 
+2013-11-03 12:56:31	+meskarune	there has to be some sort of update command
+2013-11-03 12:56:38	<--	markuman (~markuman@schlupp.osuv.de) has left #archlinux-women ("WeeChat 0.4.2")
+2013-11-03 13:00:09	+meskarune	I can't connect to riseup :(
+2013-11-03 13:00:22	+meskarune	so the next thing to talk about was mailman?
+2013-11-03 13:00:48	polyzen	it disconnected but i was able to reconnect
+2013-11-03 13:02:00	+meskarune	kk
+2013-11-03 13:02:07	fsckd	yeah riseup does that, reload the page
+2013-11-03 13:02:21	-->	escondida (~joyfulgir@unaffiliated/joyfulgirl) has joined #archlinux-women
+2013-11-03 13:02:23	+meskarune	for a sec I thought maybe my internet was having issues
+2013-11-03 13:02:30	+tigrmesh	so that light green is polyzen.  cool
+2013-11-03 13:02:46	polyzen	yus
+2013-11-03 13:03:12	+tigrmesh	what is laravel?
+2013-11-03 13:03:30	hh4a	php framework with beautiful code
+2013-11-03 13:03:52	+tigrmesh	ah
+2013-11-03 13:04:21	+tigrmesh	neither it nor tinyissue are in the aur.  nor are they in the regular repos
+2013-11-03 13:04:26	-->	netherlands6 (4c0ab6ee@gateway/web/freenode/ip.76.10.182.238) has joined #archlinux-women
+2013-11-03 13:04:48	polyzen	fun :D
+2013-11-03 13:05:28	+meskarune	tinyissue can be installed through git
+2013-11-03 13:05:38	+meskarune	so a package shouldn't be too hard to make
+2013-11-03 13:05:48	netherlands6	hi I would like to know why the sound go on both speakers and headphone when I plug the wire to the jack
+2013-11-03 13:06:03	polyzen	netherlands6: #archlinux
+2013-11-03 13:06:09	+meskarune	hello netherlands6. try asking your question in #archlinux-newbie
+2013-11-03 13:06:29	+meskarune	netherlands6: also check alsa-mixer, you might have both enabled
+2013-11-03 13:06:42	netherlands6	but what is this channel for then
+2013-11-03 13:07:15	polyzen	netherlands6: https://archwomen.org/
+2013-11-03 13:07:16	phrik	Title: Arch Linux Women (at archwomen.org)
+2013-11-03 13:07:25	+meskarune	this is the Arch Linux Women's project channel. we are in the middle of a meeting atm. :)
+2013-11-03 13:07:28	polyzen	it says it there :)
+2013-11-03 13:07:58	ras0ir	https://www.dokuwiki.org/plugin:gitbacked would be a nice addition
+2013-11-03 13:08:07	netherlands6	but what is the meeting talking about
+2013-11-03 13:08:27	+meskarune	netherlands6: https://archwomen.org/wiki/meetings:2013_november
+2013-11-03 13:08:29	phrik	Title: 21st IRC Meeting [Arch Women Wiki] (at archwomen.org)
+2013-11-03 13:08:44	+tigrmesh	encouraging women to use arch linux or any linux, really
+2013-11-03 13:09:01	+meskarune	we were discusing the wiki and project manager
+2013-11-03 13:09:12	+meskarune	now going to talk about setting up a mailinglist
+2013-11-03 13:11:12	netherlands6	I test almost every OS and Manjaro based on archlinux is the best I've test yet
+2013-11-03 13:11:26	polyzen	good to hear
+2013-11-03 13:11:44	+meskarune	thanks ras0ir 
+2013-11-03 13:11:55	fsckd	netherlands6: this channel is being publicly logged for the meeting
+2013-11-03 13:12:06	+meskarune	so we are thinking gnu mailman as the mailing list manager
+2013-11-03 13:12:16	+meskarune	and probably install on dataserver?
+2013-11-03 13:12:28	+meskarune	mailman can be installed in a virtualenv or from pacman
+2013-11-03 13:12:59	+meskarune	its in community
+2013-11-03 13:13:43	fsckd	can it work with Zoho?
+2013-11-03 13:13:43	<--	escondida (~joyfulgir@unaffiliated/joyfulgirl) has quit (Quit: WeeChat 0.4.2)
+2013-11-03 13:13:43	netherlands6	I know fsckd I'm following archlinux-women on facebook
+2013-11-03 13:13:55	fsckd	netherlands6: awesome :)
+2013-11-03 13:14:06	+meskarune	fsckd: yeah, you can have it use external mail servers
+2013-11-03 13:14:29	+meskarune	honestly most mail setups have multiple servers for redundancy
+2013-11-03 13:14:58	+meskarune	and smtp/imap could be on different machines entirly
+2013-11-03 13:16:50	+meskarune	I need to setup a mta that uses zoho
+2013-11-03 13:16:55	+meskarune	so we can have email forms and things
+2013-11-03 13:18:30	ras0ir	what's zoho used for?
+2013-11-03 13:18:45	+tigrmesh	email to archwomen.org
+2013-11-03 13:20:06	ras0ir	http://openatrium.com/ i'd suggest openatrium as a collab suite
+2013-11-03 13:20:08	phrik	Title: Open Atrium (at openatrium.com)
+2013-11-03 13:20:47	netherlands6	have a nice day everyone continue your excellent work ;
+2013-11-03 13:21:18	fsckd	netherlands6: thanks for stopping by :)
+2013-11-03 13:21:24	polyzen	bye;
+2013-11-03 13:21:31	fsckd	come again soon :)
+2013-11-03 13:21:49	<--	netherlands6 (4c0ab6ee@gateway/web/freenode/ip.76.10.182.238) has quit (Quit: Page closed)
+2013-11-03 13:23:53	+meskarune	there is also majordomo and dadamail
+2013-11-03 13:23:56	+meskarune	probably more
+2013-11-03 13:24:09	ras0ir	well afaik majordomo is obsolete 
+2013-11-03 13:24:12	+meskarune	but gnu mailman is the most familiar for linux users
+2013-11-03 13:24:24	ras0ir	mlmmj and sympa are alternatives but mailman is de facto IMHO
+2013-11-03 13:24:29	+meskarune	ras0ir: yeah, plus you have to email the list to change your subscription settings. LOL
+2013-11-03 13:25:51	ras0ir	lol
+2013-11-03 13:27:03	polyzen	is zoho already in use by -women?
+2013-11-03 13:28:02	-->	nisstyre (~yours@oftn/member/Nisstyre) has joined #archlinux-women
+2013-11-03 13:28:14	+meskarune	yeah atm
+2013-11-03 13:28:27	+meskarune	we only have 2 VPS's
+2013-11-03 13:28:41	+meskarune	and for email you need redundancy, spam protection, etc
+2013-11-03 13:29:11	ioni	tigrmesh, what's the meeting about?
+2013-11-03 13:29:44	polyzen	ioni: https://archwomen.org/wiki/meetings:2013_november
+2013-11-03 13:29:45	phrik	Title: 21st IRC Meeting [Arch Women Wiki] (at archwomen.org)
+2013-11-03 13:29:53	+tigrmesh	hey ioni!  what we're up to, suggestions, stuff like that.  right now we're talking about having a mailing list
+2013-11-03 13:30:09	+tigrmesh	ioni: this is where we are now:  DigitalOcean Invoice - October 2013 
+2013-11-03 13:30:24	+tigrmesh	not that
+2013-11-03 13:30:28	+tigrmesh	ioni: https://pad.riseup.net/p/archwomen-meet-nov3
+2013-11-03 13:30:31	phrik	Title: Riseup Pad (at pad.riseup.net)
+2013-11-03 13:30:36	+meskarune	ioni: so far we've talked about the redmine => dokuwiki migration, tinyissue, and now mailing list
+2013-11-03 13:31:05	ioni	ok
+2013-11-03 13:31:07	fsckd	in IRC the mighty IRC ioni sleeps toniiiiight
+2013-11-03 13:31:14	+tigrmesh	so are we going with tinyissue, or are we going to test first?
+2013-11-03 13:31:41	ioni	can i suggest getting a cpanel license in order to easy maintain that server?
+2013-11-03 13:32:11	+meskarune	ioni: LMAO
+2013-11-03 13:32:16	ioni	:D
+2013-11-03 13:32:37	ioni	it has all the features you want :D
+2013-11-03 13:32:43	<--	terra-and-luna (~nyux@unaffiliated/terra-and-luna) has quit (Ping timeout: 240 seconds)
+2013-11-03 13:32:52	ioni	you can easy set up spam protection
+2013-11-03 13:32:59	ioni	creating mailing lists are easy enough
+2013-11-03 13:33:24	ioni	the downside is that it won't be archlinux but centos
+2013-11-03 13:33:46	+meskarune	ioni: yeah, that is really the *only* downside ;)
+2013-11-03 13:34:07	fsckd	that's an easy fix, rename the project to centos-women
+2013-11-03 13:34:19	+meskarune	haha
+2013-11-03 13:35:44	+meskarune	my brain keeps getting unfocused
+2013-11-03 13:35:58	+meskarune	jet lag from time change maybe? idk LOL
+2013-11-03 13:36:27	+meskarune	so I've never installed/configured mailman before
+2013-11-03 13:37:30	ras0ir	meskarune: https://wiki.archlinux.org/index.php/mailman 
+2013-11-03 13:37:32	phrik	Title: Mailman - ArchWiki (at wiki.archlinux.org)
+2013-11-03 13:38:00	fsckd	https://archwomen.org/wiki/aw-tech:mailman
+2013-11-03 13:38:02	phrik	Title: Mailman [Arch Women Wiki] (at archwomen.org)
+2013-11-03 13:38:05	+meskarune	I mean, I can install it in a virtualenv or with pacman
+2013-11-03 13:38:19	+meskarune	but then we have to decide how to configure it, and what web frontends to use
+2013-11-03 13:39:20	+meskarune	oh, did I write that?
+2013-11-03 13:39:22	+meskarune	LOL
+2013-11-03 13:39:27	fsckd	XD
+2013-11-03 13:41:24	+meskarune	mailman uses python 2
+2013-11-03 13:41:45	+meskarune	so might make sense to install it into a virtualenv so python system updates don't bork it
+2013-11-03 13:41:59	+meskarune	but then we can't use pacman for updates
+2013-11-03 13:42:17	+meskarune	will the community package keep mailman updated and working?
+2013-11-03 13:42:25	fsckd	would it be necessary? python2 updates don't break compatibility do they?
+2013-11-03 13:42:34	+meskarune	I don't think
+2013-11-03 13:42:54	+meskarune	er...... ^ so
+2013-11-03 13:43:01	+meskarune	;)
+2013-11-03 13:43:05	fsckd	heh
+2013-11-03 13:43:53	fsckd	python2 is stuck at 2.7.x forever while python can jump by bigger versions
+2013-11-03 13:43:54	+meskarune	postorius and hyperkitty have to be installed seperately
+2013-11-03 13:44:21	+meskarune	postorius = web interface and hyperkitty = archives
+2013-11-03 13:45:08	-->	terra-and-luna (~nyux@unaffiliated/terra-and-luna) has joined #archlinux-women
+2013-11-03 13:45:13	+meskarune	I don't think either of those are in the repos
+2013-11-03 13:45:17	+meskarune	but might be in aur?
+2013-11-03 13:48:39	fsckd	shouldn't be hard to make a PKGBUILD for hyperkitty
+2013-11-03 13:48:43	+meskarune	so really I'm wondering: virtualenv or pacman package? and we configure mailman to use zoho servers? (if that is possible, need to research more)
+2013-11-03 13:49:00	+meskarune	I'm surprised there isn't one already
+2013-11-03 13:50:20	+meskarune	I think they both use django
+2013-11-03 13:50:50	fsckd	it doesn't seem they are necessary
+2013-11-03 13:51:01	fsckd	according to arch wiki
+2013-11-03 13:52:18	+meskarune	yeah, they are just for doing web interface stuff
+2013-11-03 13:52:29	+meskarune	maybe we could stick archives into a git repo?
+2013-11-03 13:54:08	fsckd	not a bad idea
+2013-11-03 13:58:14	+meskarune	so installing is easy, but then we have to configure it
+2013-11-03 13:58:31	+meskarune	I hope they have good docs ;)
+2013-11-03 13:59:36	fsckd	hehe
+2013-11-03 14:00:44	+meskarune	so hyperkitty and gnu-mailman
+2013-11-03 14:01:14	+meskarune	or no web-ui?
+2013-11-03 14:01:24	polyzen	how would people sign up
+2013-11-03 14:02:00	+meskarune	https://launchpad.net/mailman.client
+2013-11-03 14:02:02	phrik	Title: GNU Mailman REST Client in Launchpad (at launchpad.net)
+2013-11-03 14:02:22	+meskarune	it comes with that
+2013-11-03 14:02:39	+meskarune	I'm sure installing postorius is easier than configuring mailman itself
+2013-11-03 14:02:49	+meskarune	I probably just jinxed it though
+2013-11-03 14:04:09	Aster	http://i.imgur.com/4A9U7TY.png
+2013-11-03 14:04:19	polyzen	haha
+2013-11-03 14:07:59	+meskarune	haha
+2013-11-03 14:08:11	+meskarune	I'm falling asleep :o
+2013-11-03 14:08:37	+meskarune	so we'll hack away on mailman
+2013-11-03 14:08:49	+meskarune	I already jumped into the chan, but its really quiet
+2013-11-03 14:09:45	polyzen	maybe their mailing list is more active ;p
+2013-11-03 14:10:20	+meskarune	good idea
+2013-11-03 14:10:31	+meskarune	;)
+2013-11-03 14:12:10	+meskarune	ok any last words?
+2013-11-03 14:12:13	+meskarune	final comments?
+2013-11-03 14:12:17	+meskarune	rants?
+2013-11-03 14:13:25	+meskarune	kk I'm gonna end the meeting :)
+2013-11-03 14:13:32	+meskarune	===== Meeting Ends =====

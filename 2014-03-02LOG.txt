@@ -1,0 +1,227 @@
+Log of Arch Women 25th IRC Meeting, March 2nd, 2014
+
+Mar 02 11:35:32       +tigrmesh  ============  88888888888  meeting begins  88888888  ================
+Mar 02 11:35:46       +tigrmesh  for those of us who are not strong greppers  ;)
+Mar 02 11:35:48   carharttjimmy  fsckd: I am a middle manager!
+Mar 02 11:35:49       +tigrmesh  hi
+Mar 02 11:37:17       +tigrmesh  the meeting notes will be at https://pad.riseup.net/p/aw-march-irc-meeting, the info is also in the channel topic
+Mar 02 11:37:19           phrik  Title: Riseup Pad (at pad.riseup.net)
+Mar 02 11:37:22       +tigrmesh  so
+Mar 02 11:37:56       +tigrmesh  first item: server
+Mar 02 11:38:10       +tigrmesh  fsckd, do you know what's going on with it?
+Mar 02 11:38:27       +tigrmesh  any good news or bad?
+Mar 02 11:39:06           fsckd  no news at all!
+Mar 02 11:39:19           fsckd  :P
+Mar 02 11:39:25           fsckd  nothing bad
+Mar 02 11:39:39       +tigrmesh  all is well?
+Mar 02 11:39:40           fsckd  there's incremental improvements to stuff
+Mar 02 11:39:56           fsckd  small stuff here and there
+Mar 02 11:40:01  CalimeroTeknik  it took me 20s to load the main page from France but the other pages after that were okay
+Mar 02 11:40:06  CalimeroTeknik  maybe a bit of memory pressure?
+Mar 02 11:40:22  CalimeroTeknik  possibly the connection.
+Mar 02 11:40:26           fsckd  -/+ buffers/cache:        494        503
+Mar 02 11:40:31           fsckd  no swap in use
+Mar 02 11:40:48  CalimeroTeknik  ok. please continue then, it must have been the network
+Mar 02 11:41:04  CalimeroTeknik  https://archwomen.org/join/ has "text here" placeholders
+Mar 02 11:41:05           phrik  Title: Arch Linux Women | Join (at archwomen.org)
+Mar 02 11:41:19           fsckd  hehe yeah, lots of place holders
+Mar 02 11:41:36               *  carharttjimmy cracks the whip near fsckd
+Mar 02 11:41:41           fsckd  gah!
+Mar 02 11:41:58           fsckd  most of that is in git on github. if anyone wants to volunteer, please feel free too
+Mar 02 11:42:11    spider-mario  placeholders
+Mar 02 11:42:13    spider-mario  [buzz here]
+Mar 02 11:42:16    spider-mario  placeholders everywhere
+Mar 02 11:43:34           fsckd  placeholder placeholders everywhere, and all the web did shrink, placeholder placeholders everywhere, nor any space to think
+Mar 02 11:44:10       +tigrmesh  would anyone be available for @ 10 mins after this meeting to go through the site with me and look for placeholders and similar?  we can make a list.  and some can be fixed right away
+Mar 02 11:44:12    spider-mario  whoa
+Mar 02 11:45:03  CalimeroTeknik  I can help but I don't know the necessary info to write the text
+Mar 02 11:45:24   carharttjimmy  LEG ASLEEP
+Mar 02 11:45:26   carharttjimmy  AHHHH
+Mar 02 11:45:27  CalimeroTeknik  for instance, what does "join arch women" mean?
+Mar 02 11:45:38  CalimeroTeknik  is it just coming to IRC?
+Mar 02 11:45:42               *  carharttjimmy goes to hobbling around the room
+Mar 02 11:46:08       +tigrmesh  CalimeroTeknik, no idea.  we can put that on the list, though.  will you sped a few mins with me after?
+Mar 02 11:46:08  CalimeroTeknik  should install parties (I think there are some) be mentioned?
+Mar 02 11:46:20       +tigrmesh  we'll look  :)
+Mar 02 11:46:29  CalimeroTeknik  sure. I thought I'd say that right now when everybody's here
+Mar 02 11:46:45  CalimeroTeknik  just the base facts — did I sum them up?
+Mar 02 11:48:32  CalimeroTeknik  Classes are redacted courses? I've never understood if they also meant live meetings
+Mar 02 11:48:48   carharttjimmy  I can spend a few minutes too
+Mar 02 11:48:51   carharttjimmy  though I am a bit sick
+Mar 02 11:49:27       +tigrmesh  since meskarune isn't here to do the internship stuff, we can turn the meeting format on its ear, i guess
+Mar 02 11:49:36           fsckd  sure
+Mar 02 11:50:02       +tigrmesh  CalimeroTeknik, what page are you on?
+Mar 02 11:50:54       +tigrmesh  wait, wait
+Mar 02 11:51:14  CalimeroTeknik  the main page says it's teaching material but the wiki says  "After taking this class, you should have a better understanding of…"
+Mar 02 11:51:30   carharttjimmy  yeah
+Mar 02 11:51:34   carharttjimmy  we need to reword that
+Mar 02 11:51:39   carharttjimmy  That makes zero sense
+Mar 02 11:52:05  CalimeroTeknik  guess my being an outsider regarding that put the matter to light, eventually ^^
+Mar 02 11:53:28   carharttjimmy  but to what
+Mar 02 11:53:37   carharttjimmy  that requires someone who is good with wording
+Mar 02 11:55:14       +tigrmesh  CalimeroTeknik, what does redacted courses mean?
+Mar 02 11:56:03             -->  ioni (~wonder@archlinux/developer/wonder) has joined #archlinux-women
+Mar 02 11:56:28  CalimeroTeknik  I meant the document that in itself teaches something
+Mar 02 11:56:40  CalimeroTeknik  that probably wasn't proper English
+Mar 02 11:57:26   carharttjimmy  but teaching is a verb for animate objects
+Mar 02 11:57:37   carharttjimmy  well
+Mar 02 11:57:39   carharttjimmy  nvm
+Mar 02 11:57:55   carharttjimmy  hmmm CalimeroTeknik 
+Mar 02 11:58:05             <--  ioni (~wonder@archlinux/developer/wonder) has left #archlinux-women ("Leaving")
+Mar 02 11:58:13   carharttjimmy  How about, "After reading through this document, you will have a better understanding of x"
+Mar 02 11:58:42             -->  polyzen (~poly@unaffiliated/polyzen) has joined #archlinux-women
+Mar 02 11:58:43  CalimeroTeknik  the documents needs be redacted then, and that's not going to take ten minutes!
+Mar 02 11:58:48  CalimeroTeknik  the document*
+Mar 02 12:00:08   carharttjimmy  we can do that in ten minutes
+Mar 02 12:00:28       +tigrmesh  linky?
+Mar 02 12:00:42   carharttjimmy  we're not a big enough org, where once we let out a bad document that we have to rush to take it down
+Mar 02 12:02:04       +tigrmesh  what if we change that from "Arch Women is hosting a package building class"   to   "Arch Women *hosted* a package building class"
+Mar 02 12:02:05       +tigrmesh  ?
+Mar 02 12:02:17   carharttjimmy  That works too
+Mar 02 12:02:51  CalimeroTeknik  hence my question, wasn't it in the IRC chan?
+Mar 02 12:03:06   carharttjimmy  #archlinux-classroom right tigrmesh ?
+Mar 02 12:03:29       +tigrmesh  it was
+Mar 02 12:05:08  CalimeroTeknik  then there should be a category "IRC classes" in the blog
+Mar 02 12:05:32  CalimeroTeknik  so one can see the past classes and the coming ones
+Mar 02 12:05:49  CalimeroTeknik  and a link to the category in the paragraph on classes on the main page
+Mar 02 12:06:25  CalimeroTeknik  the wiki can be another item in Projects
+Mar 02 12:06:43       +tigrmesh  a link to where?
+Mar 02 12:07:05  CalimeroTeknik  to the blog category "IRC classes"
+Mar 02 12:07:31           fsckd  oh, have blog posts about past and upcoming classes?
+Mar 02 12:07:43  CalimeroTeknik  yes
+Mar 02 12:07:48           fsckd  and they all be in the category "IRC Classes"
+Mar 02 12:08:03  CalimeroTeknik  sure. just an idea that's not costly in terms of implementation
+Mar 02 12:08:10  CalimeroTeknik  we can do that with the site as it is
+Mar 02 12:08:13           fsckd  right
+Mar 02 12:08:20           fsckd  alternatively wiki pages
+Mar 02 12:08:38       +tigrmesh  why be specific about IRC classes vs classes hosted elsewhere?
+Mar 02 12:08:39  CalimeroTeknik  wiki pages?
+Mar 02 12:08:50  CalimeroTeknik  from experience wiki pages are nice to gather static knowledge
+Mar 02 12:09:14  CalimeroTeknik  we tried to publish news on wiki pages at my LUG and it was a disaster, honestly
+Mar 02 12:10:07           fsckd  like when a class occurs, put info. (link to logs, materials) on the wiki. that's static info.
+Mar 02 12:10:29           fsckd  how was it a disaster?
+Mar 02 12:11:56  CalimeroTeknik  the idea was "anybody can edit" and it didn't work, it ended up being coordinated on the mailing list
+Mar 02 12:12:16           fsckd  ahh
+Mar 02 12:12:19  CalimeroTeknik  ah yeah, blog posts are announces of classes, a wiki page can hold what happened
+Mar 02 12:12:39   carharttjimmy  yes yes yes fsckd 
+Mar 02 12:12:49           fsckd  that's a good idea
+Mar 02 12:13:21  CalimeroTeknik  actually that will ease the writing of the "teaching material"
+Mar 02 12:13:40  CalimeroTeknik  seeing what was said in the classroom session
+Mar 02 12:13:44           fsckd  for the last class we left it all to the people running the classes. they announced on the arch forums and arch general mailing list
+Mar 02 12:14:08           fsckd  sorry, i'm dragging it offtopic ><
+Mar 02 12:14:53  CalimeroTeknik  not really. the point is that possibly archwomen.org isn't concerned with these classes?
+Mar 02 12:15:01  CalimeroTeknik  I tend to think it is
+Mar 02 12:15:11           fsckd  hmm
+Mar 02 12:15:16  CalimeroTeknik  maybe people could backlink to the blog post next time
+Mar 02 12:15:37  CalimeroTeknik  which can be put up in a few seconds when the date is known
+Mar 02 12:16:15           fsckd  yeah
+Mar 02 12:17:11  CalimeroTeknik  sorry your question got lost in the flow tigrmesh, yeah, let's make the category "Classes"
+Mar 02 12:17:33  CalimeroTeknik  and each post will make the location explicit, be it a real place or an IRC channel
+Mar 02 12:18:06  CalimeroTeknik  but the description on the main page can reflect what it actually looks like (IRC), and can be modified later on
+Mar 02 12:22:49  CalimeroTeknik  awkward silence ensues ~
+Mar 02 12:25:51           fsckd  lol, sorry
+Mar 02 12:26:28           fsckd  one moment
+Mar 02 12:27:07           fsckd  earlier you quoted a wiki page on classroom. was that the arch linux wiki?
+Mar 02 12:27:39  CalimeroTeknik  oops yes. indeed
+Mar 02 12:27:49  CalimeroTeknik  https://wiki.archlinux.org/index.php/Classroom
+Mar 02 12:27:51           phrik  Title: Classroom - ArchWiki (at wiki.archlinux.org)
+Mar 02 12:28:54  CalimeroTeknik  I now see why it's a little bit weird to post the classes on the archwomen.org blog
+Mar 02 12:38:52       +tigrmesh  but the idea was started in arch women and the same time that arch women was founded/started
+Mar 02 12:39:24   carharttjimmy  so we need to re-brand
+Mar 02 12:39:38   carharttjimmy  we can still rebrand and will have no penalty on association
+Mar 02 12:39:54   carharttjimmy  now if we were a 4000+ active community
+Mar 02 12:40:00   carharttjimmy  it would be a different story
+Mar 02 12:40:15       +tigrmesh  forgive me.  scary things are happening in crimea, and i've been distracted
+Mar 02 12:40:43   carharttjimmy  tigrmesh: WAR
+Mar 02 12:40:47   carharttjimmy  its on the horizon
+Mar 02 12:41:02   carharttjimmy  EU, US, China v Russia
+Mar 02 12:41:04       +tigrmesh  that's been on the plate for a while
+Mar 02 12:42:34       +tigrmesh  iirc, the person who defected had just been appointed...
+Mar 02 12:43:15   carharttjimmy  CalimeroTeknik: submit your changes to github
+Mar 02 12:43:24   carharttjimmy  and we can open an issue and go over them in detail
+Mar 02 12:44:15       +tigrmesh  what do you mean, re-brand, carharttjimmy ?
+Mar 02 12:44:57   carharttjimmy  we say that we are hosting the classrooms
+Mar 02 12:45:16   carharttjimmy  and instead of #archlinux-classroom its #archlinux-women-classroom
+Mar 02 12:46:04  CalimeroTeknik  does it really need be?
+Mar 02 12:46:55       +tigrmesh  ah...
+Mar 02 12:46:59   carharttjimmy  not reaally
+Mar 02 12:48:21       +tigrmesh  carharttjimmy, what page are you on?  where does it say we are hosting the classroom?
+Mar 02 12:49:41   carharttjimmy  umm
+Mar 02 12:49:52   carharttjimmy  I was going off of what CalimeroTeknik 
+Mar 02 12:49:54   carharttjimmy  said
+Mar 02 13:03:13       +tigrmesh  but what page?
+Mar 02 13:03:59  CalimeroTeknik  if it's about what I quoted https://wiki.archlinux.org/index.php/Beginners_Guide_to_C%2B%2B
+Mar 02 13:04:00           phrik  Title: Beginners Guide to C++ - ArchWiki (at wiki.archlinux.org)
+Mar 02 13:04:40  CalimeroTeknik  which basically says what you'll learn if you attend, and I was making the remark that "teaching material" on the main archwomen.org page was misleading
+Mar 02 13:05:12  CalimeroTeknik  the pacman page contains nice info though
+Mar 02 13:05:21  CalimeroTeknik  and the PKGBUILD page contains references and prerequisites
+Mar 02 13:09:26           fsckd  there was a class held and there are logs for it. those should be linked to
+Mar 02 13:09:35           fsckd  from the wiki page
+Mar 02 13:09:43           fsckd  class on PKGBUILDs
+Mar 02 13:11:14      halosghost  is there also a class offered on Bash scripting overall?
+Mar 02 13:11:33      halosghost  or is it assumed that people in the packaging class would already know some Bash?
+Mar 02 13:13:15       +tigrmesh  there has only been one class so far
+Mar 02 13:13:35       +tigrmesh  a lot of initial enthusiasm
+Mar 02 13:14:52               *  CalimeroTeknik can bash
+Mar 02 13:15:34  CalimeroTeknik  recently I submitted a patch to make the pacman PKGBUILD not break if building in "/build folder/"
+Mar 02 13:15:43  CalimeroTeknik  directory*
+Mar 02 13:15:58  CalimeroTeknik  it was ridiculous but hell, unquoted variables?
+Mar 02 13:21:14       +tigrmesh  are you offering to teach a class?
+Mar 02 13:21:42  CalimeroTeknik  yes
+Mar 02 13:22:25  CalimeroTeknik  on arch packaging, I have the required skills
+Mar 02 13:22:57  CalimeroTeknik  I might even be taking it a little too far — https://aur.archlinux.org/packages/li/linux-aufs_friendly/PKGBUILD
+Mar 02 13:23:35  CalimeroTeknik  (dynamically auto-constructed PKGBUILD from ABS + GIT)
+Mar 02 13:25:57  CalimeroTeknik  in other words it's a PKGBUILD that maintains itself
+Mar 02 13:27:55           fsckd  haha
+Mar 02 13:31:43         jy2wong  something that could be interesting is a combined introductory what-is-a-kernel and learn-to-compile-the-linux-kernel class
+Mar 02 13:32:27        ladweeba  that does sound interesting to a beginner like me, jy2wong
+Mar 02 13:34:02             <--  tuxampol (~Mylin@ppp-83-171-146-60.dynamic.mnet-online.de) has quit (Quit: Verlassend)
+Mar 02 13:34:05        ladweeba  is this something that CalimeroTeknik would teach, though?
+Mar 02 13:34:07         jy2wong  I mean, keeping your own custom kernel package up to date is irritating (and I say this as someone who does this :P), but I feel it's a good thing to do at least once, if only to learn what's going on under the hood.
+Mar 02 13:34:52        ladweeba  true that
+Mar 02 13:34:53         jy2wong  this is something I could do, but I need time and prodding.
+Mar 02 13:35:18        ladweeba  ok
+Mar 02 13:35:29        ladweeba  how much time would you need?
+Mar 02 13:35:34  CalimeroTeknik  I'm not that knowledgeable about the whole process, though I know what a kernel is, how it globally works and how to compile it
+Mar 02 13:35:53         jy2wong  I've written half a compiler, and I maintain my own custom kernel package? :P
+Mar 02 13:35:57         jy2wong  s/compiler/kernel
+Mar 02 13:36:23         jy2wong  (I've written an entire compiler, haha)
+Mar 02 13:36:29           fsckd  XD
+Mar 02 13:36:32           dagle  What is half a kernel? Does it boot? Can it run programs? :P
+Mar 02 13:36:40           fsckd  that would be great to have casses on that
+Mar 02 13:36:47           fsckd  classes*
+Mar 02 13:37:00  CalimeroTeknik  classes aren't necessarily taught by one person. I mean somebody can be the class manager, but one or two other people can help
+Mar 02 13:37:31         jy2wong  dagle: I had a partner.
+Mar 02 13:38:57         jy2wong  I went back and attempted to redo all of it myself to see if I could at one point, but I never finished. It's possible that I have an entire kernel by now.
+Mar 02 13:39:27         jy2wong  I don't remember what I did for the joint effort and how much I finished in the solo effort.
+Mar 02 13:39:41           dagle  Still haven't gotten around to get unix programs to run, I can read and load an elf but .so objects are only 50% support.
+Mar 02 13:40:00         jy2wong  (I digress, though. I think the meeting is still going.)
+Mar 02 13:40:56         jy2wong  ladweeba: uncertain? I've been sick for the last week, and still have classes to attend, notes to catch up on and homework to do.
+Mar 02 13:41:15        ladweeba  jy2wong, i understand
+Mar 02 13:42:09        ladweeba  i may already be overloaded myself with my current java class and android-women-dev activities
+Mar 02 13:42:55        ladweeba  but i'm hoping things will wind down as spring approaches
+Mar 02 13:43:57        ladweeba  in any case, i'm interested in helping you, not sure what i could do to help you get things going, but lemme know...i tend to hang out here quite a bit
+Mar 02 13:44:15         jy2wong  aye
+Mar 02 13:44:22        ladweeba  :)
+Mar 02 13:49:00           fsckd  CalimeroTeknik: indeed, the last class had two people working on it. there's no limit on who or how many can run a class
+Mar 02 13:50:12         jy2wong  ladweeba: feel free to PM me about this kernel classroom thing
+Mar 02 13:56:46           fsckd  if any of you are interested in what happened in the one class which was held, here is a transcript, https://archwomen.org/media/project_classroom/classlogs/
+Mar 02 13:56:47           phrik  Title: Index of /media/project_classroom/classlogs/ (at archwomen.org)
+Mar 02 14:00:49        ladweeba  I will jy2wong, I remember reading you need prodding...lol
+Mar 02 14:02:08         jy2wong  would you mind if I ran things by you, too? It's been sufficiently long since I've learned about this stuff that I've forgotten what I didn't know and had trouble with.
+Mar 02 14:02:35        ladweeba  yes, by all means
+Mar 02 14:07:10        ladweeba  just tell me how you want to go about connecting for this
+Mar 02 14:10:39   carharttjimmy  what if fsckd was a bot?
+Mar 02 14:12:28         jy2wong  yeah, just send me a PM every once in a while. My IRC client is running on a machine that essentially never turns off, so barring another freenode DDoS it'll get to me eventually.
+Mar 02 14:13:23        ladweeba  ok then
+Mar 02 14:21:38           fsckd  carharttjimmy: "what if" ?
+Mar 02 14:22:33           fsckd  tigrmesh: suppose the meeting should end now?
+Mar 02 14:22:49           fsckd  or is there anything else anyone would like to discuss?
+Mar 02 14:27:16       +tigrmesh  first, does anyone have any info on an arch google summer of code?
+Mar 02 14:27:28       +tigrmesh  i haven't kept track
+Mar 02 14:29:46       +tigrmesh  ok.  the bbs thread did not get much activity
+Mar 02 14:30:53       +tigrmesh  i'm not sure if we said, but we're postponing the internship agenda item since meskarune isn't here
+Mar 02 14:31:25       +tigrmesh  arch bbs GSoC thread:  https://bbs.archlinux.org/viewtopic.php?id=176184
+Mar 02 14:31:26           phrik  Title: Google Summer of Code 2014 (Page 1) / Arch Discussion / Arch Linux Forums (at bbs.archlinux.org)
+Mar 02 14:31:37       +tigrmesh  fsckd, i'll end now
+Mar 02 14:32:11       +tigrmesh  ============  88888888888  meeting ends  88888888  ================

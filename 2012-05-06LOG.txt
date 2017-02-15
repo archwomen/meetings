@@ -1,0 +1,336 @@
+2012-05-06 13:01:19  fsckd          so we'll start in four minutes?
+2012-05-06 13:01:51  Silvah         It's 19:00 dead here.
+2012-05-06 13:01:52  tuxampol       it takes time till its setup
+2012-05-06 13:02:05  Silvah         First, someone has to resurrect meskarune.
+2012-05-06 13:02:22  carharttjimmy  meskarune: has 2 minutes before I awkwardly call her
+2012-05-06 13:02:32  Silvah         lol
+2012-05-06 13:03:19  fsckd          XD
+2012-05-06 13:03:47  <-- Silvah (~Silvah@unaffiliated/silvah) has quit (Quit: brb)
+2012-05-06 13:04:01  carharttjimmy  coundown is started
+2012-05-06 13:04:24  carharttjimmy  48 seconds till an awkward call she wont forget
+2012-05-06 13:04:31  fsckd          lol
+2012-05-06 13:04:52  --> Silvah (~Silvah@unaffiliated/silvah) has joined #archlinux-women
+2012-05-06 13:04:56  fsckd          we'll start the meeting around :05 whether we have a meskarune or not
+2012-05-06 13:05:09  carharttjimmy  calling her now
+2012-05-06 13:05:14  -- Silvah is now known as meskarune2
+2012-05-06 13:05:17  fsckd          alright
+2012-05-06 13:05:26  meskarune2     Now we have a meskarune.
+2012-05-06 13:05:33  fsckd          hi meskarune2 glad you could make it XD
+2012-05-06 13:05:44  carharttjimmy  almost
+2012-05-06 13:05:46  carharttjimmy  ALMOST
+2012-05-06 13:05:48  carharttjimmy  I HAD YOU!
+2012-05-06 13:05:51  fsckd          lol
+2012-05-06 13:05:54  carharttjimmy  Just dialed your number
+2012-05-06 13:05:56  --> Sherry (~sherry@2.183.19.237) has joined #archlinux-women
+2012-05-06 13:06:01  carharttjimmy  it was ringing
+2012-05-06 13:06:08  -- meskarune2 is now known as Silvah
+2012-05-06 13:06:10  fsckd          did she pick up?
+2012-05-06 13:06:12  carharttjimmy  and you ruin it for me
+2012-05-06 13:06:17  carharttjimmy  nah I hanged up
+2012-05-06 13:06:25  fsckd          ick
+2012-05-06 13:06:28  carharttjimmy  I wanted to make it awkward
+2012-05-06 13:06:31  fsckd          heh
+2012-05-06 13:06:33  carharttjimmy  ohh
+2012-05-06 13:06:38  carharttjimmy  damn you Silvah !!!
+2012-05-06 13:06:41  fsckd          lmao
+2012-05-06 13:07:08  fsckd          we'll start, you can keep calling her at your convenience
+2012-05-06 13:07:11  Silvah         carharttjimmy: no, damn YOU!!!
+2012-05-06 13:08:16  carharttjimmy  left her an awkward message
+2012-05-06 13:08:26  carharttjimmy  all I got is voicemail, query me messages to leave
+2012-05-06 13:08:30  carharttjimmy  :D
+2012-05-06 13:08:37  fsckd          lol
+2012-05-06 13:08:39  fsckd          dang
+2012-05-06 13:08:45  fsckd          ok
+2012-05-06 13:09:02  carharttjimmy  Alright, as an Editor of Archwomen I call this meeting into play
+2012-05-06 13:09:12  carharttjimmy  Will fsckd read the minutes of the last meeting
+2012-05-06 13:09:12  fsckd          excellent
+2012-05-06 13:09:16  fsckd          lol
+2012-05-06 13:09:33  carharttjimmy  or post them
+2012-05-06 13:09:37  carharttjimmy  or give a summary
+2012-05-06 13:10:07  fsckd          meeting notes from last time are at http://archwomen.org/index.php/2012/irc-meeting-2012-04-01
+2012-05-06 13:10:12  phrik          Title: IRC Meeting Notes 2012-04-01 Notes (at archwomen.org)
+2012-05-06 13:10:18  fsckd          we have a couple of ongoing projects
+2012-05-06 13:10:34  carharttjimmy  for the record, they are?
+2012-05-06 13:10:43  fsckd          i'm getting to that
+2012-05-06 13:10:49  * fsckd types slooooooooooow
+2012-05-06 13:10:55  carharttjimmy  alright
+2012-05-06 13:11:11  * carharttjimmy sits back in his seat smoking a cigar looking like a fat cat businessman
+2012-05-06 13:11:57  fsckd          the first project is classes tutorials for making PKGBUILDs
+2012-05-06 13:12:10  fsckd          classes and tutorials*
+2012-05-06 13:13:10  fsckd          the idea was to create and improve documentation
+2012-05-06 13:13:39  carharttjimmy  on the pkgbuilds alright
+2012-05-06 13:13:51  fsckd          yes
+2012-05-06 13:14:03  fsckd          and have individuals give assistance
+2012-05-06 13:14:22  carharttjimmy  the record states that joyfulgirl decided to do that and maybe ioni ?
+2012-05-06 13:14:39  fsckd          yup 
+2012-05-06 13:14:57  carharttjimmy  alright ioni after the reading of the minutes, we would like a progress report on your work
+2012-05-06 13:15:11  fsckd          lol, ioni only volunteered to be a teacher
+2012-05-06 13:15:31  carharttjimmy  still want to hear his ideas he has come up with
+2012-05-06 13:15:37  fsckd          ok sure
+2012-05-06 13:15:43  carharttjimmy  cant teach without making a plan
+2012-05-06 13:16:22  carharttjimmy  Moving onto the next project. Shall we? Unless someone has something that they would like to add
+2012-05-06 13:16:31  carharttjimmy  or to append the minutes
+2012-05-06 13:17:09  * fsckd listens to crickets chirping
+2012-05-06 13:17:32  carharttjimmy  alright lets say that all the minutes has been validated unless someone says otherwise
+2012-05-06 13:17:52  carharttjimmy  I put the motion forward
+2012-05-06 13:17:55  fsckd          heh fine with me XD
+2012-05-06 13:18:03  carharttjimmy  take that as a second
+2012-05-06 13:18:11  carharttjimmy  anyone have any objections?
+2012-05-06 13:18:56  carharttjimmy  Take that as none.
+2012-05-06 13:19:01  fsckd          i think that cricket over there... no no it was cleaning its wings
+2012-05-06 13:19:08  carharttjimmy  Motion passes due to no one objecting
+2012-05-06 13:19:16  carharttjimmy  ioni: you around?
+2012-05-06 13:19:45  ioni           depends
+2012-05-06 13:19:51  ioni           do i have to do anything?
+2012-05-06 13:20:14  carharttjimmy  Just say what you have figured out what you would include and do in your class
+2012-05-06 13:20:25  carharttjimmy  that you would teach
+2012-05-06 13:21:22  <-- Brookie (~sleeze@adsl-68-254-163-245.dsl.milwwi.ameritech.net) has quit (Ping timeout: 256 seconds)
+2012-05-06 13:21:55  carharttjimmy  or you can say that you forgot about it.
+2012-05-06 13:22:08  fsckd          anyways, basically, the last month has been a slow one due to a few people having personal issues, aka rl got in the way
+2012-05-06 13:22:31  carharttjimmy  So, we should ban rl for the archwomen community
+2012-05-06 13:22:36  carharttjimmy  from*
+2012-05-06 13:22:38  ioni           nobody told me that i have deadlines
+2012-05-06 13:22:42  fsckd          lol
+2012-05-06 13:22:49  carharttjimmy  hmm, I see...
+2012-05-06 13:22:54  fsckd          the current projects are long term ones
+2012-05-06 13:23:00  ioni           obvious i did not prepare anything
+2012-05-06 13:23:01  --> Brookie (~sleeze@adsl-68-254-168-96.dsl.milwwi.ameritech.net) has joined #archlinux-women
+2012-05-06 13:23:16  carharttjimmy  yes but even with longterm projects some progress should be made
+2012-05-06 13:23:23  carharttjimmy  but its cool
+2012-05-06 13:23:36  fsckd          we're missing a few key people
+2012-05-06 13:23:38  carharttjimmy  just think of some ideas sometime, and you are done.
+2012-05-06 13:23:44  carharttjimmy  yes, we are.
+2012-05-06 13:23:45  ioni           i'm more into being available to respond to questions than taking a lesson
+2012-05-06 13:23:57  carharttjimmy  that'll do ioni
+2012-05-06 13:24:05  carharttjimmy  thats progress
+2012-05-06 13:24:20  carharttjimmy  we have an idea for the class, a question based thing.
+2012-05-06 13:24:25  fsckd          that was established in the last meeting ;)
+2012-05-06 13:24:48  carharttjimmy  heh we'll we can always establish it in this meeting's minutes
+2012-05-06 13:24:57  carharttjimmy  again
+2012-05-06 13:25:01  fsckd          lol
+2012-05-06 13:25:23  carharttjimmy  alright, if that sums it up.
+2012-05-06 13:25:36  carharttjimmy  How did everyone like tigr's post on online privacy?
+2012-05-06 13:26:33  fsckd          it's good :)
+2012-05-06 13:26:44  ioni           no idea
+2012-05-06 13:26:48  ioni           she posted?
+2012-05-06 13:26:53  ioni           =)
+2012-05-06 13:26:55  carharttjimmy  yeah
+2012-05-06 13:27:09  fsckd          http://archwomen.org/index.php/2012/online-privacy
+2012-05-06 13:27:12  phrik          Title: Some Thoughts on Online Privacy (at archwomen.org)
+2012-05-06 13:27:28  fsckd          tigr's article ^
+2012-05-06 13:27:33  carharttjimmy  I added a bit to it at the end.
+2012-05-06 13:28:50  ioni           can i go now?
+2012-05-06 13:28:56  carharttjimmy  yes, you may
+2012-05-06 13:29:02  fsckd          XD
+2012-05-06 13:29:03  ioni           yuhu
+2012-05-06 13:29:07  carharttjimmy  well....
+2012-05-06 13:29:13  carharttjimmy  since its just fsckd
+2012-05-06 13:29:42  carharttjimmy  Want to add the task of a archwomen bikini calendar ?
+2012-05-06 13:29:59  meskarune      crap
+2012-05-06 13:30:02  meskarune      hi
+2012-05-06 13:30:04  meskarune      sorry ya'll
+2012-05-06 13:30:04  carharttjimmy  meskarune: !!!!
+2012-05-06 13:30:07  carharttjimmy  i called you
+2012-05-06 13:30:10  carharttjimmy  sooooo much
+2012-05-06 13:30:20  meskarune      I was sick and had to go in the hosptial
+2012-05-06 13:30:21  carharttjimmy  and this is going in the logs
+2012-05-06 13:30:21  fsckd          meskarune: fashionably late XD
+2012-05-06 13:30:25  meskarune      :P
+2012-05-06 13:30:32  carharttjimmy  heh get my awkward calls?
+2012-05-06 13:30:36  carharttjimmy  :D
+2012-05-06 13:30:44  meskarune      heh, let me check my cell phone :P
+2012-05-06 13:30:51  fsckd          haha
+2012-05-06 13:31:04  carharttjimmy  Alright, meskarune how goes the SSL conversion?
+2012-05-06 13:31:04  <-- Sherry (~sherry@2.183.19.237) has quit (Ping timeout: 265 seconds)
+2012-05-06 13:31:25  meskarune      apache is set up, and the files are made
+2012-05-06 13:31:48  carharttjimmy  alright sweet
+2012-05-06 13:31:48  meskarune      I just have to read though b2evolutions man pages to figure out what php files to edit
+2012-05-06 13:32:02  carharttjimmy  so progress is going perfectly
+2012-05-06 13:32:02  meskarune      I'm gonna make a copy of the whole site and stick it on git I think
+2012-05-06 13:32:18  carharttjimmy  thats awesome
+2012-05-06 13:32:24  fsckd          the blog posts too?
+2012-05-06 13:32:53  meskarune      the blog posts are in a mysql database, but I could probably put those on git as well
+2012-05-06 13:33:20  carharttjimmy  so shall it be irc-ed, so shall it be done
+2012-05-06 13:33:30  meskarune      hehe
+2012-05-06 13:33:48  fsckd          eh, nvm what i said, mysql db is not something you stick in git
+2012-05-06 13:33:48  carharttjimmy  How goes the mailing list?
+2012-05-06 13:33:49  meskarune      so what have you discussed so far
+2012-05-06 13:34:00  carharttjimmy  we just harrassed ioni thats about it
+2012-05-06 13:34:03  carharttjimmy  read the minutes
+2012-05-06 13:34:04  meskarune      I'm so out of it today, I got back home late yesterday and just slept
+2012-05-06 13:34:14  carharttjimmy  and then harrassed ioni some more
+2012-05-06 13:34:39  carharttjimmy  I say that all people on projects should have something to say at each meeting on progress
+2012-05-06 13:34:50  carharttjimmy  so we know where we stand
+2012-05-06 13:34:50  meskarune      sounds good
+2012-05-06 13:35:49  carharttjimmy  alright, how goes the mailing list meskarune ?
+2012-05-06 13:36:24  meskarune      I haven't heard anything about getting on the main arch list
+2012-05-06 13:36:35  meskarune      so I guess I'll set up something on our server
+2012-05-06 13:36:38  carharttjimmy  then lets make our own
+2012-05-06 13:36:43  carharttjimmy  perfect.
+2012-05-06 13:36:59  fsckd          iirc the site's host allows unlimited mailing lists
+2012-05-06 13:37:12  carharttjimmy  Alright, sweet.
+2012-05-06 13:37:39  Silvah         carharttjimmy: a'ight, CJ
+2012-05-06 13:38:14  carharttjimmy  Alright the last but is calendars and stuff, any progress on that?
+2012-05-06 13:38:26  meskarune      no I haven't thought on it
+2012-05-06 13:38:28  carharttjimmy  s/but/bit
+2012-05-06 13:38:44  meskarune      I could transfer the email account to google apps and use though
+2012-05-06 13:38:47  meskarune      those
+2012-05-06 13:38:53  meskarune      but I was trying to stay all open source
+2012-05-06 13:39:17  Silvah         Don't be religious.
+2012-05-06 13:39:19  carharttjimmy  Alright, then at the next meeting, I want a debriefing on all possible routes.
+2012-05-06 13:39:28  carharttjimmy  so we can decide
+2012-05-06 13:40:30  --> Sherry (~sherry@2.183.19.237) has joined #archlinux-women
+2012-05-06 13:40:43  meskarune      maybe zimbra calendar?
+2012-05-06 13:41:01  carharttjimmy  what does it have?
+2012-05-06 13:43:14  carharttjimmy  I would like to note that the agenda for this meeting has not been laid out, so we are playing by ear for now. We can all blame fsckd for not doing it :P
+2012-05-06 13:43:35  Silvah         It's fsckd's fault!
+2012-05-06 13:43:44  meskarune      my computer almost crashed ><
+2012-05-06 13:43:51  fsckd          i blame Allan
+2012-05-06 13:44:00  meskarune      tps://www.linux.com/learn/tutorials/402382:the-five-best-open-source-calendar-servers-for-linux
+2012-05-06 13:44:00  fsckd          !fault
+2012-05-06 13:44:02  phrik          It's kichawa's fault!
+2012-05-06 13:44:05  Silvah         !give fsckd fault
+2012-05-06 13:44:07  phrik          fsckd: It's camilasan's fault!
+2012-05-06 13:44:11  carharttjimmy  I motion that we blame Allan
+2012-05-06 13:44:16  carharttjimmy  do I get a second?
+2012-05-06 13:44:26  Silvah         !give carharttjimmy dice
+2012-05-06 13:44:28  phrik          carharttjimmy: * phrik rolls a huge 600 side die and it flattens ioni before coming to a halt on 'You Lose'.
+2012-05-06 13:44:44  fsckd          lol
+2012-05-06 13:44:53  carharttjimmy  I second myself and pass the motion
+2012-05-06 13:45:02  carharttjimmy  Its now allan's fault.
+2012-05-06 13:45:04  camilasan  phrik: I love you too
+2012-05-06 13:45:09  Silvah         ioni, that's close enough to Allan.
+2012-05-06 13:45:30  Silvah         BACK TO TOPIC!
+2012-05-06 13:45:35  carharttjimmy  alright back to topic
+2012-05-06 13:45:38  fsckd          hi camilasan :)
+2012-05-06 13:45:46  carharttjimmy  It does look cool meskarune
+2012-05-06 13:45:49  ioni           yeah, stop highlight me
+2012-05-06 13:46:08  carharttjimmy  why should we go with zimbra?
+2012-05-06 13:46:17  ioni           don't
+2012-05-06 13:46:28  ioni           you really want to maintain a server?
+2012-05-06 13:46:32  meskarune      its a whole email and calendar suite, but I need to read up on how to install it
+2012-05-06 13:46:41  --> joyfulgirl (~joyfulgir@unaffiliated/joyfulgirl) has joined #archlinux-women
+2012-05-06 13:46:50  ioni           google apps
+2012-05-06 13:46:58  meskarune      thats another option
+2012-05-06 13:47:01  carharttjimmy  I say google apps would be better
+2012-05-06 13:47:05  fsckd          just in time joyfulgirl :)
+2012-05-06 13:47:12  joyfulgirl     For?
+2012-05-06 13:47:17  fsckd          meeting
+2012-05-06 13:47:19  meskarune      if everyone ok with using the evul google?
+2012-05-06 13:47:21  joyfulgirl     Oh, cool
+2012-05-06 13:47:30  Silvah         But google apps are not FLOSS, you heretics!
+2012-05-06 13:47:31  carharttjimmy  Your report on your project too
+2012-05-06 13:47:36  ioni           joyfulgirl, lets run together
+2012-05-06 13:47:40  --> Shahrzad (~sherry@2.183.19.237) has joined #archlinux-women
+2012-05-06 13:47:54  joyfulgirl     haha
+2012-05-06 13:48:02  <-- Sherry (~sherry@2.183.19.237) has quit (Read error: Connection reset by peer)
+2012-05-06 13:48:21  ioni           Silvah, i know one
+2012-05-06 13:48:24  carharttjimmy  Alright lets go google apps and be done.
+2012-05-06 13:48:36  carharttjimmy  we can excomunicate Silvah later
+2012-05-06 13:48:38  ioni           !google citadel
+2012-05-06 13:48:40  phrik          ioni: Home - The Citadel 2012 - Charleston, SC: <http://www.citadel.edu/>
+2012-05-06 13:48:44  ioni           not cool
+2012-05-06 13:48:49  ioni           http://www.citadel.org/
+2012-05-06 13:48:50  phrik          Title: start - Citadel.org (at www.citadel.org)
+2012-05-06 13:48:55  joyfulgirl     I'm afraid I have to confess I made exactly no headway on my project; generally, when I've been online, I've mostly been occupied writing cover letters and such.
+2012-05-06 13:49:18  ioni           joyfulgirl, we definitely should run together :P
+2012-05-06 13:49:19  carharttjimmy  thats still a report joyfulgirl . Thank you for your honesty
+2012-05-06 13:49:48  ioni           carharttjimmy, you did not thank for my honesty :(
+2012-05-06 13:50:01  Silvah         carharttjimmy: that was mere irony, no need to excomunicate me.
+2012-05-06 13:50:02  carharttjimmy  The next meeting we have, I would like everyone to give a little something about any progress or no progress on your projects
+2012-05-06 13:50:13  carharttjimmy  It was a joke Silvah
+2012-05-06 13:50:24  Silvah         ORLY?
+2012-05-06 13:50:31  ioni           carharttjimmy, trow me an email sometimes :D
+2012-05-06 13:50:41  carharttjimmy  ioni: thank you for your honesty.
+2012-05-06 13:50:45  meskarune      joyfulgirl: its alright, I feel I haven't made a ton of progress either, but its been a hard month since there have been personal stuff going on with many of our members
+2012-05-06 13:50:45  ioni           pff
+2012-05-06 13:51:07  carharttjimmy  yes which leads me to our next vote
+2012-05-06 13:51:14  Silvah         Ban personal stuff.
+2012-05-06 13:51:18  carharttjimmy  I vote that we ban Real Life from this community
+2012-05-06 13:51:19  fsckd          i think the only one who made progress on anything was tigremesh XD
+2012-05-06 13:51:45  Silvah         carharttjimmy: +237
+2012-05-06 13:51:48  meskarune      haha
+2012-05-06 13:51:53  joyfulgirl     What was tigrmesh's project?
+2012-05-06 13:51:59  meskarune      If that were possible, I'd ban real life forever :P
+2012-05-06 13:51:59  carharttjimmy  all in favor say something
+2012-05-06 13:52:13  meskarune      joyfulgirl: she wrote an article for the site
+2012-05-06 13:52:20  joyfulgirl     Oh, cool
+2012-05-06 13:52:23  fsckd          joyfulgirl: she wrote an article: http://archwomen.org/index.php/2012/online-privacy
+2012-05-06 13:52:25  phrik          Title: Some Thoughts on Online Privacy (at archwomen.org)
+2012-05-06 13:52:28  joyfulgirl     carharttjimmy: I vote yea
+2012-05-06 13:52:31  Silvah         Screw real life, IRC is the REAL real life.
+2012-05-06 13:52:49  carharttjimmy  motion passes since everyone talked, Real Life has been ban hammerred
+2012-05-06 13:52:58  meskarune      I went without internet for like 4 days T_T
+2012-05-06 13:53:07  fsckd          oh my god
+2012-05-06 13:53:17  ioni           meskarune, hey
+2012-05-06 13:53:21  meskarune      hospitals apparently don't have internet service ><
+2012-05-06 13:53:26  meskarune      well the ones here anyways
+2012-05-06 13:53:34  meskarune      hi ioni
+2012-05-06 13:53:36  carharttjimmy  what happenned meskarune ?
+2012-05-06 13:53:39  meskarune      lupus
+2012-05-06 13:53:44  ioni           !google lupus
+2012-05-06 13:53:46  phrik          ioni: Lupus Foundation of America: <http://www.lupus.org/>
+2012-05-06 13:53:46  carharttjimmy  its never lupus
+2012-05-06 13:53:46  meskarune      I sorta predicted this would happen though
+2012-05-06 13:53:50  meskarune      :P
+2012-05-06 13:53:54  ioni           !google what is lupus
+2012-05-06 13:53:56  phrik          ioni: Lupus - What is Lupus?: <http://www.medicalnewstoday.com/info/lupus/>
+2012-05-06 13:54:05  Silvah         Canis lupus.
+2012-05-06 13:54:06  meskarune      worked 50 hours , then 45 hours at my job, it was too much
+2012-05-06 13:54:07  joyfulgirl     meskarune: Yikes, I'm sorry to hear that
+2012-05-06 13:54:14  Silvah         IOW: a wolf.
+2012-05-06 13:54:17  meskarune      but I can't afford to get fired
+2012-05-06 13:54:18  carharttjimmy  yeah I amm too
+2012-05-06 13:54:18  ioni           damn girl
+2012-05-06 13:54:23  ioni           stop eating yourself
+2012-05-06 13:54:24  ioni           :D
+2012-05-06 13:54:25  carharttjimmy  I say we ban Lupus too
+2012-05-06 13:54:27  meskarune      :P
+2012-05-06 13:54:33  * meskarune agrees
+2012-05-06 13:54:33  carharttjimmy  I vote yea
+2012-05-06 13:54:44  Silvah         I vote maybe.
+2012-05-06 13:54:53  Silvah         Does it include canis lupus?
+2012-05-06 13:54:56  carharttjimmy  no
+2012-05-06 13:55:46  carharttjimmy  since I called this meeting into play, Lupus has been ban hammered
+2012-05-06 13:55:52  Silvah         Then I vote ÃÂ´ÃÂ°.
+2012-05-06 13:55:53  ioni           carharttjimmy, are you in charge of this meeting?
+2012-05-06 13:55:59  carharttjimmy  I am
+2012-05-06 13:56:05  ioni           just want to know to see if you are the right person to troll
+2012-05-06 13:56:05  ioni           :D
+2012-05-06 13:56:14  ioni           alright :D
+2012-05-06 13:56:14  meskarune      tp://www.jasig.org/bedework
+2012-05-06 13:56:24  carharttjimmy  alright, now back to topic
+2012-05-06 13:56:25  Silvah         linkfail
+2012-05-06 13:56:37  Silvah         meskarune: ^
+2012-05-06 13:56:38  meskarune      http://www.jasiq.org/bedework
+2012-05-06 13:56:41  ioni           carharttjimmy, you are taking this stuff to seriously
+2012-05-06 13:56:49  meskarune      :P
+2012-05-06 13:56:55  carharttjimmy  Since everyone hasnt worked on topic.  I am saying that we will discuss at the next meeting for now...
+2012-05-06 13:57:04  meskarune      I think that calendar app looks like it has great site integration
+2012-05-06 13:57:06  carharttjimmy  I want our site to have a bikini calendar featuring meskarune
+2012-05-06 13:57:12  ioni           +1
+2012-05-06 13:57:22  Silvah         lol
+2012-05-06 13:57:24  meskarune      :P
+2012-05-06 13:57:36  Silvah         Why not a bikini calendar featuring me? I always wanted to be famous :P
+2012-05-06 13:57:44  fsckd          i thought we were doing men of archlinux bikini calendar?
+2012-05-06 13:57:47  carharttjimmy  we can add you into it too
+2012-05-06 13:57:59  carharttjimmy  fsckd: that will be next time
+2012-05-06 13:58:10  * meskarune makes a "bikini calendar" but its all photos of her dog
+2012-05-06 13:58:11  carharttjimmy  we will get nathan28 to be the main model :D
+2012-05-06 13:58:25  ioni           meskarune, look at http://www.citadel.org/
+2012-05-06 13:58:27  phrik          Title: start - Citadel.org (at www.citadel.org)
+2012-05-06 13:59:18  meskarune      oh wow
+2012-05-06 13:59:26  meskarune      citadel looks really amazine
+2012-05-06 13:59:32  Silvah         heh
+2012-05-06 13:59:51  Silvah         O'Sullivan 5 - 3 Carter
+2012-05-06 13:59:53  ioni           carharttjimmy, see? i'm very productive :P
+2012-05-06 14:00:04  carharttjimmy  for once :P
+2012-05-06 14:00:39  meskarune      <3 ioni
+2012-05-06 14:00:52  carharttjimmy  well anyone have any new ideas?
+2012-05-06 14:01:06  Silvah         meskarune -lt 3*ioni
+2012-05-06 14:02:03  meskarune      I'll post up on the web server's forum and ask about citadel :)
+2012-05-06 14:02:14  meskarune      maybe I can just make the host set up it for me so i can be lazy :P
+2012-05-06 14:02:27  carharttjimmy  alright
+2012-05-06 14:02:34  meskarune      they ARE getting paid
+2012-05-06 14:02:37  carharttjimmy  then, lets say this meeting is over...
+2012-05-06 14:02:38  meskarune      should take advantage

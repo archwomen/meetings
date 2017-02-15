@@ -1,0 +1,310 @@
+2013-03-03 11:04:30      KylieBrooks   ok, attention folks 
+2013-03-03 11:04:38      KylieBrooks   THE MEETING IS STARTING NOW
+2013-03-03 11:04:39        KaiSforza   MEETING LOADING [===============] 100%
+2013-03-03 11:04:41      KylieBrooks   ====================================================
+2013-03-03 11:04:48        +tigrmesh   :)
+2013-03-03 11:05:04      KylieBrooks   so, first thing up, the server category.
+2013-03-03 11:05:12      KylieBrooks   reminder: http://redmine.archwomen.org/projects/archwomen/wiki/Meeting_Mar_2013 
+2013-03-03 11:05:13            phrik   Title: Meeting Mar 2013 - Arch Linux Women - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-03-03 11:05:22            fsckd   half a moment, opening a titanpad
+2013-03-03 11:05:35      KylieBrooks   anywasy, so the new blog thing. (go on, fsckd)
+2013-03-03 11:06:17            fsckd   here we go http://titanpad.com/Z91FWe5nyf
+2013-03-03 11:06:18            phrik   Title: TitanPad: Z91FWe5nyf (at titanpad.com)
+2013-03-03 11:06:55      KylieBrooks   what's it for?
+2013-03-03 11:07:08            fsckd   we'll kepe the minutes and meeting notes in there
+2013-03-03 11:07:11            fsckd   keep*
+2013-03-03 11:07:19      KylieBrooks   k :)
+2013-03-03 11:07:29        +tigrmesh   and then move them to redmine
+2013-03-03 11:07:45            fsckd   move to git and link from redmine
+2013-03-03 11:07:56        KaiSforza   magical
+2013-03-03 11:08:02        +tigrmesh   totally
+2013-03-03 11:08:27            fsckd   right, so the blog... numeral and lola are working on that
+2013-03-03 11:08:45        +tigrmesh   who's lola?
+2013-03-03 11:08:55            fsckd   meskarune
+2013-03-03 11:10:20        +tigrmesh   dolores ==>> lola?  that makes sens
+2013-03-03 11:10:27            fsckd   yeah
+2013-03-03 11:10:46          yardena   doxxed
+2013-03-03 11:10:51            fsckd   lol
+2013-03-03 11:11:03      KylieBrooks   hello folks 
+2013-03-03 11:11:06            Sarah   About CMS stuff, I've been using django-cms at "work", it's pretty neat.
+2013-03-03 11:11:18          yardena   are we still going with mezzanine?
+2013-03-03 11:11:29            fsckd   yardena: that seems to be the plan so far
+2013-03-03 11:11:56          yardena   awesome
+2013-03-03 11:12:54      KylieBrooks   so it seems we are almost done or done discussing regarding the blog. are we moving onto security?
+2013-03-03 11:13:17            Sarah   :c
+2013-03-03 11:13:39          yardena   your call KylieBrooks 
+2013-03-03 11:13:40        +tigrmesh   any other comments/suggestions/volunteers?
+2013-03-03 11:14:10            fsckd   KylieBrooks has the power :D
+2013-03-03 11:14:12                *   yardena intended all along to help with mezzanine but has been too busy
+2013-03-03 11:14:24      KylieBrooks   if nothng else regarding this agenda item in 5 minutes we wiull move onto security.
+2013-03-03 11:15:10        KaiSforza   (sidenote: is it just me, or did titanpad die?)
+2013-03-03 11:15:35            fsckd   KaiSforza: it's a little shaky sometimes but it's alive atm
+2013-03-03 11:15:43        KaiSforza   okay. carry on.
+2013-03-03 11:17:16      KylieBrooks   so, i think the consenus so far is for us to stay withh mezzanine. 
+2013-03-03 11:17:55            fsckd   i guess so
+2013-03-03 11:18:52      KylieBrooks   okay, so moving onto security now 
+2013-03-03 11:19:21      KylieBrooks   Security - intrusion detection as said on the meeting page.
+2013-03-03 11:20:03      KylieBrooks   5 minutes for everyone to discuss/comment
+2013-03-03 11:20:04          yardena   any intruders so far?
+2013-03-03 11:20:14                *   fsckd has no idea
+2013-03-03 11:20:45            fsckd   we upgraded redmine to the latest... which closed some importnat holes there
+2013-03-03 11:21:04          yardena   software upgrades are always fun
+2013-03-03 11:21:10            fsckd   there has been a lot of attempts on the site according to the logs
+2013-03-03 11:21:37            fsckd   on the main domain, i don't know what's happened on the subdomains
+2013-03-03 11:21:38        +tigrmesh   does anyone here know how to tell?  and would they be willing to mentor one of us?  and/or do the server monitoring themselves?
+2013-03-03 11:21:41          yardena   seemed like typical brute force attacks for any server
+2013-03-03 11:21:56        +tigrmesh   or know someone who'd be willing to do that?
+2013-03-03 11:22:30            Sarah   Doesn't SSH have connection logs?
+2013-03-03 11:22:36            Sarah   And Apache/webservers.
+2013-03-03 11:22:43            Sarah   They provide IPs as well, etc.
+2013-03-03 11:22:54            fsckd   yes, that's how we know there are attempts
+2013-03-03 11:23:18   CalimeroTeknik   is fail2ban in place? for ssh bruteforcing and maybe http bans
+2013-03-03 11:23:20            fsckd   fyi we're using lighttpd
+2013-03-03 11:23:28            Sarah   Ban those IPs globally?
+2013-03-03 11:23:44            fsckd   not sure if that's a good idea
+2013-03-03 11:24:16            fsckd   ssh is fairly secure from direct attacks as it's passwordless
+2013-03-03 11:24:28      KylieBrooks   okay, so is think since the relevant person isn't here atm, we can put security and resource monitoring on the agenda for next meeting.
+2013-03-03 11:24:41            fsckd   ok
+2013-03-03 11:24:46          yardena   there is no relevant person afaik
+2013-03-03 11:25:08        +tigrmesh   what do you mean, the relevant person isn't here?  we need a relevant person
+2013-03-03 11:25:17            fsckd   meskarune is setting up some resource monitoring stuff and is working on security
+2013-03-03 11:25:19            fsckd   stuff
+2013-03-03 11:25:22      KylieBrooks   ^
+2013-03-03 11:25:23        +tigrmesh   ah
+2013-03-03 11:25:29        +tigrmesh   ok
+2013-03-03 11:25:46      KylieBrooks   SO, next sagenda item
+2013-03-03 11:26:06      KylieBrooks   skipping resource monitoring
+2013-03-03 11:26:22      KylieBrooks   ok, status on redmine, git repositories, calendar, news ?
+2013-03-03 11:26:40            fsckd   right, as i said earlier, redmine was upgraded
+2013-03-03 11:26:55      KylieBrooks   probably 5 to 10 minutes to discuss. more likely 5 minutes. go on.
+2013-03-03 11:26:55            fsckd   that closed a really big security hole that hit rails
+2013-03-03 11:27:32            fsckd   news item for that is http://redmine.archwomen.org/news/6
+2013-03-03 11:27:34            phrik   Title: Redmine upgraded - Server Administration - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-03-03 11:27:57            fsckd   for git repositories, we're moving more and more of stuff to be managed through git
+2013-03-03 11:28:14                *   yardena applauds
+2013-03-03 11:28:17            fsckd   you can see the repos on github
+2013-03-03 11:28:42            fsckd   https://github.com/archwomen
+2013-03-03 11:28:43            phrik   Title: archwomen (Arch Linux Women Project) · GitHub (at github.com)
+2013-03-03 11:28:50            fsckd   anyone can make pull requests
+2013-03-03 11:29:17            fsckd   server admins can deploy by pushing changes to the server
+2013-03-03 11:30:14            fsckd   i'm thinking of setting up teams on github for the various parts of the site, so anyone with interest can ask and will be added to that team with push access to the associated repos
+2013-03-03 11:31:26      KylieBrooks   good idea fsckd :)
+2013-03-03 11:31:36            fsckd   yeah :)
+2013-03-03 11:32:16            fsckd   people who want to help with the server stuff can start doing so
+2013-03-03 11:32:38            fsckd   the placeholder site is on github too
+2013-03-03 11:32:44            Sarah   fsckd, grammar error on the git repo. "Official logo's of Archwomen" should be "Official Logos of Archwomen"
+2013-03-03 11:33:02            fsckd   Sarah: thanks, i'll fix that :)
+2013-03-03 11:33:57      KylieBrooks   any other comments/suggestions/volunteers?
+2013-03-03 11:34:14            Sarah   I can contribute to the site
+2013-03-03 11:34:51            fsckd   Sarah: that will be great :)
+2013-03-03 11:35:00            Sarah   But I need to know what to do
+2013-03-03 11:35:01        +tigrmesh   one moment
+2013-03-03 11:35:54        +tigrmesh   if anyone has some news related to arch women or women in tech
+2013-03-03 11:36:31        +tigrmesh   that they want to share, please let me, yardena, meskarune or fsckd know
+2013-03-03 11:36:48        +tigrmesh   also, if you think a project needs a news update, let us know
+2013-03-03 11:37:05        +tigrmesh   so we can put it on redmine
+2013-03-03 11:38:00        +tigrmesh   also, maybe not related to this item (i was afk), the placeholder page has been updated
+2013-03-03 11:38:28          yardena   tl;dr we're slowly chugging along to having a working site again
+2013-03-03 11:38:43            fsckd   indeed XD
+2013-03-03 11:39:15        +tigrmesh   Sarah: that's awesome.  thanks  :)
+2013-03-03 11:39:36        +tigrmesh   one of us will get with you 
+2013-03-03 11:40:45            Sarah   Essentially, all that needs to be done is a recursive checklist.
+2013-03-03 11:41:40            Sarah   As in
+2013-03-03 11:41:48            Sarah   A list of things to do sorted in categories.
+2013-03-03 11:42:39      KylieBrooks   just to clarify, Sarah, what site work are you  doing?
+2013-03-03 11:42:54      KylieBrooks   (this is for meeting notes/minutes)
+2013-03-03 11:43:09            Sarah   Uh
+2013-03-03 11:43:15            Sarah   Elaborate the question, please.
+2013-03-03 11:43:38      KylieBrooks   How are  you planning on contributing to the site?
+2013-03-03 11:43:50            Sarah   Oh
+2013-03-03 11:44:14            Sarah   I don't know yet. I can help with coding the Python Django stuff. (We're still going with that, right?)
+2013-03-03 11:44:33            fsckd   yeah, i'll let numeral know
+2013-03-03 11:44:34          yardena   that would be really helpful Sarah, thanks
+2013-03-03 11:45:01      KylieBrooks   okay, recorded in minutes - thanks
+2013-03-03 11:45:01            fsckd   and meskarune
+2013-03-03 11:45:45        +tigrmesh   when you say recursive checklist, do you mean something like a list of monthly tasks like: update chan topic 3 weeks ahead; update twitter 1 week, then 1 hour ahead; open a titanpad ?
+2013-03-03 11:46:31        KaiSforza   it's a checklist for a checklist that is a checklist for the first checklist.
+2013-03-03 11:46:33        +tigrmesh   something more extensive and technical, of course.  but my imagination is limited today
+2013-03-03 11:46:51        KaiSforza   because someone heard you like checklists.
+2013-03-03 11:47:11        +tigrmesh   oh.  and i was thinking of a regenerative checklist
+2013-03-03 11:47:16        +tigrmesh   nvm
+2013-03-03 11:47:30                *   KaiSforza has no idea honestly
+2013-03-03 11:47:31            Sarah   tigrmesh, no, I mean http://pastie.org/6371849
+2013-03-03 11:47:32            phrik   Title: #6371849 - Pastie (at pastie.org)
+2013-03-03 11:47:47        KaiSforza   Sarah: so a checklist.
+2013-03-03 11:47:47            Sarah   Like
+2013-03-03 11:47:49            Sarah   Yeah
+2013-03-03 11:47:54        KaiSforza   with sublevels.
+2013-03-03 11:47:55            Sarah   But not linear, it needs layers.
+2013-03-03 11:48:03        +tigrmesh   gotcha
+2013-03-03 11:48:16      KylieBrooks   okay
+2013-03-03 11:48:22        KaiSforza   s/recursive/layered/
+2013-03-03 11:48:23        +tigrmesh   Sarah:  thanks for the visual.  i understand now
+2013-03-03 11:48:28            Sarah   :)
+2013-03-03 11:48:30      KylieBrooks   so, looks like we are almost done discussing 
+2013-03-03 11:48:49            fsckd   news seems to be up, http://news.archwomen.org/
+2013-03-03 11:48:50            phrik   Title: Arch Women News (at news.archwomen.org)
+2013-03-03 11:49:15            fsckd   calendar is not
+2013-03-03 11:49:27            fsckd   i don't know how it'll be done
+2013-03-03 11:50:10        +tigrmesh   if anyone is willing to research redmine calendar platforms, that would be great
+2013-03-03 11:50:41        +tigrmesh   that way we could have the calendar integrated
+2013-03-03 11:51:02      KylieBrooks   so, after that task is assigned, we can go onto the projects to be discussed now, or meeting date to be set: classrooms, internship, channel rules.
+2013-03-03 11:51:18            fsckd   yup
+2013-03-03 11:51:21        KaiSforza   Just to have something in the minutes: there's going to be an archlinux-classroom meeting at 1800 UTC, and gtmanfred and I will be setting up a PKGBUILD class tuesday, at 2015 UTC. If anyone wants to help, just join #archlinux-classroom
+2013-03-03 11:51:41            fsckd   A+
+2013-03-03 11:51:43        +tigrmesh   awesome
+2013-03-03 11:51:44        KaiSforza   my job is done.
+2013-03-03 11:51:48            fsckd   haha
+2013-03-03 11:52:11      KylieBrooks   ok, so classroom being put into minutes...
+2013-03-03 11:52:46        KaiSforza   just a note about the class, it won't actually be happening at 2015UTC, it'll just be getting set up. We're going to wait till pacman 4.1 hits [testing] to do teaching, methinks.
+2013-03-03 11:52:58        +tigrmesh   k
+2013-03-03 11:53:02            fsckd   sounds good
+2013-03-03 11:53:14        KaiSforza   so it'll probably be a more normal time for you europeans out there.
+2013-03-03 11:53:16      KylieBrooks   lol wtf just happened.
+2013-03-03 11:53:24            Sarah   ^^
+2013-03-03 11:53:36            fsckd   KylieBrooks: where?
+2013-03-03 11:53:37        +tigrmesh   one other thing.  there was a request to make redmine use only nicks and not real names.  that
+2013-03-03 11:53:41        KaiSforza   eh?
+2013-03-03 11:53:48      KylieBrooks   fsckd: firefocx closed on me 
+2013-03-03 11:53:52      KylieBrooks   but im good now
+2013-03-03 11:54:00            fsckd   oh ok
+2013-03-03 11:54:22        KaiSforza   tigrmesh: also...it doesn't seem like your msmtp/imap stuff is set up for redmine. I requested a password reset, but haven't gotten any emails or anything.
+2013-03-03 11:54:28        +tigrmesh   's not possible.  sign up for redmine using your nick / nick as first and last name if you don't want your real name out there
+2013-03-03 11:54:45        +tigrmesh   KaiSforza: k
+2013-03-03 11:55:35            fsckd   KaiSforza: yeah... haven't set up email with redmine yet
+2013-03-03 11:55:39        +tigrmesh   KaiSforza: would you be willing to submit that as an issue on the redmine project on redmine?
+2013-03-03 11:55:41        KaiSforza   :<
+2013-03-03 11:55:57            fsckd   lol, he can't sign in it seems
+2013-03-03 11:56:03        KaiSforza   tigrmesh: can i without signing in?
+2013-03-03 11:56:09        +tigrmesh   no
+2013-03-03 11:56:14        KaiSforza   lol then no
+2013-03-03 11:56:27            fsckd   KaiSforza: we'll fix you after the meeting
+2013-03-03 11:56:32        KaiSforza   well, i'd be willing, just not able.
+2013-03-03 11:56:36        KaiSforza   fsckd: thanks
+2013-03-03 11:56:37        +tigrmesh   hehe
+2013-03-03 11:56:39            fsckd   fix your account*
+2013-03-03 11:56:47      KylieBrooks   so, what about internship and channel rules?
+2013-03-03 11:58:07        +tigrmesh   titanpad is amazing.  2 people are updating at the same, and it shows
+2013-03-03 11:58:11            fsckd   haha
+2013-03-03 11:59:49            fsckd   the proposal was to create a paid internship for women interested in FOSS
+2013-03-03 12:00:28            fsckd   with Arch Linux
+2013-03-03 12:00:37            fsckd   project page on redmine, http://redmine.archwomen.org/projects/internship
+2013-03-03 12:00:39            phrik   Title: Overview - Internship - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-03-03 12:01:21            fsckd   in a previous meeting there were a couple of ideas on how it could be done
+2013-03-03 12:01:44            fsckd   could make one from scratch
+2013-03-03 12:02:08            fsckd   another is to get Arch Linux to join the program lead by Gnome
+2013-03-03 12:03:23            fsckd   i favor the second
+2013-03-03 12:03:47        +tigrmesh   what about google summer of code?
+2013-03-03 12:04:11            fsckd   that too i guess... is it paid?
+2013-03-03 12:04:24        +tigrmesh   working on an arch linux project?
+2013-03-03 12:04:31            fsckd   yeah
+2013-03-03 12:04:41        +tigrmesh   i think it is, at least some
+2013-03-03 12:05:08      KylieBrooks   some money, you mean?
+2013-03-03 12:05:19            fsckd   or could do the gnome and google things together
+2013-03-03 12:05:33        +tigrmesh   gnome is paid too?
+2013-03-03 12:05:36            fsckd   need to know what obligation al would have
+2013-03-03 12:05:50            fsckd   yeah, i don't know who funds it though
+2013-03-03 12:06:17            fsckd   before we propose it to al, we need to do research, that'll be the task of a-w
+2013-03-03 12:07:06        +tigrmesh   anyone willing to research whether those 2 internships are paid and what's needed to get them?
+2013-03-03 12:07:24        +tigrmesh   never mind.  i'll do that one
+2013-03-03 12:07:26          jy2wong   tigrmesh: google summer of code is paid.
+2013-03-03 12:07:32        +tigrmesh   thanks  :)
+2013-03-03 12:07:33          jy2wong   tigrmesh: ~$2000 or so iirc
+2013-03-03 12:07:43        +tigrmesh   for 8 weeks?
+2013-03-03 12:07:49        +tigrmesh   or 12?
+2013-03-03 12:08:07          jy2wong   3 months I wanna say.
+2013-03-03 12:08:23        +tigrmesh   k
+2013-03-03 12:08:25            fsckd   gnome one is https://live.gnome.org/OutreachProgramForWomen
+2013-03-03 12:08:26            phrik   Title: OutreachProgramForWomen - GNOME Live! (at live.gnome.org)
+2013-03-03 12:08:57      KylieBrooks   will need a link for gsoc to put n minutes please?
+2013-03-03 12:09:38          jy2wong   oh, wait: Google will provide a total stipend of 5500 USD per accepted student developer, of which 5000 USD goes to the student and 500 USD goes to the mentoring organization.
+2013-03-03 12:09:42          jy2wong   http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2013/help_page#1._How_do_payments_work
+2013-03-03 12:09:44            phrik   Title: Google Summer of Code 2013 Frequently Asked Questions (at www.google-melange.com)
+2013-03-03 12:09:48            fsckd   https://developers.google.com/open-source/soc/
+2013-03-03 12:09:49            phrik   Title: Google Summer of Code - Open Source Programs Office Google Developers (at developers.google.com)
+2013-03-03 12:10:54          jy2wong   also, GSoC is indeed a 3 month thing.
+2013-03-03 12:11:18          jy2wong   what sorts of things would an arch linux internship entail?
+2013-03-03 12:12:09            fsckd   a dev could answer that best
+2013-03-03 12:12:24            fsckd   i think it would involve working on projects https://projects.archlinux.org/
+2013-03-03 12:12:25            phrik   Title: Arch Linux Projects (at projects.archlinux.org)
+2013-03-03 12:12:32        KaiSforza   hacking the poop out of pacman
+2013-03-03 12:12:40            fsckd   haha that ^
+2013-03-03 12:12:46      KylieBrooks   so can we discuss that at the next meeting?
+2013-03-03 12:12:53            fsckd   i guess so
+2013-03-03 12:13:15            Sarah   !grab KaiSforza 
+2013-03-03 12:13:17            phrik   Sarah: Tada!
+2013-03-03 12:13:30      KylieBrooks   anymore things to discuss regarding internship?
+2013-03-03 12:13:56        +tigrmesh   it also involves talking arch linux devs into it.  as far as i know, they've never had a gsoc intern
+2013-03-03 12:14:48   CalimeroTeknik   there are no arch linux facilities whatsoever, I think
+2013-03-03 12:14:57        +tigrmesh   don't rely on that information.  the last time i looked that up was in 2010, i think
+2013-03-03 12:15:31        KaiSforza   we could always just talk to falconindy.
+2013-03-03 12:15:39        +tigrmesh   CalimeroTeknik: what do you mean?
+2013-03-03 12:18:54        +tigrmesh   KaiSforza: true
+2013-03-03 12:19:43      KylieBrooks   I will wait forr CalimeroTeknik to finish their contribution and then soon after that, we need to discuss channel rules or set a meeting date for that.
+2013-03-03 12:21:43            fsckd   he's away :/
+2013-03-03 12:22:23        KaiSforza   fsckd: who is?
+2013-03-03 12:22:24   CalimeroTeknik   sorry, I meant "interns" for arch linux are er, not on site.
+2013-03-03 12:22:36            fsckd   KaiSforza: no more :)
+2013-03-03 12:22:42        KaiSforza   lol
+2013-03-03 12:23:08      KylieBrooks   CalimeroTeknik: not on site as in... ?
+2013-03-03 12:23:27   CalimeroTeknik   in the "enterprise" 's premises or so
+2013-03-03 12:23:50        +tigrmesh   that doesn't matter for GSoC
+2013-03-03 12:23:59        +tigrmesh   i don't think for gnome either
+2013-03-03 12:24:02   CalimeroTeknik   but that was maybe stupid or so. don't mind me, I'm just making remarks that might help (or not, here, probably)
+2013-03-03 12:24:11            fsckd   gnome's thing is also done in remote
+2013-03-03 12:25:09        abveritas   for GSoC internship paid amounts, I'll ask our 2 team members who participated last years, as soon as they come in IRC
+2013-03-03 12:25:23        abveritas   *year
+2013-03-03 12:25:33            fsckd   thanks abveritas :)
+2013-03-03 12:26:28      KylieBrooks   so, channel rules it seems we should discuss now
+2013-03-03 12:27:15            fsckd   perhaps schedule a meeting for that
+2013-03-03 12:27:27      KylieBrooks   k, good idea 
+2013-03-03 12:27:33      KylieBrooks   thoughts about when?
+2013-03-03 12:27:51            fsckd   i think yardena may want to take part in this :)
+2013-03-03 12:28:08      KylieBrooks   yardena: hi, you there?
+2013-03-03 12:29:33            fsckd   i propose 17th or 24th
+2013-03-03 12:29:53            fsckd   or 10th
+2013-03-03 12:30:13            fsckd   all are sundays
+2013-03-03 12:31:54        abveritas   it is $5k for 3 months
+2013-03-03 12:32:03        abveritas   GSoC
+2013-03-03 12:32:09        KaiSforza   wow
+2013-03-03 12:32:24        +tigrmesh   thank you abveritas  :)
+2013-03-03 12:32:34        abveritas   you're welcome
+2013-03-03 12:32:34      KylieBrooks   yardena: idle fo 30 minutes so far. doesnt matter which day for me, fsckd. any others have inputy on which day they want a meeting for channel rules?
+2013-03-03 12:33:55            fsckd   i'm going to say 10th 16:00 UTC cause i want it done soon
+2013-03-03 12:34:02        +tigrmesh   i say we set a date for now and reset it (and re announce it) if yardena and/or whoever else wants to participate is not available then
+2013-03-03 12:34:20      KylieBrooks   reset what, specifically?
+2013-03-03 12:34:24      KylieBrooks   oh 
+2013-03-03 12:34:26      KylieBrooks   nvm
+2013-03-03 12:34:27        +tigrmesh   the meeting
+2013-03-03 12:34:30      KylieBrooks   i get it
+2013-03-03 12:34:31        +tigrmesh   and 10th is good for me
+2013-03-03 12:35:07        +tigrmesh   i was lazy when i typed it  ;)
+2013-03-03 12:35:12      KylieBrooks   so, the meeting for chaannel rules next sunday at 16:00 UTC 
+2013-03-03 12:35:17      KylieBrooks   the 10th
+2013-03-03 12:36:24        +tigrmesh   cool
+2013-03-03 12:37:04      KylieBrooks   okay, so just wanted to bring up my meeting feedback.
+2013-03-03 12:37:15            fsckd   sure :)
+2013-03-03 12:37:37      KylieBrooks   seems like some of us didn't know who was discussing what from the meeting page. next A-W meeting needs to have that addeed.
+2013-03-03 12:38:00            fsckd   ok, like hints on who is the expert on th etopic?
+2013-03-03 12:38:02      KylieBrooks   also,  i'm not sure what we should do about people that come in during the meeting. 
+2013-03-03 12:38:06      KylieBrooks   right fsckd 
+2013-03-03 12:39:05      KylieBrooks   also,  tigrmesh had mentuiooned about setting up teams to do/break down specific proects - could you elaborate, tigrmesh ?
+2013-03-03 12:39:11            fsckd   that's a good idea, for the next meeting's agenda we'll have that info
+2013-03-03 12:39:52            fsckd   as for what to do about people who join during the meeting, may be for the duration of a meeting we could set the topic to something
+2013-03-03 12:40:32            fsckd   (and should mention the channel is logged during that time)
+2013-03-03 12:40:35      KylieBrooks   also, make sure that the people listed will come or have a proxy for them or something that person writes up
+2013-03-03 12:40:37        +tigrmesh   KylieBrooks: were you saying that the who's doing what should be in the meeting notes?
+2013-03-03 12:40:50      KylieBrooks   tigrmesh: meeting page on wiki
+2013-03-03 12:41:34        +tigrmesh   oh.  you mean the agenda that we've been following?  like http://redmine.archwomen.org/projects/archwomen/wiki/Meeting_Mar_2013?
+2013-03-03 12:41:35            phrik   Title: Meeting Mar 2013 - Arch Linux Women - Arch Linux Women: Project Manager (at redmine.archwomen.org)
+2013-03-03 12:41:42      KylieBrooks   yeah 
+2013-03-03 12:41:49            fsckd   hmm, topic could have the info: meeting is progress, link to agenda, link to titanpad, and that the channel is being logged
+2013-03-03 12:41:57        +tigrmesh   great
+2013-03-03 12:42:09      KylieBrooks   next agenda should have who is discussing what as well.
+2013-03-03 12:42:34            fsckd   yes, will start making the agenda for the next meeting today
+2013-03-03 12:42:38      KylieBrooks   and agree fsckd 
+2013-03-03 12:42:51      KylieBrooks   and great ;)
+2013-03-03 12:43:05            fsckd   link for info on today's meeting will be int he topic for a week
+2013-03-03 12:43:10            fsckd   in the*
+2013-03-03 12:43:27            fsckd   so people who didn't see can catch up
+2013-03-03 12:44:48      KylieBrooks   so meeting now adjourned at around 17:45 UTC until next meeting :)  channel rules meeting Sunday March 10 at 16:00 UTC  

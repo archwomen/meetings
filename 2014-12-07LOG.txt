@@ -1,0 +1,209 @@
+Log of Arch Linux Women 33rd IRC meeting, 07 December 2014
+
+2014-12-07 16:22:03 <demize>	==========> Meeting started <==========
+2014-12-07 16:22:14 <demize>	kristof: It’s also the whole thing where they get access to all your data.
+2014-12-07 16:22:43 <kristof>	demize: considering task management stuff isn't really private to begin with, that doesn't concern me
+2014-12-07 16:22:45 <demize>	fsckd said they’d come in around 10 minutes so can wait with those parts until then I guess.
+2014-12-07 16:22:55 <tigrmesh>	my dog is desperately trying to get my attention.  i think she needs to poop.  i'll be back asap
+2014-12-07 16:22:56 <demize>	kristof: Some things part of a task can be.
+2014-12-07 16:22:57 *	tigrmesh gives channel operator status to demize
+2014-12-07 16:23:01 <demize>	tigrmesh: o/
+2014-12-07 16:23:13 <demize>	halosghost: You about?
+2014-12-07 16:23:24 <kristof>	demize: true, but I will also say that the interface is quite attractive
+2014-12-07 16:23:43 <demize>	kristof: From the littler I've seen, agreed. It looks nice.
+2014-12-07 16:24:02 *	MarkDude 's new favorite UK phrase: Im going to see a man about a dog (meaning I need to go- leave, drink, etc)
+2014-12-07 16:24:33 <halosghost>	demize: I am
+2014-12-07 16:24:38 <halosghost>	oh, a meeting
+2014-12-07 16:24:42 <halosghost>	\o/
+2014-12-07 16:25:20 <demize>	halosghost: Had any time to do any work on the static typing class?
+2014-12-07 16:25:38 <halosghost>	I'm afraid not
+2014-12-07 16:25:51 <halosghost>	but then, no one has sent me significant feedback beyond last time
+2014-12-07 16:26:13 <halosghost>	I can tweak a few more things, but I think without more feedback, I'm approaching readiness
+2014-12-07 16:26:58 <demize>	Yeah.
+2014-12-07 16:27:18 <demize>	Cool. Can add it to the #archlinux/-oft topics too later asking for feedback.
+2014-12-07 16:27:31 <halosghost>	sure, sounds fine to me
+2014-12-07 16:27:34 <demize>	Hopefully that’ll get some more attention
+2014-12-07 16:27:58 <demize>	Might be a good idea to send an email to arch-general too.
+2014-12-07 16:28:15 <halosghost>	Sounds good as well
+2014-12-07 16:28:18 <halosghost>	I'll try to do it tonight
+2014-12-07 16:28:58 *	holomorph (~holomorph@unaffiliated/holomorph) has joined
+2014-12-07 16:29:20 <demize>	Awesome
+2014-12-07 16:31:28 <demize>	Anything else anyone want to bring up until fsckd comes around?
+2014-12-07 16:32:37 <MarkDude>	Arch is more awesome, the more I see it. eof
+2014-12-07 16:33:00 <demize>	Heh, awesome.
+2014-12-07 16:33:20 <fsckd>	i'm back, reading backlog
+2014-12-07 16:33:52 <demize>	WB
+2014-12-07 16:34:06 <fsckd>	thanks :) congrats on getting op XD
+2014-12-07 16:34:13 <demize>	Hehe, ;)
+2014-12-07 16:34:20 <demize>	MOHAHAHAHAHA
+2014-12-07 16:34:23 <demize>	*cough* I mean..
+2014-12-07 16:34:30 <fsckd>	haha :P
+2014-12-07 16:34:44 <MarkDude>	lol
+2014-12-07 16:35:12 <demize>	So, did the SSL cert reissuing go well? ^^,
+2014-12-07 16:35:18 <fsckd>	yup
+2014-12-07 16:35:59 <fsckd>	we switched to SHA2 from SHA1 as SHA1 is getting old and Google was threatening to have sites with that marked as insecure in Chromium
+2014-12-07 16:36:26 <fsckd>	they haven't done it but nonetheless it's a good thing to improve security, even if by a little
+2014-12-07 16:37:13 <fsckd>	links for people who want more info. https://community.qualys.com/blogs/securitylabs/2014/09/09/sha1-deprecation-what-you-need-to-know  and  http://googleonlinesecurity.blogspot.co.uk/2014/09/gradually-sunsetting-sha-1.html
+2014-12-07 16:37:14 <phrik>	Title: Security Labs: SHA1 Deprecation: What You Need ... | Qualys Community (at community.qualys.com)
+2014-12-07 16:37:41 <fsckd>	meskarune opened a bug report for Arch Linux https://bugs.archlinux.org/task/42778
+2014-12-07 16:37:42 <phrik>	Title: FS#42778 : Update website SSL certificates with sha2 certificates (at bugs.archlinux.org)
+2014-12-07 16:37:52 <tigrmesh>	i'm back too
+2014-12-07 16:38:00 <fsckd>	welcome back :D
+2014-12-07 16:38:11 <tigrmesh>	thank you demize   :)
+2014-12-07 16:38:18 *	tigrmesh removes channel operator status from demize
+2014-12-07 16:38:26 *	tigrmesh removes channel operator status from tigrmesh
+2014-12-07 16:38:39 <demize>	wb tigrmesh o/
+2014-12-07 16:38:48 <demize>	fsckd: And awesome!
+2014-12-07 16:39:16 <demize>	I should get my ssl cert reissued sometime too really.
+2014-12-07 16:39:21 *	GermainZ has quit (Remote host closed the connection)
+2014-12-07 16:40:14 *	GermainZ (~GermainZ@unaffiliated/germainz) has joined
+2014-12-07 16:40:52 <demize>	And how did the kexec setup go? :)
+2014-12-07 16:41:06 <tigrmesh>	to clarify, demize is still leading the meeting.  i was thanking him for taking on the task of being willing to kick out any disruptive person who might have appeared   :)
+2014-12-07 16:41:33 <demize>	^^,
+2014-12-07 16:42:34 <fsckd>	kexec thing went well. i copied the systemd unit used in that Debian->Arch conversion script for DO
+2014-12-07 16:42:44 <MarkDude>	Alwqays need an active person willing to swing the banhammer.....
+2014-12-07 16:43:01 <fsckd>	quite true
+2014-12-07 16:43:42 <fsckd>	i did have to make a slight modification. it wouldn't work without the WantedBy= part
+2014-12-07 16:44:39 <demize>	Yeah, the script seems to be just enabling it statically instead
+2014-12-07 16:44:53 <fsckd>	yeah
+2014-12-07 16:44:58 <demize>	But yeah, awesome to be running grsec on the server.
+2014-12-07 16:45:47 <fsckd>	also want to be able to disable it for debugging purposes
+2014-12-07 16:46:06 <demize>	Always good to be able to do.
+2014-12-07 16:46:10 <fsckd>	i put everything on the wiki https://archwomen.org/wiki/aw-tech:kexec
+2014-12-07 16:46:11 <phrik>	Title: kexec [Arch Women Wiki] (at archwomen.org)
+2014-12-07 16:46:44 <demize>	Handy for anyone else who might want to do it.
+2014-12-07 16:47:02 <fsckd>	yup :)
+2014-12-07 16:47:23 <fsckd>	one of things we like to do is document everything so that others can benefit
+2014-12-07 16:47:37 <MarkDude>	Arch and its devotion to docs. Still awesome :D
+2014-12-07 16:47:45 <fsckd>	(not to mention we tend to forget how we set things up. me in particular :P)
+2014-12-07 16:47:56 <demize>	MarkDude: AW is technically a separate project. ;)
+2014-12-07 16:48:06 <MarkDude>	sp/like/love/ sorta a belief system, IMHO 
+2014-12-07 16:48:12 <demize>	fsckd: I do that all the time too >.>
+2014-12-07 16:48:32 <fsckd>	hehe
+2014-12-07 16:48:34 <demize>	Last time I set my server up I started to try to document it, but then I didn’t continue >.<
+2014-12-07 16:48:35 <MarkDude>	YEs, commomality with both groups- docs
+2014-12-07 16:49:26 <MarkDude>	Not many others do this. Its a theme. Like Gentoo and trolling (I kid)
+2014-12-07 16:49:37 <demize>	After that I guess we have the GSoC things, though meskarune isn’t here.
+2014-12-07 16:49:51 <demize>	Allan sent https://lists.archlinux.org/pipermail/arch-dev-public/2014-November/026748.html to the dev ML at least, which is cool.
+2014-12-07 16:49:52 <phrik>	Title: [arch-dev-public] GSoC 2015 (at lists.archlinux.org)
+2014-12-07 16:50:19 <fsckd>	yeah, meskarune finally spoke to Allan and he sent that email :)
+2014-12-07 16:50:32 <demize>	I don’t think anything more came after that, but it’s a good place to start from at least.
+2014-12-07 16:50:47 <tigrmesh>	but there was only one reply  :(
+2014-12-07 16:51:06 <demize>	Yeah, but then arch-dev-public is more or less dead overall.
+2014-12-07 16:51:17 <demize>	Would've been cool if there was more replies though, yes.
+2014-12-07 16:51:41 <demize>	Hmm, seems Allan is still on IRC, though idle for 2 hours.
+2014-12-07 16:51:49 <demize>	And now meskarune of course isn’t on ;p
+2014-12-07 16:52:06 <demize>	I still believe they’re the same person and that that’s why they’re never on at the same time.
+2014-12-07 16:52:58 <fsckd>	haha
+2014-12-07 16:53:03 <tigrmesh>	haha
+2014-12-07 16:53:09 <fsckd>	suddenly it all makes sense
+2014-12-07 16:53:39 <demize>	It’s cool that there was also another post to the ML that someone had already made jenkins modules for building the repos automatically, and is actually running it on the Arch repos already.
+2014-12-07 16:53:46 <tigrmesh>	halosghost, what's the name of the class and what's it going to cover?
+2014-12-07 16:54:37 *	Clarice (~kristof@unaffiliated/kristof) has joined
+2014-12-07 16:54:57 <halosghost>	tigrmesh: "A Gentle Introduction to Static Typing"
+2014-12-07 16:55:03 <halosghost>	(WIP)
+2014-12-07 16:55:05 <halosghost>	:)
+2014-12-07 16:55:21 <tigrmesh>	awesome.  :)
+2014-12-07 16:55:49 <tigrmesh>	still date to be determined? 
+2014-12-07 16:56:25 <halosghost>	yes, but I think it should be sooner rather than later
+2014-12-07 16:56:53 <halosghost>	demize recommended that we get a notice in the #al-ot topic and that I post an RFC on the arch-general ML
+2014-12-07 16:57:07 <halosghost>	ideally, that will give me some more feedback to work with
+2014-12-07 16:57:14 <fsckd>	eek, i forgot to post to the forums.
+2014-12-07 16:57:19 <demize>	I added it to the #archlinux topic already, will do -oft too.
+2014-12-07 16:57:25 <halosghost>	demize: thanks!
+2014-12-07 16:57:36 <demize>	Though #archlinux has generally more people I think would be interested.
+2014-12-07 16:57:46 <halosghost>	also, less trolls
+2014-12-07 16:57:50 <demize>	Yeah.
+2014-12-07 16:57:50 <halosghost>	(maybe)
+2014-12-07 16:58:02 <fsckd>	halosghost: you're active on the forums. would you like to post or do you still want me to do it?
+2014-12-07 16:58:09 <halosghost>	fsckd: go for it :)
+2014-12-07 16:58:11 <demize>	But yeah, I think arch-general could get some feedback, hopefully.
+2014-12-07 16:58:35 <halosghost>	Anywho, with a few more days or so of feedback and subsequent tweaking, I think we'll be set
+2014-12-07 16:58:37 <fsckd>	ok, i'll make a topic in programming and scripting section
+2014-12-07 16:58:43 <halosghost>	sgtm
+2014-12-07 16:58:53 <fsckd>	+1 to ml and irc topics :)
+2014-12-07 17:00:38 <demize>	Awesome
+2014-12-07 17:00:50 *	GermainZ has quit (Remote host closed the connection)
+2014-12-07 17:01:46 *	GermainZ (~GermainZ@unaffiliated/germainz) has joined
+2014-12-07 17:03:30 <demize>	Anyone else have anything they want to bring up? :)
+2014-12-07 17:04:15 <jy2wong>	I've been considering running another classroom, but I don't know what to run a classroom on. So I guess not :P
+2014-12-07 17:04:30 <demize>	jy2wong: Awr, why not?
+2014-12-07 17:04:40 <demize>	You could find someone else to do it together with :)
+2014-12-07 17:04:50 <demize>	There are a couple of suggestions on the Arch wiki
+2014-12-07 17:05:03 <jy2wong>	have a link?
+2014-12-07 17:05:10 <demize>	And I think there are some more on the previous-previous meeting.
+2014-12-07 17:05:11 <demize>	Sure, sec.
+2014-12-07 17:05:25 <demize>	https://wiki.archlinux.org/index.php/Classroom#Requested_classes has some
+2014-12-07 17:05:26 <phrik>	Title: Classroom - ArchWiki (at wiki.archlinux.org)
+2014-12-07 17:05:27 *	QueensMelons (uid40690@gateway/web/irccloud.com/x-dkyruzwkaspwmosf) has joined
+2014-12-07 17:07:28 <jy2wong>	hum, a quick survey of build systems as applied to installing software might be fun
+2014-12-07 17:07:47 <fsckd>	:)
+2014-12-07 17:08:05 <demize>	That could be cool, yeah.
+2014-12-07 17:12:04 <demize>	halosghost: I added a comment! (It’s a minor nitpick I glanced over though, nothing major. Will look through it more in-depth later. o/)
+2014-12-07 17:12:34 <demize>	jy2wong: go for it :)
+2014-12-07 17:13:06 <halosghost>	demize: sounds good, I'll take a look
+2014-12-07 17:13:18 <jy2wong>	I don't know how many people would actually care about knowing what a Makefile.am is for and such, though
+2014-12-07 17:13:35 <demize>	jy2wong: I think quite a lot of people are wondering.
+2014-12-07 17:14:17 *	kristof has quit (Remote host closed the connection)
+2014-12-07 17:14:32 *	kristof (~kristof@unaffiliated/kristof) has joined
+2014-12-07 17:14:52 <demize>	Would be cool to possibly tie it in with some other programming class and make a small project where you set up a build system for a small program with several different systems
+2014-12-07 17:14:58 <fsckd>	halosghost, demize: https://bbs.archlinux.org/viewtopic.php?id=190788
+2014-12-07 17:14:59 <phrik>	Title: request for feedback on a class introducing static typing (Page 1) / Programming & Scripting / Arch Linux Forums (at bbs.archlinux.org)
+2014-12-07 17:15:09 <demize>	So you can see how they are different, what some might be better/worse at, et.c...
+2014-12-07 17:15:26 <fsckd>	(i can edit it as needed. mod powers are fun ^_^)
+2014-12-07 17:15:26 <demize>	fsckd: Cool o/
+2014-12-07 17:15:30 <demize>	hehe
+2014-12-07 17:15:43 <nisstyre>	demize: can you teach me how people actually use make effectively rather than it being a mess of abandoned targets and constantly changing flags?
+2014-12-07 17:16:28 <demize>	nisstyre: I probably couldn’t. There’s a good O’reilly book available for free on GNU Make though.
+2014-12-07 17:16:34 <nisstyre>	ok
+2014-12-07 17:16:51 <demize>	Can give you a merged PDF of it if you want
+2014-12-07 17:17:20 <halosghost>	fsckd: commented
+2014-12-07 17:17:36 <GermainZ>	demize: make an IR class!
+2014-12-07 17:17:44 <GermainZ>	umm… IRC class
+2014-12-07 17:17:46 <demize>	As in LLVM IR?
+2014-12-07 17:17:49 <demize>	Ah, hehe
+2014-12-07 17:17:53 <nisstyre>	an IR class too
+2014-12-07 17:17:53 <demize>	IRC class in what way?
+2014-12-07 17:17:54 <jy2wong>	haha, I was thinking information retrieval :P
+2014-12-07 17:17:59 <nisstyre>	I thought infrared tbh
+2014-12-07 17:18:19 <GermainZ>	demize: how to use make :p
+2014-12-07 17:18:19 <halosghost>	mm, infrared classes
+2014-12-07 17:18:20 <demize>	nisstyre: https://theos.kyriasis.com/~kyrias/Managing%20Projects%20with%20GNU%20Make.pdf
+2014-12-07 17:18:35 <demize>	(Merged PDf courtesy of Earnestly)
+2014-12-07 17:18:44 <nisstyre>	neat thanks
+2014-12-07 17:19:11 <demize>	(O’reilly publishes is as one PDF per section :|)
+2014-12-07 17:19:40 <nisstyre>	yeah that's annoying
+2014-12-07 17:20:01 <fsckd>	halosghost: nice! hmm, you don't use a bongo phone?
+2014-12-07 17:20:41 <demize>	But yeah, he both merged it and did all the work to manually add the index.
+2014-12-07 17:21:11 <demize>	Which is worse than it sounds, because the format in which you need to specify it in isn’t really docummented
+2014-12-07 17:21:24 <demize>	So you have to sort of guess which numbers to put in :p
+2014-12-07 17:21:37 <nisstyre>	makes it more fun
+2014-12-07 17:22:23 <demize>	;)
+2014-12-07 17:22:40 <nisstyre>	too bad there's no xml involved
+2014-12-07 17:22:44 *	tuxampol (~Mylin@ppp-46-244-171-232.dynamic.mnet-online.de) has joined
+2014-12-07 17:22:58 <nisstyre>	(that was definitely a joke)
+2014-12-07 17:23:26 <demize>	hehe
+2014-12-07 17:24:15 <GermainZ>	XML FTW
+2014-12-07 17:24:16 <halosghost>	fsckd: whasdat?
+2014-12-07 17:24:40 <GermainZ>	It is the markup language of the future that we should all use for configuration files
+2014-12-07 17:25:14 <demize>	When done right XML is manageable.
+2014-12-07 17:25:21 <fsckd>	halosghost: http://static.fjcdn.com/pictures/Hello_6263c5_729268.jpg
+2014-12-07 17:25:26 <demize>	No one gets it right.
+2014-12-07 17:26:22 <halosghost>	fsckd: lol
+2014-12-07 17:26:33 <demize>	fsckd: Cute.
+2014-12-07 17:26:56 <MarkDude>	lol XD
+2014-12-07 17:28:04 <MarkDude>	Bonggang-bongga bongo telepono (very nice phone in Filipino)
+2014-12-07 17:30:33 <fsckd>	hehe
+2014-12-07 17:31:16 <nisstyre>	iirc nmap can generate xml files of scan results
+2014-12-07 17:31:24 <nisstyre>	which is actually kinda useful
+2014-12-07 17:33:20 <demize>	halosghost: whop, Dave commented ;D
+2014-12-07 17:34:39 <halosghost>	in #al?
+2014-12-07 17:35:19 <halosghost>	whar?
+2014-12-07 17:36:32 <demize>	On the gist.
+2014-12-07 17:37:08 <halosghost>	ahh
+2014-12-07 17:37:30 <fsckd>	nice :D
+2014-12-07 17:47:37 <halosghost>	indeed
+2014-12-07 17:51:30 <fsckd>	is that it for the meeting?
+2014-12-07 17:51:50 <demize>	Unless anyone else has anything to add, yeah
+2014-12-07 17:52:54 <demize>	So yeah
+2014-12-07 17:52:57 <demize>	==========> Meeting closed <==========

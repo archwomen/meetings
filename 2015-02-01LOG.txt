@@ -1,0 +1,460 @@
+Log of Arch Linux Women 35th IRC meeting, 01 February 2015
+
+2015-02-01 11:30:20	+tigrmesh	=========  Arch womentThirty-fifth IRC meeting begins  ==================
+2015-02-01 11:30:28	+tigrmesh	so hi everyone
+2015-02-01 11:30:51	+tigrmesh	so the meeting notes/agenda is at  https://pad.riseup.net/p/arch-women-meeting_-_February_2015
+2015-02-01 11:30:52	phrik	Title: Riseup Pad (at pad.riseup.net)
+2015-02-01 11:31:19	+tigrmesh	if you want to follow along.  please feel free to add to the notes if there's something we've missed
+2015-02-01 11:32:00	+tigrmesh	moment.  the color the riseup pad selected for me is ewww
+2015-02-01 11:32:17	fsckd	hehe
+2015-02-01 11:33:00	+tigrmesh	ok.  better
+2015-02-01 11:33:14	fsckd	:D
+2015-02-01 11:33:17	+tigrmesh	first item:  
+2015-02-01 11:33:17	+tigrmesh	Announcements and status updates
+2015-02-01 11:34:55	+meskarune	fscks, happens all the time :/
+2015-02-01 11:35:47	+tigrmesh	thank you to CalimeroTeknik and jy2wong and meskarune for 
+2015-02-01 11:35:48	+tigrmesh	all they did to improve the website
+2015-02-01 11:36:45	+meskarune	the site is more mobile friendly now :D
+2015-02-01 11:36:51	+tigrmesh	yay
+2015-02-01 11:37:09	CalimeroTeknik	does the site represent the actual status of the project now?
+2015-02-01 11:37:10	+meskarune	just need to make the navigation mobile and it'll be good
+2015-02-01 11:37:19	CalimeroTeknik	is there something really missing?
+2015-02-01 11:38:28	+meskarune	got power back! \o/
+2015-02-01 11:38:36	+tigrmesh	yay
+2015-02-01 11:38:39	+meskarune	go router go!
+2015-02-01 11:39:11	fsckd	huzzah!
+2015-02-01 11:39:49	+meskarune	CalimeroTeknik: I'd like to do somehthing different with upcoming events/calendar so its easier, but yeah I think it is :D
+2015-02-01 11:40:22	CalimeroTeknik	ok, because I myself didn't actually know what to do for the site due to… the absence of a site stating what the project did
+2015-02-01 11:40:26	CalimeroTeknik	or something like that :p
+2015-02-01 11:40:39	+meskarune	oh also change donation a bit, but that is on the meeting I think
+2015-02-01 11:41:03	fsckd	donation? it's not in the agenda...
+2015-02-01 11:42:24	+meskarune	oh, I thought I added that a little whilte ago
+2015-02-01 11:42:45	+tigrmesh	nice
+2015-02-01 11:43:13	fsckd	meskarune: hmm, add it here https://pad.riseup.net/p/arch-women-meeting_-_February_2015 if you can?
+2015-02-01 11:43:13	+meskarune	right now there is a paypal button, but lots of poeple don't like paypal and I wanted to explore other options
+2015-02-01 11:43:14	phrik	Title: Riseup Pad (at pad.riseup.net)
+2015-02-01 11:43:34	+meskarune	we can talk about it last I guess :P
+2015-02-01 11:43:38	+meskarune	sorry I"m derailing
+2015-02-01 11:44:11	+tigrmesh	sorry.  looking at the site on my phone
+2015-02-01 11:44:27	fsckd	meskarune: heh ok, i'll stick it on at the end?
+2015-02-01 11:44:41	+meskarune	I think the padding/margins need to be tweaked on the box things tigrmesh, but at least they stack up :)
+2015-02-01 11:45:07	+tigrmesh	they look good  :)
+2015-02-01 11:46:07	fsckd	meskarune: what do i name the section in the meeting notes, "Website" or "Organization"?
+2015-02-01 11:46:20	fsckd	nvm, someone beat me to it
+2015-02-01 11:46:56	fsckd	where someone is you, lol
+2015-02-01 11:47:00	+tigrmesh	community standards.  yay!
+2015-02-01 11:47:37	+meskarune	hehe
+2015-02-01 11:49:34	+tigrmesh	i'd like to change all the "rules" language for the irc link and page to "guidelines" would anyone have a problem with that?
+2015-02-01 11:49:46	+tigrmesh	*irc channel links
+2015-02-01 11:49:47	+meskarune	thats fine
+2015-02-01 11:50:03	+tigrmesh	next up:  Arch Women has a mailing list again! Hosted by the wonderful Arch Linux.https://lists.archlinux.org/listinfo/arch-women
+2015-02-01 11:50:03	phrik	Title: arch-women Info Page (at lists.archlinux.org)
+2015-02-01 11:50:15	+meskarune	I need to make some guidelines for guest bloggers too
+2015-02-01 11:50:26	+tigrmesh	good idea
+2015-02-01 11:51:11	+tigrmesh	i'm not a mailing list person, not an email person at all.  
+2015-02-01 11:51:40	fsckd	for those who don't know, Arch Linux is an investment firm specializing in taco futures
+2015-02-01 11:51:47	+tigrmesh	but i'm glad we have one.  i know there are many email people
+2015-02-01 11:51:53	+tigrmesh	hahs
+2015-02-01 11:51:57	+tigrmesh	*haha
+2015-02-01 11:53:40	+tigrmesh	so.  of course.  email people are probably not on irc...
+2015-02-01 11:54:18	+tigrmesh	so if any of you are into email, please sign up and participate
+2015-02-01 11:54:55	+tigrmesh	you know what i forgot to do?  i forgot to ping everyone
+2015-02-01 11:55:50	+tigrmesh	because the next item is classroom, and halosghost is developing a class. 
+2015-02-01 11:56:10	+tigrmesh	halosghost, are you around?
+2015-02-01 11:57:09	+meskarune	the main advantage of a mailing list is having conversations with peole in different timezones
+2015-02-01 11:57:15	+meskarune	so we don't have to be online at the same time
+2015-02-01 11:57:34	+meskarune	also the slower pace may be easier for non-english speakers
+2015-02-01 11:59:06	+tigrmesh	would it be ok to take a little break while i ping everyone?
+2015-02-01 11:59:31	+meskarune	sure
+2015-02-01 12:00:14	+tigrmesh	*deep breath*
+2015-02-01 12:00:42	fsckd	hehe
+2015-02-01 12:01:11	+tigrmesh	the arch women meeting is happening.  please come, amoros , Anakon , BubbatheVTOG , carharttjimmy , Chouhartem , Defaultti , demize 
+2015-02-01 12:01:44	demize	o/
+2015-02-01 12:01:48	demize	Just ate.
+2015-02-01 12:02:15	+tigrmesh	the arch women meeting is happening.  please come - erdic , GermainZ , gikiam , halosghost , IHateMyIsp , kerrick_ , kevr_ , krosos , lawren , liara 
+2015-02-01 12:02:24	+tigrmesh	hey demize   :)
+2015-02-01 12:02:34	GermainZ	HI!
+2015-02-01 12:02:51	Chouhartem	Hi
+2015-02-01 12:02:56	gikiam	Hello
+2015-02-01 12:02:57	+meskarune	hello
+2015-02-01 12:03:12	+tigrmesh	the arch women meeting is happening.  please come - nisstyre , numeral , oddmunds , phatcat , prophecy , Reventlov 
+2015-02-01 12:03:24	GermainZ	What is halosghost's class about?
+2015-02-01 12:03:55	+tigrmesh	the arch women meeting is happening.  please come - samed , saneki , Sarah , savoca , sebleblanc , sharvey , Somasis_ , srhb , staria 
+2015-02-01 12:04:31	+tigrmesh	the arch women meeting is happening.  please come - thiagowfx , tugrik , vodik , yar , yuvadm , IHateMyIsp 
+2015-02-01 12:04:46	+meskarune	lol IHateMyIsp
+2015-02-01 12:04:52	+meskarune	I bet its comcast
+2015-02-01 12:04:57	fsckd	haha
+2015-02-01 12:05:33	+tigrmesh	he does!  beware the norse!  that's MrElendig
+2015-02-01 12:06:09	+tigrmesh	ok.  hi everyone!
+2015-02-01 12:06:21	+tigrmesh	GermainZ, data typing, iirc
+2015-02-01 12:06:29	fsckd	i want add, the mailing list is being administrated by the lovely demize. so if things break, you know who to blame :P
+2015-02-01 12:06:47	demize	;p
+2015-02-01 12:06:56	demize	I'm not lovely, I'm horrible!
+2015-02-01 12:07:06	GermainZ	you're lovely!
+2015-02-01 12:07:10	demize	!demize2
+2015-02-01 12:07:10	phrik	Demize the Tyrant
+2015-02-01 12:07:24	+tigrmesh	hey!  that
+2015-02-01 12:07:31	+tigrmesh	's my title.  give that back!
+2015-02-01 12:07:36	GermainZ	Demize the Lovely Tyrant!
+2015-02-01 12:07:48	demize	tigrmesh: Nu-uh!
+2015-02-01 12:08:00	demize	Well, technically it was “Tryant” I was called.
+2015-02-01 12:08:15	demize	But I think I'm allowed to correct that typographical mistake.
+2015-02-01 12:08:22	+tigrmesh	hehe
+2015-02-01 12:08:26	fsckd	lol
+2015-02-01 12:08:38	+tigrmesh	anyway.  back to the meeting.  
+2015-02-01 12:08:44	+tigrmesh	meeting notes are at  https://pad.riseup.net/p/arch-women-meeting_-_February_2015
+2015-02-01 12:08:45	phrik	Title: Riseup Pad (at pad.riseup.net)
+2015-02-01 12:09:03	GermainZ	Why is it highlighted in blue and purple?
+2015-02-01 12:09:10	GermainZ	The blue part is slightly hard to read :(
+2015-02-01 12:09:28	+tigrmesh	GermainZ, you have a color
+2015-02-01 12:09:31	fsckd	sorry, the blue indicates i wrote it
+2015-02-01 12:09:39	fsckd	the purple is meskarune
+2015-02-01 12:09:48	GermainZ	ah
+2015-02-01 12:09:58	+tigrmesh	everyone has a color.  i think if you click on the little person icon, you'll see yours
+2015-02-01 12:10:09	GermainZ	Oh I can disable the colors
+2015-02-01 12:10:13	fsckd	i changed my color, is it better?
+2015-02-01 12:10:17	GermainZ	Gear icon > Authorship colors
+2015-02-01 12:10:20	+tigrmesh	and if you hover over the text, you can see who wrote it
+2015-02-01 12:10:21	GermainZ	Thanks fsckd :D
+2015-02-01 12:13:12	+tigrmesh	and hh4a is not here to talk about his class
+2015-02-01 12:13:26	GermainZ	now or not?
+2015-02-01 12:13:30	GermainZ	oh, not.
+2015-02-01 12:14:15	+tigrmesh	neither is halosghost .  does anyone have an opinion about developing classes in teams? 
+2015-02-01 12:14:17	GermainZ	he hasn't logged in for a month
+2015-02-01 12:14:20	GermainZ	(hh4a)
+2015-02-01 12:14:25	+tigrmesh	dang
+2015-02-01 12:14:50	+meskarune	might be busy with finals if they are in school
+2015-02-01 12:14:56	+tigrmesh	yeah
+2015-02-01 12:14:57	CalimeroTeknik	I was suggesting we could have a series of lightning talks
+2015-02-01 12:15:03	GermainZ	a mailing list would be useful to send reminders :p
+2015-02-01 12:15:18	+tigrmesh	we have one!
+2015-02-01 12:15:26	+meskarune	CalimeroTeknik: "how to write bash scripts in 2 min"
+2015-02-01 12:15:30	+tigrmesh	GermainZ,  https://lists.archlinux.org/listinfo/arch-women
+2015-02-01 12:15:31	phrik	Title: arch-women Info Page (at lists.archlinux.org)
+2015-02-01 12:15:38	CalimeroTeknik	meskarune, can do :p
+2015-02-01 12:15:50	+meskarune	GermainZ: it's new though, so you didn't miss anything ;)
+2015-02-01 12:15:56	GermainZ	:D
+2015-02-01 12:18:44	+tigrmesh	ok.  so we're postponing the class discussion
+2015-02-01 12:18:57	+tigrmesh	moving on.  mentorship
+2015-02-01 12:19:05	+tigrmesh	is it too late to do GSoC?
+2015-02-01 12:21:08	+tigrmesh	oh that's the next item.  might as well do that one and come back to mentorship
+2015-02-01 12:21:50	+tigrmesh	so not only is there not much response on the mailing list, there's not much response here now
+2015-02-01 12:21:57	GermainZ	:(
+2015-02-01 12:22:01	fsckd	for internship that is
+2015-02-01 12:22:21	fsckd	where mailist = -dev-public, not archwomen's
+2015-02-01 12:22:23	+tigrmesh	to clarify for GSoC
+2015-02-01 12:22:28	fsckd	mailing list*
+2015-02-01 12:23:11	+tigrmesh	clarify:  for GSOC: There hasn't been a strong response on the mailing list, https://lists.archlinux.org/pipermail/arch-dev-public/2014-November/026748.html
+2015-02-01 12:23:11	phrik	Title: [arch-dev-public] GSoC 2015 (at lists.archlinux.org)
+2015-02-01 12:25:27	+tigrmesh	i feel sad about that.  if i qualified for it, i would do it in a heartbeat
+2015-02-01 12:25:56	+tigrmesh	i know there are lots of arch users who are students
+2015-02-01 12:26:11	fsckd	yeah :(
+2015-02-01 12:26:32	fsckd	it seems it gets proposed every now and then but not much comes out of it
+2015-02-01 12:27:18	+tigrmesh	yeah
+2015-02-01 12:28:24	+tigrmesh	anyone have any ideas about how to improve arch's chances of having someone?  ideas for next year?
+2015-02-01 12:28:42	-->	pirithous (~pirithous@unaffiliated/pirithous) has joined #archlinux-women
+2015-02-01 12:30:13	GermainZ	Do you have to be physically present for the GSoC?
+2015-02-01 12:30:19	+tigrmesh	no
+2015-02-01 12:31:36	fsckd	may be if we communicated that not all devs have to be mentors in GSoC. some are willing to. so get all the devs behind letting some of them be mentors?
+2015-02-01 12:33:05	fsckd	but, so far i only know of Allan willing to be a mentor
+2015-02-01 12:33:45	GermainZ	I have summer semesters :(
+2015-02-01 12:34:10	+tigrmesh	GermainZ, you need to apply to google, there needs to be an open source project that mentors you, they need to have qualifying projects for you to apply for, there are requirements about how to stay in the loop - GSoC irc channel, blog about it
+2015-02-01 12:34:35	GermainZ	yup, reading the FAQ
+2015-02-01 12:34:41	+tigrmesh	ok
+2015-02-01 12:34:45	+meskarune	I think the problem is there is a big time commitement 
+2015-02-01 12:34:59	+meskarune	and the devs already are streched sorta thin with time
+2015-02-01 12:35:09	GermainZ	yeah, I don't think it's possible with summer semesters for some students like me
+2015-02-01 12:35:24	+meskarune	of course best way to address that is add more devs, but thats another can of worms lol
+2015-02-01 12:36:04	+meskarune	but then again, participating in GSOC could be a way to gain more devs...
+2015-02-01 12:36:14	+tigrmesh	GermainZ, what kind of summer semesters do you have?
+2015-02-01 12:36:34	GermainZ	tigrmesh: it's like any other semester, but with ~half the course load
+2015-02-01 12:36:56	+tigrmesh	do you have to do summer semesters?
+2015-02-01 12:37:34	GermainZ	unless you want to be delayed, yes
+2015-02-01 12:37:36	GermainZ	it might be mandatory -- I haven't actually checked
+2015-02-01 12:37:58	<--	pirithous (~pirithous@unaffiliated/pirithous) has quit (Quit: Konversation terminated!)
+2015-02-01 12:38:04	+tigrmesh	ahh.  ok
+2015-02-01 12:39:30	+tigrmesh	so.  mentorship.  https://archwomen.org/wiki/projects:mentorship:start
+2015-02-01 12:39:31	phrik	Title: Mentorship Program [Arch Women Wiki] (at archwomen.org)
+2015-02-01 12:40:13	+tigrmesh	ohh
+2015-02-01 12:40:24	fsckd	for GSoC, i think it might be necessary to contact individual devs and discuss it with them on a one-to-one basis
+2015-02-01 12:41:17	CalimeroTeknik	tigrmesh, I wrote that page, kind of… so if I got something wrong, please tell me
+2015-02-01 12:41:37	+tigrmesh	!  live cd.  i'd like to do one for someone who helps me - to have a controlled environment for stuff for her machine at home
+2015-02-01 12:42:01	CalimeroTeknik	well, if you look at the list, the link "mentorship offers"…
+2015-02-01 12:42:02	+tigrmesh	CalimeroTeknik, no problem  :)
+2015-02-01 12:42:18	+tigrmesh	i realized i need to ask you questions about that
+2015-02-01 12:43:04	CalimeroTeknik	ok — I think the meeting takes priority right now
+2015-02-01 12:43:55	CalimeroTeknik	maybe I'll spur discussion if I explain what/why I wrote this on the page linked just now
+2015-02-01 12:44:18	CalimeroTeknik	I thought beginners needed to do stuff by themselves, mentors aren't teachers
+2015-02-01 12:44:18	+tigrmesh	i know some stuff about excel formulas and pivot tables, quickbooks, and comparing data fed from one system to another.  but i doubt that's anything someone visiting arch women would be looking for
+2015-02-01 12:44:40	+tigrmesh	CalimeroTeknik, please
+2015-02-01 12:44:48	CalimeroTeknik	?
+2015-02-01 12:44:53	CalimeroTeknik	who knows about that
+2015-02-01 12:45:20	CalimeroTeknik	I suggest mentors would put up stuff they already know pretty well, so that answering on these matters will not be an effort for them
+2015-02-01 12:45:30	thiagowfx	hello
+2015-02-01 12:45:48	fsckd	hi thiagowfx :)
+2015-02-01 12:45:52	+tigrmesh	sorry.  i'm getting confused because i was writing while you were responding
+2015-02-01 12:46:16	+tigrmesh	would you please say more about "spur discussion if I explain what/why I wrote this on the page linked just now"?
+2015-02-01 12:46:33	thiagowfx	I am slightly late :). Mind tl;dr what you were talking about?
+2015-02-01 12:47:12	CalimeroTeknik	yes, I wrote that mentors are people who can answer questions to which a beginner has trouble finding answers
+2015-02-01 12:47:27	CalimeroTeknik	implying not teachers who will take their hand and give all the material
+2015-02-01 12:47:30	+tigrmesh	thiagowfx,  at this moment, we're on the mentorship item  https://pad.riseup.net/p/arch-women-meeting_-_February_2015
+2015-02-01 12:47:31	phrik	Title: Riseup Pad (at pad.riseup.net)
+2015-02-01 12:48:26	+meskarune	thiagowfx: currently mentorship program :)
+2015-02-01 12:48:36	+meskarune	oh tigrmesh beat me to it
+2015-02-01 12:49:02	fsckd	thiagowfx: we went a little out of order and did internship first. i'll reorder that page in a moment :)
+2015-02-01 12:49:44	+tigrmesh	CalimeroTeknik, sounds great to me
+2015-02-01 12:49:54	fsckd	nvm, i forgot it crashes my browser when i try a cut&paste job ><
+2015-02-01 12:50:53	thiagowfx	nice, I'm catching up. Thumbs up for the mailing list
+2015-02-01 12:54:40	+tigrmesh	CalimeroTeknik, are you're trying to emphasize that it's not to be a teacher, but to be a resource?
+2015-02-01 12:54:41	+meskarune	thanks thiagowfx :D
+2015-02-01 12:55:30	+meskarune	tigrmesh: I think when we talked about it before, it was like, mentoring kids, you don't teach them how to to algebra, you help them with tips/tricks and help with things they are stuck on
+2015-02-01 12:55:40	+tigrmesh	i think i just messed up the notes
+2015-02-01 12:55:46	+tigrmesh	ahh
+2015-02-01 12:55:56	CalimeroTeknik	tigrmesh, yes, we have classes for that anyway
+2015-02-01 12:56:04	+meskarune	the little clock button lets you go back in time tigrmesh :)
+2015-02-01 12:56:16	CalimeroTeknik	I'm all too used to the "newbie telling me to teach them" thing
+2015-02-01 12:56:22	+tigrmesh	i found it.  whew!
+2015-02-01 12:56:35	+tigrmesh	CalimeroTeknik, i understand now.  :)
+2015-02-01 12:56:51	fsckd	we're all some shade of purple :P
+2015-02-01 12:57:40	+tigrmesh	i'm more in green now.
+2015-02-01 12:57:46	+tigrmesh	ok.  so.  
+2015-02-01 12:58:08	--	Somasis_ is now known as Somasis
+2015-02-01 12:58:10	fsckd	i'm more red now :)
+2015-02-01 12:59:37	+tigrmesh	so there's a page you can add yourself to.  and a question about privacy
+2015-02-01 13:00:04	+tigrmesh	i'm not sure what exactly that last line is
+2015-02-01 13:00:18	+tigrmesh	sorry.
+2015-02-01 13:00:28	+tigrmesh	we're on this item:  If you want to be available to mentor, add yourself to this page, https://archwomen.org/wiki/projects:mentorship:offers
+2015-02-01 13:00:29	phrik	Title: Mentorship offers [Arch Women Wiki] (at archwomen.org)
+2015-02-01 13:01:06	+tigrmesh	and we need more discussion on this, i think  Privacy for mentors on the list. Should the page be logged in members only?
+2015-02-01 13:03:27	thiagowfx	tigrmesh: since this mentorship idea is new, I think it would be a good idea to begin this way, indeed (=page visible to members only)
+2015-02-01 13:03:42	thiagowfx	as it progresses, we could reconsider its privacy
+2015-02-01 13:03:50	jy2wong	nah, I think that makes the barrier to finding a mentor a bit too high
+2015-02-01 13:04:47	jy2wong	IMO it should be really easy to determine 'is there someone mentoring something I'm interesed in'?
+2015-02-01 13:05:33	+tigrmesh	what if we didn't give the nick, just the expertise, while making it clear what items belong to different people?
+2015-02-01 13:05:57	jy2wong	yeah, I like that.
+2015-02-01 13:07:00	fsckd	how do you find the nick then?
+2015-02-01 13:07:23	jy2wong	send email or message channel op?
+2015-02-01 13:07:29	+tigrmesh	finding the nick could be where you log in
+2015-02-01 13:08:10	+tigrmesh	how would we separate by person without using "person a, person b"?
+2015-02-01 13:08:22	fsckd	i don't think dokuwiki can do that can it? showing one page to logged in users and another page to non logged in users?
+2015-02-01 13:08:42	thiagowfx	tigrmesh: public expertises and private nicks, yeah, sounds fine
+2015-02-01 13:09:09	+tigrmesh	ok.  so contact an op or email archwomen
+2015-02-01 13:10:29	+meskarune	I can make a new email group mentorship@archwomen.org
+2015-02-01 13:10:41	+meskarune	so everyone in that group can access the mail
+2015-02-01 13:10:47	+tigrmesh	nono
+2015-02-01 13:10:54	+meskarune	lol
+2015-02-01 13:10:55	+tigrmesh	too much work.  sorry
+2015-02-01 13:11:03	+tigrmesh	just email you or ask here
+2015-02-01 13:11:19	+tigrmesh	don't email me unless you want a response in glacial time
+2015-02-01 13:11:50	 *	fsckd emails tigrmesh. get's reply after 3000 years :P
+2015-02-01 13:12:24	CalimeroTeknik	hmm, is it really necessary to protect so much as IRC nicks?
+2015-02-01 13:12:35	CalimeroTeknik	well, I got the point of course
+2015-02-01 13:12:43	jy2wong	it occurs to me that the page history would tell you who added the 'anonymous' mentors
+2015-02-01 13:13:32	+tigrmesh	yeah
+2015-02-01 13:13:41	CalimeroTeknik	well, if we're going to go that far, yeah, you can be added by somebody, and that person can be the way to reach you
+2015-02-01 13:13:50	CalimeroTeknik	as a filter
+2015-02-01 13:14:15	CalimeroTeknik	instead of the IRC nick, we can put somebody to ask for "mentorship on that"
+2015-02-01 13:14:17	Sarah	I have been summoned
+2015-02-01 13:14:23	Sarah	IRC meeting, I guess
+2015-02-01 13:14:25	fsckd	hmm... if we're doing this as a security thing... what are the ways someone can use this system to attack a mentor?
+2015-02-01 13:14:26	+tigrmesh	hey Sarah !  yes
+2015-02-01 13:14:33	fsckd	Sarah: just in time :)
+2015-02-01 13:14:50	CalimeroTeknik	fsckd, scroll up for jy2wong's point
+2015-02-01 13:15:22	+tigrmesh	what about asking an admin / someone else to add you?
+2015-02-01 13:15:51	CalimeroTeknik	that's what I was suggesting
+2015-02-01 13:15:55	fsckd	my point being, someone determined enough will get the nick of a mentor
+2015-02-01 13:16:20	--	Sarah is now known as Aster
+2015-02-01 13:16:20	CalimeroTeknik	yes but for that matter they need to contact the person who added them
+2015-02-01 13:16:26	CalimeroTeknik	who is a different person
+2015-02-01 13:16:35	CalimeroTeknik	if you need a proxy, here it is
+2015-02-01 13:16:41	CalimeroTeknik	fsckd, <jy2wong>having second thoughts. While I'm happy to mentor, I'm not sure I'm happy having my name up on a...err, shit magnet page. >I really have no desire to have internet poo flung at me by random strangers who decide the arch women mentorship program is lulzy.
+2015-02-01 13:17:19	fsckd	CalimeroTeknik: i understand that
+2015-02-01 13:18:07	CalimeroTeknik	I myself don't care much and never get anything else than incredulous questions (people the existence of archwomen surprise)
+2015-02-01 13:18:50	CalimeroTeknik	we do get some of these every once in a while on the channel, blurting "omg this actually exists"
+2015-02-01 13:19:00	Aster	fsckd: just in time for..?
+2015-02-01 13:19:07	CalimeroTeknik	the meeting
+2015-02-01 13:19:08	+meskarune	fsckd: well, if you just have your nick listed, people can PM you and be harrassing
+2015-02-01 13:19:34	+meskarune	and many people have their irc nick and social nick as the saem thing
+2015-02-01 13:19:47	CalimeroTeknik	oh that's right
+2015-02-01 13:19:53	thiagowfx	y
+2015-02-01 13:20:04	fsckd	Aster: the meeting
+2015-02-01 13:20:06	+meskarune	I get a ton of harrassment online for being female and being onling
+2015-02-01 13:20:13	fsckd	(sorry had to go afk for a moment)
+2015-02-01 13:20:23	+meskarune	but I don't mind dealing with that if other people don't have to
+2015-02-01 13:20:37	Aster	I was at fosdem this weekend. Was anyone else in here attending?
+2015-02-01 13:20:51	fsckd	meskarune: what i mean is, what protection can be provided? mentoring by proxy or creating huge barriers for mentees can be limiting to the program itself
+2015-02-01 13:21:01	fsckd	meskarune: i want to avoid anti-patterns
+2015-02-01 13:21:08	CalimeroTeknik	Aster, friends from archlinux.fr
+2015-02-01 13:21:17	+meskarune	oh I mean just not having a list of people someone can send dick pics to :P
+2015-02-01 13:21:23	fsckd	haha
+2015-02-01 13:21:49	fsckd	one can just enter this channel and get a list of nicks :/
+2015-02-01 13:21:56	jy2wong	yeah, that
+2015-02-01 13:22:07	+meskarune	so a person can contact us, and say "I'm learning python and I"d like to have a mentor" and give us information about them and what they are looking for
+2015-02-01 13:23:35	fsckd	ok, so that we can judge a potential mentee before connecting them to a mentor?
+2015-02-01 13:23:53	Aster	mentee?
+2015-02-01 13:24:00	+meskarune	fsckd: yeah, but having a list of people who are actively mentoring give them a target I guess
+2015-02-01 13:24:05	thiagowfx	Aster: person who gets the mentoring
+2015-02-01 13:24:10	Aster	manator and manatee
+2015-02-01 13:24:14	+meskarune	hehe
+2015-02-01 13:24:41	fsckd	Aster: mentees are the non-aquatic variety :P
+2015-02-01 13:25:01	+meskarune	idk what the term is for person who is getting mentored :P
+2015-02-01 13:25:07	Aster	speaking of tees, they ran out of t-shirts at fosdem :(
+2015-02-01 13:25:30	+meskarune	aw
+2015-02-01 13:25:34	fsckd	dictionary says mentee. we've been going with that
+2015-02-01 13:25:48	thiagowfx	great
+2015-02-01 13:25:49	thiagowfx	https://answers.yahoo.com/question/index?qid=20061217153428AAemZLn
+2015-02-01 13:25:49	phrik	Title: What is a person being mentored called? (at answers.yahoo.com)
+2015-02-01 13:26:04	Aster	meskarune: pupil? student? follower? 
+2015-02-01 13:26:27	+meskarune	those work too :P
+2015-02-01 13:27:09	+tigrmesh	no student or follower.  this is more like a resource
+2015-02-01 13:27:33	CalimeroTeknik	that's a little bit over the top
+2015-02-01 13:27:50	+tigrmesh	anyway back to the privacy thing.  it's important for me too
+2015-02-01 13:28:10	CalimeroTeknik	everybody is people and some of them have ease in a certain field of expertise so other people can ask
+2015-02-01 13:28:48	CalimeroTeknik	well, not some, everybody has something, though we focused on technical
+2015-02-01 13:29:36	CalimeroTeknik	speaking of which, what should be the domain of the possibilities of mentoring?
+2015-02-01 13:29:46	fsckd	i have to remmeber what my original concern was. i'm not against protecting mentors. there was something in particular i was concerned about...
+2015-02-01 13:30:36	+meskarune	CalimeroTeknik: thats a good question, setting a scope for mentorship
+2015-02-01 13:31:12	CalimeroTeknik	I put some language stuff in there myself
+2015-02-01 13:32:32	+tigrmesh	wait.  we're getting sidetracked here.  jy2wong would you be ok with you and i and fsckd talking about this between now and the next meeting, and seeing if we can come up with a solution for this?
+2015-02-01 13:33:05	+tigrmesh	*and anyone else who has concerns about mentor/mentee privacy?
+2015-02-01 13:33:25	+tigrmesh	*mentoree
+2015-02-01 13:33:37	fsckd	here it is. basically i was concerned with how far the barriers can go. so i want a proper description of what attacks we will be protecting against because we cannot protect against all attacks.
+2015-02-01 13:34:40	-->	tuxampol (~Mylin@2001:a60:1199:d901:223:cdff:fec0:bb2f) has joined #archlinux-women
+2015-02-01 13:34:46	jy2wong	tigrmesh: yeah, sure
+2015-02-01 13:35:07	+tigrmesh	fsckd, would you be ok with you and i and jy2wong talking about this between now and the next meeting so we can be more specific?
+2015-02-01 13:36:24	fsckd	go ahead
+2015-02-01 13:36:44	+tigrmesh	i know i'm being selfish.  but i really want to be part of the discussion, and i need to focus on other stuff soon
+2015-02-01 13:37:07	fsckd	i have to go afk at the moment and i am aware that many of you live in NA east and it is lunch time :)
+2015-02-01 13:37:42	fsckd	sorry for dragging it on. i'm fine with continuing this in the next meeting after discussing more over the next month :)
+2015-02-01 13:39:09	+tigrmesh	plus it's nearly 19:00 UTC.  i think
+2015-02-01 13:39:25	fsckd	yeah, 18:39
+2015-02-01 13:40:03	+tigrmesh	CalimeroTeknik, do you want to say more about your question:  "what should be the domain of the possibilities of mentoring?"
+2015-02-01 13:40:12	+meskarune	ok, we'll have a mentor privacy meeting later on :)
+2015-02-01 13:40:21	+meskarune	and we can discuss and take notes, etc
+2015-02-01 13:40:46	CalimeroTeknik	tigrmesh, I have no idea as to the answer
+2015-02-01 13:42:10	CalimeroTeknik	well, I wrote: The more Arch Linux users are good at doing what they like doing, the better the future contributions! 
+2015-02-01 13:42:30	CalimeroTeknik	so I guess that kind of already says "stuff that's useful for Arch"
+2015-02-01 13:43:18	CalimeroTeknik	but I don't feel like deciding for everybody, even though I somewhat did, in order to clarify things on the site
+2015-02-01 13:43:36	+tigrmesh	right
+2015-02-01 13:43:46	CalimeroTeknik	that's it for me
+2015-02-01 13:44:34	+tigrmesh	so that leaves all my expertise out.  other than channel op stuff.  which can be pretty useful to arch, now that i think about it
+2015-02-01 13:47:38	+tigrmesh	ok.  does anyone else have any suggestions to add?
+2015-02-01 13:49:34	+tigrmesh	i know i'm scattered.  but i have someone expecting me soon.  
+2015-02-01 13:49:39	thiagowfx	about privacy and mentoring or about mentoring itself?
+2015-02-01 13:49:58	+tigrmesh	privacy will be later
+2015-02-01 13:50:11	thiagowfx	okay
+2015-02-01 13:50:19	+tigrmesh	mentoring and the domain of possible mentoring
+2015-02-01 13:50:51	+tigrmesh	CalimeroTeknik, i like what you wrote about future contributions to arch  :)
+2015-02-01 13:51:01	thiagowfx	I have an idea that is slightly related to mentoring, not sure if you tried anytime before
+2015-02-01 13:51:09	+tigrmesh	oh?
+2015-02-01 13:52:09	thiagowfx	using Google Hangouts (or any other platform, for that matter). It could be used for mentoring, for those monthly meetings, and this kind of stuff 
+2015-02-01 13:52:27	thiagowfx	but I get the idea it is not something that everybody here would like
+2015-02-01 13:55:49	+tigrmesh	it's an interesting idea, and i don't remember why we haven't done this before
+2015-02-01 13:57:01	thiagowfx	Glad you like it. It would be nice if we could discuss it in the next meeting
+2015-02-01 13:57:09	+tigrmesh	thiagowfx, awesome
+2015-02-01 14:03:09	+meskarune	we could also use tox
+2015-02-01 14:03:28	+meskarune	its like open source encrypted skype replacement
+2015-02-01 14:03:57	+meskarune	but probably mentors can decide how they want to talk with the person they help
+2015-02-01 14:06:16	+tigrmesh	i'm sorry.  i have to stop.  i can't fix the weird thing i wrote in the notes or anything.  meskarune could you finish up the meeting?
+2015-02-01 14:06:23	+meskarune	sure :)
+2015-02-01 14:10:02	+meskarune	ok, so any other comments on mentorship stuff?
+2015-02-01 14:11:17	thiagowfx	I cannot open the tox homepage here for some reason :/
+2015-02-01 14:11:43	+meskarune	https://tox.im/
+2015-02-01 14:11:44	phrik	Title: Tox: A New Kind of Instant Messaging (at tox.im)
+2015-02-01 14:11:53	+meskarune	you could try a proxy if its being blocked
+2015-02-01 14:13:18	thiagowfx	meskarune: bookmarked it, I will try again later on
+2015-02-01 14:13:28	+meskarune	https://www.filterbypass.me
+2015-02-01 14:14:52	+meskarune	so the next item on the agenda, revamp donation stuff on the site and maybe make a plan to fund raise a bit
+2015-02-01 14:15:00	+meskarune	right now we just have a paypal button
+2015-02-01 14:15:24	+meskarune	but there are other payment gateways available as well as bitcoin
+2015-02-01 14:16:05	+meskarune	I'd like to make a fund raising push as the domain needs to get renewed and I'm already in the hole quiet a bit with expenses
+2015-02-01 14:16:48	+meskarune	does anyone have any preferences or opinions on donation or even sponsors?
+2015-02-01 14:18:22	+meskarune	simple has a nice api but it's US only
+2015-02-01 14:20:52	krosos	RDash has this fundraiser application running for his diasp.net… but it only works with paypal iirc
+2015-02-01 14:21:19	+meskarune	oh cool krosos 
+2015-02-01 14:21:33	krosos	it has an github link, one moment
+2015-02-01 14:21:46	krosos	https://donate.diasp.net
+2015-02-01 14:21:47	phrik	Title: Diasp.net / Donations (at donate.diasp.net)
+2015-02-01 14:21:59	+meskarune	I just don't have a ton of experience with this and idk what people would prefer or find most secure
+2015-02-01 14:22:01	krosos	the link can be found as an gh icon
+2015-02-01 14:23:31	krosos	for this diasp.net keeping it online it was paypal via this fundraiser application, private donation and mostly paypal. i think bitcoin is doable but isn#t bitcoin on a steady downward course for some time now?
+2015-02-01 14:24:15	+meskarune	https://github.com/gokercebeci/donateme
+2015-02-01 14:24:16	phrik	Title: gokercebeci/donateme · GitHub (at github.com)
+2015-02-01 14:24:18	+meskarune	I found it
+2015-02-01 14:24:31	krosos	it is very difficult to find fundraiser application projects which are opensource and free, we found this one and i had the one which hambacherforst used last year.
+2015-02-01 14:24:54	+meskarune	yeah, I was thinking to actually write something lol
+2015-02-01 14:25:05	<--	thiagowfx (~thiagowfx@187.105.5.40) has quit (Quit: goodbye, ppl)
+2015-02-01 14:25:12	+meskarune	but like having code to look at is helpful
+2015-02-01 14:25:23	+meskarune	I may be able to use the same code for different payment gateways
+2015-02-01 14:25:30	+meskarune	like simple and bitcoin
+2015-02-01 14:25:44	+meskarune	thanks krosos 
+2015-02-01 14:26:09	krosos	no problem :)
+2015-02-01 14:26:12	+meskarune	so maybe I can make a donate.html page and like, pimp that out in social media
+2015-02-01 14:26:14	<--	tuxampol (~Mylin@2001:a60:1199:d901:223:cdff:fec0:bb2f) has quit (Quit: Verlassend)
+2015-02-01 14:26:15	krosos	i am interested in that as well
+2015-02-01 14:26:33	+meskarune	if we get some donations it would cover ssl cert and domain name rewnewals, etc
+2015-02-01 14:29:49	+meskarune	the other option is like, crowd funding type of thing
+2015-02-01 14:29:52	+meskarune	like go fund me
+2015-02-01 14:29:58	+meskarune	but we don't have a physical product
+2015-02-01 14:30:31	krosos	http://waldkonzert.tk/waldkraut.html the other thing was this AND the kickstarter someone (band? external member?) of machinae supremacy used for their worltourne concert kickstarter, possibly written from scratch
+2015-02-01 14:30:32	phrik	Title: Konzert f�r den Wald (at waldkonzert.tk)
+2015-02-01 14:30:56	+meskarune	there are sites like https://www.patreon.com/
+2015-02-01 14:30:57	phrik	Title: Patreon: Support the creators you love (at www.patreon.com)
+2015-02-01 14:33:59	+meskarune	krosos: I think that's a wordpress plugin maybe :)
+2015-02-01 14:34:23	krosos	ah
+2015-02-01 14:34:35	+meskarune	the buttons call "crowdsupport.php"
+2015-02-01 14:34:45	+meskarune	maybe I can download it...
+2015-02-01 14:34:59	+meskarune	I think bitcoin might be good to have too
+2015-02-01 14:35:16	+meskarune	it can be sent and recieved pretty quickly
+2015-02-01 14:35:27	+meskarune	and its international and private
+2015-02-01 14:36:14	krosos	http://www.machinaesupremacy.com/wtf/ they had this. other solutions I have found are pay for or not open or both
+2015-02-01 14:36:14	phrik	Title: Machinae Supremacy World Tour Fundraiser (at www.machinaesupremacy.com)
+2015-02-01 14:36:38	krosos	bitcoin is sort of semi-private.
+2015-02-01 14:36:43	krosos	but it can be nice to have
+2015-02-01 14:37:49	krosos	autistici had an blogpost about th
+2015-02-01 14:38:02	krosos	at, why they don't take bitcin donations
+2015-02-01 14:38:40	-->	thiagowfx (~thiagowfx@187.105.5.40) has joined #archlinux-women
+2015-02-01 14:39:00	<--	thiagowfx (~thiagowfx@187.105.5.40) has quit (Remote host closed the connection)
+2015-02-01 14:39:12	+meskarune	oh ok
+2015-02-01 14:39:26	-->	thiagowfx (~thiagowfx@187.105.5.40) has joined #archlinux-women
+2015-02-01 14:39:28	krosos	i think "normal" donations, like setting up an bank account and people can donate there via international bank payment methods does not work that well without being an foundation or something?
+2015-02-01 14:39:33	+meskarune	well I'll look into those options and see what I can put together ;)
+2015-02-01 14:40:01	krosos	http://cavallette.noblogs.org/2013/07/8333#eng is the official blog of autistici.org , a project similar to riseup.net
+2015-02-01 14:40:01	phrik	Title: cavallette» Blog Archive » perche’ non accettiamo bitcoin / why we do not accept bitcoin (at cavallette.noblogs.org)
+2015-02-01 14:40:10	krosos	if you are interested in that post
+2015-02-01 14:40:25	+meskarune	krosos: yeah, I'm not sure. right now the paypal link is just to my bank since I've been paying out of pocket for everything
+2015-02-01 14:40:38	krosos	oh
+2015-02-01 14:40:39	+meskarune	but I'd like to have AW with its own sepperate thing
+2015-02-01 14:41:06	+meskarune	I don't have a lot of cash right now though
+2015-02-01 14:41:13	+meskarune	so I really need to get in some donations
+2015-02-01 14:41:22	+meskarune	so I can renew the domain :P
+2015-02-01 14:42:43	+meskarune	ok, I guess we can move on to final comments
+2015-02-01 14:42:51	krosos	i would look into the laws of your country concerning this. i don't even know how others operate in that case, I just know with my status I can not accept incoming money (well i do, but it is breaking some regulation I have with my curent status, so if someone ever checks the bankaccount logs of the last 3 months again I have a problem)
+2015-02-01 14:43:01	krosos	okay
+2015-02-01 14:43:24	+meskarune	oh, in the US you don't even have to report small amounts of money
+2015-02-01 14:43:41	+meskarune	like I think below $200 or something
+2015-02-01 14:43:56	krosos	right, different system when you are unemployed in the US.
+2015-02-01 14:44:21	+meskarune	and reporting is just for like, tax purposes
+2015-02-01 14:44:38	+meskarune	to get money tax free we'd have to apply as a non-profit
+2015-02-01 14:44:42	+meskarune	but that is complicated
+2015-02-01 14:45:02	krosos	ah, i thought that was easy as so many of these exist
+2015-02-01 14:45:05	+meskarune	you need to have a board and rules and assign jobs and stuff
+2015-02-01 14:45:20	fsckd	regarding the idea of using Google Hangouts or something else as a place to have meetings. it would need to have the ability to log and reply the meeting for people who couldn't attend. it should also be accessible to hard of hearing and visually impaired folks
+2015-02-01 14:45:22	krosos	i see
+2015-02-01 14:45:50	fsckd	(sorry for interrupting. i just wanted to through that out there before the meeting ends)
+2015-02-01 14:46:19	+meskarune	yeah I agree fsckd 
+2015-02-01 14:46:41	+meskarune	I think mentoring is fine over that if people want to do that, but we don't need to require it
+2015-02-01 14:47:01	fsckd	yeah. mentorship stuff are private discussions
+2015-02-01 14:47:04	+meskarune	people would just decide how they want to interact
+2015-02-01 14:47:36	fsckd	throw*
+2015-02-01 14:48:53	fsckd	meetings are public discussions which involve lots of people. similarly for classrooms.
+2015-02-01 14:53:37	+meskarune	oh, so apparently donations are considered gifts in that the person does not recieve anything in return, and gifts are not taxed if they go to charitable or politica causes as long as its less than $14,000
+2015-02-01 14:54:03	+meskarune	my goal was going to be like, $50 lol
+2015-02-01 14:54:19	+meskarune	so I think on all fronts it won't be a problem
+2015-02-01 14:55:29	+meskarune	fsckd: I think meetings on irc is fine
+2015-02-01 14:55:57	+meskarune	maybe we should have a more prominent link to a web irc client on teh home page
+2015-02-01 14:56:12	+meskarune	like "come join us on irc! <link to kiwiirc>"
+2015-02-01 14:58:46	fsckd	that sounds good :)
+2015-02-01 15:05:02	+meskarune	ok, any other comments/concerns/suggestions?
+2015-02-01 15:09:03	+meskarune	kk I guess I'll end the meeting :P
+2015-02-01 15:09:11	+meskarune	====== Meeting End ======
