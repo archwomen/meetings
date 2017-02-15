@@ -1,0 +1,251 @@
+2017-05-13 16:47 <tigrmesh> =====  begin meeting  =====
+2017-05-13 16:47 <tigrmesh> welcome everyone
+2017-05-13 16:47 <tigrmesh> first order of business.  does anyone know what meeting number this is?
+2017-05-13 16:47 <tigrmesh> did we meet in march?
+2017-05-13 16:50 <meskarune> no
+2017-05-13 16:50 <meskarune> but we did in april
+2017-05-13 16:50 <meskarune> I think today is the 58th
+2017-05-13 16:51 <tigrmesh> so april was the 57th.  ok
+2017-05-13 16:51 <tigrmesh> thanks  :)
+2017-05-13 16:51 <tigrmesh> =====  58th IRC Meeting  ===== 
+2017-05-13 16:52 <ng0> am i still here? i don't know if psyced or freenode dropped
+2017-05-13 16:52 <tigrmesh> ng
+2017-05-13 16:52 <ng0> ok :)
+2017-05-13 16:52 <tigrmesh> still here.  adding the meeting to the topic atm
+2017-05-13 16:54 -!- tigrmesh changed topic to "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Fifty-eighth IRC Meeting happening now. Meeting notes https://pad.riseup.net/p/aw-meeting-may-13 <|||> If you're having a problem with someone, !awops"
+2017-05-13 16:54 <tigrmesh> next up: The Arch Install Day we scheduled in April did not happen.  Do we want to schedule another?
+2017-05-13 16:55 <ng0> didn't you say this should happen on the meetup?
+2017-05-13 16:55 <j605> what do you do in the install day?
+2017-05-13 16:55 <tigrmesh> we all forgot about it
+2017-05-13 16:55 <tigrmesh> so just like any other day
+2017-05-13 16:56 <mohsen_> ng0: What is meetup? does it happen in reality?
+2017-05-13 16:56 <j605> are you planning to do it at the meetup?
+2017-05-13 16:57 <tigrmesh> let's talk about the meetup in that item
+2017-05-13 16:57 <ng0> sil.valley, yep.
+2017-05-13 16:57 <meskarune> mohsen_: yeah, I need to find a venue and sponsors
+2017-05-13 16:58 <mohsen_> ng0: Where's it located?
+2017-05-13 16:58 <meskarune> I wanted to have a meetup in california because I think quite a few of y'all live there
+2017-05-13 16:58 <tigrmesh> i'm not sensing any interest in having an install day in this channel
+2017-05-13 16:59 <tigrmesh> next item.  server
+2017-05-13 16:59 <tigrmesh> The server has been using the grsec kernel, which is no longer available.  Will need to switch to linux-hardened
+2017-05-13 16:59 <tigrmesh> meskarune: nekomancer - anything you want to add?
+2017-05-13 17:00 <meskarune> sounds good to me
+2017-05-13 17:00 <tigrmesh> i think some time this week has been mentioned
+2017-05-13 17:01 <tigrmesh> * The website switched to let's encrypt
+2017-05-13 17:01 <j605> I was looking at it earlier but the wiki is bare and the github page for it also doesn't say how to use it though. It would be great if you can just replace -grsec with -hardened
+2017-05-13 17:02 <tigrmesh> linux-hardened is in [community]
+2017-05-13 17:02 <tigrmesh> i would expect if we switch to it, we'll be able to gain features as they're added
+2017-05-13 17:03 <tigrmesh> s/be able to/just/
+2017-05-13 17:03 <tigrmesh> j605: it's nice to be an archer, isn't it?
+2017-05-13 17:04 <polyzen> heheh
+2017-05-13 17:11 <meskarune> lol yeah
+2017-05-13 17:11 <meskarune> ok what is next?
+2017-05-13 17:12 <tigrmesh> next up
+2017-05-13 17:12 <tigrmesh> classroom
+2017-05-13 17:13 <tigrmesh> * Classroom
+2017-05-13 17:13 <meskarune> awesome
+2017-05-13 17:13 <meskarune> I have classroom stuff in a github group now, I think I really want to add more people to it
+2017-05-13 17:14 <tigrmesh> who were you thinking of?
+2017-05-13 17:17 <meskarune> motivated arch users, maybe people who already contribute to helping people in the support chans
+2017-05-13 17:17 <meskarune> I think we could use some editors
+2017-05-13 17:18 <meskarune> anyone who is willing to give a second pair of eyes on things
+2017-05-13 17:18 <tigrmesh> do you have a link to it?
+2017-05-13 17:18 <meskarune> I think its like, archclassroom.github.io
+2017-05-13 17:18 <meskarune> but I can't check because my internet is shit
+2017-05-13 17:18 <tigrmesh> right
+2017-05-13 17:18 <tigrmesh> and this is where irc shines
+2017-05-13 17:19 <tigrmesh> where "still doing what it did in the 90s" is the most awesome
+2017-05-13 17:19 <polyzen> https://archclassroom.github.io/
+2017-05-13 17:19 <phrik> Title: Arch Linux Classroom (at archclassroom.github.io)
+2017-05-13 17:19 <polyzen> https://github.com/archclassroom
+2017-05-13 17:19 <phrik> Title: Arch Linux Classroom · GitHub (at github.com)
+2017-05-13 17:19 <tigrmesh> we had a 28k modem
+2017-05-13 17:19 <tigrmesh> polyzen: thanks  :)
+2017-05-13 17:21 <tigrmesh> meskarune: will the class materials for prior classes move to this repo?
+2017-05-13 17:21 <meskarune> yeah
+2017-05-13 17:21 <tigrmesh> is anyone here interested in being part of the arch classroom github group?
+2017-05-13 17:22 <tigrmesh> polyzen, halosghost ?
+2017-05-13 17:22 <meskarune> tigrmesh: totally agree. If I was using another chat instead of irc I probably couldn't connect. IRC is so low bandwidth :D
+2017-05-13 17:22 <polyzen> absolutely
+2017-05-13 17:23 <tigrmesh> yay
+2017-05-13 17:23 <tigrmesh> meskarune: polyzen has agreed to be in the group
+2017-05-13 17:23 <meskarune> oh awesome! Thanks so much
+2017-05-13 17:24 <polyzen> no, thank you :)
+2017-05-13 17:24 <alyptik> polyzen++
+2017-05-13 17:24 <polyzen> lol
+2017-05-13 17:24 <mohsen_> tigrmesh: I'd like to help, but I'm not sure if I have th proper knowledge
+2017-05-13 17:25 <tigrmesh> meskarune: would you be willing to say more about what you're looking for?
+2017-05-13 17:25 <meskarune> mohsen_: honestly we need people who are beginners too, to check over class materials and let us know if there are things that don't make sense or aren't clear
+2017-05-13 17:25 <mohsen_> Aha
+2017-05-13 17:25 <meskarune> tigrmesh: I'd like people who can check out drafts of classes and give feedback
+2017-05-13 17:26 <meskarune> so newbies who can look for clarity and experienced peopel who can find things that are incorrect
+2017-05-13 17:26 <meskarune> if that makes sense
+2017-05-13 17:26 <meskarune> of course having people who can teach classes is great too heh
+2017-05-13 17:26 <alyptik> ACTION is backreading for context
+2017-05-13 17:27 <mohsen_> meskarune: Sure, I'll be in classes and try to help in anyways
+2017-05-13 17:27 <meskarune> thanks :)
+2017-05-13 17:28 <tigrmesh> anything else about classroom?
+2017-05-13 17:29 <mohsen_> no probs
+2017-05-13 17:30 <meskarune> tigrmesh: halosghost I think is considering doing an intro class on lua
+2017-05-13 17:30 <meskarune> I really want to see another git class and PKGBUILD class
+2017-05-13 17:31 <meskarune> those seem to get people contributing to arch linux more
+2017-05-13 17:31 <alyptik> they are pretty much the largest barrier i would think
+2017-05-13 17:31 <alyptik> proper use of git to manage code especially
+2017-05-13 17:32 <alyptik> once i picked a bit of git up everything became way more fun
+2017-05-13 17:32 <polyzen> IIRC sangy and alyptik(?) were a bit interested in teaching Git
+2017-05-13 17:32 <alyptik> noooo
+2017-05-13 17:32 <alyptik> i am no where near that good lols
+2017-05-13 17:32 <alyptik> sangy tho
+2017-05-13 17:32 <meskarune> haha
+2017-05-13 17:33 <polyzen> would like to do another myself
+2017-05-13 17:33 <meskarune> we have a lot of great materials for an intro git class, like ascii nemas and resource lists
+2017-05-13 17:33 <j605> I am finding new things with git every time. Reading the man pages without any use case is not that helpful
+2017-05-13 17:33 <meskarune> maybe alyptik can partner up ;D
+2017-05-13 17:33 <alyptik> ACTION will handle refreshments
+2017-05-13 17:34 <meskarune> j605: last time we did a sort of git workshop and people could do commands on the AW git server while taking the class
+2017-05-13 17:34 <tigrmesh> meskarune: what should someone do if they want to teach a class?  contact you?
+2017-05-13 17:34 <meskarune> yeah, or polyzen
+2017-05-13 17:35 <meskarune> we can add them to the github group
+2017-05-13 17:35 <polyzen> !:+!:
+2017-05-13 17:35 <phrik> polyzen: Eh?
+2017-05-13 17:35 <polyzen> !:+1:
+2017-05-13 17:35 <phrik> 👍
+2017-05-13 17:35 <meskarune> mwahahaha
+2017-05-13 17:35 <j605> for checking out drafts, is it going to be in the same repo?
+2017-05-13 17:36 <meskarune> yeah, for a class there will be a repo with the sylabus and teacher notes and materials
+2017-05-13 17:36 <meskarune> and people can work and edit on that copy
+2017-05-13 17:37 <polyzen> lol alyptik
+2017-05-13 17:38 <alyptik> ACTION :D
+2017-05-13 17:46 <meskarune> ok, so we got some folks in classroom, need to do more posts on teh mailing lists and forums
+2017-05-13 17:46 <meskarune> and possible lua class coming up
+2017-05-13 17:46 <meskarune> I think thats everything for classroom
+2017-05-13 17:49 <tigrmesh> next up.  mentorship
+2017-05-13 17:55 <meskarune> we have an email and we need some infos added tot eh wiki and site
+2017-05-13 17:55 <meskarune> main site is in a git repo and uses markdown files
+2017-05-13 17:55 <meskarune> so its easy to edit
+2017-05-13 17:56 <tigrmesh> what site?
+2017-05-13 17:56 <nekomancer> meskarune: you are awesome
+2017-05-13 17:57 <meskarune> ❤
+2017-05-13 17:57 <meskarune> tigrmesh: the main site
+2017-05-13 17:57 <meskarune> archwomen.org
+2017-05-13 17:59 <tigrmesh> what's the mentorship email?
+2017-05-13 18:02 <tigrmesh> i'm sorry.  i have to stop.  eurovision is in less than an hour, and i have to get ready for it
+2017-05-13 18:02 <tigrmesh> i don't want to spend the whole program figuring out what to download so i can watch it
+2017-05-13 18:02 <meskarune> mentor@archwomen.org
+2017-05-13 18:03 <meskarune> oh I forgot about eurovision today heh
+2017-05-13 18:03 <meskarune> I think whats left on the agenda, mentorship, meetup in rl?
+2017-05-13 18:04 <tigrmesh> matrix
+2017-05-13 18:04 <meskarune> yeah, I think we can just add that to the list of channels for irc and "how to connect"
+2017-05-13 18:04 <meskarune> maybe the footer too
+2017-05-13 18:05 <meskarune> just liek, a matrix link
+2017-05-13 18:05 <meskarune> then mentorship I need to add the email and how to apply
+2017-05-13 18:05 <tigrmesh> that's all i can do.  is someone willing to take over for me?
+2017-05-13 18:05 <tigrmesh> leading the meeting and adding to the notes
+2017-05-13 18:05 <tigrmesh> ?
+2017-05-13 18:05 <meskarune> I think I can do meetup, which is hte last thing
+2017-05-13 18:05 <meskarune> oh I can't access the notes though :/
+2017-05-13 18:07 <Mikaela> ACTION is also waiting for Eurovision final and has to visit grocery store now even if it's in the middle of the meeting and Matrix wasn't yet talked about
+2017-05-13 18:08 <polyzen> will help with the notes
+2017-05-13 18:11 <meskarune> Mikaela: we are goign to add a matrix link to the site footer and irc page :)
+2017-05-13 18:11 <meskarune> thanks polyzen
+2017-05-13 18:12 <meskarune> so rl meetup, I think we need to find a venue. Maybe someone who lives there knows of a college or company we could do the meetup at
+2017-05-13 18:12 <meskarune> ideally it would be a place with public transit access
+2017-05-13 18:16 <yar> where is this meetup happening? sorry for netsplit
+2017-05-13 18:16 <meskarune> howdy yar
+2017-05-13 18:17 <meskarune> I was thinking around silicon valley since I think there are a group of women living aroudn there
+2017-05-13 18:17 <meskarune> do you happen to be in that area?
+2017-05-13 18:17 <meskarune> I wanted to find a venue and sponsors and maybe do a fund raiser for it
+2017-05-13 18:17 <meskarune> so we could get people food or maybe even transportation help
+2017-05-13 18:18 <meskarune> probably going to be a small thing
+2017-05-13 18:18 <shmibs> ah, g'morning
+2017-05-13 18:18 <shmibs> ACTION eye-rubs blearily
+2017-05-13 18:18 <meskarune> morning
+2017-05-13 18:18 <shmibs> oh, you're talking bout a meet-up?
+2017-05-13 18:19 <meskarune> yeah
+2017-05-13 18:19 <meskarune> tigrmesh: https://eurovision.tv/story/eurovision-2017-broadcast-us
+2017-05-13 18:20 <phrik> Title: Eurovision returns to the United States - Eurovision Song Contest Kyiv 2017 (at eurovision.tv)
+2017-05-13 18:20 <MrElendig> ACTION is not going to watch
+2017-05-13 18:20 <MrElendig> no black mettal nor bearded ladies this year
+2017-05-13 18:20 <meskarune> is sweden out of the running?
+2017-05-13 18:20 <meskarune> haha
+2017-05-13 18:20 <MrElendig> also even more political bs than usual
+2017-05-13 18:20 <meskarune> the time finland sent a metal band will never be forgotten lol
+2017-05-13 18:21 <meskarune> MrElendig: oh really? :(
+2017-05-13 18:21 <spider-mario> this time, finland sent Günther
+2017-05-13 18:21 <meskarune> My friend thinks that germany will win
+2017-05-13 18:23 <yar> holy shit my internet is just not working today
+2017-05-13 18:23 <yar> i'm up in the east bay
+2017-05-13 18:24 <spider-mario> I stand corrected, they didn’t send günther after all
+2017-05-13 18:24 <yar> how about noisebridge or sudoroom?
+2017-05-13 18:26 <meskarune> for venues?
+2017-05-13 18:27 <yar> yes. sorry if i missed some conversation
+2017-05-13 18:28 <polyzen> yar, https://pad.riseup.net/p/aw-meeting-may-13
+2017-05-13 18:28 <phrik> Title: Riseup Pad (at pad.riseup.net)
+2017-05-13 18:28 <meskarune> Sure, If you have the contact info I can call or email them
+2017-05-13 18:28 <yar> thanks
+2017-05-13 18:28 <meskarune> Unless you want to, I think you have an archwomen email
+2017-05-13 18:28 <Michaela> ACTION is back
+2017-05-13 18:28 <meskarune> if not I need to make one for you >.>
+2017-05-13 18:29 <yar> i'm a member of sudoroom and i know a lot of noisebridge people
+2017-05-13 18:29 <yar> do we have a date picked out?
+2017-05-13 18:29 <yar> are SF or oakland too far from silicon valley?
+2017-05-13 18:29 <meskarune> oh awesome. I am trying to make like, a small meetup with some food
+2017-05-13 18:29 <yar> what are our accessibility needs
+2017-05-13 18:30 <meskarune> yar: I think elky and jy2wong are in the area
+2017-05-13 18:30 <meskarune> there isn't a date set atm
+2017-05-13 18:30 <meskarune> I can't get down there because my life is insane atm, but maybe we should make a list of peopel interested in going? And ask about their schedules
+2017-05-13 18:30 <yar> ok. i feel confident that we can make it happen at either place, so i can just make arrangements once we have a date in mind. is that ok?
+2017-05-13 18:31 <meskarune> OMG yes, that would be awesome
+2017-05-13 18:31 <meskarune> maybe we can talk to fedora women and linux chix and ubuntu women too and see if there are people around who'd like a small women's meetup
+2017-05-13 18:32 <yar> i went to a big "women who code" meeting in the city a few years ago. there were like 50 people there
+2017-05-13 18:34 <yar> noisebridge is in SF a block from 16th st BART. sudoroom is in north oakland about a 10 minute walk from macarthur BART
+2017-05-13 18:35 <yar> there's also a feminist hackerspace in SF (double union) but i don't know anyone from there anymore i'm afraid
+2017-05-13 18:45 <meskarune> oh awesome
+2017-05-13 18:45 <meskarune> Ok, so we could do either of those, and then maybe I can get a headcount and date figured out
+2017-05-13 18:46 <meskarune> and set a budget and do some fund raising
+2017-05-13 18:47 <meskarune> I was thinking maybe tacos or nacho bar for food
+2017-05-13 18:48 <meskarune> so if someone is around there we can give some AW money for picking up food stuffs, either from the grocery store or a local eatery
+2017-05-13 18:54 <meskarune> my internet keeps going out ugh
+2017-05-13 18:54 <meskarune> Is there anything else with the meetup? I can make an email on the mailing list about it, and try to get an idea of what days work for people
+2017-05-13 18:55 <Michaela> https://www.youtube.com/watch?v=ehH0_UXtQlY - 4:20
+2017-05-13 18:55 <phrik> Title: Eurovision Song Contest 2017 - Grand Final - Live - YouTube (at www.youtube.com)
+2017-05-13 18:59 <yar> noisebridge is right in mission taqueria ground zero
+2017-05-13 19:01 <ng0> I'm away for grocery store, drop me a line when the meeting is done. you could also add me to aw organization on github so that pushing logs might be easier, if yo uwant to. this time I will keep the account.
+2017-05-13 19:10 <meskarune> oh sure ng0 :)
+2017-05-13 19:13 <polyzen> Michaela, meskarune, did you want to discuss matrix.org more?
+2017-05-13 19:14 <Michaela> cheating to ask during the first show which is my second favourite in final
+2017-05-13 19:14 <Michaela> I don't know
+2017-05-13 19:14 <polyzen> heh
+2017-05-13 19:14 <meskarune> Michaela: is anything special I need to do besides adding links to the site?
+2017-05-13 19:15 <meskarune> Like do we need to take ownership of it somehow?
+2017-05-13 19:16 <Michaela> If you want to configure the name or photo or history visibility or anything, you must ask Kegan for PL100 at #matrix-irc ( #irc:matrix.org ) and be op at freenode. PL100 is irreversible though so you must absolutely trust the people you give it as only they can step down and give up the power
+2017-05-13 19:16 <Michaela> When ops syncing gets enabled, some options become configurable simply by opping the Matrix ghost (the nick Matrix user appears as under)
+2017-05-13 19:17 <meskarune> Oh thanks for explaining that
+2017-05-13 19:18 <meskarune> So I guess I will do that, and then my next question is, do you guys want history turned on or off?
+2017-05-13 19:21 <Michaela> I think it's the safest to have it visible since the point people join as that doesn't need IRC changes and won't violate anyone's privacy
+2017-05-13 19:21 <Michaela> But the name would be nice to change to something more stylish and the avatar too
+2017-05-13 19:25 <meskarune> ok :)
+2017-05-13 19:25 <meskarune> Maybe once it stops raining my internet will stop lagging and I'll get able to actually load websites
+2017-05-13 19:25 <meskarune> lol
+2017-05-13 19:26 <meskarune> aw there anythign else for the meeting?
+2017-05-13 19:26 <ng0> re
+2017-05-13 19:27 <polyzen> everything's been covered
+2017-05-13 19:28 <meskarune> ok awesome
+2017-05-13 19:29 <meskarune> ng0: oh do you have a link for your github user and also can you give me a public ssh key?
+2017-05-13 19:29 <meskarune> arch women uses git servers at git@git.archwomen.org and people access them with ssh keys
+2017-05-13 19:29 <ng0> ok, one moment
+2017-05-13 19:29 <meskarune> thanks. It may take me a while because I have a ton of lag from the storm here
+2017-05-13 19:30 <ng0> https://github.com/EmilePouget
+2017-05-13 19:30 <phrik> Title: EmilePouget (ng0) · GitHub (at github.com)
+2017-05-13 19:30 <ng0> ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOBsKO/O2K6Q2sQ1a6EVzQkcnI1QbWeQ14uuxn+MplGG ng0@khazad-dum-2016-04-17
+2017-05-13 19:31 <ng0> for once using pipes to irc is useful :)
+2017-05-13 19:31 <polyzen> heh
+2017-05-13 19:32 <j605> are using that suckless client
+2017-05-13 19:32 <j605> ?
+2017-05-13 19:32 <meskarune> haha
+2017-05-13 19:32 <ng0> github is like drinking water if you do packaging.. you can't avoid it
+2017-05-13 19:32 <ng0> yeah
+2017-05-13 19:32 <ng0> running in tmux + s shell
+2017-05-13 19:33 <nekomancer> s shell?
+2017-05-13 19:33 <meskarune> polyzen: ok I think we can end the meeting :)
+2017-05-13 19:33 <meskarune> ==== Meeting Ends ====
