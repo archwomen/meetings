@@ -1,0 +1,85 @@
+Arch Women 58th IRC meeting
+===========================
+
+Saturday, May 13, 2017
+
+Announcements and status updates
+--------------------------------
+
+* The Arch Install Day we scheduled in April did not happen.
+
+  * Not scheduling another at this time.
+
+Topics for discussion
+---------------------
+
+Server
+^^^^^^
+
+* The server was using the grsec kernel, which is no longer available.
+
+  * Will switch to linux-hardened some time this week.
+
+* The website switched to Let's Encrypt.
+
+Projects
+^^^^^^^^
+
+Classroom
+"""""""""
+
+Website https://archclassroom.github.io/ | Org https://github.com/archclassroom
+
+* Classroom stuff is in a separate GitHub group.
+
+* Meskarune is looking for more people to be in the group, especially editors.
+  For example, to check out drafts of classes and give feedback.
+
+* For a class there will be a repo with the syllabus and teacher notes and
+  materials.  People can work and edit on that copy.
+
+* halosghost is considering doing an intro class on Lua.
+
+* Meskarune would like to see another Git class and PKGBUILD class.
+
+* We're looking to have even more classes.  And new people to teach classes
+  would be great.  People interested in teaching a class can contact meskarune
+  or polyzen.
+
+* Need to do more posts on the mailing lists and forums to announce classes and
+  recruit teachers.
+
+Mentorship
+""""""""""
+
+Email mentor@archwomen.org
+
+* Add more info to the wiki and Arch Women website.
+
+Community
+^^^^^^^^^
+
+Matrix
+""""""
+
+* Add to the list of IRC channels and the footer.
+
+* meskarune will request PL100, enable history visibility, and change name and
+  avatar.
+
+Meetup
+""""""
+
+* Find venue (perhaps college or company) near Silicon Valley.
+
+  * Public transit access would be ideal.
+  * Any tips from locals would be appreciated.
+  * Considerations: SF (Noisebridge, Double Union) or Oakland (Sudo Room)
+
+* Set budget, raise funds, and find sponsors for food and maybe transport.
+
+  * Taco and/or nacho bar
+
+* Make list of people interested, and ask about their availability.
+
+  * Reach out to Fedora Women and Linux Chix and Ubuntu Women.
