@@ -1,0 +1,38 @@
+Arch Women 59th IRC meeting
+===========================
+
+Saturday, June 10, 2017
+
+Announcements and status updates
+--------------------------------
+
+* PKGBUILD class last weekend.
+
+Topics for discussion
+---------------------
+
+Server
+^^^^^^
+
+* Switched to linux-hardened and self-hosted kernel.
+
+Projects
+^^^^^^^^
+
+Classroom
+"""""""""
+
+* Need to recruit and make requests for contributors. Editors would be
+  appreciated.
+
+* halosghost will be doing an intro class on Lua.
+
+* meskarune will teach a Git class with polyzen's assistance.
+
+Community
+^^^^^^^^^
+
+* Meetup in California:
+  https://lists.archlinux.org/pipermail/arch-women/2017-June/000059.html
+
+* AW channels on Matrix.org have been setup.
