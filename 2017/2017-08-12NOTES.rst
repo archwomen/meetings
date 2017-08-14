@@ -1,0 +1,46 @@
+Arch Women 60th IRC meeting
+===========================
+
+Saturday, August 12, 2017
+
+Announcements and status updates
+--------------------------------
+
+* Matrix channel is setup:
+  https://riot.im/app/#/room/#archlinux-women:matrix.org
+
+Topics for discussion
+---------------------
+
+Server
+^^^^^^
+
+* Need to add Matrix link to footer, update wiki theme, and update site pages.
+
+Projects
+^^^^^^^^
+
+Classroom
+"""""""""
+
+* Need to work on site more. Recruit on social media/forums.
+
+* Git class, polyzen/meskarune - should probably make a date and signup sheet
+  for public keys.
+
+* Lua class, halosghost - halosghost is on vacation, so no update.
+
+* Python class, pulec - class still in initial stages of development.
+
+Community
+^^^^^^^^^
+
+* California meetup - mailing list discussion
+  https://lists.archlinux.org/pipermail/arch-women/2017-June/000059.html
+
+* Documentation for Matrix:
+  https://github.com/matrix-org/matrix-appservice-irc/wiki/Matrix-for-IRC-user
+* Mention that people on matrix need to register their nick so their messages
+  show up on IRC.
+
+* Add resources for suicide prevention & link from IRC rules page.

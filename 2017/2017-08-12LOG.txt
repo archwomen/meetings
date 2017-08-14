@@ -1,0 +1,52 @@
+2017-08-12 12:41:15	@meskarune	====== Meeting Start ======
+2017-08-12 12:41:29	Mikaela	o/ matrix.org went down
+2017-08-12 12:41:32	@meskarune	announcements: matrix channel was setup and we have been getting a few more folks from there
+2017-08-12 12:41:38	@meskarune	Mikaela: lol
+2017-08-12 12:41:53	@meskarune	perfect timing >.>
+2017-08-12 12:42:31	Mikaela	:D
+2017-08-12 12:42:40	@meskarune	so topics for discussion
+2017-08-12 12:43:00	@meskarune	me, or someone needs to add a link to matrix in the site footer. there is already a link to irc
+2017-08-12 12:43:13	@meskarune	then we need to probably link to some info to get users started
+2017-08-12 12:44:01	j605	make sure to mention that they need to register or else their message won't show up on irc
+2017-08-12 12:44:51	@meskarune	oooh right, good point
+2017-08-12 12:46:21	@meskarune	the wiki theme also needs to get updated so it matching the new homepage
+2017-08-12 12:46:30	@meskarune	and some pages are lackign content
+2017-08-12 12:46:55	@meskarune	the site stuff is in git
+2017-08-12 12:47:01	@meskarune	so anyone can contribute
+2017-08-12 12:47:21	@meskarune	if you are not familiar with git, I can give you some resources to get you started
+2017-08-12 12:47:54	@meskarune	next up I guess is Projects
+2017-08-12 12:48:10	@meskarune	there are some classes planned
+2017-08-12 12:48:16	@meskarune	a git class with me and dmc
+2017-08-12 12:48:29	@meskarune	lua class with halosghost
+2017-08-12 12:48:45	@meskarune	and possible python class taught by pulec
+2017-08-12 12:49:27	@meskarune	really for git we could probabaly just clear the test repo, make a new signup and set a date since we taught one before
+2017-08-12 12:50:46	@meskarune	I guess that can be a todo
+2017-08-12 12:50:54	@meskarune	I think halosghost is on vacation atm
+2017-08-12 12:51:05	@meskarune	and pulec is in classroom sorta discussing and planning
+2017-08-12 12:51:54	@meskarune	does anyone has any questions about classes?
+2017-08-12 12:53:13	@meskarune	I feel like I am talking to myself :P
+2017-08-12 12:53:31	@meskarune	but next up is community
+2017-08-12 12:53:38	+tigrmesh	i'm here
+2017-08-12 12:54:07	@meskarune	:D
+2017-08-12 12:56:26	@meskarune	ok we have a mailing list discussion about meeting up here:  https://lists.archlinux.org/pipermail/arch-women/2017-June/000059.html
+2017-08-12 12:56:27	phrik	Title: [arch-women] California Meetup (at lists.archlinux.org)
+2017-08-12 12:56:37	@meskarune	maybe doing it around fall break would be nice? idk
+2017-08-12 12:56:50	@meskarune	sometime in nov
+2017-08-12 12:56:53	+tigrmesh	when i fall break?
+2017-08-12 12:57:05	+tigrmesh	s/i/is/
+2017-08-12 12:57:06	@meskarune	its still warm but not sweltering
+2017-08-12 12:57:30	@meskarune	it depends on the school but normally a few weeks around thanksgiving
+2017-08-12 12:59:10	@meskarune	but I'm still not sure how many people coudld make it
+2017-08-12 13:02:19	@meskarune	I guess we can do some reminders in channel during the week while people are chatting
+2017-08-12 13:02:27	@meskarune	to see where people are
+2017-08-12 13:03:44	@meskarune	next things, we should add to the irc rules that the channel is registered only and how to register a nick, and mention how to register for matrixc
+2017-08-12 13:04:19	@meskarune	there are some links in the riseup we could link to
+2017-08-12 13:04:51	@meskarune	and then I'd like to add suicide prevention resources to the resource page as well as add to the irc rules a link to that
+2017-08-12 13:05:29	@meskarune	since I don't believe we allow discussion of self harm due to it being a bit triggering and also us not really having the experience/resources to help
+2017-08-12 13:06:38	@meskarune	I think thats the last thing in the agenda
+2017-08-12 13:06:58	@meskarune	does anyone has questions/concerns/suggestions or things to add?
+2017-08-12 13:09:00	@meskarune	ok I will go ahead and end the meeting
+2017-08-12 13:09:11	@meskarune	going.... once
+2017-08-12 13:09:18	@meskarune	going.... twice
+2017-08-12 13:09:22	+tigrmesh	i'm good with ending now
+2017-08-12 13:09:33	@meskarune	====== Meeting End ======
