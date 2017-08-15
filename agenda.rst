@@ -1,7 +1,7 @@
 Arch Women 61st IRC meeting
 ===========================
 
-Saturday, September 09, 2017
+2017-09-09
 
 Announcements and status updates
 --------------------------------

@@ -1,7 +1,7 @@
 Arch Women nth IRC meeting
 ===========================
 
-Saturday, Month dd, yyyy
+yyyy-mm-dd
 
 Announcements and status updates
 --------------------------------
