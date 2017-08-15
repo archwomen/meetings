@@ -1,4 +1,4 @@
-Arch Women nth IRC meeting
+Arch Women nnth IRC meeting
 ===========================
 
 yyyy-mm-dd
