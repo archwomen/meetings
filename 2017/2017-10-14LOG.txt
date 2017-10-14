@@ -1,0 +1,195 @@
+2017-10-14 12:46:39	+tigrmesh	=====  Arch Women 61st IRC meeting begins  =====
+2017-10-14 12:46:48	--	Mode #archlinux-women [+o tigrmesh] by ChanServ
+2017-10-14 12:46:50	--	tigrmesh has changed topic for #archlinux-women from "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Sixty-first IRC Meeting will be October 14th, 2017 <|||> If you're having a problem with someone, !awops" to "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Sixty-first IRC Meeting happening now.  Channel is being logged. <|||> If you're having a problem with someone, !awops"
+2017-10-14 12:47:04	@tigrmesh	meeting notes at  https://hackmd.io/EwRgDCBGCG0BwFoDsATeCAsBjJGGRAFMsEA2LSFAZjjGnOiqA===#
+2017-10-14 12:47:06	phrik	Title: Arch Women 61st IRC meeting - HackMD (at hackmd.io)
+2017-10-14 12:47:26	--	Mode #archlinux-women [-o tigrmesh] by tigrmesh
+2017-10-14 12:47:38	+tigrmesh	first up,  Announcements and status updates
+2017-10-14 12:47:45	+tigrmesh	any announcements?
+2017-10-14 12:50:32	dmc	!ab
+2017-10-14 12:50:33	phrik	Arch is the Best™ https://wiki.archlinux.org/index.php/Arch_is_the_best
+2017-10-14 12:51:20	+Dolores	The first python class was held by pullec
+2017-10-14 12:51:45	+Dolores	It was a video stream
+2017-10-14 12:52:40	+Dolores	I think it was good for the first class and we learned some things about video classes
+2017-10-14 12:52:58	+Dolores	tigrmesh:
+2017-10-14 12:53:22	+Dolores	I think that's the only announcement
+2017-10-14 12:53:46	+tigrmesh	ok
+2017-10-14 12:54:11	dmc	also eschwartz and fsckd split the classroom repo
+2017-10-14 12:54:20	dmc	after Dolores migrated it
+2017-10-14 12:54:25	dmc	iiuc
+2017-10-14 12:54:44	m1n	was the python stream by pullec saved to a video? Where can we find it, if so?
+2017-10-14 12:54:51	dmc	it's on YT
+2017-10-14 12:54:56	dmc	and he's creating notes from it
+2017-10-14 12:54:59	dmc	or has done so already
+2017-10-14 12:55:45	m1n	how do we find it? .. kinda hard to find on youtube by searching
+2017-10-14 12:56:10	+Dolores	The videos will be added to git with subtitles
+2017-10-14 12:56:15	dmc	https://www.youtube.com/watch?v=gV64m2fGm14
+2017-10-14 12:56:16	phrik	Title: Pulec – Arch Class - Python Edu - YouTube (at www.youtube.com)
+2017-10-14 12:56:53	dmc	hm
+2017-10-14 12:57:04	dmc	Dolores, perhaps we should host the videos elsewhere?
+2017-10-14 12:57:13	dmc	AV in Git doesn't sound bueno
+2017-10-14 12:57:15	+Dolores	Omg that lag
+2017-10-14 12:57:21	dmc	but definitely could work
+2017-10-14 12:57:31	ng0	or mediagoblin
+2017-10-14 12:57:52	dmc	ng0 knows all the decentralized stuff :p
+2017-10-14 12:57:53	+Dolores	Maybe on free aws or vimeo
+2017-10-14 12:58:10	+tigrmesh	what's wrong with youtube?
+2017-10-14 12:58:15	dmc	Arch Classroom YT channel? :o
+2017-10-14 12:58:35	+Dolores	Yeah, we should have some kind of mass storage system
+2017-10-14 12:58:50	m1n	doesn't pb host things? I remember someone saying something about ... historical stuff that happened .. so, is that off the table?
+2017-10-14 12:59:10	+Dolores	dmc: yeah, maybe we should
+2017-10-14 12:59:11	CalimeroTeknik	tigrmesh, although I don't really have solid arguments (who cares if google knows that you watch a python tutorial), possibly privacy
+2017-10-14 12:59:15	ng0	how big is the file?
+2017-10-14 12:59:40	+tigrmesh	CalimeroTeknik: right.  i forget
+2017-10-14 12:59:54	+Dolores	m1n pb isn't profitable and who knows how long it will exist
+2017-10-14 12:59:58	CalimeroTeknik	also, if the video is deleted for any reason, it could pass for censorship
+2017-10-14 13:01:11	CalimeroTeknik	ng0, on youtube around 243MB
+2017-10-14 13:01:27	m1n	ng0: the webm is .. yeah 244 Mib 
+2017-10-14 13:01:54	ng0	I have some space, as a last option.
+2017-10-14 13:01:57	m1n	~40min in length
+2017-10-14 13:02:04	+Dolores	I am at 1min lag
+2017-10-14 13:02:47	+tigrmesh	do we need to settle this now?
+2017-10-14 13:03:02	+tigrmesh	this is what i have in the notes about it  https://hackmd.io/EwRgDCBGCG0BwFoDsATeCAsBjJGGRAFMsEA2LSFAZjjGnOiqA===?view
+2017-10-14 13:03:04	phrik	Title: Arch Women 61st IRC meeting - HackMD (at hackmd.io)
+2017-10-14 13:03:52	+tigrmesh	i'm going to wait another minute to see if Dolores has anything else for announcements 
+2017-10-14 13:05:23	CalimeroTeknik	tigrmesh, outside of any theoretical privacy concerns, a good policy is to consider youtube a mirror, not a proper hosting (it's outside of your control whether the videos will stay there, and youtube is blocked in certain countries)
+2017-10-14 13:05:36	CalimeroTeknik	it's a convenient video CDN
+2017-10-14 13:05:41	+tigrmesh	k
+2017-10-14 13:06:06	+tigrmesh	next topic: server
+2017-10-14 13:06:21	+tigrmesh	is there anything about the server we need to discuss?
+2017-10-14 13:06:32	+Dolores	Yes, that's all announcements and I also agree with YouTube as a mirror
+2017-10-14 13:08:21	+Dolores	I think the server is chugging along
+2017-10-14 13:08:40	+Dolores	And up to date
+2017-10-14 13:09:14	+tigrmesh	ok
+2017-10-14 13:09:37	+tigrmesh	next topic: projects:
+2017-10-14 13:14:07	+tigrmesh	what's going on with classroom?
+2017-10-14 13:14:47	+Dolores	Next python class date is being voted on I think
+2017-10-14 13:15:11	+Dolores	And me and dmc can do a git class
+2017-10-14 13:17:59	+tigrmesh	anything else?
+2017-10-14 13:19:02	m1n	I could teach vim or javascript/web dev-y stuff (like three.js or canvas stuff or just more general stuff) if we need it *shrug*
+2017-10-14 13:21:59	CalimeroTeknik	from the classes I have started to think that many people are missing fundamentals, but it still appears that showing how it works in practice is a good way to make these fundamentals clear
+2017-10-14 13:25:34	m1n	did I say "stuff" enough? >_< also, it'd have to be on a weekend. I also am fairly familiar with python, but glad to see that people are teaching that.
+2017-10-14 13:26:44	+tigrmesh	the day of the week is at the teacher's discretion
+2017-10-14 13:27:17	+tigrmesh	anything else for projects?
+2017-10-14 13:27:36	m1n	you said "pythong" in the notes..
+2017-10-14 13:29:33	+tigrmesh	thank you  :)
+2017-10-14 13:30:21	+tigrmesh	next topic:  community
+2017-10-14 13:35:31	+tigrmesh	Dolores: do you have anything for community?
+2017-10-14 13:36:22	dmc	tigrmesh, be the change you want to see in the world
+2017-10-14 13:37:07	+tigrmesh	i'm not sure what that means in this context
+2017-10-14 13:37:38	+Dolores	Maybe rl meetup ?
+2017-10-14 13:37:53	+tigrmesh	what about it?
+2017-10-14 13:38:02	+Dolores	I don't think anyone has posted times they are free
+2017-10-14 13:39:32	m1n	weekends xD
+2017-10-14 13:39:48	m1n	I also probably don't live near anyone
+2017-10-14 13:41:48	+tigrmesh	Dolores, dmc anything else?
+2017-10-14 13:42:29	dmc	markup rules
+2017-10-14 13:42:38	+tigrmesh	markup rules?
+2017-10-14 13:42:53	dmc	(CommonMark, reStructuredText, HTML, and so on :p)
+2017-10-14 13:43:24	@lola	ok I think my internet is doing better
+2017-10-14 13:43:31	@lola	lunch rush is over
+2017-10-14 13:43:38	dmc	heheh
+2017-10-14 13:45:34	+tigrmesh	dmc: i remember looking at those, but i don't remember if a decision was reached
+2017-10-14 13:47:07	dmc	tigrmesh, lola had suggested HackMD and CryptPad, but HackMD has more features
+2017-10-14 13:47:18	dmc	we're using CommonMark on HackMD
+2017-10-14 13:47:36	dmc	my long search for options ended with those :p
+2017-10-14 13:47:40	dmc	as well
+2017-10-14 13:47:59	@lola	I like the idea of cryptpad, but they don't have good chat features or show who adds what
+2017-10-14 13:48:12	@lola	so maybe we should use hackmd
+2017-10-14 13:48:13	dmc	don't think either of them do
+2017-10-14 13:48:16	@lola	oh
+2017-10-14 13:48:19	dmc	we're currently using HackMD
+2017-10-14 13:48:31	dmc	got familiarized with it last night by chance :p
+2017-10-14 13:48:31	@lola	that exports to markdown?
+2017-10-14 13:48:35	@lola	;)
+2017-10-14 13:48:40	dmc	yes, multiple export options actually
+2017-10-14 13:48:57	@lola	ok, then that seems find to me
+2017-10-14 13:48:58	dmc	Md, HTML, Raw HTML, Gist
+2017-10-14 13:48:59	@lola	fine
+2017-10-14 13:49:30	dmc	oh, btw I have to import contents via Gist. if I import via clipboard, it adds a bunch of line ending characters
+2017-10-14 13:49:41	@lola	herm
+2017-10-14 13:49:52	dmc	tigrmesh, I mean "markup rules" as in "markup is awesome", not regulations :p]
+2017-10-14 13:49:55	dmc	-]
+2017-10-14 13:50:01	dmc	meant*
+2017-10-14 13:50:18	dmc	I could clear that up later
+2017-10-14 13:50:53	+tigrmesh	dmc: how's that  https://hackmd.io/EwRgDCBGCG0BwFoDsATeCAsBjJGGRAFMsEA2LSFAZjjGnOiqA===?view
+2017-10-14 13:50:55	phrik	Title: Arch Women 61st IRC meeting - HackMD (at hackmd.io)
+2017-10-14 13:52:57	+tigrmesh	dmc: refresh that
+2017-10-14 13:56:14	dmc	!:+1:
+2017-10-14 13:56:15	phrik	👍
+2017-10-14 13:56:18	@lola	yeah, and we can export to useful formats so I think it looks good
+2017-10-14 13:56:24	@lola	the site loaded \o/
+2017-10-14 13:56:26	@lola	lol
+2017-10-14 13:56:39	dmc	lol
+2017-10-14 13:57:37	+tigrmesh	anything else for community?
+2017-10-14 13:57:49	+tigrmesh	sorry
+2017-10-14 13:57:58	+tigrmesh	any other comments, questions, etc
+2017-10-14 13:57:59	+tigrmesh	?
+2017-10-14 13:58:17	fsckd	hello
+2017-10-14 13:58:23	+tigrmesh	hi!
+2017-10-14 13:58:29	fsckd	re classroom
+2017-10-14 13:58:42	fsckd	i forgot what i was going to say, sorry.
+2017-10-14 13:59:06	dmc	lol
+2017-10-14 13:59:50	fsckd	there's a lot going on with classroom. i wanted to point out one thing, but i've clean forgotten.
+2017-10-14 14:00:57	+tigrmesh	i'll give you another minute
+2017-10-14 14:01:19	m1n	pullec did a python class on YT; we're tryna figure out where to store videos; people have suggested future streams/videos. That's all I know, fsckd
+2017-10-14 14:01:45	fsckd	right, it wasn't that specifically
+2017-10-14 14:01:59	m1n	I figured since it's in the notes; sorry
+2017-10-14 14:02:06	fsckd	i'll just talk in general and may be will cover it in the process
+2017-10-14 14:02:27	fsckd	so classroom is being made to to run somewhat separately
+2017-10-14 14:02:41	fsckd	so the community is kind of split
+2017-10-14 14:02:49	@lola	I want to try and get more archers invovled
+2017-10-14 14:02:55	@lola	outside AW
+2017-10-14 14:03:25	fsckd	things discussed in the meeting here don't get propagated there. and things discussed there don't get propagated here.
+2017-10-14 14:04:01	fsckd	lola: yeah, exactly
+2017-10-14 14:04:16	fsckd	the repositories were split to be a bit more sensible.
+2017-10-14 14:04:40	fsckd	logs and info. for announcements are in one repo. notes for classes get their own repos.
+2017-10-14 14:04:58	fsckd	the classroom website is to be on github.
+2017-10-14 14:05:28	fsckd	also, there's been a proposal for announcing classes and updates for them, using rss/atom feeds.
+2017-10-14 14:05:48	@lola	we could also have a calendar idk
+2017-10-14 14:05:58	fsckd	i want something light
+2017-10-14 14:05:58	@lola	I don't see where the repos are split
+2017-10-14 14:06:22	fsckd	lola: used to be notes, logs, etc. where in the same repo. notes are split out.
+2017-10-14 14:06:42	+tigrmesh	calendars are disappointing when events don't happen weekly
+2017-10-14 14:06:57	@lola	if the class logs are not in the same repo as the class then we have to figure out a way to link them
+2017-10-14 14:08:08	fsckd	lola: yeah, through the announcement info file. after the class is over. also through the archwiki.
+2017-10-14 14:08:16	fsckd	a lot to do still
+2017-10-14 14:08:30	fsckd	also need to work on the license thing... again
+2017-10-14 14:08:34	@lola	I think I would rather have topic repos like "git-classes" and then dirs in there with each class on git so its all together. idk
+2017-10-14 14:09:24	fsckd	lola: for logs?
+2017-10-14 14:10:11	fsckd	how about if we ask alad how to make the table on the wiki sortable.
+2017-10-14 14:10:31	fsckd	and list the topic in the table
+2017-10-14 14:10:32	@lola	well, imagine you are a user, you want to learn about git. you copy the git-classes repo. Wouldn't you expect to be able to read the class notes, exmaples and logs all together?
+2017-10-14 14:11:16	fsckd	lola: the notes aren't the same between each class
+2017-10-14 14:11:28	@lola	yeah, thats why each class has its own dir
+2017-10-14 14:11:37	fsckd	i get your point. but it isn't easy afaict.
+2017-10-14 14:12:03	@lola	so git-classes/git-for-gits/{2016,2017} or whatever
+2017-10-14 14:12:19	@lola	doesn't have to be dates though. could be teacher names and year or idk what
+2017-10-14 14:12:24	fsckd	there might be a way. want to talk after the meeting?
+2017-10-14 14:12:31	@lola	yeah
+2017-10-14 14:12:41	@lola	I am just trying to think from the perspective of a student
+2017-10-14 14:12:57	@lola	most people aren't goign to want to download all the class logs
+2017-10-14 14:12:58	fsckd	yours is a good point.
+2017-10-14 14:13:02	fsckd	i think there's a way we can do what you want.
+2017-10-14 14:13:19	fsckd	oi, tigr pinged out.
+2017-10-14 14:13:27	fsckd	now who runs the meeting?
+2017-10-14 14:13:30	@lola	I mean, git also allows you to have other git repos inside a repo or refer to other repos to download things
+2017-10-14 14:13:46	@lola	but I don't want to make things too complicated >.>
+2017-10-14 14:13:50	fsckd	we are adrift without a guide, in a cold, dark sea.
+2017-10-14 14:13:59	@lola	hehe
+2017-10-14 14:14:05	@lola	we could probabaly end the meeting
+2017-10-14 14:14:24	fsckd	lola: won't be complicate, i had a brainstorm. you are brilliant.
+2017-10-14 14:14:26	@lola	fsckd: unless you have a suggestion for classroom, should it be sepperate from AW and no more planning about it in meetings here?
+2017-10-14 14:14:42	@lola	fsckd: haha, this is why I like talking to you ;)
+2017-10-14 14:14:51	@lola	you always have good ideas
+2017-10-14 14:15:01	 *	fsckd bows
+2017-10-14 14:16:01	--	Mode #archlinux-women [+v tigrmesh] by ChanServ
+2017-10-14 14:16:07	fsckd	you're the one who gives me the ideas though
+2017-10-14 14:16:36	fsckd	also, yeha, might be a better idea to move classroom planning out of arch women
+2017-10-14 14:16:47	fsckd	i don't think half of classroom people are in here
+2017-10-14 14:16:59	fsckd	eschwartz certainly isn't here
+2017-10-14 14:17:07	fsckd	tigrmesh: we can end the meeting
+2017-10-14 14:17:31	m1n	</meeting>
+2017-10-14 14:21:26	@lola	thanks for coming everyone, I really appreciate your input :)
+2017-10-14 14:22:49	+tigrmesh	=====  End of Arch Women 61st IRC meeting  =====
+
