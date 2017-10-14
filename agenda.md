@@ -1,7 +1,6 @@
-# Arch Women 61st IRC meeting
+# Arch Women 62nd IRC meeting
 
-
-2017-10-14
+2017-11-11
 
 ## Announcements and status updates
 
