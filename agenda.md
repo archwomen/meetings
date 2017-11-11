@@ -15,6 +15,8 @@
 ### Projects
 
 * mentorship - need to advertise this more and write docs
+* event to do recordings for voxforge
+* wiki contribution day, maybe we can pick a page to adopt and work on?
 
 ### Community
 
