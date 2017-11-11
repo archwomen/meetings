@@ -1,0 +1,28 @@
+12:02 <dmc> an announcement as I get the agenda onto HackMD:
+12:02 <dmc> pulec held his second Python class, on IRC
+12:04 <dmc> apparently this has the resources for his class: https://github.com/archclassroom/python-beginners
+12:04 <phrik> Title: GitHub - archclassroom/python-beginners (at github.com)
+12:08 <dmc> that didn't take forever https://hackmd.io/CwNgHAJgDAZjDsBaMBTArCRwBGI3PhAkQgGYx4BOFUyuKYIA#
+12:08 <phrik> Title: Arch Women 62nd IRC meeting - HackMD (at hackmd.io)
+12:09 <dmc> the Git class with meskarune and myself should be soon TM
+12:10 <dmc> on to the agenda topics
+12:11 <dmc> meskarune will be working on the AW blog and the AW wiki theme
+12:11 <dmc> the blog is a Flask app. is fairly functional already iirc
+12:12 <dmc> and iirc the wiki theme changes are to keep it on par with the blog layout
+12:12 <dmc> next topic: projects
+12:13 <dmc> a few items here
+12:13 <dmc> the mentorship project would benefit from better advertistement and docs
+12:16 <dmc> another project is Wiki Contribution Day
+12:17 <dmc> meskarune noted, "Maybe we can pick a page to adopt and work on"
+12:17 <dmc> the last project item is "Event to do recordings for voxforge" which I don't know the details of
+12:19 <+tigrmesh> dmc: we should postpone that item until meskarune can be here for it
+12:19 <dmc> okay
+12:20 <dmc> our last, but not least, topic is community. planning for the meet up is still in progress
+12:21 <dmc> if anyone has any new ideas or developments for this, please do share
+12:21 <+tigrmesh> i don't know anything about it
+12:22 <dmc> or any other comments, questions, etc.
+12:24 <dmc> the mentorship docs to build on: https://archwomen.org/wiki/projects:mentorship:start
+12:24 <phrik> Title: Mentorship Program [Arch Women Wiki] (at archwomen.org)
+12:26 <dmc> looks like I can wrap it up :p
+12:27 <+tigrmesh> ok
+12:27 <dmc> looks like I forgot to update some of the meeting docs
