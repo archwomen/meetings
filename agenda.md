@@ -1,10 +1,10 @@
-# Arch Women 63rd IRC meeting
+# Arch Women 64th IRC meeting
 
 2017-12-09
 
 ## Announcements and status updates
 
-* fsckd has retired but still around to chat
+* fsckd has retired from AW and we wish him well
 
 ## Topics for discussion
 
