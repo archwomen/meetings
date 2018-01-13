@@ -1,0 +1,248 @@
+12:02:58	@meskarune	==== Meeting Start ====
+12:03:04	+tigrmesh	we didn't meet in december.  so this should be the 63rd meeting?
+12:03:16	@meskarune	oh...
+12:03:21	@meskarune	well can fix later heh
+12:04:19	@meskarune	Announcements
+12:04:47	@meskarune	fsckd is retiring from AW, we all wish him well in future endeavors
+12:04:50	@meskarune	❤
+12:04:52	--	tigrmesh has changed topic for #archlinux-women from "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Sixty-third IRC meeting December 9, 2017 <|||> If you're having a problem with someone, !ops" to "Arch Linux Chix FTW: Project site is http://archwomen.org . IRC Rules: http://goo.gl/hLyINu <|||> Sixty-third IRC meeting is happening now.  Notes at https://cryptpad.fr/code/#/1/edit/iKn9NhnBqYYXYkSE1EbXMQ/TEasXMJZwgiSpDBSVJwxKMEh/ this channel is being logged during the meeting <|||> If you're having a problem with someone, !ops"
+12:05:38	@meskarune	Server stuff
+12:05:42	@tigrmesh	thanks fsckd  :)
+12:06:18	@meskarune	yes, honestly cannot thank you enough, you are amazing fsckd
+12:07:14	@meskarune	On the server, need to update the wiki theme and probaably docuwiki as well, I might be able to do that today
+12:07:18	@meskarune	a bit at least
+12:07:28	@meskarune	and then the blog needs to be worked on
+12:08:30	@meskarune	I think I will set aside wednesdays for that
+12:08:34	@meskarune	this month
+12:08:49	@meskarune	and people can chat or help out in #archlinux-women-dev
+12:09:01	@meskarune	Ok, projects
+12:09:01	ng0	'ello
+12:09:04	@meskarune	\o
+12:09:11	@meskarune	I want to set some goals for year
+12:10:38	@meskarune	So I really want to focus on the mentor program thing
+12:10:45	@meskarune	and work on getting more contributors
+12:10:58	@meskarune	and social media
+12:13:51	+tigrmesh	any ideas on how to do that?  how to attract people who want to contribute and not just trolls?
+12:14:36	ng0	hm
+12:14:42	@meskarune	I think most social posts, and maybe having a presence at cons
+12:15:16	@meskarune	we don't interact alot outside irc
+12:16:37	HER0_01	It might be nice to have clear ways that potential contributors can help.
+12:16:43	HER0_01	(If there isn't one already)
+12:16:46	@meskarune	yes I agree
+12:17:49	ng0	I would be open to do it occasionally at cons (when I get the chance to be there) if I don't have to represent other projects there already (multiplicity is difficult but works).
+12:18:14	ng0	that is a big maybe, as I'm still sorting out my own schedule and tasks
+12:19:52	+tigrmesh	that would be great  :)
+12:20:08	@meskarune	ng0: I think just having some fliers we could print out would be enough even
+12:20:21	@meskarune	So people can see them along with whatever else
+12:20:49	ng0	I just thought about that.. it would also fit into our social centre where we are with our hackerspace
+12:25:38	ng0	meskarune: does the rss if there is any get posted to some account in federated social media?
+12:25:58	@meskarune	we have a twitter
+12:26:09	@meskarune	but I think I want to make a mastodon account since its FOSS
+12:26:40	ng0	mastodon or gnu social bots for rss are super easy.
+12:26:57	@meskarune	ok sweet :D
+12:27:15	@meskarune	maybe we can do that then :D
+12:27:48	ng0	in theory.. I still have to do it, but I've seen enough. you still need an account, and dependning on what the server runs you get to choose from existing bots
+12:27:58	@meskarune	actually I am more happy with that than twitter because its harder to control your tweets
+12:28:07	@meskarune	like downloading the data or whatever
+12:29:00	@meskarune	ok, so we will revamp social media, get some image fliers made and interact more off irc
+12:32:15	@meskarune	and for mentorship... maybe we are making it too complicated and can just have an email and mailling list thread
+12:33:17	ng0	maybe
+12:35:32	ng0	I haven't been on the website for some time. Getting into a mode where my own experience doesn't count: I get stuck here https://archwomen.org/wiki/projects:mentorship:start
+12:35:34	phrik	Title: Mentorship Program [Arch Women Wiki] (at archwomen.org)
+12:35:55	@meskarune	that is basically what we have
+12:36:00	ng0	the page wants me to register an account. that's sometimes too much for most people.
+12:36:08	@meskarune	there is a private page with mentor contact info listed
+12:36:17	@meskarune	and someone contacts us and we talk with them and match tehm up
+12:36:24	@meskarune	this was to proetect the privacy of peopel who are mentors
+12:36:48	@meskarune	if you list people publicly they can be abused by trolls
+12:37:29	@meskarune	oh shit I forgot an announcement
+12:37:33	ng0	do you have the possibility to set up email accounts for people @ archwomen.org ? this could be used in combination with the mailinglist, where the mailinglist could have no public archive and could be posted to with these addresses.
+12:38:12	ng0	I mean on the mentor side
+12:38:23	ng0	the people seeking mentors could just use their email
+12:38:37	@meskarune	I mean, we could do that, or have some self hosted social media thing, or use the mailing list
+12:39:09	@meskarune	right now, people who volunteered to be mentors are on a private list on the wiki, and people who want a mentor contact me or polyzen/dmc
+12:39:30	ng0	self hosted social media thing?
+12:39:30	@meskarune	and we can interview them a bit and match them and the mentor/mentee can decide how to talk with each other
+12:39:50	@meskarune	ng0: like diaspora, or a forum idk
+12:40:01	@meskarune	I don't think that is popular though and I don't think it would be used much
+12:40:09	@meskarune	people probably prefer to talk through stuff they already use
+12:40:15	ng0	forums: definitley not
+12:40:45	@meskarune	but anyways, the other announcement I forgot
+12:40:53	@meskarune	I added some additions to the irc rules
+12:40:57	ng0	mastodon: resource heavy, can be controlled where to federate etc, same for GNUsocial (to some extent, I'm using GNUsocial because of the Nodejs in mastodon)
+12:41:10	@meskarune	asking people to not discuss self harm and added resources where they can get help
+12:41:16	@meskarune	idk if anyone is taking notes
+12:41:33	@meskarune	ng0: yeah, or we could just have prosody (xmpp)
+12:41:37	+tigrmesh	meskarune: would that go under community?
+12:41:53	@meskarune	tigrmesh: irc rules change is just an announcement
+12:42:00	@meskarune	unless people wanna discuss it
+12:42:26	j605	does discussion imply posts about said topics as well?
+12:42:38	@meskarune	the intention is that someone talking about harming themselves can trigger others to self harm, so its better if they go to spaces that can properly help them
+12:42:43	+tigrmesh	i was scrolled down
+12:43:06	@meskarune	j605: it means someone talking about killing themselves or cutting, etc
+12:43:38	HER0_01	Wait, what would an xmpp server be used for?
+12:43:54	@meskarune	HER0_01: mentors and mentees chatting with each other
+12:44:05	ng0	meskarune: in my experience most people would be more comfortable with webbrowser based things. fwiw it could be an self-hosted psyced. but with the amount of people already (currently) on Mastodon+rest of social media federation (1+ million iirc) this could be looked into
+12:44:07	@meskarune	and being able to sepperate themselves from other online accounts
+12:44:17	ng0	ah, ok
+12:44:25	HER0_01	Could use Matrix!
+12:44:58	@meskarune	HER0_01: yeah, my first thought was to just have people sign up for mentoring via email and then people can decide how to talk with each other
+12:45:04	@meskarune	over whatever medium
+12:45:29	@meskarune	everything else I have thought of seems more complicated and possibly things people won't use
+12:45:48	j605	ng0: with pidgin, xmpp shouldn't be an issue but you are right
+12:46:47	@meskarune	with the mailing list, people could just send an email with "mentor request"
+12:46:53	@meskarune	and like, everyone has email
+12:47:04	@meskarune	and we can connect folks and then they can decide what venue to use
+12:47:44	m1n	slack?
+12:48:02	@meskarune	anything really, they just have to decide between themeslves
+12:48:18	@meskarune	I used tox lol
+12:48:22	@meskarune	encrypted chat
+12:48:30	@meskarune	I was mentoring a few people
+12:52:11	@meskarune	ok, for mentoring
+12:52:23	@meskarune	for now, lets have people contact via email and mailing list
+12:52:29	@meskarune	and/or irc
+12:52:42	@meskarune	and go from there and we can do more if there is a demand
+12:53:49	@meskarune	brb gotta take my dog out
+12:54:49	fsckd	well, now we know who let the dogs out :P
+12:55:23	m1n	the cake is a lie
+12:57:47	HER0_01	I feel like I should clarify, after all this: while I would prefer Matrix over most IM solutions, that was more joking around. Nothing needs to be hosted for this and we don't need to mandate any specific communication method.
+12:58:08	@meskarune	haha ok :)
+12:58:39	@meskarune	ok I think I am losing my spot in the agenda
+12:58:50	@meskarune	we are on projects and year goals
+12:59:07	+tigrmesh	yeah
+12:59:26	@meskarune	so I think we have a decision for mentoring, and a plan to increase social media presence and make fliers to help get the word out and recruit folks
+12:59:42	@meskarune	I want to see more blog posts happen
+12:59:44	@meskarune	so next
+12:59:46	@meskarune	office hours
+12:59:55	@meskarune	I am thinking maybe wednesday evenings
+13:00:57	+tigrmesh	EST?
+13:01:54	@meskarune	yeah
+13:02:05	@meskarune	maybe like, 5-8pm
+13:03:49	@meskarune	does that work with other people's schedules?
+13:03:57	@meskarune	I will try and be there around that time
+13:05:06	+tigrmesh	what time is that UTC?"
+13:05:57	+tigrmesh	i'm trying to do the notes
+13:07:09	ng0	https://www.worldtimebuddy.com/est-to-utc-converter
+13:07:11	phrik	Title: EST to UTC Converter - Convert Eastern Time to Universal Time - World Time Buddy (at www.worldtimebuddy.com)
+13:08:16	@meskarune	date --date='TZ="UTC" 05:00 next Wed'
+13:08:31	@meskarune	says 00:00:00
+13:08:37	@meskarune	o_O
+13:08:58	+tigrmesh	thank you ng0 
+13:09:49	+tigrmesh	what's the social media plan?  using mastodon?
+13:10:16	@meskarune	yeah, and the mastodon posts can be forwarded to twitter
+13:10:49	j605	meskarune: didn't you say 5pm, is 5:00 taken as 17:00?
+13:10:56	ng0	though it'll depend on the instance you choose. some have twitter deactivated
+13:11:10	@meskarune	j605: idk, I can't load websites so I got that command from the man page for date
+13:12:24	j605	date --date='TZ="EST" 17:00 next Wed'
+13:12:33	j605	> Wed Jan 17 23:00:00 CET 2018
+13:12:48	+tigrmesh	how does this sound?  "social media plan - use mastodon, possibly forward posts to twitter. also create flyers to take to cons" 
+13:14:14	ng0	ok
+13:14:17	@meskarune	yes, sounds good
+13:14:24	@meskarune	maybe also reddit posts
+13:14:34	@meskarune	but I mostly post to r/archlinux
+13:16:56	+tigrmesh	k
+13:17:32	@meskarune	next up is wiki contribution day, and maybe we could do some bug days too, or try and get arch linux bug days revived
+13:18:57	fsckd	tigrmesh: date -u -d '17:00 EST'
+13:18:58	+tigrmesh	do you want to pick a day?
+13:19:26	+tigrmesh	fsckd: thanks  :)
+13:21:48	fsckd	-d is very powerful. it takes your normal date and time strings. -u makes the output in UTC. those are literally the only two options of the date command i have remembered.
+13:23:32	@meskarune	tigrmesh: I think first I want to get suggestions for articles we could adopt to work on for a day
+13:23:39	+tigrmesh	ok
+13:23:45	@meskarune	I would like to focus on software that increases accessibility
+13:23:53	@meskarune	but I'm open to other ideas too
+13:26:05	@meskarune	but maybe we can have a mailing list thread asking for ideas, or make a gist or something
+13:27:25	+tigrmesh	software that increases accessibility sounds good to me
+13:28:15	+tigrmesh	putting it off to a mailing list thread just postpones it
+13:28:34	+tigrmesh	maybe people will come up with more ideas as we work on this one
+13:28:38	@meskarune	well I think we need to pick one specific article on the wiki
+13:28:47	@meskarune	and do that for a one day event
+13:28:51	j605	is anyone using such software in the group? I've seen posts from https://wiki.archlinux.org/index.php/TalkingArch which seems to be doing well
+13:28:52	phrik	Title: TalkingArch - ArchWiki (at wiki.archlinux.org)
+13:29:41	@meskarune	I use text to speech on arch, but I use speech to text on android because I coudn't find a good solution for arch
+13:30:08	@meskarune	I also like using dark themes with lower contrast
+13:30:26	@meskarune	so it doesn't hurt my eyes
+13:30:42	@meskarune	so having some suggestions for high contrast and low contrast themes would be helpful
+13:31:47	HER0_01	Are you looking for suggestions now or are you just thinking of what could be done on the wiki?
+13:32:03	@meskarune	if you have a good suggestion feel free to share now :)
+13:32:29	@meskarune	HER0_01: I want to have AW adopt a page to work on for a day
+13:32:38	@meskarune	and I was thinking one related to accessibility
+13:32:58	HER0_01	Right, I understood that.
+13:33:28	@meskarune	so I want to get a list of candidates together, and we can either do it now, or make a crypto pad or something or mailing list thread
+13:33:46	j605	meskarune: https://wiki.archlinux.org/index.php/Speech_recognition
+13:33:46	phrik	Title: Speech recognition - ArchWiki (at wiki.archlinux.org)
+13:33:59	HER0_01	Adwaita-dark is pretty easy on the eyes, for me. Fairly neutral.
+13:34:05	@meskarune	yeah, I think that page is pretty messy and needs help j605
+13:34:26	@meskarune	HER0_01: I use that and also equilux
+13:34:42	@meskarune	but def +1 on adwaita-dark as a suggestion for vision impairment
+13:36:25	HER0_01	Equilux definitely looks lower contrast and more neutral.
+13:37:28	@meskarune	its on my back burner to make an adwaita-dark based theme in all greys
+13:44:38	@meskarune	ok, well we can have the speech recogniztion article on the short list and see how it goes
+13:44:46	@meskarune	maybe we can do a wiki edit day in like 2 months
+13:45:08	demize	It would be neat to have an accessibility team that would be responsible for curating things related to accessibility.
+13:45:17	demize	And help out with things like the TalkingArch project and similar.
+13:45:27	fsckd	i am for that
+13:46:27	@meskarune	that would be amazing
+13:46:33	j605	I am amazed how they say even the installer talks to you
+13:49:20	@meskarune	I need to try it out sometime
+13:51:08	+tigrmesh	this is what i put in the notes:
+13:51:12	+tigrmesh	 * Page suggestion: speach recognition software.  date in a couple of months
+13:51:14	+tigrmesh	 * Maybe make a crypto pad or mailing list thread for other suggestions
+13:51:55	@meskarune	ok sounds good
+13:52:14	@meskarune	demize: honestly having a text based installer has a lot of advantages in terms of accessibility heh
+13:52:50	demize	Definitely, and I've met a couple of blind people using Arch on IRC.  Were some interesting conversations.
+13:54:36	@meskarune	thats really awesome :D
+13:54:54	@meskarune	its also useful for people who have issues using a mouse
+13:55:20	@meskarune	text is so much more explicit and you don't need to have the coordination to click on small buttons
+13:55:40	j605	would also be nice to explore which DE/WM is most accessible
+13:56:11	@meskarune	I think that might depend on the disability :)
+13:56:39	@meskarune	my knee jerk reaction is kde and gnome, but in my case I like tiling wm more
+13:56:44	@meskarune	so I can use the mouse less
+13:59:00	j605	a survey would be nice to have :)
+13:59:02	@meskarune	with arch though, if you know what packages to install, you can easily customize to your own needs
+13:59:41	@meskarune	j605: yeah :D
+13:59:51	@meskarune	I wonder where would you even ask though?
+13:59:55	fsckd	the thing is to have options. different disabilities cause different issues.
+14:00:01	@meskarune	there isn't really a linux/foss group to go to
+14:00:06	fsckd	s/disabilities/conditions/
+14:02:06	@meskarune	yeah, but it might be nice to be able to give recomendations like "for X the blah dm has lots of tools"
+14:02:25	fsckd	like there are people who need lower contrast to reduce eye strain. and then there are people who need higher contrast to be able to make things out. catering to only one excludes the other.
+14:02:36	j605	ubuntu, https://help.ubuntu.com/stable/ubuntu-help/a11y.html
+14:02:38	phrik	Title: Universal access (at help.ubuntu.com)
+14:02:53	@meskarune	thanks
+14:03:15	demize	That's a neat page
+14:05:00	@meskarune	well maybe we can have an "accessibility" wiki page/category and work on filling that out
+14:05:12	@meskarune	I'm sure that is enough work for a day
+14:06:22	j605	yeah, the ubuntu one is specific to gnome/unity but we can give pointers as to how to achieve those objectives in a few situations
+14:06:47	@meskarune	yeah, sounds good to me :D
+14:07:00	@meskarune	so maybe we can just go with that? and pick a date if ya'll want
+14:07:29	@meskarune	demize: so what would be required for starting an accessibility team?
+14:07:35	@meskarune	how did security start?
+14:07:57	demize	A group of people going together and doing things, and then eventually there were a bunch of TUs on there so it became "official" ? :p
+14:08:30	+tigrmesh	eventually they became TUs
+14:09:13	@meskarune	haha
+14:11:19	@meskarune	ok, are we dont with project stuff on teh agenda?
+14:11:47	@meskarune	I could move to community things and final comments
+14:12:34	@meskarune	one idea was making recordings for vox forge, but if we do the wiki contribution thing then maybe that can be done at a later time
+14:12:47	+tigrmesh	what is vox forge
+14:12:49	+tigrmesh	?
+14:12:59	@meskarune	voxforge is a project that is trying to create an open and free to use language repo for speech recogniztion
+14:13:14	@meskarune	think dragon naturally speaking or google's speech recognition but open source
+14:13:26	@meskarune	for stuff like that to work, they need a bunch of speech samples
+14:13:42	@meskarune	then those smaples are analyzed and used to do speech to text
+14:13:56	+tigrmesh	i see
+14:15:43	j605	now mozilla has a speech recognition system with crowd sourced samples
+14:15:58	j605	I gave away few sentences :)
+14:16:29	@meskarune	having foss speech recogonition woudl actually greatly reduce the costs on people who would need that stuff
+14:16:37	@meskarune	right now it can get pretty expensive
+14:18:00	j605	https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset/
+14:18:01	phrik	Title: Announcing the Initial Release of Mozilla’s Open Source Speech Recognition Model and Voice Dataset - The Mozilla Blog (at blog.mozilla.org)
+14:19:23	@meskarune	sweet
+14:19:44	@meskarune	so maybe some time in the future we can contribute to something like that
+14:20:02	@meskarune	but for now lets focus on mentoring and wiki editing day
+14:20:15	@meskarune	ok, any other comments/requests/suggestions ?
+14:20:55	fsckd	allan was part of the security thing from the start
+14:24:45	@meskarune	Ok, I think we can end the meeting :)
+14:24:50	@meskarune	tigrmesh: is that ok?
+14:24:54	+tigrmesh	sure
+14:25:51	+tigrmesh	lactose: ping
+14:26:17	+tigrmesh	====  meeting end  ====
